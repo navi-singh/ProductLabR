@@ -1,4 +1,5 @@
-import {reviews} from '@/lib/Reviews'
+import {reviews} from '@/lib/Reviews';
+
 export const Top10Popular = () => {
     return (
       <div>
