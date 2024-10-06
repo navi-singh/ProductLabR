@@ -1,8 +1,4 @@
-import { Header } from '@/components/Header';
-import { ReviewsList } from '@/components/PostsList';
-import { Newsletter } from '@/components/Newsletter';
 import { Top10Popular } from '@/components/Top10Popular';
-import { Footer } from '@/components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
 

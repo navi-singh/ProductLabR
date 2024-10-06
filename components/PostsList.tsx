@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import { Posts } from '@/lib/Posts';
-import { truncateText } from '@/lib/textUtil';
 import { Card } from './card';
 import { Post } from './ui/Post';
 
