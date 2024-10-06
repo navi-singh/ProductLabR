@@ -1,14 +1,14 @@
-import { reviews } from '@/lib/Reviews';
+import { Posts } from '@/lib/Posts';
 
 export const Top10Popular = () => {
   return (
     <div>
       <h3 className="mb-4 text-xl font-bold">TOP 10 Popular</h3>
       <ul className="space-y-4">
-        {reviews.slice(0, 5).map((review, index) => (
+        {Object.entries(Posts).map(([id, post], index) => (
           <li key={index} className="flex items-start space-x-2">
             <span className="text-2xl font-bold text-gray-300">{index + 1}</span>
-            <p className="font-medium">{review.title}</p>
+            <p className="font-medium">{post.title}</p>
           </li>
         ))}
       </ul>
