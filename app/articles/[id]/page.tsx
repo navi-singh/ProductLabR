@@ -2,7 +2,11 @@ import { Top10Popular } from '@/components/Top10Popular';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function Home() {
+export function generateStaticParams() {
+  return [{ id: 'test' }];
+}
+
+export default async function Page(props: any) {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="container mx-auto flex-grow px-4 py-8">
@@ -12,7 +16,7 @@ export default function Home() {
               <article className="md:w-2/3 md:pr-8">
                 <nav className="mb-4 text-sm">
                   <Link href="/">Home</Link> &gt; <Link href="/outdoor">Outdoor</Link> &gt;{' '}
-                  <Link href="/hunt-fish">Hunt & Fish</Link>
+                  <Link href="/hunt-fish">Hunt & Fish {props.params}</Link>
                 </nav>
                 <h1 className="mb-4 text-4xl font-bold">
                   Field to Fire: Exploring Wild Game Cooking With Andrew Zimmern
