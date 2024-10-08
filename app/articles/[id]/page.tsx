@@ -1,9 +1,8 @@
-
 import { Top10Popular } from '@/components/Top10Popular';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function Home(id: string) {
+export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="container mx-auto flex-grow px-4 py-8">
@@ -34,9 +33,9 @@ export default function Home(id: string) {
                   className="mb-4"
                 />
                 <p className="mb-4">
-                  A new cooking show has found its way onto the Outdoor Channel, and it's hot and
-                  wild. Field to Fire will showcase what it really looks like to harvest your own
-                  game and prepare it over an open flame.
+                  A new cooking show has found its way onto the Outdoor Channel, and it&apos;s hot
+                  and wild. Field to Fire will showcase what it really looks like to harvest your
+                  own game and prepare it over an open flame.
                 </p>
                 <p>
                   Andrew Zimmern, a lifelong outdoorsman and chef, is heading back into the wild to
