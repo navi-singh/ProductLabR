@@ -12,7 +12,7 @@ export default function Home() {
           <aside className="space-y-8">
             <Newsletter />
             <Link href="/review" className="cursor-pointer text-blue-500 hover:text-blue-700">
-              Click here to review McDonald's
+              Click here to review McDonald&apos;s
             </Link>
             <Top10Popular />
           </aside>
