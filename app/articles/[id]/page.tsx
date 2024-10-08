@@ -5,8 +5,13 @@ import Image from 'next/image';
 export function generateStaticParams() {
   return [{ id: 'test' }];
 }
+interface PageProps {
+  params: {
+    id: string;
+  };
+}
 
-export default async function Page(props: any) {
+export default async function Page(props: PageProps) {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="container mx-auto flex-grow px-4 py-8">
@@ -16,7 +21,7 @@ export default async function Page(props: any) {
               <article className="md:w-2/3 md:pr-8">
                 <nav className="mb-4 text-sm">
                   <Link href="/">Home</Link> &gt; <Link href="/outdoor">Outdoor</Link> &gt;{' '}
-                  <Link href="/hunt-fish">Hunt & Fish {props.params}</Link>
+                  <Link href="/hunt-fish">Hunt & Fish {props.params.id}</Link>
                 </nav>
                 <h1 className="mb-4 text-4xl font-bold">
                   Field to Fire: Exploring Wild Game Cooking With Andrew Zimmern
