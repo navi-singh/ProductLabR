@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import { truncateText } from '@/lib/textUtil';
 import { Post } from './ui/Post';
-
+/**
+Card to display a title and small info about the article
+*/
 export const Card = ({ post }: { post: Post }) => {
   return (
     <div>
