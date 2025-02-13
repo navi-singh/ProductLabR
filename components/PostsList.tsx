@@ -1,8 +1,14 @@
-import { Posts } from '@/lib/Posts';
 import { Card } from './card';
-import { Post } from './ui/Post';
+import getPostMetadata from './getPostMetadata';
 
 export const PostsList = () => {
+  const postMetadata = getPostMetadata();
+  const postPreviews = postMetadata.map((post) => (
+    <div>
+        <Card key={post.slug} post={post} />
+    </div>
+  ));
+
   return (
     <div className="md:col-span-2">
       <h2 className="mb-4 text-4xl font-bold">Articles</h2>
@@ -10,9 +16,7 @@ export const PostsList = () => {
         Read our objective tests and assessments of the latest products.
       </p>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-        {Object.entries(Posts).map(([id, post]: [string, Post]) => (
-          <Card key={id} post={post} />
-        ))}
+          {postPreviews}
       </div>
     </div>
   );
