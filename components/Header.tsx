@@ -1,6 +1,5 @@
 import { Menu, Search } from 'lucide-react';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 
 export const Header = () => {
   return (
@@ -27,9 +26,7 @@ export const Header = () => {
           ))}
         </nav>
         <div className="flex items-center space-x-4">
-          <Button variant="default" className="bg-orange-500 hover:bg-orange-600">
-            SUBSCRIBE
-          </Button>
+
           <Search className="h-6 w-6" />
         </div>
       </div>
