@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { truncateText } from '@/lib/textUtil';
 
 import Link from 'next/link';
