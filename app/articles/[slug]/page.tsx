@@ -3,6 +3,7 @@ import getPostMetadata from '@/components/getPostMetadata';
 import matter from "gray-matter";
 import Markdown from 'markdown-to-jsx';
 
+
 const getPostContent = (slug: string) => {
   const folder = "posts/";
   const file = `${folder}${slug}.md`;
@@ -15,15 +16,19 @@ export const generateStaticParams = async () => {
   const posts = getPostMetadata();
   return posts.map((post) => ({
     slug: post.slug,
-  }));
+  })); 
+};
+
+type PropType = {
+  params: { slug: string }; 
 };
 
 
-export default async function Page(props: any) {
-  const slug = props.params.slug;
+export default async function Page({params}: PropType) {
+  const {slug} = params;
   const post = getPostContent(slug);
   return (
-    <article className="prose my-12 w-full md:w-4/5 mx-auto">
+    <article className="prose-lg my-12 w-full md:w-4/5 mx-auto">
       <Markdown>{post.content}</Markdown>
     </article>
   

@@ -15,7 +15,7 @@ export const PostsList = () => {
       <p className="mb-8 text-gray-600">
         Read our objective tests and assessments of the latest products.
       </p>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-4 xl:grid-cols-2">
           {postPreviews}
       </div>
     </div>

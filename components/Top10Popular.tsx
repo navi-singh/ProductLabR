@@ -9,7 +9,6 @@ export const Top10Popular = () => {
           <li key={index} className="flex items-start space-x-2">
             <span className="text-2xl font-bold text-gray-300">{index + 1}</span>
             <p className="font-medium">{post.title}</p>
-            <p className="font-medium">{id}</p>
           </li>
         ))}
       </ul>
