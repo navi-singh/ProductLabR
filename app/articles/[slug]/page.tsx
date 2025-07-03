@@ -61,34 +61,61 @@ export default function ArticlePage({
       <aside className="mb-8 bg-white border-2 border-gray-200 rounded-2xl p-6 shadow-lg">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Product Details */}
-          <div className="w-full space-y-6">
-            {/* Product Title & Rating */}
-            <div>
-              {/* <h3 className="text-2xl font-bold text-gray-900 mb-2">{metadata.title}</h3> */}
+          <div className="w-full space-y-8">
+            {/* Product Rating */}
+            <div className="text-center bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
+              
               {metadata.rating && (
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="flex items-center">
-                    <span className="text-gray-600 ml-1 text-3xl font-bold">Product Lab Rating:</span>
-                    <span className="text-3xl font-bold text-blue-600">{metadata.rating}/5</span>
-                    {/* <span className="text-gray-600 ml-1">/5</span> */}
+                <div className="flex flex-wrap items-center justify-center gap-3 md:gap-6">
+                  {/* Rating Badge */}
+                  <div className="inline-flex items-center bg-blue-600 text-white rounded-full px-4 py-2 font-semibold text-sm md:text-base">
+                    <span>Product Lab Rating</span>
                   </div>
-                    <div className="flex text-yellow-400">
+                  
+                  {/* Star Rating Display */}
+                  <div className="flex items-center gap-1">
                     {Array.from({ length: 5 }).map((_, i) => {
-                      const starValue = (metadata.rating || 0) / 2;
-                      if (i < Math.floor(starValue)) {
-                      return <span key={i}>★</span>;
-                      } else if (i === Math.floor(starValue) && starValue % 1 >= 0.5) {
+                      const starValue = (metadata.rating || 0);
+                      const isFilled = i < Math.floor(starValue);
+                      const isHalfFilled = i === Math.floor(starValue) && starValue % 1 >= 0.5;
+                      
                       return (
-                        <span key={i} className="relative">
-                        <span className="absolute left-0 overflow-hidden" style={{ width: '50%' }}>★</span>
-                        <span className="opacity-30">★</span>
-                        </span>
+                        <div key={i} className="relative text-xl md:text-2xl">
+                          {isFilled ? (
+                            <span className="text-yellow-400">★</span>
+                          ) : isHalfFilled ? (
+                            <>
+                              <span className="text-gray-300">★</span>
+                              <span 
+                                className="absolute left-0 top-0 text-yellow-400 overflow-hidden" 
+                                style={{ width: '50%' }}
+                              >
+                                ★
+                              </span>
+                            </>
+                          ) : (
+                            <span className="text-gray-300">★</span>
+                          )}
+                        </div>
                       );
-                      } else {
-                      return <span key={i} className="opacity-30">★</span>;
-                      }
                     })}
-                    </div>
+                    <span className="ml-2 text-sm text-gray-600 font-medium">
+                      ({metadata.rating}/5)
+                    </span>
+                  </div>
+                  
+                  {/* Rating Description */}
+                  <div className="text-sm md:text-base">
+                    {metadata.rating >= 4.5 ? (
+                      <span className="text-green-600 font-semibold">★ Exceptional Product</span>
+                    ) : metadata.rating >= 4 ? (
+                      <span className="text-blue-600 font-semibold">⭐ Highly Recommended</span>
+                    ) : metadata.rating >= 3 ? (
+                      <span className="text-orange-600 font-semibold">👍 Good Choice</span>
+                    ) : (
+                      <span className="text-red-600 font-semibold">⚠️ Consider Alternatives</span>
+                    )}
+                  </div>
                 </div>
               )}
             </div>
