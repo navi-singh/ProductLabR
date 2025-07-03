@@ -2,6 +2,7 @@
 title: "Lumix S5 II: The Hybrid Powerhouse for Photographers and Videographers"
 subtitle: "Looking for a camera that excels in both photography and videography?"
 date: "2024-12-27"
+image: "/images/posts/lumix_s5ii.webp"
 ---
 # Lumix S5 II: The Hybrid Powerhouse for Photographers and Videographers
 
