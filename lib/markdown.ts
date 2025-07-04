@@ -13,11 +13,20 @@ export function processMarkdownContent(content: string): string {
     
     // Add Tailwind classes to the generated HTML
     let styledHtml = html as string;
-    
-    // Style headings
-    styledHtml = styledHtml.replace(/<h1>/g, '<h1 class="text-3xl font-bold mb-6 mt-10">');
-    styledHtml = styledHtml.replace(/<h2>/g, '<h2 class="text-2xl font-bold mb-4 mt-8">');
-    styledHtml = styledHtml.replace(/<h3>/g, '<h3 class="text-xl font-semibold mb-3 mt-6">');
+
+    // Style headings with a 2px border on the heading and background only behind the text
+    styledHtml = styledHtml.replace(
+      /<h1>(.*?)<\/h1>/g,
+      '<div class="mb-8 mt-12"><h1 class="text-2xl font-bold uppercase tracking-wider w-full inline-block" style="border-bottom:2px solid #007ACC;letter-spacing:0.08em;"><span style="background-color:#007ACC;color:#fff;padding:0.5rem 1.5rem;border-radius:0.2rem;">$1</span></h1></div>'
+    );
+    styledHtml = styledHtml.replace(
+      /<h2>(.*?)<\/h2>/g,
+      '<div class="mb-6 mt-10"><h2 class="text-xl font-bold uppercase tracking-wide w-full inline-block" style="border-bottom:2px solid #007ACC;letter-spacing:0.07em;"><span style="background-color:#007ACC;color:#fff;padding:0.25rem 1.25rem;border-radius:0.2rem;">$1</span></h2></div>'
+    );
+    styledHtml = styledHtml.replace(
+      /<h3>(.*?)<\/h3>/g,
+      '<div class="mb-4 mt-8"><h3 class="text-lg font-semibold uppercase tracking-wide w-full inline-block" style="border-bottom:2px solid #007ACC;letter-spacing:0.06em;"><span style="background-color:#007ACC;color:#fff;padding:0.25rem 1rem;border-radius:0.2rem;">$1</span></h3></div>'
+    );
     styledHtml = styledHtml.replace(/<h4>/g, '<h4 class="text-lg font-semibold mb-2 mt-4">');
     
     // Style paragraphs
@@ -29,7 +38,7 @@ export function processMarkdownContent(content: string): string {
     styledHtml = styledHtml.replace(/<li>/g, '<li class="mb-2">');
     
     // Style links
-    styledHtml = styledHtml.replace(/<a /g, '<a class="text-blue-600 hover:underline" ');
+    styledHtml = styledHtml.replace(/<a /g, '<a class="text-trustworthy hover:underline" ');
     
     // Style emphasis
     styledHtml = styledHtml.replace(/<strong>/g, '<strong class="font-bold">');

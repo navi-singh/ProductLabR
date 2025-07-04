@@ -29,8 +29,6 @@ cons:
 authorBio: "Anthony Sculimbrene has been writing about knives and other everyday carry gear for more than a decade. He has written for numerous digital and print sources in those years. He has also cultivated relationships with people throughout the gear world both through his reviews and his work on knife laws. He enjoys reveling in the details of good design and the history of gear. Sculimbrene is a lawyer and legal consultant for AKTI (American Knife and Tool Institute), an industry advocacy and trade group that is working to reform knife laws around the United States."
 ---
 
-# A Perfect 10: Anso of Denmark 'Aros' Review
-
 ## Introduction
 
 Jens Anso is one of the few eponymous knife designers in the world — and for good reason. Anso designs are immediately recognizable, often quirky, and incredibly well designed.

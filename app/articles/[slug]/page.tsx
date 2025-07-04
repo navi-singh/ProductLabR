@@ -60,17 +60,17 @@ return (
       )}
 
       {/* Product Info Box */}
-      <aside className="mb-8 bg-white border-2 border-gray-200 rounded-2xl p-6 shadow-lg">
+      <aside className="mb-8 bg-white border-2 border-trustworthy/20 rounded-2xl p-6 shadow-lg">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Product Details */}
           <div className="w-full space-y-8">
             {/* Product Rating */}
-            <div className="text-center bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
+            <div className="text-center bg-gradient-to-r from-trustworthy/10 to-trustworthy/30 rounded-xl p-6 border border-trustworthy/20">
               
               {metadata.rating && (
                 <div className="flex flex-wrap items-center justify-center gap-3 md:gap-6">
                   {/* Rating Badge */}
-                  <div className="inline-flex items-center bg-blue-600 text-white rounded-full px-4 py-2 font-semibold text-sm md:text-base">
+                  <div className="inline-flex items-center bg-trustworthy text-white rounded-full px-4 py-2 font-semibold text-sm md:text-base">
                     <span>Product Lab Rating</span>
                   </div>
                   
@@ -111,7 +111,7 @@ return (
                     {metadata.rating >= 4.5 ? (
                       <span className="text-green-600 font-semibold">★ Exceptional Product</span>
                     ) : metadata.rating >= 4 ? (
-                      <span className="text-blue-600 font-semibold">⭐ Highly Recommended</span>
+                      <span className="text-trustworthy font-semibold">⭐ Highly Recommended</span>
                     ) : metadata.rating >= 3 ? (
                       <span className="text-orange-600 font-semibold">👍 Good Choice</span>
                     ) : (
@@ -124,13 +124,13 @@ return (
 
             {/* Price & Buy Button */}
             {metadata.price && (
-              <div className="bg-blue-50 rounded-xl p-4">
+              <div className="bg-trustworthy/10 rounded-xl p-4">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm text-gray-600">Price</p>
-                    <p className="text-2xl font-bold text-blue-600">{metadata.price}</p>
+                    <p className="text-2xl font-bold text-trustworthy">{metadata.price}</p>
                   </div>
-                  <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  <button className="bg-trustworthy hover:bg-trustworthy/80 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                     VIEW PRODUCT
                   </button>
                 </div>

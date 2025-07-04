@@ -27,7 +27,6 @@ cons:
   - "No Expandable Battery – Unlike some competitors, additional batteries can’t be added."
   - "Premium Pricing – Higher cost compared to similar-capacity units."
 ---
-# BLUETTI AC180: Power Your Adventures with Reliable Energy
 
 ## Introduction
 
