@@ -13,4 +13,9 @@ export interface PostMetadata {
     authorBio?: string;
     price?: string;
     rating?: number;
+    ratingBreakdown?: {
+      overallScore?: number;
+      overallRank?: string;
+      metrics: { name: string; score: number }[];
+    };
   }

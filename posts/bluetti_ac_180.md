@@ -2,8 +2,20 @@
 title: "BLUETTI AC180: Power Your Adventures with Reliable Energy"
 subtitle: "Game-changing portable power station designed for versatility, efficiency, and reliability"
 date: "2024-12-27"
+image: "/images/posts/bluetti_ac180/AC180_main.webp"
 productImage: "/images/posts/bluetti_ac180/AC180_main.webp"
-rating: 3.5
+ratingBreakdown:
+  metrics:
+    - name: "Performance"
+      score: 8.4
+    - name: "Build quality"
+      score: 9
+    - name: "Technology"
+      score: 7
+    - name: "Weight"
+      score: 7.5
+    - name: "Construction Quality"
+      score: 8.5
 specs:
   Battery Capacity: "1,152Wh"
   Inverter Power: "1,800W (Surge 2,700W)"
@@ -19,13 +31,14 @@ pros:
   - "High Power Output – Can handle most household and outdoor appliances."
   - "Fast Charging – Quick recharge times via AC or solar."
   - "UPS Functionality – Ideal for critical power backup."
-  - "Compact & Lightweight – Easy to carry and store."
+  - "Compact – Easy to carry and store."
   - "Multiple Charging Options – AC, solar, car, and generator compatibility."
   - "User-Friendly Interface – Clear LCD display and labeled ports."
 cons:
   - "Limited AC Ports – Only two AC outlets, which may require a power strip."
   - "No Expandable Battery – Unlike some competitors, additional batteries can’t be added."
   - "Premium Pricing – Higher cost compared to similar-capacity units."
+  - "On heavier side when compare to Ecoflow equivalent."
 ---
 
 ## Introduction
@@ -92,6 +105,7 @@ The **BLUETTI AC180** is a **top-tier portable power station** that excels in pe
 **Who Might Look Elsewhere?**
 ❌ Users needing an **expandable battery system**.
 ❌ Those requiring **more AC ports**.
+❌ Not the **lightest** in the competition
 
 ## Conclusion
 

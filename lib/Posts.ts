@@ -25,6 +25,7 @@ export function getPostBySlug(slug: string): { metadata: PostMetadata; content: 
       authorBio: matterResult.data.authorBio,
       price: matterResult.data.price,
       rating: matterResult.data.rating,
+      ratingBreakdown: matterResult.data.ratingBreakdown,
     };
 
     return {
