@@ -29,8 +29,8 @@ export default function ArticlePage({
     day: 'numeric',
   });
 
-  return (
-    <main className="max-w-3xl mx-auto px-4 py-8">
+return (
+    <main className="w-full md:w-3/4 ml-0 md:ml-8 px-4 py-8">
       {/* Hero Section */}
       <header className="mb-8">
         <h1 className="text-3xl md:text-4xl font-bold mb-2 leading-tight">{metadata.title}</h1>
@@ -46,12 +46,14 @@ export default function ArticlePage({
       {/* Product Image */}
       {metadata.productImage && (
         <div className="mb-4">
-          <div className="relative aspect-square w-full max-w-md mx-auto bg-gray-50 rounded-xl overflow-hidden">
+          <div className="relative w-full aspect-[2/1] bg-gray-50 rounded-xl overflow-hidden">
             <Image
               src={metadata.productImage}
               alt={metadata.title}
               fill
-              className="object-contain p-2"
+              className="object-cover w-full h-full"
+              sizes="100vw"
+              priority
             />
           </div>
         </div>
@@ -194,7 +196,7 @@ export default function ArticlePage({
       {/* Main Review Content */}
       <article className="prose prose-lg max-w-none mb-8">
         <div 
-          className="text-gray-700 leading-relaxed"
+          className="text-gray-700 leading-relaxed prose-img:mx-auto prose-img:max-w-xl prose-img:rounded-xl"
           dangerouslySetInnerHTML={{ __html: processMarkdownContent(content) }}
         />
       </article>

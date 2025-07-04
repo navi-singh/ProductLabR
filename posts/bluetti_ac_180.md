@@ -2,7 +2,7 @@
 title: "BLUETTI AC180: Power Your Adventures with Reliable Energy"
 subtitle: "Game-changing portable power station designed for versatility, efficiency, and reliability"
 date: "2024-12-27"
-productImage: "/images/posts/ac180.jpg"
+productImage: "/images/posts/bluetti_ac180/AC180_main.webp"
 rating: 3.5
 specs:
   Battery Capacity: "1,152Wh"
@@ -17,7 +17,7 @@ specs:
   UPS Mode: "Yes"
 pros:
   - "High Power Output – Can handle most household and outdoor appliances."
-  - "Fast Chargin* – Quick recharge times via AC or solar."
+  - "Fast Charging – Quick recharge times via AC or solar."
   - "UPS Functionality – Ideal for critical power backup."
   - "Compact & Lightweight – Easy to carry and store."
   - "Multiple Charging Options – AC, solar, car, and generator compatibility."
@@ -51,7 +51,7 @@ The **BLUETTI AC180** is a portable power station that bridges the gap between c
 ## Design and Build Quality
 
 The **BLUETTI AC180** is designed for both portability and durability. It features a sturdy casing with reinforced corners, ensuring protection against minor impacts and wear. The handle is ergonomically designed for comfortable carrying, and its compact dimensions make it convenient to store in an RV, car trunk, or home.
-
+![BLUETTI AC180 build quality View](/images/posts/bluetti_ac180/AC180_1.jpg)
 The LCD display provides real-time data on battery status, input/output power, and remaining runtime, making it easy to monitor energy consumption. The interface is intuitive, with clearly labeled buttons and ports, ensuring a seamless user experience.
 
 ## Performance and Usability
@@ -62,6 +62,7 @@ In real-world testing, the **BLUETTI AC180** performed exceptionally well across
 - **Worksite Support:** Handled power tools like drills and saws without performance drops.
 
 The fast-charging feature was a game changer. Plugging it into an AC outlet replenished the battery from 0% to 80% in just 45 minutes. Additionally, with a 500W solar panel, it reached full charge in about 3-4 hours under direct sunlight.
+![BLUETTI AC180 performance View](/images/posts/bluetti_ac180/AC180.jpg)
 
 ## Comparison to Competitors
 

@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
         <body>
-        <div className="mx-auto  w-full md:w-4/5 px-6">
+        <div className="mx-auto  w-full md:w-3/4 px-6">
         <Header />
         {children}
         <Footer />

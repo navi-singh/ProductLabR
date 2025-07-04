@@ -1,0 +1,13 @@
+:root {
+  --primary: 210 100% 49%; /* #007ACC */
+  --primary-foreground: 0 0% 100%;
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 20% 50%;
+  --border: 210 16% 82%;
+  --input: 210 16% 82%;
+  --ring: 210 100% 49%;
+}
