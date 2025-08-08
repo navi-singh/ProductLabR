@@ -111,8 +111,6 @@ The **BLUETTI AC180** is a **top-tier portable power station** that excels in pe
 
 The **BLUETTI AC180** sets a high standard for portable power stations with its fast-charging technology, user-friendly design, and powerful output. While it has a few minor drawbacks, its benefits far outweigh them, making it a **worthy investment for anyone needing reliable, off-grid power**.
 
-What are your thoughts on the **BLUETTI AC180**? Have you used it before? Let us know in the comments below!
-
 ---
 
 ### FAQs

@@ -16,7 +16,7 @@ export default function ScoreCard({calculatedOverallScore, metrics }: ScoreCardP
     <div className="flex flex-col md:flex-row bg-white p-6 rounded-md shadow-md w-full">
       {/* Overall Score */}
       <div className="flex flex-col items-center justify-center bg-green-700 text-white p-6 rounded-md w-full md:w-1/4 mb-4 md:mb-0">
-        <span className="text-5xl font-bold">{calculatedOverallScore}</span>
+        <span className="text-5xl font-bold">{calculatedOverallScore/10}</span>
         <span className="text-xs uppercase tracking-wider mt-2">Overall Score</span>
       </div>
 
