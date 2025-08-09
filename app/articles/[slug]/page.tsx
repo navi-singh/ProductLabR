@@ -41,7 +41,7 @@ export default function ArticlePage({
   const showRating = hasRatingData(metadata);
 
 return (
-    <main className="w-full md:w-3/4 ml-0 md:ml-8 px-4 py-6">
+    <main className="w-full px-4 py-6">
       {/* Hero Section */}
       <header className="mb-4">
         <h1 className="text-3xl md:text-4xl font-bold mb-2 leading-tight">{metadata.title}</h1>
@@ -121,8 +121,12 @@ return (
       <ProsCons pros={metadata.pros} cons={metadata.cons} />
 
       {/* Main Review Content */}
-      <ArticleContent content={processMarkdownContent(content)} />
-
+      <ArticleContent 
+        content={processMarkdownContent(content)} 
+        publishDate={formattedDate}
+        author={metadata.author}
+      />
+  
       {/* Author Bio */}
       {metadata.authorBio && (
         <AuthorBio 

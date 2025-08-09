@@ -97,7 +97,7 @@ const MetricBar: React.FC<MetricBarProps> = ({ metric }) => (
     role="group"
     aria-label={`${metric.name} score`}
   >
-    <div className={`w-1/2 text-md ${COLORS.text.secondary} text-right group-hover:text-gray-800 transition-colors duration-300`}>
+    <div className={`w-1/3 text-md ${COLORS.text.secondary} text-right group-hover:text-gray-800 transition-colors duration-300`}>
       {metric.name}
     </div>
     
