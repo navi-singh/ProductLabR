@@ -41,9 +41,9 @@ export default function ArticlePage({
   const showRating = hasRatingData(metadata);
 
 return (
-    <main className="w-full md:w-3/4 ml-0 md:ml-8 px-4 py-8">
+    <main className="w-full md:w-3/4 ml-0 md:ml-8 px-4 py-6">
       {/* Hero Section */}
-      <header className="mb-8">
+      <header className="mb-4">
         <h1 className="text-3xl md:text-4xl font-bold mb-2 leading-tight">{metadata.title}</h1>
         {metadata.subtitle && (
           <h2 className="text-lg text-slate-600 mb-2">{metadata.subtitle}</h2>
@@ -63,10 +63,10 @@ return (
       )}
 
       {/* Product Info Box */}
-      <aside className="mb-8 bg-white border-2 border-trustworthy/20 rounded-2xl p-6 shadow-lg">
-        <div className="w-full space-y-6">
+      <aside className="mb-8 bg-white border-2 border-trustworthy/20 rounded-2xl p-2 shadow-lg">
+        <div className="w-full space-y-2">
           {/* Product Rating */}
-          <div className="text-center bg-gradient-to-r from-trustworthy/10 to-trustworthy/30 rounded-xl p-6 border border-trustworthy/20">
+          <div className="text-center bg-gradient-to-r from-trustworthy/10 to-trustworthy/30 rounded-xl p-3 border border-trustworthy/20">
             {showRating && (
               <div className="flex flex-wrap items-center justify-center gap-3 md:gap-6">
                 {/* Rating Badge */}

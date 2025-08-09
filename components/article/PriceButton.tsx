@@ -13,7 +13,7 @@ export default function PriceButton({ price }: PriceButtonProps) {
   };
 
   return (
-    <div className="bg-trustworthy/10 rounded-xl p-4">
+    <div className="bg-trustworthy/10 rounded-xl p-2">
       <div className="flex items-center justify-between">
         <div>
           <p className="text-sm text-gray-600">Price</p>
