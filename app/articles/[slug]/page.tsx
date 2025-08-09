@@ -63,7 +63,7 @@ return (
       )}
 
       {/* Product Info Box */}
-      <aside className="mb-8 bg-white border-2 border-trustworthy/20 rounded-2xl p-2 shadow-lg">
+      <aside className="mb-4 bg-white border-2 border-trustworthy/20 rounded-2xl p-2 shadow-lg">
         <div className="w-full space-y-2">
           {/* Product Rating */}
           <div className="text-center bg-gradient-to-r from-trustworthy/10 to-trustworthy/30 rounded-xl p-3 border border-trustworthy/20">
