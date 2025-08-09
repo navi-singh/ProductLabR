@@ -20,7 +20,7 @@ const COLORS = {
 // Style constants
 const STYLES = {
   container: 'flex justify-center w-full',
-  card: 'flex flex-col md:flex-row bg-white p-2 rounded-xl w-full max-w-4xl shadow-sm',
+  card: 'flex flex-col md:flex-row bg-white  rounded-xl w-full max-w-4xl shadow-sm',
   overallSection: 'flex flex-col items-center justify-center text-white p-2 rounded-xl w-full md:w-1/4 mb-3 md:mb-0',
   metricsSection: 'flex-1 md:pl-6 space-y-2 w-full font-bold',
 } as const;
@@ -93,17 +93,17 @@ interface MetricBarProps {
 
 const MetricBar: React.FC<MetricBarProps> = ({ metric }) => (
   <div 
-    className="flex items-center justify-between"
+    className="flex items-center justify-between  rounded-lg transition-all duration-300 ease-in-out hover:bg-gray-50 hover:shadow-md hover:scale-[1.02] cursor-pointer group"
     role="group"
     aria-label={`${metric.name} score`}
   >
-    <div className={`w-1/2 text-md ${COLORS.text.secondary} text-right`}>
+    <div className={`w-1/2 text-md ${COLORS.text.secondary} text-right group-hover:text-gray-800 transition-colors duration-300`}>
       {metric.name}
     </div>
     
-    <div className="flex-1 mx-3 h-2 bg-gray-300 rounded-full relative">
+    <div className="flex-1 mx-3 h-2 bg-gray-300 rounded-full relative group-hover:h-3 transition-all duration-300 ease-in-out">
       <div
-        className={`h-2 ${COLORS.primary} rounded-full transition-all duration-300 ease-in-out`}
+        className={`h-full ${COLORS.primary} rounded-full transition-all duration-300 ease-in-out group-hover:bg-green-600 group-hover:shadow-lg transform group-hover:scale-x-[1.02]`}
         style={{ width: `${calculateProgressWidth(metric.score)}%` }}
         role="progressbar"
         aria-valuenow={metric.score}
@@ -111,9 +111,14 @@ const MetricBar: React.FC<MetricBarProps> = ({ metric }) => (
         aria-valuemax={SCORE_SCALE}
         aria-label={`${metric.name} progress`}
       />
+      {/* Animated highlight effect */}
+      <div
+        className="absolute top-0 left-0 h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 rounded-full transition-opacity duration-300 ease-in-out"
+        style={{ width: `${calculateProgressWidth(metric.score)}%` }}
+      />
     </div>
     
-    <div className={`w-8 text-sm font-bold ${COLORS.text.primary}`}>
+    <div className={`w-8 text-sm font-bold ${COLORS.text.primary} group-hover:text-green-700 group-hover:text-base transition-all duration-300`}>
       {metric.score.toFixed(SCORE_DECIMAL_PLACES)}
     </div>
   </div>

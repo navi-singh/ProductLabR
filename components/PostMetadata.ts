@@ -13,6 +13,7 @@ export interface PostMetadata {
     authorBio?: string;
     price?: string;
     rating?: number;
+    retailerLinks?: Record<string, string>;
     ratingBreakdown?: {
       overallScore?: number;
       overallRank?: string;

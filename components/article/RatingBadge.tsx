@@ -82,7 +82,7 @@ export default function RatingBadge({
   const config = getRatingConfig(rating);
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex items-center gap-3 relative">
       {/* Main Rating Badge */}
       <div className={`${config.className} rounded-lg px-4 py-2 text-center`}>
         <div className="flex items-center justify-center gap-2 mb-1">
@@ -92,11 +92,20 @@ export default function RatingBadge({
         <div className="text-xs opacity-90">{config.subtext}</div>
       </div>
 
-      {/* Editor's Choice Badge */}
+      {/* Editor's Choice Badge - Rotated Stamp Style */}
       {isEditorChoice && (
-        <div className="bg-purple-100 text-purple-800 text-xs font-medium px-3 py-1 rounded-full border border-purple-200 text-center">
-          <span className="mr-1">🏆</span>
-          Editor's Choice
+        <div className="relative">
+          <div className="bg-gradient-to-br from-amber-400 to-orange-500 text-white text-xs font-bold px-3 py-2 rounded-lg border-2 border-amber-600 shadow-lg transform rotate-12 hover:rotate-6 transition-transform duration-300">
+            <div className="flex items-center gap-1">
+              <span className="text-base">🏆</span>
+              <div className="text-center leading-tight">
+                <div className="text-[10px] font-black uppercase tracking-wider">Editor's</div>
+                <div className="text-[10px] font-black uppercase tracking-wider">Choice</div>
+              </div>
+            </div>
+            {/* Stamp-like border effect */}
+            <div className="absolute inset-0 border-2 border-dashed border-amber-200 rounded-lg opacity-50"></div>
+          </div>
         </div>
       )}
     </div>

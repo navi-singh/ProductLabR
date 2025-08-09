@@ -2,8 +2,9 @@
 title: "EcoFlow Delta Pro 3: The Ultimate Power Station for Home, RV, and Off-Grid Adventures"
 subtitle: "A deep-dive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-07-05"
-image: "https://cdn.mos.cms.futurecdn.net/AXgseN885smssZDjKaXMj4-1920-80.jpg.webp"
-# productImage: "https://cdn.mos.cms.futurecdn.net/AXgseN885smssZDjKaXMj4-1920-80.jpg.webp"
+image: "/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg"
+productImage: "/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg"
+
 specs:
   Capacity: "4096Wh (expandable to 48kWh)"
   Output: "4000W (8000W surge)"
@@ -30,6 +31,10 @@ cons:
   - "Not all circuitry is fully weatherproof"
   - "High price, but justified for the performance"
 price: "$3,699 (often on sale for $3,199–$2,799)"
+retailerLinks:
+  Amazon: "https://www.amazon.com/EF-ECOFLOW-Expandable-Accessories-Emergencies/dp/B0D14FMFZD/ref=sr_1_1?crid=BMOAICG8IPWC&dib=eyJ2IjoiMSJ9.8zXhSs7zc2fjmVOZylJzvphjgWGuL1snzXx7amx1dUA3qDyUTNdfdOtvJCRHp7uM0kXpyJvljWYQaGDKXziF7wPZy4BAFQTMUUNkBddSq2mT_1JPFkkV6B1twvdDQujurU_EsueTimcmVpaw1sEgrolvag_mBo3q3-gv_iQ_X5kcs6gWYAsXwidDQpxFG6eqIISLsDkIh2Ww2BdNzXzvnNfxU-TUt1vpwkxCUNVBz4U.YOsPLdYKgTrPFSJiZJsE58LiA1EIwpwbxDFfIT0Gwxc&dib_tag=se&keywords=delta%2B3%2Bpro&qid=1754762047&sprefix=delta%2B3%2Bpro%2Caps%2C361&sr=8-1&th=1"
+  Ebay: "https://www.ebay.com/itm/145852396276?_skw=delta+3+pro+new&itmmeta=01K27ZN7B6KAGDVWM9VEYR7MXH&hash=item21f57af2f4:g:GL8AAOSwjChmeTuK&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1dkCgBzxekk4axMvv1J22%2FYKwACaFUyMNHtO6Ss8DO2tCNP9EaVv2i3JFUozVU6dTGUpikpVxsCkNG8bUvllN%2FyIGLmTXLFPmSHNxFGJEBVWBYrZfYCki5Vm2pSZe5LZn7dIa11m8RkGV3z0Kl0I2k99roS5fXPP9%2FvNqD9SlwSwfCFZi4JBmNIQ%2BJHOMVE3l95oGQGN%2FAY6bNYZTIISZ3O7R6pHlM5lXAI7E9adtkLRw%3D%3D%7Ctkp%3ABlBMUOr11P-RZg"
+  Ecoflow: "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721004105"
 # rating: 5
 ratingBreakdown:
   metrics:

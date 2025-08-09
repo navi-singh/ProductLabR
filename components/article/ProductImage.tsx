@@ -9,9 +9,9 @@ interface ProductImageProps {
   aspectRatio?: string;
 }
 
-export default function ProductImage({ src, alt, aspectRatio = 'aspect-[2/1]' }: ProductImageProps) {
+export default function ProductImage({ src, alt, aspectRatio = 'aspect-[3/1]' }: ProductImageProps) {
   return (
-    <div className="mb-4">
+    <div className="mb-3">
       <div className={`relative w-full ${aspectRatio} bg-gray-50 rounded-xl overflow-hidden`}>
         <Image
           src={src}

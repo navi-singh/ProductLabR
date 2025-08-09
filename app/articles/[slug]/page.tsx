@@ -12,7 +12,7 @@ import RatingBadge from '../../../components/article/RatingBadge';
 import ProductSpecs from '../../../components/article/ProductSpecs';
 import ProsCons from '../../../components/article/ProsCons';
 import ProductImage from '../../../components/article/ProductImage';
-import PriceButton from '../../../components/article/PriceButton';
+import RetailerLinks from '../../../components/article/PriceButton';
 import ArticleContent from '../../../components/article/ArticleContent';
 import AuthorBio from '../../../components/article/AuthorBio';
 
@@ -103,16 +103,11 @@ return (
 
           {/* Compact Price & Specs Side by Side on larger screens */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
-            {/* Price & Buy Button */}
-            {metadata.price && (
-              <PriceButton 
-                price={metadata.price}
+            {/* Retailer Links */}
+            {metadata.retailerLinks && (
+              <RetailerLinks 
+                retailerLinks={metadata.retailerLinks}
                 productName={metadata.title}
-                retailerLinks={{
-                  amazon: "https://amazon.com/dp/example",
-                  bestBuy: "https://bestbuy.com/example",
-                  manufacturer: "https://manufacturer.com/example"
-                }}
               />
             )}
 
