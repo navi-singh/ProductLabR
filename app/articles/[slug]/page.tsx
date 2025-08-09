@@ -6,7 +6,7 @@ import { processMarkdownContent } from '../../../lib/markdown';
 import { calculateOverallScore, scoreToStarRating, formatArticleDate, hasRatingData } from '../../../lib/articleUtils';
 
 // Components
-import ScoreCard from '../../../components/ScoreCard';
+import ScoreCard from '../../../components/article/ScoreCard';
 import StarRating from '../../../components/article/StarRating';
 import RatingBadge from '../../../components/article/RatingBadge';
 import ProductSpecs from '../../../components/article/ProductSpecs';

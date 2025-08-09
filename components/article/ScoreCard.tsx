@@ -20,7 +20,7 @@ const STYLES = {
   container: 'flex justify-center w-full',
   card: 'flex flex-col md:flex-row bg-white p-2 rounded-xl w-full max-w-4xl shadow-sm',
   overallSection: 'flex flex-col items-center justify-center text-white p-2 rounded-xl w-full md:w-1/4 mb-3 md:mb-0',
-  metricsSection: 'flex-1 md:pl-6 space-y-2 w-full',
+  metricsSection: 'flex-1 md:pl-6 space-y-2 w-full font-bold',
 } as const;
 
 /**
