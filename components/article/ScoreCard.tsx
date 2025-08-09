@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 // Constants for better maintainability

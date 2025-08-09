@@ -75,10 +75,18 @@ return (
                 </div>
                 
                 {/* Star Rating Display */}
-                <StarRating rating={starRating} />
+                <StarRating 
+                  rating={starRating} 
+                  size="md"
+                  animated={true}
+                  showBreakdown={false}
+                />
                 
                 {/* Rating Description */}
-                <RatingBadge rating={starRating} />
+                <RatingBadge 
+                  rating={starRating} 
+                  isEditorChoice={starRating >= 4.5}
+                />
               </div>
             )}
           </div>
@@ -93,13 +101,24 @@ return (
             </div>
           )}
 
-          {/* Price & Buy Button */}
-          {metadata.price && (
-            <PriceButton price={metadata.price} />
-          )}
+          {/* Compact Price & Specs Side by Side on larger screens */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+            {/* Price & Buy Button */}
+            {metadata.price && (
+              <PriceButton 
+                price={metadata.price}
+                productName={metadata.title}
+                retailerLinks={{
+                  amazon: "https://amazon.com/dp/example",
+                  bestBuy: "https://bestbuy.com/example",
+                  manufacturer: "https://manufacturer.com/example"
+                }}
+              />
+            )}
 
-          {/* Specifications */}
-          <ProductSpecs specs={metadata.specs} />
+            {/* Specifications */}
+            <ProductSpecs specs={metadata.specs} />
+          </div>
         </div>
       </aside>
 
@@ -111,7 +130,11 @@ return (
 
       {/* Author Bio */}
       {metadata.authorBio && (
-        <AuthorBio authorBio={metadata.authorBio} />
+        <AuthorBio 
+          authorBio={metadata.authorBio}
+          authorName={metadata.author || "ProductLab Editorial Team"}
+          authorTitle="Product Review Specialist"
+        />
       )}
     </main>
   );
