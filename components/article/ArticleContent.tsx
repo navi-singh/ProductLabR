@@ -86,7 +86,7 @@ export default function ArticleContent({ content, publishDate, author }: Article
       </div>
 
       {/* Enhanced Article Content */}
-      <article className="prose prose-lg max-w-none mb-8">
+      <article className="prose prose-md max-w-none mb-8">
         <div 
           className="enhanced-article-content text-gray-800 leading-relaxed"
           dangerouslySetInnerHTML={{ __html: content }}
@@ -124,23 +124,24 @@ export default function ArticleContent({ content, publishDate, author }: Article
         </div>
       </div>
 
-      <style jsx>{`
+      <style jsx global>{`
         .enhanced-article-content {
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
         
         .enhanced-article-content p {
+          margin-left: 2rem;
           margin-bottom: 1.5rem;
           line-height: 1.8;
-          font-size: 1.1rem;
+          font-size: 1rem;
           color: #374151;
         }
         
         .enhanced-article-content p:first-of-type {
-          font-size: 1.2rem;
-          font-weight: 500;
-          color: #1f2937;
-          margin-bottom: 2rem;
+          font-size: 1rem;
+          font-weight: normal;
+          color: #374151;
+          margin-bottom: 1.5rem;
         }
         
         .enhanced-article-content h1,
@@ -148,6 +149,7 @@ export default function ArticleContent({ content, publishDate, author }: Article
         .enhanced-article-content h3 {
           scroll-margin-top: 2rem;
         }
+
         
         .enhanced-article-content img {
           margin: 2rem auto;

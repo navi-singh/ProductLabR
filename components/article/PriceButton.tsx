@@ -24,7 +24,7 @@ const ExternalLinkIcon = () => (
 );
 
 const ShoppingIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 36 36">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l-1 12H6L5 9z" />
   </svg>
 );
@@ -44,12 +44,12 @@ export default function RetailerLinks({
     switch (retailer.toLowerCase()) {
       case 'amazon':
         return (
-          <div className="w-8 h-6 relative flex items-center justify-center">
+          <div className="w-16 h-8 relative flex items-center justify-center">
             <Image
               src="/images/amazon.png"
               alt="Amazon"
-              width={32}
-              height={24}
+              width={48}
+              height={32}
               className="object-contain"
             />
           </div>
@@ -60,8 +60,8 @@ export default function RetailerLinks({
             <Image
               src="/images/ebay.svg"
               alt="eBay"
-              width={32}
-              height={24}
+              width={48}
+              height={32}
               className="object-contain"
             />
           </div>
@@ -75,7 +75,15 @@ export default function RetailerLinks({
       case 'backcountry':
         return <div className="w-8 h-6 bg-orange-600 text-white rounded text-xs font-bold flex items-center justify-center">B</div>;
       case 'bestbuy':
-        return <div className="w-8 h-6 bg-blue-600 text-white rounded text-xs font-bold flex items-center justify-center">BB</div>;
+        return <div className="w-8 h-6 relative flex items-center justify-center">
+            <Image
+              src="/images/bestbuy.jpg"
+              alt="bestbuy"
+              width={48}
+              height={32}
+              className="object-contain"
+            />
+            </div>;
       default:
         return <ShoppingIcon />;
     }

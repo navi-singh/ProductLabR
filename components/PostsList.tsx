@@ -4,9 +4,8 @@ import getPostMetadata from './getPostMetadata';
 export const PostsList = () => {
   const postMetadata = getPostMetadata();
   const postPreviews = postMetadata.map((post) => (
-    <div>
+    
         <Card key={post.slug} post={post} />
-    </div>
   ));
 
   return (
