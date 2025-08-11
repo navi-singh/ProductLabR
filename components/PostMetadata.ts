@@ -14,6 +14,7 @@ export interface PostMetadata {
     price?: string;
     rating?: number;
     retailerLinks?: Record<string, string>;
+    category?: string;
     ratingBreakdown?: {
       overallScore?: number;
       overallRank?: string;

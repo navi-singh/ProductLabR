@@ -5,11 +5,9 @@ import Link from 'next/link';
 import fs from "fs";
 
 const getPostMetadata = () => {
-  const folder = "posts/";
-  const files =  fs.readdirSync(folder);
-  const markdownPosts = files.filter((file) => file.endsWith(".md"));
-  const slugs = markdownPosts.map((file) => file.replace(".md",""));
-  return slugs;
+  // This function is unused in this component - PostsList handles metadata
+  // Keeping for backward compatibility but functionality moved to PostsList
+  return [];
 }
 
 export default function Home() {

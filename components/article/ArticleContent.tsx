@@ -36,7 +36,7 @@ export default function ArticleContent({ content, publishDate, author }: Article
 
   return (
 
-    <div className="relative md:w-3/4">
+    <div className="relative">
       {/* Reading Progress Bar */}
       <div className="fixed top-0 left-0 w-full h-1 bg-gray-200 z-50">
         <div 
