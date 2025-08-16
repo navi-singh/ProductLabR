@@ -2,8 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-
-
+import { ExternalLinkIcon, ShoppingIcon } from '../../lib/icons';
 
 interface RetailerLinksProps {
   retailerLinks?: {
@@ -14,20 +13,6 @@ interface RetailerLinksProps {
   };
   productName?: string;
 }
-
-// Retailer Icons are now handled dynamically in getRetailerIcon function
-
-const ExternalLinkIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-  </svg>
-);
-
-const ShoppingIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 36 36">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l-1 12H6L5 9z" />
-  </svg>
-);
 
 export default function RetailerLinks({ 
   retailerLinks = {},

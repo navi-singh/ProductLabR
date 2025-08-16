@@ -3,7 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Line clamp utilities for text truncation */
+/* 
+  Line clamp utilities are now handled by Tailwind's built-in line-clamp plugin
+  Use: line-clamp-1, line-clamp-2, line-clamp-3, etc. directly in className
+  These custom utilities are kept for backward compatibility only
+*/
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import { ClockIcon, CalendarIcon, UserIcon, CheckCircleIcon } from '../../lib/icons';
 
 interface ArticleContentProps {
   content: string;
@@ -51,18 +52,14 @@ export default function ArticleContent({ content, publishDate, author }: Article
           <div className="flex items-center gap-4 text-sm text-gray-600">
             {/* Reading Time */}
             <div className="flex items-center gap-2">
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
-              </svg>
+              <ClockIcon />
               <span className="font-medium">{readingTime} min read</span>
             </div>
             
             {/* Publication Date */}
             {publishDate && (
               <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
-                </svg>
+                <CalendarIcon />
                 <span className="font-medium">{publishDate}</span>
               </div>
             )}
@@ -70,9 +67,7 @@ export default function ArticleContent({ content, publishDate, author }: Article
             {/* Author */}
             {author && (
               <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                </svg>
+                <UserIcon />
                 <span className="font-medium">By {author}</span>
               </div>
             )}
@@ -98,9 +93,7 @@ export default function ArticleContent({ content, publishDate, author }: Article
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-trustworthy rounded-full flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+              <CheckCircleIcon className="w-5 h-5 text-white" />
             </div>
             <div>
               <div className="text-sm font-semibold text-gray-800">Expert Review Complete</div>
@@ -124,6 +117,13 @@ export default function ArticleContent({ content, publishDate, author }: Article
         </div>
       </div>
 
+      {/* 
+        Custom CSS is required here because:
+        1. Dynamic content from markdown needs global styles that can't be applied via className
+        2. Complex pseudo-elements (::before, ::marker) require CSS-in-JS for dynamic content
+        3. Advanced selectors like :first-of-type need global scope
+        4. Tailwind's prose plugin would conflict with our custom design requirements
+      */}
       <style jsx global>{`
         .enhanced-article-content {
           font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -230,6 +230,10 @@ export default function ArticleContent({ content, publishDate, author }: Article
         .enhanced-article-content strong {
           color: #1f2937;
           font-weight: 600;
+        }
+        
+        .enhanced-article-content hr {
+          display: none;
         }
       `}</style>
     </div>
