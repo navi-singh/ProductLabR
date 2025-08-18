@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
+
 import RatingBadge from '@/components/article/RatingBadge';
 import StarRating from '@/components/article/StarRating';
 
@@ -55,25 +54,24 @@ export default function BestCarryOnPowerStations() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+      <div className="bg-gradient-to-r from-trustworthy/10 to-purple-500/10 bg-gray-50 text-gray-800">
         <div className="container mx-auto px-4 py-10">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Best Carry-On Power Stations 2025
           </h1>
-          <p className="text-lg md:text-xl mb-6 text-purple-100">
+          <p className="text-lg md:text-xl mb-6 text-gray-600">
             TSA-approved power banks for travel and airline carry-on
           </p>
           <div className="flex flex-wrap gap-4">
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               TSA Compliant
             </span>
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               Under 100Wh
             </span>
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               Ultra-Compact
             </span>
           </div>
@@ -320,7 +318,7 @@ export default function BestCarryOnPowerStations() {
         </div>
       </div>
 
-      <Footer />
+
     </div>
   );
 }

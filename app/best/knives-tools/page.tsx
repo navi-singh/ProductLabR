@@ -92,7 +92,7 @@ export default function KnivesToolsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white">
+      <div className="bg-gradient-to-r from-trustworthy/10 to-purple-500/10 bg-gray-50 text-gray-800">
         <div className="container mx-auto px-4 py-10">
           <div className="max-w-4xl">
             <div className="flex items-center mb-4">
@@ -103,7 +103,7 @@ export default function KnivesToolsPage() {
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
               Best Knives & Tools 2025
             </h1>
-            <p className="text-lg md:text-xl mb-6 text-orange-100">
+            <p className="text-lg md:text-xl mb-6 text-gray-600">
               Expert-tested knives, multi-tools, and EDC gear. We evaluate durability, functionality, and craftsmanship to help you find the perfect tools.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -207,7 +207,7 @@ export default function KnivesToolsPage() {
                           </div>
                           <Link 
                             href={tool.href}
-                            className="bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+                            className="bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
                           >
                             Read Review →
                           </Link>
@@ -339,7 +339,7 @@ export default function KnivesToolsPage() {
               <div id="newsletter" className="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg shadow-lg p-6 text-white">
                 <h3 className="text-xl font-semibold mb-2">Tool Reviews</h3>
                 <p className="text-orange-100 mb-4">Get notified about new knife and tool reviews, comparisons, and buying guides.</p>
-                <button className="w-full bg-white text-orange-600 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+                <button className="w-full bg-white text-purple-500 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
                   Subscribe
                 </button>
               </div>

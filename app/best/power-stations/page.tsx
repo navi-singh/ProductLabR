@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
+
 
 export default function PowerStationsHub() {
   const powerStationCategories = [
@@ -48,25 +47,24 @@ export default function PowerStationsHub() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-green-500 to-blue-500 text-white">
+      <div className="bg-gradient-to-r from-trustworthy/10 to-purple-500/10 bg-gray-50 text-gray-800">
         <div className="container mx-auto px-4 py-10">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Best Power Stations 2025
           </h1>
-          <p className="text-lg md:text-xl mb-6 text-green-100">
+          <p className="text-lg md:text-xl mb-6 text-gray-600">
             Expert-tested portable power solutions for every need and budget
           </p>
           <div className="flex flex-wrap gap-4">
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               19+ Models Tested
             </span>
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               Real-World Performance
             </span>
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               All Budgets Covered
             </span>
           </div>
@@ -160,7 +158,7 @@ export default function PowerStationsHub() {
                     <div className="flex justify-end">
                       <Link 
                         href={category.href}
-                        className="bg-gray-800 text-white px-8 py-3 rounded-xl font-semibold hover:bg-gray-900 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+                        className="bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
                       >
                         View {category.count} Models →
                       </Link>
@@ -268,7 +266,7 @@ export default function PowerStationsHub() {
                   placeholder="Enter your email" 
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                 />
-                <button className="w-full bg-white text-green-600 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+                <button className="w-full bg-white text-purple-500 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
                   Subscribe
                 </button>
               </div>
@@ -277,7 +275,7 @@ export default function PowerStationsHub() {
         </div>
       </div>
 
-      <Footer />
+
     </div>
   );
 }

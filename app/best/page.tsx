@@ -67,24 +67,24 @@ export default function BestPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white">
+      <div className="bg-gradient-to-r from-trustworthy/10 to-purple-500/10 bg-gray-50 text-gray-800">
         <div className="container mx-auto px-4 py-10">
           <div className="max-w-4xl">
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
               Best Products of 2025
             </h1>
-            <p className="text-lg md:text-xl mb-6 text-blue-100">
+            <p className="text-lg md:text-xl mb-6 text-gray-600">
               Expert-tested reviews and comprehensive buying guides. We put products through rigorous testing to help you make the best decisions.
             </p>
             <div className="flex flex-wrap gap-4">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-sm">25+ Products Tested</span>
+              <div className="bg-white/80 backdrop-blur-sm rounded-lg px-4 py-2 border border-gray-200">
+                <span className="text-sm text-gray-700">25+ Products Tested</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-sm">Independent Reviews</span>
+              <div className="bg-white/80 backdrop-blur-sm rounded-lg px-4 py-2 border border-gray-200">
+                <span className="text-sm text-gray-700">Independent Reviews</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-sm">Updated Monthly</span>
+              <div className="bg-white/80 backdrop-blur-sm rounded-lg px-4 py-2 border border-gray-200">
+                <span className="text-sm text-gray-700">Updated Monthly</span>
               </div>
             </div>
           </div>
@@ -218,7 +218,7 @@ export default function BestPage() {
               <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg shadow-lg p-6 text-white">
                 <h3 className="text-xl font-semibold mb-2">Stay Updated</h3>
                 <p className="text-blue-100 mb-4">Get notified when we publish new reviews and buying guides.</p>
-                <button className="w-full bg-white text-blue-600 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+                <button className="w-full bg-white text-purple-500 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
                   Subscribe
                 </button>
               </div>

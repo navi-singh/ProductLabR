@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
+
 import RatingBadge from '@/components/article/RatingBadge';
 import StarRating from '@/components/article/StarRating';
 
@@ -70,25 +69,24 @@ export default function BestHybridCameras() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-purple-500 to-blue-500 text-white">
+      <div className="bg-gradient-to-r from-trustworthy/10 to-purple-500/10 bg-gray-50 text-gray-800">
         <div className="container mx-auto px-4 py-10">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Best Hybrid Cameras 2025
           </h1>
-          <p className="text-lg md:text-xl mb-6 text-purple-100">
+          <p className="text-lg md:text-xl mb-6 text-gray-600">
             Top cameras excelling at both photography and videography
           </p>
           <div className="flex flex-wrap gap-4">
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               Photo + Video Excellence
             </span>
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               Professional Features
             </span>
-            <span className="bg-white/20 px-4 py-2 rounded-full text-sm">
+            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
               8K Video Capability
             </span>
           </div>
@@ -114,7 +112,7 @@ export default function BestHybridCameras() {
                 <div key={camera.rank} className="bg-white rounded-xl shadow-lg p-6">
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex items-center gap-4">
-                      <div className="bg-purple-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
+                      <div className="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                         {camera.rank}
                       </div>
                       <div>
@@ -123,14 +121,14 @@ export default function BestHybridCameras() {
                       </div>
                     </div>
                     <div className="text-right">
-                      <div className="text-2xl font-bold text-purple-600 mb-1">{camera.price}</div>
+                      <div className="text-2xl font-bold text-purple-500 mb-1">{camera.price}</div>
                       <RatingBadge rating={camera.rating} />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div>
-                      <h4 className="font-semibold mb-2 text-green-600">Key Features</h4>
+                      <h4 className="font-semibold mb-2 text-purple-500">Key Features</h4>
                       <ul className="space-y-1">
                         {camera.keyFeatures.map((feature, index) => (
                           <li key={index} className="text-sm text-gray-600">• {feature}</li>
@@ -138,7 +136,7 @@ export default function BestHybridCameras() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2 text-green-600">Pros</h4>
+                      <h4 className="font-semibold mb-2 text-purple-500">Pros</h4>
                       <ul className="space-y-1">
                         {camera.pros.map((pro, index) => (
                           <li key={index} className="text-sm text-gray-600">+ {pro}</li>
@@ -151,7 +149,7 @@ export default function BestHybridCameras() {
                     <StarRating rating={camera.rating} />
                     <Link 
                       href={camera.href}
-                      className="bg-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+                                              className="bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
                     >
                       Read Review →
                     </Link>
@@ -237,7 +235,7 @@ export default function BestHybridCameras() {
                   placeholder="Enter your email" 
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                 />
-                <button className="w-full bg-white text-purple-600 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+                <button className="w-full bg-white text-purple-500 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
                   Subscribe
                 </button>
               </div>
@@ -246,7 +244,7 @@ export default function BestHybridCameras() {
         </div>
       </div>
 
-      <Footer />
+
     </div>
   );
 }

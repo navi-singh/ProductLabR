@@ -120,29 +120,29 @@ export default function CamerasPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-purple-500 to-blue-500 text-white">
+      <div className="bg-gradient-to-r from-trustworthy/10 to-purple-500/10 bg-gray-50 text-gray-800">
         <div className="container mx-auto px-4 py-10">
           <div className="max-w-4xl">
             <div className="flex items-center mb-4">
-              <Link href="/best" className="text-purple-200 hover:text-white mr-2">Best Products</Link>
-              <span className="text-purple-200">›</span>
+              <Link href="/best" className="text-gray-600 hover:text-gray-800 mr-2">Best Products</Link>
+              <span className="text-gray-500">›</span>
               <span className="ml-2">Cameras</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
               Best Cameras 2025
             </h1>
-            <p className="text-lg md:text-xl mb-6 text-purple-100">
+            <p className="text-lg md:text-xl mb-6 text-gray-600">
               Expert-tested cameras for photography and videography. From mirrorless to cinema cameras, we help you find the perfect tool for your creative vision.
             </p>
             <div className="flex flex-wrap gap-4">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-sm">15+ Cameras Tested</span>
+              <div className="bg-white/80 backdrop-blur-sm rounded-lg px-4 py-2 border border-gray-200">
+                <span className="text-sm text-gray-700">15+ Cameras Tested</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-sm">Real-World Testing</span>
+              <div className="bg-white/80 backdrop-blur-sm rounded-lg px-4 py-2 border border-gray-200">
+                <span className="text-sm text-gray-700">Real-World Testing</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-sm">Professional Reviews</span>
+              <div className="bg-white/80 backdrop-blur-sm rounded-lg px-4 py-2 border border-gray-200">
+                <span className="text-sm text-gray-700">Professional Reviews</span>
               </div>
             </div>
           </div>
@@ -401,7 +401,7 @@ export default function CamerasPage() {
                       <option>Professional Work</option>
                     </select>
                   </div>
-                  <button className="w-full bg-purple-600 text-white py-3 px-6 rounded-xl font-semibold hover:bg-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+                  <button className="w-full bg-purple-500 text-white py-3 px-6 rounded-xl font-semibold hover:bg-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
                     Find My Camera
                   </button>
                 </div>
@@ -430,7 +430,7 @@ export default function CamerasPage() {
               <div id="newsletter" className="bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg shadow-lg p-6 text-white">
                 <h3 className="text-xl font-semibold mb-2">Camera Reviews</h3>
                 <p className="text-purple-100 mb-4">Get notified about new camera reviews, comparisons, and buying guides.</p>
-                <button className="w-full bg-white text-purple-600 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+                <button className="w-full bg-white text-purple-500 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
                   Subscribe
                 </button>
               </div>
