@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { PostMetadata } from '../PostMetadata';
-import { CheckIcon, XIcon, getProIcon, getConIcon } from '../../lib/icons';
+import { CheckIcon, XIcon } from '../../lib/icons';
 
 interface ProsConsProps {
   pros?: PostMetadata['pros'];

@@ -1,14 +1,14 @@
 import { PostsList } from '@/components/PostsList';
-// import { Newsletter } from '@/components/Newsletter';
 import { Top10Popular } from '@/components/Top10Popular';
+import { OptimizedImage } from '@/components/OptimizedImage';
 import Link from 'next/link';
-import fs from "fs";
+import { Metadata } from 'next';
 
-const getPostMetadata = () => {
-  // This function is unused in this component - PostsList handles metadata
-  // Keeping for backward compatibility but functionality moved to PostsList
-  return [];
-}
+export const metadata: Metadata = {
+  title: 'Product Lab - Expert Reviews You Can Trust',
+  description: 'Expert reviews of power stations, cameras, and tech gear. Professional testing and honest comparisons to help you make informed buying decisions.'
+};
+
 
 export default function Home() {
   const trendingCategories = [
@@ -95,7 +95,7 @@ export default function Home() {
               TRENDING
             </span>
             <div className="flex space-x-1">
-              {trendingCategories.map((category, index) => (
+              {trendingCategories.map((category) => (
                 <Link
                   key={category.title}
                   href={category.href}
@@ -120,8 +120,7 @@ export default function Home() {
             Reviews You Can Rely On
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Product Lab reviews are <em>ad-free</em> and entirely reader-supported. 
-            When you purchase through links on our site, we may earn an affiliate commission, which helps support our testing.
+            Product Lab provides comprehensive reviews and testing insights to help you make informed purchasing decisions.
           </p>
         </section>
 
@@ -137,11 +136,14 @@ export default function Home() {
               {category.featuredProducts.map((product, productIndex) => (
                 <Link key={product.title} href={product.href} className="group">
                   <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-                    <div className="relative h-48 overflow-hidden">
-                      <img 
+                    <div className="relative h-48 overflow-hidden bg-gray-100">
+                      <OptimizedImage 
                         src={product.image} 
-                        alt={product.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        alt={`${product.title} - Expert review and comparison`}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        priority={categoryIndex === 0 && productIndex === 0}
                       />
                       {productIndex === 0 && (
                         <div className="absolute top-3 left-3 bg-purple-500 text-white px-3 py-1 rounded-full text-xs font-bold">
@@ -168,10 +170,10 @@ export default function Home() {
         <section className="bg-gradient-to-r from-trustworthy/5 to-purple-500/5 rounded-xl p-8 mb-12">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
-              Ad-free. Influence-free. Powered by Testing.
+              Professional. Thorough. Powered by Testing.
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Product Lab is founded on the principle of honest, objective reviews. Our experts test thousands of products each year using thoughtful test plans that bring out key performance differences between competing products. And, to assure complete independence, we buy all the products we test ourselves. No cherry-picked units sent by manufacturers. No sponsored content. No ads. Just real, honest, side-by-side testing and comparison.
+              Product Lab is founded on the principle of honest, objective reviews. Our experts test thousands of products each year using thoughtful test plans that bring out key performance differences between competing products. We provide comprehensive testing and detailed analysis to help you make informed purchasing decisions.
             </p>
             <Link 
               href="/best" 
@@ -192,7 +194,7 @@ export default function Home() {
             <aside className="space-y-8">
               <Top10Popular />
             </aside>
-          </div>
+        </div>
         </section>
       </main>
     </div>

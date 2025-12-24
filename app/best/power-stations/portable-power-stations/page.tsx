@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Card } from '@/components/card';
 import RatingBadge from '@/components/article/RatingBadge';
-import StarRating from '@/components/article/StarRating';
 
 export const metadata: Metadata = {
   title: 'Best Portable Power Stations 2025 - Expert Reviews & Buying Guide',

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { ClockIcon, CalendarIcon, UserIcon, CheckCircleIcon } from '../../lib/icons';
+import { ClockIcon, CalendarIcon, UserIcon } from '../../lib/icons';
 
 interface ArticleContentProps {
   content: string;
@@ -90,19 +90,10 @@ export default function ArticleContent({ content, publishDate, author }: Article
 
       {/* Article Footer */}
       <div className="mt-8 p-6 bg-gradient-to-r from-gray-50 to-blue-50 rounded-xl border border-gray-200">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-trustworthy rounded-full flex items-center justify-center">
-              <CheckCircleIcon className="w-5 h-5 text-white" />
-            </div>
-            <div>
-              <div className="text-sm font-semibold text-gray-800">Expert Review Complete</div>
-              <div className="text-xs text-gray-600">Thoroughly tested and analyzed</div>
-            </div>
-          </div>
-          <div className="text-right">
-            <div className="text-xs text-gray-500">Share this review</div>
-            <div className="flex gap-2 mt-1">
+        <div className="flex items-center justify-center">
+          <div className="text-center">
+            <div className="text-xs text-gray-500 mb-3">Share this review</div>
+            <div className="flex gap-2 justify-center">
               <button className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
                 <span className="text-xs font-bold">f</span>
               </button>

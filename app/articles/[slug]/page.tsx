@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { getPostBySlug, getAllPostSlugs } from '../../../lib/Posts';
@@ -24,12 +23,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ArticlePage({ 
+export default async function ArticlePage({ 
   params 
 }: { 
-  params: { slug: string } 
+  params: Promise<{ slug: string }> 
 }) {
-  const post = getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   
   if (!post) {
     notFound();
@@ -147,7 +147,7 @@ return (
           <div className="sticky top-6 space-y-6">
             {/* Related Articles */}
             <RelatedArticles 
-              currentArticleSlug={metadata.slug}
+              currentArticleSlug={slug}
               category={metadata.category}
               limit={4}
             />

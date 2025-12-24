@@ -35,7 +35,7 @@ export default function AuthorBio({
             📝 Editorial Standards
           </div>
           <div className="text-xs text-blue-700">
-            Our reviews are independent and based on hands-on testing. We maintain editorial independence from manufacturers and retailers.
+            Our reviews are based on thorough hands-on testing and professional expertise to provide you with detailed product insights.
           </div>
         </div>
       </div>

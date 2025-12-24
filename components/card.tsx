@@ -14,29 +14,29 @@ export const Card = ({ post, className, children }: {
 }) => {
   // If post is provided, use the original card layout
   if (post) {
-    return (
-      <div>
-        <Link href={`/articles/${post.slug}`}>
-          <div key={post.slug} className="p-4 border rounded-lg shadow-md flex flex-col items-center">
-            {post.image && (
-              <div className="w-full mb-3">
-                <Image
-                  src={post.image}
-                  alt={post.title}
-                  width={240}
-                  height={160}
-                  className="w-full h-40 object-cover rounded-2xl"
-                  unoptimized={true}
-                />
-              </div>
-            )}
-            <div className="w-full flex-1 flex flex-col justify-between items-start">
-              <h2 className="mb-2 text-xl font-bold hover:underline w-full">
-                {post.title}
-              </h2>
+  return (
+    <div>
+      <Link href={`/articles/${post.slug}`}>
+        <div key={post.slug} className="p-4 border rounded-lg shadow-md flex flex-col items-center">
+          {post.image && (
+            <div className="w-full mb-3">
+              <Image
+                src={post.image}
+                alt={post.title}
+                width={240}
+                height={160}
+                className="w-full h-40 object-cover rounded-2xl"
+                unoptimized={true}
+              />
             </div>
+          )}
+          <div className="w-full flex-1 flex flex-col justify-between items-start">
+            <h2 className="mb-2 text-xl font-bold hover:underline w-full">
+              {post.title}
+            </h2>
           </div>
-        </Link>
+        </div>
+      </Link>
       </div>
     );
   }

@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { PostMetadata } from '../PostMetadata';
 import { getPostsByCategory, getCategoryDisplayName } from '../../lib/Posts';
 
 interface RelatedArticlesProps {
