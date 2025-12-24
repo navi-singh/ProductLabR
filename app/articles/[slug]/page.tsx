@@ -42,9 +42,9 @@ export default async function ArticlePage({
   const showRating = hasRatingData(metadata);
 
 return (
-    <main className="w-full px-4 py-6">
+    <main className="w-full px-3 py-4">
       {/* Hero Section */}
-      <header className="mb-4">
+      <header className="mb-3">
         <h1 className="text-3xl md:text-4xl font-bold mb-2 leading-tight">{metadata.title}</h1>
         {metadata.subtitle && (
           <h2 className="text-lg text-slate-600 mb-2">{metadata.subtitle}</h2>
@@ -64,16 +64,16 @@ return (
       )}
 
       {/* Main Content Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
         {/* Main Content Area */}
         <div className="lg:col-span-3">
           {/* Product Info Box */}
-          <aside className="mb-4 bg-white border-2 border-trustworthy/20 rounded-2xl p-2 shadow-lg">
-            <div className="w-full space-y-2">
+          <aside className="mb-3 bg-white border border-trustworthy/20 rounded-xl p-2 shadow-md">
+            <div className="w-full space-y-1.5">
               {/* Product Rating */}
-              <div className="text-center bg-gradient-to-r from-trustworthy/10 to-trustworthy/30 rounded-xl p-3 border border-trustworthy/20">
+              <div className="text-center bg-gradient-to-r from-trustworthy/10 to-trustworthy/30 rounded-lg p-2 border border-trustworthy/20">
                 {showRating && (
-                  <div className="flex flex-wrap items-center justify-center gap-3 md:gap-6">
+                  <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4">
                     {/* Rating Badge */}
                     <div className="inline-flex items-center bg-trustworthy text-white rounded-full px-4 py-2 font-semibold text-sm md:text-base">
                       <span>Product Lab Rating</span>
@@ -107,7 +107,7 @@ return (
               )}
 
               {/* Compact Price & Specs Side by Side on larger screens */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-1.5">
                 {/* Retailer Links */}
                 {metadata.retailerLinks && (
                   <RetailerLinks 

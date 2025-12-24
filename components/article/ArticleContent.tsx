@@ -121,18 +121,18 @@ export default function ArticleContent({ content, publishDate, author }: Article
         }
         
         .enhanced-article-content p {
-          margin-left: 2rem;
-          margin-bottom: 1.5rem;
-          line-height: 1.8;
-          font-size: 1rem;
+          margin-left: 1rem;
+          margin-bottom: 1rem;
+          line-height: 1.6;
+          font-size: 0.95rem;
           color: #374151;
         }
         
         .enhanced-article-content p:first-of-type {
-          font-size: 1rem;
+          font-size: 0.95rem;
           font-weight: normal;
           color: #374151;
-          margin-bottom: 1.5rem;
+          margin-bottom: 1rem;
         }
         
         .enhanced-article-content h1,
@@ -140,12 +140,32 @@ export default function ArticleContent({ content, publishDate, author }: Article
         .enhanced-article-content h3 {
           scroll-margin-top: 2rem;
         }
+        
+        .enhanced-article-content h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 1.375rem;
+          font-weight: 600;
+          color: #1f2937;
+          border: none;
+        }
+        
+        .enhanced-article-content h3 {
+          margin: 0;
+          padding: 0;
+          font-size: 1.125rem;
+          font-weight: 600;
+          color: #374151;
+          background-color: #f0f9ff;
+          border-radius: 3px;
+          border: none;
+        }
 
         
         .enhanced-article-content img {
-          margin: 2rem auto;
-          border-radius: 12px;
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
           transition: transform 0.3s ease;
         }
         
@@ -155,12 +175,13 @@ export default function ArticleContent({ content, publishDate, author }: Article
         
         .enhanced-article-content blockquote {
           background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-          border-left: 4px solid #3b82f6;
-          padding: 1.5rem;
-          margin: 2rem 0;
-          border-radius: 8px;
+          border-left: 3px solid #3b82f6;
+          padding: 0.75rem;
+          margin: 1rem 0;
+          border-radius: 6px;
           font-style: italic;
           position: relative;
+          font-size: 0.9rem;
         }
         
         .enhanced-article-content blockquote::before {
@@ -175,13 +196,14 @@ export default function ArticleContent({ content, publishDate, author }: Article
         
         .enhanced-article-content ul,
         .enhanced-article-content ol {
-          margin: 1.5rem 0;
-          padding-left: 1.5rem;
+          margin: 0.75rem 0;
+          padding-left: 1.25rem;
         }
         
         .enhanced-article-content li {
-          margin-bottom: 0.75rem;
-          line-height: 1.7;
+          margin-bottom: 0.375rem;
+          line-height: 1.5;
+          font-size: 0.95rem;
         }
         
         .enhanced-article-content li::marker {
