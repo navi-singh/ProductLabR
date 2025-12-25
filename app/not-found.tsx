@@ -61,12 +61,6 @@ export default function NotFound() {
             >
               Cameras
             </Link>
-            <Link
-              href="/best/knives-tools"
-              className="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full hover:bg-gray-200 transition-colors"
-            >
-              Tools & Knives
-            </Link>
           </div>
         </div>
       </div>

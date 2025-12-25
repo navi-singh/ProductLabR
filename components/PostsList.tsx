@@ -3,7 +3,9 @@ import getPostMetadata from './getPostMetadata';
 
 export const PostsList = () => {
   const postMetadata = getPostMetadata();
-  const postPreviews = postMetadata.map((post) => (
+  // Limit to top 9 most recent reviews
+  const recentPosts = postMetadata.slice(0, 9);
+  const postPreviews = recentPosts.map((post) => (
     
         <Card key={post.slug} post={post} />
   ));

@@ -156,8 +156,6 @@ export default function ArticleContent({ content, publishDate, author }: Article
           font-size: 1.125rem;
           font-weight: 600;
           color: #374151;
-          background-color: #f0f9ff;
-          border-radius: 3px;
           border: none;
         }
 

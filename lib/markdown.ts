@@ -25,7 +25,8 @@ export function processMarkdownContent(content: string): string {
     );
     styledHtml = styledHtml.replace(
       /<h3>(.*?)<\/h3>/g,
-      '<div class="mb-4 mt-8" style="padding-left:1rem;"><h3 class="text-lg font-semibold uppercase tracking-wide w-full inline-block" style="border-bottom:2px solid #007ACC;letter-spacing:0.06em;"><span style="background-color:#007ACC;color:#fff;padding:0.25rem 1rem;border-radius:0.2rem;">$1</span></h3></div>'
+      '<div class="mb-4 mt-8" style="padding-left:1rem;"><h3 class="text-lg font-semibold uppercase tracking-wide w-full inline-block" style="border-bottom:2px solid #92cff7;letter-spacing:0.06em;"><span style="background-color:#92cff7;color:#fff;padding:0.25rem 1rem;border-radius:0.2rem;">$1</span></h3></div>'
+
     );
     styledHtml = styledHtml.replace(/<h4>/g, '<h4 class="text-lg font-semibold mb-2 mt-4">');
     

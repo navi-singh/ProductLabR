@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import "../styles/global.css";
 
 export const metadata: Metadata = {
@@ -50,6 +52,14 @@ export default function RootLayout({
         <meta name="theme-color" content="#1e40af" />
       </head>
         <body className="antialiased">
+        {/* Google AdSense Script */}
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CONFIG.publisherId}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        
         <div className="w-full lg:w-3/4 lg:mx-auto px-6">
         <Header />
         {children}

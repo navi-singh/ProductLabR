@@ -15,6 +15,8 @@ import RetailerLinks from '../../../components/article/PriceButton';
 import ArticleContent from '../../../components/article/ArticleContent';
 import AuthorBio from '../../../components/article/AuthorBio';
 import RelatedArticles from '../../../components/article/RelatedArticles';
+import AdBanner from '../../../components/ads/AdBanner';
+import { ADSENSE_CONFIG } from '../../../lib/adsense-config';
 
 export async function generateStaticParams() {
   const slugs = getAllPostSlugs();
@@ -54,6 +56,13 @@ return (
           <span>• {formattedDate}</span>
         </div>
       </header>
+
+      {/* TOP AD - High visibility */}
+      <AdBanner 
+        adSlot={ADSENSE_CONFIG.adSlots.articleTop}
+        adFormat="rectangle"
+        className="mb-4 text-center"
+      />
 
       {/* Product Image */}
       {metadata.productImage && (
@@ -125,11 +134,25 @@ return (
           {/* Pros & Cons */}
           <ProsCons pros={metadata.pros} cons={metadata.cons} />
 
+          {/* MID-ARTICLE AD - Best performing */}
+          <AdBanner 
+            adSlot={ADSENSE_CONFIG.adSlots.articleMid}
+            adFormat="rectangle"
+            className="my-6 text-center"
+          />
+
           {/* Main Review Content */}
           <ArticleContent 
             content={processMarkdownContent(content)} 
             publishDate={formattedDate}
             author={metadata.author}
+          />
+
+          {/* BOTTOM AD - Good for engagement */}
+          <AdBanner 
+            adSlot={ADSENSE_CONFIG.adSlots.articleBottom}
+            adFormat="rectangle"
+            className="mt-6 text-center"
           />
       
           {/* Author Bio */}
@@ -145,6 +168,12 @@ return (
         {/* Sidebar */}
         <div className="lg:col-span-1">
           <div className="sticky top-6 space-y-6">
+            {/* SIDEBAR AD - Sticky potential */}
+            <AdBanner 
+              adSlot={ADSENSE_CONFIG.adSlots.sidebar}
+              adFormat="vertical"
+              className="mb-4"
+            />
             {/* Related Articles */}
             <RelatedArticles 
               currentArticleSlug={slug}

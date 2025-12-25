@@ -41,23 +41,12 @@ const bestProducts: BestProduct[] = [
     rating: 4.7,
     priceRange: '$599 - $3,499',
     href: '/best/cameras'
-  },
-  {
-    id: 'knives-tools',
-    title: 'Best Knives & Tools 2025',
-    description: 'Premium knives, multi-tools, and everyday carry essentials. Tested for durability, functionality, and craftsmanship.',
-    image: '/images/item.png',
-    category: 'Tools',
-    rating: 4.6,
-    priceRange: '$49 - $499',
-    href: '/best/knives-tools'
   }
 ];
 
 const quickCategories = [
   { name: 'Power Stations', count: 19, href: '/best/power-stations' },
   { name: 'Cameras', count: 15, href: '/best/cameras' },
-  { name: 'Tools & Knives', count: 1, href: '/best/knives-tools' },
   { name: 'Tech Gadgets', count: 0, href: '/best/tech-gadgets' },
   { name: 'Home & Garden', count: 0, href: '/best/home-garden' },
   { name: 'Outdoor Gear', count: 0, href: '/best/outdoor-gear' }

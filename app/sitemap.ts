@@ -17,7 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/best/cameras/hybrid-cameras-under-3000',
     '/best/cameras/professional-cameras',
     '/best/cameras/professional-photo-cameras',
-    '/best/knives-tools',
   ];
 
   // Generate sitemap entries

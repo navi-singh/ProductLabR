@@ -9,7 +9,6 @@ export const Footer = () => {
       links: [
         { href: '/best/power-stations', label: 'Power Stations' },
         { href: '/best/cameras', label: 'Cameras' },
-        { href: '/best/knives-tools', label: 'Tools & Knives' },
       ],
     },
     {

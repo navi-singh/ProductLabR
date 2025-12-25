@@ -16,7 +16,6 @@ export const Header = () => {
     { href: '/best', label: 'Best' },
     { href: '/best/power-stations', label: 'Power Stations' },
     { href: '/best/cameras', label: 'Cameras' },
-    { href: '/best/knives-tools', label: 'Tools' },
   ];
 
   return (

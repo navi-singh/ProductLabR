@@ -1,6 +1,9 @@
 import { PostsList } from '@/components/PostsList';
 import { Top10Popular } from '@/components/Top10Popular';
 import { OptimizedImage } from '@/components/OptimizedImage';
+import AdBanner from '@/components/ads/AdBanner';
+import ResponsiveAd from '@/components/ads/ResponsiveAd';
+import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -14,7 +17,6 @@ export default function Home() {
   const trendingCategories = [
     { title: 'Best Power Stations', href: '/best/power-stations', isActive: true },
     { title: 'Best Cameras', href: '/best/cameras' },
-    { title: 'Best Tools & Knives', href: '/best/knives-tools' },
     { title: 'Best Home Backup', href: '/best/power-stations/house-backup-power-stations' },
     { title: 'Expert Insights', href: '/best' }
   ];
@@ -69,19 +71,6 @@ export default function Home() {
           image: '/images/item.png'
         }
       ]
-    },
-    {
-      title: 'Tools & Knives',
-      subtitle: 'Premium Tools, Professional Knives or see all in Tools & Knives',
-      image: '/images/item.png',
-      featuredProducts: [
-        {
-          title: 'Best Professional Knives',
-          description: 'High-quality knives and tools for professionals and enthusiasts.',
-          href: '/best/knives-tools',
-          image: '/images/item.png'
-        }
-      ]
     }
   ];
 
@@ -119,24 +108,39 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-800">
             Reviews You Can Rely On
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Product Lab provides comprehensive reviews and testing insights to help you make informed purchasing decisions.
+          <p className="text-xl text-gray-700 max-w-2xl mx-auto mb-4 font-medium">
+            Professional. Thorough. Powered by Testing.
           </p>
+          <p className="text-lg text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
+            Product Lab is founded on the principle of honest, objective reviews. Our experts test thousands of products each year using thoughtful test plans that bring out key performance differences between competing products. We provide comprehensive testing and detailed analysis to help you make informed purchasing decisions.
+          </p>
+          <Link 
+            href="/best" 
+            className="inline-block bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+          >
+            Explore Best Products
+          </Link>
         </section>
+
+        {/* TOP HOME AD */}
+        <ResponsiveAd 
+          mobileAdSlot={ADSENSE_CONFIG.adSlots.homeHeaderMobile}
+          desktopAdSlot={ADSENSE_CONFIG.adSlots.homeHeaderDesktop}
+          className="mb-8 text-center"
+        />
 
         {/* Category Sections */}
         {categoryFeaturedProducts.map((category, categoryIndex) => (
-          <section key={category.title} className="mb-16">
-            <div className="border-b border-gray-200 pb-4 mb-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-2">{category.title}</h2>
-              <p className="text-gray-600">{category.subtitle}</p>
+          <section key={category.title} className="mb-12">
+            <div className="border-b border-gray-200 pb-3 mb-6">
+              <h2 className="text-3xl font-bold text-gray-800">{category.title}</h2>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               {category.featuredProducts.map((product, productIndex) => (
                 <Link key={product.title} href={product.href} className="group">
-                  <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-                    <div className="relative h-48 overflow-hidden bg-gray-100">
+                  <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
+                    <div className="relative h-36 overflow-hidden bg-gray-100">
                       <OptimizedImage 
                         src={product.image} 
                         alt={`${product.title} - Expert review and comparison`}
@@ -146,16 +150,16 @@ export default function Home() {
                         priority={categoryIndex === 0 && productIndex === 0}
                       />
                       {productIndex === 0 && (
-                        <div className="absolute top-3 left-3 bg-purple-500 text-white px-3 py-1 rounded-full text-xs font-bold">
+                        <div className="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-bold">
                           Top Pick
                         </div>
                       )}
                     </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-purple-600 transition-colors">
+                    <div className="p-4">
+                      <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-purple-600 transition-colors">
                         {product.title}
                       </h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">
+                      <p className="text-gray-600 text-xs leading-relaxed">
                         {product.description}
                       </p>
                     </div>
@@ -163,26 +167,18 @@ export default function Home() {
                 </Link>
               ))}
             </div>
+
+            {/* AD BETWEEN CATEGORIES - After first category */}
+            {categoryIndex === 0 && (
+              <AdBanner 
+                adSlot={ADSENSE_CONFIG.adSlots.homeBetweenCategories}
+                adFormat="rectangle"
+                className="my-8 text-center"
+              />
+            )}
           </section>
         ))}
 
-        {/* Ad-free Independence Section */}
-        <section className="bg-gradient-to-r from-trustworthy/5 to-purple-500/5 rounded-xl p-8 mb-12">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">
-              Professional. Thorough. Powered by Testing.
-            </h2>
-            <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Product Lab is founded on the principle of honest, objective reviews. Our experts test thousands of products each year using thoughtful test plans that bring out key performance differences between competing products. We provide comprehensive testing and detailed analysis to help you make informed purchasing decisions.
-            </p>
-            <Link 
-              href="/best" 
-              className="inline-block mt-6 bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-colors"
-            >
-              Learn More
-            </Link>
-          </div>
-        </section>
 
         {/* Latest Reviews Sidebar */}
         <section>
