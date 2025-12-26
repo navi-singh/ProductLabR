@@ -2,8 +2,8 @@
 title: "Hasselblad X2D 100C: Expert Review with Real-World Testing"
 subtitle: "A comprehensive review of Hasselblad's latest camera technology"
 date: "2025-08-17"
-image: "/images/posts/hasselblad_x2d_100c.webp"
-productImage: "/images/posts/hasselblad_x2d_100c.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "100MP Medium Format CMOS"

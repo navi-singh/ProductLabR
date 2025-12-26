@@ -2,8 +2,8 @@
 title: "Sony A7 IV: Comprehensive Testing for Photo and Video"
 subtitle: "A comprehensive review of Sony's latest camera technology"
 date: "2025-08-17"
-image: "/images/posts/sony_a7_iv.webp"
-productImage: "/images/posts/sony_a7_iv.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "33MP Full-Frame CMOS"

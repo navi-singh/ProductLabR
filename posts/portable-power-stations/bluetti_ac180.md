@@ -2,8 +2,8 @@
 title: "Bluetti AC180: Comprehensive Testing and Real-World Performance"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-16"
-image: "/images/posts/bluetti_ac180/bluetti_ac180_main.webp"
-productImage: "/images/posts/bluetti_ac180/bluetti_ac180_main.webp"
+image: "/images/posts/bluetti_ac180/AC180_main.webp"
+productImage: "/images/posts/bluetti_ac180/AC180_main.webp"
 
 specs:
   Capacity: "1152Wh"

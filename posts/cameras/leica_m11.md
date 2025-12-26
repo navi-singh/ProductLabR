@@ -2,8 +2,8 @@
 title: "Leica M11: Comprehensive Testing for Photo and Video"
 subtitle: "A comprehensive review of Leica's latest camera technology"
 date: "2025-08-17"
-image: "/images/posts/leica_m11.webp"
-productImage: "/images/posts/leica_m11.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "60MP Full-Frame CMOS"

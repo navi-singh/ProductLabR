@@ -2,8 +2,8 @@
 title: "Panasonic Lumix S1R II: Expert Review with Real-World Testing"
 subtitle: "A comprehensive review of Panasonic's latest camera technology"
 date: "2025-08-17"
-image: "/images/posts/panasonic_lumix_s1r_ii.webp"
-productImage: "/images/posts/panasonic_lumix_s1r_ii.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "47.3MP Full-Frame CMOS"

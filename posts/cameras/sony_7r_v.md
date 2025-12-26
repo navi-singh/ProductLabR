@@ -2,8 +2,8 @@
 title: "Sony α7R V: Comprehensive Testing for Photo and Video"
 subtitle: "A comprehensive review of Sony's latest camera technology"
 date: "2025-08-16"
-image: "/images/posts/sony_7r_v.webp"
-productImage: "/images/posts/sony_7r_v.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "61MP Full-Frame CMOS"

@@ -2,8 +2,8 @@
 title: "Fujifilm X-H2S: Expert Review with Real-World Testing"
 subtitle: "A comprehensive review of Fujifilm's latest camera technology"
 date: "2025-08-17"
-image: "/images/posts/fujifilm_xh2s.webp"
-productImage: "/images/posts/fujifilm_xh2s.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "26.1MP APS-C X-Trans CMOS"

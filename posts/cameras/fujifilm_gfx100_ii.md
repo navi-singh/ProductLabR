@@ -2,8 +2,8 @@
 title: "Fujifilm GFX100 II: The Ultimate Camera for Content Creation"
 subtitle: "A comprehensive review of Fujifilm's latest camera technology"
 date: "2025-08-17"
-image: "/images/posts/fujifilm_gfx100_ii.webp"
-productImage: "/images/posts/fujifilm_gfx100_ii.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "102MP Medium Format CMOS"

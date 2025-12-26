@@ -2,8 +2,8 @@
 title: "Canon EOS R5 Mark II: Expert Review with Real-World Testing"
 subtitle: "A comprehensive review of Canon's latest camera technology"
 date: "2025-08-17"
-image: "/images/posts/canon_eos_r5_mark_ii.webp"
-productImage: "/images/posts/canon_eos_r5_mark_ii.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "45MP Full-Frame CMOS"

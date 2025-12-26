@@ -2,8 +2,8 @@
 title: "Canon EOS R6 Mark II: The Ultimate Camera for Content Creation"
 subtitle: "A comprehensive review of Canon's latest camera technology"
 date: "2025-08-16"
-image: "/images/posts/canon_eos_r6_mark_ii.webp"
-productImage: "/images/posts/canon_eos_r6_mark_ii.webp"
+image: "/images/item.png"
+productImage: "/images/item.png"
 
 specs:
   Sensor: "24.2MP Full-Frame CMOS"
