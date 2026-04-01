@@ -1,24 +1,22 @@
 'use client';
 
-import React from 'react';
 import Image from 'next/image';
 
 interface ProductImageProps {
   src: string;
   alt: string;
-  aspectRatio?: string;
 }
 
-export default function ProductImage({ src, alt, aspectRatio = 'aspect-[3/1]' }: ProductImageProps) {
+export default function ProductImage({ src, alt }: ProductImageProps) {
   return (
-    <div className="mb-3">
-      <div className={`relative w-full ${aspectRatio} bg-gray-50 rounded-xl overflow-hidden`}>
+    <div className="overflow-hidden rounded-xl border border-neutral-200 bg-white">
+      <div className="relative aspect-[16/9] w-full">
         <Image
           src={src}
           alt={alt}
           fill
-          className="object-cover w-full h-full"
-          sizes="100vw"
+          className="object-contain p-6"
+          sizes="(max-width: 1024px) 100vw, 67vw"
           priority
         />
       </div>
