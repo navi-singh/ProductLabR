@@ -1,19 +1,20 @@
+import Link from 'next/link';
 import getPostMetadata from './getPostMetadata';
 
-export const Top10Popular = () => {
-  const posts = getPostMetadata();
-  
+export function Top10Popular() {
+  const posts = getPostMetadata().slice(0, 5);
+
   return (
-    <div>
-      <h3 className="mb-4 text-xl font-bold">TOP 10 Popular</h3>
-      <ul className="space-y-4">
-        {posts.slice(0, 10).map((post, index) => (
-          <li key={post.slug} className="flex items-start space-x-2">
-            <span className="text-2xl font-bold text-gray-300">{index + 1}</span>
-            <p className="font-medium">{post.title}</p>
+    <div className="rounded-xl border border-primary-light bg-gradient-to-b from-primary-lightest to-neutral-50 p-4">
+      <h3 className="mb-3 text-xs font-semibold uppercase tracking-widest text-primary">Trending</h3>
+      <ol className="space-y-0">
+        {posts.map((post, i) => (
+          <li key={post.slug} className="flex gap-2 border-b border-primary/10 py-2 last:border-0">
+            <span className="text-sm font-bold text-accent">{i + 1}</span>
+            <Link href={`/articles/${post.slug}`} className="text-[13px] text-neutral-700 hover:text-primary">{post.title}</Link>
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
-};
+}
