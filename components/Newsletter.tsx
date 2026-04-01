@@ -1,13 +1,29 @@
-// import { Button } from '@/components/ui/button';
-// import { Input } from '@/components/ui/input';
+'use client';
 
-// export const Newsletter = () => {
-//   return (
-//     <div className="rounded-lg bg-gray-100 p-6">
-//       <h3 className="mb-4 text-xl font-bold">Join Product Labs Newsletter</h3>
-//       <p className="mb-4">Sign up to receive Product Lab content direct to your inbox.</p>
-//       <Input className="mb-4" placeholder="Enter your email" type="email" />
-//       <Button className="w-full bg-orange-500 hover:bg-orange-600">SUBSCRIBE NOW</Button>
-//     </div>
-//   );
-// };
+import { useState } from 'react';
+
+interface NewsletterProps {
+  title?: string;
+  description?: string;
+}
+
+export function Newsletter({ title = 'Get our picks', description = 'Weekly roundup of our best reviews and deals.' }: NewsletterProps) {
+  const [email, setEmail] = useState('');
+
+  return (
+    <div className="rounded-xl bg-gradient-to-br from-primary to-primary-dark p-4 text-white">
+      <h3 className="text-sm font-semibold">{title}</h3>
+      <p className="mt-1 text-xs text-white/85">{description}</p>
+      <input
+        type="email"
+        placeholder="your@email.com"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        className="mt-2.5 w-full rounded border border-white/25 bg-white/15 px-3 py-2 text-xs text-white placeholder:text-white/60 focus:outline-none focus:ring-1 focus:ring-white/40"
+      />
+      <button className="mt-1.5 w-full rounded bg-accent py-2 text-xs font-semibold text-white hover:bg-accent/90">
+        Subscribe
+      </button>
+    </div>
+  );
+}
