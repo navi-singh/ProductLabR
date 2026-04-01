@@ -1,6 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import { getPostsByCategory, getCategoryDisplayName } from '../../lib/Posts';
+import { getPostsByCategory } from '@/lib/Posts';
 
 interface RelatedArticlesProps {
   currentArticleSlug: string;
@@ -8,88 +7,35 @@ interface RelatedArticlesProps {
   limit?: number;
 }
 
-export default function RelatedArticles({ 
-  currentArticleSlug, 
-  category = 'general', 
-  limit = 4 
-}: RelatedArticlesProps) {
-  // Get all articles from the same category
-  const categoryArticles = getPostsByCategory(category);
-  
-  // Filter out the current article and limit the results
-  const relatedArticles = categoryArticles
-    .filter(article => article.slug !== currentArticleSlug)
+export function RelatedArticles({ currentArticleSlug, category, limit = 4 }: RelatedArticlesProps) {
+  if (!category) return null;
+
+  const posts = getPostsByCategory(category)
+    .filter((p) => p.slug !== currentArticleSlug)
     .slice(0, limit);
 
-  if (relatedArticles.length === 0) {
-    return null;
-  }
-
-  const categoryDisplayName = getCategoryDisplayName(category);
+  if (posts.length === 0) return null;
 
   return (
-    <aside className="bg-white border-2 border-gray-200 rounded-2xl p-4 shadow-lg">
-      <h3 className="text-xl font-bold text-gray-800 mb-4 border-b border-gray-200 pb-2">
-        More {categoryDisplayName}
-      </h3>
-      
-      <div className="space-y-4">
-        {relatedArticles.map((article) => (
-          <Link 
-            key={article.slug} 
-            href={`/articles/${article.slug}`}
-            className="block group hover:bg-gray-50 rounded-lg p-2 transition-colors duration-200"
-          >
-            <div className="flex items-start space-x-3">
-              {/* Thumbnail */}
-              <div className="flex-shrink-0 w-16 h-16 relative rounded-lg overflow-hidden bg-gray-200">
-                {article.image ? (
-                  <Image
-                    src={article.image}
-                    alt={article.title}
-                    fill
-                    sizes="64px"
-                    className="object-cover group-hover:scale-105 transition-transform duration-200"
-                  />
-                ) : (
-                  <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400 flex items-center justify-center">
-                    <span className="text-gray-600 text-xs font-semibold">
-                      {article.title.charAt(0)}
-                    </span>
-                  </div>
-                )}
-              </div>
-              
-              {/* Content */}
-              <div className="flex-1 min-w-0">
-                <h4 className="text-sm font-semibold text-gray-800 group-hover:text-blue-600 transition-colors duration-200 line-clamp-2 leading-tight">
-                  {article.title}
-                </h4>
-                {article.subtitle && (
-                  <p className="text-xs text-gray-500 mt-1 line-clamp-2 leading-tight">
-                    {article.subtitle}
-                  </p>
-                )}
-                {article.price && (
-                  <p className="text-xs text-green-600 font-medium mt-1">
-                    {article.price}
-                  </p>
-                )}
-              </div>
-            </div>
-          </Link>
-        ))}
+    <div className="mt-4">
+      <h3 className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-primary">Related</h3>
+      <div className="space-y-0">
+        {posts.map((post) => {
+          const score = post.ratingBreakdown
+            ? post.ratingBreakdown.metrics.reduce((s, m) => s + m.score, 0) / post.ratingBreakdown.metrics.length
+            : null;
+          return (
+            <Link key={post.slug} href={`/articles/${post.slug}`} className="block border-b border-neutral-100 py-2 last:border-0">
+              <div className="text-xs font-medium text-neutral-700 hover:text-primary">{post.title}</div>
+              {score && (
+                <div className="mt-0.5 text-[11px] text-primary">
+                  {(score / 10).toFixed(1)} {score / 10 >= 9 ? 'Excellent' : score / 10 >= 8 ? 'Great' : 'Good'}
+                </div>
+              )}
+            </Link>
+          );
+        })}
       </div>
-      
-      {/* View All Link */}
-      <div className="mt-4 pt-3 border-t border-gray-200">
-        <Link 
-          href={`/category/${category}`}
-          className="text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200"
-        >
-          View All {categoryDisplayName} →
-        </Link>
-      </div>
-    </aside>
+    </div>
   );
 }
