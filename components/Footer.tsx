@@ -4,14 +4,25 @@ const footerSections = [
   {
     title: 'Categories',
     links: [
+      { label: 'Laptops', href: '/best/laptops' },
+      { label: 'TVs', href: '/best/tvs' },
+      { label: 'Headphones & Earbuds', href: '/best/headphones' },
+      { label: 'Smartphones', href: '/best/smartphones' },
+      { label: 'Monitors', href: '/best/monitors' },
+      { label: 'Smart Home', href: '/best/smart-home' },
+      { label: 'Wearables', href: '/best/wearables' },
+      { label: 'Gaming', href: '/best/gaming' },
       { label: 'Cameras', href: '/best/cameras' },
       { label: 'Power Stations', href: '/best/power-stations' },
-      { label: 'Knives & Tools', href: '/best' },
     ],
   },
   {
     title: 'Best Of',
     links: [
+      { label: 'Best Gaming Laptops', href: '/best/laptops/gaming-laptops' },
+      { label: 'Best OLED TVs', href: '/best/tvs/best-oled-tvs' },
+      { label: 'Best Wireless Earbuds', href: '/best/headphones/best-wireless-earbuds' },
+      { label: 'Best Smartwatches', href: '/best/wearables/best-smartwatches' },
       { label: 'Best Hybrid Cameras', href: '/best/cameras/hybrid-cameras' },
       { label: 'Best Pro Cameras', href: '/best/cameras/professional-cameras' },
       { label: 'Best Portable Power Stations', href: '/best/power-stations/portable-power-stations' },
