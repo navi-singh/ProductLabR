@@ -23,7 +23,7 @@ const macbooks: MacBookEntry[] = [
   {
     rank: 1,
     name: 'MacBook Pro 14-inch M4 Pro',
-    href: '/best/laptops/macbooks',
+    href: '/articles/macbook_pro_14_m4_pro',
     image: '/images/item.png',
     summary: 'The best all-around MacBook with extraordinary M4 Pro performance, a stunning Liquid Retina XDR display, and all-day battery in a compact form.',
     score: 9.5,
@@ -34,7 +34,7 @@ const macbooks: MacBookEntry[] = [
   {
     rank: 2,
     name: 'MacBook Air M3',
-    href: '/best/laptops/macbooks',
+    href: '/articles/macbook_air_m3',
     image: '/images/item.png',
     summary: 'The perfect everyday MacBook — fanless design, stunning 15-inch display option, exceptional battery life, and M3 performance for most tasks.',
     score: 9.3,
@@ -45,20 +45,20 @@ const macbooks: MacBookEntry[] = [
   {
     rank: 3,
     name: 'MacBook Pro 16-inch M4 Max',
-    href: '/best/laptops/macbooks',
+    href: '/articles/macbook_pro_16_m4_max',
     image: '/images/item.png',
     summary: 'The ultimate MacBook for power users and creative professionals needing maximum compute for video editing, 3D rendering, and ML workloads.',
     score: 9.4,
     price: '$3,499',
-    badge: 'best-overall' as const,
+    badge: 'best-value' as const,
     specs: { Chip: 'Apple M4 Max', RAM: '48GB unified', SSD: '1TB', Display: '16.2" Liquid Retina XDR', 'Battery Life': '24hr' },
   },
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'MacBook Pro 14" M4 Pro', href: '/best/laptops/macbooks', score: 9.5, price: '$1,999' },
-  { label: 'Best Value', name: 'MacBook Air M3', href: '/best/laptops/macbooks', score: 9.3, price: '$1,099' },
-  { label: 'Pro Pick', name: 'MacBook Pro 16" M4 Max', href: '/best/laptops/macbooks', score: 9.4, price: '$3,499' },
+  { label: 'Best Overall', name: 'MacBook Pro 14" M4 Pro', href: '/articles/macbook_pro_14_m4_pro', score: 9.5, price: '$1,999' },
+  { label: 'Best Value', name: 'MacBook Air M3', href: '/articles/macbook_air_m3', score: 9.3, price: '$1,099' },
+  { label: 'Pro Pick', name: 'MacBook Pro 16" M4 Max', href: '/articles/macbook_pro_16_m4_max', score: 9.4, price: '$3,499' },
 ];
 
 export default function MacBooksPage() {
