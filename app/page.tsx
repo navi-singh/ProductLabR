@@ -77,7 +77,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       {/* Trending Section at Top */}
-      <section className="bg-gradient-to-r from-trustworthy/5 to-purple-500/5 border-b border-gray-200">
+      <section className="bg-gradient-to-r from-primary/5 to-purple-500/5 border-b border-gray-200">
         <div className="container mx-auto px-4">
           <div className="flex items-center overflow-x-auto py-4">
             <span className="text-sm font-semibold text-gray-600 mr-6 whitespace-nowrap">
@@ -90,8 +90,8 @@ export default function Home() {
                   href={category.href}
                   className={`px-6 py-3 rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-200 ${
                     category.isActive
-                      ? 'bg-trustworthy text-white shadow-md'
-                      : 'text-gray-600 hover:text-trustworthy hover:bg-white/50'
+                      ? 'bg-primary text-white shadow-md'
+                      : 'text-gray-600 hover:text-primary hover:bg-white/50'
                   }`}
                 >
                   {category.title}

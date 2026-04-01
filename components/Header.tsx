@@ -19,7 +19,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="bg-trustworthy text-white sticky top-0 z-50 shadow-md">
+    <header className="bg-primary text-white sticky top-0 z-50 shadow-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <div className="flex items-center space-x-4">
           <button
@@ -65,7 +65,7 @@ export const Header = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-trustworthy border-t border-white/10">
+        <div className="md:hidden bg-primary border-t border-white/10">
           <nav className="px-4 py-4 space-y-3">
             {navigationItems.map((item) => (
               <Link

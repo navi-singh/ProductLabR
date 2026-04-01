@@ -71,7 +71,7 @@ export default function BestHybridCameras() {
     <div className="min-h-screen bg-gray-50">
       
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-trustworthy/10 to-purple-500/10 bg-gray-50 text-gray-800">
+      <div className="bg-gradient-to-r from-primary/10 to-purple-500/10 bg-gray-50 text-gray-800">
         <div className="container mx-auto px-4 py-10">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Best Hybrid Cameras 2025

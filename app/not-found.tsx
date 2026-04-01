@@ -51,7 +51,7 @@ export default function NotFound() {
           <div className="flex flex-wrap gap-2 justify-center">
             <Link
               href="/best/power-stations"
-              className="text-xs bg-trustworthy/10 text-trustworthy px-3 py-1 rounded-full hover:bg-trustworthy/20 transition-colors"
+              className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full hover:bg-primary/20 transition-colors"
             >
               Power Stations
             </Link>

@@ -38,7 +38,7 @@ export function processMarkdownContent(content: string): string {
     styledHtml = styledHtml.replace(/<li>/g, '<li class="mb-2">');
     
     // Style links
-    styledHtml = styledHtml.replace(/<a /g, '<a class="text-trustworthy hover:underline" ');
+    styledHtml = styledHtml.replace(/<a /g, '<a class="text-primary hover:underline" ');
     
     // Style emphasis
     styledHtml = styledHtml.replace(/<strong>/g, '<strong class="font-bold">');
