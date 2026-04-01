@@ -1,250 +1,184 @@
+import { Metadata } from 'next';
+import { Breadcrumb } from '@/components/Breadcrumb';
+import { SectionLabel } from '@/components/SectionLabel';
+import { QuickPicks } from '@/components/QuickPicks';
+import { RankedProductCard } from '@/components/RankedProductCard';
+import { Newsletter } from '@/components/Newsletter';
+import AdBanner from '@/components/ads/AdBanner';
+import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
-import RatingBadge from '@/components/article/RatingBadge';
-import StarRating from '@/components/article/StarRating';
+export const metadata: Metadata = {
+  title: 'Best Hybrid Cameras 2025 - Expert Reviews',
+  description: 'Top cameras excelling at both photography and videography. Expert tested hybrid cameras for professionals and content creators.',
+};
+
+interface CamEntry {
+  rank: number; name: string; href: string; image: string; summary: string;
+  score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
+  specs?: Record<string, string>;
+}
+
+const cameras: CamEntry[] = [
+  {
+    rank: 1,
+    name: 'Canon EOS R5 Mark II',
+    href: '/articles/canon_eos_r5_mark_ii',
+    image: '/images/item.png',
+    summary: 'Outstanding hybrid performance with 8K 30p video, 45MP full-frame, Eye Control AF, and 8.5-stop IBIS.',
+    score: 9.5,
+    price: '$4,299',
+    badge: 'best-overall' as const,
+    specs: { Sensor: '45MP Full-Frame', Video: '8K 30p', IBIS: '8.5-stop', AF: 'Eye Control' },
+  },
+  {
+    rank: 2,
+    name: 'Sony A1 II',
+    href: '/articles/sony_a1_ii',
+    image: '/images/item.png',
+    summary: 'Exceptional speed and performance with 50MP sensor, 8K 30p video, and elite AI recognition autofocus.',
+    score: 9.4,
+    price: '$6,499',
+    badge: 'best-value' as const,
+    specs: { Sensor: '50MP Full-Frame', Video: '8K 30p', AF: 'AI recognition', Speed: 'Elite' },
+  },
+  {
+    rank: 3,
+    name: 'Nikon Z8',
+    href: '/articles/nikon_z8',
+    image: '/images/item.png',
+    summary: 'Compact pro-grade design with excellent 8K video, outstanding dynamic range, and 45.7MP sensor.',
+    score: 9.2,
+    price: '$3,996',
+    badge: 'budget-pick' as const,
+    specs: { Sensor: '45.7MP Full-Frame', Video: '8K 60p', IBIS: '6-stop', Form: 'Compact Pro' },
+  },
+  {
+    rank: 4,
+    name: 'Panasonic Lumix S1R II',
+    href: '/articles/panasonic_lumix_s1r_ii',
+    image: '/images/item.png',
+    summary: 'Professional video features with high resolution 47.3MP sensor and advanced codec support.',
+    score: 8.8,
+    price: '$3,699',
+    specs: { Sensor: '47.3MP Full-Frame', Video: '6K 30p', IBIS: '6.5-stop', Codecs: 'Pro' },
+  },
+  {
+    rank: 5,
+    name: 'Fujifilm X-H2S',
+    href: '/articles/fujifilm_xh2s',
+    image: '/images/item.png',
+    summary: 'APS-C powerhouse performance with excellent video specs and compact form factor.',
+    score: 8.6,
+    price: '$2,499',
+    specs: { Sensor: '26.1MP APS-C', Video: '6.2K 30p', IBIS: '7-stop', Form: 'Compact' },
+  },
+];
+
+const quickPicks = [
+  { label: 'Best Overall', name: 'Canon R5 Mark II', href: '/articles/canon_eos_r5_mark_ii', score: 9.5, price: '$4,299' },
+  { label: 'Best Value', name: 'Sony A1 II', href: '/articles/sony_a1_ii', score: 9.4, price: '$6,499' },
+  { label: 'Budget Pick', name: 'Nikon Z8', href: '/articles/nikon_z8', score: 9.2, price: '$3,996' },
+];
 
 export default function BestHybridCameras() {
-  const hybridCameras = [
-    {
-      rank: 1,
-      name: 'Canon EOS R5 Mark II',
-      href: '/articles/canon_eos_r5_mark_ii',
-      price: '$4,299',
-      rating: 9.5,
-      image: '/images/item.png',
-      keyFeatures: ['8K 30p video', '45MP full-frame', 'Eye Control AF', '8.5-stop IBIS'],
-      pros: ['Outstanding hybrid performance', 'Advanced autofocus system', 'Professional build quality'],
-      cons: ['Very expensive', 'Heat management in 8K', 'Large file sizes'],
-      bestFor: 'Professional hybrid shooters needing ultimate photo and video performance'
-    },
-    {
-      rank: 2,
-      name: 'Sony A1 II',
-      href: '/articles/sony_a1_ii',
-      price: '$6,499',
-      rating: 9.4,
-      image: '/images/item.png',
-      keyFeatures: ['50MP sensor', '8K 30p video', 'AI recognition AF', 'Elite performance'],
-      pros: ['Exceptional speed and performance', 'High-resolution sensor', 'Advanced AI autofocus'],
-      cons: ['Extremely expensive', 'Complex menu system', 'Battery life under heavy use'],
-      bestFor: 'Elite professionals demanding ultimate performance in both stills and video'
-    },
-    {
-      rank: 3,
-      name: 'Nikon Z8',
-      href: '/articles/nikon_z8',
-      price: '$3,996',
-      rating: 9.2,
-      image: '/images/item.png',
-      keyFeatures: ['45.7MP sensor', '8K 60p video', 'Compact pro body', '6-stop IBIS'],
-      pros: ['Compact pro-grade design', 'Excellent 8K video', 'Outstanding dynamic range'],
-      cons: ['Expensive', 'Limited lens selection', 'Menu complexity'],
-      bestFor: 'Professional hybrid shooters wanting compact form factor with pro features'
-    },
-    {
-      rank: 4,
-      name: 'Panasonic Lumix S1R II',
-      href: '/articles/panasonic_lumix_s1r_ii',
-      price: '$3,699',
-      rating: 8.8,
-      image: '/images/item.png',
-      keyFeatures: ['47.3MP sensor', '6K 30p video', 'Pro video toolkit', '6.5-stop IBIS'],
-      pros: ['Professional video features', 'High resolution sensor', 'Advanced codec support'],
-      cons: ['Slower autofocus', 'Limited lens ecosystem', 'Complex video menus'],
-      bestFor: 'Video professionals needing high resolution stills capability'
-    },
-    {
-      rank: 5,
-      name: 'Fujifilm X-H2S',
-      href: '/articles/fujifilm_xh2s',
-      price: '$2,499',
-      rating: 8.6,
-      image: '/images/item.png',
-      keyFeatures: ['26.1MP APS-C', '6.2K 30p video', 'Compact powerhouse', '7-stop IBIS'],
-      pros: ['APS-C powerhouse performance', 'Excellent video specs', 'Compact form factor'],
-      cons: ['APS-C vs full-frame', 'Limited low-light performance', 'Smaller lens selection'],
-      bestFor: 'Hybrid creators wanting compact high-performance system'
-    }
-  ];
-
   return (
-    <div className="min-h-screen bg-gray-50">
-      
-      {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary/10 to-purple-500/10 bg-gray-50 text-gray-800">
-        <div className="container mx-auto px-4 py-10">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
-            Best Hybrid Cameras 2025
-          </h1>
-          <p className="text-lg md:text-xl mb-6 text-gray-600">
-            Top cameras excelling at both photography and videography
+    <div className="min-h-screen bg-neutral-50">
+      <Breadcrumb items={[
+        { label: 'Home', href: '/' },
+        { label: 'Best Of', href: '/best' },
+        { label: 'Cameras', href: '/best/cameras' },
+        { label: 'Hybrid Cameras' },
+      ]} />
+
+      <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
+        <div className="mx-auto max-w-content">
+          <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Hybrid Cameras 2025</h1>
+          <p className="mt-2 max-w-2xl text-base text-white/80">
+            Top cameras excelling at both photography and videography. Tested extensively for image quality, video performance, and overall versatility.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              Photo + Video Excellence
-            </span>
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              Professional Features
-            </span>
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              8K Video Capability
-            </span>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {['Photo + Video Excellence', 'Professional Features', '8K Video Capability'].map((tag) => (
+              <span key={tag} className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs text-white/90">{tag}</span>
+            ))}
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main Content */}
-          <div className="lg:col-span-2">
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold mb-4">Top 5 Hybrid Cameras</h2>
-              <p className="text-gray-600 mb-6">
-                These cameras represent the pinnacle of hybrid performance, offering exceptional capabilities 
-                for both photography and videography. Each model has been tested extensively for image quality, 
-                video performance, autofocus accuracy, and overall versatility.
-              </p>
-            </div>
+      <div className="mx-auto max-w-content px-4 py-8 sm:px-6">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[7fr_3fr]">
+          <main className="space-y-6">
+            <QuickPicks picks={quickPicks} />
 
-            {/* Camera Rankings */}
-            <div className="space-y-8">
-              {hybridCameras.map((camera) => (
-                <div key={camera.rank} className="bg-white rounded-xl shadow-lg p-6">
-                  <div className="flex items-start justify-between mb-4">
-                    <div className="flex items-center gap-4">
-                      <div className="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
-                        {camera.rank}
-                      </div>
-                      <div>
-                        <h3 className="text-xl font-bold">{camera.name}</h3>
-                        <p className="text-gray-600">{camera.bestFor}</p>
-                      </div>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-2xl font-bold text-purple-500 mb-1">{camera.price}</div>
-                      <RatingBadge rating={camera.rating} />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                    <div>
-                      <h4 className="font-semibold mb-2 text-purple-500">Key Features</h4>
-                      <ul className="space-y-1">
-                        {camera.keyFeatures.map((feature, index) => (
-                          <li key={index} className="text-sm text-gray-600">• {feature}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold mb-2 text-purple-500">Pros</h4>
-                      <ul className="space-y-1">
-                        {camera.pros.map((pro, index) => (
-                          <li key={index} className="text-sm text-gray-600">+ {pro}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="flex justify-between items-center">
-                    <StarRating rating={camera.rating} />
-                    <Link 
-                      href={camera.href}
-                                              className="bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
-                    >
-                      Read Review →
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Buying Guide */}
-            <div className="mt-12 bg-white rounded-xl shadow-lg p-6">
-              <h2 className="text-2xl font-bold mb-4">Hybrid Camera Buying Guide</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="font-semibold mb-2">What Makes a Great Hybrid Camera?</h3>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Excellent video recording capabilities (4K/8K)</li>
-                    <li>• High-resolution sensor for detailed stills</li>
-                    <li>• Advanced autofocus for both photo and video</li>
-                    <li>• In-body image stabilization</li>
-                    <li>• Professional video features and codecs</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Consider Your Needs</h3>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Budget: Hybrid cameras range from $2,500-$6,500</li>
-                    <li>• Primary use: More photo or video focused?</li>
-                    <li>• Portability: Full-frame vs APS-C considerations</li>
-                    <li>• Lens ecosystem: Available lenses for your needs</li>
-                    <li>• Learning curve: Menu complexity and features</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Sidebar */}
-          <div className="space-y-6">
-            <div className="bg-white rounded-xl shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">Quick Comparison</h3>
+            <div>
+              <SectionLabel>Ranked List</SectionLabel>
               <div className="space-y-4">
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Best Overall</span>
-                    <span className="text-sm text-purple-600">Canon R5 Mark II</span>
+                {cameras.map((cam, i) => (
+                  <div key={cam.rank}>
+                    <RankedProductCard {...cam} />
+                    {i === 2 && (
+                      <div className="mt-4">
+                        <AdBanner adSlot={ADSENSE_CONFIG.adSlots.categoryBottom} adFormat="auto" className="rounded-lg" />
+                      </div>
+                    )}
                   </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Best Performance</span>
-                    <span className="text-sm text-purple-600">Sony A1 II</span>
-                  </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Best Value</span>
-                    <span className="text-sm text-purple-600">Nikon Z8</span>
-                  </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Best for Video</span>
-                    <span className="text-sm text-purple-600">Panasonic S1R II</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Most Compact</span>
-                    <span className="text-sm text-purple-600">Fujifilm X-H2S</span>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold mb-3">Newsletter</h3>
-              <p className="text-sm text-gray-600 mb-4">
-                Get the latest camera reviews and photography tips delivered to your inbox.
-              </p>
-              <div className="space-y-3">
-                <input 
-                  type="email" 
-                  placeholder="Enter your email" 
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                />
-                <button className="w-full bg-white text-purple-500 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
-                  Subscribe
-                </button>
+            <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
+              <SectionLabel>Methodology</SectionLabel>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Hybrid Cameras</h2>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {[
+                  { title: 'What Makes a Great Hybrid Camera?', items: ['Excellent video recording capabilities (4K/8K)', 'High-resolution sensor for detailed stills', 'Advanced autofocus for both photo and video', 'In-body image stabilization', 'Professional video features and codecs'] },
+                  { title: 'Consider Your Needs', items: ['Budget: Hybrid cameras range from $2,500–$6,500', 'Primary use: More photo or video focused?', 'Portability: Full-frame vs APS-C considerations', 'Lens ecosystem: Available lenses for your needs', 'Learning curve: Menu complexity and features'] },
+                ].map((section) => (
+                  <div key={section.title}>
+                    <h3 className="mb-2 text-sm font-semibold text-primary">{section.title}</h3>
+                    <ul className="space-y-1">
+                      {section.items.map((item) => (
+                        <li key={item} className="text-xs text-neutral-600">• {item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
+          </main>
+
+          <aside className="space-y-5">
+            <div className="rounded-xl border border-neutral-200 bg-white p-4">
+              <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">Jump To</h3>
+              <ul className="space-y-2 text-sm">
+                {cameras.map((cam) => (
+                  <li key={cam.href}>
+                    <Link href={cam.href} className="flex items-center gap-2 text-neutral-600 hover:text-primary">
+                      <span className="text-[10px] text-neutral-400">#{cam.rank}</span>
+                      {cam.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-4">
+              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">Related Guides</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/best/cameras" className="text-neutral-700 hover:text-primary hover:underline">All Cameras</Link></li>
+                <li><Link href="/best/cameras/hybrid-cameras-under-3000" className="text-neutral-700 hover:text-primary hover:underline">Hybrid Under $3,000</Link></li>
+                <li><Link href="/best/cameras/professional-cameras" className="text-neutral-700 hover:text-primary hover:underline">Professional Cameras</Link></li>
+                <li><Link href="/best/cameras/professional-photo-cameras" className="text-neutral-700 hover:text-primary hover:underline">Professional Photo</Link></li>
+              </ul>
+            </div>
+
+            <AdBanner adSlot={ADSENSE_CONFIG.adSlots.sidebar} adFormat="rectangle" style={{ minHeight: 250 }} className="rounded-lg" />
+
+            <Newsletter />
+          </aside>
         </div>
       </div>
-
-
     </div>
   );
 }
