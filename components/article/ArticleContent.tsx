@@ -41,13 +41,13 @@ export default function ArticleContent({ content, publishDate, author }: Article
       {/* Reading Progress Bar */}
       <div className="fixed top-0 left-0 w-full h-1 bg-gray-200 z-50">
         <div 
-          className="h-full bg-gradient-to-r from-primary to-blue-600 transition-all duration-300 ease-out"
+          className="h-full bg-primary transition-all duration-300 ease-out"
           style={{ width: `${scrollProgress}%` }}
         />
       </div>
 
       {/* Article Meta Information - Moved to Top */}
-      <div className="mb-6 p-4 bg-gradient-to-r from-blue-50 to-gray-50 rounded-lg border-l-4 border-primary">
+      <div className="mb-6 p-4 bg-neutral-50 rounded-lg border-l-4 border-primary">
         <div className="flex items-center justify-between flex-wrap gap-3">
           <div className="flex items-center gap-4 text-sm text-gray-600">
             {/* Reading Time */}
@@ -89,7 +89,7 @@ export default function ArticleContent({ content, publishDate, author }: Article
       </article>
 
       {/* Article Footer */}
-      <div className="mt-8 p-6 bg-gradient-to-r from-gray-50 to-blue-50 rounded-xl border border-gray-200">
+      <div className="mt-8 p-6 bg-neutral-50 rounded-xl border border-neutral-200">
         <div className="flex items-center justify-center">
           <div className="text-center">
             <div className="text-xs text-gray-500 mb-3">Share this review</div>

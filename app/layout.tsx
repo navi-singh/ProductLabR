@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
+import getPostMetadata from '@/components/getPostMetadata';
 import '../styles/global.css';
 
 const inter = Inter({
@@ -55,6 +56,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const posts = getPostMetadata().map((p) => ({
+    title: p.title,
+    slug: p.slug,
+    category: p.category,
+  }));
+
   return (
     <html lang="en" className={inter.variable}>
       <head>
@@ -69,7 +76,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        <Header />
+        <Header posts={posts} />
         <main className="mx-auto max-w-[1280px] px-4 sm:px-6">
           {children}
         </main>

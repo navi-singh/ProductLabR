@@ -6,7 +6,16 @@ import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { SearchBar } from './SearchBar';
 import { CategoryDropdown } from './CategoryDropdown';
-import getPostMetadata from './getPostMetadata';
+
+interface SearchPost {
+  title: string;
+  slug: string;
+  category?: string;
+}
+
+interface HeaderProps {
+  posts?: SearchPost[];
+}
 
 const navLinks = [
   { label: 'Cameras', href: '/best/cameras' },
@@ -19,14 +28,9 @@ const categories = [
   { name: 'Knives & Tools', href: '/best', count: 1 },
 ];
 
-export function Header() {
+export function Header({ posts = [] }: HeaderProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
-  const posts = getPostMetadata().map((p) => ({
-    title: p.title,
-    slug: p.slug,
-    category: p.category,
-  }));
 
   return (
     <header className="sticky top-0 z-50 bg-gradient-to-r from-primary to-primary-dark">
