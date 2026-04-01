@@ -1,198 +1,158 @@
-import { PostsList } from '@/components/PostsList';
-import { Top10Popular } from '@/components/Top10Popular';
-import { OptimizedImage } from '@/components/OptimizedImage';
-import AdBanner from '@/components/ads/AdBanner';
-import ResponsiveAd from '@/components/ads/ResponsiveAd';
-import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
-import { Metadata } from 'next';
+import getPostMetadata from '@/components/getPostMetadata';
+import { OptimizedImage } from '@/components/OptimizedImage';
+import { ReviewCard } from '@/components/ReviewCard';
+import { ScoreBadge } from '@/components/ScoreBadge';
+import { SectionLabel } from '@/components/SectionLabel';
+import { Top10Popular } from '@/components/Top10Popular';
+import { Newsletter } from '@/components/Newsletter';
+import AdBanner from '@/components/ads/AdBanner';
+import { ADSENSE_CONFIG } from '@/lib/adsense-config';
+import { getAllCategories, getPostsByCategory } from '@/lib/Posts';
 
-export const metadata: Metadata = {
-  title: 'Product Lab - Expert Reviews You Can Trust',
-  description: 'Expert reviews of power stations, cameras, and tech gear. Professional testing and honest comparisons to help you make informed buying decisions.'
-};
-
+const bestOfGuides = [
+  { title: 'Best Hybrid Cameras', href: '/best/cameras/hybrid-cameras', count: 8, updated: 'Mar 2026', color: 'border-primary' },
+  { title: 'Best Portable Power Stations', href: '/best/power-stations/portable-power-stations', count: 12, updated: 'Mar 2026', color: 'border-accent' },
+  { title: 'Best Camping Power Stations', href: '/best/power-stations/camping-power-stations', count: 6, updated: 'Feb 2026', color: 'border-primary' },
+  { title: 'Best Pro Photo Cameras', href: '/best/cameras/professional-photo-cameras', count: 5, updated: 'Mar 2026', color: 'border-accent' },
+];
 
 export default function Home() {
-  const trendingCategories = [
-    { title: 'Best Power Stations', href: '/best/power-stations', isActive: true },
-    { title: 'Best Cameras', href: '/best/cameras' },
-    { title: 'Best Home Backup', href: '/best/power-stations/house-backup-power-stations' },
-    { title: 'Expert Insights', href: '/best' }
-  ];
+  const posts = getPostMetadata();
+  const featured = posts[0];
+  const recentPosts = posts.slice(1, 7);
+  const categories = getAllCategories();
 
-  const categoryFeaturedProducts = [
-    {
-      title: 'Power Stations & Portable Power',
-      subtitle: 'Portable Power Stations, House Backup Systems, Camping Power or see all in Power Stations',
-      image: '/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg',
-      featuredProducts: [
-        {
-          title: 'Best Portable Power Stations',
-          description: 'The best portable power solutions for camping, home backup, and off-grid adventures.',
-          href: '/best/power-stations/portable-power-stations',
-          image: '/images/posts/bluetti_ac180/AC180_main.webp'
-        },
-        {
-          title: 'Best House Backup Power',
-          description: 'High-capacity power stations designed for whole-home backup during outages.',
-          href: '/best/power-stations/house-backup-power-stations',
-          image: '/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg'
-        },
-        {
-          title: 'Best Camping Power Stations',
-          description: 'Compact and lightweight power solutions perfect for outdoor adventures.',
-          href: '/best/power-stations/camping-power-stations',
-          image: '/images/item.png'
-        }
-      ]
-    },
-    {
-      title: 'Cameras & Photography',
-      subtitle: 'Hybrid Cameras, Professional Cameras, Budget Options or see all in Cameras',
-      image: '/images/posts/lumix_s5ii.webp',
-      featuredProducts: [
-        {
-          title: 'Best Hybrid Cameras',
-          description: 'Top cameras excelling at both photography and videography with 8K video capability.',
-          href: '/best/cameras/hybrid-cameras',
-          image: '/images/posts/lumix_s5ii.webp'
-        },
-        {
-          title: 'Best Professional Cameras',
-          description: 'Flagship cameras delivering ultimate performance for professional work.',
-          href: '/best/cameras/professional-cameras',
-          image: '/images/item.png'
-        },
-        {
-          title: 'Best Budget Hybrid Cameras',
-          description: 'Professional photo and video performance without breaking the bank.',
-          href: '/best/cameras/hybrid-cameras-under-3000',
-          image: '/images/item.png'
-        }
-      ]
-    }
-  ];
+  const featuredScore = featured?.ratingBreakdown
+    ? featured.ratingBreakdown.metrics.reduce((sum, m) => sum + m.score, 0) /
+      featured.ratingBreakdown.metrics.length / 10
+    : featured?.rating
+      ? (featured.rating * 2) / 10
+      : null;
 
   return (
-    <div className="flex min-h-screen flex-col">
-      {/* Trending Section at Top */}
-      <section className="bg-gradient-to-r from-primary/5 to-purple-500/5 border-b border-gray-200">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center overflow-x-auto py-4">
-            <span className="text-sm font-semibold text-gray-600 mr-6 whitespace-nowrap">
-              TRENDING
-            </span>
-            <div className="flex space-x-1">
-              {trendingCategories.map((category) => (
+    <>
+      {/* Hero — Editor's Pick */}
+      <section className="-mx-4 bg-gradient-to-b from-primary-lightest to-neutral-50 px-4 py-8 sm:-mx-6 sm:px-6">
+        <div className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-widest text-primary">
+          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+          Editor&apos;s Pick
+        </div>
+        {featured && (
+          <div className="mt-4 grid items-center gap-6 md:grid-cols-2">
+            <div>
+              <h1 className="text-2xl font-bold leading-tight text-neutral-900 md:text-[26px]">
+                {featured.title}
+              </h1>
+              {featured.subtitle && (
+                <p className="mt-2 text-sm leading-relaxed text-neutral-500">
+                  {featured.subtitle}
+                </p>
+              )}
+              <div className="mt-3 flex items-center gap-3">
+                {featuredScore && <ScoreBadge score={featuredScore} showLabel />}
                 <Link
-                  key={category.title}
-                  href={category.href}
-                  className={`px-6 py-3 rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-200 ${
-                    category.isActive
-                      ? 'bg-primary text-white shadow-md'
-                      : 'text-gray-600 hover:text-primary hover:bg-white/50'
-                  }`}
+                  href={`/articles/${featured.slug}`}
+                  className="text-sm font-medium text-primary hover:underline"
                 >
-                  {category.title}
+                  Read full review →
                 </Link>
-              ))}
+              </div>
+            </div>
+            <div className="relative h-44 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-featured md:h-52">
+              <OptimizedImage
+                src={featured.image || featured.productImage || '/images/item.png'}
+                alt={featured.title}
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-contain p-4"
+              />
             </div>
           </div>
-        </div>
+        )}
       </section>
 
-      <main className="container mx-auto flex-grow px-4 py-8">
-        {/* Hero Section */}
-        <section className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-800">
-            Reviews You Can Rely On
-          </h1>
-          <p className="text-xl text-gray-700 max-w-2xl mx-auto mb-4 font-medium">
-            Professional. Thorough. Powered by Testing.
-          </p>
-          <p className="text-lg text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
-            Product Lab is founded on the principle of honest, objective reviews. Our experts test thousands of products each year using thoughtful test plans that bring out key performance differences between competing products. We provide comprehensive testing and detailed analysis to help you make informed purchasing decisions.
-          </p>
-          <Link 
-            href="/best" 
-            className="inline-block bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
-          >
-            Explore Best Products
-          </Link>
-        </section>
+      {/* Content Grid */}
+      <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[7fr_3fr]">
+        {/* Main Column */}
+        <div>
+          {/* Latest Reviews */}
+          <SectionLabel>Latest Reviews</SectionLabel>
+          <div className="space-y-1">
+            {recentPosts.map((post) => (
+              <ReviewCard key={post.slug} post={post} />
+            ))}
+          </div>
 
-        {/* TOP HOME AD */}
-        <ResponsiveAd 
-          mobileAdSlot={ADSENSE_CONFIG.adSlots.homeHeaderMobile}
-          desktopAdSlot={ADSENSE_CONFIG.adSlots.homeHeaderDesktop}
-          className="mb-8 text-center"
-        />
+          {/* Ad — between sections */}
+          <div className="my-6">
+            <AdBanner
+              adSlot={ADSENSE_CONFIG.adSlots.homeBetweenCategories}
+              adFormat="auto"
+              className="mx-auto"
+            />
+          </div>
 
-        {/* Category Sections */}
-        {categoryFeaturedProducts.map((category, categoryIndex) => (
-          <section key={category.title} className="mb-12">
-            <div className="border-b border-gray-200 pb-3 mb-6">
-              <h2 className="text-3xl font-bold text-gray-800">{category.title}</h2>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-              {category.featuredProducts.map((product, productIndex) => (
-                <Link key={product.title} href={product.href} className="group">
-                  <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
-                    <div className="relative h-36 overflow-hidden bg-gray-100">
-                      <OptimizedImage 
-                        src={product.image} 
-                        alt={`${product.title} - Expert review and comparison`}
-                        fill
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                        priority={categoryIndex === 0 && productIndex === 0}
-                      />
-                      {productIndex === 0 && (
-                        <div className="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-bold">
-                          Top Pick
-                        </div>
-                      )}
-                    </div>
-                    <div className="p-4">
-                      <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-purple-600 transition-colors">
-                        {product.title}
-                      </h3>
-                      <p className="text-gray-600 text-xs leading-relaxed">
-                        {product.description}
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-
-            {/* AD BETWEEN CATEGORIES - After first category */}
-            {categoryIndex === 0 && (
-              <AdBanner 
-                adSlot={ADSENSE_CONFIG.adSlots.homeBetweenCategories}
-                adFormat="rectangle"
-                className="my-8 text-center"
-              />
-            )}
-          </section>
-        ))}
-
-
-        {/* Latest Reviews Sidebar */}
-        <section>
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-            <div className="lg:col-span-3">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Recent Product Reviews</h2>
-              <PostsList />
-            </div>
-            <aside className="space-y-8">
-              <Top10Popular />
-            </aside>
+          {/* Best Of Guides */}
+          <SectionLabel>Best Of Guides</SectionLabel>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {bestOfGuides.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className={`rounded-lg border border-neutral-200 border-l-[3px] ${guide.color} bg-white p-4 transition-shadow hover:shadow-card-hover`}
+              >
+                <span className={`text-[11px] font-medium ${guide.color === 'border-accent' ? 'text-accent' : 'text-primary'}`}>
+                  Updated {guide.updated}
+                </span>
+                <h3 className="mt-1 text-sm font-semibold text-neutral-900">
+                  {guide.title}
+                </h3>
+                <span className="mt-1 text-xs text-neutral-400">
+                  {guide.count} products tested →
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
-        </section>
-      </main>
-    </div>
+
+        {/* Sidebar */}
+        <aside className="space-y-4">
+          <Top10Popular />
+
+          <AdBanner
+            adSlot={ADSENSE_CONFIG.adSlots.sidebar}
+            adFormat="rectangle"
+            className="mx-auto"
+          />
+
+          <Newsletter />
+
+          {/* Categories */}
+          <div>
+            <h3 className="mb-3 text-xs font-semibold uppercase tracking-widest text-primary">
+              Categories
+            </h3>
+            <div className="space-y-1">
+              {categories.map((cat) => {
+                const catPosts = getPostsByCategory(cat);
+                return (
+                  <Link
+                    key={cat}
+                    href={`/best/${cat}`}
+                    className="flex items-center justify-between rounded-md bg-primary-lightest/50 px-3 py-2 text-[13px] text-neutral-500 hover:bg-primary-lightest"
+                  >
+                    {cat.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+                    <span className="rounded-full bg-primary px-1.5 text-[10px] text-white">
+                      {catPosts.length}
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </aside>
+      </div>
+    </>
   );
 }
