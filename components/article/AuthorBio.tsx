@@ -1,44 +1,22 @@
-'use client';
-
-import React from 'react';
-
 interface AuthorBioProps {
   authorBio: string;
   authorName?: string;
-  authorTitle?: string;
 }
 
-export default function AuthorBio({ 
-  authorBio, 
-  authorName = "ProductLab Editorial Team",
-  authorTitle = "Senior Product Reviewer"
-}: AuthorBioProps) {
+export function AuthorBio({ authorBio, authorName }: AuthorBioProps) {
+  const initials = authorName
+    ? authorName.split(' ').map((n) => n[0]).join('').toUpperCase().slice(0, 2)
+    : 'PL';
 
   return (
-    <footer className="mt-12 border-t pt-8">
-      <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
-        <div className="mb-4">
-          <h3 className="text-lg font-bold text-gray-900 mb-1">About the Author</h3>
-          <div className="flex items-center gap-2 mb-2">
-            <span className="font-medium text-primary">{authorName}</span>
-            <span className="text-gray-500">•</span>
-            <span className="text-gray-600 text-sm">{authorTitle}</span>
-          </div>
-        </div>
-        
-        <div className="text-gray-700 text-sm leading-relaxed mb-4">
-          {authorBio}
-        </div>
-
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
-          <div className="text-xs text-blue-800 font-medium mb-1">
-            📝 Editorial Standards
-          </div>
-          <div className="text-xs text-blue-700">
-            Our reviews are based on thorough hands-on testing and professional expertise to provide you with detailed product insights.
-          </div>
-        </div>
+    <div className="mt-6 flex items-center gap-3.5 rounded-xl bg-primary-lightest/50 p-4">
+      <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary-dark text-sm font-semibold text-white">
+        {initials}
       </div>
-    </footer>
+      <div>
+        {authorName && <div className="text-[13px] font-semibold text-neutral-900">{authorName}</div>}
+        <p className="text-xs leading-relaxed text-neutral-500">{authorBio}</p>
+      </div>
+    </div>
   );
 }

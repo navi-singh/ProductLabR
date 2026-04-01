@@ -21,7 +21,14 @@ export function processMarkdownContent(content: string): string {
     );
     styledHtml = styledHtml.replace(
       /<h2>(.*?)<\/h2>/g,
-      '<div class="mb-6 mt-10"><h2 class="text-xl font-bold uppercase tracking-wide w-full inline-block" style="border-bottom:2px solid #007ACC;letter-spacing:0.07em;"><span style="background-color:#007ACC;color:#fff;padding:0.25rem 1.25rem;border-radius:0.2rem;">$1</span></h2></div>'
+      (_, inner) => {
+        const slug = inner
+          .replace(/<[^>]*>/g, '')
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-|-$/g, '');
+        return `<div class="mb-6 mt-10"><h2 id="${slug}" class="text-xl font-bold uppercase tracking-wide w-full inline-block" style="border-bottom:2px solid #007ACC;letter-spacing:0.07em;"><span style="background-color:#007ACC;color:#fff;padding:0.25rem 1.25rem;border-radius:0.2rem;">${inner}</span></h2></div>`;
+      }
     );
     styledHtml = styledHtml.replace(
       /<h3>(.*?)<\/h3>/g,
