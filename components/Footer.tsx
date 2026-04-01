@@ -1,78 +1,62 @@
 import Link from 'next/link';
 
-export const Footer = () => {
-  const currentYear = new Date().getFullYear();
+const footerSections = [
+  {
+    title: 'Categories',
+    links: [
+      { label: 'Cameras', href: '/best/cameras' },
+      { label: 'Power Stations', href: '/best/power-stations' },
+      { label: 'Knives & Tools', href: '/best' },
+    ],
+  },
+  {
+    title: 'Best Of',
+    links: [
+      { label: 'Best Hybrid Cameras', href: '/best/cameras/hybrid-cameras' },
+      { label: 'Best Pro Cameras', href: '/best/cameras/professional-cameras' },
+      { label: 'Best Portable Power Stations', href: '/best/power-stations/portable-power-stations' },
+      { label: 'Best Camping Power Stations', href: '/best/power-stations/camping-power-stations' },
+    ],
+  },
+  {
+    title: 'Company',
+    links: [
+      { label: 'About', href: '/about' },
+      { label: 'Contact', href: '/contact' },
+      { label: 'Privacy Policy', href: '/privacy' },
+      { label: 'Terms of Use', href: '/terms' },
+    ],
+  },
+];
 
-  const footerSections = [
-    {
-      title: 'Categories',
-      links: [
-        { href: '/best/power-stations', label: 'Power Stations' },
-        { href: '/best/cameras', label: 'Cameras' },
-      ],
-    },
-    {
-      title: 'Reviews',
-      links: [
-        { href: '/best', label: 'Best Products' },
-        { href: '/', label: 'Latest Reviews' },
-        { href: '/best/power-stations/portable-power-stations', label: 'Portable Power' },
-        { href: '/best/cameras/hybrid-cameras', label: 'Hybrid Cameras' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { href: '/about', label: 'About Us' },
-        { href: '/contact', label: 'Contact' },
-        { href: '/privacy', label: 'Privacy Policy' },
-        { href: '/terms', label: 'Terms of Service' },
-      ],
-    },
-  ];
-
+export function Footer() {
   return (
-    <footer className="bg-gray-900 text-white mt-16">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand Section */}
-          <div className="md:col-span-1">
-            <h3 className="text-xl font-bold mb-4">PRODUCT LAB</h3>
-            <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              Professional product reviews you can trust. We test products thoroughly to bring you honest, detailed recommendations.
+    <footer className="mt-16 bg-neutral-900 text-white">
+      <div className="mx-auto max-w-content px-4 py-12 sm:px-6">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div>
+            <Link href="/" className="text-base font-bold tracking-wide">PRODUCT LAB</Link>
+            <p className="mt-3 text-sm leading-relaxed text-neutral-400">
+              Expert product reviews you can trust. Professional testing and honest comparisons to help you make informed buying decisions.
             </p>
-            <div className="text-sm text-gray-500">
-              <p>© {currentYear} Product Lab</p>
-              <p>All rights reserved</p>
-            </div>
           </div>
-
-          {/* Footer Links */}
           {footerSections.map((section) => (
             <div key={section.title}>
-              <h4 className="font-semibold mb-4 text-gray-200">{section.title}</h4>
+              <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-neutral-300">{section.title}</h3>
               <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="text-gray-400 hover:text-white transition-colors text-sm"
-                    >
-                      {link.label}
-                    </Link>
+                    <Link href={link.href} className="text-sm text-neutral-400 hover:text-primary-light">{link.label}</Link>
                   </li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
-
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400 text-sm">
-            Product Lab provides comprehensive product reviews and testing insights to help you make informed decisions.
-          </p>
+        <div className="mt-10 border-t border-neutral-800 pt-6 text-center text-xs text-neutral-500">
+          © {new Date().getFullYear()} Product Lab. All rights reserved.
         </div>
       </div>
     </footer>
   );
-};
+}
