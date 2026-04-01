@@ -1,324 +1,186 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
+import { Breadcrumb } from '@/components/Breadcrumb';
+import { SectionLabel } from '@/components/SectionLabel';
+import { QuickPicks } from '@/components/QuickPicks';
+import { RankedProductCard } from '@/components/RankedProductCard';
+import { Newsletter } from '@/components/Newsletter';
+import AdBanner from '@/components/ads/AdBanner';
+import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
-import RatingBadge from '@/components/article/RatingBadge';
-import StarRating from '@/components/article/StarRating';
+export const metadata: Metadata = {
+  title: 'Best Carry-On Power Stations 2025 - TSA Approved',
+  description: 'TSA-approved power banks for travel and airline carry-on. Under 100Wh and flight-ready.',
+};
+
+interface StationEntry {
+  rank: number; name: string; href: string; image: string; summary: string;
+  score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
+  specs?: Record<string, string>;
+}
+
+const stations: StationEntry[] = [
+  {
+    rank: 1,
+    name: 'Anker PowerCore 26800 PD',
+    href: '/articles/anker_powercore_26800_pd',
+    image: '/images/item.png',
+    summary: 'TSA approved for flights with 30W Power Delivery, triple device charging, and fast recharge.',
+    score: 9.0,
+    price: '$129',
+    badge: 'best-overall' as const,
+    specs: { Capacity: '96.48Wh', Output: '30W PD', Weight: '1.28 lbs', TSA: 'Approved' },
+  },
+  {
+    rank: 2,
+    name: 'RAVPower 90W AC Power Bank',
+    href: '/articles/ravpower_90w_ac',
+    image: '/images/item.png',
+    summary: 'Actual AC outlet for laptops with multiple charging options and a clear capacity display.',
+    score: 8.8,
+    price: '$199',
+    badge: 'best-value' as const,
+    specs: { Capacity: '88.8Wh', Output: '90W AC', Weight: '1.5 lbs', Display: 'Digital' },
+  },
+  {
+    rank: 3,
+    name: 'Goal Zero Sherpa 100AC',
+    href: '/articles/goal_zero_sherpa_100ac',
+    image: '/images/item.png',
+    summary: 'Wireless charging convenience with rugged outdoor construction and reliable brand reputation.',
+    score: 8.5,
+    price: '$299',
+    badge: 'budget-pick' as const,
+    specs: { Capacity: '94.7Wh', Output: '100W AC', Weight: '2.0 lbs', Wireless: 'Yes' },
+  },
+];
+
+const quickPicks = [
+  { label: 'Best Overall', name: 'Anker PowerCore 26800', href: '/articles/anker_powercore_26800_pd', score: 9.0, price: '$129' },
+  { label: 'Best Value', name: 'RAVPower 90W AC', href: '/articles/ravpower_90w_ac', score: 8.8, price: '$199' },
+  { label: 'Premium Pick', name: 'Goal Zero Sherpa 100AC', href: '/articles/goal_zero_sherpa_100ac', score: 8.5, price: '$299' },
+];
 
 export default function BestCarryOnPowerStations() {
-  const carryOnStations = [
-    {
-      rank: 1,
-      name: 'Anker PowerCore 26800 PD',
-      href: '/articles/anker_powercore_26800_pd',
-      price: '$129',
-      rating: 9.0,
-      capacity: '96.48Wh',
-      output: '30W PD',
-      weight: '1.28 lbs',
-      image: '/images/item.png',
-      keyFeatures: ['96.48Wh TSA compliant', '30W Power Delivery', 'Triple device charging', 'Fast recharge'],
-      pros: ['TSA approved for flights', 'Fast charging for phones/tablets', 'Excellent build quality'],
-      cons: ['No AC outlet', 'Limited to USB devices', 'Premium pricing'],
-      bestFor: 'Business travelers and frequent flyers'
-    },
-    {
-      rank: 2,
-      name: 'RAVPower 90W AC Power Bank',
-      href: '/articles/ravpower_90w_ac',
-      price: '$199',
-      rating: 8.8,
-      capacity: '88.8Wh',
-      output: '90W AC',
-      weight: '1.5 lbs',
-      image: '/images/item.png',
-      keyFeatures: ['88.8Wh airline safe', '90W AC outlet', 'USB-C PD 30W', 'Digital display'],
-      pros: ['Actual AC outlet for laptops', 'Multiple charging options', 'Clear capacity display'],
-      cons: ['Heavier than USB-only models', 'Limited AC runtime', 'Higher price point'],
-      bestFor: 'Travelers needing AC power for small devices'
-    },
-    {
-      rank: 3,
-      name: 'Goal Zero Sherpa 100AC',
-      href: '/articles/goal_zero_sherpa_100ac',
-      price: '$299',
-      rating: 8.5,
-      capacity: '94.7Wh',
-      output: '100W AC',
-      weight: '2.0 lbs',
-      image: '/images/item.png',
-      keyFeatures: ['94.7Wh flight approved', '100W AC inverter', 'Wireless charging', 'Rugged design'],
-      pros: ['Wireless charging convenience', 'Rugged outdoor construction', 'Reliable brand'],
-      cons: ['Most expensive option', 'Heaviest in category', 'Slower USB charging'],
-      bestFor: 'Outdoor professionals and adventure travelers'
-    }
-  ];
-
   return (
-    <div className="min-h-screen bg-gray-50">
-      
-      {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary/10 to-purple-500/10 bg-gray-50 text-gray-800">
-        <div className="container mx-auto px-4 py-10">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
-            Best Carry-On Power Stations 2025
-          </h1>
-          <p className="text-lg md:text-xl mb-6 text-gray-600">
-            TSA-approved power banks for travel and airline carry-on
+    <div className="min-h-screen bg-neutral-50">
+      <Breadcrumb items={[
+        { label: 'Home', href: '/' },
+        { label: 'Best Of', href: '/best' },
+        { label: 'Power Stations', href: '/best/power-stations' },
+        { label: 'Carry-On Power' },
+      ]} />
+
+      <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
+        <div className="mx-auto max-w-content">
+          <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Carry-On Power Stations 2025</h1>
+          <p className="mt-2 max-w-2xl text-base text-white/80">
+            TSA-approved power banks meeting the 100Wh limit for carry-on batteries. Perfect for keeping devices charged during long flights without airport restrictions.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              TSA Compliant
-            </span>
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              Under 100Wh
-            </span>
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              Ultra-Compact
-            </span>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {['TSA Compliant', 'Under 100Wh', 'Ultra-Compact'].map((tag) => (
+              <span key={tag} className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs text-white/90">{tag}</span>
+            ))}
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main Content */}
-          <div className="lg:col-span-2">
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold mb-4">Top 3 TSA-Approved Power Stations</h2>
-              <p className="text-gray-600 mb-6">
-                These compact power banks are specifically designed for air travel, meeting TSA's 
-                100Wh limit for carry-on batteries. Perfect for keeping your devices charged during 
-                long flights and travel days without the hassle of airport restrictions.
-              </p>
+      <div className="mx-auto max-w-content px-4 py-8 sm:px-6">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[7fr_3fr]">
+          <main className="space-y-6">
+            <QuickPicks picks={quickPicks} />
+
+            {/* TSA notice */}
+            <div className="rounded-lg border border-primary-light bg-primary-lightest/60 px-4 py-3 text-sm text-primary">
+              <strong>TSA Compliance Notice:</strong> All power stations listed here are under 100Wh and approved for airline carry-on. Always check with your specific airline for any additional restrictions.
             </div>
 
-            {/* TSA Compliance Notice */}
-            <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <span className="text-blue-400 text-xl">✈️</span>
-                </div>
-                <div className="ml-3">
-                  <h3 className="text-sm font-medium text-blue-800">TSA Compliance Notice</h3>
-                  <div className="mt-2 text-sm text-blue-700">
-                    <p>All power stations listed here are under 100Wh and approved for airline carry-on. 
-                    Always check with your specific airline for any additional restrictions.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Power Station Rankings */}
-            <div className="space-y-8">
-              {carryOnStations.map((station) => (
-                <div key={station.rank} className="bg-white rounded-xl shadow-lg p-6">
-                  <div className="flex items-start justify-between mb-4">
-                    <div className="flex items-center gap-4">
-                      <div className="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
-                        {station.rank}
-                      </div>
-                      <div>
-                        <h3 className="text-xl font-bold">{station.name}</h3>
-                        <p className="text-gray-600">{station.bestFor}</p>
-                      </div>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-2xl font-bold text-purple-500 mb-1">{station.price}</div>
-                      <RatingBadge rating={station.rating} />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                    <div className="text-center p-3 bg-gray-50 rounded-lg">
-                      <div className="text-lg font-bold text-purple-500">{station.capacity}</div>
-                      <div className="text-sm text-gray-600">Capacity</div>
-                    </div>
-                    <div className="text-center p-3 bg-gray-50 rounded-lg">
-                      <div className="text-lg font-bold text-purple-500">{station.output}</div>
-                      <div className="text-sm text-gray-600">Max Output</div>
-                    </div>
-                    <div className="text-center p-3 bg-gray-50 rounded-lg">
-                      <div className="text-lg font-bold text-purple-500">{station.weight}</div>
-                      <div className="text-sm text-gray-600">Weight</div>
-                    </div>
-                    <div className="text-center p-3 bg-gray-50 rounded-lg">
-                      <div className="text-lg font-bold text-green-500">✓ TSA</div>
-                      <div className="text-sm text-gray-600">Approved</div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                    <div>
-                      <h4 className="font-semibold mb-2 text-purple-500">Key Features</h4>
-                      <ul className="space-y-1">
-                        {station.keyFeatures.map((feature, index) => (
-                          <li key={index} className="text-sm text-gray-600">• {feature}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold mb-2 text-purple-500">Pros</h4>
-                      <ul className="space-y-1">
-                        {station.pros.map((pro, index) => (
-                          <li key={index} className="text-sm text-gray-600">+ {pro}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="flex justify-between items-center">
-                    <StarRating rating={station.rating} />
-                    <Link 
-                      href={station.href}
-                      className="bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
-                    >
-                      Read Review →
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Travel Guide */}
-            <div className="mt-12 bg-white rounded-xl shadow-lg p-6">
-              <h2 className="text-2xl font-bold mb-4">Air Travel Power Guide</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="font-semibold mb-2">TSA Regulations</h3>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Maximum 100Wh capacity for carry-on</li>
-                    <li>• Must be in carry-on bag, not checked</li>
-                    <li>• Spare batteries must be protected</li>
-                    <li>• Some airlines have additional restrictions</li>
-                    <li>• Always check current regulations</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Travel Tips</h3>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Charge fully before departure</li>
-                    <li>• Bring appropriate cables for your devices</li>
-                    <li>• Consider international plug adapters</li>
-                    <li>• Pack in easily accessible location</li>
-                    <li>• Have backup charging options</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Sidebar */}
-          <div className="space-y-6">
-            <div className="bg-white rounded-xl shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">Device Charging</h3>
+            <div>
+              <SectionLabel>Ranked List</SectionLabel>
               <div className="space-y-4">
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">iPhone</span>
-                    <span className="text-sm text-purple-500">6-8 charges</span>
+                {stations.map((station, i) => (
+                  <div key={station.rank}>
+                    <RankedProductCard {...station} />
+                    {i === 2 && (
+                      <div className="mt-4">
+                        <AdBanner adSlot={ADSENSE_CONFIG.adSlots.categoryBottom} adFormat="auto" className="rounded-lg" />
+                      </div>
+                    )}
                   </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Android Phone</span>
-                    <span className="text-sm text-purple-500">5-7 charges</span>
-                  </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">iPad</span>
-                    <span className="text-sm text-purple-500">2-3 charges</span>
-                  </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">MacBook Air</span>
-                    <span className="text-sm text-purple-500">1-1.5 charges</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Nintendo Switch</span>
-                    <span className="text-sm text-purple-500">3-4 charges</span>
-                  </div>
-                </div>
-              </div>
-              <div className="text-xs text-gray-500 mt-3">
-                *Based on 90Wh average capacity
+                ))}
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold mb-3">Travel Checklist</h3>
-              <div className="space-y-2 text-sm">
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                  <span>Power bank fully charged</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                  <span>All charging cables packed</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                  <span>International adapters if needed</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                  <span>TSA compliance verified</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                  <span>Airline restrictions checked</span>
-                </div>
+            <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
+              <SectionLabel>Methodology</SectionLabel>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">Air Travel Power Guide</h2>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {[
+                  { title: 'TSA Regulations', items: ['Maximum 100Wh capacity for carry-on', 'Must be in carry-on bag, not checked', 'Spare batteries must be protected', 'Some airlines have additional restrictions', 'Always check current regulations'] },
+                  { title: 'Travel Tips', items: ['Charge fully before departure', 'Bring appropriate cables for your devices', 'Consider international plug adapters', 'Pack in easily accessible location', 'Have backup charging options'] },
+                ].map((section) => (
+                  <div key={section.title}>
+                    <h3 className="mb-2 text-sm font-semibold text-primary">{section.title}</h3>
+                    <ul className="space-y-1">
+                      {section.items.map((item) => (
+                        <li key={item} className="text-xs text-neutral-600">• {item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </main>
+
+          <aside className="space-y-5">
+            <div className="rounded-xl border border-neutral-200 bg-white p-4">
+              <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">Jump To</h3>
+              <ul className="space-y-2 text-sm">
+                {stations.map((station) => (
+                  <li key={station.href}>
+                    <Link href={station.href} className="flex items-center gap-2 text-neutral-600 hover:text-primary">
+                      <span className="text-[10px] text-neutral-400">#{station.rank}</span>
+                      {station.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-4">
+              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">Device Charges (90Wh avg)</h3>
+              <div className="space-y-2 text-xs">
+                {[
+                  { device: 'iPhone', charges: '6–8 charges' },
+                  { device: 'Android Phone', charges: '5–7 charges' },
+                  { device: 'iPad', charges: '2–3 charges' },
+                  { device: 'MacBook Air', charges: '1–1.5 charges' },
+                  { device: 'Nintendo Switch', charges: '3–4 charges' },
+                ].map((item) => (
+                  <div key={item.device} className="flex justify-between">
+                    <span className="text-neutral-600">{item.device}</span>
+                    <span className="font-medium text-primary">{item.charges}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold mb-3">Airline Policies</h3>
-              <div className="space-y-2 text-sm text-gray-600">
-                <div className="flex justify-between">
-                  <span>American Airlines:</span>
-                  <span className="text-green-600">✓ 100Wh</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Delta:</span>
-                  <span className="text-green-600">✓ 100Wh</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>United:</span>
-                  <span className="text-green-600">✓ 100Wh</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Southwest:</span>
-                  <span className="text-green-600">✓ 100Wh</span>
-                </div>
-                <div className="text-xs text-gray-500 mt-2">
-                  *Policies subject to change, always verify current rules
-                </div>
-              </div>
+            <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-4">
+              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">Related Guides</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/best/power-stations" className="text-neutral-700 hover:text-primary hover:underline">All Power Stations</Link></li>
+                <li><Link href="/best/power-stations/portable-power-stations" className="text-neutral-700 hover:text-primary hover:underline">Portable Power Stations</Link></li>
+                <li><Link href="/best/power-stations/camping-power-stations" className="text-neutral-700 hover:text-primary hover:underline">Camping Power Stations</Link></li>
+              </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold mb-3">Newsletter</h3>
-              <p className="text-sm text-gray-600 mb-4">
-                Get travel tech tips and portable power reviews.
-              </p>
-              <div className="space-y-3">
-                <input 
-                  type="email" 
-                  placeholder="Enter your email" 
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                />
-                <button className="w-full bg-white text-purple-500 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </div>
+            <AdBanner adSlot={ADSENSE_CONFIG.adSlots.sidebar} adFormat="rectangle" style={{ minHeight: 250 }} className="rounded-lg" />
+
+            <Newsletter />
+          </aside>
         </div>
       </div>
-
-
     </div>
   );
 }

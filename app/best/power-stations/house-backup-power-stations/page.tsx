@@ -1,294 +1,183 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
+import { Breadcrumb } from '@/components/Breadcrumb';
+import { SectionLabel } from '@/components/SectionLabel';
+import { QuickPicks } from '@/components/QuickPicks';
+import { RankedProductCard } from '@/components/RankedProductCard';
+import { Newsletter } from '@/components/Newsletter';
+import AdBanner from '@/components/ads/AdBanner';
+import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
-import RatingBadge from '@/components/article/RatingBadge';
-import StarRating from '@/components/article/StarRating';
+export const metadata: Metadata = {
+  title: 'Best House Backup Power Stations 2025 - Expert Reviews',
+  description: 'High-capacity power stations for whole-home backup during outages. Expert tested for home integration and reliability.',
+};
+
+interface StationEntry {
+  rank: number; name: string; href: string; image: string; summary: string;
+  score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
+  specs?: Record<string, string>;
+}
+
+const stations: StationEntry[] = [
+  {
+    rank: 1,
+    name: 'EcoFlow Delta Pro 3',
+    href: '/articles/ecoflow_delta_pro_3',
+    image: '/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg',
+    summary: 'Massive 4096Wh capacity with 4000W output, home integration ready, and smart grid support.',
+    score: 9.2,
+    price: '$3,699',
+    badge: 'best-overall' as const,
+    specs: { Capacity: '4096Wh', Output: '4000W', Integration: 'Smart home', Runtime: '8-24h' },
+  },
+  {
+    rank: 2,
+    name: 'Bluetti AC300 + B300',
+    href: '/articles/bluetti_ac300',
+    image: '/images/item.png',
+    summary: 'Modular expandable design with UPS mode for seamless switching and multiple charging options.',
+    score: 8.9,
+    price: '$2,999',
+    badge: 'best-value' as const,
+    specs: { Capacity: '3072Wh', Output: '3000W', Design: 'Modular', UPS: 'Yes' },
+  },
+  {
+    rank: 3,
+    name: 'Goal Zero Yeti 6000X',
+    href: '/articles/goal_zero_yeti_6000x',
+    image: '/images/item.png',
+    summary: 'Huge 6071Wh capacity for extended runtime with professional build quality and comprehensive app control.',
+    score: 8.7,
+    price: '$4,999',
+    badge: 'budget-pick' as const,
+    specs: { Capacity: '6071Wh', Output: '2000W', Control: 'WiFi app', Build: 'Professional' },
+  },
+  {
+    rank: 4,
+    name: 'Anker SOLIX F3800',
+    href: '/articles/anker_solix_f3800',
+    image: '/images/item.png',
+    summary: 'Highest surge power rating with long warranty coverage and home integration ready.',
+    score: 8.5,
+    price: '$3,999',
+    specs: { Capacity: '3840Wh', Output: '6000W surge', Battery: 'LiFePO4', Warranty: '10 years' },
+  },
+];
+
+const quickPicks = [
+  { label: 'Best Overall', name: 'EcoFlow Delta Pro 3', href: '/articles/ecoflow_delta_pro_3', score: 9.2, price: '$3,699' },
+  { label: 'Best Value', name: 'Bluetti AC300', href: '/articles/bluetti_ac300', score: 8.9, price: '$2,999' },
+  { label: 'Largest Capacity', name: 'Goal Zero Yeti 6000X', href: '/articles/goal_zero_yeti_6000x', score: 8.7, price: '$4,999' },
+];
 
 export default function BestHouseBackupPowerStations() {
-  const houseBackupStations = [
-    {
-      rank: 1,
-      name: 'EcoFlow Delta Pro 3',
-      href: '/articles/ecoflow_delta_pro_3',
-      price: '$3,699',
-      rating: 9.2,
-      capacity: '4096Wh',
-      output: '4000W',
-      image: '/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg',
-      keyFeatures: ['4096Wh expandable capacity', '4000W AC output', 'Home integration ready', 'Smart home panel'],
-      pros: ['Massive capacity for whole-home backup', 'Professional installation support', 'Smart grid integration'],
-      cons: ['Very expensive', 'Requires professional setup', 'Heavy unit'],
-      bestFor: 'Whole-home backup power during extended outages'
-    },
-    {
-      rank: 2,
-      name: 'Bluetti AC300 + B300',
-      href: '/articles/bluetti_ac300',
-      price: '$2,999',
-      rating: 8.9,
-      capacity: '3072Wh',
-      output: '3000W',
-      image: '/images/item.png',
-      keyFeatures: ['Modular battery system', '3000W pure sine wave', 'UPS functionality', 'Solar ready'],
-      pros: ['Modular expandable design', 'UPS mode for seamless switching', 'Multiple charging options'],
-      cons: ['Complex setup', 'Expensive to expand', 'Multiple units to manage'],
-      bestFor: 'Modular home backup with expansion flexibility'
-    },
-    {
-      rank: 3,
-      name: 'Goal Zero Yeti 6000X',
-      href: '/articles/goal_zero_yeti_6000x',
-      price: '$4,999',
-      rating: 8.7,
-      capacity: '6071Wh',
-      output: '2000W',
-      image: '/images/item.png',
-      keyFeatures: ['6071Wh massive capacity', 'WiFi app control', 'Tank battery expansion', 'Professional grade'],
-      pros: ['Huge capacity for extended runtime', 'Professional build quality', 'Comprehensive app control'],
-      cons: ['Extremely expensive', 'Lower output power', 'Very heavy'],
-      bestFor: 'Extended outages requiring maximum runtime'
-    },
-    {
-      rank: 4,
-      name: 'Anker SOLIX F3800',
-      href: '/articles/anker_solix_f3800',
-      price: '$3,999',
-      rating: 8.5,
-      capacity: '3840Wh',
-      output: '6000W',
-      image: '/images/item.png',
-      keyFeatures: ['3840Wh LiFePO4 battery', '6000W surge power', 'Home panel integration', '10-year warranty'],
-      pros: ['Highest surge power rating', 'Long warranty coverage', 'Home integration ready'],
-      cons: ['Premium pricing', 'Limited availability', 'Complex installation'],
-      bestFor: 'High-power appliances and whole-home integration'
-    }
-  ];
-
   return (
-    <div className="min-h-screen bg-gray-50">
-      
-      {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary/10 to-purple-500/10 bg-gray-50 text-gray-800">
-        <div className="container mx-auto px-4 py-10">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
-            Best House Backup Power Stations 2025
-          </h1>
-          <p className="text-lg md:text-xl mb-6 text-gray-600">
-            High-capacity power stations for whole-home backup during outages
+    <div className="min-h-screen bg-neutral-50">
+      <Breadcrumb items={[
+        { label: 'Home', href: '/' },
+        { label: 'Best Of', href: '/best' },
+        { label: 'Power Stations', href: '/best/power-stations' },
+        { label: 'House Backup' },
+      ]} />
+
+      <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
+        <div className="mx-auto max-w-content">
+          <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best House Backup Power Stations 2025</h1>
+          <p className="mt-2 max-w-2xl text-base text-white/80">
+            High-capacity power stations designed for whole-home backup during extended outages with professional-grade features and home integration capabilities.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              3000Wh+ Capacity
-            </span>
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              Home Integration
-            </span>
-            <span className="bg-white/80 px-4 py-2 rounded-full text-sm border border-gray-200 text-gray-700">
-              Extended Runtime
-            </span>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {['3000Wh+ Capacity', 'Home Integration', 'Extended Runtime'].map((tag) => (
+              <span key={tag} className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs text-white/90">{tag}</span>
+            ))}
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main Content */}
-          <div className="lg:col-span-2">
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold mb-4">Top 4 House Backup Power Stations</h2>
-              <p className="text-gray-600 mb-6">
-                These high-capacity power stations are designed for whole-home backup during extended 
-                outages. Each model offers professional-grade features, home integration capabilities, 
-                and the capacity to power essential appliances for hours or days.
-              </p>
-            </div>
+      <div className="mx-auto max-w-content px-4 py-8 sm:px-6">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[7fr_3fr]">
+          <main className="space-y-6">
+            <QuickPicks picks={quickPicks} />
 
-            {/* Power Station Rankings */}
-            <div className="space-y-8">
-              {houseBackupStations.map((station) => (
-                <div key={station.rank} className="bg-white rounded-xl shadow-lg p-6">
-                  <div className="flex items-start justify-between mb-4">
-                    <div className="flex items-center gap-4">
-                      <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
-                        {station.rank}
-                      </div>
-                      <div>
-                        <h3 className="text-xl font-bold">{station.name}</h3>
-                        <p className="text-gray-600">{station.bestFor}</p>
-                      </div>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-2xl font-bold text-blue-600 mb-1">{station.price}</div>
-                      <RatingBadge rating={station.rating} />
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                    <div className="text-center p-3 bg-gray-50 rounded-lg">
-                      <div className="text-lg font-bold text-blue-600">{station.capacity}</div>
-                      <div className="text-sm text-gray-600">Capacity</div>
-                    </div>
-                    <div className="text-center p-3 bg-gray-50 rounded-lg">
-                      <div className="text-lg font-bold text-blue-600">{station.output}</div>
-                      <div className="text-sm text-gray-600">AC Output</div>
-                    </div>
-                    <div className="text-center p-3 bg-gray-50 rounded-lg">
-                      <div className="text-lg font-bold text-blue-600">8-24h</div>
-                      <div className="text-sm text-gray-600">Runtime</div>
-                    </div>
-                    <div className="text-center p-3 bg-gray-50 rounded-lg">
-                      <div className="text-lg font-bold text-blue-600">LiFePO4</div>
-                      <div className="text-sm text-gray-600">Battery</div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                    <div>
-                      <h4 className="font-semibold mb-2 text-blue-600">Key Features</h4>
-                      <ul className="space-y-1">
-                        {station.keyFeatures.map((feature, index) => (
-                          <li key={index} className="text-sm text-gray-600">• {feature}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold mb-2 text-blue-600">Pros</h4>
-                      <ul className="space-y-1">
-                        {station.pros.map((pro, index) => (
-                          <li key={index} className="text-sm text-gray-600">+ {pro}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="flex justify-between items-center">
-                    <StarRating rating={station.rating} />
-                    <Link 
-                      href={station.href}
-                                              className="bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
-                    >
-                      Read Review →
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Installation Guide */}
-            <div className="mt-12 bg-white rounded-xl shadow-lg p-6">
-              <h2 className="text-2xl font-bold mb-4">Home Backup Installation Guide</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="font-semibold mb-2">Professional Installation</h3>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Transfer switch installation required</li>
-                    <li>• Electrical panel integration</li>
-                    <li>• Proper grounding and safety systems</li>
-                    <li>• Local electrical code compliance</li>
-                    <li>• Professional electrician recommended</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-2">Planning Considerations</h3>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>• Calculate essential load requirements</li>
-                    <li>• Plan for ventilation and cooling</li>
-                    <li>• Consider expansion capabilities</li>
-                    <li>• Factor in maintenance access</li>
-                    <li>• Budget for installation costs</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Sidebar */}
-          <div className="space-y-6">
-            <div className="bg-white rounded-xl shadow-lg p-6">
-              <h3 className="text-xl font-bold mb-4">Runtime Calculator</h3>
+            <div>
+              <SectionLabel>Ranked List</SectionLabel>
               <div className="space-y-4">
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Refrigerator</span>
-                    <span className="text-sm text-blue-600">24-48 hours</span>
+                {stations.map((station, i) => (
+                  <div key={station.rank}>
+                    <RankedProductCard {...station} />
+                    {i === 2 && (
+                      <div className="mt-4">
+                        <AdBanner adSlot={ADSENSE_CONFIG.adSlots.categoryBottom} adFormat="auto" className="rounded-lg" />
+                      </div>
+                    )}
                   </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">LED Lights</span>
-                    <span className="text-sm text-blue-600">100+ hours</span>
-                  </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">WiFi Router</span>
-                    <span className="text-sm text-blue-600">200+ hours</span>
-                  </div>
-                </div>
-                <div className="border-b pb-2">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">Sump Pump</span>
-                    <span className="text-sm text-blue-600">8-16 hours</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">HVAC Fan</span>
-                    <span className="text-sm text-blue-600">12-24 hours</span>
-                  </div>
-                </div>
-              </div>
-              <div className="text-xs text-gray-500 mt-3">
-                *Based on 3000Wh capacity with typical usage
+                ))}
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold mb-3">Installation Cost</h3>
-              <div className="space-y-2 text-sm">
-                <div className="flex justify-between">
-                  <span>Power Station:</span>
-                  <span className="font-medium">$3,000-$5,000</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Transfer Switch:</span>
-                  <span className="font-medium">$500-$1,500</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Installation:</span>
-                  <span className="font-medium">$1,000-$3,000</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Permits:</span>
-                  <span className="font-medium">$100-$500</span>
-                </div>
-                <div className="border-t pt-2 mt-2 flex justify-between font-bold">
-                  <span>Total Investment:</span>
-                  <span>$4,600-$10,000</span>
-                </div>
+            <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
+              <SectionLabel>Methodology</SectionLabel>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">Home Backup Installation Guide</h2>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {[
+                  { title: 'Professional Installation', items: ['Transfer switch installation required', 'Electrical panel integration', 'Proper grounding and safety systems', 'Local electrical code compliance', 'Professional electrician recommended'] },
+                  { title: 'Planning Considerations', items: ['Calculate essential load requirements', 'Plan for ventilation and cooling', 'Consider expansion capabilities', 'Factor in maintenance access', 'Budget for installation costs'] },
+                ].map((section) => (
+                  <div key={section.title}>
+                    <h3 className="mb-2 text-sm font-semibold text-primary">{section.title}</h3>
+                    <ul className="space-y-1">
+                      {section.items.map((item) => (
+                        <li key={item} className="text-xs text-neutral-600">• {item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </main>
+
+          <aside className="space-y-5">
+            <div className="rounded-xl border border-neutral-200 bg-white p-4">
+              <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">Jump To</h3>
+              <ul className="space-y-2 text-sm">
+                {stations.map((station) => (
+                  <li key={station.href}>
+                    <Link href={station.href} className="flex items-center gap-2 text-neutral-600 hover:text-primary">
+                      <span className="text-[10px] text-neutral-400">#{station.rank}</span>
+                      {station.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-4">
+              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">Runtime Estimates</h3>
+              <div className="space-y-2 text-xs">
+                {[
+                  { device: 'Refrigerator', runtime: '24–48 hours' },
+                  { device: 'LED Lights', runtime: '100+ hours' },
+                  { device: 'WiFi Router', runtime: '200+ hours' },
+                  { device: 'Sump Pump', runtime: '8–16 hours' },
+                  { device: 'HVAC Fan', runtime: '12–24 hours' },
+                ].map((item) => (
+                  <div key={item.device} className="flex justify-between">
+                    <span className="text-neutral-600">{item.device}</span>
+                    <span className="font-medium text-primary">{item.runtime}</span>
+                  </div>
+                ))}
+                <p className="mt-1 text-[10px] text-neutral-400">*Based on 3000Wh capacity</p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-6">
-              <h3 className="text-lg font-bold mb-3">Newsletter</h3>
-              <p className="text-sm text-gray-600 mb-4">
-                Get home backup power tips and product updates.
-              </p>
-              <div className="space-y-3">
-                <input 
-                  type="email" 
-                  placeholder="Enter your email" 
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-                <button className="w-full bg-white text-purple-500 font-semibold py-3 px-6 rounded-xl hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </div>
+            <AdBanner adSlot={ADSENSE_CONFIG.adSlots.sidebar} adFormat="rectangle" style={{ minHeight: 250 }} className="rounded-lg" />
+
+            <Newsletter />
+          </aside>
         </div>
       </div>
-
-
     </div>
   );
 }
