@@ -77,14 +77,14 @@ return (
         {/* Main Content Area */}
         <div className="lg:col-span-3">
           {/* Product Info Box */}
-          <aside className="mb-3 bg-white border border-trustworthy/20 rounded-xl p-2 shadow-md">
+          <aside className="mb-3 bg-white border border-primary/20 rounded-xl p-2 shadow-md">
             <div className="w-full space-y-1.5">
               {/* Product Rating */}
-              <div className="text-center bg-gradient-to-r from-trustworthy/10 to-trustworthy/30 rounded-lg p-2 border border-trustworthy/20">
+              <div className="text-center bg-gradient-to-r from-primary/10 to-primary/30 rounded-lg p-2 border border-primary/20">
                 {showRating && (
                   <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4">
                     {/* Rating Badge */}
-                    <div className="inline-flex items-center bg-trustworthy text-white rounded-full px-4 py-2 font-semibold text-sm md:text-base">
+                    <div className="inline-flex items-center bg-primary text-white rounded-full px-4 py-2 font-semibold text-sm md:text-base">
                       <span>Product Lab Rating</span>
                     </div>
                     

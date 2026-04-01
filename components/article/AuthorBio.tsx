@@ -20,7 +20,7 @@ export default function AuthorBio({
         <div className="mb-4">
           <h3 className="text-lg font-bold text-gray-900 mb-1">About the Author</h3>
           <div className="flex items-center gap-2 mb-2">
-            <span className="font-medium text-trustworthy">{authorName}</span>
+            <span className="font-medium text-primary">{authorName}</span>
             <span className="text-gray-500">•</span>
             <span className="text-gray-600 text-sm">{authorTitle}</span>
           </div>

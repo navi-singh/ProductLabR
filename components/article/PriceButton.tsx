@@ -115,7 +115,7 @@ export default function RetailerLinks({
             <button
               key={retailer}
               onClick={() => handleRetailerClick(url, retailer)}
-              className="w-full flex items-center justify-between p-3 bg-white hover:bg-gray-50 border-2 border-gray-200 hover:border-trustworthy rounded-lg transition-all duration-200 shadow-sm"
+              className="w-full flex items-center justify-between p-3 bg-white hover:bg-gray-50 border-2 border-gray-200 hover:border-primary rounded-lg transition-all duration-200 shadow-sm"
             >
               <div className="flex items-center gap-4">
                 {getRetailerIcon(retailer)}
@@ -123,7 +123,7 @@ export default function RetailerLinks({
                   {getRetailerDisplayName(retailer)}
                 </span>
               </div>
-              <div className="text-trustworthy">
+              <div className="text-primary">
                 <ExternalLinkIcon />
               </div>
             </button>

@@ -54,7 +54,7 @@ export default function ProductSpecs({ specs }: ProductSpecsProps) {
       {!isExpanded && specsEntries.length > 4 && (
         <button 
           onClick={() => setIsExpanded(true)}
-          className="w-full mt-2 text-xs text-trustworthy hover:text-trustworthy/80 transition-colors"
+          className="w-full mt-2 text-xs text-primary hover:text-primary/80 transition-colors"
         >
           + {specsEntries.length - 4} more specifications
         </button>
