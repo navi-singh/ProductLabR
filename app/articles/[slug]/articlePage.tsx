@@ -109,6 +109,12 @@ export default function ArticlePage({ metadata, content }: ArticlePageProps) {
             </div>
           )}
 
+          {metadata.specs && (
+            <div className="mt-5">
+              <ProductSpecs specs={metadata.specs} />
+            </div>
+          )}
+
           <div className="mt-6">
             <ArticleContent
               content={processedContent}
@@ -120,12 +126,6 @@ export default function ArticlePage({ metadata, content }: ArticlePageProps) {
           <div className="my-6">
             <AdBanner adSlot={ADSENSE_CONFIG.adSlots.articleMid} adFormat="auto" />
           </div>
-
-          {metadata.specs && (
-            <div className="mt-4">
-              <ProductSpecs specs={metadata.specs} />
-            </div>
-          )}
 
           {metadata.authorBio && (
             <AuthorBio authorBio={metadata.authorBio} authorName={metadata.author} />
