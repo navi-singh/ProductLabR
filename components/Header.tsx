@@ -18,14 +18,22 @@ interface HeaderProps {
 }
 
 const navLinks = [
-  { label: 'Cameras', href: '/best/cameras' },
-  { label: 'Power Stations', href: '/best/power-stations' },
+  { label: 'Laptops', href: '/best/laptops' },
+  { label: 'TVs', href: '/best/tvs' },
+  { label: 'Headphones', href: '/best/headphones' },
 ];
 
 const categories = [
+  { name: 'Laptops', href: '/best/laptops', count: 0 },
+  { name: 'TVs', href: '/best/tvs', count: 0 },
+  { name: 'Headphones & Earbuds', href: '/best/headphones', count: 0 },
+  { name: 'Smartphones', href: '/best/smartphones', count: 0 },
+  { name: 'Monitors', href: '/best/monitors', count: 0 },
+  { name: 'Smart Home', href: '/best/smart-home', count: 0 },
+  { name: 'Wearables', href: '/best/wearables', count: 0 },
+  { name: 'Gaming', href: '/best/gaming', count: 0 },
   { name: 'Cameras', href: '/best/cameras', count: 15 },
   { name: 'Power Stations', href: '/best/power-stations', count: 19 },
-  { name: 'Knives & Tools', href: '/best', count: 1 },
 ];
 
 export function Header({ posts = [] }: HeaderProps) {
