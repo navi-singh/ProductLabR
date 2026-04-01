@@ -8,13 +8,13 @@ import { calculateOverallScore, scoreToStarRating, formatArticleDate, hasRatingD
 import ScoreCard from '../../../components/article/ScoreCard';
 import StarRating from '../../../components/article/StarRating';
 import RatingBadge from '../../../components/article/RatingBadge';
-import ProductSpecs from '../../../components/article/ProductSpecs';
-import ProsCons from '../../../components/article/ProsCons';
+import { ProductSpecs } from '../../../components/article/ProductSpecs';
+import { ProsCons } from '../../../components/article/ProsCons';
 import ProductImage from '../../../components/article/ProductImage';
 import RetailerLinks from '../../../components/article/PriceButton';
 import ArticleContent from '../../../components/article/ArticleContent';
-import AuthorBio from '../../../components/article/AuthorBio';
-import RelatedArticles from '../../../components/article/RelatedArticles';
+import { AuthorBio } from '../../../components/article/AuthorBio';
+import { RelatedArticles } from '../../../components/article/RelatedArticles';
 import AdBanner from '../../../components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '../../../lib/adsense-config';
 
@@ -157,10 +157,9 @@ return (
       
           {/* Author Bio */}
           {metadata.authorBio && (
-            <AuthorBio 
+            <AuthorBio
               authorBio={metadata.authorBio}
-              authorName={metadata.author || "ProductLab Editorial Team"}
-              authorTitle="Product Review Specialist"
+              authorName={metadata.author}
             />
           )}
         </div>
