@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
+import { getAllPostSlugs } from '../lib/Posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://productlab.com';
-  
+
   // Static pages
   const staticPages = [
     '',
@@ -19,13 +20,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/best/cameras/professional-photo-cameras',
   ];
 
-  // Generate sitemap entries
-  const sitemap: MetadataRoute.Sitemap = staticPages.map((path) => ({
+  // Generate static page entries
+  const staticEntries: MetadataRoute.Sitemap = staticPages.map((path) => ({
     url: `${baseUrl}${path}`,
     lastModified: new Date(),
     changeFrequency: path === '' ? 'daily' : 'weekly',
     priority: path === '' ? 1 : path.includes('/best') ? 0.8 : 0.6,
   }));
 
-  return sitemap;
+  // Generate dynamic article entries from actual post files
+  const slugs = getAllPostSlugs();
+  const articleEntries: MetadataRoute.Sitemap = slugs.map((slug) => ({
+    url: `${baseUrl}/articles/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...articleEntries];
 }
