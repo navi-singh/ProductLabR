@@ -1,4 +1,5 @@
 import { ExternalLink } from 'lucide-react';
+import { isSafeUrl } from '@/lib/utils';
 
 interface BuyBoxProps {
   price?: string;
@@ -30,7 +31,7 @@ export function BuyBox({ price, retailerLinks, productName }: BuyBoxProps) {
         </div>
         <div className="flex flex-wrap gap-2">
           <a
-            href={primaryRetailer[1]}
+            href={isSafeUrl(primaryRetailer[1]) ? primaryRetailer[1] : '#'}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="inline-flex items-center gap-1.5 rounded-md bg-accent px-6 py-3 text-sm font-bold text-white transition-transform hover:scale-105 hover:bg-accent/90"
@@ -42,7 +43,7 @@ export function BuyBox({ price, retailerLinks, productName }: BuyBoxProps) {
           {secondaryRetailers.map(([name, url]) => (
             <a
               key={name}
-              href={url}
+              href={isSafeUrl(url) ? url : '#'}
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-1.5 rounded-md border-2 border-neutral-300 bg-white px-4 py-2.5 text-[13px] font-medium text-neutral-600 transition-colors hover:border-accent hover:text-accent"

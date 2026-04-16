@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ExternalLink } from 'lucide-react';
+import { isSafeUrl } from '@/lib/utils';
 import { OptimizedImage } from './OptimizedImage';
 import { ScoreBadge } from './ScoreBadge';
 import { AwardBadge } from './AwardBadge';
@@ -40,7 +41,7 @@ export function RankedProductCard({
             <span className="text-xs font-medium text-green-600">In Stock</span>
           </div>
           <div className="mt-2.5 flex gap-2">
-            {buyUrl && (
+            {buyUrl && isSafeUrl(buyUrl) && (
               <a href={buyUrl} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-1 rounded-md bg-accent px-5 py-2 text-sm font-semibold text-white transition-transform hover:scale-105 hover:bg-accent/90">
                 {buyLabel}<ExternalLink className="h-3 w-3" />
               </a>
