@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { X, ExternalLink } from 'lucide-react';
+import { isSafeUrl } from '@/lib/utils';
 
 interface StickyBuyBarProps {
   productName: string;
@@ -67,7 +68,7 @@ export function StickyBuyBar({
 
           {/* Buy button */}
           <a
-            href={primaryRetailerUrl}
+            href={isSafeUrl(primaryRetailerUrl) ? primaryRetailerUrl : '#'}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="inline-flex shrink-0 items-center gap-1.5 rounded-md bg-accent px-4 py-2 text-[13px] font-semibold text-white hover:bg-accent/90 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-neutral-900"

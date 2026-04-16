@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { ExternalLinkIcon, ShoppingIcon } from '../../lib/icons';
+import { isSafeUrl } from '../../lib/utils';
 
 interface RetailerLinksProps {
   retailerLinks?: {
@@ -20,6 +21,7 @@ export default function RetailerLinks({
 }: RetailerLinksProps) {
   
   const handleRetailerClick = (url: string, retailerName: string) => {
+    if (!isSafeUrl(url)) return;
     // Track click for analytics (in a real app)
     console.log(`Clicked ${retailerName} link for ${productName}`);
     window.open(url, '_blank', 'noopener,noreferrer');
