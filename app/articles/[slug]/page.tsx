@@ -79,8 +79,43 @@ export default async function ArticlePage({
   const starRating = scoreToStarRating(calculatedOverallScore);
   const showRating = hasRatingData(metadata);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    name: metadata.title,
+    description: metadata.subtitle ?? undefined,
+    author: {
+      '@type': 'Person',
+      name: metadata.author ?? 'Product Lab Team',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Product Lab',
+      url: 'https://productlab.com',
+    },
+    datePublished: metadata.date,
+    reviewRating: showRating
+      ? {
+          '@type': 'Rating',
+          ratingValue: starRating,
+          bestRating: 5,
+          worstRating: 0,
+        }
+      : undefined,
+    itemReviewed: {
+      '@type': 'Product',
+      name: metadata.title,
+      ...(metadata.productImage ? { image: metadata.productImage } : {}),
+    },
+    url: `https://productlab.com/articles/${slug}`,
+  };
+
 return (
     <main className="w-full px-3 py-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero Section */}
       <header className="mb-3">
         <h1 className="text-3xl md:text-4xl font-bold mb-2 leading-tight">{metadata.title}</h1>
