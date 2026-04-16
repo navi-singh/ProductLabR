@@ -8,7 +8,10 @@ export function calculateOverallScore(ratingBreakdown?: PostMetadata['ratingBrea
     return 0;
   }
 
-  const totalScore = ratingBreakdown.metrics.reduce((acc: number, metric: any) => acc + metric.score, 0);
+  const totalScore = ratingBreakdown.metrics.reduce(
+    (acc: number, metric: { name: string; score: number }) => acc + metric.score,
+    0
+  );
   return Math.round((totalScore * 10) / ratingBreakdown.metrics.length);
 }
 
