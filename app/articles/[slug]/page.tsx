@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getPostBySlug, getAllPostSlugs } from '../../../lib/Posts';
 import { processMarkdownContent } from '../../../lib/markdown';
@@ -17,6 +18,41 @@ import { AuthorBio } from '../../../components/article/AuthorBio';
 import { RelatedArticles } from '../../../components/article/RelatedArticles';
 import AdBanner from '../../../components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '../../../lib/adsense-config';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+
+  if (!post) {
+    return { title: 'Article Not Found | Product Lab' };
+  }
+
+  const { metadata } = post;
+  const description =
+    metadata.subtitle || `Expert review of the ${metadata.title} by Product Lab.`;
+  const imageUrl = metadata.productImage || metadata.heroImage || metadata.image;
+
+  return {
+    title: `${metadata.title} Review | Product Lab`,
+    description,
+    openGraph: {
+      title: `${metadata.title} Review | Product Lab`,
+      description,
+      type: 'article',
+      url: `https://productlab.com/articles/${slug}`,
+      ...(imageUrl ? { images: [{ url: imageUrl }] } : {}),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${metadata.title} Review | Product Lab`,
+      description,
+    },
+  };
+}
 
 export async function generateStaticParams() {
   const slugs = getAllPostSlugs();
