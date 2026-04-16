@@ -1,6 +1,6 @@
 'use client';
 import { useEffect } from 'react';
-import { ADSENSE_CONFIG, shouldShowAds, isAdSenseConfigured } from '@/lib/adsense-config';
+import { ADSENSE_CONFIG, shouldShowAds } from '@/lib/adsense-config';
 
 interface AdBannerProps {
   adSlot: string;

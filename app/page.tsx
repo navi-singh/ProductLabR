@@ -62,9 +62,9 @@ export default function Home() {
                 >
                   Read Full Review
                 </Link>
-                {featured.retailerLinks && featured.retailerLinks.length > 0 && (
+                {featured.retailerLinks && Object.keys(featured.retailerLinks).length > 0 && (
                   <a
-                    href={featured.retailerLinks[0].url}
+                    href={Object.values(featured.retailerLinks)[0]}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border border-neutral-300 text-neutral-700 px-5 py-2.5 rounded-md font-semibold text-sm hover:bg-neutral-50 transition-colors"
