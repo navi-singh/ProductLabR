@@ -1,13 +1,18 @@
-import { marked } from 'marked';
+import { marked, Renderer } from 'marked';
 
 export function processMarkdownContent(content: string): string {
   try {
+    // Strip raw HTML blocks to prevent XSS via inline HTML in .md files
+    const renderer = new Renderer();
+    renderer.html = () => '';
+    marked.use({ renderer });
+
     // Configure marked for better output
     marked.setOptions({
       breaks: true,
       gfm: true,
     });
-    
+
     // Convert markdown to HTML
     const html = marked(content);
     
