@@ -3,7 +3,16 @@ import path from "path";
 import matter from "gray-matter";
 import { PostMetadata } from "../components/PostMetadata";
 
+const VALID_SLUG_RE = /^[a-z0-9]+(?:[_-][a-z0-9]+)*$/i;
+
+function assertValidSlug(slug: string): void {
+  if (!VALID_SLUG_RE.test(slug)) {
+    throw new Error(`Invalid slug: "${slug}"`);
+  }
+}
+
 function findPostFile(slug: string): { filePath: string; category: string } | null {
+  assertValidSlug(slug);
   const postsDirectory = path.join(process.cwd(), 'posts');
   
   // First try to find in root posts directory (for backward compatibility)
@@ -33,6 +42,7 @@ function findPostFile(slug: string): { filePath: string; category: string } | nu
 
 export function getPostBySlug(slug: string): { metadata: PostMetadata; content: string } | null {
   try {
+    assertValidSlug(slug);
     const fileInfo = findPostFile(slug);
     if (!fileInfo) {
       console.error(`Post file not found for slug: ${slug}`);
