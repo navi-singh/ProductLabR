@@ -67,7 +67,7 @@ export default function RatingBadge({
             <div className="flex items-center gap-1">
               <span className="text-base">🏆</span>
               <div className="text-center leading-tight">
-                <div className="text-[10px] font-black uppercase tracking-wider">Editor's</div>
+                <div className="text-[10px] font-black uppercase tracking-wider">Editor&apos;s</div>
                 <div className="text-[10px] font-black uppercase tracking-wider">Choice</div>
               </div>
             </div>

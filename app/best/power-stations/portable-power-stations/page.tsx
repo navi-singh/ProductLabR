@@ -116,7 +116,7 @@ export default function PortablePowerStationsPage() {
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
           <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Portable Power Stations 2025</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Expert-tested power stations for camping, home backup, and off-grid adventures. We've tested over 40 models to bring you the definitive buying guide.
+            Expert-tested power stations for camping, home backup, and off-grid adventures. We&apos;ve tested over 40 models to bring you the definitive buying guide.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {['768Wh – 4096Wh Capacity', '800W – 4000W Output', '$429 – $3,699'].map((tag) => (

@@ -57,14 +57,6 @@ const nextConfig = {
     ];
   },
   
-  // Temporarily ignore for production build - fix these issues post-deployment
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  
   // PWA and caching
   async rewrites() {
     return [

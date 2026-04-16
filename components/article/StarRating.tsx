@@ -26,11 +26,6 @@ export default function StarRating({
   const [hoverRating, setHoverRating] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
-  const sizeClasses = {
-    sm: 'text-lg',
-    md: 'text-2xl md:text-3xl',
-    lg: 'text-3xl md:text-4xl'
-  };
 
   const containerSizes = {
     sm: 'w-6 h-6',
