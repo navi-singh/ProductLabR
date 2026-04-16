@@ -33,8 +33,8 @@ export default function Home() {
   return (
     <>
       {/* Hero — Editor's Pick */}
-      <section className="-mx-4 bg-gradient-to-b from-primary-lightest to-neutral-50 px-4 py-8 sm:-mx-6 sm:px-6">
-        <div className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-widest text-primary">
+      <section className="-mx-4 bg-gradient-to-b from-primary-lightest via-blue-50 to-neutral-50 px-4 py-8 sm:-mx-6 sm:px-6">
+        <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.15em] text-primary">
           <span className="h-1.5 w-1.5 rounded-full bg-accent" />
           Editor&apos;s Pick
         </div>
@@ -49,14 +49,29 @@ export default function Home() {
                   {featured.subtitle}
                 </p>
               )}
-              <div className="mt-3 flex items-center gap-3">
+              <div className="mt-3 flex flex-wrap items-center gap-3">
                 {featuredScore && <ScoreBadge score={featuredScore} showLabel />}
+                {featured.price && (
+                  <span className="text-base font-bold text-neutral-900">{featured.price}</span>
+                )}
+              </div>
+              <div className="mt-4 flex flex-wrap items-center gap-2">
                 <Link
                   href={`/articles/${featured.slug}`}
-                  className="text-sm font-medium text-primary hover:underline"
+                  className="bg-accent text-white px-5 py-2.5 rounded-md font-semibold text-sm hover:opacity-90 transition-opacity"
                 >
-                  Read full review →
+                  Read Full Review
                 </Link>
+                {featured.retailerLinks && featured.retailerLinks.length > 0 && (
+                  <a
+                    href={featured.retailerLinks[0].url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border border-neutral-300 text-neutral-700 px-5 py-2.5 rounded-md font-semibold text-sm hover:bg-neutral-50 transition-colors"
+                  >
+                    Buy Now
+                  </a>
+                )}
               </div>
             </div>
             <div className="relative h-44 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-featured md:h-52">

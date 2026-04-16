@@ -23,7 +23,7 @@ const keyboards: KeyboardEntry[] = [
   {
     rank: 1,
     name: 'Corsair K100 RGB',
-    href: '/best/gaming/best-gaming-keyboards',
+    href: '/articles/corsair_k100_rgb',
     image: '/images/item.png',
     summary: 'The flagship gaming keyboard with optical-mechanical switches, 44-zone RGB, 8000Hz polling rate, and a premium aluminum frame for the ultimate setup.',
     score: 9.1,
@@ -34,7 +34,7 @@ const keyboards: KeyboardEntry[] = [
   {
     rank: 2,
     name: 'Logitech G915 TKL',
-    href: '/best/gaming/best-gaming-keyboards',
+    href: '/articles/logitech_g915_tkl',
     image: '/images/item.png',
     summary: 'Best wireless gaming keyboard with ultra-thin low-profile switches, 40-hour battery life, and simultaneous wireless + Bluetooth connectivity.',
     score: 9.0,
@@ -45,7 +45,7 @@ const keyboards: KeyboardEntry[] = [
   {
     rank: 3,
     name: 'Redragon K552',
-    href: '/best/gaming/best-gaming-keyboards',
+    href: '/articles/redragon_k552',
     image: '/images/item.png',
     summary: 'Best-value gaming keyboard with solid Outemu mechanical switches, RGB backlighting, and a compact TKL layout at an incredibly affordable price.',
     score: 8.4,
@@ -56,7 +56,7 @@ const keyboards: KeyboardEntry[] = [
   {
     rank: 4,
     name: 'SteelSeries Apex Pro',
-    href: '/best/gaming/best-gaming-keyboards',
+    href: '/articles/steelseries_apex_pro',
     image: '/images/item.png',
     summary: 'Unique adjustable actuation per-key switch technology lets you set the ideal response depth for every key, with an 8000Hz polling rate.',
     score: 9.2,
@@ -66,9 +66,9 @@ const keyboards: KeyboardEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Corsair K100 RGB', href: '/best/gaming/best-gaming-keyboards', score: 9.1, price: '$229' },
-  { label: 'Best Wireless', name: 'Logitech G915 TKL', href: '/best/gaming/best-gaming-keyboards', score: 9.0, price: '$199' },
-  { label: 'Budget Pick', name: 'Redragon K552', href: '/best/gaming/best-gaming-keyboards', score: 8.4, price: '$35' },
+  { label: 'Best Overall', name: 'Corsair K100 RGB', href: '/articles/corsair_k100_rgb', score: 9.1, price: '$229' },
+  { label: 'Best Wireless', name: 'Logitech G915 TKL', href: '/articles/logitech_g915_tkl', score: 9.0, price: '$199' },
+  { label: 'Budget Pick', name: 'Redragon K552', href: '/articles/redragon_k552', score: 8.4, price: '$35' },
 ];
 
 export default function BestGamingKeyboardsPage() {

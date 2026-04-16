@@ -23,7 +23,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 1,
     name: 'LG 27UK850-W',
-    href: '/best/monitors/best-4k-monitors',
+    href: '/articles/lg_27uk850w',
     image: '/images/item.png',
     summary: 'Excellent all-around 4K monitor with wide color gamut, USB-C connectivity, and accurate factory calibration for creative professionals.',
     score: 9.1,
@@ -34,7 +34,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 2,
     name: 'Dell U2723D UltraSharp',
-    href: '/best/monitors/best-4k-monitors',
+    href: '/articles/dell_u2723d',
     image: '/images/item.png',
     summary: 'Professional-grade IPS Black panel with stunning deep blacks, factory calibration, Thunderbolt 4 hub, and wide color gamut coverage.',
     score: 9.2,
@@ -45,7 +45,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 3,
     name: 'ViewSonic VP2768a-4K',
-    href: '/best/monitors/best-4k-monitors',
+    href: '/articles/viewsonic_vp2768a_4k',
     image: '/images/item.png',
     summary: 'Factory-calibrated 4K professional monitor with hardware color calibration support, wide gamut, and excellent ergonomics at a fair price.',
     score: 8.8,
@@ -56,7 +56,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 4,
     name: 'BenQ PD2725U',
-    href: '/best/monitors/best-4k-monitors',
+    href: '/articles/benq_pd2725u',
     image: '/images/item.png',
     summary: 'Designer-focused 4K monitor with hot key controller, thunderbolt 3, and excellent color science targeting graphic design and photography workflows.',
     score: 9.0,
@@ -66,9 +66,9 @@ const monitors: MonitorEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'LG 27UK850-W', href: '/best/monitors/best-4k-monitors', score: 9.1, price: '$699' },
-  { label: 'Best for Work', name: 'Dell U2723D', href: '/best/monitors/best-4k-monitors', score: 9.2, price: '$599' },
-  { label: 'Budget Pick', name: 'ViewSonic VP2768a-4K', href: '/best/monitors/best-4k-monitors', score: 8.8, price: '$449' },
+  { label: 'Best Overall', name: 'LG 27UK850-W', href: '/articles/lg_27uk850w', score: 9.1, price: '$699' },
+  { label: 'Best for Work', name: 'Dell U2723D', href: '/articles/dell_u2723d', score: 9.2, price: '$599' },
+  { label: 'Budget Pick', name: 'ViewSonic VP2768a-4K', href: '/articles/viewsonic_vp2768a_4k', score: 8.8, price: '$449' },
 ];
 
 export default function Best4KMonitorsPage() {

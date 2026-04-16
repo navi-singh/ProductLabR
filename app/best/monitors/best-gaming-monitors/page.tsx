@@ -23,7 +23,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 1,
     name: 'LG 27GP950-B UltraGear',
-    href: '/best/monitors/best-gaming-monitors',
+    href: '/articles/lg_27gp950b',
     image: '/images/item.png',
     summary: 'The best all-around gaming monitor with a 4K 144Hz Nano IPS panel, HDMI 2.1 port, G-Sync compatibility, and excellent color accuracy.',
     score: 9.2,
@@ -34,7 +34,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 2,
     name: 'Samsung Odyssey G7',
-    href: '/best/monitors/best-gaming-monitors',
+    href: '/articles/samsung_odyssey_g7',
     image: '/images/item.png',
     summary: 'Outstanding 1440p 240Hz QLED gaming monitor with 1000R curve, VA panel deep blacks, and excellent contrast for immersive gaming.',
     score: 9.0,
@@ -45,7 +45,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 3,
     name: 'AOC 24G2SP',
-    href: '/best/monitors/best-gaming-monitors',
+    href: '/articles/aoc_24g2sp',
     image: '/images/item.png',
     summary: 'The best budget gaming monitor with a fast 165Hz IPS panel, accurate colors out-of-box, and AMD FreeSync Premium for butter-smooth gameplay.',
     score: 8.6,
@@ -56,7 +56,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 4,
     name: 'ASUS ROG Swift PG279QM',
-    href: '/best/monitors/best-gaming-monitors',
+    href: '/articles/asus_rog_swift_pg279qm',
     image: '/images/item.png',
     summary: 'High-end 1440p 240Hz IPS gaming monitor with G-Sync Ultimate, wide color gamut coverage, and ASUS ROG styling for the premium gaming setup.',
     score: 9.1,
@@ -66,9 +66,9 @@ const monitors: MonitorEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'LG 27GP950-B', href: '/best/monitors/best-gaming-monitors', score: 9.2, price: '$799' },
-  { label: 'Best Value', name: 'Samsung Odyssey G7', href: '/best/monitors/best-gaming-monitors', score: 9.0, price: '$649' },
-  { label: 'Budget Pick', name: 'AOC 24G2SP', href: '/best/monitors/best-gaming-monitors', score: 8.6, price: '$199' },
+  { label: 'Best Overall', name: 'LG 27GP950-B', href: '/articles/lg_27gp950b', score: 9.2, price: '$799' },
+  { label: 'Best Value', name: 'Samsung Odyssey G7', href: '/articles/samsung_odyssey_g7', score: 9.0, price: '$649' },
+  { label: 'Budget Pick', name: 'AOC 24G2SP', href: '/articles/aoc_24g2sp', score: 8.6, price: '$199' },
 ];
 
 export default function BestGamingMonitorsPage() {

@@ -23,7 +23,7 @@ const earbuds: EarbudEntry[] = [
   {
     rank: 1,
     name: 'Sony WF-1000XM5',
-    href: '/best/headphones/best-wireless-earbuds',
+    href: '/articles/sony_wf1000xm5',
     image: '/images/item.png',
     summary: 'The best true wireless earbuds overall with industry-leading ANC, hi-res audio support via LDAC, and a dramatic redesign with a smaller, more comfortable fit.',
     score: 9.3,
@@ -34,7 +34,7 @@ const earbuds: EarbudEntry[] = [
   {
     rank: 2,
     name: 'Apple AirPods Pro 2',
-    href: '/best/headphones/best-wireless-earbuds',
+    href: '/articles/apple_airpods_pro_2',
     image: '/images/item.png',
     summary: 'Best earbuds for iPhone users with best-in-class ANC, Transparency mode, personalized spatial audio, and seamless Apple ecosystem integration.',
     score: 9.2,
@@ -45,7 +45,7 @@ const earbuds: EarbudEntry[] = [
   {
     rank: 3,
     name: 'Nothing Ear (2)',
-    href: '/best/headphones/best-wireless-earbuds',
+    href: '/articles/nothing_ear_2',
     image: '/images/item.png',
     summary: 'Distinctive transparent design with surprisingly strong ANC, hi-res audio support, and excellent sound quality at a mid-range price.',
     score: 8.7,
@@ -56,7 +56,7 @@ const earbuds: EarbudEntry[] = [
   {
     rank: 4,
     name: 'Samsung Galaxy Buds3 Pro',
-    href: '/best/headphones/best-wireless-earbuds',
+    href: '/articles/samsung_galaxy_buds3_pro',
     image: '/images/item.png',
     summary: 'Redesigned blade-style fit with strong ANC, intelligent ambient mode, and excellent integration with Samsung Galaxy devices.',
     score: 8.8,
@@ -66,9 +66,9 @@ const earbuds: EarbudEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Sony WF-1000XM5', href: '/best/headphones/best-wireless-earbuds', score: 9.3, price: '$279' },
-  { label: 'Best for iPhone', name: 'Apple AirPods Pro 2', href: '/best/headphones/best-wireless-earbuds', score: 9.2, price: '$249' },
-  { label: 'Budget Pick', name: 'Nothing Ear (2)', href: '/best/headphones/best-wireless-earbuds', score: 8.7, price: '$149' },
+  { label: 'Best Overall', name: 'Sony WF-1000XM5', href: '/articles/sony_wf1000xm5', score: 9.3, price: '$279' },
+  { label: 'Best for iPhone', name: 'Apple AirPods Pro 2', href: '/articles/apple_airpods_pro_2', score: 9.2, price: '$249' },
+  { label: 'Budget Pick', name: 'Nothing Ear (2)', href: '/articles/nothing_ear_2', score: 8.7, price: '$149' },
 ];
 
 export default function BestWirelessEarbudsPage() {

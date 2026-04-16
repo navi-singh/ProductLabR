@@ -23,7 +23,7 @@ const tvs: TVEntry[] = [
   {
     rank: 1,
     name: 'Samsung QN90C Neo QLED',
-    href: '/best/tvs/best-gaming-tvs',
+    href: '/articles/samsung_qn90c',
     image: '/images/item.png',
     summary: 'Elite gaming TV with 144Hz refresh rate, 4x HDMI 2.1 ports, ultra-low input lag, and blazing brightness that handles any lighting condition.',
     score: 9.2,
@@ -34,7 +34,7 @@ const tvs: TVEntry[] = [
   {
     rank: 2,
     name: 'LG C4 OLED',
-    href: '/best/tvs/best-gaming-tvs',
+    href: '/articles/lg_c4_oled',
     image: '/images/item.png',
     summary: 'The best OLED for gaming with 4 HDMI 2.1 ports, G-Sync compatible, near-instant pixel response, and gorgeous picture quality.',
     score: 9.4,
@@ -45,7 +45,7 @@ const tvs: TVEntry[] = [
   {
     rank: 3,
     name: 'Hisense U8K',
-    href: '/best/tvs/best-gaming-tvs',
+    href: '/articles/hisense_u8k',
     image: '/images/item.png',
     summary: 'Incredible budget gaming TV with 144Hz panel, Mini-LED backlighting, and solid VRR support that competes with TVs costing twice as much.',
     score: 8.9,
@@ -56,7 +56,7 @@ const tvs: TVEntry[] = [
   {
     rank: 4,
     name: 'Sony X90L',
-    href: '/best/tvs/best-gaming-tvs',
+    href: '/articles/sony_x90l',
     image: '/images/item.png',
     summary: 'Sony\'s gaming-focused LED TV with excellent motion handling, HDMI 2.1 ports, and PlayStation-optimized Auto HDR Tone Mapping.',
     score: 8.8,
@@ -66,9 +66,9 @@ const tvs: TVEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Samsung QN90C', href: '/best/tvs/best-gaming-tvs', score: 9.2, price: '$1,299' },
-  { label: 'Best OLED', name: 'LG C4 OLED', href: '/best/tvs/best-gaming-tvs', score: 9.4, price: '$1,299' },
-  { label: 'Budget Pick', name: 'Hisense U8K', href: '/best/tvs/best-gaming-tvs', score: 8.9, price: '$699' },
+  { label: 'Best Overall', name: 'Samsung QN90C', href: '/articles/samsung_qn90c', score: 9.2, price: '$1,299' },
+  { label: 'Best OLED', name: 'LG C4 OLED', href: '/articles/lg_c4_oled', score: 9.4, price: '$1,299' },
+  { label: 'Budget Pick', name: 'Hisense U8K', href: '/articles/hisense_u8k', score: 8.9, price: '$699' },
 ];
 
 export default function BestGamingTVsPage() {

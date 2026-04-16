@@ -23,7 +23,7 @@ const products: ProductEntry[] = [
   {
     rank: 1,
     name: 'Roborock S8 MaxV Ultra',
-    href: '/best/smart-home/best-robot-vacuums',
+    href: '/articles/roborock_s8_maxv_ultra',
     image: '/images/item.png',
     summary: 'The ultimate robot vacuum and mop combo with self-emptying base, sonic mopping, and advanced obstacle avoidance using dual cameras.',
     score: 9.4,
@@ -34,7 +34,7 @@ const products: ProductEntry[] = [
   {
     rank: 2,
     name: 'Amazon Echo (4th Gen)',
-    href: '/best/smart-home/best-smart-speakers',
+    href: '/articles/amazon_echo_4th_gen',
     image: '/images/item.png',
     summary: 'Best-sounding Echo yet with a spherical design, built-in Zigbee hub, and seamless integration across the entire Amazon ecosystem.',
     score: 8.8,
@@ -45,7 +45,7 @@ const products: ProductEntry[] = [
   {
     rank: 3,
     name: 'Eufy RoboVac 11S',
-    href: '/best/smart-home/best-robot-vacuums',
+    href: '/articles/eufy_robovac_11s',
     image: '/images/item.png',
     summary: 'Ultra-slim, quiet robot vacuum that delivers reliable cleaning on hard floors and carpets at a budget-friendly price.',
     score: 8.3,
@@ -56,9 +56,9 @@ const products: ProductEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Robot Vacuum', name: 'Roborock S8 MaxV Ultra', href: '/best/smart-home/best-robot-vacuums', score: 9.4, price: '$1,599' },
-  { label: 'Best Smart Speaker', name: 'Amazon Echo (4th Gen)', href: '/best/smart-home/best-smart-speakers', score: 8.8, price: '$99' },
-  { label: 'Budget Pick', name: 'Eufy RoboVac 11S', href: '/best/smart-home/best-robot-vacuums', score: 8.3, price: '$199' },
+  { label: 'Best Robot Vacuum', name: 'Roborock S8 MaxV Ultra', href: '/articles/roborock_s8_maxv_ultra', score: 9.4, price: '$1,599' },
+  { label: 'Best Smart Speaker', name: 'Amazon Echo (4th Gen)', href: '/articles/amazon_echo_4th_gen', score: 8.8, price: '$99' },
+  { label: 'Budget Pick', name: 'Eufy RoboVac 11S', href: '/articles/eufy_robovac_11s', score: 8.3, price: '$199' },
 ];
 
 const categoryLinks = [

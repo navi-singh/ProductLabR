@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Global display typography ──────────────────────────────────────────── */
+h1,
+h2 {
+  font-family: var(--font-display);
+}
+
 /* 
   Line clamp utilities are now handled by Tailwind's built-in line-clamp plugin
   Use: line-clamp-1, line-clamp-2, line-clamp-3, etc. directly in className

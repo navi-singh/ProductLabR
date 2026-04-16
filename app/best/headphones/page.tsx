@@ -23,7 +23,7 @@ const headphones: HeadphoneEntry[] = [
   {
     rank: 1,
     name: 'Sony WH-1000XM5',
-    href: '/best/headphones/best-noise-cancelling-headphones',
+    href: '/articles/sony_wh1000xm5',
     image: '/images/item.png',
     summary: 'Industry-leading active noise cancellation with exceptional sound quality, 30-hour battery, and premium comfort for all-day wear.',
     score: 9.3,
@@ -34,7 +34,7 @@ const headphones: HeadphoneEntry[] = [
   {
     rank: 2,
     name: 'Sony WF-1000XM5',
-    href: '/best/headphones/best-wireless-earbuds',
+    href: '/articles/sony_wf1000xm5',
     image: '/images/item.png',
     summary: 'The best true wireless earbuds with world-class ANC, hi-res audio support, and a dramatically improved compact design.',
     score: 9.3,
@@ -45,7 +45,7 @@ const headphones: HeadphoneEntry[] = [
   {
     rank: 3,
     name: 'Nothing Ear (2)',
-    href: '/best/headphones/best-wireless-earbuds',
+    href: '/articles/nothing_ear_2',
     image: '/images/item.png',
     summary: 'Stylish transparent design with impressive sound and ANC at a mid-range price that rivals premium competitors.',
     score: 8.7,
@@ -56,9 +56,9 @@ const headphones: HeadphoneEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Sony WH-1000XM5', href: '/best/headphones/best-noise-cancelling-headphones', score: 9.3, price: '$349' },
-  { label: 'Best Earbuds', name: 'Sony WF-1000XM5', href: '/best/headphones/best-wireless-earbuds', score: 9.3, price: '$279' },
-  { label: 'Budget Pick', name: 'Nothing Ear (2)', href: '/best/headphones/best-wireless-earbuds', score: 8.7, price: '$149' },
+  { label: 'Best Overall', name: 'Sony WH-1000XM5', href: '/articles/sony_wh1000xm5', score: 9.3, price: '$349' },
+  { label: 'Best Earbuds', name: 'Sony WF-1000XM5', href: '/articles/sony_wf1000xm5', score: 9.3, price: '$279' },
+  { label: 'Budget Pick', name: 'Nothing Ear (2)', href: '/articles/nothing_ear_2', score: 8.7, price: '$149' },
 ];
 
 const categoryLinks = [

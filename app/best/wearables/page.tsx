@@ -23,7 +23,7 @@ const wearables: WearableEntry[] = [
   {
     rank: 1,
     name: 'Apple Watch Series 10',
-    href: '/best/wearables/best-smartwatches',
+    href: '/articles/apple_watch_series_10',
     image: '/images/item.png',
     summary: 'Apple\'s thinnest and lightest Watch ever with a larger display, faster charging, and comprehensive health monitoring features.',
     score: 9.3,
@@ -34,7 +34,7 @@ const wearables: WearableEntry[] = [
   {
     rank: 2,
     name: 'Samsung Galaxy Watch 7',
-    href: '/best/wearables/best-smartwatches',
+    href: '/articles/samsung_galaxy_watch_7',
     image: '/images/item.png',
     summary: 'Best Android smartwatch with advanced health tracking, Galaxy AI features, and excellent integration with Samsung phones.',
     score: 9.0,
@@ -45,7 +45,7 @@ const wearables: WearableEntry[] = [
   {
     rank: 3,
     name: 'Amazfit GTR 4',
-    href: '/best/wearables/best-fitness-trackers',
+    href: '/articles/amazfit_gtr_4',
     image: '/images/item.png',
     summary: 'Exceptional battery life paired with comprehensive fitness and health tracking at a budget-friendly price point.',
     score: 8.4,
@@ -56,9 +56,9 @@ const wearables: WearableEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Apple Watch Series 10', href: '/best/wearables/best-smartwatches', score: 9.3, price: '$399' },
-  { label: 'Best Android', name: 'Samsung Galaxy Watch 7', href: '/best/wearables/best-smartwatches', score: 9.0, price: '$299' },
-  { label: 'Budget Pick', name: 'Amazfit GTR 4', href: '/best/wearables/best-fitness-trackers', score: 8.4, price: '$149' },
+  { label: 'Best Overall', name: 'Apple Watch Series 10', href: '/articles/apple_watch_series_10', score: 9.3, price: '$399' },
+  { label: 'Best Android', name: 'Samsung Galaxy Watch 7', href: '/articles/samsung_galaxy_watch_7', score: 9.0, price: '$299' },
+  { label: 'Budget Pick', name: 'Amazfit GTR 4', href: '/articles/amazfit_gtr_4', score: 8.4, price: '$149' },
 ];
 
 const categoryLinks = [

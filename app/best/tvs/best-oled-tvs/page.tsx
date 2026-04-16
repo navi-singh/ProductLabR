@@ -23,7 +23,7 @@ const tvs: TVEntry[] = [
   {
     rank: 1,
     name: 'LG C4 OLED',
-    href: '/best/tvs/best-oled-tvs',
+    href: '/articles/lg_c4_oled',
     image: '/images/item.png',
     summary: 'LG\'s best all-around OLED with a new MLA panel, incredible picture quality, 4 HDMI 2.1 ports, and top gaming features including G-Sync and FreeSync.',
     score: 9.4,
@@ -34,7 +34,7 @@ const tvs: TVEntry[] = [
   {
     rank: 2,
     name: 'Sony A95L QD-OLED',
-    href: '/best/tvs/best-oled-tvs',
+    href: '/articles/sony_a95l_qd_oled',
     image: '/images/item.png',
     summary: 'The absolute best picture quality you can buy with Sony\'s Cognitive Processor XR, QD-OLED panel, and exceptional color volume and brightness.',
     score: 9.5,
@@ -45,7 +45,7 @@ const tvs: TVEntry[] = [
   {
     rank: 3,
     name: 'Samsung S90D QD-OLED',
-    href: '/best/tvs/best-oled-tvs',
+    href: '/articles/samsung_s90d_qd_oled',
     image: '/images/item.png',
     summary: 'Outstanding QD-OLED performance at a more accessible price with excellent brightness, color, and Samsung\'s excellent gaming features.',
     score: 9.1,
@@ -56,7 +56,7 @@ const tvs: TVEntry[] = [
   {
     rank: 4,
     name: 'LG B4 OLED',
-    href: '/best/tvs/best-oled-tvs',
+    href: '/articles/lg_b4_oled',
     image: '/images/item.png',
     summary: 'Entry-level OLED that still delivers the core OLED benefits — perfect blacks, infinite contrast, and a wide color gamut — at a great price.',
     score: 9.0,
@@ -66,9 +66,9 @@ const tvs: TVEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'LG C4 OLED', href: '/best/tvs/best-oled-tvs', score: 9.4, price: '$1,299' },
-  { label: 'Best Picture', name: 'Sony A95L QD-OLED', href: '/best/tvs/best-oled-tvs', score: 9.5, price: '$2,499' },
-  { label: 'Budget Pick', name: 'Samsung S90D', href: '/best/tvs/best-oled-tvs', score: 9.1, price: '$1,099' },
+  { label: 'Best Overall', name: 'LG C4 OLED', href: '/articles/lg_c4_oled', score: 9.4, price: '$1,299' },
+  { label: 'Best Picture', name: 'Sony A95L QD-OLED', href: '/articles/sony_a95l_qd_oled', score: 9.5, price: '$2,499' },
+  { label: 'Budget Pick', name: 'Samsung S90D', href: '/articles/samsung_s90d_qd_oled', score: 9.1, price: '$1,099' },
 ];
 
 export default function BestOLEDTVsPage() {

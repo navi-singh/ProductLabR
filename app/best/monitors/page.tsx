@@ -23,7 +23,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 1,
     name: 'LG 27GP950-B UltraGear',
-    href: '/best/monitors/best-gaming-monitors',
+    href: '/articles/lg_27gp950b',
     image: '/images/item.png',
     summary: 'Brilliant 4K 144Hz Nano IPS panel with HDMI 2.1 support for both PC and console gaming at top resolution and speed.',
     score: 9.2,
@@ -34,7 +34,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 2,
     name: 'Dell U2723D UltraSharp',
-    href: '/best/monitors/best-4k-monitors',
+    href: '/articles/dell_u2723d',
     image: '/images/item.png',
     summary: 'Professional-grade IPS Black panel with exceptional color accuracy and wide color gamut coverage for creative work.',
     score: 9.2,
@@ -45,7 +45,7 @@ const monitors: MonitorEntry[] = [
   {
     rank: 3,
     name: 'AOC 24G2SP',
-    href: '/best/monitors/best-gaming-monitors',
+    href: '/articles/aoc_24g2sp',
     image: '/images/item.png',
     summary: 'An outstanding budget gaming monitor with fast IPS panel, 165Hz refresh rate, and accurate colors at an unbeatable price.',
     score: 8.6,
@@ -56,9 +56,9 @@ const monitors: MonitorEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Gaming', name: 'LG 27GP950-B', href: '/best/monitors/best-gaming-monitors', score: 9.2, price: '$799' },
-  { label: 'Best for Work', name: 'Dell U2723D', href: '/best/monitors/best-4k-monitors', score: 9.2, price: '$599' },
-  { label: 'Budget Pick', name: 'AOC 24G2SP', href: '/best/monitors/best-gaming-monitors', score: 8.6, price: '$199' },
+  { label: 'Best Gaming', name: 'LG 27GP950-B', href: '/articles/lg_27gp950b', score: 9.2, price: '$799' },
+  { label: 'Best for Work', name: 'Dell U2723D', href: '/articles/dell_u2723d', score: 9.2, price: '$599' },
+  { label: 'Budget Pick', name: 'AOC 24G2SP', href: '/articles/aoc_24g2sp', score: 8.6, price: '$199' },
 ];
 
 const categoryLinks = [

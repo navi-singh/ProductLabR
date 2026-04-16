@@ -23,7 +23,7 @@ const vacuums: VacuumEntry[] = [
   {
     rank: 1,
     name: 'Roborock S8 MaxV Ultra',
-    href: '/best/smart-home/best-robot-vacuums',
+    href: '/articles/roborock_s8_maxv_ultra',
     image: '/images/item.png',
     summary: 'The most capable robot vacuum available with 10,000Pa suction, sonic mopping, self-emptying dock, and Reactive AI 3.0 obstacle avoidance.',
     score: 9.4,
@@ -34,7 +34,7 @@ const vacuums: VacuumEntry[] = [
   {
     rank: 2,
     name: 'iRobot Roomba Combo j9+',
-    href: '/best/smart-home/best-robot-vacuums',
+    href: '/articles/irobot_roomba_combo_j9_plus',
     image: '/images/item.png',
     summary: 'Best robot vacuum for pet hair with powerful suction, retractable mop that lifts on carpets, and excellent iRobot OS mapping and automation.',
     score: 9.1,
@@ -45,7 +45,7 @@ const vacuums: VacuumEntry[] = [
   {
     rank: 3,
     name: 'Eufy RoboVac 11S',
-    href: '/best/smart-home/best-robot-vacuums',
+    href: '/articles/eufy_robovac_11s',
     image: '/images/item.png',
     summary: 'Ultra-slim 2.85-inch profile fits under most furniture, whisper-quiet operation, and reliable cleaning on hard floors at an unbeatable price.',
     score: 8.3,
@@ -56,7 +56,7 @@ const vacuums: VacuumEntry[] = [
   {
     rank: 4,
     name: 'Dreame L20 Ultra',
-    href: '/best/smart-home/best-robot-vacuums',
+    href: '/articles/dreame_l20_ultra',
     image: '/images/item.png',
     summary: 'Impressive all-in-one robot vacuum and mop with 7,000Pa suction, hot water mop washing, and excellent LiDAR navigation at a competitive price.',
     score: 9.2,
@@ -66,9 +66,9 @@ const vacuums: VacuumEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Roborock S8 MaxV Ultra', href: '/best/smart-home/best-robot-vacuums', score: 9.4, price: '$1,599' },
-  { label: 'Best for Pet Hair', name: 'iRobot Roomba Combo j9+', href: '/best/smart-home/best-robot-vacuums', score: 9.1, price: '$1,099' },
-  { label: 'Budget Pick', name: 'Eufy RoboVac 11S', href: '/best/smart-home/best-robot-vacuums', score: 8.3, price: '$199' },
+  { label: 'Best Overall', name: 'Roborock S8 MaxV Ultra', href: '/articles/roborock_s8_maxv_ultra', score: 9.4, price: '$1,599' },
+  { label: 'Best for Pet Hair', name: 'iRobot Roomba Combo j9+', href: '/articles/irobot_roomba_combo_j9_plus', score: 9.1, price: '$1,099' },
+  { label: 'Budget Pick', name: 'Eufy RoboVac 11S', href: '/articles/eufy_robovac_11s', score: 8.3, price: '$199' },
 ];
 
 export default function BestRobotVacuumsPage() {
