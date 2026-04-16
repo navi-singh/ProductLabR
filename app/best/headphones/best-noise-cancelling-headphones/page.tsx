@@ -23,7 +23,7 @@ const headphones: HeadphoneEntry[] = [
   {
     rank: 1,
     name: 'Sony WH-1000XM5',
-    href: '/best/headphones/best-noise-cancelling-headphones',
+    href: '/articles/sony_wh1000xm5',
     image: '/images/item.png',
     summary: 'The benchmark for noise-cancelling headphones with best-in-class ANC, premium sound quality, 30-hour battery, and a sleek redesigned chassis.',
     score: 9.3,
@@ -34,7 +34,7 @@ const headphones: HeadphoneEntry[] = [
   {
     rank: 2,
     name: 'Bose QuietComfort 45',
-    href: '/best/headphones/best-noise-cancelling-headphones',
+    href: '/articles/bose_quietcomfort_45',
     image: '/images/item.png',
     summary: 'Legendary Bose comfort with outstanding noise cancellation, balanced sound signature, and best-in-class plush earcup padding for long travel.',
     score: 9.0,
@@ -45,7 +45,7 @@ const headphones: HeadphoneEntry[] = [
   {
     rank: 3,
     name: 'Anker Soundcore Q45',
-    href: '/best/headphones/best-noise-cancelling-headphones',
+    href: '/articles/anker_soundcore_q45',
     image: '/images/item.png',
     summary: 'Exceptional budget ANC headphones with LDAC support, adaptive noise cancellation, and 50-hour battery at an almost unbelievable $79 price.',
     score: 8.4,
@@ -56,7 +56,7 @@ const headphones: HeadphoneEntry[] = [
   {
     rank: 4,
     name: 'Apple AirPods Max',
-    href: '/best/headphones/best-noise-cancelling-headphones',
+    href: '/articles/apple_airpods_max',
     image: '/images/item.png',
     summary: 'Apple\'s premium over-ear headphones with stunning build quality, exceptional transparency mode, and seamless Apple device integration.',
     score: 8.9,
@@ -66,9 +66,9 @@ const headphones: HeadphoneEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Sony WH-1000XM5', href: '/best/headphones/best-noise-cancelling-headphones', score: 9.3, price: '$349' },
-  { label: 'Best Comfort', name: 'Bose QuietComfort 45', href: '/best/headphones/best-noise-cancelling-headphones', score: 9.0, price: '$329' },
-  { label: 'Budget Pick', name: 'Anker Soundcore Q45', href: '/best/headphones/best-noise-cancelling-headphones', score: 8.4, price: '$79' },
+  { label: 'Best Overall', name: 'Sony WH-1000XM5', href: '/articles/sony_wh1000xm5', score: 9.3, price: '$349' },
+  { label: 'Best Comfort', name: 'Bose QuietComfort 45', href: '/articles/bose_quietcomfort_45', score: 9.0, price: '$329' },
+  { label: 'Budget Pick', name: 'Anker Soundcore Q45', href: '/articles/anker_soundcore_q45', score: 8.4, price: '$79' },
 ];
 
 export default function BestNoiseCancellingPage() {

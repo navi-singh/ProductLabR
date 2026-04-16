@@ -1,6 +1,7 @@
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { VerdictBox } from '@/components/VerdictBox';
 import { BuyBox } from '@/components/BuyBox';
+import { StickyBuyBar } from '@/components/StickyBuyBar';
 import { TableOfContents } from '@/components/TableOfContents';
 import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
@@ -144,6 +145,18 @@ export default function ArticlePage({ metadata, content }: ArticlePageProps) {
           </div>
         </aside>
       </div>
+
+      {metadata.retailerLinks && Object.keys(metadata.retailerLinks).length > 0 && (() => {
+        const [primaryRetailerName, primaryRetailerUrl] = Object.entries(metadata.retailerLinks!)[0];
+        return (
+          <StickyBuyBar
+            productName={metadata.title}
+            price={metadata.price}
+            primaryRetailerName={primaryRetailerName}
+            primaryRetailerUrl={primaryRetailerUrl}
+          />
+        );
+      })()}
     </>
   );
 }

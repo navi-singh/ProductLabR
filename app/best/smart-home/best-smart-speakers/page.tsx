@@ -23,7 +23,7 @@ const speakers: SpeakerEntry[] = [
   {
     rank: 1,
     name: 'Amazon Echo (4th Gen)',
-    href: '/best/smart-home/best-smart-speakers',
+    href: '/articles/amazon_echo_4th_gen',
     image: '/images/item.png',
     summary: 'Best all-around smart speaker with improved audio quality, built-in Zigbee smart home hub, and Alexa with the widest smart home device compatibility.',
     score: 8.8,
@@ -34,7 +34,7 @@ const speakers: SpeakerEntry[] = [
   {
     rank: 2,
     name: 'Apple HomePod mini',
-    href: '/best/smart-home/best-smart-speakers',
+    href: '/articles/apple_homepod_mini',
     image: '/images/item.png',
     summary: 'Best smart speaker for Apple households with exceptional spatial audio for its size, seamless AirPlay 2, and HomePod intercom features.',
     score: 8.7,
@@ -45,7 +45,7 @@ const speakers: SpeakerEntry[] = [
   {
     rank: 3,
     name: 'Amazon Echo Dot (5th Gen)',
-    href: '/best/smart-home/best-smart-speakers',
+    href: '/articles/amazon_echo_dot_5th_gen',
     image: '/images/item.png',
     summary: 'The best budget smart speaker with improved bass response, built-in temperature sensor, and full Alexa functionality in a compact package.',
     score: 8.4,
@@ -56,7 +56,7 @@ const speakers: SpeakerEntry[] = [
   {
     rank: 4,
     name: 'Google Nest Audio',
-    href: '/best/smart-home/best-smart-speakers',
+    href: '/articles/google_nest_audio',
     image: '/images/item.png',
     summary: 'Google Assistant-powered smart speaker with surprisingly good audio quality, adaptive sound, and excellent integration with Google services.',
     score: 8.6,
@@ -66,9 +66,9 @@ const speakers: SpeakerEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Amazon Echo (4th Gen)', href: '/best/smart-home/best-smart-speakers', score: 8.8, price: '$99' },
-  { label: 'Best for Apple', name: 'Apple HomePod mini', href: '/best/smart-home/best-smart-speakers', score: 8.7, price: '$99' },
-  { label: 'Budget Pick', name: 'Echo Dot (5th Gen)', href: '/best/smart-home/best-smart-speakers', score: 8.4, price: '$49' },
+  { label: 'Best Overall', name: 'Amazon Echo (4th Gen)', href: '/articles/amazon_echo_4th_gen', score: 8.8, price: '$99' },
+  { label: 'Best for Apple', name: 'Apple HomePod mini', href: '/articles/apple_homepod_mini', score: 8.7, price: '$99' },
+  { label: 'Budget Pick', name: 'Echo Dot (5th Gen)', href: '/articles/amazon_echo_dot_5th_gen', score: 8.4, price: '$49' },
 ];
 
 export default function BestSmartSpeakersPage() {

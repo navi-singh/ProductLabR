@@ -23,7 +23,7 @@ const laptops: LaptopEntry[] = [
   {
     rank: 1,
     name: 'MacBook Pro 14-inch M4 Pro',
-    href: '/best/laptops/macbooks',
+    href: '/articles/macbook_pro_14_m4_pro',
     image: '/images/item.png',
     summary: 'Apple silicon powerhouse with incredible performance, all-day battery life, and a stunning Liquid Retina XDR display.',
     score: 9.5,
@@ -34,7 +34,7 @@ const laptops: LaptopEntry[] = [
   {
     rank: 2,
     name: 'ASUS ROG Strix G16 (2024)',
-    href: '/best/laptops/gaming-laptops',
+    href: '/articles/asus_rog_strix_g16',
     image: '/images/item.png',
     summary: 'Top-tier gaming performance with the latest Intel CPU, RTX 4080, and a blazing-fast 240Hz QHD display.',
     score: 9.1,
@@ -45,7 +45,7 @@ const laptops: LaptopEntry[] = [
   {
     rank: 3,
     name: 'Acer Aspire 5 (2024)',
-    href: '/best/laptops/best-laptops-under-1000',
+    href: '/articles/acer_aspire_5',
     image: '/images/item.png',
     summary: 'Outstanding value for everyday computing with solid performance, a sharp display, and long battery life under $700.',
     score: 8.8,
@@ -56,9 +56,9 @@ const laptops: LaptopEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'MacBook Pro 14" M4 Pro', href: '/best/laptops/macbooks', score: 9.5, price: '$1,999' },
-  { label: 'Best Gaming', name: 'ASUS ROG Strix G16', href: '/best/laptops/gaming-laptops', score: 9.1, price: '$1,499' },
-  { label: 'Budget Pick', name: 'Acer Aspire 5', href: '/best/laptops/best-laptops-under-1000', score: 8.8, price: '$649' },
+  { label: 'Best Overall', name: 'MacBook Pro 14" M4 Pro', href: '/articles/macbook_pro_14_m4_pro', score: 9.5, price: '$1,999' },
+  { label: 'Best Gaming', name: 'ASUS ROG Strix G16', href: '/articles/asus_rog_strix_g16', score: 9.1, price: '$1,499' },
+  { label: 'Budget Pick', name: 'Acer Aspire 5', href: '/articles/acer_aspire_5', score: 8.8, price: '$649' },
 ];
 
 const categoryLinks = [

@@ -43,4 +43,5 @@
 
   /* Font */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-display), 'Playfair Display', Georgia, serif;
 }

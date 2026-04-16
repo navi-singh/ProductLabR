@@ -23,7 +23,7 @@ const tvs: TVEntry[] = [
   {
     rank: 1,
     name: 'LG C4 OLED',
-    href: '/best/tvs/best-oled-tvs',
+    href: '/articles/lg_c4_oled',
     image: '/images/item.png',
     summary: 'Stunning OLED picture quality with perfect blacks, near-infinite contrast, and class-leading gaming features with 4x HDMI 2.1.',
     score: 9.4,
@@ -34,7 +34,7 @@ const tvs: TVEntry[] = [
   {
     rank: 2,
     name: 'Samsung QN90C Neo QLED',
-    href: '/best/tvs/best-gaming-tvs',
+    href: '/articles/samsung_qn90c',
     image: '/images/item.png',
     summary: 'Exceptional brightness and detail with Mini-LED backlighting, making it ideal for bright rooms and competitive gaming.',
     score: 9.2,
@@ -45,7 +45,7 @@ const tvs: TVEntry[] = [
   {
     rank: 3,
     name: 'Hisense U8K',
-    href: '/best/tvs/best-budget-tvs',
+    href: '/articles/hisense_u8k',
     image: '/images/item.png',
     summary: 'Incredible value with Mini-LED panel, high peak brightness, and solid gaming specs at a fraction of premium TV prices.',
     score: 8.9,
@@ -56,9 +56,9 @@ const tvs: TVEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'LG C4 OLED', href: '/best/tvs/best-oled-tvs', score: 9.4, price: '$1,299' },
-  { label: 'Best Gaming', name: 'Samsung QN90C', href: '/best/tvs/best-gaming-tvs', score: 9.2, price: '$1,299' },
-  { label: 'Budget Pick', name: 'Hisense U8K', href: '/best/tvs/best-budget-tvs', score: 8.9, price: '$699' },
+  { label: 'Best Overall', name: 'LG C4 OLED', href: '/articles/lg_c4_oled', score: 9.4, price: '$1,299' },
+  { label: 'Best Gaming', name: 'Samsung QN90C', href: '/articles/samsung_qn90c', score: 9.2, price: '$1,299' },
+  { label: 'Budget Pick', name: 'Hisense U8K', href: '/articles/hisense_u8k', score: 8.9, price: '$699' },
 ];
 
 const categoryLinks = [

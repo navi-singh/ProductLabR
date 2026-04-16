@@ -23,7 +23,7 @@ const laptops: LaptopEntry[] = [
   {
     rank: 1,
     name: 'Acer Aspire 5 (2024)',
-    href: '/best/laptops/best-laptops-under-1000',
+    href: '/articles/acer_aspire_5',
     image: '/images/item.png',
     summary: 'Outstanding all-around laptop under $700 with a powerful Ryzen 7 processor, sharp 1080p IPS display, and excellent battery life.',
     score: 8.8,
@@ -34,7 +34,7 @@ const laptops: LaptopEntry[] = [
   {
     rank: 2,
     name: 'HP Pavilion 15',
-    href: '/best/laptops/best-laptops-under-1000',
+    href: '/articles/hp_pavilion_15',
     image: '/images/item.png',
     summary: 'Great everyday laptop with a solid Intel processor, fast SSD storage, and a quality display in a slim, premium-feeling chassis.',
     score: 8.5,
@@ -56,7 +56,7 @@ const laptops: LaptopEntry[] = [
   {
     rank: 4,
     name: 'Dell Inspiron 15 3000',
-    href: '/best/laptops/best-laptops-under-1000',
+    href: '/articles/dell_inspiron_15_3000',
     image: '/images/item.png',
     summary: 'Dependable Dell everyday laptop with solid build quality, good keyboard, and a bright display perfect for office and school work.',
     score: 8.0,
@@ -66,8 +66,8 @@ const laptops: LaptopEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Acer Aspire 5', href: '/best/laptops/best-laptops-under-1000', score: 8.8, price: '$649' },
-  { label: 'Best Value', name: 'HP Pavilion 15', href: '/best/laptops/best-laptops-under-1000', score: 8.5, price: '$599' },
+  { label: 'Best Overall', name: 'Acer Aspire 5', href: '/articles/acer_aspire_5', score: 8.8, price: '$649' },
+  { label: 'Best Value', name: 'HP Pavilion 15', href: '/articles/hp_pavilion_15', score: 8.5, price: '$599' },
   { label: 'Budget Pick', name: 'Lenovo IdeaPad 3i', href: '/best/laptops/best-laptops-under-1000', score: 8.2, price: '$449' },
 ];
 

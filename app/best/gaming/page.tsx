@@ -23,7 +23,7 @@ const products: ProductEntry[] = [
   {
     rank: 1,
     name: 'Logitech G Pro X Superlight 2',
-    href: '/best/gaming/best-gaming-mice',
+    href: '/articles/logitech_g_pro_x_superlight_2',
     image: '/images/item.png',
     summary: 'The gold standard for competitive gaming mice — ultra-lightweight at 60g, HERO 2 sensor, and near-zero click latency.',
     score: 9.4,
@@ -34,7 +34,7 @@ const products: ProductEntry[] = [
   {
     rank: 2,
     name: 'SteelSeries Apex Pro',
-    href: '/best/gaming/best-gaming-keyboards',
+    href: '/articles/steelseries_apex_pro',
     image: '/images/item.png',
     summary: 'Revolutionary adjustable actuation OmniPoint 2.0 switches let you customize the feel per-key for ultimate competitive advantage.',
     score: 9.2,
@@ -45,7 +45,7 @@ const products: ProductEntry[] = [
   {
     rank: 3,
     name: 'Redragon M711 Cobra',
-    href: '/best/gaming/best-gaming-mice',
+    href: '/articles/redragon_m711_cobra',
     image: '/images/item.png',
     summary: 'An incredible budget gaming mouse with solid sensor, programmable buttons, and RGB lighting that punches well above its price.',
     score: 8.3,
@@ -56,9 +56,9 @@ const products: ProductEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Mouse', name: 'Logitech G Pro X Superlight 2', href: '/best/gaming/best-gaming-mice', score: 9.4, price: '$159' },
-  { label: 'Best Keyboard', name: 'SteelSeries Apex Pro', href: '/best/gaming/best-gaming-keyboards', score: 9.2, price: '$179' },
-  { label: 'Budget Pick', name: 'Redragon M711 Cobra', href: '/best/gaming/best-gaming-mice', score: 8.3, price: '$25' },
+  { label: 'Best Mouse', name: 'Logitech G Pro X Superlight 2', href: '/articles/logitech_g_pro_x_superlight_2', score: 9.4, price: '$159' },
+  { label: 'Best Keyboard', name: 'SteelSeries Apex Pro', href: '/articles/steelseries_apex_pro', score: 9.2, price: '$179' },
+  { label: 'Budget Pick', name: 'Redragon M711 Cobra', href: '/articles/redragon_m711_cobra', score: 8.3, price: '$25' },
 ];
 
 const categoryLinks = [

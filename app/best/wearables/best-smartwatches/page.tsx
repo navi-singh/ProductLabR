@@ -23,7 +23,7 @@ const watches: WatchEntry[] = [
   {
     rank: 1,
     name: 'Apple Watch Series 10',
-    href: '/best/wearables/best-smartwatches',
+    href: '/articles/apple_watch_series_10',
     image: '/images/item.png',
     summary: 'Apple\'s thinnest Watch ever with a wider always-on display, faster charge, sleep apnea detection, and the most comprehensive health suite on any smartwatch.',
     score: 9.3,
@@ -34,7 +34,7 @@ const watches: WatchEntry[] = [
   {
     rank: 2,
     name: 'Samsung Galaxy Watch 7',
-    href: '/best/wearables/best-smartwatches',
+    href: '/articles/samsung_galaxy_watch_7',
     image: '/images/item.png',
     summary: 'Best Android smartwatch with 3nm chip for improved efficiency, advanced body composition analysis, and Galaxy AI-powered health coaching.',
     score: 9.0,
@@ -45,7 +45,7 @@ const watches: WatchEntry[] = [
   {
     rank: 3,
     name: 'Amazfit GTR 4',
-    href: '/best/wearables/best-smartwatches',
+    href: '/articles/amazfit_gtr_4',
     image: '/images/item.png',
     summary: 'Exceptional two-week battery life with SpO2, ECG, comprehensive sports tracking, and Alexa built-in at a budget-friendly price that challenges pricier rivals.',
     score: 8.4,
@@ -56,7 +56,7 @@ const watches: WatchEntry[] = [
   {
     rank: 4,
     name: 'Garmin Forerunner 265',
-    href: '/best/wearables/best-smartwatches',
+    href: '/articles/garmin_forerunner_265',
     image: '/images/item.png',
     summary: 'Best smartwatch for runners with Garmin\'s unmatched training analytics, GPS accuracy, multi-sport tracking, and 15-day battery life.',
     score: 9.1,
@@ -66,9 +66,9 @@ const watches: WatchEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'Apple Watch Series 10', href: '/best/wearables/best-smartwatches', score: 9.3, price: '$399' },
-  { label: 'Best Android', name: 'Samsung Galaxy Watch 7', href: '/best/wearables/best-smartwatches', score: 9.0, price: '$299' },
-  { label: 'Budget Pick', name: 'Amazfit GTR 4', href: '/best/wearables/best-smartwatches', score: 8.4, price: '$149' },
+  { label: 'Best Overall', name: 'Apple Watch Series 10', href: '/articles/apple_watch_series_10', score: 9.3, price: '$399' },
+  { label: 'Best Android', name: 'Samsung Galaxy Watch 7', href: '/articles/samsung_galaxy_watch_7', score: 9.0, price: '$299' },
+  { label: 'Budget Pick', name: 'Amazfit GTR 4', href: '/articles/amazfit_gtr_4', score: 8.4, price: '$149' },
 ];
 
 export default function BestSmartwatchesPage() {
