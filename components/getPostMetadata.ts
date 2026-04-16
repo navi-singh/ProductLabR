@@ -1,9 +1,10 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { cache } from "react";
 import { PostMetadata } from "./PostMetadata";
 
-const getPostMetadata = (): PostMetadata[] => {
+const getPostMetadata = cache((): PostMetadata[] => {
   const postsDirectory = "posts/";
   let allPosts: PostMetadata[] = [];
 
@@ -91,6 +92,6 @@ const getPostMetadata = (): PostMetadata[] => {
   }
 
   return allPosts;
-};
+});
 
 export default getPostMetadata;
