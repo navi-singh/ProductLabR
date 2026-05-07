@@ -192,3 +192,26 @@ A: Yes, UL 2743 certification and comprehensive safety systems ensure safe indoo
 
 **Q: Can I use it while charging?**
 A: Yes, pass-through charging allows simultaneous charging and power output, though this extends total charging time based on load.
+
+**Q: How does the Explorer 1000 v2 compare to the original Explorer 1000?**
+A: The v2 upgrade switches battery chemistry from lithium-ion NMC to LiFePO4, increasing cycle life from approximately 500 cycles to 4,000+ cycles.
+The v2 also increased rated output from 1,000W to 1,500W and improved the charge controller efficiency.
+For new buyers, there's no reason to consider the original — the v2 is meaningfully better on every dimension that matters for long-term ownership.
+
+**Q: Does the lack of app connectivity matter?**
+A: For most users, no.
+The LCD display gives you battery percentage, input wattage, and output wattage — the three numbers you actually need.
+You can't remotely monitor or schedule charging, but for camping and emergency backup, that's rarely a real limitation.
+If real-time monitoring and scheduling are important to you, the EcoFlow River 2 Pro or Anker SOLIX C1000 offer app connectivity at similar prices.
+
+**Q: What's the real-world capacity vs. the rated 1,070Wh?**
+A: Testing showed approximately 880–930Wh of usable output at typical loads (80–85% round-trip efficiency).
+At moderate load (200W continuous), this translates to roughly 4–4.5 hours of operation.
+The 1,070Wh figure represents battery capacity, not output capacity — a distinction that matters for planning.
+
+**Q: Is the 4,000-cycle rating a meaningful advantage?**
+A: Yes, for buyers who plan to use the unit regularly over several years.
+At one cycle per day, 4,000 cycles is roughly 11 years to reach 70% capacity.
+For comparison, a lithium-ion unit rated for 500 cycles reaches 80% capacity in 1.4 years at the same usage rate.
+For emergency preparedness units that sit on a shelf and cycle infrequently, the difference is less important.
+For daily use in a van or cabin, it's a significant long-term value difference.

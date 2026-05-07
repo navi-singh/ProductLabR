@@ -174,3 +174,60 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### Understanding the RAVPower 90W AC Power Bank Category
+
+The RAVPower 90W AC Power Bank (88.8Wh, 1.5 lbs) targets the same niche as the Goal Zero Sherpa 100AC: compact travel units that provide a real AC outlet for small devices.
+
+At 88.8Wh, it stays under the FAA 100Wh carry-on limit.
+
+The 90W AC output handles most ultrabook laptops comfortably.
+
+RAVPower's strength has historically been competitive pricing against premium brands.
+
+### Honest Capacity Assessment
+
+88.8Wh at 85% round-trip efficiency delivers approximately 75Wh of usable output.
+
+For a typical laptop drawing 65W, that's roughly 1.1 hours of runtime.
+
+For a MacBook Air drawing 30W, that's approximately 2.5 hours.
+
+This is a supplementary travel power source, not a primary power supply.
+
+It extends your work time on a plane or in a cafe — it doesn't replace regular charging.
+
+### AC Outlet vs. USB-C Reality
+
+The key question with any travel power bank in this capacity range: do you actually need the AC outlet?
+
+If your laptop charges via USB-C (most laptops sold after 2017), the Anker PowerCore+ 26800 PD at $129 with 30W USB-C PD output does the same job for significantly less money and even lighter weight.
+
+The AC outlet on the RAVPower only adds value if:
+- Your device charges only via AC (barrel connector laptops, some older equipment)
+- You need to run an AC-only device briefly (small appliance, CPAP for a nap)
+- The device you're powering specifically cannot charge via USB-C
+
+If USB-C 30W meets your needs, skip the premium for AC outlet units.
+
+### Build Quality and Brand Context
+
+RAVPower had a strong reputation for value-priced quality accessories before their Amazon storefront suspension in 2021.
+
+The brand has operated under changed ownership/management since then.
+
+Build quality reports on recent RAVPower products are mixed compared to the brand's earlier reputation.
+
+For a travel power bank you depend on, considering Goal Zero Sherpa 100AC or Anker alternatives may be worthwhile from a reliability standpoint, even at higher prices.
+
+### Final Recommendation
+
+Best use case: supplementary laptop power for air travel or meetings, where USB-C charging isn't available.
+
+Skip if: your laptop charges via USB-C, you have longer power needs, or you want to minimize weight.
+
+Consider alternatives: Goal Zero Sherpa 100AC if you value brand reliability, or Anker PowerCore+ 26800 PD if you need USB-C PD only at lower cost.

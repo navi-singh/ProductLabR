@@ -176,3 +176,58 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### The Goal Zero Yeti 500X in 2025
+
+The Yeti 500X is a 505Wh power station with 300W continuous output at 12.9 lbs.
+
+Launched around 2019–2020, it's an older-generation product.
+
+Goal Zero's reputation for build quality and customer support remains strong, but the market has moved considerably since launch.
+
+At $699 MSRP, the Yeti 500X is priced at a significant premium for its specifications.
+
+### The Value Problem
+
+$699 for 505Wh and 300W output is a poor value ratio by 2025 standards.
+
+For $799, the Anker SOLIX C2000 Gen 2 offers 2,048Wh (4x the capacity) and 2,400W output (8x the inverter power).
+
+The Yeti 500X's only competitive advantages are: 12.9 lbs weight, Goal Zero's brand reputation, and the Yeti ecosystem compatibility (Tank expansion modules, MPPT chain charging).
+
+For buyers who specifically want the smallest/lightest AC power station, the 12.9-lb weight is genuinely competitive — the Anker C2000 weighs 42 lbs.
+
+### The 300W Inverter Is Very Limiting
+
+300W continuous output means the Yeti 500X cannot power:
+- Microwaves (700W+)
+- Coffee makers (800W+)
+- Hair dryers (1,000W+)
+- Most power tools (600W+)
+- Any AC appliance with significant draw
+
+It can comfortably handle: laptop charging (65–100W), phone charging (25W), LED lighting (20–50W), small fans (30–50W), and CPAP machines (30–80W).
+
+For the 12.9-lb weight, this limited output is the trade-off that makes it suitable for ultralight camping only.
+
+### Yeti Ecosystem Value
+
+Goal Zero's Yeti ecosystem includes Tank expansion batteries (adds 168Wh per Tank) and the ability to chain multiple units.
+
+For users already in the Goal Zero ecosystem, compatibility has real value.
+
+For new buyers starting fresh, the proprietary expansion system at premium prices is less compelling than the open-architecture systems offered by EcoFlow and Anker.
+
+### Final Recommendation
+
+The Yeti 500X is best suited for ultralight camping and backpacking where 12.9 lbs is the ceiling and 300W output is sufficient.
+
+It is not a home backup unit, and it's not a good value for anyone who needs more than laptop-and-lights level power.
+
+At $699, it's only justifiable if the weight specification is non-negotiable.
+
+At a discount to $399–$499, it becomes more defensible for its specific niche.

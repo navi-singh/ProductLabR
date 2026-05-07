@@ -187,3 +187,24 @@ A: The River 2 Pro connects via WiFi and Bluetooth, enabling remote monitoring a
 
 **Q: What's the warranty coverage?**
 A: EcoFlow provides 5-year warranty coverage, including protection against manufacturing defects and battery performance degradation beyond normal specifications.
+
+**Q: How does the River 2 Pro compare to the original River 2?**
+A: The River 2 Pro has significantly more capacity (768Wh vs 256Wh), a higher inverter output (800W vs 300W), and faster charging.
+The "Pro" designation represents a fundamentally different product tier — not just an incremental upgrade.
+If you're comparing them side-by-side, the River 2 Pro is the only one suitable for home backup or powering actual appliances.
+
+**Q: Can I expand the River 2 Pro's capacity?**
+A: Yes — EcoFlow offers the River 2 Pro Extra Battery (768Wh) that connects directly to double total capacity to 1,536Wh.
+The combined system weighs approximately 34 lbs and is still considerably more portable than most 1.5kWh alternatives.
+
+**Q: Is 800W enough inverter power for camping?**
+A: For most camping loads, yes.
+A portable fridge draws 40–80W, LED lights draw under 50W, a laptop charger draws 65–100W, and a small portable fan draws 50W.
+Running all four simultaneously puts you at roughly 250W — well within 800W.
+Where it falls short: electric kettles (1,200W+), hair dryers (1,000W+), and most AC appliances.
+X-Boost extends this somewhat, but 800W is the practical ceiling for sustained operation.
+
+**Q: How does X-Boost work technically?**
+A: X-Boost uses adaptive power management to limit the power draw of connected devices to the inverter's rated ceiling.
+For resistive loads (heaters, kettles), it simply caps draw at 800W — the device runs at lower power but still functions.
+For devices with complex power requirements (motors, compressors), behavior is less predictable and testing is recommended before relying on it.
