@@ -2,6 +2,11 @@
 title: "EcoFlow River 2 Pro: Compact Power Station That Punches Above Its Weight"
 subtitle: "A comprehensive review of EcoFlow's mid-tier portable power solution with impressive charging speeds"
 date: "2024-12-27"
+capacityWh: 768
+features:
+  - "van-life"
+  - "cpap"
+  - "solar"
 image: "/images/posts/ecoflow_river2_pro/river2_pro_main.webp"
 productImage: "/images/posts/ecoflow_river2_pro/river2_pro_main.webp"
 specs:

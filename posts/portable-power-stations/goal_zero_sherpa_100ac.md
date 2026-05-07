@@ -2,6 +2,8 @@
 title: "Goal Zero Sherpa 100AC: The Ultimate Power Solution for Modern Needs"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 100
+features: []
 image: "/images/posts/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_main.webp"
 productImage: "/images/posts/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_main.webp"
 

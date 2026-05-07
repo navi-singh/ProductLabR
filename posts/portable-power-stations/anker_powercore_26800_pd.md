@@ -2,6 +2,8 @@
 title: "Anker PowerCore 26800 PD: Professional Power Station Review and Analysis"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 99
+features: []
 image: "/images/posts/anker_powercore_26800_pd/anker_powercore_26800_pd_main.webp"
 productImage: "/images/posts/anker_powercore_26800_pd/anker_powercore_26800_pd_main.webp"
 

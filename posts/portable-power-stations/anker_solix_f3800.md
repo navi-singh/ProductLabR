@@ -2,6 +2,11 @@
 title: "Anker SOLIX F3800: Professional Power Station Review and Analysis"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 3840
+features:
+  - "30a-rv"
+  - "solar"
+  - "240v"
 image: "/images/posts/anker_solix_f3800/anker_solix_f3800_main.webp"
 productImage: "/images/posts/anker_solix_f3800/anker_solix_f3800_main.webp"
 

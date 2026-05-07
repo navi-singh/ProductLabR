@@ -2,6 +2,10 @@
 title: "EcoFlow Delta 3: Next-Generation Power Station with Smart Home Integration"
 subtitle: "A comprehensive review of EcoFlow's latest innovation featuring enhanced capacity and intelligent features"
 date: "2024-12-27"
+capacityWh: 1024
+features:
+  - "solar"
+  - "van-life"
 image: "/images/posts/ecoflow_delta3/delta3_main.webp"
 productImage: "/images/posts/ecoflow_delta3/delta3_main.webp"
 specs:
