@@ -174,3 +174,47 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### Understanding the PowerCore 26800 PD's Category
+
+The Anker PowerCore 26800 PD sits in a specific niche: high-capacity USB power bank with 30W PD output.
+
+At 96.48Wh, it's the maximum capacity allowed for carry-on airline travel under FAA rules (100Wh limit).
+
+This TSA compliance is its primary differentiator from power stations — you can take it on a plane.
+
+If you need to power a laptop through a full transatlantic flight or keep devices charged across a long travel day, this is the product category you want.
+
+### What It Cannot Do
+
+It cannot power AC appliances.
+
+There is no AC outlet — no way to power a monitor, a coffee maker, a CPAP machine, or any device that requires a standard wall plug.
+
+All output is USB: 30W via USB-C PD, plus USB-A ports for standard charging.
+
+For travelers whose devices are all USB-chargeable (laptop via USB-C, phone, earbuds, tablet), this is no limitation.
+
+For anyone who needs to power AC devices, this is the wrong product category entirely.
+
+### Comparison to Purpose-Built Travel Power Banks
+
+The market for sub-100Wh travel power banks includes the Anker PowerCore+ 26800 PD, the Zendure SuperTank, and the Mophie Powerstation.
+
+The PowerCore 26800 PD differentiates through Anker's quality control, customer support reputation, and the PowerIQ/VoltageBoost fast charging technology.
+
+At $129, it's priced at a premium for the category but consistent with Anker's positioning across their product line.
+
+For travel use where TSA compliance is the primary constraint and USB-C is the primary output needed, the PowerCore 26800 PD is a category leader.
+
+For any use case where AC output matters, look at purpose-built power stations starting at 500Wh.
+
+### Final Recommendation
+
+Buy this if: you fly frequently, carry USB-C laptops and devices, and need a reliable high-capacity power bank within the TSA carry-on limit.
+
+Skip this if: you need AC power, you don't travel by air, or you need more than 30W of output for a single device.

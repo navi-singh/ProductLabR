@@ -177,3 +177,67 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### Anker SOLIX F3800 vs F3800 Plus
+
+This review covers the original Anker SOLIX F3800 (released ~2023).
+
+As of June 2025, Anker released the SOLIX F3800 Plus, which triples solar input from 1,000W to 3,200W — a fundamentally more capable unit at a similar price point.
+
+If you are evaluating the F3800 family for purchase today, the F3800 Plus ($3,199) is the clear choice over the original F3800 ($3,999 MSRP) unless you find the original at a substantial discount.
+
+The information below describes the original F3800's capabilities.
+
+### Original F3800: Still a Capable Unit
+
+The original F3800 brings 3,840Wh of LiFePO4 capacity with a 6,000W inverter and the ability to expand to 53.8kWh — the same architecture as the Plus model.
+
+The primary difference is solar input: 1,000W on the original vs 3,200W on the Plus.
+
+For buyers who have limited solar panel capacity (under 1,000W), the original F3800 at a discounted price is still a capable home backup platform.
+
+For serious solar users, the F3800 Plus is worth the premium.
+
+### 6,000W Inverter: What It Powers
+
+6,000W continuous output covers virtually every 120V household load simultaneously.
+
+Realistic combined load for a typical home outage scenario:
+- Central AC unit: 1,500–3,000W running
+- Refrigerator: 150–200W
+- Lighting: 200–400W
+- Networking/electronics: 200W
+- Combined: 2,050–3,800W
+
+The F3800's 6,000W ceiling leaves ample headroom for startup surges and additional loads.
+
+### UPS Functionality
+
+The F3800 includes 3 UPS-protected outlets (of the 6 total AC outlets) with automatic switchover for connected critical devices.
+
+Computers, networking equipment, and medical devices benefit from UPS protection during grid fluctuations.
+
+The switchover time is sub-20ms — sufficient for most equipment to remain online without interruption.
+
+### Expandability to 53.8kWh
+
+The F3800 scales to 53.8kWh through cable-connected expansion batteries.
+
+At 3,840Wh base capacity, adding batteries incrementally:
+- 2 batteries: 7,680Wh
+- 5 batteries: 19,200Wh
+- Maximum configuration: 53,760Wh
+
+For homeowners who want to start small and build capacity over time, this architecture supports long-term investment.
+
+### Final Recommendation
+
+The original F3800 is a strong product that has been one-upped by the F3800 Plus on solar input.
+
+If purchasing today: check whether the F3800 Plus is available at a comparable or lower price before committing to the original.
+
+If found at significant discount ($2,000 or less), the original F3800 remains excellent value for the 6,000W inverter, UPS outlets, and 53.8kWh expansion path.

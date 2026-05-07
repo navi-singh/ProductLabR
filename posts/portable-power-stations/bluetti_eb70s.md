@@ -176,3 +176,63 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### The Bluetti EB70S in 2025
+
+The EB70S launched in 2021 and represents an older product generation still available for sale.
+
+At 716Wh and 800W continuous output, it's a capable mid-range unit — but the market has moved significantly since launch.
+
+In 2025, $449 buys considerably more power than it did in 2021.
+
+The Anker SOLIX C1000 offers 1,056Wh at 1,200W continuous for a similar price.
+
+The EcoFlow River 2 Pro offers 768Wh with faster charging and better app features at $479.
+
+### The 800W Inverter is the Binding Constraint
+
+800W continuous output is the EB70S's most important practical limitation.
+
+A typical microwave draws 1,000W — already over the ceiling.
+
+A portable AC unit draws 800–1,200W — at or over the ceiling.
+
+Hair dryers, space heaters, and most kitchen appliances exceed 800W.
+
+The EB70S is best suited for: phone/laptop/tablet charging, LED lighting, fans, small 12V refrigerators, CPAP machines, and low-draw electronics.
+
+For any household appliance beyond these, look at units with 1,200W+ inverters.
+
+### Wireless Charging and LED Light
+
+Two genuine differentiators from competitors at this price: built-in Qi wireless charging pad and integrated LED flashlight.
+
+The wireless pad is 15W — useful for phones but slow for tablets.
+
+The LED flashlight with SOS mode adds genuine value for emergency preparedness scenarios — it's not a gimmick.
+
+### Who Should Buy the EB70S in 2025
+
+Realistically, the EB70S makes sense only at a significant discount below MSRP, or for buyers specifically needing the wireless charging pad and LED light combo that newer budget units don't include.
+
+At $449 MSRP, the Anker SOLIX C800 ($399, 768Wh, 1,200W) or Anker SOLIX C1000 (~$449, 1,056Wh) are stronger values on specs.
+
+The EB70S is a fine product — just not the best value in today's market at its original price.
+
+If you find it discounted significantly (under $299), it's worth considering for its specific feature set.
+
+### CPAP Use Assessment
+
+716Wh at 85% efficiency provides approximately 608Wh of usable power.
+
+A standard CPAP drawing 60W average runs approximately 10 hours — a full night's sleep with margin.
+
+With a CPAP humidifier (adds 30–50W), expect 7–8 hours.
+
+For CPAP users who need one reliable night of backup, the EB70S is adequate.
+
+For users who need multiple nights without recharging, consider the Bluetti Elite 300 or EcoFlow Delta 3 Max.

@@ -176,3 +176,59 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### The Bluetti AC180 in Context
+
+The Bluetti AC180 is a 1,152Wh power station with 1,800W continuous output at 35.3 lbs and $699.
+
+It sits in a competitive position between mid-range units like the Anker SOLIX C2000 Gen 2 ($799 for 2,048Wh) and entry-1kWh units like the EcoFlow River 2 Pro.
+
+The AC180's 1,800W inverter is a strength — at $699 for 1,152Wh and 1,800W, it provides more inverter headroom than most units in its price range.
+
+### Solar Capability
+
+Bluetti markets the AC180 as solar-optimized, and the 500W solar input (via MPPT) is respectable for the size class.
+
+At 500W solar input and 1,152Wh capacity, best-case solar recharge time is approximately 2.75 hours.
+
+This is competitive with the EcoFlow River 2 Pro's 220W solar input, but falls behind the Anker SOLIX C2000 Gen 2's 800W input.
+
+For dedicated solar use, the AC180 is a reasonable choice — but it's not in the highest tier of solar-capable units.
+
+### Wireless Charging Pad
+
+The AC180 includes a built-in Qi wireless charging pad, typically rated for 15W.
+
+For campers and van lifers who want to charge a phone overnight without plugging in a cable, this is a genuine convenience.
+
+It's a small feature that adds practical daily-use value.
+
+### The Honest Comparison to C2000 Gen 2
+
+The most direct competitor is the Anker SOLIX C2000 Gen 2 at $799 for 2,048Wh.
+
+The Anker has 78% more capacity for $100 more.
+
+The Anker has 800W solar input versus the Bluetti's 500W.
+
+The Anker has a better display, better app, and Anker's superior support infrastructure.
+
+The Bluetti AC180 wins on initial price ($699 vs $799) and wireless charging.
+
+For most buyers, the C2000 Gen 2 is the stronger value.
+
+The AC180 makes more sense for buyers who specifically want 1kWh-class capacity and are price-sensitive to the $100 difference.
+
+### Final Recommendation
+
+The Bluetti AC180 is a capable, well-rounded unit that competes adequately in its price range.
+
+It's a better choice than the Jackery Explorer 1000 v2 on inverter size, and competitive with EcoFlow's River 2 Pro on capacity and solar.
+
+Where it loses ground: the Anker SOLIX C2000 Gen 2 at $799 offers meaningfully more value for most buyers.
+
+Buy the AC180 if price sensitivity makes the $100 difference matter, or if wireless charging is a priority.
