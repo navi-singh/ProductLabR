@@ -2,6 +2,10 @@
 title: "BLUETTI AC180: Versatile Mid-Range Power Station for Home and Outdoor Use"
 subtitle: "A comprehensive review of BLUETTI's balanced approach to portable power with UPS functionality"
 date: "2024-12-27"
+capacityWh: 1152
+features:
+  - "solar"
+  - "cpap"
 image: "/images/posts/bluetti_ac180/AC180_main.webp"
 productImage: "/images/posts/bluetti_ac180/AC180_main.webp"
 specs:

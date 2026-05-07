@@ -2,6 +2,10 @@
 title: "Anker SOLIX C1000: Premium Build Quality Meets Ultra-Fast Charging"
 subtitle: "A comprehensive review of Anker's flagship portable power station with HyperFlash technology"
 date: "2024-12-27"
+capacityWh: 1056
+features:
+  - "solar"
+  - "van-life"
 image: "/images/posts/anker_solix_c1000/anker_c1000_main.webp"
 productImage: "/images/posts/anker_solix_c1000/anker_c1000_main.webp"
 specs:

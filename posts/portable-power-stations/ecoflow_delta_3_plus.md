@@ -2,6 +2,10 @@
 title: "EcoFlow Delta 3 Plus: Premium Power Station with Uninterruptible UPS Technology"
 subtitle: "A comprehensive review of EcoFlow's flagship model featuring advanced UPS functionality and maximum capacity"
 date: "2024-12-27"
+capacityWh: 1024
+features:
+  - "solar"
+  - "van-life"
 image: "/images/posts/ecoflow_delta3_plus/delta3_plus_main.webp"
 productImage: "/images/posts/ecoflow_delta3_plus/delta3_plus_main.webp"
 specs:

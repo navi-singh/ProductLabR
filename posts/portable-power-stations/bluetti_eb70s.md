@@ -2,6 +2,10 @@
 title: "Bluetti EB70S: The Ultimate Power Solution for Modern Needs"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 716
+features:
+  - "van-life"
+  - "cpap"
 image: "/images/posts/bluetti_eb70s/bluetti_eb70s_main.webp"
 productImage: "/images/posts/bluetti_eb70s/bluetti_eb70s_main.webp"
 

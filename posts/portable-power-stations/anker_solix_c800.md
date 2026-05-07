@@ -2,6 +2,10 @@
 title: "Anker SOLIX C800: The Ultimate Power Solution for Modern Needs"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 768
+features:
+  - "van-life"
+  - "cpap"
 image: "/images/posts/anker_solix_c800/anker_solix_c800_main.webp"
 productImage: "/images/posts/anker_solix_c800/anker_solix_c800_main.webp"
 

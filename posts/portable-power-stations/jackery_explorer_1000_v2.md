@@ -2,6 +2,10 @@
 title: "Jackery Explorer 1000 v2: The Reliable Workhorse of Portable Power"
 subtitle: "A comprehensive review of Jackery's updated flagship with LiFePO4 battery and enhanced performance"
 date: "2024-12-27"
+capacityWh: 1070
+features:
+  - "solar"
+  - "van-life"
 image: "/images/posts/jackery_1000v2/jackery_1000v2_main.webp"
 productImage: "/images/posts/jackery_1000v2/jackery_1000v2_main.webp"
 specs:

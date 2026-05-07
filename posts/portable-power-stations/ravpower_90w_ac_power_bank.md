@@ -2,6 +2,8 @@
 title: "RAVPower 90W AC Power Bank: Expert Review with Hands-On Testing"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 90
+features: []
 image: "/images/posts/ravpower_90w_ac_power_bank/ravpower_90w_ac_power_bank_main.webp"
 productImage: "/images/posts/ravpower_90w_ac_power_bank/ravpower_90w_ac_power_bank_main.webp"
 

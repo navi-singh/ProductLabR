@@ -2,6 +2,10 @@
 title: "Bluetti AC300 + B300: Expert Review with Hands-On Testing"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 3072
+features:
+  - "solar-kit"
+  - "30a-rv"
 image: "/images/posts/bluetti_ac300_b300/bluetti_ac300_b300_main.webp"
 productImage: "/images/posts/bluetti_ac300_b300/bluetti_ac300_b300_main.webp"
 

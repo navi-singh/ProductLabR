@@ -2,6 +2,10 @@
 title: "Goal Zero Yeti 6000X: Expert Review with Hands-On Testing"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 6071
+features:
+  - "solar-kit"
+  - "30a-rv"
 image: "/images/posts/goal_zero_yeti_6000x/goal_zero_yeti_6000x_main.webp"
 productImage: "/images/posts/goal_zero_yeti_6000x/goal_zero_yeti_6000x_main.webp"
 
