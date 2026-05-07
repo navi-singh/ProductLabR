@@ -1,8 +1,18 @@
+const PLACEHOLDER_PUBLISHER_ID = 'ca-pub-XXXXXXXXXXXXXXXX';
+const envPublisherId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
+
+// Fail the production build if the AdSense publisher ID is missing — silently
+// shipping the placeholder breaks monetization. Dev/preview falls back so
+// layout work isn't blocked.
+if (process.env.NODE_ENV === 'production' && !envPublisherId) {
+  throw new Error(
+    'NEXT_PUBLIC_GOOGLE_ADSENSE_ID is required in production. See .env.example.'
+  );
+}
+
 // AdSense Configuration
 export const ADSENSE_CONFIG = {
-  // Replace with your actual AdSense Publisher ID
-  // You can also set this via environment variable: NEXT_PUBLIC_GOOGLE_ADSENSE_ID
-  publisherId: process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID || 'ca-pub-XXXXXXXXXXXXXXXX',
+  publisherId: envPublisherId || PLACEHOLDER_PUBLISHER_ID,
   
   // Ad Slot IDs - Replace with your actual slot IDs from AdSense
   adSlots: {
@@ -34,7 +44,7 @@ export const AD_FORMATS = {
 
 // Helper function to check if AdSense is properly configured
 export const isAdSenseConfigured = () => {
-  return ADSENSE_CONFIG.publisherId !== 'ca-pub-XXXXXXXXXXXXXXXX' && 
+  return ADSENSE_CONFIG.publisherId !== PLACEHOLDER_PUBLISHER_ID &&
          ADSENSE_CONFIG.publisherId.startsWith('ca-pub-');
 };
 

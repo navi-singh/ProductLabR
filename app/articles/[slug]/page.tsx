@@ -18,6 +18,9 @@ import { AuthorBio } from '../../../components/article/AuthorBio';
 import { RelatedArticles } from '../../../components/article/RelatedArticles';
 import AdBanner from '../../../components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '../../../lib/adsense-config';
+import { SITE_URL } from '../../../lib/site-url';
+
+export const revalidate = 86400;
 
 export async function generateMetadata({
   params,
@@ -43,7 +46,7 @@ export async function generateMetadata({
       title: `${metadata.title} Review | Product Lab`,
       description,
       type: 'article',
-      url: `https://productlab.com/articles/${slug}`,
+      url: `${SITE_URL}/articles/${slug}`,
       ...(imageUrl ? { images: [{ url: imageUrl }] } : {}),
     },
     twitter: {
@@ -91,7 +94,7 @@ export default async function ArticlePage({
     publisher: {
       '@type': 'Organization',
       name: 'Product Lab',
-      url: 'https://productlab.com',
+      url: SITE_URL,
     },
     datePublished: metadata.date,
     reviewRating: showRating
@@ -107,7 +110,7 @@ export default async function ArticlePage({
       name: metadata.title,
       ...(metadata.productImage ? { image: metadata.productImage } : {}),
     },
-    url: `https://productlab.com/articles/${slug}`,
+    url: `${SITE_URL}/articles/${slug}`,
   };
 
 return (

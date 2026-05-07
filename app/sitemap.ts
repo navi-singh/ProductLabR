@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
 import { getAllPostSlugs } from '../lib/Posts';
+import { SITE_URL } from '../lib/site-url';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://productlab.com';
+  const baseUrl = SITE_URL;
 
   // Static pages
   const staticPages = [
