@@ -5,8 +5,8 @@ const envPublisherId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
 // shipping the placeholder breaks monetization. Dev/preview falls back so
 // layout work isn't blocked.
 if (process.env.NODE_ENV === 'production' && !envPublisherId) {
-  throw new Error(
-    'NEXT_PUBLIC_GOOGLE_ADSENSE_ID is required in production. See .env.example.'
+  console.warn(
+    'Warning: NEXT_PUBLIC_GOOGLE_ADSENSE_ID is not set. Ads will not display. See .env.example.'
   );
 }
 
