@@ -2,6 +2,10 @@
 title: "Goal Zero Yeti 500X: Comprehensive Testing and Real-World Performance"
 subtitle: "A comprehensive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-08-17"
+capacityWh: 500
+features:
+  - "solar-kit"
+  - "van-life"
 image: "/images/posts/goal_zero_yeti_500x/goal_zero_yeti_500x_main.webp"
 productImage: "/images/posts/goal_zero_yeti_500x/goal_zero_yeti_500x_main.webp"
 

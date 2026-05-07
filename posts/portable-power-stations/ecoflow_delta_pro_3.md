@@ -2,6 +2,11 @@
 title: "EcoFlow Delta Pro 3: The Ultimate Power Station for Home, RV, and Off-Grid Adventures"
 subtitle: "A deep-dive review with real-world testing, performance analysis, and expert verdicts"
 date: "2025-07-05"
+capacityWh: 4096
+features:
+  - "30a-rv"
+  - "solar"
+  - "240v"
 image: "/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg"
 productImage: "/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg"
 
