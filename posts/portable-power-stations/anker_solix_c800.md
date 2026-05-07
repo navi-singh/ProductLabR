@@ -176,3 +176,55 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### The Anker SOLIX C800 in Context
+
+The Anker SOLIX C800 is a compact 768Wh power station with 1,200W continuous output and 19.8 lbs of weight.
+
+It positions itself between entry-level compact units (500Wh and under) and mid-range home backup units (1kWh+).
+
+At $399, it competes with the EcoFlow River 2 Pro ($479–$529 for 768Wh) and the Bluetti EB3A (268Wh at $199).
+
+The C800 wins primarily on: Anker's support reputation, the 1,200W inverter for this size class, and clean industrial design.
+
+### 1,200W at 768Wh: A Good Balance
+
+Most power stations in the 768Wh class ship with 800–1,000W inverters.
+
+The C800's 1,200W inverter provides meaningful additional headroom for microwave use, small appliances, and power tools.
+
+At 768Wh and 1,200W continuous draw, the battery depletes in about 38 minutes under full load.
+
+For realistic camping loads (200–400W), expect 1.5–3 hours of runtime.
+
+### Van Life and CPAP Use Cases
+
+At 768Wh and 19.8 lbs, the C800 is practical for van life use — light enough to move around, heavy enough to not be knocked over.
+
+For CPAP users: a standard CPAP draws 30–80W.
+
+At 60W average with 85% efficiency, the C800 provides approximately 10.5 hours — enough for a full night's sleep with margin.
+
+The 15W wireless charging pad (if the C800 model you're looking at includes it) adds convenience for overnight phone charging without hunting for a USB cable.
+
+### Competitive Comparison
+
+vs. EcoFlow River 2 Pro (768Wh, $479): EcoFlow wins on charging speed (70 min vs ~90 min), X-Boost technology, and ecosystem features.
+
+Anker wins on price ($399 vs $479), support reputation, and inverter size (1,200W vs 800W — a meaningful advantage for the River 2 Pro's use case).
+
+vs. Jackery Explorer 550 (537Wh, $349): Jackery has less capacity; Anker has more.
+
+For buyers choosing between these specific units, the EcoFlow River 2 Pro vs C800 comparison is the most relevant — and the choice depends on whether you value charging speed (EcoFlow) or inverter power at lower cost (Anker).
+
+### Final Recommendation
+
+Best for: van lifers, CPAP users, campers who need 1kWh-class power without the full weight and price of larger units.
+
+The Anker SOLIX C800 is a solid mid-range choice backed by Anker's class-leading support infrastructure.
+
+At $399, it's appropriately priced for what it delivers.

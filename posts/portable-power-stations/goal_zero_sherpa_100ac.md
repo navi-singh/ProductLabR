@@ -174,3 +174,51 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### What Makes the Sherpa 100AC Different
+
+The Goal Zero Sherpa 100AC is a laptop-sized travel power station — not a home backup unit or a camping generator.
+
+At 94.7Wh and 2 lbs, it is purpose-built for one scenario: providing AC outlet power to a laptop or small device while traveling.
+
+The 100W AC output handles most standard laptops (typical draw: 45–90W).
+
+Goal Zero's Sherpa line has a reputation for consistent build quality and the wireless Qi charging pad is a genuine convenience for phone-heavy travelers.
+
+### The Price-to-Capacity Reality
+
+At $299 for 94.7Wh, the Sherpa 100AC costs approximately $3.16 per Wh — one of the highest cost-per-Wh ratios in the category.
+
+For comparison, the Anker SOLIX C2000 Gen 2 at $799 for 2,048Wh costs $0.39 per Wh.
+
+The premium exists because the Sherpa 100AC is specifically engineered for TSA compliance, lightweight travel, and reliable AC output in a compact form factor.
+
+Buyers who need this specific combination pay the premium willingly.
+
+Buyers who don't need TSA compliance should look elsewhere.
+
+### Real-World Laptop Runtime
+
+At 94.7Wh rated capacity and 85% round-trip efficiency, you get approximately 80Wh of usable energy.
+
+A MacBook Pro 14-inch drawing 45W (light workload) gets approximately 1.75 hours of runtime.
+
+A Windows laptop drawing 65W gets approximately 1.25 hours.
+
+This is meaningful for extending laptop use on a long flight or in a location without outlets.
+
+It is not sufficient for an all-day work session — for that, you need a larger unit or access to power.
+
+### Competitive Consideration
+
+For $299, the Sherpa 100AC competes with the Anker PowerCore+ 26800 PD ($129) at 96Wh — similar capacity, no AC outlet.
+
+If you only need USB-C charging (up to 30W), the Anker saves $170 for comparable capacity.
+
+If you specifically need the AC outlet (for a laptop with only a barrel connector, for CPAP, or for any AC-only device), the Sherpa 100AC's AC outlet justifies the premium.
+
+Choose based on whether AC output is a genuine requirement for your specific devices.

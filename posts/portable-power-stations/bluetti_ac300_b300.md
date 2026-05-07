@@ -176,3 +176,57 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### Understanding the AC300 + B300 System
+
+The Bluetti AC300 is not a standalone power station — it's an inverter unit that requires at least one B300 battery module to operate.
+
+The base system (AC300 inverter + 1 B300 battery) provides 3,072Wh of capacity with 3,000W continuous output.
+
+You can add up to 4 B300 batteries to the AC300, reaching 12,288Wh of total capacity.
+
+This modular architecture is the system's core differentiator: the inverter is separate from the storage, so you can scale capacity independently.
+
+### Why Choose Modular?
+
+Traditional all-in-one power stations (like the EcoFlow Delta Pro 3) house inverter and battery in one unit.
+
+When the battery degrades after 3,000–4,000 cycles, you replace the entire unit.
+
+With the AC300+B300 system, you theoretically replace just the degraded battery modules.
+
+For buyers who expect to use the system heavily for 5+ years, this is a meaningful long-term cost consideration.
+
+### The 3,000W Inverter Limitation
+
+3,000W continuous is good — but at $2,999, competing units offer higher output.
+
+The EcoFlow Delta Pro 3 at $3,699 offers 4,000W output for $700 more.
+
+The Anker SOLIX F3800 offers 6,000W output for comparable capacity.
+
+If you need more than 3,000W continuous output, look at alternatives before committing to the AC300 system.
+
+### Competitive Positioning vs. EcoFlow Delta Pro 3
+
+The most direct competition for the Bluetti AC300+B300 system in the $2,999–$3,699 range is the EcoFlow Delta Pro 3.
+
+EcoFlow wins on: charging speed (50 min to 80% vs significantly longer), output (4,000W vs 3,000W), and solar input (2,600W vs 2,400W).
+
+Bluetti wins on: modular architecture (easier battery replacement), up to 4 B300 batteries vs EcoFlow's expansion approach, and Bluetti's somewhat lower base price.
+
+For buyers who prioritize long-term modularity and battery replaceability, the AC300+B300 makes sense.
+
+For buyers who prioritize performance specs and support infrastructure, EcoFlow is the stronger choice.
+
+### Final Recommendation
+
+The AC300+B300 is best suited for home backup users with longer-term planning horizons who value the modular architecture.
+
+If you're building a system you plan to keep for 7–10+ years and want to replace batteries independently, the Bluetti approach has genuine merit.
+
+If you want maximum performance today and don't think that far ahead, the EcoFlow Delta Pro 3 is the better unit.

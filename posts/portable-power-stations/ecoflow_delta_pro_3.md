@@ -175,3 +175,33 @@ A: The EcoFlow app offers industry-leading functionality including real-time rem
 
 **Q: How does expandability work in practice?**
 A: The system supports multiple expansion methods: additional Delta Pro 3 units can be paralleled for increased capacity, extra battery modules connect for extended runtime, and Smart Home Panel 2 integration enables whole-home backup automation. Maximum system capacity reaches 48kWh for extended off-grid or backup applications.
+
+**Q: How does the Delta Pro 3 compare to the original Delta Pro?**
+A: The Delta Pro 3 represents a generational improvement across every key spec:
+
+- Capacity: 4,096Wh vs 3,600Wh (original)
+- Output: 4,000W vs 3,600W
+- Solar input: 2,600W vs 1,600W
+- Charge time: 50 minutes to 80% vs 1.8 hours
+
+The original Delta Pro is now effectively obsolete for new buyers.
+Existing Delta Pro owners may find the Delta Pro 3 extra batteries compatible — check EcoFlow's current compatibility documentation.
+
+**Q: Is the $3,199–$3,699 price justified compared to budget alternatives?**
+A: It depends entirely on your use case.
+
+For a weekend camper who needs power for lights and device charging, a $799 Anker SOLIX C2000 Gen 2 covers 90% of needs at 20% of the cost.
+
+For a homeowner who needs whole-home backup covering 240V appliances, multiple circuits, and multi-day autonomy, the Delta Pro 3 at scale becomes cost-competitive with permanent generator installations.
+
+The question to ask is: "Do I actually need 4kWh, 4,000W output, and 240V?" If yes, the Delta Pro 3 is appropriately priced. If no, the price premium is unjustified.
+
+**Q: Can the Delta Pro 3 replace a whole-home standby generator?**
+A: For most scenarios, yes — with some important caveats.
+
+Advantages over a standby generator: no emissions (safe indoors), instant on (no startup delay), silent operation, no fuel storage required.
+
+Limitations: a single Delta Pro 3 stores 4kWh — a gas generator produces continuous power indefinitely.
+For extended multi-day outages without solar, you'll need expansion batteries or a hybrid solar+grid-tie setup.
+
+For most 24–72 hour outage scenarios, the Delta Pro 3 with Smart Home Panel 2 is a compelling generator replacement.

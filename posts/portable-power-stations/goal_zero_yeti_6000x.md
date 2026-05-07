@@ -176,3 +176,59 @@ A: The manufacturer warranty typically covers defects in materials and workmansh
 
 **Q: Can I connect multiple units together for more power?**
 A: This depends on the specific model's capabilities. Some units support parallel connection or modular expansion, while others operate as standalone units only. Check the manual for expandability options and connection procedures.
+
+---
+
+## Additional Buyer Notes
+
+### The Goal Zero Yeti 6000X in 2025
+
+The Yeti 6000X is a 6,071Wh power station with 2,000W continuous output at 106 lbs and $4,999.
+
+Goal Zero uses lithium-ion NMC battery chemistry rather than LiFePO4 — an important distinction.
+
+NMC batteries offer higher energy density (more capacity for the weight) but fewer charge cycles (typically 500–800 vs 3,000–4,000 for LiFePO4) and slightly less thermal stability.
+
+At $4,999, the value comparison with competitors is challenging.
+
+### The Inverter-to-Capacity Mismatch
+
+6,071Wh of capacity with only 2,000W continuous output is an unusual pairing.
+
+Most units at this capacity tier offer 4,000–6,000W inverters.
+
+The 2,000W ceiling means you cannot simultaneously run a refrigerator (200W), microwave (1,000W), and window AC (1,200W) — that combination alone exceeds the inverter.
+
+For a $4,999 power station, this inverter limitation is a significant drawback.
+
+### The Competitive Reality
+
+At $4,999 for 6,071Wh and 2,000W:
+
+The OUPES Mega 5 at $1,399 offers 5,040Wh with 4,000W output.
+
+The EcoFlow Delta Pro 3 at $3,699 offers 4,096Wh with 4,000W output.
+
+The Anker SOLIX E10 at $6,458 offers 12.2kWh with 7,600W output plus wireless battery stacking.
+
+None of these competitors are weaker than the Yeti 6000X for significantly less money — or for slightly more money, far more capable.
+
+Goal Zero's primary value propositions are: brand trust for outdoor/adventure use, Yeti ecosystem compatibility, and the Tank expansion system.
+
+### Who Remains a Valid Yeti 6000X Buyer
+
+Existing Goal Zero ecosystem users with substantial investment in compatible solar panels, Tank batteries, and accessories.
+
+Users who specifically want the older NMC battery chemistry for its higher energy density (lighter for equivalent capacity).
+
+Buyers for whom Goal Zero's brand reputation and North American service network carry meaningful value.
+
+New buyers starting from scratch: the value case for the Yeti 6000X at $4,999 is difficult to justify in 2025's competitive landscape.
+
+### Final Recommendation
+
+The Yeti 6000X is a quality product that has been surpassed by better-value competitors.
+
+If you're already in the Goal Zero ecosystem: it's a capable expansion.
+
+If you're starting fresh: the OUPES Mega 5, EcoFlow Delta Pro 3, or Anker SOLIX F3800 Plus deliver more performance-per-dollar at every price point in this range.
