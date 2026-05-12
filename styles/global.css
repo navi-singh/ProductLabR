@@ -141,10 +141,9 @@ h2 {
   .type-title    { @apply font-sans text-[15px] font-semibold leading-snug; }
   .type-body     { @apply font-sans text-[14px] font-normal leading-relaxed; }
   .type-label    { @apply font-sans text-[11px] font-semibold uppercase tracking-[0.06em]; }
-}
 
-/* ── MD3 state layers ───────────────────────────────────────────────────── */
-@layer components {
+  /* ── MD3 state layers ───────────────────────────────────────────────────── */
+  /* overflow-hidden clips ::after to card bounds; child box-shadows and overflow dropdowns will be clipped */
   .state-layer {
     @apply relative overflow-hidden;
   }
