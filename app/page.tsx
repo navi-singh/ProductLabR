@@ -11,10 +11,10 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getAllCategories, getPostsByCategory } from '@/lib/Posts';
 
 const bestOfGuides = [
-  { title: 'Best Hybrid Cameras', href: '/best/cameras/hybrid-cameras', count: 8, updated: 'Mar 2026', color: 'border-primary' },
-  { title: 'Best Portable Power Stations', href: '/best/power-stations/portable-power-stations', count: 12, updated: 'Mar 2026', color: 'border-accent' },
-  { title: 'Best Camping Power Stations', href: '/best/power-stations/camping-power-stations', count: 6, updated: 'Feb 2026', color: 'border-primary' },
-  { title: 'Best Pro Photo Cameras', href: '/best/cameras/professional-photo-cameras', count: 5, updated: 'Mar 2026', color: 'border-accent' },
+  { title: 'Best Hybrid Cameras',          href: '/best/cameras/hybrid-cameras',                count: 8,  icon: '📷', theme: 'blue',   updated: 'Mar 2026' },
+  { title: 'Best Portable Power Stations', href: '/best/power-stations/portable-power-stations', count: 12, icon: '⚡', theme: 'orange', updated: 'Mar 2026' },
+  { title: 'Best Camping Power Stations',  href: '/best/power-stations/camping-power-stations',  count: 6,  icon: '🏕️', theme: 'green',  updated: 'Feb 2026' },
+  { title: 'Best Pro Photo Cameras',       href: '/best/cameras/professional-photo-cameras',     count: 5,  icon: '🎞️', theme: 'blue',   updated: 'Mar 2026' },
 ];
 
 export default function Home() {
@@ -111,23 +111,37 @@ export default function Home() {
           {/* Best Of Guides */}
           <SectionLabel>Best Of Guides</SectionLabel>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {bestOfGuides.map((guide) => (
-              <Link
-                key={guide.href}
-                href={guide.href}
-                className={`rounded-lg border border-neutral-200 border-l-[3px] ${guide.color} bg-white p-4 transition-shadow hover:shadow-card-hover`}
-              >
-                <span className={`text-[11px] font-medium ${guide.color === 'border-accent' ? 'text-accent' : 'text-primary'}`}>
-                  Updated {guide.updated}
-                </span>
-                <h3 className="mt-1 text-sm font-semibold text-neutral-900">
-                  {guide.title}
-                </h3>
-                <span className="mt-1 text-xs text-neutral-400">
-                  {guide.count} products tested →
-                </span>
-              </Link>
-            ))}
+            {bestOfGuides.map((guide) => {
+              const tintClass =
+                guide.theme === 'orange' ? 'bg-amber-50'
+                : guide.theme === 'green' ? 'bg-green-50'
+                : 'bg-primary-lightest';
+              const badgeClass =
+                guide.theme === 'orange' ? 'bg-amber-50 text-accent'
+                : guide.theme === 'green' ? 'bg-green-50 text-success'
+                : 'bg-primary-lightest text-primary';
+
+              return (
+                <Link
+                  key={guide.href}
+                  href={guide.href}
+                  className="state-layer relative overflow-hidden rounded-xl border border-neutral-200 bg-white p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover"
+                >
+                  {/* Tinted corner accent */}
+                  <div
+                    className={`pointer-events-none absolute right-0 top-0 h-14 w-14 rounded-bl-[60px] rounded-tr-xl ${tintClass} opacity-70`}
+                  />
+                  <span className="text-2xl">{guide.icon}</span>
+                  <h3 className="type-title mt-2 text-neutral-900">{guide.title}</h3>
+                  <div className="mt-2 flex items-center justify-between">
+                    <span className="type-label text-neutral-400">Updated {guide.updated}</span>
+                    <span className={`type-label rounded-full px-2 py-0.5 ${badgeClass}`}>
+                      {guide.count} tested
+                    </span>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
 
