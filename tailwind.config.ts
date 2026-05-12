@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ['var(--font-sans)'],
+        display: ['var(--font-display)'],
       },
       colors: {
         primary: {
