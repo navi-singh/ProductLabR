@@ -4,6 +4,8 @@ import { Inter, Playfair_Display } from 'next/font/google';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { TrustBar } from '@/components/TrustBar';
+import { MobileBottomNav } from '@/components/MobileBottomNav';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { SITE_URL } from '@/lib/site-url';
 import getPostMetadata from '@/components/getPostMetadata';
@@ -102,10 +104,12 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <Header posts={posts} />
-        <main className="mx-auto max-w-[1280px] px-4 sm:px-6">
+        <TrustBar />
+        <main className="mx-auto max-w-[1280px] px-4 pb-16 sm:px-6 md:pb-0">
           {children}
         </main>
         <Footer />
+        <MobileBottomNav />
         {gaId && <GoogleAnalytics gaId={gaId} />}
       </body>
     </html>
