@@ -39,19 +39,22 @@ No database. No runtime API. The build is the database.
 
 ```
 app/                    Next.js App Router routes
-├── layout.tsx          Root layout (fonts, header/footer, GA, AdSense bootstrap)
-├── page.tsx            Home
+├── layout.tsx          Root layout — Header, TrustBar, main, Footer, MobileBottomNav
+├── page.tsx            Home — hero, 2/3-col ReviewCard grid, Best Of guide cards, sidebar
 ├── articles/[slug]/    Individual reviews (SSG, generateStaticParams)
 ├── best/               Category hub + verticals + sub-categories + compare pages
 ├── sitemap.ts          Auto-generated sitemap
 └── robots.ts           Auto-generated robots.txt
 
-components/             ~30 components (see reference/components.md for the catalog)
+components/             ~32 components (see reference/components.md for the catalog)
+├── TrustBar.tsx        RSC — trust signals strip shown below header on all pages
+├── MobileBottomNav.tsx 'use client' — persistent bottom nav bar + slide-up category sheet
 ├── article/            Article-specific (specs, pros/cons, score card, etc.)
 └── ads/                AdBanner, ResponsiveAd
 
 lib/                    Pure helpers, no React
 ├── Posts.ts            getPostBySlug, getAllPostSlugs, getPostsByCategory
+├── nav-categories.ts   Shared NAV_CATEGORIES array + NavCategory interface (used by Header + MobileBottomNav)
 ├── power-station-data.ts  Typed filters for the power-stations vertical
 ├── markdown.ts         marked + Tailwind class injection
 ├── articleUtils.ts     calculateOverallScore, scoreToStarRating, formatArticleDate
@@ -135,9 +138,22 @@ If you find yourself wanting MDX, push back — `marked` keeps content authorabl
 
 ## Styling
 
-- **Tailwind CSS 3.4**, configured in `tailwind.config.ts`. Content paths cover `app/` and `components/`.
+- **Tailwind CSS 3.4**, configured in `tailwind.config.ts`. Content paths cover `app/` and `components/`. `fontFamily.display` is registered, enabling the `font-display` utility for Playfair Display.
 - **Design tokens** live as CSS variables in `styles/theme.css` (consumed via Tailwind's `theme.extend`). Don't hardcode colors — reach for `--primary`, `--accent`, `--neutral-*`.
-- **Two fonts**: `--font-sans: Inter` (body), `--font-display: Playfair Display` (headings).
+- **Two fonts**: `--font-sans: Inter` (body), `--font-display: Playfair Display` (headings). Set exclusively via `next/font` in `app/layout.tsx` — do not re-declare `--font-display` in CSS (causes circular variable bug).
+- **Type scale** — 5 roles defined as Tailwind component utilities in `styles/global.css`:
+
+  | Class | Size / Weight | Use |
+  |---|---|---|
+  | `.type-display` | Playfair 32px / 800 | Hero headline, article `<h1>` |
+  | `.type-headline` | Playfair 20px / 700 | Section headings |
+  | `.type-title` | Inter 15px / 600 | Product names, card titles |
+  | `.type-body` | Inter 14px / 400 | Descriptions, summaries, prose |
+  | `.type-label` | Inter 11px / 600 uppercase | Badges, metadata, dates |
+
+  Do not introduce new arbitrary `text-[Npx]` sizes — map to one of these 5 roles.
+
+- **State layers** — `.state-layer` and `.state-layer-light` in `styles/global.css` implement MD3 hover/active interaction. Apply to any interactive card surface. Note: `overflow-hidden` is included — child `box-shadow` and overflow dropdowns will be clipped (see comment in `global.css`).
 - **Article body** has bespoke prose styling in `.article-body` (see `styles/global.css`). Use it on any rendered-markdown container.
 
 Designers' deeper take: [for-designers.md](./for-designers.md).
@@ -172,6 +188,23 @@ Full deploy notes: [`PRODUCTION.md`](../PRODUCTION.md).
 - Slots are typed via `ADSENSE_CONFIG` in `lib/adsense-config.ts`. Add a new slot there before referencing it.
 - `shouldShowAds()` gates rendering: dev shows a labeled placeholder; prod shows real ads only when `NEXT_PUBLIC_ADSENSE_PUBLISHER_ID` is set to a real `ca-pub-...` value.
 - The build emits a **warning** (not an error) if the env var is missing — see commit `89e8987`. Don't tighten this back to an error or CI will fail on forks.
+
+## Price visibility rule
+
+Prices are **not rendered on cards**. They appear only on individual article/review pages. This is intentional — cards will eventually carry "Check Price →" affiliate links instead. When building new card components, do not surface `price` from frontmatter.
+
+`buyUrl` is retained as an optional prop on `RankedProductCard` (prefixed `_buyUrl` in destructuring to satisfy ESLint) for future wiring — do not remove it.
+
+## Mobile navigation
+
+The site has two navigation layers:
+
+- **Desktop (md+):** Sticky `<Header>` with logo, `NAV_LINKS`, `<CategoryDropdown>`, `<SearchBar>`.
+- **Mobile (< md):** `<MobileBottomNav>` — a fixed bottom bar (Home · Best Of · Search · Categories) + a slide-up category sheet. The hamburger menu is gone.
+
+Both share the `NAV_CATEGORIES` array from `lib/nav-categories.ts`. Add new top-level categories there; they appear in both the desktop dropdown and the mobile sheet automatically.
+
+`<main>` in `layout.tsx` has `pb-16 md:pb-0` to prevent content from hiding behind the bottom bar on mobile.
 
 ## Local-dev gotchas
 

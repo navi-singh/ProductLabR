@@ -6,11 +6,13 @@ A quick index of every component in `components/` with its purpose and the props
 
 | Component | File | Purpose |
 |---|---|---|
-| `Header` | `components/Header.tsx` | Top nav, logo, category dropdown, sticky on scroll |
+| `Header` | `components/Header.tsx` | Sticky desktop nav — logo, `NAV_LINKS`, `CategoryDropdown`, `SearchBar`. No mobile nav (see `MobileBottomNav`). |
+| `TrustBar` | `components/TrustBar.tsx` | RSC trust-signals strip below header on all pages. Dynamic post count + latest review date. |
+| `MobileBottomNav` | `components/MobileBottomNav.tsx` | `'use client'` — persistent bottom bar (mobile only) + slide-up category sheet. |
 | `Footer` | `components/Footer.tsx` | Footer links, social, copyright |
 | `Breadcrumb` | `components/Breadcrumb.tsx` | Breadcrumb trail (`Home › Best › Power Stations › RV`) |
-| `CategoryDropdown` | `components/CategoryDropdown.tsx` | Mobile-friendly category nav |
-| `SearchBar` | `components/SearchBar.tsx` | Client-side search/filter (`'use client'`) |
+| `CategoryDropdown` | `components/CategoryDropdown.tsx` | Desktop "More ▾" dropdown, uses `NAV_CATEGORIES` |
+| `SearchBar` | `components/SearchBar.tsx` | Client-side search/filter (`'use client'`), desktop-only |
 
 ## Product surfaces
 
@@ -26,18 +28,17 @@ A quick index of every component in `components/` with its purpose and the props
   image="https://..."
   summary="One-paragraph hook."
   score={9.2}
-  price="$999"
   badge="best-overall"           // 'best-overall' | 'best-value' | 'budget-pick'
-  buyUrl="https://amazon.com/..."
+  buyUrl="https://amazon.com/..."  // retained, not rendered yet — for future "Check Price"
   specs={{ Capacity: "1024 Wh" }}
 />
 ```
 
-Stretched-link card (whole card is clickable). Lift + shadow on hover. CTA morphs on hover.
+**No `price` prop** — prices are not shown on cards (only on full review pages). Stretched-link card (whole card clickable). Score badge at `size="lg"` with label. State layer + lift on hover. "Read Review →" ghost CTA.
 
 ### `ReviewCard`
 
-Compact home-page card. Same shape, smaller surface.
+Image-forward vertical card for the home page Latest Reviews grid (`grid-cols-2 sm:grid-cols-3`).
 
 ### `QuickPicks`
 
@@ -143,3 +144,5 @@ Adaptive wrapper that swaps between mobile/desktop slots based on viewport.
 | Insert an ad | `AdBanner` (never inline AdSense code) |
 | Insert any image | `OptimizedImage` |
 | Build a new card-shaped UI | Start from `card.tsx`, extend with `class-variance-authority` |
+| Add trust signals below the header | Already there via `TrustBar` in `layout.tsx` — update the `signals` array inside it |
+| Add a new top-level nav category | Add an entry to `lib/nav-categories.ts` — appears in desktop dropdown and mobile sheet automatically |
