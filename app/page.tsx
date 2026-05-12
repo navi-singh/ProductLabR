@@ -84,7 +84,7 @@ export default function Home() {
         <div>
           {/* Latest Reviews */}
           <SectionLabel>Latest Reviews</SectionLabel>
-          <div className="space-y-1">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
             {recentPosts.map((post) => (
               <ReviewCard key={post.slug} post={post} />
             ))}
