@@ -16,8 +16,8 @@ function getScoreLabel(score: number): string {
 }
 
 function getScoreBgClass(score: number): string {
-  if (score >= 9.0) return 'bg-green-600';
-  if (score >= 8.0) return 'bg-blue-600';
+  if (score >= 9.0) return 'bg-accent';     // was bg-green-600
+  if (score >= 8.0) return 'bg-primary';    // was bg-blue-600
   if (score >= 7.0) return 'bg-amber-500';
   return 'bg-neutral-500';
 }
