@@ -7,7 +7,7 @@ import { ChevronDown } from 'lucide-react';
 interface CategoryItem {
   name: string;
   href: string;
-  count: number;
+  count?: number;
 }
 
 interface CategoryDropdownProps {
@@ -39,7 +39,9 @@ export function CategoryDropdown({ categories }: CategoryDropdownProps) {
           {categories.map((cat) => (
             <Link key={cat.href} href={cat.href} onClick={() => setIsOpen(false)} className="flex items-center justify-between px-4 py-2 text-sm text-neutral-700 hover:bg-primary-lightest">
               {cat.name}
-              <span className="rounded-full bg-primary px-1.5 text-[10px] text-white">{cat.count}</span>
+              {cat.count !== undefined && (
+                <span className="rounded-full bg-primary px-1.5 text-[10px] text-white">{cat.count}</span>
+              )}
             </Link>
           ))}
         </div>
