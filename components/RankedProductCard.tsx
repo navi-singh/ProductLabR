@@ -17,7 +17,7 @@ interface RankedProductCardProps {
 }
 
 export function RankedProductCard({
-  rank, name, href, image, summary, score, badge, buyUrl, specs,
+  rank, name, href, image, summary, score, badge, buyUrl: _buyUrl, specs,
 }: RankedProductCardProps) {
   const isTopRanked = rank === 1;
 
