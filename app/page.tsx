@@ -24,57 +24,48 @@ export default function Home() {
   const categories = getAllCategories();
 
   const featuredScore = featured?.ratingBreakdown
-    ? featured.ratingBreakdown.metrics.reduce((sum, m) => sum + m.score, 0) /
-      featured.ratingBreakdown.metrics.length / 10
+    ? featured.ratingBreakdown.metrics.length > 0
+      ? featured.ratingBreakdown.metrics.reduce((sum, m) => sum + m.score, 0) /
+        featured.ratingBreakdown.metrics.length
+      : null
     : featured?.rating
-      ? (featured.rating * 2) / 10
+      ? featured.rating * 2
       : null;
 
   return (
     <>
       {/* Hero — Editor's Pick */}
-      <section className="-mx-4 bg-gradient-to-b from-primary-lightest via-blue-50 to-neutral-50 px-4 py-8 sm:-mx-6 sm:px-6">
-        <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.15em] text-primary">
-          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-          Editor&apos;s Pick
+      <section className="-mx-4 bg-gradient-to-b from-primary-lightest via-blue-50 to-neutral-50 px-4 py-10 sm:-mx-6 sm:px-6">
+        <div className="flex items-center gap-2">
+          <span className="h-2 w-2 rounded-full bg-accent" />
+          <span className="type-label text-accent">Editor&apos;s Pick</span>
         </div>
+
         {featured && (
-          <div className="mt-4 grid items-center gap-6 md:grid-cols-2">
+          <div className="mt-5 grid items-center gap-6 md:grid-cols-2">
             <div>
-              <h1 className="text-2xl font-bold leading-tight text-neutral-900 md:text-[26px]">
-                {featured.title}
-              </h1>
+              <h1 className="type-display text-neutral-900">{featured.title}</h1>
               {featured.subtitle && (
-                <p className="mt-2 text-sm leading-relaxed text-neutral-500">
-                  {featured.subtitle}
-                </p>
+                <p className="type-body mt-3 max-w-md text-neutral-500">{featured.subtitle}</p>
               )}
-              <div className="mt-3 flex flex-wrap items-center gap-3">
-                {featuredScore && <ScoreBadge score={featuredScore} showLabel />}
-                {featured.price && (
-                  <span className="text-base font-bold text-neutral-900">{featured.price}</span>
-                )}
-              </div>
-              <div className="mt-4 flex flex-wrap items-center gap-2">
+
+              {featuredScore !== null && (
+                <div className="mt-4 flex items-center gap-3">
+                  <ScoreBadge score={featuredScore} size="lg" showLabel />
+                </div>
+              )}
+
+              <div className="mt-5">
                 <Link
                   href={`/articles/${featured.slug}`}
-                  className="bg-accent text-white px-5 py-2.5 rounded-md font-semibold text-sm hover:opacity-90 transition-opacity"
+                  className="inline-block rounded-md bg-accent px-6 py-3 type-title text-white transition-opacity hover:opacity-90"
                 >
-                  Read Full Review
+                  Read Full Review →
                 </Link>
-                {featured.retailerLinks && Object.keys(featured.retailerLinks).length > 0 && (
-                  <a
-                    href={Object.values(featured.retailerLinks)[0]}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="border border-neutral-300 text-neutral-700 px-5 py-2.5 rounded-md font-semibold text-sm hover:bg-neutral-50 transition-colors"
-                  >
-                    Buy Now
-                  </a>
-                )}
               </div>
             </div>
-            <div className="relative h-44 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-featured md:h-52">
+
+            <div className="relative h-52 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-featured md:h-64">
               <OptimizedImage
                 src={featured.image || featured.productImage || '/images/item.png'}
                 alt={featured.title}
