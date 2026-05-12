@@ -133,3 +133,31 @@ h2 {
 .article-body hr {
   display: none;
 }
+
+/* ── Type scale — 5 roles ───────────────────────────────────────────────── */
+@layer components {
+  .type-display  { @apply font-display text-[32px] font-extrabold leading-tight; }
+  .type-headline { @apply font-display text-[20px] font-bold leading-snug; }
+  .type-title    { @apply font-sans text-[15px] font-semibold leading-snug; }
+  .type-body     { @apply font-sans text-[14px] font-normal leading-relaxed; }
+  .type-label    { @apply font-sans text-[11px] font-semibold uppercase tracking-[0.06em]; }
+}
+
+/* ── MD3 state layers ───────────────────────────────────────────────────── */
+@layer components {
+  .state-layer {
+    @apply relative overflow-hidden;
+  }
+  .state-layer::after {
+    content: '';
+    @apply absolute inset-0 rounded-[inherit] opacity-0 transition-opacity duration-150 pointer-events-none;
+    background-color: hsl(var(--primary));
+  }
+  .state-layer:hover::after  { @apply opacity-[0.06]; }
+  .state-layer:active::after { @apply opacity-[0.10]; }
+
+  /* For cards with a coloured/dark surface (e.g. rank-1 amber-50 bg) */
+  .state-layer-light::after {
+    background-color: white;
+  }
+}
