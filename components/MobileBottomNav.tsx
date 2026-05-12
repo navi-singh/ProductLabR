@@ -8,7 +8,6 @@ import { NAV_CATEGORIES } from '@/lib/nav-categories';
 const NAV_ITEMS = [
   { label: 'Home',    href: '/',     icon: '🏠' },
   { label: 'Best Of', href: '/best', icon: '🏆' },
-  { label: 'Search',  href: null,    icon: '🔍' },
 ] as const;
 
 export function MobileBottomNav() {
@@ -30,7 +29,12 @@ export function MobileBottomNav() {
           />
 
           {/* Sheet */}
-          <div className="fixed inset-x-0 bottom-16 z-50 max-h-[60vh] overflow-y-auto rounded-t-2xl bg-white pb-4 shadow-xl md:hidden">
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-label="All Categories"
+            className="fixed inset-x-0 bottom-16 z-50 max-h-[60vh] overflow-y-auto rounded-t-2xl bg-white pb-4 shadow-xl md:hidden"
+          >
             <div className="sticky top-0 bg-white px-4 pb-2 pt-3">
               <div className="mx-auto h-1 w-8 rounded-full bg-neutral-300" />
               <p className="type-label mt-2 text-neutral-500">All Categories</p>
@@ -71,6 +75,17 @@ export function MobileBottomNav() {
             </Link>
           );
         })}
+
+        {/* Search — placeholder for future search feature */}
+        <button
+          type="button"
+          className="flex flex-col items-center gap-0.5 py-2"
+          aria-label="Search"
+          disabled
+        >
+          <span className="text-xl leading-none opacity-40">🔍</span>
+          <span className="type-label text-neutral-300">Search</span>
+        </button>
 
         {/* Categories — opens sheet, not a link */}
         <button
