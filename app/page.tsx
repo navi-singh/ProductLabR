@@ -160,10 +160,10 @@ export default function Home() {
                   <Link
                     key={cat}
                     href={`/best/${cat}`}
-                    className="flex items-center justify-between rounded-md bg-primary-lightest/50 px-3 py-2 text-[13px] text-neutral-500 hover:bg-primary-lightest"
+                    className="flex items-center justify-between rounded-md bg-primary-lightest/50 px-3 py-2 text-sm text-neutral-500 hover:bg-primary-lightest"
                   >
                     {cat.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
-                    <span className="rounded-full bg-primary px-1.5 text-[10px] text-white">
+                    <span className="rounded-full bg-primary px-1.5 type-label text-white">
                       {catPosts.length}
                     </span>
                   </Link>
