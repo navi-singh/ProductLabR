@@ -21,7 +21,16 @@ Defined in `styles/theme.css` as HSL CSS variables. Use them through Tailwind ut
 | `--neutral-50 → 900` | warm grays | Body text, borders, surfaces |
 | `--success` / `--error` | semantic | Pros/cons, validation states |
 
-**Rule of thumb:** the accent orange is the loudest color in the system. Limit it to one element per viewport (typically an award badge or a CTA). Everything else lives in primary blue + neutral grays.
+**Updated color role usage:**
+
+| Token | Where it's used |
+|---|---|
+| `--primary` (#007ACC) | Header bg, score badges 8.0–8.9, active nav indicators, links |
+| `--accent` (#E87B35) | Score badges ≥9.0, all primary CTA buttons, award badges, Editor's Pick dot, TrustBar checkmarks |
+| `--primary-lightest` | Card hover surface tint, selected chip bg, trending widget bg |
+| `--success` | "In Stock" states only — not score badges |
+
+**Score badge color rule:** ≥9.0 = accent orange, 8.x = primary blue, 7.x = amber, <7 = neutral gray. Green is no longer used for scores.
 
 ## Typography
 
@@ -29,8 +38,22 @@ Two families, both Google Fonts with `display: swap`.
 
 | Family | Role | Typical sizes |
 |---|---|---|
-| **Playfair Display** (`--font-display`) | Editorial headings (article titles, hero headlines, section H2s) | 28–56px |
-| **Inter** (`--font-sans`) | Body, UI, metadata, captions | 13–17px |
+| **Playfair Display** (`--font-display`) | Editorial headings (article titles, hero headlines, section H2s) | 20px, 32px |
+| **Inter** (`--font-sans`) | Body, UI, metadata, captions | 11px, 14px, 15px |
+
+### Type scale — 5 roles (use these, nothing else)
+
+The site enforces a 5-role type system via Tailwind component utilities defined in `styles/global.css`. **Do not introduce new arbitrary `text-[Npx]` sizes.** Map every text element to one of these roles:
+
+| Class | Font | Size / Weight | Use |
+|---|---|---|---|
+| `.type-display` | Playfair Display | 32px / 800 | Hero `<h1>`, article titles |
+| `.type-headline` | Playfair Display | 20px / 700 | Section headings, card H2s |
+| `.type-title` | Inter | 15px / 600 | Product names in cards, CTA text |
+| `.type-body` | Inter | 14px / 400 | Descriptions, summaries, prose |
+| `.type-label` | Inter | 11px / 600 + uppercase + 0.06em tracking | Badges, metadata, dates, category chips |
+
+In practice: `<h1 className="type-display text-neutral-900">`, `<span className="type-label text-primary">`, etc. Color is always added separately — the role classes only set font, size, weight, and line-height.
 
 **Article-body type** (`.article-body` in `styles/global.css`):
 
@@ -106,6 +129,19 @@ Single input + button. Inline validation only; never a modal.
 ### `AdBanner`
 
 In dev, shows a **labeled gray placeholder** at the configured size. In prod, the real AdSense unit. Design around the *placeholder* dimensions so layouts don't shift when ads load (CLS budget is tight — target < 0.1).
+
+## State layers (MD3 interaction model)
+
+All interactive card surfaces use `.state-layer` (or `.state-layer-light` for amber/colored surfaces). These classes are defined in `styles/global.css` and replace ad-hoc hover background-color changes:
+
+- **Hover:** `opacity-[0.06]` primary-colored overlay + `translate-y(-0.5px)` lift + `shadow-card-hover`
+- **Active/pressed:** `opacity-[0.10]` overlay, no lift
+
+Apply `.state-layer` to any new card or interactive surface. Note that `overflow-hidden` is baked in — child `box-shadow` and overflow dropdowns will be clipped.
+
+## Mobile navigation
+
+On `< md` breakpoints, the `MobileBottomNav` component renders a fixed bottom bar with 4 tabs: Home, Best Of, Search (disabled placeholder), Categories. Categories opens a slide-up sheet. Design new mobile entry points as additional tabs here, not as hamburger expansions.
 
 ## Motion
 

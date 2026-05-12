@@ -35,10 +35,14 @@ These live at the repo root because they were authored before this docs tree exi
 
 ## Active work
 
-In-flight specs and plans live under `docs/superpowers/`:
+Specs and plans live under `docs/superpowers/`. Completed work is kept for reference.
 
-- **Spec:** [Power Station Categories Design](./superpowers/specs/2025-05-06-power-station-categories-design.md)
-- **Plan:** [Power Station Category Expansion](./superpowers/plans/2025-05-06-power-station-category-expansion.md)
+| Status | Doc | What it covers |
+|---|---|---|
+| ✅ Shipped | [UI Redesign Spec](./superpowers/specs/2026-05-11-ui-redesign-material-design.md) | MD3 alignment — type scale, color roles, hero, cards, mobile nav |
+| ✅ Shipped | [UI Redesign Plan](./superpowers/plans/2026-05-11-ui-redesign-material-design.md) | 12-task implementation plan for the UI redesign |
+| 📋 Planned | [Power Station Categories Design](./superpowers/specs/2025-05-06-power-station-categories-design.md) | 7 new sub-category pages + comparisons + finder quiz |
+| 📋 Planned | [Power Station Category Expansion](./superpowers/plans/2025-05-06-power-station-category-expansion.md) | Implementation plan for the category expansion |
 
 ---
 
