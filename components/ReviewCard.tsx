@@ -10,8 +10,10 @@ interface ReviewCardProps {
 
 export function ReviewCard({ post }: ReviewCardProps) {
   const score = post.ratingBreakdown
-    ? post.ratingBreakdown.metrics.reduce((sum, m) => sum + m.score, 0) /
-      post.ratingBreakdown.metrics.length
+    ? post.ratingBreakdown.metrics.length > 0
+      ? post.ratingBreakdown.metrics.reduce((sum, m) => sum + m.score, 0) /
+        post.ratingBreakdown.metrics.length
+      : null
     : post.rating
       ? post.rating * 2
       : null;
