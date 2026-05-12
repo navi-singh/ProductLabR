@@ -60,7 +60,6 @@ export default function SolarGeneratorsPage() {
                       image={station.image}
                       summary={station.subtitle}
                       score={station.score}
-                      price={station.price}
                       specs={station.specs}
                     />
                     {i === 2 && (

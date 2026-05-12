@@ -58,7 +58,6 @@ export default function ForCpapPage() {
                       image={station.image}
                       summary={station.subtitle}
                       score={station.score}
-                      price={station.price}
                       specs={station.specs}
                     />
                     {i === 2 && (
