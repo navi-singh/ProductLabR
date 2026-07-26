@@ -12,6 +12,11 @@
     "format-check": "prettier --check --ignore-path .gitignore .",
     "format": "prettier --write --ignore-path .gitignore .",
     "type-check": "tsc --noEmit",
+    "test:e2e": "playwright test",
+    "test:e2e:prod": "E2E_PROD=1 playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:report": "playwright show-report",
     "test:build": "npm run lint && npm run type-check && npm run build",
     "preview": "npm run build && npm run start",
     "editorial:audit": "node scripts/editorial/audit.js",
@@ -48,6 +53,7 @@
     }
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "^18",
