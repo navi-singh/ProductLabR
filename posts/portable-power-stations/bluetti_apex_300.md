@@ -40,8 +40,9 @@ cons:
   - "App is functional but not polished"
 price: "~$1,400 (base unit with discount code TSLAPEX300)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=bluetti+apex+300"
+  Amazon: "https://www.amazon.com/s?k=bluetti%20apex%20300"
   Bluetti: "https://www.bluettipower.com/products/apex-300"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=bluetti%20apex%20300"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

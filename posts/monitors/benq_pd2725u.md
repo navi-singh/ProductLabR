@@ -38,9 +38,9 @@ cons:
 
 price: "$699"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  BenQ Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=benq%20pd2725u"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=benq%20pd2725u"
+  Newegg: "https://www.newegg.com/p/pl?d=benq%20pd2725u"
 
 ratingBreakdown:
   metrics:

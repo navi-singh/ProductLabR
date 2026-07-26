@@ -36,9 +36,9 @@ cons:
 
 price: "$249"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Google: "#"
+  Amazon: "https://www.amazon.com/s?k=fitbit%20sense%202"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=fitbit%20sense%202"
+  Walmart: "https://www.walmart.com/search?q=fitbit%20sense%202"
 
 ratingBreakdown:
   metrics:

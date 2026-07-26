@@ -37,9 +37,9 @@ cons:
   - "Confusing naming within EcoFlow's crowded Delta 3 lineup"
 price: "$759 (with discount codes; MSRP ~$999)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=ecoflow+delta+3+max"
+  Amazon: "https://www.amazon.com/s?k=ecoflow%20delta%203%20max"
   EcoFlow: "https://us.ecoflow.com/products/delta-3-max-portable-power-station"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+delta+3+max"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow%20delta%203%20max"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

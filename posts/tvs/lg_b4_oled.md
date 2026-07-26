@@ -47,9 +47,9 @@ cons:
 
 price: "$899"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  LG Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=lg%20b4%20oled"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=lg%20b4%20oled"
+  Walmart: "https://www.walmart.com/search?q=lg%20b4%20oled"
 
 ratingBreakdown:
   metrics:

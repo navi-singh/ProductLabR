@@ -41,8 +41,9 @@ cons:
   - "$7,699+ puts it in permanent installation cost territory"
 price: "$7,699 (1 inverter + 2 batteries; additional batteries separate)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=ecoflow+delta+pro+ultra+x"
+  Amazon: "https://www.amazon.com/s?k=ecoflow%20delta%20pro%20ultra%20x"
   EcoFlow: "https://us.ecoflow.com/products/delta-pro-ultra-x"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow%20delta%20pro%20ultra%20x"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

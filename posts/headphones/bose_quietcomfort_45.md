@@ -51,9 +51,9 @@ cons:
 
 price: "$279"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Bose Store: "#"
+  Amazon: "https://www.amazon.com/s?k=bose%20quietcomfort%2045"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=bose%20quietcomfort%2045"
+  Walmart: "https://www.walmart.com/search?q=bose%20quietcomfort%2045"
 
 ratingBreakdown:
   metrics:

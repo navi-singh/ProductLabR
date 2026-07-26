@@ -38,9 +38,9 @@ cons:
 
 price: "$599"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  ViewSonic Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=viewsonic%20vp2768a%204k"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=viewsonic%20vp2768a%204k"
+  Newegg: "https://www.newegg.com/p/pl?d=viewsonic%20vp2768a%204k"
 
 ratingBreakdown:
   metrics:

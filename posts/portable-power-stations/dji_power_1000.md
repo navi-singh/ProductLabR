@@ -40,9 +40,9 @@ cons:
   - "AC charging speeds inconsistent in real-world testing"
 price: "$999 (frequently on sale for $699–$799)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=dji+power+1000"
+  Amazon: "https://www.amazon.com/s?k=dji%20power%201000"
   DJI: "https://www.dji.com/power-1000"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=dji+power+1000"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=dji%20power%201000"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

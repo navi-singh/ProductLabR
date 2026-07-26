@@ -30,8 +30,9 @@ cons:
 
 price: "$129"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=anker%20powercore%2026800%20pd"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20powercore%2026800%20pd"
+  Walmart: "https://www.walmart.com/search?q=anker%20powercore%2026800%20pd"
   
 ratingBreakdown:
   metrics:

@@ -30,8 +30,9 @@ cons:
 
 price: "$1,099"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=macbook%20air%20m3"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=macbook%20air%20m3"
+  Newegg: "https://www.newegg.com/p/pl?d=macbook%20air%20m3"
 
 ratingBreakdown:
   metrics:

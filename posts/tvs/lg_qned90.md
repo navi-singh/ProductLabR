@@ -39,9 +39,9 @@ cons:
 
 price: "$699"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  LG Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=lg%20qned90"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=lg%20qned90"
+  Walmart: "https://www.walmart.com/search?q=lg%20qned90"
 
 ratingBreakdown:
   metrics:

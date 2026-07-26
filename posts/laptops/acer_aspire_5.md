@@ -30,8 +30,9 @@ cons:
 
 price: "$499"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=acer%20aspire%205"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=acer%20aspire%205"
+  Newegg: "https://www.newegg.com/p/pl?d=acer%20aspire%205"
 
 ratingBreakdown:
   metrics:

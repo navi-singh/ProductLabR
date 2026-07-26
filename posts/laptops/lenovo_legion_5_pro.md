@@ -30,8 +30,9 @@ cons:
 
 price: "$1,699"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=lenovo%20legion%205%20pro"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=lenovo%20legion%205%20pro"
+  Newegg: "https://www.newegg.com/p/pl?d=lenovo%20legion%205%20pro"
 
 ratingBreakdown:
   metrics:

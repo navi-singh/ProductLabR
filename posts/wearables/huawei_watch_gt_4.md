@@ -36,8 +36,9 @@ cons:
 
 price: "$199"
 retailerLinks:
-  Amazon: "#"
-  Huawei: "#"
+  Amazon: "https://www.amazon.com/s?k=huawei%20watch%20gt%204"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=huawei%20watch%20gt%204"
+  Walmart: "https://www.walmart.com/search?q=huawei%20watch%20gt%204"
 
 ratingBreakdown:
   metrics:

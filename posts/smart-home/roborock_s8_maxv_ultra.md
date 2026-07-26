@@ -35,8 +35,9 @@ cons:
 
 price: "$1,599"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=roborock%20s8%20maxv%20ultra"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=roborock%20s8%20maxv%20ultra"
+  Walmart: "https://www.walmart.com/search?q=roborock%20s8%20maxv%20ultra"
 
 ratingBreakdown:
   metrics:

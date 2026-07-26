@@ -48,9 +48,9 @@ cons:
 
 price: "$699"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Hisense Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=hisense%20u8k"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=hisense%20u8k"
+  Walmart: "https://www.walmart.com/search?q=hisense%20u8k"
 
 ratingBreakdown:
   metrics:

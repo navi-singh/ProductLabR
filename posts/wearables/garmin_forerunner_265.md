@@ -42,8 +42,9 @@ cons:
 
 price: "$449"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=garmin%20forerunner%20265"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=garmin%20forerunner%20265"
+  Walmart: "https://www.walmart.com/search?q=garmin%20forerunner%20265"
 
 ratingBreakdown:
   metrics:

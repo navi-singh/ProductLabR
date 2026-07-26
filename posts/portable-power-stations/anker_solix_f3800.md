@@ -33,8 +33,9 @@ cons:
 
 price: "$3,999"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=anker%20solix%20f3800"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20f3800"
+  Walmart: "https://www.walmart.com/search?q=anker%20solix%20f3800"
   
 ratingBreakdown:
   metrics:

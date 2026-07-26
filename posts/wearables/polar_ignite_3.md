@@ -39,9 +39,9 @@ cons:
 
 price: "$299"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Polar: "#"
+  Amazon: "https://www.amazon.com/s?k=polar%20ignite%203"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=polar%20ignite%203"
+  Walmart: "https://www.walmart.com/search?q=polar%20ignite%203"
 
 ratingBreakdown:
   metrics:

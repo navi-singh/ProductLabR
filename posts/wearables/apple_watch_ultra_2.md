@@ -39,9 +39,9 @@ cons:
 
 price: "$799"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Apple: "#"
+  Amazon: "https://www.amazon.com/s?k=apple%20watch%20ultra%202"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=apple%20watch%20ultra%202"
+  Walmart: "https://www.walmart.com/search?q=apple%20watch%20ultra%202"
 
 ratingBreakdown:
   metrics:

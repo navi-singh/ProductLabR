@@ -37,9 +37,9 @@ cons:
 
 price: "$449"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Garmin: "#"
+  Amazon: "https://www.amazon.com/s?k=garmin%20venu%203"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=garmin%20venu%203"
+  Walmart: "https://www.walmart.com/search?q=garmin%20venu%203"
 
 ratingBreakdown:
   metrics:

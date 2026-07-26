@@ -40,9 +40,9 @@ cons:
 
 price: "$299"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Samsung Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=samsung%20galaxy%20watch%207"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=samsung%20galaxy%20watch%207"
+  Walmart: "https://www.walmart.com/search?q=samsung%20galaxy%20watch%207"
 
 ratingBreakdown:
   metrics:

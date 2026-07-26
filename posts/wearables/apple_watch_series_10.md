@@ -41,9 +41,9 @@ cons:
 
 price: "$399"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Apple: "#"
+  Amazon: "https://www.amazon.com/s?k=apple%20watch%20series%2010"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=apple%20watch%20series%2010"
+  Walmart: "https://www.walmart.com/search?q=apple%20watch%20series%2010"
 
 ratingBreakdown:
   metrics:

@@ -38,9 +38,9 @@ cons:
 
 price: "$499"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  ASUS Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=asus%20rog%20swift%20pg279qm"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=asus%20rog%20swift%20pg279qm"
+  Newegg: "https://www.newegg.com/p/pl?d=asus%20rog%20swift%20pg279qm"
 
 ratingBreakdown:
   metrics:

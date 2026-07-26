@@ -25,9 +25,9 @@ cons:
 
 price: "$2,499"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=fujifilm%20xh2s"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=fujifilm%20xh2s"
+  Adorama: "https://www.adorama.com/l/?searchinfo=fujifilm%20xh2s"
   
 ratingBreakdown:
   metrics:

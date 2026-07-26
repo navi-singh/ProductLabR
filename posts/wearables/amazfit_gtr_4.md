@@ -41,9 +41,9 @@ cons:
 
 price: "$199"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Amazfit Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=amazfit%20gtr%204"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=amazfit%20gtr%204"
+  Walmart: "https://www.walmart.com/search?q=amazfit%20gtr%204"
 
 ratingBreakdown:
   metrics:

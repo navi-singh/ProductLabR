@@ -25,9 +25,9 @@ cons:
 
 price: "$2,799"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=panasonic%20lumix%20s1%20ii"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=panasonic%20lumix%20s1%20ii"
+  Adorama: "https://www.adorama.com/l/?searchinfo=panasonic%20lumix%20s1%20ii"
   
 ratingBreakdown:
   metrics:

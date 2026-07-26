@@ -44,8 +44,9 @@ cons:
   - "Build materials feel budget relative to Anker/EcoFlow"
 price: "~$1,614 (with discount code TSLW)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=oupes+guardian+6000"
+  Amazon: "https://www.amazon.com/s?k=oupes%20guardian%206000"
   OUPES: "https://www.oupes.com/products/guardian-6000"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=oupes%20guardian%206000"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

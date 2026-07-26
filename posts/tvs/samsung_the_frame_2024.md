@@ -40,9 +40,9 @@ cons:
 
 price: "$999"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Samsung Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=samsung%20the%20frame%202024"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=samsung%20the%20frame%202024"
+  Walmart: "https://www.walmart.com/search?q=samsung%20the%20frame%202024"
 
 ratingBreakdown:
   metrics:

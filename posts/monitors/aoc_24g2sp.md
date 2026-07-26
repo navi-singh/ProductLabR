@@ -38,9 +38,9 @@ cons:
 
 price: "$149"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  AOC Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=aoc%2024g2sp"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=aoc%2024g2sp"
+  Newegg: "https://www.newegg.com/p/pl?d=aoc%2024g2sp"
 
 ratingBreakdown:
   metrics:

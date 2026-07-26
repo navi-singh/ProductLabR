@@ -47,9 +47,9 @@ cons:
 
 price: "$1,099"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Sony Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=sony%20x90l"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=sony%20x90l"
+  Walmart: "https://www.walmart.com/search?q=sony%20x90l"
 
 ratingBreakdown:
   metrics:

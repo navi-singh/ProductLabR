@@ -43,9 +43,9 @@ cons:
 
 price: "$99"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Razer Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=razer%20deathadder%20v3"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=razer%20deathadder%20v3"
+  Newegg: "https://www.newegg.com/p/pl?d=razer%20deathadder%20v3"
 
 ratingBreakdown:
   metrics:

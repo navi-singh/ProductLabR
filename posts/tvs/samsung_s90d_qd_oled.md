@@ -47,9 +47,9 @@ cons:
 
 price: "$1,299"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Samsung Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=samsung%20s90d%20qd%20oled"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=samsung%20s90d%20qd%20oled"
+  Walmart: "https://www.walmart.com/search?q=samsung%20s90d%20qd%20oled"
 
 ratingBreakdown:
   metrics:

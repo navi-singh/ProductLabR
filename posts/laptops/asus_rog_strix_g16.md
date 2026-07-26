@@ -30,8 +30,9 @@ cons:
 
 price: "$2,499"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=asus%20rog%20strix%20g16"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=asus%20rog%20strix%20g16"
+  Newegg: "https://www.newegg.com/p/pl?d=asus%20rog%20strix%20g16"
 
 ratingBreakdown:
   metrics:

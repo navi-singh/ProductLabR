@@ -39,9 +39,9 @@ cons:
 
 price: "$599"
 retailerLinks:
-  Amazon: "#"
-  REI: "#"
-  Garmin: "#"
+  Amazon: "https://www.amazon.com/s?k=garmin%20fenix%207%20pro"
+  REI: "https://www.rei.com/search?q=garmin%20fenix%207%20pro"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=garmin%20fenix%207%20pro"
 
 ratingBreakdown:
   metrics:

@@ -25,9 +25,9 @@ cons:
 
 price: "$2,499"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=nikon%20z6%20iii"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=nikon%20z6%20iii"
+  Adorama: "https://www.adorama.com/l/?searchinfo=nikon%20z6%20iii"
   
 ratingBreakdown:
   metrics:

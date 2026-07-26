@@ -30,8 +30,9 @@ cons:
 
 price: "$299"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=goal%20zero%20sherpa%20100ac"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=goal%20zero%20sherpa%20100ac"
+  Walmart: "https://www.walmart.com/search?q=goal%20zero%20sherpa%20100ac"
   
 ratingBreakdown:
   metrics:

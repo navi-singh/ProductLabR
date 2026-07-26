@@ -41,9 +41,9 @@ cons:
 
 price: "$24"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Redragon Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=redragon%20m711%20cobra"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=redragon%20m711%20cobra"
+  Newegg: "https://www.newegg.com/p/pl?d=redragon%20m711%20cobra"
 
 ratingBreakdown:
   metrics:

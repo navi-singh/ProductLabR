@@ -39,9 +39,9 @@ cons:
   - "Not significantly improved over previous Mega series"
 price: "$1,399 (frequently discounted from $2,499 MSRP)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=oupes+mega+5"
+  Amazon: "https://www.amazon.com/s?k=oupes%20mega%205"
   OUPES: "https://www.oupes.com/products/mega-5"
-  Walmart: "https://www.walmart.com/search?q=oupes+mega+5"
+  Walmart: "https://www.walmart.com/search?q=oupes%20mega%205"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

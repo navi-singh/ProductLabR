@@ -30,8 +30,9 @@ cons:
 
 price: "$199"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=ravpower%2090w%20ac%20power%20bank"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ravpower%2090w%20ac%20power%20bank"
+  Walmart: "https://www.walmart.com/search?q=ravpower%2090w%20ac%20power%20bank"
   
 ratingBreakdown:
   metrics:

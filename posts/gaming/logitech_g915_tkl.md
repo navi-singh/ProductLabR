@@ -43,8 +43,9 @@ cons:
 
 price: "$199"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=logitech%20g915%20tkl"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=logitech%20g915%20tkl"
+  Newegg: "https://www.newegg.com/p/pl?d=logitech%20g915%20tkl"
 
 ratingBreakdown:
   metrics:

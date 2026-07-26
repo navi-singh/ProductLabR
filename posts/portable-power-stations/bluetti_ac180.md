@@ -32,8 +32,9 @@ cons:
 
 price: "$699"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=bluetti%20ac180"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=bluetti%20ac180"
+  Walmart: "https://www.walmart.com/search?q=bluetti%20ac180"
   
 ratingBreakdown:
   metrics:

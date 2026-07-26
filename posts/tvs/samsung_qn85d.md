@@ -39,9 +39,9 @@ cons:
 
 price: "$1,099"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Samsung Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=samsung%20qn85d"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=samsung%20qn85d"
+  Walmart: "https://www.walmart.com/search?q=samsung%20qn85d"
 
 ratingBreakdown:
   metrics:

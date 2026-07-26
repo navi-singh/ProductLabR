@@ -38,8 +38,9 @@ cons:
 
 price: "$549"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=hisense%20u7n"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=hisense%20u7n"
+  Walmart: "https://www.walmart.com/search?q=hisense%20u7n"
 
 ratingBreakdown:
   metrics:

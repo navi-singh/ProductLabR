@@ -50,9 +50,9 @@ cons:
 
 price: "$79"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Anker Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=anker%20soundcore%20q45"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20soundcore%20q45"
+  Walmart: "https://www.walmart.com/search?q=anker%20soundcore%20q45"
 
 ratingBreakdown:
   metrics:

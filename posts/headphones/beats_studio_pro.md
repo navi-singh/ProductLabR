@@ -43,9 +43,9 @@ cons:
 
 price: "$349"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Apple Store: "#"
+  Amazon: "https://www.amazon.com/s?k=beats%20studio%20pro"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=beats%20studio%20pro"
+  Walmart: "https://www.walmart.com/search?q=beats%20studio%20pro"
 
 ratingBreakdown:
   metrics:

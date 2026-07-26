@@ -44,9 +44,9 @@ cons:
 
 price: "$249"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Jabra Store: "#"
+  Amazon: "https://www.amazon.com/s?k=jabra%20elite%2010"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=jabra%20elite%2010"
+  Walmart: "https://www.walmart.com/search?q=jabra%20elite%2010"
 
 ratingBreakdown:
   metrics:

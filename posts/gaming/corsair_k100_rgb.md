@@ -45,9 +45,9 @@ cons:
 
 price: "$229"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Corsair Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=corsair%20k100%20rgb"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=corsair%20k100%20rgb"
+  Newegg: "https://www.newegg.com/p/pl?d=corsair%20k100%20rgb"
 
 ratingBreakdown:
   metrics:

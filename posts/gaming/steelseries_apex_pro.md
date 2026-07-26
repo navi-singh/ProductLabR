@@ -42,9 +42,9 @@ cons:
 
 price: "$199"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  SteelSeries Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=steelseries%20apex%20pro"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=steelseries%20apex%20pro"
+  Newegg: "https://www.newegg.com/p/pl?d=steelseries%20apex%20pro"
 
 ratingBreakdown:
   metrics:

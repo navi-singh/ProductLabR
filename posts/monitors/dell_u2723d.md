@@ -36,8 +36,9 @@ cons:
 
 price: "$599"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=dell%20u2723d"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=dell%20u2723d"
+  Newegg: "https://www.newegg.com/p/pl?d=dell%20u2723d"
 
 ratingBreakdown:
   metrics:

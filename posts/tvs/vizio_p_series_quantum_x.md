@@ -40,9 +40,9 @@ cons:
 
 price: "$799"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Vizio Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=vizio%20p%20series%20quantum%20x"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=vizio%20p%20series%20quantum%20x"
+  Walmart: "https://www.walmart.com/search?q=vizio%20p%20series%20quantum%20x"
 
 ratingBreakdown:
   metrics:

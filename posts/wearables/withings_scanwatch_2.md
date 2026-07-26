@@ -37,9 +37,9 @@ cons:
 
 price: "$349"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Withings: "#"
+  Amazon: "https://www.amazon.com/s?k=withings%20scanwatch%202"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=withings%20scanwatch%202"
+  Walmart: "https://www.walmart.com/search?q=withings%20scanwatch%202"
 
 ratingBreakdown:
   metrics:

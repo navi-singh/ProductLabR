@@ -32,8 +32,9 @@ cons:
 
 price: "$449"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=bluetti%20eb70s"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=bluetti%20eb70s"
+  Walmart: "https://www.walmart.com/search?q=bluetti%20eb70s"
   
 ratingBreakdown:
   metrics:

@@ -51,9 +51,9 @@ cons:
 
 price: "$149"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Nothing Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=nothing%20ear%202"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=nothing%20ear%202"
+  Walmart: "https://www.walmart.com/search?q=nothing%20ear%202"
 
 ratingBreakdown:
   metrics:

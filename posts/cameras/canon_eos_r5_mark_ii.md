@@ -25,9 +25,9 @@ cons:
 
 price: "$4,299"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=canon%20eos%20r5%20mark%20ii"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=canon%20eos%20r5%20mark%20ii"
+  Adorama: "https://www.adorama.com/l/?searchinfo=canon%20eos%20r5%20mark%20ii"
   
 ratingBreakdown:
   metrics:

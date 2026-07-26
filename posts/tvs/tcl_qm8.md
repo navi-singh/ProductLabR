@@ -39,8 +39,9 @@ cons:
 
 price: "$749"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=tcl%20qm8"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=tcl%20qm8"
+  Walmart: "https://www.walmart.com/search?q=tcl%20qm8"
 
 ratingBreakdown:
   metrics:

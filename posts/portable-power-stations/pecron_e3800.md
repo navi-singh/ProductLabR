@@ -42,8 +42,9 @@ cons:
   - "Pecron brand has lower name recognition — support infrastructure smaller"
 price: "$1,199"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=pecron+e3800"
+  Amazon: "https://www.amazon.com/s?k=pecron%20e3800"
   Pecron: "https://www.pecron.com/products/e3800"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=pecron%20e3800"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

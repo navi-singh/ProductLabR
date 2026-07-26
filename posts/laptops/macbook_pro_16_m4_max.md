@@ -32,9 +32,9 @@ cons:
 
 price: "$3,499"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Apple Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=macbook%20pro%2016%20m4%20max"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=macbook%20pro%2016%20m4%20max"
+  Newegg: "https://www.newegg.com/p/pl?d=macbook%20pro%2016%20m4%20max"
 
 ratingBreakdown:
   metrics:

@@ -39,9 +39,9 @@ cons:
 
 price: "$2,499"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Sony Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=sony%20bravia%209"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=sony%20bravia%209"
+  Walmart: "https://www.walmart.com/search?q=sony%20bravia%209"
 
 ratingBreakdown:
   metrics:

@@ -39,6 +39,7 @@ price: "$999 (often on sale for $849-$899)"
 retailerLinks:
   Amazon: "https://amazon.com/dp/B0C5Q2Q3J7"
   Bluetti: "https://www.bluettipower.com/products/ac180-portable-power-station"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=bluetti%20ac%20180"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

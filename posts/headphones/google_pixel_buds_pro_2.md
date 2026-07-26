@@ -44,9 +44,9 @@ cons:
 
 price: "$229"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Google Store: "#"
+  Amazon: "https://www.amazon.com/s?k=google%20pixel%20buds%20pro%202"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=google%20pixel%20buds%20pro%202"
+  Walmart: "https://www.walmart.com/search?q=google%20pixel%20buds%20pro%202"
 
 ratingBreakdown:
   metrics:

@@ -38,9 +38,9 @@ cons:
 
 price: "$449"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Samsung Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=samsung%20odyssey%20g7"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=samsung%20odyssey%20g7"
+  Newegg: "https://www.newegg.com/p/pl?d=samsung%20odyssey%20g7"
 
 ratingBreakdown:
   metrics:

@@ -33,9 +33,9 @@ cons:
 
 price: "$2,999"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  MSI Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=msi%20titan%20gt77%20hx"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=msi%20titan%20gt77%20hx"
+  Newegg: "https://www.newegg.com/p/pl?d=msi%20titan%20gt77%20hx"
 
 ratingBreakdown:
   metrics:

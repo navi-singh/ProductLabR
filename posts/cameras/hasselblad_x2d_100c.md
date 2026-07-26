@@ -25,9 +25,9 @@ cons:
 
 price: "$8,199"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=hasselblad%20x2d%20100c"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=hasselblad%20x2d%20100c"
+  Adorama: "https://www.adorama.com/l/?searchinfo=hasselblad%20x2d%20100c"
   
 ratingBreakdown:
   metrics:

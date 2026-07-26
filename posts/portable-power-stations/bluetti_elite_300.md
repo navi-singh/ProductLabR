@@ -39,9 +39,9 @@ cons:
   - "Bluetti's customer support response times lag behind Anker/EcoFlow"
 price: "$1,011 (with discount code; MSRP ~$1,200)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=bluetti+elite+300"
+  Amazon: "https://www.amazon.com/s?k=bluetti%20elite%20300"
   Bluetti: "https://www.bluettipower.com/products/elite-300"
-  Walmart: "https://www.walmart.com/search?q=bluetti+elite+300"
+  Walmart: "https://www.walmart.com/search?q=bluetti%20elite%20300"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

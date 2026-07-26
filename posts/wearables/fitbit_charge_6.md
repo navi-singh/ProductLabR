@@ -37,9 +37,9 @@ cons:
 
 price: "$159"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Google: "#"
+  Amazon: "https://www.amazon.com/s?k=fitbit%20charge%206"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=fitbit%20charge%206"
+  Walmart: "https://www.walmart.com/search?q=fitbit%20charge%206"
 
 ratingBreakdown:
   metrics:

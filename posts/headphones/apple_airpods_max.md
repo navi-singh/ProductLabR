@@ -49,9 +49,9 @@ cons:
 
 price: "$549"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Apple Store: "#"
+  Amazon: "https://www.amazon.com/s?k=apple%20airpods%20max"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=apple%20airpods%20max"
+  Walmart: "https://www.walmart.com/search?q=apple%20airpods%20max"
 
 ratingBreakdown:
   metrics:

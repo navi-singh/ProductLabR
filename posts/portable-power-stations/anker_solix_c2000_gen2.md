@@ -39,9 +39,9 @@ cons:
   - "18W idle draw is acceptable but not the lowest in class"
 price: "$799"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=anker+solix+c2000+gen+2"
+  Amazon: "https://www.amazon.com/s?k=anker%20solix%20c2000%20gen2"
   Anker: "https://www.anker.com/products/anker-solix-c2000-gen2"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker+solix+c2000+gen+2"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20c2000%20gen2"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

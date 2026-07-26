@@ -32,8 +32,9 @@ cons:
 
 price: "$399"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=anker%20solix%20c800"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20c800"
+  Walmart: "https://www.walmart.com/search?q=anker%20solix%20c800"
   
 ratingBreakdown:
   metrics:

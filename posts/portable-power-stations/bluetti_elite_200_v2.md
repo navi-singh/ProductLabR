@@ -38,9 +38,9 @@ cons:
   - "Bluetti has restricted critical reviews — transparency concern"
 price: "$1,099 (use code TSL5 for ~$55 off)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=bluetti+elite+200+v2"
+  Amazon: "https://www.amazon.com/s?k=bluetti%20elite%20200%20v2"
   Bluetti: "https://www.bluettipower.com/products/elite-200-v2"
-  Walmart: "https://www.walmart.com/search?q=bluetti+elite+200+v2"
+  Walmart: "https://www.walmart.com/search?q=bluetti%20elite%20200%20v2"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

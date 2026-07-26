@@ -39,9 +39,9 @@ cons:
   - "$3,199 base price is a significant investment"
 price: "$3,199 (early-bird; MSRP $3,999)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=anker+solix+f3800+plus"
+  Amazon: "https://www.amazon.com/s?k=anker%20solix%20f3800%20plus"
   Anker: "https://www.anker.com/products/anker-solix-f3800-plus"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker+solix+f3800+plus"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20f3800%20plus"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

@@ -38,9 +38,9 @@ cons:
 
 price: "$499"
 retailerLinks:
-  Amazon: "#"
-  REI: "#"
-  Garmin: "#"
+  Amazon: "https://www.amazon.com/s?k=garmin%20forerunner%20955"
+  REI: "https://www.rei.com/search?q=garmin%20forerunner%20955"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=garmin%20forerunner%20955"
 
 ratingBreakdown:
   metrics:

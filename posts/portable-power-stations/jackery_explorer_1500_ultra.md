@@ -41,9 +41,9 @@ cons:
   - "21W idle draw is moderate"
 price: "$899"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=jackery+explorer+1500+ultra"
+  Amazon: "https://www.amazon.com/s?k=jackery%20explorer%201500%20ultra"
   Jackery: "https://www.jackery.com/products/explorer-1500-ultra"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=jackery+1500+ultra"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=jackery%20explorer%201500%20ultra"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

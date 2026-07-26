@@ -32,8 +32,9 @@ cons:
 
 price: "$699"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=goal%20zero%20yeti%20500x"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=goal%20zero%20yeti%20500x"
+  Walmart: "https://www.walmart.com/search?q=goal%20zero%20yeti%20500x"
   
 ratingBreakdown:
   metrics:

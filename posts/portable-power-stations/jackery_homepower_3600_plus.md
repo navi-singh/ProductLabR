@@ -40,7 +40,7 @@ cons:
   - "2.5 hour AC charge time is middling for this size"
 price: "$1,699 (on sale from $2,799 MSRP)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=jackery+homepower+3600+plus"
+  Amazon: "https://www.amazon.com/s?k=jackery%20homepower%203600%20plus"
   Jackery: "https://www.jackery.com/products/homepower-3600-plus"
   Costco: "https://www.costco.com/jackery-homepower-3600-plus.product.html"
 ratingBreakdown:

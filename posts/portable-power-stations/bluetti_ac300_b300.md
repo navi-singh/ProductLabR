@@ -32,8 +32,9 @@ cons:
 
 price: "$2,999"
 retailerLinks:
-  Amazon: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=bluetti%20ac300%20b300"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=bluetti%20ac300%20b300"
+  Walmart: "https://www.walmart.com/search?q=bluetti%20ac300%20b300"
   
 ratingBreakdown:
   metrics:

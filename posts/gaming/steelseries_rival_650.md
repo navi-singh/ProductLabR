@@ -43,9 +43,9 @@ cons:
 
 price: "$99"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  SteelSeries Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=steelseries%20rival%20650"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=steelseries%20rival%20650"
+  Newegg: "https://www.newegg.com/p/pl?d=steelseries%20rival%20650"
 
 ratingBreakdown:
   metrics:

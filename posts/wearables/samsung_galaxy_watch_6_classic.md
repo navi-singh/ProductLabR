@@ -36,9 +36,9 @@ cons:
 
 price: "$399"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Samsung: "#"
+  Amazon: "https://www.amazon.com/s?k=samsung%20galaxy%20watch%206%20classic"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=samsung%20galaxy%20watch%206%20classic"
+  Walmart: "https://www.walmart.com/search?q=samsung%20galaxy%20watch%206%20classic"
 
 ratingBreakdown:
   metrics:

@@ -25,9 +25,9 @@ cons:
 
 price: "$6,499"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=sony%20a1%20ii"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=sony%20a1%20ii"
+  Adorama: "https://www.adorama.com/l/?searchinfo=sony%20a1%20ii"
   
 ratingBreakdown:
   metrics:

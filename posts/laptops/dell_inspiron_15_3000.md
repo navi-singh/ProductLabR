@@ -34,9 +34,9 @@ cons:
 
 price: "$429"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Dell Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=dell%20inspiron%2015%203000"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=dell%20inspiron%2015%203000"
+  Newegg: "https://www.newegg.com/p/pl?d=dell%20inspiron%2015%203000"
 
 ratingBreakdown:
   metrics:

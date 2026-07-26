@@ -25,9 +25,9 @@ cons:
 
 price: "$7,499"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=fujifilm%20gfx100%20ii"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=fujifilm%20gfx100%20ii"
+  Adorama: "https://www.adorama.com/l/?searchinfo=fujifilm%20gfx100%20ii"
   
 ratingBreakdown:
   metrics:

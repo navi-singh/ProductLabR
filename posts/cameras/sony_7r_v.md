@@ -25,9 +25,9 @@ cons:
 
 price: "$3,898"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=sony%207r%20v"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=sony%207r%20v"
+  Adorama: "https://www.adorama.com/l/?searchinfo=sony%207r%20v"
   
 ratingBreakdown:
   metrics:

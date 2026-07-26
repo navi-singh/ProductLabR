@@ -33,9 +33,9 @@ cons:
 
 price: "$549"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  HP Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=hp%20pavilion%2015"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=hp%20pavilion%2015"
+  Newegg: "https://www.newegg.com/p/pl?d=hp%20pavilion%2015"
 
 ratingBreakdown:
   metrics:

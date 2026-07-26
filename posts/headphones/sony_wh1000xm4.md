@@ -46,9 +46,9 @@ cons:
 
 price: "$248"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Sony Store: "#"
+  Amazon: "https://www.amazon.com/s?k=sony%20wh1000xm4"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=sony%20wh1000xm4"
+  Walmart: "https://www.walmart.com/search?q=sony%20wh1000xm4"
 
 ratingBreakdown:
   metrics:

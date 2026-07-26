@@ -45,9 +45,9 @@ cons:
 
 price: "$279"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Sennheiser Store: "#"
+  Amazon: "https://www.amazon.com/s?k=sennheiser%20momentum%204%20wireless"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=sennheiser%20momentum%204%20wireless"
+  Walmart: "https://www.walmart.com/search?q=sennheiser%20momentum%204%20wireless"
 
 ratingBreakdown:
   metrics:

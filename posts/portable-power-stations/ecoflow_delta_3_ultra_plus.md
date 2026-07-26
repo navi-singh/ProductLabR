@@ -41,9 +41,9 @@ cons:
   - "74 lbs requires two people to lift"
 price: "~$1,499 (at launch with discount codes)"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=ecoflow+delta+3+ultra+plus"
+  Amazon: "https://www.amazon.com/s?k=ecoflow%20delta%203%20ultra%20plus"
   EcoFlow: "https://us.ecoflow.com/products/delta-3-ultra-plus"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+delta+3+ultra+plus"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow%20delta%203%20ultra%20plus"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

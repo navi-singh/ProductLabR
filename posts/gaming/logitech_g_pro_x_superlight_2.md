@@ -44,8 +44,9 @@ cons:
 
 price: "$159"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
+  Amazon: "https://www.amazon.com/s?k=logitech%20g%20pro%20x%20superlight%202"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=logitech%20g%20pro%20x%20superlight%202"
+  Newegg: "https://www.newegg.com/p/pl?d=logitech%20g%20pro%20x%20superlight%202"
 
 ratingBreakdown:
   metrics:

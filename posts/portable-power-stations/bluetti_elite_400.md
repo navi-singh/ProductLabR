@@ -38,9 +38,9 @@ cons:
   - "Slow AC charge at 2h 27m for this size"
 price: "$1,499 MSRP"
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=bluetti+elite+400"
+  Amazon: "https://www.amazon.com/s?k=bluetti%20elite%20400"
   Bluetti: "https://www.bluettipower.com/products/elite-400"
-  Walmart: "https://www.walmart.com/search?q=bluetti+elite+400"
+  Walmart: "https://www.walmart.com/search?q=bluetti%20elite%20400"
 ratingBreakdown:
   metrics:
     - name: "Design & Build"

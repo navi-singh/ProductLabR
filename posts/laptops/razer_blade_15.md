@@ -33,9 +33,9 @@ cons:
 
 price: "$2,499"
 retailerLinks:
-  Amazon: "#"
-  BestBuy: "#"
-  Razer Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=razer%20blade%2015"
+  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=razer%20blade%2015"
+  Newegg: "https://www.newegg.com/p/pl?d=razer%20blade%2015"
 
 ratingBreakdown:
   metrics:
