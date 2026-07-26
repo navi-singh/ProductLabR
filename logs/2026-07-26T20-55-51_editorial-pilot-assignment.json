@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-07-26T20:55:51.205Z",
+  "targetCategories": [
+    "knives-tools",
+    "smart-home",
+    "cameras",
+    "headphones"
+  ],
+  "armMeans": {
+    "A": 58.9,
+    "B": 62.9
+  },
+  "assignments": [
+    {
+      "arm": "A",
+      "path": "posts/knives-tools/anso_aros_knife.md",
+      "category": "knives-tools",
+      "title": "A Perfect 10: Anso of Denmark 'Aros' incredible knife",
+      "baselineScore": 53.22,
+      "priority": "P0",
+      "effort": "high",
+      "words": 1044,
+      "faqPairs": 0,
+      "missingSections": [
+        "performance",
+        "comparison",
+        "audience",
+        "faq"
+      ]
+    },
+    {
+      "arm": "B",
+      "path": "posts/smart-home/amazon_echo_dot_5th_gen.md",
+      "category": "smart-home",
+      "title": "Amazon Echo Dot (5th Gen): The Best Budget Smart Speaker",
+      "baselineScore": 60.49,
+      "priority": "P1",
+      "effort": "high",
+      "words": 1147,
+      "faqPairs": 0,
+      "missingSections": [
+        "comparison",
+        "faq"
+      ]
+    },
+    {
+      "arm": "A",
+      "path": "posts/cameras/leica_m11.md",
+      "category": "cameras",
+      "title": "Leica M11: Comprehensive Testing for Photo and Video",
+      "baselineScore": 60.5,
+      "priority": "P1",
+      "effort": "low",
+      "words": 2141,
+      "faqPairs": 3,
+      "missingSections": [
+        "audience"
+      ]
+    },
+    {
+      "arm": "B",
+      "path": "posts/cameras/canon_eos_r6_mark_ii.md",
+      "category": "cameras",
+      "title": "Canon EOS R6 Mark II: The Ultimate Camera for Content Creation",
+      "baselineScore": 62.5,
+      "priority": "P1",
+      "effort": "high",
+      "words": 397,
+      "faqPairs": 3,
+      "missingSections": [
+        "audience"
+      ]
+    },
+    {
+      "arm": "A",
+      "path": "posts/smart-home/amazon_echo_4th_gen.md",
+      "category": "smart-home",
+      "title": "Amazon Echo (4th Gen): The Best All-Around Smart Speaker",
+      "baselineScore": 62.9,
+      "priority": "P1",
+      "effort": "high",
+      "words": 1200,
+      "faqPairs": 0,
+      "missingSections": [
+        "comparison",
+        "faq"
+      ]
+    },
+    {
+      "arm": "B",
+      "path": "posts/headphones/bose_qc_ultra_headphones.md",
+      "category": "headphones",
+      "title": "Bose QuietComfort Ultra Headphones: Best-in-Class ANC Reimagined",
+      "baselineScore": 65.66,
+      "priority": "P1",
+      "effort": "high",
+      "words": 1225,
+      "faqPairs": 0,
+      "missingSections": [
+        "comparison",
+        "audience",
+        "faq"
+      ]
+    }
+  ]
+}

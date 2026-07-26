@@ -37,3 +37,6 @@ next-env.d.ts
 
 # superpowers
 .superpowers/
+
+# generated editorial audit dumps (regenerate with `npm run editorial:audit`)
+logs/*_editorial-audit.json
