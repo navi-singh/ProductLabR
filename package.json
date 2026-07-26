@@ -13,7 +13,13 @@
     "format": "prettier --write --ignore-path .gitignore .",
     "type-check": "tsc --noEmit",
     "test:build": "npm run lint && npm run type-check && npm run build",
-    "preview": "npm run build && npm run start"
+    "preview": "npm run build && npm run start",
+    "editorial:audit": "node scripts/editorial/audit.js",
+    "editorial:report": "node scripts/editorial/audit.js --report",
+    "editorial:qa": "node scripts/editorial/qa-gate.js",
+    "editorial:fix-links": "node scripts/editorial/fix-links.js",
+    "editorial:pilot": "node scripts/editorial/select-pilot.js",
+    "editorial:compare": "node scripts/editorial/compare-arms.js"
   },
   "dependencies": {
     "@next/third-parties": "^16.2.5",
