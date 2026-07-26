@@ -25,9 +25,9 @@ cons:
 
 price: "$5,496"
 retailerLinks:
-  Amazon: "#"
-  BHPhoto: "#"
-  Direct: "#"
+  Amazon: "https://www.amazon.com/s?k=nikon%20z9"
+  BHPhoto: "https://www.bhphotovideo.com/c/search?q=nikon%20z9"
+  Adorama: "https://www.adorama.com/l/?searchinfo=nikon%20z9"
   
 ratingBreakdown:
   metrics:
@@ -45,120 +45,95 @@ ratingBreakdown:
       score: 7.5
 ---
 
-## Introduction
+## Overview: a flagship for people who cannot treat the camera gently
 
-The Nikon Z9 represents a sophisticated entry in the competitive camera market, engineered to meet the demanding requirements of professional photographers and videographers who require professional-grade image quality, reliable performance, and advanced feature integration. With its 45.7MP Full-Frame CMOS sensor technology and comprehensive 8K 60p, 4K 120p video capabilities, this camera addresses the evolving needs of content creators, professional photographers, and serious enthusiasts who demand excellence across both still photography and video production. Through extensive real-world testing across diverse shooting scenarios including studio work, outdoor photography, event coverage, and professional video production, we've evaluated its performance characteristics, build quality, ergonomics, and practical usability to provide comprehensive insight into its capabilities and competitive positioning within the current camera landscape. This comprehensive review explores every aspect of the camera, from image quality and autofocus performance to video capabilities and real-world usability.
+The Nikon Z9 is not trying to be the most reasonable way into Nikon's best hybrid technology. It is Nikon's no-apology professional body: 45.7MP full-frame CMOS resolution, 493-point hybrid AF, 8K 60p video, 4K 120p video, 5-axis IBIS rated at 6 stops, and a 5,496 USD price that tells you immediately who it is for. This is the camera for the photographer who wants the body, controls, durability, and working rhythm of a flagship as much as the files themselves.
 
-## Unboxing & First Impressions
+That matters because the Z9 and Z8 should not be reduced to a price comparison. The Z8 is the smaller, less expensive way to reach much of Nikon's hybrid firepower. The Z9 is the one you buy when the camera is going to live on a sideline, in a press pit, beside a wildlife blind, or inside a commercial workflow where confidence is worth carrying a larger body. If the Z8 is the smarter travel companion, the Z9 is the assignment appliance.
 
-Opening the Nikon Z9 packaging reveals careful attention to protection and professional presentation, with the camera body securely nested in custom-fitted foam inserts alongside essential accessories. The packaging design reflects the camera's professional positioning while providing adequate protection for the precision engineering within. Included accessories demonstrate thoughtful consideration for immediate usability, including battery, charger, lens caps, and comprehensive documentation.
+The Z9 is also easy to overbuy. A large, expensive, deeply featured professional camera is a poor match for a hobbyist who wants convenience, a creator who mainly films casual clips, or a photographer who has not already accepted the cost of fast cards, serious lenses, and a deliberate setup process. The camera's strength is that it refuses to be casual. Its weakness is exactly the same thing.
 
-The initial handling experience immediately conveys the build quality and engineering priorities that define this camera's character. The body construction balances durability with ergonomic comfort, featuring weather sealing at critical junction points and control layout optimized for intuitive operation during demanding shooting conditions. The grip design provides confident handling even during extended shooting sessions, while the button and dial placement enables blind operation for experienced photographers.
+### Brief buying profile
 
-First power-on procedures reveal the user interface design philosophy and system responsiveness that characterize daily operation. Menu organization prioritizes frequently accessed functions while maintaining logical hierarchy for advanced settings. The rear LCD display and electronic viewfinder provide immediate feedback on image quality and system status, essential tools for critical focus and exposure verification during professional applications.
+The Z9 is for sports, wildlife, press, event, commercial, and hybrid professionals who want a flagship Nikon mirrorless body around a 45.7MP sensor and serious 8K/4K video modes. It is not for buyers trying to keep a kit light, not for travelers who count every ounce, not for people who are still unsure about Nikon Z lenses, and not for anyone who wants an easy menu. For the typical Z8 buyer, the Z9 is the wrong body because its size and price solve problems that may not exist in a smaller hybrid workflow.
 
-## Key Features & Revolutionary Changes
+## Design and build: the body is part of the feature set
 
-The Nikon Z9 incorporates advanced technology:
+A flagship camera has to earn its bulk. The Z9's rugged professional build is not decoration; it is the reason to choose it over the smaller body with similar headline imaging. The large chassis gives Nikon room to create a camera that feels planted with serious lenses, comfortable in vertical orientation, and mentally reassuring when the job does not allow hesitation. The value is not just durability. It is the confidence that the camera is meant to be worked hard.
 
-- **45.7MP Full-Frame CMOS** – Modern sensor technology for exceptional image quality
-- **Advanced Autofocus** – 493-point hybrid AF for reliable subject tracking
-- **Video Excellence** – 8K 60p, 4K 120p recording capabilities
-- **Professional Build** – Weather-sealed construction for demanding conditions
+That confidence has a price beyond 5,496 USD. The Z9 is large and heavy enough that ownership changes how you pack. A travel photographer who moves through airports with two lenses and a laptop will feel the penalty. A wedding shooter carrying two bodies for 10 hours may prefer a smaller shape. A studio photographer who works from a tripod may not need the bulk. The Z9 is not a universal upgrade; it is a body designed around pressure, repetition, and long days.
 
-## Autofocus Performance Revolution
+The control layout and feature density suit a professional who wants direct access and custom behavior. They are less friendly to a buyer who hopes the camera will stay invisible. The Z9 gives you 493-point hybrid AF, 8K 60p recording, 4K 120p recording, 45.7MP files, and 5-axis stabilization rated at 6 stops; each of those capabilities brings decisions. Autofocus modes, file sizes, video formats, storage choices, button assignments, and still/video switching all need to be understood before paid work.
 
-The autofocus system in the Nikon Z9 represents a substantial evolution in camera tracking technology, incorporating 493-point hybrid AF that fundamentally changes how photographers and videographers approach subject acquisition and tracking. Real-world testing across diverse scenarios reveals significant improvements in accuracy, speed, and reliability compared to previous generation systems.
+Ruggedness also has an emotional component. When a camera costs 5,496 USD, buyers expect it to feel like a professional object, not a delicate luxury item. The Z9 does. But photographers who do not need that feeling should admit it early. The Z8 exists precisely because many people want Nikon's high-end hybrid engine without carrying the flagship body. If smaller size is a daily advantage for you, the Z9's build quality will not make the weight disappear.
 
-Subject detection capabilities extend beyond traditional contrast and phase-detection methods, utilizing advanced algorithms that recognize and track human subjects, animals, vehicles, and other objects with remarkable precision. Eye detection performance demonstrates particular strength, maintaining sharp focus on portrait subjects even during rapid movement or challenging lighting conditions. Animal eye detection proves equally impressive, tracking wildlife and pets with consistency that enables previously difficult shots.
+## Performance in the field: stills, video, and assignment pressure
 
-Tracking performance during video recording maintains exceptional consistency, crucial for professional video applications where focus pulling accuracy directly impacts production quality. The system adapts tracking sensitivity and response speed based on shooting mode and subject behavior, providing smooth transitions that avoid the hunting behavior common in older autofocus implementations.
+The Z9's performance story starts with the 45.7MP full-frame CMOS sensor. It gives enough resolution for cropping wildlife frames, delivering editorial stills, printing large, shooting commercial detail, and retaining flexibility when a subject does not fill the frame. The files are not merely big for bragging rights. In professional use, 45.7MP can rescue composition, support multiple crops from one moment, and satisfy clients who ask for both horizontal and vertical versions after the shoot.
 
-Low-light autofocus capabilities extend usability into challenging lighting scenarios where traditional systems often struggle. Testing in dimly lit environments confirms reliable operation down to extremely low light levels, maintaining both speed and accuracy when other cameras would require manual focus assistance. This capability proves particularly valuable for event photography, indoor sports, and other applications where lighting control is limited.
+The 493-point hybrid AF system is what makes that resolution useful in motion. A high-resolution camera that misses focus is just a large disappointment. The Z9's autofocus promise is about keeping fast, unpredictable work inside the camera's comfort zone: field sports, animals, ceremonies, stage events, and moving subjects in mixed light. It will not replace anticipation, lens choice, or good positioning, but it gives working photographers a sophisticated tracking platform instead of a slow studio-only high-resolution body.
 
-## Image Quality & Performance
+Video is not an afterthought. 8K 60p and 4K 120p make the Z9 a serious hybrid body for crews that need detailed capture, slow motion, and one Nikon system for stills and motion. The important question is not whether 8K looks impressive. It is whether your clients, archive, cropping workflow, or post-production pipeline benefit from it. For many professionals, 4K delivery from an 8K source can be valuable. For casual creators, the same mode may only expose weak storage and editing hardware.
 
-Image quality analysis across the Nikon Z9's 45.7MP Full-Frame CMOS sensor reveals exceptional performance characteristics that position it among the leading cameras in its class. Resolution testing confirms the full sensor capability translates into stunning detail capture, with pixel-level sharpness that withstands critical examination even at large print sizes.
+The 5-axis IBIS rated at 6 stops helps the camera stay practical outside controlled setups. It assists with handheld documentary stills, available-light interiors, and static subjects when a tripod would slow the job. The Z9 remains a large body, though, and stabilization does not change the physics of long lenses or moving subjects. It is a useful professional aid, not permission to abandon support gear.
 
-Dynamic range performance demonstrates impressive capability to capture detail in both highlight and shadow regions simultaneously. High contrast scenarios that would challenge lesser cameras are handled with remarkable latitude, providing photographers significant flexibility during post-processing while maintaining natural color gradation throughout the tonal range. This capability proves particularly valuable for landscape photography, architectural work, and any application where lighting contrast exceeds normal camera limitations.
+Where the Z9 distinguishes itself from smaller high-end bodies is not a single specification. It is the way the whole package supports repetition. A flagship body is built for thousands of decisions: follow the runner, switch orientation, shoot a burst, grab a 4K clip, transmit a frame, go back to stills, repeat. The Z9 is compelling when that rhythm describes your work. If your rhythm is slower, lighter, and more deliberate, the body may be solving someone else's problem.
 
-Color science evaluation reveals sophisticated processing that produces natural, pleasing colors straight from the camera while maintaining accuracy for professional color-critical applications. Skin tone rendering shows particular strength, crucial for portrait and wedding photography where accurate color reproduction directly impacts client satisfaction. Color temperature consistency across the ISO range maintains reliable color balance from base ISO through high sensitivity settings.
+The complexity is real. A camera this capable can waste your time if you refuse to master it. The feature set is deep enough that an owner should build banks for different jobs, practice autofocus behavior, decide when 8K is worth the cost, and test the storage chain before a client is watching. Professionals will see this as normal preparation. Casual buyers may experience it as friction.
 
-High ISO performance testing confirms remarkable noise control and detail retention at elevated sensitivity settings. Image quality remains highly usable through ISO ranges that would produce unacceptable results from previous generation cameras. Noise characteristics, when present, display a natural film-like grain structure rather than the digital artifacts common in lesser implementations. This performance opens new creative possibilities for available light photography and enables shooting in conditions previously requiring artificial lighting.
+## Alternatives compared: Z8, Canon EOS R5 Mark II, Sony A1 II, and Canon EOS R3
 
-Lens compatibility testing across native and adapted glass confirms excellent optical performance with minimal compromises. The sensor design optimizes light gathering efficiency while maintaining edge-to-edge sharpness with quality lenses. In-body image stabilization effectiveness provides approximately 3-5 stops of stabilization benefit, enabling handheld shooting in conditions that would normally require tripod support.
+The Nikon Z8 is the comparison that matters most because it challenges the Z9 from inside the same family. If you want a smaller camera with a 45.7MP sensor, 493-point hybrid AF, 8K 60p, 4K 120p, and a lower price, the Z8 is brutally persuasive. The Z9 answers with body-first advantages: flagship handling, rugged presence, and a shape that makes sense for big lenses and vertical shooting. Choose the Z8 for mobility. Choose the Z9 for assignment confidence.
 
-## Video Excellence & Professional Features
+Canon EOS R5 Mark II competes as the high-resolution hybrid for photographers already invested in Canon. Canon's appeal is a different ergonomic language, a different autofocus interface, and an RF lens path that may fit certain shooters better. The Z9 is the more unapologetically pro-bodied Nikon answer. A Canon owner should not switch lightly. A Nikon owner who wants a flagship should not pretend the Canon is interchangeable just because both sit in the high-end hybrid conversation.
 
-Video recording capabilities transform the Nikon Z9 into a professional-grade cinema tool, offering 8K 60p, 4K 120p recording options that compete directly with dedicated video cameras costing significantly more. The implementation goes far beyond basic video recording, providing comprehensive professional features essential for serious video production work.
+Sony A1 II is the natural Sony rival for buyers comparing top-tier mirrorless ecosystems. Sony's strength is the breadth of the E-mount world and a premium hybrid body for professionals who already prefer Sony's autofocus behavior and lens options. Nikon's Z9 counters with its own professional handling, 45.7MP resolution, 8K 60p, 4K 120p, and a body that feels designed around punishing assignments. The better choice depends less on internet ranking and more on the lenses, controls, and service expectations surrounding your work.
 
-8K 60p, 4K 120p recording quality demonstrates exceptional detail resolution and color accuracy that withstands professional post-production workflows. Internal recording capabilities eliminate the need for external recorders in many applications, while offering recording formats and bit rates sufficient for broadcast and streaming applications. Color profiles provide flexibility for color grading while maintaining excellent out-of-camera results for applications requiring minimal post-processing.
+Canon EOS R3 is a useful foil because it represents another kind of professional body: speed, ergonomics, and reliability for working shooters who may not prioritize the same high-resolution brief. The Z9 is more attractive if you want Nikon's 45.7MP files alongside flagship durability. The R3 makes sense for Canon professionals whose work values body feel and system continuity over switching for a different sensor philosophy.
 
-Autofocus performance during video recording maintains the same exceptional tracking capabilities available for still photography, crucial for single-operator productions where manual focus pulling is impractical. Face and eye tracking continues operating seamlessly during video recording, maintaining sharp focus on subjects even during complex movement patterns. Tracking sensitivity adjustments enable fine-tuning for specific shooting scenarios and creative requirements.
+Panasonic Lumix S1R II and Fujifilm GFX100 II are less direct but still relevant alternatives for certain buyers. Panasonic may suit hybrid shooters who prefer L-mount and a video-oriented interface. Fujifilm's medium-format path is for controlled image-making rather than the Z9's action-ready brief. The Z9 sits between these worlds: higher resolution than many action bodies, faster and more operationally aggressive than slow studio-first cameras.
 
-Image stabilization effectiveness during video recording provides professional-quality results without the bulk and expense of traditional stabilization systems. The combination of sensor-based stabilization and lens stabilization (when available) delivers remarkably smooth footage even during handheld operation. This capability enables run-and-gun shooting styles and reduces reliance on external stabilization equipment.
+## Who should buy the Nikon Z9
 
-Audio recording capabilities include professional-grade input options and manual level control essential for serious video production. External microphone compatibility and monitoring options provide the flexibility required for professional audio capture, while automatic gain control remains available for simpler applications where manual audio management is impractical.
+Buy the Z9 if you earn money in situations where the camera must feel overbuilt. Sports photographers, wildlife shooters, agency freelancers, stage and event photographers, and commercial hybrids are the natural audience. The 45.7MP sensor gives room to crop. The 493-point hybrid AF system gives a modern tracking foundation. The 8K 60p and 4K 120p modes make the body credible when a client expects video from the same operator.
 
-Thermal management during extended video recording sessions demonstrates excellent engineering, maintaining stable performance during long recording takes that would cause other cameras to overheat and shut down. This reliability proves crucial for event videography, interviews, and other applications where recording interruption is unacceptable.
+Buy it if you already know why a flagship body matters. That is the dividing line. If you have to be convinced that the larger shape is useful, you may be a Z8 buyer. If you immediately think about long lenses, vertical frames, weather, battery planning, grip comfort, and backup workflows, the Z9 will make more sense. The 5,496 USD price is easier to defend when the body prevents hesitation on paid work.
 
-## Competitive Analysis & Market Position
+Do not buy it because it is the most imposing Nikon mirrorless camera. Status is a bad purchasing strategy. Do not buy it if the camera will mostly sit on a shelf between vacations. Do not buy it if you are still building basic technique. A lighter and less expensive body will serve many photographers better, especially if the savings buy a lens or travel opportunity.
 
-The competitive camera landscape offers numerous alternatives across price points and feature sets, making thorough comparison essential for informed purchasing decisions. The Nikon Z9 competes primarily within the high-resolution full-frame segment, where it faces established alternatives from Canon, Nikon, and other manufacturers with similar specifications but different implementation approaches.
+Do not buy it if you are the ideal Z8 user. That sounds obvious, but it is the mistake many spec-focused buyers make. If your work is hybrid travel, documentary, landscape, corporate video, weddings with a light harness, or a one-bag kit, the Z9 can become a burden. The Z8 gives much of the Nikon high-end experience in a body that is easier to bring along. For that buyer, the Z9 is not more professional; it is less practical.
 
-Resolution comparisons reveal the Nikon Z9's 45.7MP Full-Frame CMOS sensor positioning it competitively against alternatives offering similar pixel counts. However, implementation differences significantly affect real-world performance beyond simple megapixel specifications. Sensor design, processing capabilities, and system integration determine actual image quality and operational characteristics more than raw resolution numbers alone.
+## Final verdict
 
-Autofocus system comparisons highlight significant differences in tracking accuracy, subject recognition capabilities, and low-light performance across competing models. The Nikon Z9's 493-point hybrid AF system demonstrates particular strength in areas where competing systems often struggle, though individual preferences and shooting styles may favor different implementation approaches.
+The Nikon Z9 succeeds because it knows exactly what kind of camera it is. It is a 5,496 USD flagship with 45.7MP stills, 493-point hybrid AF, 8K 60p video, 4K 120p video, and 5-axis IBIS rated at 6 stops, built for professionals who value body confidence as much as image quality. It is expensive, large, and complex. Those are not side notes. They define the product.
 
-Video capability analysis reveals the Nikon Z9's 8K 60p, 4K 120p specifications positioning it favorably against cameras focusing primarily on still photography, while competing effectively with dedicated video-oriented models. Feature integration and thermal management often prove more important than raw specifications for actual production applications.
+If you need a pro Nikon body for demanding assignments, the Z9 is the right answer. If you want the most portable version of Nikon's high-end hybrid idea, buy the Z8 instead. The Z9 should be purchased by people who will exploit the flagship body every week, not by people who merely admire it. That clarity is what makes it compelling and what keeps it from being the default recommendation.
 
-Ergonomics and user interface comparisons reflect different design philosophies across manufacturers, with the Nikon Z9 following established conventions while incorporating modern improvements. Control layout, menu organization, and customization options significantly affect daily usability and workflow efficiency, factors that often outweigh minor specification differences for working professionals.
+## Frequently Asked Questions: Nikon Z9 buying concerns
 
-Value proposition analysis requires consideration beyond initial purchase price, including lens system costs, accessory availability, and long-term support prospects. The Nikon Z9 operates within an established ecosystem offering comprehensive lens options and accessory support, important factors for users building comprehensive camera systems.
+**Q: Is the Z9 worth 5,496 USD when the Z8 exists?**
+A: It is worth it only if the flagship body matters to your work. If you mainly want 45.7MP files, 8K 60p, and 4K 120p in a smaller kit, the Z8 is the more rational buy.
 
-## User Experience & Practical Considerations
+**Q: Who is most likely to regret buying the Z9?**
+A: Travelers, casual creators, and hybrid shooters who value a light bag are most likely to regret it. The Z9's size is a feature for assignment professionals and a burden for many others.
 
-Extended real-world usage reveals important practical considerations that affect daily operation and long-term satisfaction with the Nikon Z9. Ergonomic design demonstrates careful attention to photographer comfort during extended shooting sessions, with grip contours and control placement optimized for intuitive operation without visual confirmation.
+**Q: Does the Z9 make sense for wildlife photography?**
+A: Yes, if you want a rugged Nikon body, 45.7MP cropping flexibility, and 493-point hybrid AF for unpredictable subjects. If you hike long distances with minimal gear, consider whether the Z8 is easier to carry.
 
-Menu system organization prioritizes frequently accessed functions while maintaining logical hierarchy for advanced settings. Customization options enable personalization for individual shooting styles and preferences, important factors that significantly affect workflow efficiency and creative process. Button and dial feel provides confident tactile feedback essential for blind operation during critical shooting moments.
+**Q: Is 8K video necessary for most buyers?**
+A: No. 8K 60p is valuable for reframing, high-detail capture, and demanding hybrid jobs, but it increases storage and editing requirements. Many owners will use 4K more often.
 
-Battery life testing across various shooting scenarios confirms adequate performance for most applications, though intensive video recording and high-frequency shooting may require backup batteries for extended sessions. Power management features include automatic sleep modes and efficiency optimizations that extend operational time without compromising performance.
+**Q: How should I think about card and storage costs?**
+A: Treat them as part of the camera price. 45.7MP stills, 8K video, and 4K 120p footage can fill media quickly, so a 5,496 USD body may require a larger storage budget than expected.
 
-Weather sealing effectiveness provides confidence for outdoor shooting in challenging conditions, though proper care and maintenance remain essential for long-term reliability. Dust and moisture resistance testing confirms capability for typical outdoor photography scenarios while highlighting the importance of proper lens and port protection.
+**Q: Is the Nikon Z system a safe long-term investment?**
+A: It is safest for buyers who already like Nikon lenses and handling. If you are starting from scratch, compare Nikon, Canon, Sony, and Panasonic lens options before choosing a body.
 
-Storage and memory card performance optimization ensures the camera can fully utilize high-speed media for continuous shooting and high-resolution video recording. Dual card slot implementation provides backup security and workflow flexibility essential for professional applications where data loss is unacceptable.
+**Q: Can stabilization replace better technique?**
+A: No. The 5-axis IBIS rated at 6 stops helps with handheld work, but it does not freeze subject motion, make long lenses weightless, or replace a tripod for controlled scenes.
 
-Connectivity features including Wi-Fi and Bluetooth enable modern workflow integration with mobile devices and computer systems. Remote shooting capabilities and automatic image transfer options streamline post-processing workflows and enable real-time sharing for social media and client preview applications.
+**Q: Is the Z9 too complex for a first full-frame camera?**
+A: For most people, yes. The 493-point AF system, 8K modes, custom controls, and professional workflow options are overkill if you are still learning exposure, lenses, and editing.
 
-## Final Verdict
-
-The Nikon Z9 emerges as a sophisticated tool that successfully balances cutting-edge technology with practical usability, positioning itself as a compelling choice for serious photographers and content creators who demand professional-grade performance without unnecessary complexity. The combination of 45.7MP Full-Frame CMOS resolution, advanced 493-point hybrid AF capabilities, and comprehensive 8K 60p, 4K 120p recording options creates a versatile platform capable of handling diverse creative applications. Build quality and component selection demonstrate attention to long-term reliability, while the feature set provides essential professional capabilities without overwhelming complexity that could compromise operational efficiency.
-
-**Ideal For:**
-✅ **Professional Sports** – Speed and reliability
-✅ **Commercial Work** – Flagship quality and features
-
-**Consider Alternatives If:**
-❌ You need **budget consideration** – Much more affordable options exist
-❌ You need **lighter weight** – Smaller cameras available
-
-## Conclusion
-
-Through comprehensive testing and analysis, the Nikon Z9 demonstrates exceptional engineering execution and design priorities that align well with the demands of modern photography and videography. The camera excels in areas most critical to its target audience: image quality, autofocus reliability, video capabilities, and overall system performance that enables rather than hinders creative expression.
-
-Performance characteristics consistently exceed expectations while revealing real-world capabilities that extend beyond basic specifications. The integration of advanced features with intuitive operation creates a tool that enhances rather than complicates the creative process, essential for working professionals and serious enthusiasts who demand reliability and performance.
-
-Long-term ownership considerations including lens ecosystem compatibility, accessory availability, and manufacturer support history provide confidence in the investment decision for users building comprehensive camera systems. While not necessarily the least expensive option available, the Nikon Z9 provides excellent value for users whose requirements align with its professional-grade capabilities and feature set.
-
----
-
-### Frequently Asked Questions
-
-**Q: How does the autofocus compare to competitors?**
-A: The Nikon Z9 offers competitive autofocus performance, though specific characteristics vary by shooting scenario.
-
-**Q: Is it good for video work?**
-A: Yes, with 8K 60p, 4K 120p recording and professional features, it's well-suited for serious video applications.
-
-**Q: What lenses work best?**
-A: Native lenses provide optimal performance, though the ecosystem and compatibility vary by system.
+**Q: When should a Z9 owner consider upgrading later?**
+A: Upgrade only when a future body solves a specific paid-work problem. A camera with 45.7MP, 8K 60p, 4K 120p, and a flagship build should remain useful until your assignments demand something it cannot do.
