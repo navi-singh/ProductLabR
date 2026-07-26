@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
+import { withBasePath } from '@/lib/basePath';
 
 interface OptimizedImageProps {
   src: string;
@@ -24,13 +25,13 @@ export const OptimizedImage = ({
   width,
   height,
 }: OptimizedImageProps) => {
-  const [imgSrc, setImgSrc] = useState(src);
+  const [imgSrc, setImgSrc] = useState(() => withBasePath(src));
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
   const handleError = () => {
     setHasError(true);
-    setImgSrc('/images/item.png'); // Fallback to default image
+    setImgSrc(withBasePath('/images/item.png')); // Fallback to default image
     setIsLoading(false);
   };
 

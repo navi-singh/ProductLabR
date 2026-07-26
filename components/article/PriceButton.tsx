@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { withBasePath } from '@/lib/basePath';
 import { ExternalLinkIcon, ShoppingIcon } from '../../lib/icons';
 import { isSafeUrl } from '../../lib/utils';
 
@@ -33,7 +34,7 @@ export default function RetailerLinks({
         return (
           <div className="w-16 h-8 relative flex items-center justify-center">
             <Image
-              src="/images/amazon.png"
+              src={withBasePath('/images/amazon.png')}
               alt="Amazon"
               width={48}
               height={32}
@@ -45,7 +46,7 @@ export default function RetailerLinks({
         return (
           <div className="w-8 h-6 relative flex items-center justify-center">
             <Image
-              src="/images/ebay.svg"
+              src={withBasePath('/images/ebay.svg')}
               alt="eBay"
               width={48}
               height={32}
@@ -64,7 +65,7 @@ export default function RetailerLinks({
       case 'bestbuy':
         return <div className="w-8 h-6 relative flex items-center justify-center">
             <Image
-              src="/images/bestbuy.jpg"
+              src={withBasePath('/images/bestbuy.jpg')}
               alt="bestbuy"
               width={48}
               height={32}

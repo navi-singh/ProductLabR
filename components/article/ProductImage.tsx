@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { withBasePath } from '@/lib/basePath';
 
 interface ProductImageProps {
   src: string;
@@ -12,7 +13,7 @@ export default function ProductImage({ src, alt }: ProductImageProps) {
     <div className="overflow-hidden rounded-xl border border-neutral-200 bg-white">
       <div className="relative aspect-[16/9] w-full">
         <Image
-          src={src}
+          src={withBasePath(src)}
           alt={alt}
           fill
           className="object-contain p-6"

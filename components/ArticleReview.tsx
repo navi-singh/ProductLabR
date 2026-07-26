@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { withBasePath } from '@/lib/basePath';
 
 export interface ArticleReviewProps {
   heroImage: string;
@@ -34,7 +35,7 @@ export const ArticleReview: React.FC<ArticleReviewProps> = ({
       <header className="mb-8">
         <div className="w-full aspect-video relative mb-4 rounded-2xl overflow-hidden">
           <Image
-            src={heroImage}
+            src={withBasePath(heroImage)}
             alt={title}
             fill
             className="object-cover"
@@ -55,7 +56,7 @@ export const ArticleReview: React.FC<ArticleReviewProps> = ({
           {productImage && (
             <div className="w-40 h-40 relative flex-shrink-0">
               <Image
-                src={productImage}
+                src={withBasePath(productImage)}
                 alt={title}
                 fill
                 className="object-contain rounded-xl"

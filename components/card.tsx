@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { withBasePath } from '@/lib/basePath';
 import { PostMetadata } from './PostMetadata';
 import { ReactNode } from 'react';
 
@@ -21,7 +22,7 @@ export const Card = ({ post, className, children }: {
           {post.image && (
             <div className="w-full mb-3">
               <Image
-                src={post.image}
+                src={withBasePath(post.image)}
                 alt={post.title}
                 width={240}
                 height={160}
