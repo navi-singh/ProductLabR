@@ -1,0 +1,1 @@
+Any time we do a plan build lets ensure we capture that ina file with name of date_timestamp in log folder
