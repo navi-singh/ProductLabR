@@ -23,6 +23,12 @@ const nextConfig = {
   
   // Security headers
   async headers() {
+    // Only a running Next server applies these; the GitHub Pages static export
+    // ignores them entirely. That makes it safe to relax the policy for dev,
+    // where the webpack HMR runtime needs eval — without it React cannot
+    // hydrate locally, so no client-side behaviour works or can be tested.
+    const devOnlyScriptSrc = process.env.NODE_ENV === 'production' ? '' : " 'unsafe-eval'";
+
     return [
       {
         source: '/(.*)',
@@ -50,7 +56,7 @@ const nextConfig = {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://www.googletagservices.com https://www.googletagmanager.com https://www.google-analytics.com",
+              `script-src 'self' 'unsafe-inline'${devOnlyScriptSrc} https://pagead2.googlesyndication.com https://www.googletagservices.com https://www.googletagmanager.com https://www.google-analytics.com`,
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: https: blob:",
