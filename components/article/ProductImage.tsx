@@ -1,7 +1,6 @@
 'use client';
 
-import Image from 'next/image';
-import { withBasePath } from '@/lib/basePath';
+import { OptimizedImage } from '@/components/OptimizedImage';
 
 interface ProductImageProps {
   src: string;
@@ -11,16 +10,15 @@ interface ProductImageProps {
 export default function ProductImage({ src, alt }: ProductImageProps) {
   return (
     <div className="overflow-hidden rounded-xl border border-neutral-200 bg-white">
-      <div className="relative aspect-[16/9] w-full">
-        <Image
-          src={withBasePath(src)}
-          alt={alt}
-          fill
-          className="object-contain p-6"
-          sizes="(max-width: 1024px) 100vw, 67vw"
-          priority
-        />
-      </div>
+      <OptimizedImage
+        src={src}
+        alt={alt}
+        fill
+        wrapperClassName="aspect-[16/9] w-full"
+        className="object-contain p-6"
+        sizes="(max-width: 1024px) 100vw, 67vw"
+        priority
+      />
     </div>
   );
 }
