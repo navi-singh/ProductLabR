@@ -9,7 +9,7 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 | `title` | string | `"EcoFlow Delta 3 Plus"` | Product name. Becomes `<h1>` and `<title>` |
 | `date` | ISO date string | `"2026-04-10"` | Publication date. Used for sort order and OG metadata |
 | `price` | string | `"$999"`, `"$799–$999"` | Free-form display string. Ranges allowed |
-| `productImage` | URL | `"https://.../delta3plus.jpg"` | Primary hero image. Must be on a whitelisted domain |
+| `productImage` | URL or root-relative local path | `"https://.../delta3plus.jpg"`, `"/images/item.png"` | Primary hero image. Remote URLs must be on a whitelisted domain; local paths are served from `public/` |
 | `specs` | object | see below | Key–value spec table |
 | `pros` | string[] | `["Fast charging", "Quiet"]` | Bulleted strengths |
 | `cons` | string[] | `["Heavy"]` | Bulleted weaknesses |
@@ -23,8 +23,8 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 | `subtitle` | string | `"A 1 kWh powerhouse..."` | One-line hook below the title |
 | `author` | string | `"Jane Doe"` | Byline |
 | `authorBio` | string | `"Jane has reviewed..."` | Used by `AuthorBio` component |
-| `image` | URL | | Fallback image if `productImage` is missing |
-| `heroImage` | URL | | Optional alternative hero (some templates) |
+| `image` | URL or root-relative local path | | Fallback image if `productImage` is missing |
+| `heroImage` | URL or root-relative local path | | Optional alternative hero (some templates) |
 | `rating` | number | `8.7` | Legacy single score; **deprecated** — prefer `ratingBreakdown` |
 
 ## Category-specific fields

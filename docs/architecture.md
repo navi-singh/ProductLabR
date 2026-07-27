@@ -108,9 +108,13 @@ The styled output drops into a `.article-body` container (defined in `styles/glo
 
 ## Image handling
 
-- Always through `OptimizedImage` (a thin wrapper around `next/image`).
+- Prefer `OptimizedImage` (a thin wrapper around `next/image`) for product imagery.
+- Any local asset URL that reaches `next/image` must pass through `withBasePath()` from `lib/basePath.ts`. This is required for GitHub Pages because the deployed site lives under `/ProductLabR`.
+- Direct `next/image` call sites exist for legacy article/card surfaces and retailer logos; they call `withBasePath()` themselves.
 - Remote domains explicitly whitelisted in `next.config.mjs → images.remotePatterns`. Adding a new CDN means a config change + redeploy.
-- Output formats: WebP and AVIF, with multiple device sizes generated at build.
+- `actions/configure-pages` injects `images.unoptimized: true` for the static export, so production cannot rely on the Next image optimizer to rewrite local paths.
+
+See [reference/playwright-e2e.md](./reference/playwright-e2e.md#bug-b--local-images-404d-in-production) for the production-only image 404 this prevents.
 
 ## Monetization integration
 
@@ -138,14 +142,45 @@ From `next.config.mjs` and observed practice:
 
 1. Trigger: push to `main` (or manual dispatch).
 2. Checkout, detect package manager, set up Node 20.
-3. Configure GitHub Pages (static export target).
+3. Configure GitHub Pages. `actions/configure-pages` text-injects the Pages `basePath`, `output: "export"`, and `images.unoptimized` into the resolved Next config.
 4. Restore `.next/cache/`.
-5. `npm ci`.
-6. `npx next build` — produces `./out/`.
+5. Install with the detected package manager.
+6. Run `next build` with the detected runner — produces `./out/`.
 7. Upload `./out/` as artifact.
 8. Deploy to GitHub Pages.
 
 Typical pipeline duration: 2–3 minutes.
+
+The repo standardises on **npm**: `package-lock.json` is the only lockfile, and the deploy workflow's
+package-manager detection therefore falls through to `npm ci` with `npx --no-install next build`.
+
+A `yarn.lock` used to sit alongside it. Because the workflow prefers yarn whenever that file exists,
+CI installed from a lockfile that no one maintained — it pinned an older `next`, double-counted every
+Dependabot alert across two lockfiles, and, critically, **yarn v1 ignores the npm `overrides` field**,
+so security pins in `package.json` silently never reached production. It was removed for those
+reasons.
+
+Do not reintroduce `yarn.lock`. Adding one back silently switches CI to yarn and disables `overrides`.
+
+## Dependency and vulnerability posture
+
+Pinned for security: `next` (>= 16.2.11 fixes a batch of advisories), `postcss` >= 8.5.18 as a direct
+devDependency, and `sharp` >= 0.35.0 / `brace-expansion` >= 5.0.8 via `overrides`.
+
+Two advisories are **knowingly accepted**, because fixing them would break the build for no real gain:
+
+| Package | Why it stays |
+|---|---|
+| `js-yaml` | `gray-matter` calls `yaml.safeLoad`, removed in js-yaml 4.x, and there is no patched 3.x (3.14.2 is the last). Forcing an upgrade breaks frontmatter parsing for every post. |
+| `postcss` (nested under `next`) | `next` pins an exact internal copy; an override is rejected as invalid. |
+
+Both are build-time only and process **our own committed content** — markdown frontmatter and Tailwind
+source — so neither is reachable by an attacker.
+
+The same reasoning tempers the `next` advisories generally. Most of them target middleware, Server
+Actions, rewrites, the image optimizer, or cache behaviour on a **running** Next server. This site is
+a static export served by GitHub Pages: there is no server, no middleware, and no Server Actions, so
+those code paths do not exist in production. Upgrading is good hygiene, not incident response.
 
 ## Performance targets
 
@@ -159,10 +194,10 @@ From `PRODUCTION.md`:
 Levers we have:
 
 - Static HTML (zero server time-to-first-byte).
-- AVIF/WebP via `next/image`.
+- Explicit image dimensions and stable aspect-ratio containers.
 - Tailwind purging keeps CSS small.
 - RSC keeps the JS bundle to interactive islands only.
-- Pre-declared image dimensions on every `OptimizedImage` keeps CLS near zero.
+- Playwright image checks catch production-only local asset 404s.
 
 ## Known constraints & trade-offs
 
@@ -172,10 +207,13 @@ Levers we have:
 | Markdown source-of-truth | No editorial CMS UI | Frontmatter is human-friendly; a CMS could be layered on top later |
 | AdSense `'unsafe-inline'` | CSP is weaker than ideal | Acceptable for the revenue trade-off; revisit if AdSense supports nonces |
 | `marked` (not MDX) | No React components inside content | Conscious choice — keeps content authorable by non-devs |
-| No automated tests | Regressions caught only at `npm run test:build` | Coverage is a known gap (PRD calls for 80%); add when stable |
+| Playwright not wired into deploy CI | Browser regressions require an explicit `npm run test:e2e` / `npm run test:e2e:prod` run | Keep the focused suite small; run prod mode for basePath-sensitive changes |
+| GitHub Pages config is injected at deploy time | Local `next.config.mjs` does not show the final `basePath`, static export, or unoptimized-image settings | Do not hardcode the injected settings locally |
 
 ## Where to go next
 
 - **Route map:** [reference/routes.md](./reference/routes.md)
 - **Components:** [reference/components.md](./reference/components.md)
 - **Content schema:** [reference/content-schema.md](./reference/content-schema.md)
+- **Editorial quality tooling:** [reference/editorial-quality-toolchain.md](./reference/editorial-quality-toolchain.md)
+- **Playwright E2E:** [reference/playwright-e2e.md](./reference/playwright-e2e.md)

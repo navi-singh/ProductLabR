@@ -14,6 +14,10 @@ npm run dev
 # Validate before pushing
 npm run test:build      # lint + type-check + production build
 
+# Browser-only regressions (click targets, prod image paths)
+npm run test:e2e
+npm run test:e2e:prod
+
 # Format & lint
 npm run lint:fix
 npm run format
@@ -67,7 +71,7 @@ posts/                  Markdown content — the source of truth
 
 styles/                 global.css + theme.css (CSS variables)
 public/                 Static assets
-scripts/                Build/research utilities
+scripts/                Build/research/editorial utilities
 ```
 
 ## Routing conventions
@@ -136,6 +140,20 @@ Markdown is rendered through `lib/markdown.ts` which:
 
 If you find yourself wanting MDX, push back — `marked` keeps content authorable by non-developers.
 
+## Editorial quality tooling
+
+The editorial audit and QA gate live in `scripts/editorial/`:
+
+```bash
+npm run editorial:audit
+npm run editorial:audit -- --category tvs --limit 10
+npm run editorial:report
+npm run editorial:qa -- posts/<category>/<slug>.md
+npm run editorial:fix-links
+```
+
+`editorial:qa` exits non-zero on blocking failures, so it can be wired into CI once the content backlog clears. The rubric is intentionally a **floor**, not a craft score: a high score only says measurable gates passed. For details, see [reference/editorial-quality-toolchain.md](./reference/editorial-quality-toolchain.md).
+
 ## Styling
 
 - **Tailwind CSS 3.4**, configured in `tailwind.config.ts`. Content paths cover `app/` and `components/`. `fontFamily.display` is registered, enabling the `font-display` utility for Playfair Display.
@@ -165,7 +183,7 @@ From `copilot-instructions.md` and observed practice:
 - **TypeScript strict.** Prefer `interface` over `type`. No `enum` — use string literal unions.
 - **Default to RSC.** Add `'use client'` only when a component needs state/effects/event handlers (e.g. `PowerStationQuiz`, `SearchBar`).
 - **No `useEffect` for data.** Fetch in server components; pass props down.
-- **Images:** always `OptimizedImage` (wraps `next/image`). Don't inline `<img>`.
+- **Images:** prefer `OptimizedImage` (wraps `next/image`). Any local asset URL that reaches `next/image` must pass through `withBasePath()` from `lib/basePath.ts`; production is served from `/ProductLabR`.
 - **External URLs:** always run through `isSafeUrl()` in `lib/utils.ts` before rendering an href.
 - **Class merging:** use `cn()` (clsx + tailwind-merge).
 - **Component variants:** use `class-variance-authority` when you have ≥3 visual variants.
@@ -175,12 +193,27 @@ From `copilot-instructions.md` and observed practice:
 ## Build, deploy, and CI
 
 - **Build:** `npm run build` produces a static export in `./out/`.
-- **CI:** `.github/workflows/nextjs.yml` runs on push to `main`. Steps: install → build → upload `./out/` → deploy to Pages.
-- **No tests in CI yet.** `npm run test:build` is the closest thing to a test gate (lint + type-check + build). Coverage is a known gap.
+- **CI:** `.github/workflows/nextjs.yml` runs on push to `main`. Steps: detect package manager → configure Pages → install → build → upload `./out/` → deploy.
+- **Pages config injection:** `actions/configure-pages` injects the deployed `basePath`, `output: "export"`, and `images.unoptimized`. Do not hardcode those locally.
+- **No Playwright in CI yet.** `npm run test:build` is still the build gate (lint + type-check + build). Run Playwright explicitly for UI changes.
 - **Bundle analysis:** `npm run build:analyze` (sets `ANALYZE=true`).
 - **Preview prod locally:** `npm run preview` (build + start).
 
 Full deploy notes: [`PRODUCTION.md`](../PRODUCTION.md).
+
+## UI testing
+
+Playwright covers bugs that jsdom and static checks cannot see: painted-over click targets and production-only asset URLs.
+
+```bash
+npm run test:e2e          # local next dev, port 3100
+npm run test:e2e:prod     # deployed GitHub Pages site under /ProductLabR
+npm run test:e2e:ui
+npm run test:e2e:headed
+npm run test:e2e:report
+```
+
+Use production mode when touching local image paths, `withBasePath()`, `next/image` call sites, or deploy config. Local dev has no `/ProductLabR` basePath and cannot catch those failures. See [reference/playwright-e2e.md](./reference/playwright-e2e.md).
 
 ## Working with ads
 
@@ -211,6 +244,10 @@ Both share the `NAV_CATEGORIES` array from `lib/nav-categories.ts`. Add new top-
 | Symptom | Cause / Fix |
 |---|---|
 | New image domain 403s | Add it to `images.remotePatterns` in `next.config.mjs` |
+| Local image works in dev but 404s on GitHub Pages | Missing `withBasePath()` on a root-relative local asset URL; run `npm run test:e2e:prod` |
+| Pages build behaves differently from local config | `actions/configure-pages` injects `basePath`, static export, and unoptimized images at deploy time |
+| Dependency behavior differs locally vs CI | The repo is npm-only: `package-lock.json` is the single lockfile and CI runs `npm ci`. Do not add a `yarn.lock` — the workflow prefers yarn when it exists, and yarn v1 ignores npm `overrides`, so security pins would stop reaching production |
+| Product images are placeholder or missing | Product imagery is a content gap: many reviews use `/images/item.png`, and many others reference local filenames absent from `public/images/`; this is separate from the basePath bug |
 | Static export complains about a dynamic route | Add `generateStaticParams()`, or set `export const dynamic = 'force-static'` |
 | AdSense placeholder shows in prod | Env var `NEXT_PUBLIC_ADSENSE_PUBLISHER_ID` not set in the deploy environment |
 | Stale build output | Delete `.next/` and `out/`, rebuild |
@@ -246,4 +283,6 @@ The power-station expansion is the reference implementation. To add a new one:
 - **Architecture deep dive:** [architecture.md](./architecture.md)
 - **Component catalog with props:** [reference/components.md](./reference/components.md)
 - **Route map:** [reference/routes.md](./reference/routes.md)
+- **Editorial quality tooling:** [reference/editorial-quality-toolchain.md](./reference/editorial-quality-toolchain.md)
+- **Playwright E2E:** [reference/playwright-e2e.md](./reference/playwright-e2e.md)
 - **Production checklist:** [`PRODUCTION.md`](../PRODUCTION.md)

@@ -1,6 +1,6 @@
 # ProductLabR Documentation
 
-> Editorial product-review site built on Next.js App Router. 101 markdown reviews across 10 categories, statically exported to GitHub Pages, monetized through AdSense and affiliate links.
+> Editorial product-review site built on Next.js App Router. 127 markdown reviews across 10 categories, statically exported to GitHub Pages, monetized through AdSense and affiliate links.
 
 This documentation is organized by **who you are** and **what you're trying to do** — pick the entry point that matches your role.
 
@@ -24,6 +24,8 @@ Deep technical references — open when you need exact field names, route paths,
 - **[reference/content-schema.md](./reference/content-schema.md)** — Full frontmatter schema for `posts/*.md`
 - **[reference/components.md](./reference/components.md)** — Component catalog with props
 - **[reference/routes.md](./reference/routes.md)** — Complete route map
+- **[reference/editorial-quality-toolchain.md](./reference/editorial-quality-toolchain.md)** — Editorial audit, QA gates, A/B decision, and agent chain
+- **[reference/playwright-e2e.md](./reference/playwright-e2e.md)** — Playwright UI tests, production mode, and browser-only bug patterns
 
 ## Operational guides
 

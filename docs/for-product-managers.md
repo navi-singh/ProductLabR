@@ -57,15 +57,15 @@ Article (/articles/<slug>)
 |---|---:|---|
 | Portable power stations | 33 | The largest vertical; active expansion |
 | Cameras | 15 | Hybrid, pro photo, pro generic sub-hubs |
+| Headphones | 15 | Noise-cancelling, wireless earbuds |
+| TVs | 15 | Gaming TVs, OLED |
+| Wearables | 15 | Smartwatches |
 | Laptops | 9 | Under-$1k, gaming, MacBooks |
-| Headphones | 8 | Noise-cancelling, wireless earbuds |
 | Gaming | 8 | Keyboards, mice |
 | Monitors | 8 | 4K, gaming |
 | Smart home | 8 | Robot vacuums, smart speakers |
-| TVs | 7 | Gaming TVs, OLED |
-| Wearables | 4 | Smartwatches |
 | Knives & tools | 1 | Seed |
-| **Total** | **101** | |
+| **Total** | **127** | |
 
 ## How a review is ranked
 

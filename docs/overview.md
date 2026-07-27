@@ -33,7 +33,7 @@ ProductLabR is an **editorial product-review site**: long-form, ranked, "best of
 
 ## What's on the site
 
-- **101 reviews** across 10 categories — the largest is **portable power stations** (33 reviews).
+- **127 reviews** across 10 categories — the largest is **portable power stations** (33 reviews).
 - **Category hubs** under `/best/` with ranked lists, "quick picks," and buying guides.
 - **Comparison pages** for head-to-head matchups (initially power stations).
 - **Interactive finder quizzes** (e.g. `PowerStationQuiz`) that route users to the right category page.
@@ -52,6 +52,7 @@ ProductLabR is an **editorial product-review site**: long-form, ranked, "best of
 | Content | Markdown (`marked`) + YAML frontmatter (`gray-matter`) |
 | Motion | Framer Motion (used sparingly — see designer guide) |
 | Analytics | `@next/third-parties` (Google Analytics, AdSense) |
+| UI testing | Playwright (`e2e/`) |
 | Hosting | GitHub Pages (static export) |
 | CI | GitHub Actions (`.github/workflows/nextjs.yml`) |
 

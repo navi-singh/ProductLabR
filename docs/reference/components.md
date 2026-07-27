@@ -36,6 +36,8 @@ A quick index of every component in `components/` with its purpose and the props
 
 **No `price` prop** — prices are not shown on cards (only on full review pages). Stretched-link card (whole card clickable). Score badge at `size="lg"` with label. State layer + lift on hover. "Read Review →" ghost CTA.
 
+The stretched link sits above a single `relative z-0` content wrapper. Keep new non-interactive content inside that wrapper. Anything that needs its own click target (for example, a future affiliate CTA) must be a sibling with a higher z-index, not a descendant. See [playwright-e2e.md](./playwright-e2e.md#bug-a--dead-click-regions-on-ranked-cards).
+
 ### `ReviewCard`
 
 Image-forward vertical card for the home page Latest Reviews grid (`grid-cols-2 sm:grid-cols-3`).
@@ -108,8 +110,11 @@ Thin wrapper around `next/image` that adds:
 - Fallback image on error.
 - Loading placeholder.
 - Reliable width/height (so CLS stays near zero).
+- `withBasePath()` handling for local asset URLs on GitHub Pages.
 
-**Always use this instead of raw `<img>` or even bare `next/image`.**
+Use this instead of raw `<img>` for new product imagery, and prefer it over bare `next/image`.
+
+If a direct `next/image` call is unavoidable, wrap any root-relative local `src` with `withBasePath()` from `lib/basePath.ts`. Production is served from `/ProductLabR`, and unoptimized static-export images do not get the basePath automatically.
 
 ### `card.tsx`
 

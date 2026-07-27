@@ -129,7 +129,9 @@ Keep paragraphs short — 2–4 sentences. The body type is 15px / 1.8, optimize
 
 ## Image rules
 
-- Use full https URLs. Allowed domains today: Amazon S3 (`*.s3.amazonaws.com`), Bob Vila CDN, Future CDN. New domains need engineering to whitelist.
+- Prefer real product photos. Product imagery is still a content gap: many reviews use the local placeholder `/images/item.png`, and many others reference product-specific local filenames that are not present in `public/images/`.
+- Remote images should use full https URLs. Allowed domains today: Amazon S3 (`*.s3.amazonaws.com`), Bob Vila CDN, Future CDN. New domains need engineering to whitelist.
+- Local images must live under `public/` and be referenced with a root-relative path such as `/images/item.png`.
 - Always provide **descriptive alt text** — it's an accessibility requirement and an SEO signal.
 - **Hero / product image** goes in frontmatter (`productImage`), not the body.
 - Body images should be photos that *add* something (in-use shots, comparison shots). Don't pad.
@@ -152,9 +154,13 @@ Keep paragraphs short — 2–4 sentences. The body type is 15px / 1.8, optimize
 1. Create the file under the right `posts/<category>/` directory.
 2. Fill in **all required frontmatter** (title, date, price, productImage, specs, pros, cons, retailerLinks, ratingBreakdown).
 3. Write the body.
-4. Commit on a feature branch (`nmehrok/addReviewEcoflowDelta3Plus`).
-5. Open a draft PR. Engineering will build and preview.
-6. Once merged to `main`, GitHub Actions builds and deploys to GitHub Pages within ~2–3 minutes.
+4. Run the editorial gate, or ask engineering to run it:
+   ```bash
+   npm run editorial:qa -- posts/<category>/<slug>.md
+   ```
+5. Commit on a feature branch (`nmehrok/addReviewEcoflowDelta3Plus`).
+6. Open a draft PR. Engineering will build and preview.
+7. Once merged to `main`, GitHub Actions builds and deploys to GitHub Pages within ~2–3 minutes.
 
 If you don't have engineering access, hand the markdown file to an engineer and they'll commit it.
 
@@ -171,6 +177,9 @@ If you don't have engineering access, hand the markdown file to an engineer and 
 - [ ] No raw HTML in the body
 - [ ] No internal-only notes accidentally left in the body
 - [ ] Category-specific frontmatter present (e.g. `capacityWh`, `features` for power stations)
+- [ ] `npm run editorial:qa -- <file>` passes with no blocking failures
+
+The editorial rubric is a floor, not a substitute for judgment: it catches measurable gaps such as missing FAQ pairs, duplicate prose, placeholder links, and process language, but it cannot tell whether a publishable review is actually persuasive. See [reference/editorial-quality-toolchain.md](./reference/editorial-quality-toolchain.md).
 
 ## Common mistakes
 

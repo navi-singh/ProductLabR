@@ -155,9 +155,11 @@ Framer Motion is installed but used **sparingly**. The aesthetic is editorial, n
 ## Imagery
 
 - **Product shots on white/transparent** preferred. Lifestyle imagery only for hero blocks.
-- All images go through `OptimizedImage` → Next.js Image → WebP/AVIF. Provide an explicit width/height to prevent CLS.
+- Most product imagery goes through `OptimizedImage` / Next.js Image. Production is a GitHub Pages static export, so engineering handles local asset base paths explicitly instead of relying on the image optimizer.
+- Provide an explicit width/height or a stable aspect-ratio container to prevent CLS.
 - **Remote domains** are whitelisted (S3, Bob Vila, Future CDN). New domains require a code change.
 - **Hero images** typically 16:9 or 3:2. Cards use 4:3.
+- Product imagery is still a content/design gap: many reviews use `/images/item.png`, and many others reference product-specific local filenames that are not present in `public/images/`. Replacing those with real product photography is not an image-component bug.
 
 ## Accessibility
 
