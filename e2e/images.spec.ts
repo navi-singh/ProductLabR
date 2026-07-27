@@ -53,8 +53,7 @@ for (const path of PAGES) {
   });
 }
 
-test('local asset URLs carry the deployment basePath', async ({ page, baseURL }) => {
-  await page.goto(PAGES[0], { waitUntil: 'domcontentloaded' });
+test('local asset URLs carry the deployment basePath', async ({ page, baseURL }) => {  await page.goto(PAGES[0], { waitUntil: 'domcontentloaded' });
 
   // Whatever subpath the app is served from, same-origin image URLs must sit
   // underneath it. Off-site product imagery is out of scope.
@@ -72,4 +71,35 @@ test('local asset URLs carry the deployment basePath', async ({ page, baseURL })
     misplaced,
     `Root-relative image srcs missing the "${prefix}" basePath:\n  ${misplaced.join('\n  ')}`,
   ).toEqual([]);
+});
+
+/**
+ * Most posts point `image:` at a per-product file that was never added to
+ * public/images. OptimizedImage is meant to absorb that by falling back to the
+ * shared placeholder, but it used to raise its "Image unavailable" overlay at
+ * the same moment it swapped the source in — so the overlay covered a
+ * placeholder that had loaded perfectly well.
+ *
+ * This asserts the user-visible contract only. The initial 404 still happens
+ * and is expected; what must not happen is an error state on screen.
+ */
+test('a post with no product image of its own degrades to the placeholder', async ({ page }) => {
+  test.skip(
+    !process.env.E2E_PROD,
+    'Needs a hydrated client. The dev server serves a CSP + HMR runtime that does ' +
+      'not reliably hydrate, so the fallback never runs there. Exercise this ' +
+      'against a real export: npm run test:e2e:prod',
+  );
+
+  await page.goto('articles/sony_wh1000xm5', { waitUntil: 'networkidle' });
+
+  await expect(page.getByText('Image unavailable')).toHaveCount(0);
+
+  const blank = await page.evaluate(() =>
+    Array.from(document.images)
+      .filter((img) => img.currentSrc !== '' && img.naturalWidth === 0)
+      .map((img) => img.currentSrc),
+  );
+
+  expect(blank, `Images left with no pixel data:\n  ${blank.join('\n  ')}`).toEqual([]);
 });
