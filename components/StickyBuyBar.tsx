@@ -27,6 +27,12 @@ export function StickyBuyBar({
       }
     };
 
+    // Reconcile against the current position on mount. Listening only for future
+    // scroll events misses the case where the page is already scrolled by the
+    // time this hydrates — a restored position, an in-page anchor, or simply a
+    // fast scroll on a long article — leaving the bar permanently hidden.
+    handleScroll();
+
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, [isDismissed]);
@@ -38,8 +44,10 @@ export function StickyBuyBar({
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-50 transition-transform duration-300 ${
-        isVisible ? 'translate-y-0' : 'translate-y-full'
+      className={`fixed bottom-16 left-0 right-0 z-40 transition-transform duration-300 md:bottom-0 md:z-50 ${
+        isVisible
+          ? 'translate-y-0'
+          : 'pointer-events-none translate-y-[calc(100%+4rem)] md:translate-y-full'
       }`}
       aria-hidden={!isVisible}
     >
