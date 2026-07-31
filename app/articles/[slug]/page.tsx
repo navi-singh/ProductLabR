@@ -16,6 +16,12 @@ import RetailerLinks from '../../../components/article/PriceButton';
 import ArticleContent from '../../../components/article/ArticleContent';
 import { AuthorBio } from '../../../components/article/AuthorBio';
 import { RelatedArticles } from '../../../components/article/RelatedArticles';
+import { Breadcrumb } from '../../../components/Breadcrumb';
+import { TableOfContents } from '../../../components/TableOfContents';
+import { Newsletter } from '../../../components/Newsletter';
+import { StickyBuyBar } from '../../../components/StickyBuyBar';
+import { AffiliateDisclosure } from '../../../components/AffiliateDisclosure';
+import { getCategoryByContentDir } from '../../../lib/taxonomy';
 import AdBanner from '../../../components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '../../../lib/adsense-config';
 import { SITE_URL } from '../../../lib/site-url';
@@ -82,6 +88,21 @@ export default async function ArticlePage({
   const starRating = scoreToStarRating(calculatedOverallScore);
   const showRating = hasRatingData(metadata);
 
+  const processedContent = processMarkdownContent(content);
+  const category = metadata.category ? getCategoryByContentDir(metadata.category) : undefined;
+
+  const breadcrumbItems = [
+    { label: 'Home', href: '/' },
+    ...(category ? [{ label: category.shortName, href: `/best/${category.slug}` }] : []),
+    { label: metadata.title },
+  ];
+
+  // The sticky bar needs a single primary destination; retailerLinks is an
+  // ordered map, so the first entry is the preferred retailer.
+  const primaryRetailer = metadata.retailerLinks
+    ? Object.entries(metadata.retailerLinks)[0]
+    : undefined;
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Review',
@@ -120,7 +141,9 @@ return (
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       {/* Hero Section */}
-      <header className="mb-3">
+      <Breadcrumb items={breadcrumbItems} />
+
+      <header className="mb-3 mt-4">
         <h1 className="text-3xl md:text-4xl font-bold mb-2 leading-tight">{metadata.title}</h1>
         {metadata.subtitle && (
           <h2 className="text-lg text-slate-600 mb-2">{metadata.subtitle}</h2>
@@ -128,7 +151,16 @@ return (
         <div className="flex flex-wrap items-center gap-2 text-sm text-slate-400 mb-2">
           {metadata.author && <span>By {metadata.author}</span>}
           <span>• {formattedDate}</span>
+          {category && (
+            <>
+              <span>•</span>
+              <a href={`/best/${category.slug}`} className="text-primary hover:underline">
+                {category.name}
+              </a>
+            </>
+          )}
         </div>
+        <AffiliateDisclosure />
       </header>
 
       {/* TOP AD - High visibility */}
@@ -217,7 +249,7 @@ return (
 
           {/* Main Review Content */}
           <ArticleContent 
-            content={processMarkdownContent(content)} 
+            content={processedContent} 
             publishDate={formattedDate}
             author={metadata.author}
           />
@@ -236,26 +268,67 @@ return (
               authorName={metadata.author}
             />
           )}
+
+          {/* Terminal CTA: a reader who finishes the review should land on the
+              buying guide for the category, not on a dead end. */}
+          {category && (
+            <a
+              href={`/best/${category.slug}`}
+              className="mt-6 flex items-center justify-between gap-4 rounded-xl border border-primary/20 bg-primary/5 p-4 transition-colors hover:bg-primary/10"
+            >
+              <span>
+                <span className="block text-xs font-semibold uppercase tracking-wider text-primary">
+                  Keep comparing
+                </span>
+                <span className="mt-1 block text-sm font-medium text-neutral-800">
+                  See how this ranks in our {category.name.toLowerCase()} guide
+                </span>
+              </span>
+              <span aria-hidden="true" className="text-xl text-primary">
+                →
+              </span>
+            </a>
+          )}
+
+          <div className="mt-6">
+            <AffiliateDisclosure variant="box" />
+          </div>
         </div>
 
         {/* Sidebar */}
         <div className="lg:col-span-1">
           <div className="sticky top-6 space-y-6">
-            {/* SIDEBAR AD - Sticky potential */}
+            {/* On-page navigation comes first: these reviews are long, and a
+                reader who cannot see the structure will scan and leave. */}
+            <TableOfContents contentHtml={processedContent} />
+
+            {/* Related Articles */}
+            <RelatedArticles 
+              currentArticleSlug={slug}
+              category={metadata.category}
+              title={metadata.title}
+              limit={5}
+            />
+
+            <Newsletter />
+
+            {/* SIDEBAR AD */}
             <AdBanner 
               adSlot={ADSENSE_CONFIG.adSlots.sidebar}
               adFormat="vertical"
               className="mb-4"
             />
-            {/* Related Articles */}
-            <RelatedArticles 
-              currentArticleSlug={slug}
-              category={metadata.category}
-              limit={4}
-            />
           </div>
         </div>
       </div>
+
+      {primaryRetailer && (
+        <StickyBuyBar
+          productName={metadata.title}
+          primaryRetailerName={primaryRetailer[0]}
+          primaryRetailerUrl={primaryRetailer[1]}
+        />
+      )}
     </main>
   );
 }
