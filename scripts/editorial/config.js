@@ -9,6 +9,7 @@
 const POSTS_DIR = 'posts';
 
 // Hard gate thresholds. Changing these changes publish readiness.
+// These are also published to readers on /methodology — keep lib/editorial-standards.ts in sync.
 const GATES = {
   minWords: 1800,
   minFaqPairs: 8,
