@@ -76,16 +76,21 @@ export function MobileBottomNav() {
           );
         })}
 
-        {/* Search — placeholder for future search feature */}
-        <button
-          type="button"
+        {/* Was a permanently disabled placeholder; /reviews is now the
+            searchable archive it was waiting on. */}
+        <Link
+          href="/reviews"
           className="flex flex-col items-center gap-0.5 py-2"
-          aria-label="Search"
-          disabled
+          aria-current={isActive('/reviews') ? 'page' : undefined}
         >
-          <span className="text-xl leading-none opacity-40">🔍</span>
-          <span className="type-label text-neutral-300">Search</span>
-        </button>
+          <span className="text-xl leading-none">🔍</span>
+          <span
+            className={`type-label ${isActive('/reviews') ? 'text-primary' : 'text-neutral-400'}`}
+          >
+            Reviews
+          </span>
+          {isActive('/reviews') && <span className="h-0.5 w-4 rounded-full bg-primary" />}
+        </Link>
 
         {/* Categories — opens sheet, not a link */}
         <button
