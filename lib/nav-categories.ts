@@ -1,3 +1,5 @@
+import { CATEGORIES } from './taxonomy';
+
 export interface NavCategory {
   name: string;
   href: string;
@@ -5,9 +7,13 @@ export interface NavCategory {
   count?: number;
 }
 
-export const NAV_CATEGORIES: NavCategory[] = [
-  { name: 'Power Stations',       href: '/best/power-stations',   icon: '⚡' },
-  { name: 'Headphones & Earbuds', href: '/best/headphones',       icon: '🎧' },
-  { name: 'TVs',                  href: '/best/tvs',              icon: '📺' },
-  { name: 'Wearables',            href: '/best/wearables',        icon: '⌚' },
-];
+/**
+ * Derived from the taxonomy so navigation can never drift from the routes or
+ * omit categories. This previously listed four of the ten categories by hand,
+ * leaving six reachable only through search or the homepage sidebar.
+ */
+export const NAV_CATEGORIES: NavCategory[] = CATEGORIES.map((category) => ({
+  name: category.shortName,
+  href: `/best/${category.slug}`,
+  icon: category.icon,
+}));
