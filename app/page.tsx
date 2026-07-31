@@ -8,20 +8,24 @@ import { Top10Popular } from '@/components/Top10Popular';
 import { Newsletter } from '@/components/Newsletter';
 import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
-import { getAllCategories, getPostsByCategory } from '@/lib/Posts';
+import { getPostsByCategory } from '@/lib/Posts';
+import { CATEGORIES } from '@/lib/taxonomy';
+import { getComparisons } from '@/lib/comparisons';
 
 const bestOfGuides = [
-  { title: 'Best Hybrid Cameras',          href: '/best/cameras/hybrid-cameras',                count: 8,  icon: '📷', theme: 'blue',   updated: 'Mar 2026' },
-  { title: 'Best Portable Power Stations', href: '/best/power-stations/portable-power-stations', count: 12, icon: '⚡', theme: 'orange', updated: 'Mar 2026' },
-  { title: 'Best Camping Power Stations',  href: '/best/power-stations/camping-power-stations',  count: 6,  icon: '🏕️', theme: 'green',  updated: 'Feb 2026' },
-  { title: 'Best Pro Photo Cameras',       href: '/best/cameras/professional-photo-cameras',     count: 5,  icon: '🎞️', theme: 'blue',   updated: 'Mar 2026' },
+  { title: 'Best Hybrid Cameras',          href: '/best/cameras/hybrid-cameras',                 icon: '📷', theme: 'blue'   },
+  { title: 'Best Portable Power Stations', href: '/best/power-stations/portable-power-stations', icon: '⚡', theme: 'orange' },
+  { title: 'Best Camping Power Stations',  href: '/best/power-stations/camping-power-stations',  icon: '🏕️', theme: 'green'  },
+  { title: 'Best Noise-Cancelling Headphones', href: '/best/headphones/best-noise-cancelling-headphones', icon: '🎧', theme: 'blue'   },
+  { title: 'Best OLED TVs',                href: '/best/tvs/best-oled-tvs',                      icon: '📺', theme: 'orange' },
+  { title: 'Best Smartwatches',            href: '/best/wearables/best-smartwatches',            icon: '⌚', theme: 'green'  },
 ];
 
 export default function Home() {
   const posts = getPostMetadata();
   const featured = posts[0];
   const recentPosts = posts.slice(1, 7);
-  const categories = getAllCategories();
+  const comparisons = getComparisons();
 
   const featuredScore = featured?.ratingBreakdown
     ? featured.ratingBreakdown.metrics.length > 0
@@ -125,15 +129,48 @@ export default function Home() {
                   <span className="text-2xl">{guide.icon}</span>
                   <h3 className="type-title mt-2 text-neutral-900">{guide.title}</h3>
                   <div className="mt-2 flex items-center justify-between">
-                    <span className="type-label text-neutral-400">Updated {guide.updated}</span>
+                    <span className="type-label text-neutral-400">Buying guide</span>
                     <span className={`type-label rounded-full px-2 py-0.5 ${badgeClass}`}>
-                      {guide.count} tested
+                      View picks →
                     </span>
                   </div>
                 </Link>
               );
             })}
           </div>
+
+          <Link
+            href="/best"
+            className="mt-3 inline-block text-xs font-semibold text-primary hover:underline"
+          >
+            Browse all buying guides →
+          </Link>
+
+          {/* Comparisons had no entry point outside a single category page. */}
+          {comparisons.length > 0 && (
+            <div className="mt-8">
+              <SectionLabel>Head To Head</SectionLabel>
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                {comparisons.slice(0, 4).map((comparison) => (
+                  <Link
+                    key={comparison.href}
+                    href={comparison.href}
+                    className="rounded-xl border border-neutral-200 bg-white p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover"
+                  >
+                    <span className="type-label text-neutral-400">{comparison.categoryName}</span>
+                    <h3 className="type-title mt-1 text-neutral-900">{comparison.title}</h3>
+                    <span className="type-label mt-2 block text-primary">Compare →</span>
+                  </Link>
+                ))}
+              </div>
+              <Link
+                href="/compare"
+                className="mt-3 inline-block text-xs font-semibold text-primary hover:underline"
+              >
+                All comparisons →
+              </Link>
+            </div>
+          )}
         </div>
 
         {/* Sidebar */}
@@ -154,15 +191,19 @@ export default function Home() {
               Categories
             </h3>
             <div className="space-y-1">
-              {categories.map((cat) => {
-                const catPosts = getPostsByCategory(cat);
+              {CATEGORIES.map((cat) => {
+                const catPosts = getPostsByCategory(cat.contentDir);
+                if (catPosts.length === 0) return null;
                 return (
                   <Link
-                    key={cat}
-                    href={`/best/${cat}`}
+                    key={cat.slug}
+                    href={`/best/${cat.slug}`}
                     className="flex items-center justify-between rounded-md bg-primary-lightest/50 px-3 py-2 text-sm text-neutral-500 hover:bg-primary-lightest"
                   >
-                    {cat.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+                    <span>
+                      <span className="mr-1.5">{cat.icon}</span>
+                      {cat.shortName}
+                    </span>
                     <span className="rounded-full bg-primary px-1.5 type-label text-white">
                       {catPosts.length}
                     </span>
@@ -170,6 +211,13 @@ export default function Home() {
                 );
               })}
             </div>
+
+            <Link
+              href="/reviews"
+              className="mt-3 block rounded-md border border-neutral-200 px-3 py-2 text-center text-sm text-primary hover:bg-primary-lightest"
+            >
+              Browse all reviews →
+            </Link>
           </div>
         </aside>
       </div>
