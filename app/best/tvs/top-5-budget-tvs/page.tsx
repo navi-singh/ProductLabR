@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/tvs/top-5-budget-tvs' },
   title: 'Top 5 Budget TVs 2025 - Best TVs Under $800',
   description: 'The best budget TVs under $800 for 2025. Expert-tested 4K televisions that deliver maximum performance per dollar from TCL, Hisense, and Vizio.',
 };

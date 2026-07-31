@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/rv-power-stations' },
   title: 'Best Power Stations for RV 2025 — 30A & Solar Ready',
   description: 'Top-rated power stations with 30A RV outlets and solar charging. Expert tested for RV and trailer use.',
 };

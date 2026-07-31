@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/240v-power-stations' },
   title: 'Best 240V Portable Power Stations 2025',
   description: 'Power stations with 240V split-phase output for dryers, AC units, and EV charging. Expert tested.',
 };

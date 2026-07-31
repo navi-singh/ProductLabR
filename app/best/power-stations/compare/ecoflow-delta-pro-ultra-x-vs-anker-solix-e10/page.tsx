@@ -7,6 +7,7 @@ import { Newsletter } from '@/components/Newsletter';
 import { getStationsBySlugs } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/compare/ecoflow-delta-pro-ultra-x-vs-anker-solix-e10' },
   title: 'EcoFlow Delta Pro Ultra X vs Anker SOLIX E10: Which Whole-Home System Wins? (2025)',
   description: 'Side-by-side comparison of the EcoFlow Delta Pro Ultra X and Anker SOLIX E10 whole-home backup systems. Expert analysis.',
 };

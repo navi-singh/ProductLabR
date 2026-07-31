@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/headphones' },
   title: 'Best Headphones & Earbuds 2025 - Expert Reviews & Buying Guide',
   description: 'The best headphones and wireless earbuds for every listener. Expert tested noise-cancelling headphones, gaming headsets, and true wireless earbuds.',
 };

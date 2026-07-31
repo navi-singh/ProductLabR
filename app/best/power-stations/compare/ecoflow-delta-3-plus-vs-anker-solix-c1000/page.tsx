@@ -7,6 +7,7 @@ import { Newsletter } from '@/components/Newsletter';
 import { getStationsBySlugs } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/compare/ecoflow-delta-3-plus-vs-anker-solix-c1000' },
   title: 'EcoFlow Delta 3 Plus vs Anker SOLIX C1000: Which Should You Buy? (2025)',
   description: 'Side-by-side comparison of the EcoFlow Delta 3 Plus and Anker SOLIX C1000. Expert analysis of specs, performance, and value.',
 };

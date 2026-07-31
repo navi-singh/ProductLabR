@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/headphones/best-noise-cancelling-headphones' },
   title: 'Best Noise-Cancelling Headphones 2025 - Expert Reviews',
   description: 'Top noise-cancelling headphones tested for ANC quality, sound, comfort, and battery life. Find the best over-ear headphones for travel and work.',
 };

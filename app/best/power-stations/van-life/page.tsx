@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/van-life' },
   title: 'Best Power Stations for Van Life 2025',
   description: 'Best power stations for van life — compact, solar-capable, and under 30 lbs. Expert tested for life on the road.',
 };

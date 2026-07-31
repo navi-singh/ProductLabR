@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/monitors/best-4k-monitors' },
   title: 'Best 4K Monitors 2025 - Expert Reviews',
   description: 'Top 4K monitors tested for color accuracy, professional workflows, and productivity. Find the best 4K monitor for creative work and everyday use.',
 };

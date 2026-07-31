@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/tvs' },
   title: 'Best TVs 2025 - Expert Reviews & Buying Guide',
   description: 'The best TVs for every room and budget. Expert tested OLED, QLED, and 4K TVs for home theater, gaming, and everyday viewing.',
 };

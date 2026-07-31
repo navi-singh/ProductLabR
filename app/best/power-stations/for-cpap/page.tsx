@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/for-cpap' },
   title: 'Best Power Stations for CPAP Machines 2025',
   description: 'Best power stations for CPAP machines — quiet, reliable, and with enough capacity for overnight use.',
 };

@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getStationsUnderPrice, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/under-1000' },
   title: 'Best Portable Power Stations Under $1,000 (2025)',
   description: 'Top-rated portable power stations under $1,000 — mid-range units offering the best value per dollar.',
 };

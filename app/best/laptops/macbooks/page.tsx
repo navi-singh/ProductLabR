@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/laptops/macbooks' },
   title: 'Best MacBooks 2025 - Expert Reviews',
   description: 'Top MacBooks tested for performance, battery life, and value. Find the best MacBook for creative professionals, students, and power users.',
 };

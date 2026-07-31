@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import getPostMetadata from '@/components/getPostMetadata';
 import { OptimizedImage } from '@/components/OptimizedImage';
 import { ReviewCard } from '@/components/ReviewCard';
@@ -20,6 +21,10 @@ const bestOfGuides = [
   { title: 'Best OLED TVs',                href: '/best/tvs/best-oled-tvs',                      icon: '📺', theme: 'orange' },
   { title: 'Best Smartwatches',            href: '/best/wearables/best-smartwatches',            icon: '⌚', theme: 'green'  },
 ];
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 export default function Home() {
   const posts = getPostMetadata();

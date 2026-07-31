@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/monitors' },
   title: 'Best Monitors 2025 - Expert Reviews & Buying Guide',
   description: 'The best monitors for gaming, work, and creative professionals. Expert tested 4K, ultrawide, and gaming monitors with calibrated measurements.',
 };

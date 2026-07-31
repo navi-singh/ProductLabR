@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/cameras/professional-photo-cameras' },
   title: 'Best Professional Photo Cameras 2025 - Expert Reviews',
   description: 'Ultimate cameras focused on delivering the highest still image quality. Expert tested professional photo cameras.',
 };

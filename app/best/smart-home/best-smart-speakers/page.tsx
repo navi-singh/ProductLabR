@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/smart-home/best-smart-speakers' },
   title: 'Best Smart Speakers 2025 - Expert Reviews',
   description: 'Top smart speakers tested for sound quality, voice assistant performance, and smart home integration. Find the best Echo, HomePod, or Nest speaker.',
 };

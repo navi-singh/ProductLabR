@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/headphones/top-5-earbuds' },
   title: 'Top 5 Wireless Earbuds 2025 - Best True Wireless Earbuds Ranked',
   description: 'The best true wireless earbuds ranked by our experts. Sony WF-1000XM5, AirPods Pro 2, Jabra Elite 10, and more — expert-tested and ranked.',
 };

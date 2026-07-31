@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/top-5-portable-power-stations' },
   title: 'Top 5 Portable Power Stations 2025 - Tightly Curated Expert Picks',
   description: 'The five best portable power stations rigorously tested for camping, home backup, and off-grid use. Our tightest curated list.',
 };

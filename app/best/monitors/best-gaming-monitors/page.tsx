@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/monitors/best-gaming-monitors' },
   title: 'Best Gaming Monitors 2025 - Expert Reviews',
   description: 'Top gaming monitors tested for refresh rate, response time, color accuracy, and HDR. Find the best 1080p, 1440p, and 4K gaming monitors.',
 };

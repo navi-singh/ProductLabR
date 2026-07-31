@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/gaming' },
   title: 'Best Gaming Peripherals 2025 - Expert Reviews & Buying Guide',
   description: 'The best gaming keyboards, mice, and headsets for competitive and casual gaming. Expert tested for performance, latency, and value.',
 };

@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/cameras' },
   title: 'Best Cameras 2025 - Expert Reviews & Buying Guide',
   description: 'The best cameras for photography and videography. Expert tested mirrorless, DSLR, and hybrid cameras for professionals and enthusiasts.',
 };

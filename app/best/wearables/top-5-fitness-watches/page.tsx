@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/wearables/top-5-fitness-watches' },
   title: 'Top 5 Fitness Watches 2025 - Expert Reviews & Buying Guide',
   description: 'The best fitness watches tested for GPS accuracy, health sensors, and training analytics. Expert-reviewed Garmin Fenix, Forerunner, Polar, and Fitbit.',
 };

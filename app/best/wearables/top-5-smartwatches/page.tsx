@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/wearables/top-5-smartwatches' },
   title: 'Top 5 Smartwatches 2025 - Expert Reviews & Buying Guide',
   description: 'The best smartwatches tested for notifications, app ecosystems, and health monitoring. Expert-reviewed Apple Watch, Samsung Galaxy Watch, and Google Pixel Watch.',
 };

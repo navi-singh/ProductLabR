@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/cameras/hybrid-cameras-under-3000' },
   title: 'Best Hybrid Cameras Under $3,000 2025 - Expert Reviews',
   description: 'Professional photo and video performance without breaking the bank. Expert tested hybrid cameras under $3,000.',
 };

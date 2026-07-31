@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/gaming/best-gaming-mice' },
   title: 'Best Gaming Mice 2025 - Expert Reviews',
   description: 'Top gaming mice tested for sensor accuracy, click latency, weight, and wireless performance. Find the best gaming mouse for FPS, MMO, or any genre.',
 };

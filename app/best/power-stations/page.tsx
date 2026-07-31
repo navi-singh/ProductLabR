@@ -8,6 +8,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { PowerStationQuiz } from '@/components/PowerStationQuiz';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations' },
   title: 'Best Power Stations 2025 - Expert Reviews & Buying Guides',
   description: 'Expert-tested portable power solutions for every need and budget. From camping power stations to whole-home backup systems.',
 };

@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/carry-on-power-stations' },
   title: 'Best Carry-On Power Stations 2025 - TSA Approved',
   description: 'TSA-approved power banks for travel and airline carry-on. Under 100Wh and flight-ready.',
 };

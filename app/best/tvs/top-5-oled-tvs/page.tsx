@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/tvs/top-5-oled-tvs' },
   title: 'Top 5 OLED TVs 2025 - Best OLED Televisions Ranked',
   description: 'The top 5 OLED TVs for 2025. Expert-tested LG, Sony, and Samsung OLED panels ranked by picture quality, gaming performance, and value.',
 };

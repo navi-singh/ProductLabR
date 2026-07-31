@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/laptops' },
   title: 'Best Laptops 2025 - Expert Reviews & Buying Guide',
   description: 'The best laptops for every need. Expert tested gaming laptops, ultrabooks, MacBooks, and budget laptops for professionals and students.',
 };

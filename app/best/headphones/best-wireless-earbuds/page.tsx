@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/headphones/best-wireless-earbuds' },
   title: 'Best Wireless Earbuds 2025 - Expert Reviews',
   description: 'Top wireless earbuds tested for sound quality, ANC, battery life, and comfort. Find the best true wireless earbuds for any budget.',
 };

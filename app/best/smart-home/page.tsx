@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/smart-home' },
   title: 'Best Smart Home Devices 2025 - Expert Reviews & Buying Guide',
   description: 'The best smart home devices for robot vacuums, smart speakers, and video doorbells. Expert tested and reviewed for performance and value.',
 };

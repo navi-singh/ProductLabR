@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/laptops/gaming-laptops' },
   title: 'Best Gaming Laptops 2025 - Expert Reviews',
   description: 'Top gaming laptops tested for performance, thermals, and display quality. Find the best gaming laptop for your budget and needs.',
 };

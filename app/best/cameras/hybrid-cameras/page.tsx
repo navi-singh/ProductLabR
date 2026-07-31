@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/cameras/hybrid-cameras' },
   title: 'Best Hybrid Cameras 2025 - Expert Reviews',
   description: 'Top cameras excelling at both photography and videography. Expert tested hybrid cameras for professionals and content creators.',
 };

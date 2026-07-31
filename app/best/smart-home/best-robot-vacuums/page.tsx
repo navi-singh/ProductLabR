@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/smart-home/best-robot-vacuums' },
   title: 'Best Robot Vacuums 2025 - Expert Reviews',
   description: 'Top robot vacuums tested for suction power, navigation, mopping, and pet hair. Find the best robot vacuum for your home and floor type.',
 };

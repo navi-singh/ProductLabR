@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/tvs/best-gaming-tvs' },
   title: 'Best Gaming TVs 2025 - Expert Reviews',
   description: 'Top gaming TVs tested for input lag, HDMI 2.1, VRR, and 4K/120Hz performance. Find the best TV for PS5, Xbox Series X, and PC gaming.',
 };

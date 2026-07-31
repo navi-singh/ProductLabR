@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/gaming/best-gaming-keyboards' },
   title: 'Best Gaming Keyboards 2025 - Expert Reviews',
   description: 'Top gaming keyboards tested for switch feel, polling rate, build quality, and features. Find the best mechanical gaming keyboard for any budget.',
 };

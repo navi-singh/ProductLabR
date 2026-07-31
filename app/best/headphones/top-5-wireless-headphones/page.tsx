@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/headphones/top-5-wireless-headphones' },
   title: 'Top 5 Wireless Headphones 2025 - Best Over-Ear Headphones Ranked',
   description: 'The best wireless over-ear headphones ranked by our experts. Sony XM5, Bose QuietComfort Ultra, Sennheiser Momentum 4, and more — tested and ranked.',
 };

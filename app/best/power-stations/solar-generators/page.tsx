@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/solar-generators' },
   title: 'Best Solar Generators 2025 — Top Portable Solar Power Stations',
   description: 'Best solar generators with high-input charging for off-grid and emergency power. Expert tested for real-world solar performance.',
 };

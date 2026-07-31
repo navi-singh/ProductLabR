@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/camping-power-stations' },
   title: 'Best Camping Power Stations 2025 - Expert Reviews',
   description: 'Compact and lightweight power solutions for outdoor adventures. Expert tested camping power stations.',
 };

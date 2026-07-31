@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/house-backup-power-stations' },
   title: 'Best House Backup Power Stations 2025 - Expert Reviews',
   description: 'High-capacity power stations for whole-home backup during outages. Expert tested for home integration and reliability.',
 };

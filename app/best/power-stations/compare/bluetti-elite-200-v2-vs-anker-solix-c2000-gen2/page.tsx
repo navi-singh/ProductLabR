@@ -7,6 +7,7 @@ import { Newsletter } from '@/components/Newsletter';
 import { getStationsBySlugs } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/power-stations/compare/bluetti-elite-200-v2-vs-anker-solix-c2000-gen2' },
   title: 'Bluetti Elite 200 V2 vs Anker SOLIX C2000 Gen 2: Which Should You Buy? (2025)',
   description: 'Side-by-side comparison of the Bluetti Elite 200 V2 and Anker SOLIX C2000 Gen 2. Expert analysis of efficiency, solar input, and value.',
 };

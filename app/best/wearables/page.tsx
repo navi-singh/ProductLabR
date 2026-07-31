@@ -9,6 +9,7 @@ import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/wearables' },
   title: 'Best Wearables 2025 - Expert Reviews & Buying Guide',
   description: 'The best smartwatches and fitness trackers for health monitoring and everyday use. Expert tested Apple Watch, Samsung Galaxy Watch, and Garmin.',
 };

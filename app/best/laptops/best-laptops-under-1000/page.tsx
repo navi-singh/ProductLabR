@@ -9,6 +9,7 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/best/laptops/best-laptops-under-1000' },
   title: 'Best Laptops Under $1,000 2025 - Expert Reviews',
   description: 'Top laptops under $1,000 tested for performance, battery life, and build quality. Get the best value for your money.',
 };
