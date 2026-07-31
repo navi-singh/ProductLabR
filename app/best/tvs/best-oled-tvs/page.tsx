@@ -157,9 +157,7 @@ export default function BestOLEDTVsPage() {
               <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">Related Guides</h3>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/best/tvs" className="text-neutral-700 hover:text-primary hover:underline">All TVs</Link></li>
-                <li><Link href="/best/tvs/best-4k-tvs" className="text-neutral-700 hover:text-primary hover:underline">Best 4K TVs</Link></li>
                 <li><Link href="/best/tvs/best-gaming-tvs" className="text-neutral-700 hover:text-primary hover:underline">Best Gaming TVs</Link></li>
-                <li><Link href="/best/tvs/best-budget-tvs" className="text-neutral-700 hover:text-primary hover:underline">Best Budget TVs</Link></li>
               </ul>
             </div>
 

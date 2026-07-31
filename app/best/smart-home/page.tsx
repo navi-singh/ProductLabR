@@ -64,7 +64,6 @@ const quickPicks = [
 const categoryLinks = [
   { href: '/best/smart-home/best-robot-vacuums', label: 'Best Robot Vacuums', count: 4 },
   { href: '/best/smart-home/best-smart-speakers', label: 'Best Smart Speakers', count: 4 },
-  { href: '/best/smart-home/best-video-doorbells', label: 'Best Video Doorbells', count: 4 },
 ];
 
 export default function SmartHomePage() {

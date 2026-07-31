@@ -184,7 +184,6 @@ const quickPicks = [
 const categoryLinks = [
   { href: '/best/wearables/top-5-fitness-watches', label: 'Top 5 Fitness Watches', count: 5 },
   { href: '/best/wearables/top-5-smartwatches', label: 'Top 5 Smartwatches', count: 5 },
-  { href: '/best/wearables/best-fitness-trackers', label: 'Best Fitness Trackers', count: 6 },
 ];
 
 export default function WearablesPage() {

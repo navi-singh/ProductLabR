@@ -158,7 +158,6 @@ export default function BestGamingMicePage() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/best/gaming" className="text-neutral-700 hover:text-primary hover:underline">All Gaming Peripherals</Link></li>
                 <li><Link href="/best/gaming/best-gaming-keyboards" className="text-neutral-700 hover:text-primary hover:underline">Best Gaming Keyboards</Link></li>
-                <li><Link href="/best/gaming/best-gaming-headsets" className="text-neutral-700 hover:text-primary hover:underline">Best Gaming Headsets</Link></li>
               </ul>
             </div>
 

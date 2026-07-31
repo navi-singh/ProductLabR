@@ -158,7 +158,6 @@ export default function BestRobotVacuumsPage() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/best/smart-home" className="text-neutral-700 hover:text-primary hover:underline">All Smart Home</Link></li>
                 <li><Link href="/best/smart-home/best-smart-speakers" className="text-neutral-700 hover:text-primary hover:underline">Best Smart Speakers</Link></li>
-                <li><Link href="/best/smart-home/best-video-doorbells" className="text-neutral-700 hover:text-primary hover:underline">Best Video Doorbells</Link></li>
               </ul>
             </div>
 

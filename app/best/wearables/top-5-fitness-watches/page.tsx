@@ -150,7 +150,6 @@ export default function Top5FitnessWatchesPage() {
                 {[
                   { href: '/best/wearables', label: 'All Best Wearables', desc: '15 top picks' },
                   { href: '/best/wearables/top-5-smartwatches', label: 'Top 5 Smartwatches', desc: '5 reviewed' },
-                  { href: '/best/wearables/best-fitness-trackers', label: 'Best Fitness Trackers', desc: '6 reviewed' },
                 ].map((link) => (
                   <Link key={link.href} href={link.href} className="flex items-center justify-between rounded-lg border border-neutral-200 bg-neutral-50 px-4 py-3 hover:border-primary hover:bg-primary-lightest">
                     <span className="text-sm font-semibold text-neutral-800">{link.label}</span>

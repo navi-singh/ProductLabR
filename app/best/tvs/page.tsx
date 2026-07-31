@@ -185,7 +185,6 @@ const categoryLinks = [
   { href: '/best/tvs/top-5-oled-tvs', label: 'Top 5 OLED TVs', count: 5 },
   { href: '/best/tvs/top-5-budget-tvs', label: 'Top 5 Budget TVs', count: 5 },
   { href: '/best/tvs/best-gaming-tvs', label: 'Best Gaming TVs', count: 6 },
-  { href: '/best/tvs/best-4k-tvs', label: 'Best 4K TVs', count: 10 },
 ];
 
 export default function TVsPage() {

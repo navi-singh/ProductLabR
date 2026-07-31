@@ -158,7 +158,6 @@ export default function BestSmartSpeakersPage() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/best/smart-home" className="text-neutral-700 hover:text-primary hover:underline">All Smart Home</Link></li>
                 <li><Link href="/best/smart-home/best-robot-vacuums" className="text-neutral-700 hover:text-primary hover:underline">Best Robot Vacuums</Link></li>
-                <li><Link href="/best/smart-home/best-video-doorbells" className="text-neutral-700 hover:text-primary hover:underline">Best Video Doorbells</Link></li>
               </ul>
             </div>
 

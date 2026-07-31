@@ -158,7 +158,6 @@ export default function BestNoiseCancellingPage() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/best/headphones" className="text-neutral-700 hover:text-primary hover:underline">All Headphones</Link></li>
                 <li><Link href="/best/headphones/best-wireless-earbuds" className="text-neutral-700 hover:text-primary hover:underline">Best Wireless Earbuds</Link></li>
-                <li><Link href="/best/headphones/best-gaming-headsets" className="text-neutral-700 hover:text-primary hover:underline">Best Gaming Headsets</Link></li>
               </ul>
             </div>
 

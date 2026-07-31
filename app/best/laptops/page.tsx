@@ -65,7 +65,6 @@ const categoryLinks = [
   { href: '/best/laptops/gaming-laptops', label: 'Best Gaming Laptops', count: 4 },
   { href: '/best/laptops/best-laptops-under-1000', label: 'Best Laptops Under $1,000', count: 4 },
   { href: '/best/laptops/macbooks', label: 'Best MacBooks', count: 3 },
-  { href: '/best/laptops/ultrabooks', label: 'Best Ultrabooks', count: 4 },
 ];
 
 export default function LaptopsPage() {

@@ -64,7 +64,6 @@ const quickPicks = [
 const categoryLinks = [
   { href: '/best/gaming/best-gaming-keyboards', label: 'Best Gaming Keyboards', count: 4 },
   { href: '/best/gaming/best-gaming-mice', label: 'Best Gaming Mice', count: 4 },
-  { href: '/best/gaming/best-gaming-headsets', label: 'Best Gaming Headsets', count: 4 },
 ];
 
 export default function GamingPage() {

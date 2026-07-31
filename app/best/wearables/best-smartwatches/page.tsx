@@ -157,7 +157,6 @@ export default function BestSmartwatchesPage() {
               <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">Related Guides</h3>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/best/wearables" className="text-neutral-700 hover:text-primary hover:underline">All Wearables</Link></li>
-                <li><Link href="/best/wearables/best-fitness-trackers" className="text-neutral-700 hover:text-primary hover:underline">Best Fitness Trackers</Link></li>
               </ul>
             </div>
 

@@ -64,7 +64,6 @@ const quickPicks = [
 const categoryLinks = [
   { href: '/best/monitors/best-gaming-monitors', label: 'Best Gaming Monitors', count: 4 },
   { href: '/best/monitors/best-4k-monitors', label: 'Best 4K Monitors', count: 4 },
-  { href: '/best/monitors/best-ultrawide-monitors', label: 'Best Ultrawide Monitors', count: 4 },
 ];
 
 export default function MonitorsPage() {

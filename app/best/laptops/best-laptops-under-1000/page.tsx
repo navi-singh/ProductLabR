@@ -159,7 +159,6 @@ export default function LaptopsUnder1000Page() {
                 <li><Link href="/best/laptops" className="text-neutral-700 hover:text-primary hover:underline">All Laptops</Link></li>
                 <li><Link href="/best/laptops/gaming-laptops" className="text-neutral-700 hover:text-primary hover:underline">Best Gaming Laptops</Link></li>
                 <li><Link href="/best/laptops/macbooks" className="text-neutral-700 hover:text-primary hover:underline">Best MacBooks</Link></li>
-                <li><Link href="/best/laptops/ultrabooks" className="text-neutral-700 hover:text-primary hover:underline">Best Ultrabooks</Link></li>
               </ul>
             </div>
 

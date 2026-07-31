@@ -158,7 +158,6 @@ export default function BestGamingMonitorsPage() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/best/monitors" className="text-neutral-700 hover:text-primary hover:underline">All Monitors</Link></li>
                 <li><Link href="/best/monitors/best-4k-monitors" className="text-neutral-700 hover:text-primary hover:underline">Best 4K Monitors</Link></li>
-                <li><Link href="/best/monitors/best-ultrawide-monitors" className="text-neutral-700 hover:text-primary hover:underline">Best Ultrawide Monitors</Link></li>
               </ul>
             </div>
 
