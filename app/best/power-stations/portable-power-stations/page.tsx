@@ -57,7 +57,7 @@ const powerStations: StationEntry[] = [
   {
     rank: 4,
     name: 'Bluetti AC180',
-    href: '/articles/bluetti_ac_180',
+    href: '/articles/bluetti_ac180',
     image: '/images/posts/bluetti_ac180/AC180_main.webp',
     summary: 'Excellent solar charging with LiFePO4 battery, good build quality, and wireless charging pad.',
     score: 9.2,

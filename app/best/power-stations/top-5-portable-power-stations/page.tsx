@@ -46,7 +46,7 @@ const powerStations: StationEntry[] = [
   {
     rank: 3,
     name: 'Bluetti AC180',
-    href: '/articles/bluetti_ac_180',
+    href: '/articles/bluetti_ac180',
     image: '/images/posts/bluetti_ac180/AC180_main.webp',
     summary: 'LiFePO4 chemistry for 3500+ cycle longevity, excellent solar input, wireless charging pad, and solid 1800W output.',
     score: 9.2,
