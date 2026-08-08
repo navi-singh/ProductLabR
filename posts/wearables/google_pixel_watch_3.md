@@ -74,7 +74,7 @@ The watch uses a proprietary band attachment system, and Google offers a range o
 
 ## Health & Fitness Tracking
 
-The Pixel Watch 3's health tracking story is fundamentally Fitbit's story, now fully integrated under the Google umbrella. Daily Readiness Score — Fitbit's synthesized recovery metric that rates your body's preparation for physical exertion on a 0–100 scale — is available with a Fitbit Premium subscription and uses heart rate variability, recent activity, and sleep quality as inputs. In our testing, Daily Readiness accurately reflected subjective fatigue levels, flagging low-readiness days following poor sleep or high training load.
+The Pixel Watch 3's health tracking story is fundamentally Fitbit's story, now fully integrated under the Google umbrella. Daily Readiness Score — Fitbit's synthesized recovery metric that rates your body's preparation for physical exertion on a 0–100 scale — is available with a Fitbit Premium subscription and uses heart rate variability, recent activity, and sleep quality as inputs. Reviewers report that Daily Readiness accurately reflects subjective fatigue levels, flagging low-readiness days following poor sleep or high training load.
 
 Active Zone Minutes replace traditional step counts as the primary activity currency, tracking time spent in cardio and peak heart rate zones. This approach is endorsed by the American Heart Association and WHO as a more meaningful measure of cardiovascular fitness benefit than step counts. The goal of 150 Active Zone Minutes per week aligns with public health recommendations, and the watch provides real-time zone tracking during workouts.
 

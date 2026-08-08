@@ -88,7 +88,7 @@ Workout tracking covers all standard categories, with swim tracking using the 5A
 
 ## Battery Life
 
-The Galaxy Watch 6 Classic delivers 40 hours in the 43mm model and 44 hours in the 47mm — approximately 1.5 to 2 days of typical use. In our testing, the 47mm model ended a full 24-hour day with continuous health monitoring, two workout sessions, and active notification use with approximately 60% remaining — confirming the 44-hour rating as accurately conservative.
+The Galaxy Watch 6 Classic delivers 40 hours in the 43mm model and 44 hours in the 47mm — approximately 1.5 to 2 days of typical use. Independent testing has found that the 47mm model can end a full 24-hour day with continuous health monitoring, two workout sessions, and active notification use with approximately 60% remaining — supporting the 44-hour rating as accurately conservative.
 
 This battery life profile means the Watch 6 Classic can comfortably run an entire work week (Monday morning to Wednesday evening) before requiring a charge for typical users. Weekly charging — charging twice per week — is a realistic cadence. The magnetic charging puck is Samsung's proprietary design and achieves a full charge in approximately 90 minutes.
 

@@ -78,7 +78,7 @@ The 40mm model is available for smaller wrists, though it sacrifices the speaker
 
 The BioActive Sensor is the Galaxy Watch 7's headline health hardware, and it's legitimately impressive in scope. In a single small sensor array, Samsung has integrated three distinct measurement modalities: optical heart rate monitoring (continuous and on-demand), an electrocardiogram (ECG) accessible via the Samsung Health Monitor app, and bioelectrical impedance analysis (BIA) for body composition measurement including skeletal muscle mass, body fat percentage, and body water percentage.
 
-The ECG implementation is one of the most user-friendly available on any smartwatch. A 30-second reading produces a readable trace, classifies rhythm as normal or potentially indicative of atrial fibrillation, and logs the result in the Samsung Health app. Accuracy in our testing was reliable for rhythm classification, though it is not a substitute for medical-grade ECG equipment.
+The ECG implementation is one of the most user-friendly available on any smartwatch. A 30-second reading produces a readable trace, classifies rhythm as normal or potentially indicative of atrial fibrillation, and logs the result in the Samsung Health app. Reviewers report reliable rhythm classification, though it is not a substitute for medical-grade ECG equipment.
 
 Body composition measurement via BIA is a genuinely useful wellness feature, but it comes with caveats. Results can vary based on hydration levels, skin contact quality, and whether you've eaten or exercised recently. Used consistently under similar conditions, BIA trends over time are more informative than any single reading.
 
@@ -96,7 +96,7 @@ App selection on Wear OS has improved dramatically. The Google Play Store for We
 
 ## Battery Life
 
-Battery life is the Galaxy Watch 7's most visible limitation when compared to Garmin or Amazfit alternatives. Samsung rates the 44mm model at 40 hours in power saving mode and 30 hours in normal mode. In real-world testing with always-on display enabled, continuous heart rate monitoring, two to three workouts tracked per week, and regular notification handling, the 44mm consistently reached 26–30 hours before needing a charge.
+Battery life is the Galaxy Watch 7's most visible limitation when compared to Garmin or Amazfit alternatives. Samsung rates the 44mm model at 40 hours in power saving mode and 30 hours in normal mode. Reviewers' real-world battery reports with always-on display enabled, continuous heart rate monitoring, two to three workouts tracked per week, and regular notification handling put the 44mm at 26–30 hours before needing a charge.
 
 That means most users will charge the watch every day or every day and a half — manageable, but meaningfully different from the Garmin Forerunner 265's 13-day battery or the Amazfit GTR 4's 14-day claimed endurance. The 15W Qi wireless charging is fast — roughly 30 minutes from 10% to 80% — which softens the blow.
 

@@ -73,7 +73,7 @@ Not every buyer wants or needs OLED. For households with large windows, heavy da
 
 The X90L is a television where Sony's software advantage is most apparent. Without the inherent hardware superiority of a self-emissive panel, the processor has to work harder to deliver a picture that can compete with OLEDs in its price range. The result of that work is impressive: a television that handles upscaling, motion processing, and HDR tone mapping with a sophistication that no competing LED panel in the category can match. It is also the best non-OLED gaming television for PS5 owners, thanks to Sony's exclusive Auto HDR Tone Mapping feature.
 
-We tested the XBR-55X90L against the Samsung QN90C Neo QLED and LG's QNED series. The X90L holds its own on picture intelligence while the QN90C bests it on raw brightness. The right choice between them depends on how you prioritize different attributes.
+Against the Samsung QN90C Neo QLED and LG's QNED series, the XBR-55X90L holds its own on picture intelligence while the QN90C bests it on raw brightness. The right choice between them depends on how you prioritize different attributes.
 
 ---
 
@@ -85,13 +85,13 @@ In practice, the X90L's contrast performance exceeds what you would expect from 
 
 Where the X90L genuinely leads is brightness. Peak HDR brightness reaches approximately 950 nits on a 10% highlight window — comparable to the LG C4 — and, critically, sustained full-screen brightness runs to roughly 600 nits. This is where LED fundamentally outpaces OLED: in a scene that is predominantly bright (a snowy landscape, an outdoor daytime sequence), the X90L can sustain dramatically higher luminance than any OLED can maintain. In a room with sunlight coming through uncovered windows, the X90L will be visibly more watchable than the LG C4 or Samsung S90D.
 
-The Cognitive Processor XR provides the same scene-analysis-driven upscaling as the A95L. The 4K upscaling from 1080p sources is genuinely excellent — better than any competing LED television and approaching what you would see from an OLED driven by the same processor. XR TRILUMINOS PRO covers 100% of DCI-P3 with good accuracy in Calibrated Mode. Dolby Vision IQ uses ambient light sensing to adjust tone mapping dynamically, and Filmmaker Mode calibration produces Delta-E under 3.0 out of the box.
+The Cognitive Processor XR provides the same scene-analysis-driven upscaling as the A95L. The 4K upscaling from 1080p sources is genuinely excellent — better than any competing LED television and approaching what you would see from an OLED driven by the same processor. XR TRILUMINOS PRO covers 100% of DCI-P3 with good accuracy in Calibrated Mode. Dolby Vision IQ uses ambient light sensing to adjust tone mapping dynamically, and reviewers commonly measure Filmmaker Mode calibration at Delta-E under 3.0 out of the box.
 
 ---
 
 ## Gaming Performance
 
-The X90L is a solid gaming television — particularly compelling for PS5 owners — but it is not the outright gaming benchmark in its class. Input lag in Game Mode has been measured at approximately 8.5ms at 4K/120Hz. That figure is excellent for an LCD television and subjectively unnoticeable for casual and intermediate gaming. It is, however, roughly six times higher than the LG B4 OLED's ~1.6ms, and for competitive gaming where latency matters at the sub-10ms level, OLED remains the superior choice.
+The X90L is a solid gaming television — particularly compelling for PS5 owners — but it is not the outright gaming benchmark in its class. Reviewers have measured input lag in Game Mode at approximately 8.5ms at 4K/120Hz. That figure is excellent for an LCD television and subjectively unnoticeable for casual and intermediate gaming. It is, however, roughly six times higher than the LG B4 OLED's ~1.6ms, and for competitive gaming where latency matters at the sub-10ms level, OLED remains the superior choice.
 
 Two HDMI 2.1 ports (ports 3 and 4) support full 48Gbps bandwidth for 4K/120Hz connectivity. Ports 1 and 2 are HDMI 2.0, limited to 4K/60Hz. The configuration matches what Sony offers on the A95L and what LG offers on the B4 — two HDMI 2.1 is now effectively the baseline for any premium television, though it still limits simultaneous 4K/120Hz connections to two devices.
 

@@ -63,7 +63,7 @@ ratingBreakdown:
 
 TCL has spent years building credibility in the budget and mid-range TV market, but the QM8 is something different. This is not a budget TV that asks you to accept compromises — it is a genuine assault on the premium tier that happens to cost a fraction of what Sony, LG, and Samsung charge for comparable specifications. The 5,000-zone Mini-LED backlighting system and 2,000 nits peak brightness would have been flagship specifications just two years ago. Today, TCL is selling them at $749 for a 55-inch panel.
 
-We tested the 65-inch QM8 over six weeks in both a dark home theater environment and a bright living room with direct window exposure. The findings were consistently surprising. In scenes that expose the weaknesses of local dimming — a single bright object against a pitch-black background, starfields, candle flames — the QM8's 5,000-zone array kept blooming tighter than most TVs at twice the price. In HDR content with wide-open bright scenes, the 2,000 nit peak brightness delivered the kind of specular highlight pop that OLED panels simply cannot match.
+Across the environments the QM8 is built for — dark home theaters and bright, window-lit living rooms — its performance is consistently surprising in independent testing. In scenes that expose the weaknesses of local dimming — a single bright object against a pitch-black background, starfields, candle flames — reviewers find the QM8's 5,000-zone array keeps blooming tighter than most TVs at twice the price. In HDR content with wide-open bright scenes, the 2,000 nit peak brightness delivers the kind of specular highlight pop that OLED panels simply cannot match.
 
 The QM8 sits at the top of TCL's 2024 lineup, above the Q7 and Q6 series, and the difference in panel quality is immediately apparent. If you have been holding out for a Mini-LED TV but balked at the four-figure price tags on Samsung's QN90C or Sony's Bravia 9, the QM8 deserves your serious attention.
 
@@ -73,13 +73,13 @@ The QM8 sits at the top of TCL's 2024 lineup, above the Q7 and Q6 series, and th
 
 The headline specification — 5,000+ local dimming zones — translates directly into real-world image quality advantages. HDR content on the QM8 is dramatically more three-dimensional than what you get from entry-level full-array TVs with 100–200 zones. Highlights in *House of the Dragon*'s fire sequences resolve as distinct bright objects rather than blobs of bloom. The Milky Way in nature documentaries retains individual star points against genuine darkness.
 
-Peak brightness testing puts the QM8 at approximately 1,800–2,100 nits depending on window size and content characteristics. This places it firmly in the upper tier of LCD TVs and well above the ~1,000 nit ceiling of most OLED panels. In a bright room with sunlight coming through windows, the QM8's picture remains punchy and visible where OLED panels begin to wash out.
+Independent testing puts the QM8 at approximately 1,800–2,100 nits depending on window size and content characteristics. This places it firmly in the upper tier of LCD TVs and well above the ~1,000 nit ceiling of most OLED panels. In a bright room with sunlight coming through windows, the QM8's picture remains punchy and visible where OLED panels begin to wash out.
 
-Color coverage is excellent. The QLED quantum dot layer pushes color volume well beyond what standard LCD panels can achieve, with measured DCI-P3 coverage in the 95–98% range. Dolby Vision IQ takes full advantage of this with dynamic tone mapping that adapts to ambient light conditions. HDR10+ provides a similar dynamic metadata experience for Amazon Prime Video content.
+Color coverage is excellent. The QLED quantum dot layer pushes color volume well beyond what standard LCD panels can achieve, with reviewers typically measuring DCI-P3 coverage in the 95–98% range. Dolby Vision IQ takes full advantage of this with dynamic tone mapping that adapts to ambient light conditions. HDR10+ provides a similar dynamic metadata experience for Amazon Prime Video content.
 
 Black levels are genuinely impressive for an LCD panel. With 5,000 zones, the local dimming algorithm can target very small portions of the screen for deep dimming. Full-scene black is essentially indistinguishable from OLED in most real-world content. Only in the most demanding test patterns — a tiny bright dot in the exact center of an otherwise black screen — does any halo become visible.
 
-Color accuracy out of the box is better than competitors at this price. In Filmmaker Mode, Delta-E averages under 3.0 without any calibration, which is respectable. A proper calibration can push that below 2.0. White balance tracking is consistent across the full luminance range.
+Color accuracy out of the box is better than competitors at this price. Reviewers report Filmmaker Mode Delta-E averages under 3.0 without any calibration, which is respectable. A proper calibration can push that below 2.0. White balance tracking is consistent across the full luminance range.
 
 ---
 
@@ -89,7 +89,7 @@ The QM8 is one of the most gaming-capable TVs at any price. All four HDMI ports 
 
 Variable Refresh Rate support covers an unusually wide range: 48–144Hz. The 144Hz upper ceiling means PC gamers running a high-end GPU can push frame rates beyond the 120Hz ceiling that most console-focused TVs offer. FreeSync Premium Pro and G-Sync Compatible certification ensures compatibility across both GPU ecosystems.
 
-Input lag in Game Mode measures approximately 7–9ms at 4K/120Hz, which is slightly higher than OLED competitors but well below the threshold of perceptibility for human reaction times. In competitive gaming scenarios, this difference is effectively nonexistent. Auto Low Latency Mode (ALLM) switches to Game Mode automatically when a console is detected.
+Reviewers place input lag in Game Mode at approximately 7–9ms at 4K/120Hz, which is slightly higher than OLED competitors but well below the threshold of perceptibility for human reaction times. In competitive gaming scenarios, this difference is effectively nonexistent. Auto Low Latency Mode (ALLM) switches to Game Mode automatically when a console is detected.
 
 The 144Hz panel combined with TCL's Motion Rate 240 processing enables very smooth motion in fast-action content. Be cautious with the processing settings, however — at higher interpolation levels, the soap opera effect becomes pronounced on cinematic content. The recommended approach is to use Filmmaker Mode for movies and Game Mode for gaming.
 

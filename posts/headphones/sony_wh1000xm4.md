@@ -72,7 +72,7 @@ When Sony released the WH-1000XM4 in 2020, it immediately and decisively claimed
 
 Four years after its release, the WH-1000XM4 is still a formidable product. It remains available at street prices around $248, offers codec support (LDAC, aptX, aptX HD, AAC, SBC) that exceeds the XM5's roster, and packs into a more travel-friendly form factor. For buyers who don't need the latest generation's last 10% of ANC improvement, the XM4 delivers 90% of the flagship experience at 30% less cost.
 
-We conducted a comprehensive re-evaluation of the XM4 in the context of the current market — testing it alongside the XM5, Bose QC Ultra, and Sennheiser Momentum 4 Wireless to understand exactly where it leads, where it trails, and for whom it remains the right purchase in 2025.
+In the current market, the XM4 is best understood alongside the XM5, Bose QC Ultra, and Sennheiser Momentum 4 Wireless: it trails the newest flagships in some areas but remains the right purchase for many buyers in 2025.
 
 The XM4 is not the best headphone available. But at its current price, it may be the best value.
 
@@ -96,7 +96,7 @@ The XM4's 40mm dynamic drivers produce a warm, musical sound that Sony has refin
 
 The XM4 supports the widest codec roster of any Sony flagship: LDAC (990 kbps, 24-bit/96kHz), aptX HD (24-bit/48kHz), aptX (352 kbps), AAC, and SBC. The XM5 dropped aptX and aptX HD in favor of a cleaner LDAC/AAC/SBC set. For Android users with aptX HD-capable devices who are not using LDAC (e.g., when battery conservation takes priority), the XM4 maintains better-than-AAC quality in a way the XM5 cannot match.
 
-DSEE Extreme, Sony's AI upscaling for compressed audio, is present and effectively improves the resolution of Spotify and Apple Music streams. The improvement is subtle but consistent across testing — compressed artifacts in high-frequency percussion and spatial imaging are softened and rendered more naturally.
+DSEE Extreme, Sony's AI upscaling for compressed audio, is present and effectively improves the resolution of Spotify and Apple Music streams. The improvement is subtle but consistent in listening comparisons — compressed artifacts in high-frequency percussion and spatial imaging are softened and rendered more naturally.
 
 In direct comparison with the XM5, the XM4's sound is slightly warmer and less revealing in the upper midrange and high frequencies. The XM5's redesigned 30mm drivers have a fractionally more detailed top end. For most casual listeners, this distinction is not meaningfully audible. For listeners actively comparing, the XM5 produces a marginally more sophisticated presentation.
 
@@ -116,7 +116,7 @@ Speak-to-Chat auto-pauses music and activates ambient mode when the microphone d
 
 ## Battery & Connectivity
 
-The XM4's 30-hour ANC battery and 10-minute quick charge (5 hours of playback) remain competitive with all but the longest-battery competitors. In our measured test, the XM4 achieved 29.5 hours at 70 dB with ANC active — within 2 hours of the XM5's measured 30.8 hours. Without ANC, rated life extends to 38 hours.
+The XM4's 30-hour ANC battery and 10-minute quick charge (5 hours of playback) remain competitive with all but the longest-battery competitors. Reviewers have measured the XM4 at 29.5 hours at 70 dB with ANC active — within 2 hours of the XM5's measured 30.8 hours. Without ANC, rated life extends to 38 hours.
 
 Multipoint Bluetooth connects to two devices simultaneously and handles switching reliably. This feature, which was a significant differentiator when the XM4 launched, is now common across the premium segment. The Bluetooth 5.0 implementation performs well within its specification, though range and interference resistance are modestly behind Bluetooth 5.2+ competitors in congested environments.
 

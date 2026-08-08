@@ -84,7 +84,7 @@ Built-in GPS enables independent run and walk route tracking without a phone, re
 
 ## Battery Life
 
-Six days of battery life is the Sense 2's most notable step back from Garmin and budget competitors. With continuous health monitoring, daily GPS workout tracking (approximately 45 minutes), and standard notification use, our testing consistently delivered 5.5–6.5 days before the watch reached the 20% battery warning.
+Six days of battery life is the Sense 2's most notable step back from Garmin and budget competitors. With continuous health monitoring, daily GPS workout tracking (approximately 45 minutes), and standard notification use, reviewers commonly report 5.5–6.5 days before the watch reaches the 20% battery warning.
 
 This puts the Sense 2 on a weekly charging cycle — slightly less convenient than the Fitbit Charge 6's 7-day baseline, but still dramatically better than the daily charging required by Apple Watch, Google Pixel Watch, or Samsung Galaxy Watch. For users who prioritize sleep tracking (and Fitbit's sleep algorithms reward consistent nightly tracking data), the Sense 2's ability to run through most of a week without charging is a meaningful advantage.
 

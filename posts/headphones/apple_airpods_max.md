@@ -73,7 +73,7 @@ The Apple AirPods Max arrived in December 2020 as a statement product — a $549
 
 The AirPods Max occupy a strange market position. They are priced $200 above the Sony WH-1000XM5 and $270 above the Bose QuietComfort 45, yet offer shorter battery life and no hi-res codec support. Understanding why someone should buy them — and why someone absolutely should not — requires engaging honestly with what Apple built and for whom.
 
-We tested the AirPods Max over seven weeks across daily commuting, long-haul air travel, desk work, and evening listening sessions to build a complete performance picture.
+Across daily commuting, long-haul air travel, desk work, and evening listening, the AirPods Max are defined by top-tier ANC, premium hardware, and Apple ecosystem integration.
 
 ---
 
@@ -91,10 +91,10 @@ The codec limitation is a genuine concession. AAC at 256 kbps is a good codec, a
 
 ## Noise Cancellation
 
-ANC on the AirPods Max is exceptional and among the best in the over-ear category, closely competitive with the Sony WH-1000XM5. Apple's eight-microphone system (three outward-facing and one inward-facing per cup, plus a dedicated microphone under each ear cushion) creates a thorough noise picture. Measured attenuation at low frequencies (50–300 Hz) is approximately 25–28 dB — sufficient to make airplane engine roar a distant irrelevance and commuter train noise fade to background texture.
+ANC on the AirPods Max is exceptional and among the best in the over-ear category, closely competitive with the Sony WH-1000XM5. Apple's eight-microphone system (three outward-facing and one inward-facing per cup, plus a dedicated microphone under each ear cushion) creates a thorough noise picture. Independent measurements put low-frequency attenuation (50–300 Hz) at approximately 25–28 dB — sufficient to make airplane engine roar a distant irrelevance and commuter train noise fade to background texture.
 
 In practical environments:
-- On long-haul flights, the AirPods Max reduced cabin noise more effectively than any other headphone in our comparison group except the XM5, which remained fractionally ahead at low frequencies
+- On long-haul flights, reviewers generally find the AirPods Max reduce cabin noise more effectively than most rivals, with the XM5 remaining fractionally ahead at low frequencies
 - In open offices, HVAC noise, keyboard sounds, and ambient conversation all attenuated effectively
 - On subway platforms, train arrival noise was significantly reduced without requiring the headphones to be removed for awareness
 

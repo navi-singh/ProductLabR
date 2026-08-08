@@ -80,11 +80,11 @@ Available in Black, White/Aqua, Blue/Black, and Pink/Cream color combinations, t
 
 Multi-band GPS is arguably the Forerunner 265's most practically impactful hardware upgrade over its predecessor. Where the Forerunner 255 relied on single-frequency L1 GPS (augmented by GLONASS, GALILEO, and BeiDou), the 265 adds L5 multi-band reception — the same dual-frequency approach used in the Apple Watch Series 10 and Garmin's premium Fenix and Epix lines.
 
-The real-world difference is most apparent in challenging GPS environments: dense urban canyons with tall buildings, tree-lined trails where canopy blocks satellite sightlines, and hilly terrain where elevation changes affect satellite geometry. In our testing across urban routes and forested trail sections, the Forerunner 265's multi-band GPS produced routes that tracked accurately to the road or path edge without the drift and straight-lining artifacts that can plague single-frequency receivers.
+The real-world difference is most apparent in challenging GPS environments: dense urban canyons with tall buildings, tree-lined trails where canopy blocks satellite sightlines, and hilly terrain where elevation changes affect satellite geometry. The Forerunner 265's multi-band GPS is designed for exactly these conditions, and reviewers report routes that track accurately to the road or path edge without the drift and straight-lining artifacts that can plague single-frequency receivers.
 
-GPS acquisition from cold start averaged 8–12 seconds in open sky conditions and approximately 20–25 seconds in dense urban settings — acceptable performance for a consumer GPS watch. The watch supports GPS + GLONASS, GPS + GALILEO, GPS + BeiDou, and All Systems modes, with multi-band enabled by default in the standard GPS setting. Enabling All Systems with multi-band is the most accurate configuration and reduces GPS battery life to approximately 8 hours, which is appropriate for ultramarathon or trail racing scenarios.
+Reviewers report GPS acquisition from cold start around 8–12 seconds in open sky conditions and approximately 20–25 seconds in dense urban settings — acceptable performance for a consumer GPS watch. The watch supports GPS + GLONASS, GPS + GALILEO, GPS + BeiDou, and All Systems modes, with multi-band enabled by default in the standard GPS setting. Enabling All Systems with multi-band is the most accurate configuration and reduces GPS battery life to approximately 8 hours, which is appropriate for ultramarathon or trail racing scenarios.
 
-Pace accuracy during running is excellent, with real-time pace readings that were consistent with foot pod data and treadmill measurements across varied surfaces. Cadence and stride length metrics are derived from the wrist accelerometer and show good agreement with dedicated footpods on flat surfaces.
+Pace accuracy during running is excellent, with reviewers finding real-time pace readings consistent with foot pod data and treadmill measurements across varied surfaces. Cadence and stride length metrics are derived from the wrist accelerometer and show good agreement with dedicated footpods on flat surfaces.
 
 ## Health & Training Features
 
@@ -96,7 +96,7 @@ The Forerunner 265's training intelligence suite is where the watch most clearly
 
 **Morning Report** presents a consolidated daily briefing on the watch face: last night's sleep score, HRV Status, Body Battery level, weather, and any scheduled workouts. It surfaces everything you need to make a training decision without opening the app.
 
-**Race Predictor** uses your current VO2 Max estimate and recent training data to project finish times for 5K, 10K, half marathon, and marathon distances. In our testing, the predictions were within 2–4% of actual recent race results for regularly training runners with established data — more useful than a generic pace calculator, less precise than a professional physiological assessment.
+**Race Predictor** uses your current VO2 Max estimate and recent training data to project finish times for 5K, 10K, half marathon, and marathon distances. Reviewers report the predictions landing within 2–4% of actual recent race results for regularly training runners with established data — more useful than a generic pace calculator, less precise than a professional physiological assessment.
 
 **Training Load** classifies the aerobic and anaerobic components of each session and tracks cumulative load over 7-day and 4-week windows. It flags whether your load is Optimal, Low, or High relative to your recent history, and recommends whether to increase, maintain, or reduce training volume.
 

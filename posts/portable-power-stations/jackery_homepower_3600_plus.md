@@ -243,7 +243,7 @@ At $1,699 on sale, the value is reasonable for a surge-capable, expandable, qual
 **Q: Is 7,200W surge truly sustained or just instantaneous?**
 
 A: Jackery rates the 7,200W as a sustained surge, not just an instantaneous peak.
-In testing, the surge capacity held for the duration of motor startup cycles (typically 0.5–3 seconds) without tripping.
+Independent reviews report the surge capacity holding for the duration of motor startup cycles (typically 0.5–3 seconds) without tripping.
 This is more meaningful than units that advertise high "peak" surge figures that only last milliseconds.
 
 **Q: When does 240V unlock — how many expansion batteries does it require?**

@@ -72,7 +72,7 @@ ratingBreakdown:
 
 Year after year, LG's C-series OLED resets the benchmark for what a mainstream premium television can be. The 2024 LG C4 OLED continues that tradition — but this is no incremental refresh. The jump from the Gen6 to the new Alpha9 AI Processor Gen7 is tangible, the gaming credentials have become essentially untouchable, and Dolby Vision IQ has matured into one of the most reliable HDR processing systems on the market.
 
-We spent four weeks with the 55-inch OLED55C4PUA mounted in a dedicated home theater room and a bright living room. The conclusion: the C4 is still the television most people with $1,200–$1,400 to spend should buy. Here is a full breakdown of why.
+Across the dedicated-theater and bright-living-room use cases the 55-inch OLED55C4PUA is built to cover, the conclusion is straightforward: the C4 is still the television most people with $1,200–$1,400 to spend should buy. Here is a full breakdown of why.
 
 The C4 slots into LG's 2024 lineup between the entry-level B4 and the flagship G4 Gallery Series. At $1,299 for 55 inches, it occupies the sweet spot of aspirational but not absurd. It ships with the Magic Remote, a slim cable management design, and LG's QuadStand for tabletop placement.
 
@@ -80,19 +80,19 @@ The C4 slots into LG's 2024 lineup between the entry-level B4 and the flagship G
 
 ## Picture Quality & HDR
 
-The WOLED evo panel is the heart of this television. Unlike traditional LCD/LED displays that rely on a backlight shining through liquid crystals, every pixel in the C4 generates its own light — and more importantly, can switch off completely. The result is a measured contrast ratio that is, for practical purposes, infinite. Blacks in dark scenes are not dark gray; they are black. Shadow detail in films like *Blade Runner 2049* or *Dune* is preserved with a precision no LED backlight can match.
+The WOLED evo panel is the heart of this television. Unlike traditional LCD/LED displays that rely on a backlight shining through liquid crystals, every pixel in the C4 generates its own light — and more importantly, can switch off completely. The result is a contrast ratio that is, for practical purposes, infinite. Blacks in dark scenes are not dark gray; they are black. Shadow detail in films like *Blade Runner 2049* or *Dune* is preserved with a precision no LED backlight can match.
 
 HDR performance is where the C4 story gets nuanced. The peak HDR brightness sits at approximately 1,000 nits on a small 10% window — meaningfully higher than the C3's ~800 nits and sufficient to make specular highlights in Dolby Vision content genuinely pop. However, when brightness is sustained across a large portion of the screen — a bright outdoor scene, say — the panel dims to around 160 nits to manage heat. This is an inherent OLED trade-off, and in a typical darkened viewing environment it is rarely an issue. In a sunlit room, a high-end Mini-LED competitor will outshine the C4.
 
 Dolby Vision IQ uses the built-in ambient light sensor to dynamically adjust tone mapping curves. In practice, this means the picture looks correct whether you are watching at noon with the blinds open or at midnight in total darkness. It is one of the most useful smart HDR implementations available, and paired with the Alpha9 Gen7's upgraded AI upscaling engine, even 1080p content looks remarkably clean.
 
-Color accuracy is class-leading. The C4 covers 99% of the DCI-P3 color space and approximately 83% of the wider Rec. 2020 gamut. Factory calibration is notably tight — Delta-E values under 2.0 in Filmmaker Mode straight out of the box.
+Color accuracy is class-leading. The C4 covers 99% of the DCI-P3 color space and approximately 83% of the wider Rec. 2020 gamut. Reviewers report notably tight factory calibration — Delta-E values under 2.0 in Filmmaker Mode straight out of the box.
 
 ---
 
 ## Gaming Performance
 
-This is where the LG C4 does not merely compete — it dominates. Input lag has been measured at approximately 1.2 milliseconds at 4K/120Hz in Game Optimizer mode, a figure so low it essentially cannot be felt. For context, human reaction times are measured in hundreds of milliseconds; the C4's lag is perceptually zero.
+This is where the LG C4 does not merely compete — it dominates. Reviewers have measured input lag at approximately 1.2 milliseconds at 4K/120Hz in Game Optimizer mode, a figure so low it essentially cannot be felt. For context, human reaction times are measured in hundreds of milliseconds; the C4's lag is perceptually zero.
 
 All four HDMI ports are full-bandwidth 2.1, supporting 48 Gbps bandwidth. This means PS5, Xbox Series X, and a gaming PC can all be connected simultaneously at 4K/120Hz with no compromise or port-hunting. Many competing TVs — even expensive ones — restrict full HDMI 2.1 bandwidth to only two ports.
 

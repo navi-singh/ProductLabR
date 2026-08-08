@@ -79,7 +79,7 @@ Text rendering is crisp at the display's native resolution, and Apple's updated 
 
 The Series 10's standout new hardware features are its depth gauge and water temperature sensor — both clearly aimed at divers, surfers, open-water swimmers, and ocean enthusiasts. The depth sensor works to 6 meters and enables a new Oceanic+ app that automatically detects when you enter the water, logs depth over time, and issues safety alerts if you descend too quickly for recreational freediving. The water temperature sensor reads ambient water temperature, which is valuable for triathletes and open-water swimmers who need to know whether they're in wetsuit-legal water.
 
-Beyond the new sensors, the core health suite is comprehensive and well-validated. The electrical heart sensor enables ECG readings on demand, and the optical heart sensor now supports irregular rhythm notifications. The skin temperature sensor (introduced with Series 8) continues to provide cycle tracking data and fever detection context. Crash Detection using the dual-core motion accelerometer and gyroscope has received a software refinement — false positive rates in our testing were lower than with Series 9.
+Beyond the new sensors, the core health suite is comprehensive and well-validated. The electrical heart sensor enables ECG readings on demand, and the optical heart sensor now supports irregular rhythm notifications. The skin temperature sensor (introduced with Series 8) continues to provide cycle tracking data and fever detection context. Crash Detection using the dual-core motion accelerometer and gyroscope has received a software refinement — reviewers have reported lower false positive rates than with Series 9.
 
 One important caveat for US buyers: the Blood Oxygen (SpO2) sensor is present in hardware but disabled in software due to an ongoing patent dispute between Apple and Masimo. International units retain full SpO2 functionality. This is a meaningful omission for health-conscious buyers who specifically want SpO2 monitoring.
 
@@ -87,7 +87,7 @@ Fitness tracking remains best-in-class for iPhone users. The Workout app covers 
 
 ## Battery Life
 
-Battery life is the Series 10's most persistent weakness, and Apple hasn't meaningfully closed the gap with competitors. Apple rates the Series 10 at 18 hours of normal use — identical to the Series 9 — with a 36-hour Low Power Mode that disables the Always-On display, reduces heart rate checks, and limits GPS connectivity. In our real-world testing, the 46mm model typically ended a full day (6 AM to midnight) with 30–40% remaining under normal use, which means daily charging remains mandatory.
+Battery life is the Series 10's most persistent weakness, and Apple hasn't meaningfully closed the gap with competitors. Apple rates the Series 10 at 18 hours of normal use — identical to the Series 9 — with a 36-hour Low Power Mode that disables the Always-On display, reduces heart rate checks, and limits GPS connectivity. Independent testing reports the 46mm model typically ending a full day (6 AM to midnight) with 30–40% remaining under normal use, which means daily charging remains mandatory.
 
 Apple claims up to 60 minutes of water resistance at 50 meters and allows the watch to be worn in the shower, but the recommendation remains to charge overnight. For users who want sleep tracking — which watchOS 11 has expanded into a genuinely useful feature via its Vitals app — the charging window needs to be carved out during an evening routine rather than overnight, which requires behavioral adjustment.
 

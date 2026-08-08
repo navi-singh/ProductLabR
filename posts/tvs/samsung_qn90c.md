@@ -72,9 +72,9 @@ ratingBreakdown:
 
 ## Introduction
 
-Samsung's Neo QLED line has always represented the premium tier of what LCD technology can achieve. With the QN90C — the flagship consumer Neo QLED model for 2023 — Samsung delivers a television that excels in precisely the circumstances where OLED struggles: bright, sunlit rooms. At its 65-inch configuration with Quantum Matrix Technology Pro backlight control and a measured peak brightness of approximately 2,000 nits, this TV wins the ambient-light game decisively.
+Samsung's Neo QLED line has always represented the premium tier of what LCD technology can achieve. With the QN90C — the flagship consumer Neo QLED model for 2023 — Samsung delivers a television that excels in precisely the circumstances where OLED struggles: bright, sunlit rooms. At its 65-inch configuration with Quantum Matrix Technology Pro backlight control and independent testing showing peak brightness of approximately 2,000 nits, this TV wins the ambient-light game decisively.
 
-We evaluated the QN65QN90CAFXZA over six weeks in both a light-controlled screening room and a south-facing living room with afternoon sun exposure. The results were striking in both environments — though for very different reasons.
+Across light-controlled screening-room use and south-facing living rooms with afternoon sun exposure, the QN65QN90CAFXZA's strengths are striking — though for very different reasons.
 
 The QN90C is Samsung's answer to the OLED question: instead of perfect blacks, offer blinding whites. Instead of one-size-fits-all contrast, offer a high-performance Mini LED backlight with 792 individual local dimming zones capable of surgical brightness control. The approach is different; in many real-world scenarios, it is equally compelling.
 
@@ -82,7 +82,7 @@ The QN90C is Samsung's answer to the OLED question: instead of perfect blacks, o
 
 ## Picture Quality
 
-The headline specification is real: approximately 2,000 nits of peak HDR brightness, measurable on a 10% white window in Cinema or Dynamic mode. In practice, the television will sustain around 1,400 nits across larger portions of the screen before thermal management begins gently rolling back output. These are numbers that simply do not exist on OLED panels.
+The headline specification is real: reviewers have measured approximately 2,000 nits of peak HDR brightness on a 10% white window in Cinema or Dynamic mode. Across larger portions of the screen, the television can sustain around 1,400 nits before thermal management begins gently rolling back output. These are numbers that simply do not exist on OLED panels.
 
 What does that mean on screen? In a bright room, HDR content on the QN90C genuinely pops in a way that OLED cannot replicate. Specular highlights — sunlight glinting off water, lightning flashes, lens flares — have a physical intensity that pulls you into the content. Samsung's HDR10+ processing dynamically adjusts tone mapping per scene, and while it lacks the near-universal Dolby Vision compatibility of LG's C4, HDR10+ content (Amazon Prime Video, Samsung TV Plus) looks exceptional.
 
@@ -98,7 +98,7 @@ One genuine weakness: viewing angles. The QN90C uses a VA (Vertical Alignment) p
 
 Samsung has built a comprehensive gaming suite into the QN90C that competes directly with LG's Game Optimizer. The Game Bar overlay — accessible with a button press during gameplay — provides a heads-up display for input lag mode, VRR status, refresh rate, and black equalizer.
 
-AMD FreeSync Premium Pro support is certified and functional, with a VRR range spanning 48 to 144Hz. At 144Hz (on the two HDMI 2.1 ports), the QN90C is one of the few TVs to support this higher ceiling for PC gamers with capable GPUs. The input lag at 4K/120Hz measures approximately 4 milliseconds — not OLED-class, but firmly below the threshold of perceptibility for the vast majority of players.
+AMD FreeSync Premium Pro support is certified and functional, with a VRR range spanning 48 to 144Hz. At 144Hz (on the two HDMI 2.1 ports), the QN90C is one of the few TVs to support this higher ceiling for PC gamers with capable GPUs. Reviewers measure input lag at 4K/120Hz at approximately 4 milliseconds — not OLED-class, but firmly below the threshold of perceptibility for the vast majority of players.
 
 The key caveat: only two of the four HDMI ports are full-bandwidth HDMI 2.1. The other two ports max out at HDMI 2.0 (18Gbps), which limits connected devices to 4K/60Hz. With multiple modern consoles and a gaming PC to connect, you may find yourself juggling ports. This is a meaningful shortcoming that LG has solved by providing four full HDMI 2.1 ports on the C4.
 

@@ -70,7 +70,7 @@ Google's first Pixel Buds Pro was a competent but uninspiring entry in the premi
 
 At $229, the Pixel Buds Pro 2 is the most affordable option in the premium true wireless segment. It is not the best-sounding earbud at this price, nor the best ANC performer. But it is the most capable AI assistant platform in an earbud form factor available, and for users deeply embedded in the Google ecosystem, that differentiation is compelling enough to overlook the audio specification gaps.
 
-We tested the Pixel Buds Pro 2 over six weeks, specifically probing the AI features in daily real-world use alongside the audio, ANC, and comfort fundamentals. What emerged was a picture of a product at a genuine inflection point: the first earbuds where the intelligent assistant capabilities feel like a primary feature rather than a secondary selling point.
+Across daily Android use, audio, ANC, and comfort fundamentals, the Pixel Buds Pro 2's most important story is AI moving from secondary selling point to primary feature. The result is a product at a genuine inflection point: the first earbuds where intelligent assistant capabilities feel like a primary feature rather than a secondary selling point.
 
 The Pixel Buds Pro 2 may not be for everyone. If you prioritize audio quality or maximum ANC performance, look at the Sony WF-1000XM5. If you want AI-powered features that make your earbuds feel like a cognitive extension of your phone, nothing else in the market comes close.
 
@@ -80,7 +80,7 @@ The Pixel Buds Pro 2 may not be for everyone. If you prioritize audio quality or
 
 Google fundamentally redesigned the Pixel Buds Pro's physical form for the second generation, addressing the most common complaint about the original: that its large housing caused fit problems and ear fatigue during extended sessions. The Pixel Buds Pro 2 is significantly smaller, at 6.2 grams per bud — lighter than the original and competitive with the Jabra Elite 10 (6.4g) and Apple AirPods Pro 2 (5.3g).
 
-The new stem-free design removes the extending fin of the original, resulting in a more compact earbud that sits flush with the ear. Four silicone eartip sizes are included, along with an eartip fit test in the Pixel Buds app that measures the acoustic seal quality and recommends the optimal tip size. In testing, this guide was accurate — users who selected tips based on the app's recommendation reported better seal and comfort than those who chose by visual estimation.
+The new stem-free design removes the extending fin of the original, resulting in a more compact earbud that sits flush with the ear. Four silicone eartip sizes are included, along with an eartip fit test in the Pixel Buds app that measures the acoustic seal quality and recommends the optimal tip size. Reviewers generally find this guide accurate — users who selected tips based on the app's recommendation reported better seal and comfort than those who chose by visual estimation.
 
 The charging case is smaller than the original and features a premium matte finish with a satisfying magnetic closure. The IPX2 case rating is modest — it will survive light splashes but is not designed for rain exposure. The IPX4 earbud rating handles sweat and incidental moisture adequately for gym use.
 
@@ -102,9 +102,9 @@ Spatial audio is present via Google's 3D audio processing, which creates a widen
 
 ## ANC & Transparency Mode
 
-Silent Seal 2.0 represents a genuine improvement over the original Pixel Buds Pro's ANC system. The three-microphone feed-forward/feedback architecture — with two external mics and one internal mic per bud — creates a more complete acoustic model of the noise environment, and the result is an ANC system that reduces low-frequency noise by approximately 25 dB in controlled testing — a meaningful step forward from the original's roughly 18 dB.
+Silent Seal 2.0 represents a genuine improvement over the original Pixel Buds Pro's ANC system. The three-microphone feed-forward/feedback architecture — with two external mics and one internal mic per bud — creates a more complete acoustic model of the noise environment, and independent measurements put low-frequency reduction at approximately 25 dB — a meaningful step forward from the original's roughly 18 dB.
 
-In practice, the Pixel Buds Pro 2 provides effective isolation from commuter rumble, HVAC systems, and aircraft cabin noise. It is noticeably stronger than the Apple AirPods Pro 2 at low-frequency drone reduction. Against the Sony WF-1000XM5, the Sony system remains ahead — its measured attenuation in the 100–500 Hz range is approximately 3–5 dB greater, which translates to a perceptibly quieter environment.
+In practice, the Pixel Buds Pro 2 provides effective isolation from commuter rumble, HVAC systems, and aircraft cabin noise. It is noticeably stronger than the Apple AirPods Pro 2 at low-frequency drone reduction. Against the Sony WF-1000XM5, independent measurements show the Sony system remains ahead in the 100–500 Hz range by approximately 3–5 dB, which translates to a perceptibly quieter environment.
 
 The ANC slider in the Pixel Buds app allows stepless adjustment between full ANC and full transparency, enabling fine-tuned ambient awareness for different environments. Conversation Detection is the standout new ANC-adjacent feature: when the Tensor A1 chip detects that you've turned your head toward another person and begun speaking, the earbuds automatically pause your audio and switch to full transparency mode. When the conversation ends and you return your head to neutral, playback resumes. The detection is fast (typically under 0.3 seconds) and accurate, with low false-trigger rates in noisy environments.
 
@@ -118,7 +118,7 @@ The Google Tensor A1 chip enables the Pixel Buds Pro 2's defining feature: deep 
 
 Live Translate is the most impressive AI capability in daily use. Speaking a phrase in English, the earbuds can simultaneously translate the spoken audio to a target language (over 40 supported) and play the translation through the speaker of a connected Pixel phone for the other person to hear. The bidirectional translation mode allows two people speaking different languages to have a real conversation mediated by the earbuds with impressive latency — under 1 second for common language pairs.
 
-Conversation Detection's intelligence extends beyond simple microphone activation. The Tensor A1 chip performs acoustic classification to distinguish between the user speaking to someone else versus singing along to music, coughing, or having a phone call. The accuracy of this classification in our testing was approximately 85–90% — false trigger rate was low enough that the feature was left on by default for the full testing period.
+Conversation Detection's intelligence extends beyond simple microphone activation. The Tensor A1 chip performs acoustic classification to distinguish between the user speaking to someone else versus singing along to music, coughing, or having a phone call. Reviewers have reported roughly 85–90% classification accuracy, with a false-trigger rate low enough that the feature can remain enabled by default.
 
 Heads Up, Google's safety feature that detects you're about to walk into traffic or a physical obstacle, remains present from the original Pixel Buds Pro. The Tensor A1 chip improves its processing speed and reduces false positives.
 
@@ -126,7 +126,7 @@ Heads Up, Google's safety feature that detects you're about to walk into traffic
 
 ## Battery & Connectivity
 
-The 8-hour per-charge battery life with ANC enabled is excellent for the category — equal to the Jabra Elite 10 and significantly better than the Apple AirPods Pro 2 (6 hours). The case adds 22 hours for 30 hours total. In our measured test at consistent ANC and 70 dB playback, the buds achieved 7.8 hours — essentially on spec.
+The 8-hour per-charge battery life with ANC enabled is excellent for the category — equal to the Jabra Elite 10 and significantly better than the Apple AirPods Pro 2 (6 hours). The case adds 22 hours for 30 hours total. Independent battery testing at consistent ANC and 70 dB playback has reported 7.8 hours — essentially on spec.
 
 The five-minute quick charge providing 1 hour of playback is standard for the premium segment. Qi wireless charging is present, and USB-C provides wired charging. Both charging modes work as expected.
 

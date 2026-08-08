@@ -65,7 +65,7 @@ The LG QNED90 occupies a unique position in LG's 2024 lineup: it is the most aff
 
 QNED is LG's branding for their hybrid panel technology: Quantum (quantum dot layer) plus NanoCell (LG's proprietary nano-particle color filter). The 2024 QNED90 adds Mini-LED backlighting and an MLA (Micro Lens Array) layer — a technology previously found only in LG's OLED panels that redistributes light for better uniformity, higher brightness, and improved off-axis performance.
 
-We spent four weeks with the 65-inch QNED90, primarily evaluating it as a gaming TV and as a bright-room alternative to OLED. The conclusion: it succeeds at both, with the expected caveat that it cannot replicate the perfect blacks and infinite contrast of an OLED panel. In everything else — gaming specs, smart TV quality, bright-room performance — the QNED90 delivers significantly more than its $699 price suggests.
+Viewed as both a gaming TV and a bright-room alternative to OLED, the 65-inch QNED90 succeeds at both, with the expected caveat that it cannot replicate the perfect blacks and infinite contrast of an OLED panel. In everything else — gaming specs, smart TV quality, bright-room performance — the QNED90 delivers significantly more than its $699 price suggests.
 
 ---
 
@@ -75,7 +75,7 @@ The QNED90's picture quality is defined by what it is and what it is not. It is 
 
 In any other context, the QNED90's picture is impressive. Peak brightness of approximately 1,200–1,500 nits (depending on window size and content) makes HDR highlights genuinely bright. The MLA layer improves brightness extraction from the OLED panel's light output — wait, this is a QNED LCD, and MLA on an LCD improves directionality and perceived brightness at normal viewing distances.
 
-Color coverage from the QNED (Quantum NanoCell) technology is slightly below pure quantum dot panels like Samsung's QLED. Measured DCI-P3 coverage lands around 90–93%, compared to 95–98% for QLED alternatives. In practice, the difference is subtle and most viewers would not perceive it without direct side-by-side comparison.
+Color coverage from the QNED (Quantum NanoCell) technology is slightly below pure quantum dot panels like Samsung's QLED. Independent testing generally places DCI-P3 coverage around 90–93%, compared to 95–98% for QLED alternatives. In practice, the difference is subtle and most viewers would not perceive it without direct side-by-side comparison.
 
 Dolby Vision IQ dynamic tone mapping is the same system found in LG's OLED lineup — scene-by-scene adaptation using the built-in ambient light sensor. Filmmaker Mode disables post-processing for accurate playback of theatrical content. The Alpha7 AI Gen7 processor handles upscaling of 1080p and lower-resolution content competently, though the gap versus the Alpha9 in the C4 is perceptible on close-up viewing.
 
@@ -91,7 +91,7 @@ The 144Hz native panel is another specification that puts the QNED90 ahead of mo
 
 G-Sync Compatible and FreeSync Premium certifications ensure adaptive sync works correctly across both major GPU ecosystems. ALLM triggers automatically when a console is detected and switches to Game Optimizer mode.
 
-Input lag at 4K/120Hz measures approximately 5–7ms in Game Optimizer mode — excellent for an LCD panel and better than most TVs at any price except OLED. This matches the input lag performance of Samsung's QN90D and is meaningfully better than Sony's Bravia 9. For competitive gaming, the QNED90 over-delivers for its price.
+Reviewers place input lag at 4K/120Hz around 5–7ms in Game Optimizer mode — excellent for an LCD panel and better than most TVs at any price except OLED. This matches the input lag performance of Samsung's QN90D and is meaningfully better than Sony's Bravia 9. For competitive gaming, the QNED90 over-delivers for its price.
 
 ---
 

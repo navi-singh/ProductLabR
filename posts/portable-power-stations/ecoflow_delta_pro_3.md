@@ -60,11 +60,11 @@ ratingBreakdown:
 
 ## Introduction
 
-The EcoFlow Delta Pro 3 is not just another portable power station—it's a flagship solution for those who demand serious, reliable, and flexible power for home backup, RV life, off-grid adventures, and demanding job sites. This comprehensive review is based on extensive hands-on testing, long-term real-world use, and expert analysis. We'll take you through every aspect of the Delta Pro 3, from unboxing and first impressions to in-depth performance analysis, unique features, and how it stacks up against the competition. If you're considering a high-capacity power station, this is the review you need.
+The EcoFlow Delta Pro 3 is not just another portable power station—it's a flagship solution for those who demand serious, reliable, and flexible power for home backup, RV life, off-grid adventures, and demanding job sites. EcoFlow's published specifications rate it at 4,096Wh of capacity with 4,000W output, framing it as a high-capacity option for demanding users. Drawing on EcoFlow documentation and independent reporting, this review covers the Delta Pro 3 from first impressions and design through performance profile, unique features, and competitive positioning. If you're considering a high-capacity power station, this is the review you need.
 
 ## Unboxing & First Impressions
 
-At 113.5 lbs (51.5kg), the Delta Pro 3 makes an immediate impression with its substantial weight and premium build. EcoFlow includes a telescoping handle and rugged wheels for transport, plus robust packaging with comprehensive accessories including AC, DC, and solar charging cables. The industrial-grade plastic casing feels premium and durable, while the IP65-rated battery compartment ensures both indoor and outdoor capability. The large, bright digital display provides clear real-time feedback on all essential metrics, immediately conveying this is serious equipment built for demanding scenarios.
+At 113.5 lbs (51.5kg), the Delta Pro 3 makes an immediate impression with its substantial weight and premium build. EcoFlow includes a telescoping handle and rugged wheels for transport, plus robust packaging with comprehensive accessories including AC, DC, and solar charging cables. The industrial-grade plastic casing is positioned as durable, while the IP65-rated battery compartment supports both indoor and outdoor capability. The large, bright digital display provides clear real-time feedback on essential metrics for demanding scenarios.
 
 ## Key Features & Design
 

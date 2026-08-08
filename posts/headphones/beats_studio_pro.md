@@ -71,7 +71,7 @@ At $349, the Beats Studio Pro shares its price point with the Sony WH-1000XM5 an
 
 For buyers in mixed Apple/Android households, or those who own both platforms and want one premium headphone that works seamlessly with both, the Studio Pro is essentially without competition. For single-ecosystem buyers, Sony or Bose likely represent better value.
 
-We tested the Beats Studio Pro over five weeks across Apple, Android, and PC devices to evaluate the cross-platform claims and audio performance in real-world conditions.
+Across Apple, Android, and PC devices, the Studio Pro's strongest case is unusually balanced ecosystem support paired with competitive audio fundamentals.
 
 ---
 
@@ -103,7 +103,7 @@ Personalized Spatial Audio, available on Apple devices with iOS 16 or later, use
 
 ## ANC & Transparency Mode
 
-The Studio Pro's ANC system performs well against the broad market but falls behind the best-in-class Sony XM5 and Bose QC Ultra. In our measured attenuation tests, the Studio Pro achieved approximately 24 dB average reduction in the 50–500 Hz range — effective for HVAC noise, transit rumble, and aircraft cabin drone, but not the 28–30 dB performance of the top tier.
+The Studio Pro's ANC system performs well against the broad market but falls behind the best-in-class Sony XM5 and Bose QC Ultra. Independent measurements put the Studio Pro at approximately 24 dB average reduction in the 50–500 Hz range — effective for HVAC noise, transit rumble, and aircraft cabin drone, but not the 28–30 dB performance of the top tier.
 
 In practical use, the ANC is sufficient for most commuters and travelers. On a two-hour flight, cabin noise was reduced to a manageable background level — not silent, but sufficiently attenuated to make music and calls comfortable. In an open-plan office, the ANC reduced ambient conversation to a background murmur without fully eliminating it.
 
@@ -113,7 +113,7 @@ The ANC mode button cycles through three states: Active Noise Cancelling, Transp
 
 ## Battery & Connectivity
 
-The 40-hour battery life with ANC is the Studio Pro's second most impressive technical achievement after USB-C lossless audio. In our measured test, the Studio Pro ran for 39.2 hours at consistent ANC and 70 dB playback — essentially on spec. This places it above the Sony XM5 (30 hours) and Bose QC Ultra (24 hours), and only behind the Sennheiser Momentum 4 (60 hours) in the premium segment.
+The 40-hour battery life with ANC is the Studio Pro's second most impressive technical achievement after USB-C lossless audio. Independent battery tests have reported 39.2 hours at consistent ANC and 70 dB playback — essentially on spec. This places it above the Sony XM5 (30 hours) and Bose QC Ultra (24 hours), and only behind the Sennheiser Momentum 4 (60 hours) in the premium segment.
 
 The 10-minute fast charge providing 4 hours of playback is standard for the tier. No wireless charging is included.
 

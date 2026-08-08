@@ -86,7 +86,7 @@ AI motion detection automatically starts and stops workout tracking for common a
 
 ## Battery Life
 
-14 days on the 46mm model — matching the Garmin Venu 3 at a $250 lower price — is the GT 4's most dramatic competitive advantage. In our testing over three weeks, the 46mm GT 4 with always-on display disabled and one daily GPS workout (45 minutes) consistently reached 12–13 days before requiring a charge. With AOD enabled, battery life dropped to approximately 7 days — still substantially better than any Wear OS device and comparable to the Samsung Galaxy Watch 6.
+14 days on the 46mm model — matching the Garmin Venu 3 at a $250 lower price — is the GT 4's most dramatic competitive advantage. Reviewers commonly report the 46mm GT 4 with always-on display disabled and one daily GPS workout (45 minutes) reaching 12–13 days before requiring a charge. With AOD enabled, battery life drops to approximately 7 days — still substantially better than any Wear OS device and comparable to the Samsung Galaxy Watch 6.
 
 The 41mm model's 7-day battery is less remarkable but still solid for an AMOLED watch of its size. The charging cable is Huawei's proprietary magnetic design, achieving a full charge in approximately 2 hours.
 

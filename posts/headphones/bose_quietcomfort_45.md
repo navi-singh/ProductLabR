@@ -75,7 +75,7 @@ Bose invented the consumer noise-cancelling headphone category. The QuietComfort
 
 Against newer competition including the Sony WH-1000XM5 and Bose's own higher-end QuietComfort Ultra, the QC45 occupies a specific position: best-in-category comfort, excellent ANC, competitive price, and a no-fuss simplicity of use that sophisticated feature sets cannot replace for some buyers. At $279 (frequently on sale for $229 or less), it often represents the best value in the premium ANC headphone tier.
 
-We tested the QC45 over seven weeks alongside the Sony XM5 and Apple AirPods Max for a direct comparison across the most relevant use cases.
+Across the most relevant travel, commuting, and office use cases, the QC45 is best understood against rivals like the Sony XM5 and Apple AirPods Max.
 
 ---
 
@@ -93,10 +93,10 @@ The absence of LDAC or aptX is the most significant technical limitation. At $27
 
 The QC45's ANC system uses six microphones across the two ear cups in a feedforward/feedback configuration that delivers excellent attenuation of the low-to-mid frequency noise sources that matter most in travel and work environments. In third-party measurements, the QC45 consistently achieves approximately 22–25 dB of average attenuation across 50 Hz to 1 kHz — trailing the Sony XM5 by a few decibels at the low end but matching or exceeding it at mid-range frequencies.
 
-In practical testing:
-- On commuter trains, engine rumble and ambient passenger noise were reduced to comfortable background levels
-- In open offices, HVAC noise and keyboard clatter became largely inaudible
-- On aircraft, cabin roar was significantly attenuated — not quite to the degree of the XM5, but sufficient that music playback felt private and quiet
+In practical use:
+- On commuter trains, engine rumble and ambient passenger noise fall to comfortable background levels
+- In open offices, HVAC noise and keyboard clatter become largely inaudible
+- On aircraft, cabin roar is significantly attenuated — not quite to the degree of the XM5, but sufficient for music playback to feel private and quiet
 
 Aware Mode passes through environmental sound for situational awareness. It works adequately for understanding announcements and holding brief conversations, but the processing produces a slight telephonic quality that the Apple AirPods Max's Transparency mode avoids. For users who switch frequently between ANC and awareness modes, the XM5 or AirPods Max deliver more natural transparency.
 
@@ -124,7 +124,7 @@ Multipoint Bluetooth allows simultaneous pairing to two devices — switching be
 
 ## Battery Life
 
-Twenty-four hours with ANC active is strong performance and closely consistent with manufacturer claims in real-world testing. Battery life does not degrade meaningfully with ANC enabled versus disabled, which simplifies usage without requiring ANC management to preserve charge.
+Bose rates the QC45 at 24 hours with ANC active, which remains strong performance for the category. Battery life does not degrade meaningfully with ANC enabled versus disabled, which simplifies usage without requiring ANC management to preserve charge.
 
 The 15-minute quick charge providing three hours of playback is less impressive than the Sony XM5's 3-minute charge for 3 hours, but it remains functional for hurried departures. A full charge from empty takes approximately 2.5 hours via USB-C.
 

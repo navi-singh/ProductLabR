@@ -65,7 +65,7 @@ Samsung's Neo QLED lineup spans from the entry-level QN85D at the bottom to the 
 
 The QN85D brings Quantum Matrix Technology — Samsung's proprietary Mini-LED local dimming implementation — to a price bracket that was previously served only by traditional full-array local dimming. The difference in image quality between a QN85D and a standard Samsung Crystal UHD is immediately and dramatically apparent, particularly in HDR content where controlled local dimming separates bright highlights from shadow detail with surgical precision.
 
-We tested the 55-inch QN85D for four weeks alongside the TCL QM8 and LG C4 OLED. The QN85D competes most directly with the QM8 in price and specifications, and the two TVs represent genuinely different approaches to the same problem — high-performance Mini-LED at an accessible price point.
+Alongside the TCL QM8 and LG C4 OLED, the 55-inch QN85D sits in a revealing position. The QN85D competes most directly with the QM8 in price and specifications, and the two TVs represent genuinely different approaches to the same problem — high-performance Mini-LED at an accessible price point.
 
 ---
 
@@ -73,9 +73,9 @@ We tested the 55-inch QN85D for four weeks alongside the TCL QM8 and LG C4 OLED.
 
 Quantum Matrix Technology is Samsung's marketing name for its Mini-LED backlighting system with precision dimming control. In the QN85D, the zone count is lower than the flagship QN90D but substantially higher than budget full-array TVs. The result is local dimming that handles most real-world content excellently — HDR highlights bloom minimally, shadow regions stay dark, and the transition between bright and dark areas is gradual rather than abrupt.
 
-Peak brightness on the QN85D measures approximately 1,500–1,800 nits depending on content window size and model configuration. This is lower than Samsung's flagship QN90D but still considerably brighter than OLED alternatives. In a bright room, the QN85D's picture remains vivid and punchy where OLED panels begin to wash out. The quantum dot color layer ensures wide color gamut performance across the full brightness range.
+Independent testing places peak brightness on the QN85D at approximately 1,500–1,800 nits depending on content window size and model configuration. This is lower than Samsung's flagship QN90D but still considerably brighter than OLED alternatives. In a bright room, the QN85D's picture remains vivid and punchy where OLED panels begin to wash out. The quantum dot color layer ensures wide color gamut performance across the full brightness range.
 
-Color accuracy is very good. The QN85D covers approximately 95% of DCI-P3 and benefits from Samsung's well-regarded factory calibration, with measured Delta-E values typically under 3.0 in Movie mode. HDR10+ Adaptive uses the ambient light sensor to dynamically adjust tone mapping — functionally similar to Dolby Vision IQ, though limited to HDR10+ content.
+Color accuracy is very good. The QN85D covers approximately 95% of DCI-P3 and benefits from Samsung's well-regarded factory calibration, with reviewers typically measuring Delta-E values under 3.0 in Movie mode. HDR10+ Adaptive uses the ambient light sensor to dynamically adjust tone mapping — functionally similar to Dolby Vision IQ, though limited to HDR10+ content.
 
 The absence of Dolby Vision is the QN85D's most significant picture quality compromise. While HDR10+ is an excellent standard with dynamic metadata, the Dolby Vision content library is considerably larger, and services like Netflix and Disney+ deliver their premium HDR tiers primarily in Dolby Vision. On HDR10+ content, the QN85D is excellent. On Dolby Vision content, it falls back to HDR10, which lacks the per-scene metadata optimization.
 
@@ -89,7 +89,7 @@ The QN85D's 144Hz panel is a meaningful differentiator for PC gamers. While cons
 
 Samsung's Game Bar overlay is the most comprehensive gaming interface available on any TV. A quick button press overlays a heads-up display showing current frame rate, VRR status, input lag mode, and HDR settings without requiring a trip into the main settings menu. This is genuinely useful during gaming sessions.
 
-Input lag in Game Mode measures approximately 5–7ms at 4K/120Hz — lower than Sony's competition and meaningfully better than many LCD TVs, though still above the 1–2ms achieved by OLED panels. For the vast majority of gaming use cases, this distinction is academic.
+Reviewers place input lag in Game Mode at approximately 5–7ms at 4K/120Hz — lower than Sony's competition and meaningfully better than many LCD TVs, though still above the 1–2ms achieved by OLED panels. For the vast majority of gaming use cases, this distinction is academic.
 
 Auto Low Latency Mode triggers automatically when a console is connected. The port limitation bears repeating: for 4K/120Hz gaming requiring full HDMI 2.1 bandwidth, use HDMI ports 3 or 4. Ports 1 and 2 are rated at 18Gbps and will not support 4K/120Hz with HDR simultaneously on all content.
 

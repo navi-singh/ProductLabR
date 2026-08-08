@@ -75,11 +75,11 @@ ratingBreakdown:
 
 ## Introduction
 
-Sony has held the ANC throne in the over-ear headphone category for the better part of five years. The WH-1000XM4, its predecessor, was so dominant that many questioned whether the XM5 could improve meaningfully. The answer, after extensive testing, is: yes — though the improvements are measured rather than revolutionary.
+Sony has held the ANC throne in the over-ear headphone category for the better part of five years. The WH-1000XM4, its predecessor, was so dominant that many questioned whether the XM5 could improve meaningfully. The answer, reflected in independent reviews, is: yes — though the improvements are measured rather than revolutionary.
 
 The WH-1000XM5 arrives with a completely redesigned headband and driver architecture, a new processor (QN1 paired with an integrated V1 chip), and an eight-microphone array that represents a significant leap in both ANC and call quality performance. At $349, it occupies the top tier of the premium wireless headphone market alongside the Bose QuietComfort 45 and Apple AirPods Max.
 
-We tested the XM5 over eight weeks across commuter rail, open-plan offices, airplanes, and home listening sessions to get a complete picture of its performance in the scenarios that matter most.
+Across commuter rail, open-plan offices, airplanes, and home listening sessions, the XM5's performance reflects its flagship ANC positioning in the scenarios that matter most.
 
 ---
 
@@ -109,7 +109,7 @@ The soundstage is moderate — as is typical for closed-back over-ears, imaging 
 
 ## Noise Cancellation
 
-This is where the WH-1000XM5 stands alone. The eight-microphone system — four dedicated to ANC and four to call quality — combined with the HD Noise Cancelling Processor QN1 delivers measured attenuation of approximately 28 to 30 dB across the key frequency range of 50 Hz to 1 kHz. In practical terms:
+This is where the WH-1000XM5 stands alone. Independent measurements put the eight-microphone system — four dedicated to ANC and four to call quality — combined with the HD Noise Cancelling Processor QN1 at approximately 28 to 30 dB of attenuation across the key frequency range of 50 Hz to 1 kHz. In practical terms:
 
 - On a commuter train, engine rumble and rail noise are reduced to a distant hum
 - In a coffee shop, the ambient chatter of surrounding conversations drops to an unintelligible murmur
@@ -125,13 +125,13 @@ Adaptive Sound Control uses the accelerometer and GPS activity to automatically 
 
 The four dedicated call microphones represent the largest functional improvement over the XM4. The AI-powered beamforming algorithm isolates the voice while attenuating background noise, and in third-party testing the XM5 consistently ranks among the top performers for call intelligibility in noisy environments.
 
-Speak-to-Chat is one of the more genuinely useful gimmick-to-feature evolutions in consumer headphones. When the XM5 detects you speaking — not just any sound, but specifically vocal speech directed outward — it automatically pauses playback and switches to Ambient Mode so you can conduct a brief conversation without physically removing the headphones or pressing any button. The detection is quick (typically under 0.5 seconds) and the false trigger rate is low in our testing. The feature automatically reverts to ANC and resumes playback after a configurable delay (30 seconds to 3 minutes) of silence.
+Speak-to-Chat is one of the more genuinely useful gimmick-to-feature evolutions in consumer headphones. When the XM5 detects you speaking — not just any sound, but specifically vocal speech directed outward — it automatically pauses playback and switches to Ambient Mode so you can conduct a brief conversation without physically removing the headphones or pressing any button. The detection is quick (typically under 0.5 seconds), and reviewers report low false-trigger rates. The feature automatically reverts to ANC and resumes playback after a configurable delay (30 seconds to 3 minutes) of silence.
 
 ---
 
 ## Battery Life
 
-The 30-hour battery with ANC enabled is one of the XM5's strongest competitive differentiators. In real-world testing at moderate volume with ANC active, we consistently achieved 28 to 32 hours depending on codec — LDAC draws slightly more power than AAC. With ANC off, rated life extends to 40 hours.
+Sony rates the XM5 at 30 hours with ANC enabled, one of its strongest competitive differentiators. Reviewers generally report 28 to 32 hours at moderate volume with ANC active depending on codec — LDAC draws slightly more power than AAC. With ANC off, rated life extends to 40 hours.
 
 The quick charge capability is genuinely impressive: three minutes on a USB-C cable delivers enough charge for three hours of listening. This is a real get-out-of-jail feature for travelers and commuters who forget to charge. A full charge from empty takes approximately 3.5 hours.
 

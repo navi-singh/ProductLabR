@@ -66,21 +66,21 @@ Vizio has always competed on a simple proposition: more TV for less money. The P
 
 The trade-off that Vizio makes to achieve this pricing is in software and build quality. SmartCast OS is the weakest major smart TV platform available, the physical design is functional rather than elegant, and Vizio's track record on long-term software updates gives pause. But if your priority is the absolute best picture hardware for the lowest price, and you are willing to work around the software limitations, the P-Series Quantum X is a remarkable value.
 
-We tested the 65-inch P-Series Quantum X over four weeks, specifically evaluating the brightness and local dimming performance that are its headline claims. The results validated the specifications: this is genuinely the brightest production TV we have measured at its price point, and the local dimming quality is competitive with TVs at significantly higher prices.
+Independent testing of the 65-inch P-Series Quantum X supports its headline brightness and local dimming claims. The results align with the specifications: this is genuinely one of the brightest production TVs documented at its price point, and the local dimming quality is competitive with TVs at significantly higher prices.
 
 ---
 
 ## Picture Quality
 
-Three thousand nits. In a category where premium OLED TVs top out at approximately 1,000 nits and most Mini-LED TVs achieve 1,500–2,000 nits, the Vizio P-Series Quantum X's measured 2,800–3,100 nit peak in a small 10% window is extraordinary. The practical impact of this brightness level is felt most acutely in two scenarios: HDR content with specular highlights (metallic reflections, fire, sunlight on water), and bright-room viewing where ambient light competes with the TV's output.
+Three thousand nits. In a category where premium OLED TVs top out at approximately 1,000 nits and most Mini-LED TVs achieve 1,500–2,000 nits, the Vizio P-Series Quantum X's reviewer-measured 2,800–3,100 nit peak in a small 10% window is extraordinary. The practical impact of this brightness level is felt most acutely in two scenarios: HDR content with specular highlights (metallic reflections, fire, sunlight on water), and bright-room viewing where ambient light competes with the TV's output.
 
 In both scenarios, the Quantum X excels. Dolby Vision HDR content with high-peak metadata resolves highlights with a visceral intensity that $1,500+ TVs sometimes struggle to match. A morning sunrise in a nature documentary, a lightning storm, the muzzle flash of a gunshot — all register with genuine brightness that makes them feel real rather than digitally rendered.
 
 The 792-zone local dimming array on the 65-inch model is well-implemented. The zones are large enough that very small bright objects on a black field will carry some halo, but for real-world HDR content — where bright and dark areas typically occupy different sectors of the frame — the dimming precision is excellent. Black levels are very good for an LCD panel, approaching Mini-LED performance in full-scene dark content.
 
-Quantum dot color coverage measures approximately 95–97% of DCI-P3. Dolby Vision and HDR10+ dynamic metadata work correctly, with scene-by-scene tone mapping adaptation. The combination of high brightness and wide color gamut makes HDR content on the Quantum X look vivid and saturated in a way that entry-level TVs cannot approach.
+Reviewers measure quantum dot color coverage at approximately 95–97% of DCI-P3. Dolby Vision and HDR10+ dynamic metadata work correctly, with scene-by-scene tone mapping adaptation. The combination of high brightness and wide color gamut makes HDR content on the Quantum X look vivid and saturated in a way that entry-level TVs cannot approach.
 
-Color accuracy in Movie mode is very good — Delta-E values under 3.0 without calibration, with white balance that tracks consistently across the luminance range. The Quantum X rewards a brief calibration session but performs well straight out of the box.
+Reviewers report very good color accuracy in Movie mode — Delta-E values under 3.0 without calibration, with white balance that tracks consistently across the luminance range. The Quantum X rewards a brief calibration session but performs well straight out of the box.
 
 ---
 
@@ -88,7 +88,7 @@ Color accuracy in Movie mode is very good — Delta-E values under 3.0 without c
 
 The P-Series Quantum X is unexpectedly strong as a gaming TV. All four HDMI ports deliver full 48Gbps HDMI 2.1 bandwidth — there is no port tiering as seen on Sony and Samsung models where only two ports support full bandwidth. This means every gaming device can connect with unrestricted 4K/120Hz capability.
 
-Variable Refresh Rate via FreeSync Premium works reliably, covering the standard 48–120Hz range. ALLM triggers automatically. Input lag in Game Mode measures approximately 6–8ms at 4K/120Hz, competitive with the best LCD gaming TVs.
+Variable Refresh Rate via FreeSync Premium works reliably, covering the standard 48–120Hz range. ALLM triggers automatically. Reviewers place input lag in Game Mode at approximately 6–8ms at 4K/120Hz, competitive with the best LCD gaming TVs.
 
 The 120Hz ceiling is a limitation for PC gamers seeking 4K/144Hz, but for console gamers the Quantum X's gaming capabilities are fully competitive. The combination of high brightness, fast response, and full HDMI 2.1 bandwidth makes it one of the better gaming TVs available under $1,000.
 

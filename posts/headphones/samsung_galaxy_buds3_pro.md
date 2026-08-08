@@ -74,7 +74,7 @@ The Samsung Galaxy Buds3 Pro represent the most substantial redesign in Samsung'
 
 Internally, the upgrade is thorough: Bluetooth 5.4, a dual-driver configuration combining a 10mm woofer and 5.3mm tweeter, IPX7 waterproofing on the earbuds (the strongest in the flagship earbud category), and Samsung Seamless Codec (SSC UHQ) that streams at up to 1 Mbps on compatible Galaxy devices — competitive with or exceeding LDAC at high bitrates.
 
-At $249 — the same price as the AirPods Pro 2 — the Buds3 Pro are Samsung's direct challenge to Apple's flagship earbuds. We tested them over six weeks as daily drivers with a Samsung Galaxy S24 Ultra and a non-Samsung Android phone to understand both the full Samsung experience and the limitations outside the ecosystem.
+At $249 — the same price as the AirPods Pro 2 — the Buds3 Pro are Samsung's direct challenge to Apple's flagship earbuds, especially for Galaxy owners weighing the full Samsung experience against the limitations outside the ecosystem.
 
 ---
 
@@ -117,7 +117,7 @@ IPX7 waterproofing on the earbuds is the strongest water resistance specificatio
 
 ## Features & Connectivity
 
-Galaxy AI integration is the Buds3 Pro's most distinctive functional differentiator. Live Translate, when used with a Samsung Galaxy phone, performs real-time spoken translation — one party speaks in one language, the earbuds translate and play back the translation audibly, and the phone screen shows both the original text and translation simultaneously. In our testing with English/Spanish pairs, the accuracy and latency were impressive for a real-time system.
+Galaxy AI integration is the Buds3 Pro's most distinctive functional differentiator. Live Translate, when used with a Samsung Galaxy phone, performs real-time spoken translation — one party speaks in one language, the earbuds translate and play back the translation audibly, and the phone screen shows both the original text and translation simultaneously. Reviewers using English/Spanish pairs have found the accuracy and latency impressive for a real-time system.
 
 Interpreter Mode extends this to group scenarios where both participants use the earbuds or phone speaker. For travelers and business users operating in multilingual environments, these features add genuine value that no competing earbud provides.
 
@@ -127,7 +127,7 @@ Multipoint Bluetooth 5.4 handles two simultaneous device connections. SmartThing
 
 ## Battery Life
 
-Six hours with ANC active and 24 hours in the case totaling 30 hours matches the AirPods Pro 2 specification exactly and represents strong performance for the category. Real-world testing at moderate volume with ANC active consistently achieved 5.5 to 6.5 hours on the earbuds.
+Six hours with ANC active and 24 hours in the case totaling 30 hours matches the AirPods Pro 2 specification exactly and represents strong performance for the category. Reviewer battery reports at moderate volume with ANC active typically land between 5.5 and 6.5 hours on the earbuds.
 
 The 5-minute quick charge delivering one hour of playback is on par with the AirPods Pro 2. Qi wireless charging on the case is a convenience that several competing cases at this price point still omit.
 

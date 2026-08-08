@@ -29,7 +29,7 @@ pros:
   - "HERO 2 sensor delivers zero smoothing, zero acceleration, and near-zero lift-off distance — sensor performance that sets the competitive benchmark"
   - "2000Hz polling rate (via Powerplay) cuts input latency to sub-0.5ms, measurably reducing perceived input delay"
   - "60g weight is light enough to eliminate fatigue during extended sessions without sacrificing structural rigidity"
-  - "LIGHTSPEED 2.4GHz wireless is indistinguishable from wired in blind testing — no connection anxiety in competition"
+  - "LIGHTSPEED 2.4GHz wireless is widely regarded as wired-like in responsiveness — no connection anxiety in competition"
   - "Optical-mechanical main switches are pre-travel free, crisp, and rated for 90 million actuations"
   - "95-hour battery life at 1000Hz means charging is a weekly or biweekly event"
   - "Clean, symmetrical shape works well across a wide range of grip styles and hand sizes"
@@ -88,17 +88,17 @@ In practical terms, the HERO 2's zero-smoothing behavior is what matters most to
 
 Lift-off distance is extremely low — approximately 1mm on most surfaces — which means the cursor does not travel when you lift the mouse for a repositioning swipe. This detail matters disproportionately in low-sensitivity gaming, where frequent repositioning is part of normal gameplay.
 
-Mouse pad surface compatibility is broad. The HERO 2 performed consistently across cloth, hard plastic, and hybrid surfaces in our testing, with no jitter or skipping on any surface that wasn't visibly damaged or reflective.
+Mouse pad surface compatibility is broad. Reviewers report the HERO 2 tracks consistently across cloth, hard plastic, and hybrid surfaces, with no jitter or skipping except on visibly damaged or reflective surfaces.
 
 ## Wireless & Battery
 
-LIGHTSPEED wireless is Logitech's 2.4GHz proprietary wireless protocol, and it has set the benchmark for wireless gaming peripherals since its introduction. The Superlight 2's LIGHTSPEED implementation targets sub-1ms wireless latency — matching or exceeding wired USB at most polling rates — and in our testing, we were unable to detect any difference in perceived responsiveness between wired and wireless modes.
+LIGHTSPEED wireless is Logitech's 2.4GHz proprietary wireless protocol, and it has set the benchmark for wireless gaming peripherals since its introduction. The Superlight 2's LIGHTSPEED implementation targets sub-1ms wireless latency — matching or exceeding wired USB at most polling rates — and independent reviews generally report no perceptible responsiveness difference between wired and wireless modes.
 
 The Superlight 2 introduces support for 2000Hz polling, which doubles the standard 1000Hz report rate and theoretically reduces maximum input latency to 0.5ms. The practical significance of 2000Hz depends on your system's ability to process updates at that frequency — you'll need a reasonably modern CPU and a game that benefits from sub-millisecond input processing. Critically, 2000Hz wireless operation requires the Logitech Powerplay charging mat, which wirelessly charges the mouse during play and handles the higher-frequency communication. Without a Powerplay mat, the mouse operates at 1000Hz wireless.
 
 At 1000Hz, the Superlight 2's battery runs for approximately 95 hours — nearly four days of continuous use, or more realistically two to three weeks of typical gaming sessions. At 2000Hz via Powerplay, the effective battery drain is less relevant since the mat charges continuously. Charging from empty to full via USB-C takes approximately 2.5 hours.
 
-The LIGHTSPEED USB receiver is extremely compact — barely larger than the USB port itself — and extends range to approximately 10 meters line-of-sight. We encountered no connection drops or signal interference across hundreds of hours of use, including in an RF-dense environment with multiple wireless devices operating simultaneously.
+The LIGHTSPEED USB receiver is extremely compact — barely larger than the USB port itself — and extends range to approximately 10 meters line-of-sight. Independent reviewers generally report stable connections without drops or signal interference across extended use, including in RF-dense environments with multiple wireless devices operating simultaneously.
 
 ## Software
 

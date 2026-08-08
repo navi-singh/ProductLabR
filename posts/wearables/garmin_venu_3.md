@@ -89,7 +89,7 @@ The Venu 3's wheelchair activity profiles are a landmark accessibility achieveme
 
 The Venu 3 achieves its 14-day battery with AOD off through a combination of efficient Garmin hardware design and disciplined power management. With the always-on display enabled, battery life drops to approximately 10 days — still two to three times the battery life of most AMOLED smartwatches, including the Google Pixel Watch 3 (24-hour) and Samsung Galaxy Watch 6 (40-hour).
 
-In our testing, the 45mm Venu 3 with always-on display enabled and daily workout tracking (approximately 45 minutes of GPS activity per day) ended a 7-day week with approximately 40% remaining — confirming the 10-day AOD estimate as conservative. This means most users will charge the Venu 3 once every week or week and a half, a significant improvement in charging frequency versus Apple Watch or Pixel Watch users who charge nightly.
+Independent testing has found that the 45mm Venu 3 with always-on display enabled and daily workout tracking (approximately 45 minutes of GPS activity per day) can end a 7-day week with approximately 40% remaining — reinforcing the 10-day AOD estimate as conservative. This means most users will charge the Venu 3 once every week or week and a half, a significant improvement in charging frequency versus Apple Watch or Pixel Watch users who charge nightly.
 
 The longer battery window also benefits sleep tracking: users can go multiple nights without charging, allowing Garmin's sleep algorithms to gather more consecutive data and build more accurate long-term patterns.
 

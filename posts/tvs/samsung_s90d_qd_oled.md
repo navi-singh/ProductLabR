@@ -71,13 +71,13 @@ ratingBreakdown:
 
 The Samsung S90D represents a significant moment in consumer television history: for the first time, QD-OLED technology — the same fundamental panel architecture used in the Sony A95L flagship — is available at a price that approaches the mainstream premium. At $1,299 for 55 inches, the S90D costs the same as the LG C4 OLED and considerably less than any previous QD-OLED offering, yet delivers peak brightness numbers that set new records for self-emissive displays.
 
-We tested the QN55S90DAFXZA for five weeks, including head-to-head comparisons with the LG C4 and the prior-generation S90C. The S90D is a meaningful step forward in almost every measurable dimension — brighter, faster, and more refined. Its omission of Dolby Vision and its single HDMI 2.1 port are real limitations that affect specific buyers, but for the majority of users, the S90D delivers QD-OLED performance at a price that was previously unimaginable.
+Against the LG C4 and Samsung's 2023 S90C, the QN55S90DAFXZA reads as a meaningful step forward in almost every measurable dimension — brighter, faster, and more refined. Its omission of Dolby Vision and its single HDMI 2.1 port are real limitations that affect specific buyers, but for the majority of users, the S90D delivers QD-OLED performance at a price that was previously unimaginable.
 
 ---
 
 ## Picture Quality & HDR
 
-Samsung's third-generation QD-OLED panel in the S90D achieves approximately 1,400 nits peak brightness on a 10% HDR window — a figure that outstrips the Sony A95L's second-gen panel by a measurable margin and makes the S90D the brightest self-emissive consumer TV measured. This is not a minor incremental improvement; it is the kind of leap that makes the panel's HDR highlights genuinely dazzling in the way that early Mini-LED demos were dazzling: spectral light sources in HDR content now pop with an intensity that was previously the exclusive domain of LED backlights.
+Independent testing has measured Samsung's third-generation QD-OLED panel in the S90D at approximately 1,400 nits peak brightness on a 10% HDR window — a figure that outstrips the Sony A95L's second-gen panel by a measurable margin and supports its status as the brightest self-emissive consumer TV independently measured at launch. This is not a minor incremental improvement; it is the kind of leap that makes the panel's HDR highlights genuinely dazzling in the way that early Mini-LED demos were dazzling: spectral light sources in HDR content now pop with an intensity that was previously the exclusive domain of LED backlights.
 
 Sustained full-screen brightness runs to approximately 220 nits — again meaningfully higher than traditional WOLED and slightly above the Sony A95L, though Samsung's ABL (Automatic Brightness Limiter) still engages in sustained bright scenes as it does on all OLED technologies. Black levels are, as with any self-emissive technology, perfect — pixels that should be black are completely off.
 
@@ -93,7 +93,7 @@ The S90D's 144Hz native panel is a significant differentiator versus the 120Hz c
 
 FreeSync Premium Pro certification covers variable refresh across the full range. The S90D does not hold NVIDIA G-Sync Compatible status, which means it will not appear in Nvidia GPU menus as a verified G-Sync display. In practice, FreeSync generally functions correctly on Nvidia hardware via HDMI VRR in compatible titles, but it is not the seamless certified experience G-Sync Compatible provides.
 
-Input lag in Game Mode has been measured at approximately 5.8ms at 4K/120Hz — lower than the Sony A95L, significantly lower than most LCD gaming TVs, and impressively responsive for any use case including competitive play. The single HDMI 2.1 port is the real gaming limitation: only one device can output 4K at 120Hz or above at a time. With a PS5, an Xbox Series X, and a gaming PC in the mix, two of those three will be running at 4K/60Hz maximum.
+Reviewers have measured input lag in Game Mode at approximately 5.8ms at 4K/120Hz — lower than the Sony A95L, significantly lower than most LCD gaming TVs, and impressively responsive for any use case including competitive play. The single HDMI 2.1 port is the real gaming limitation: only one device can output 4K at 120Hz or above at a time. With a PS5, an Xbox Series X, and a gaming PC in the mix, two of those three will be running at 4K/60Hz maximum.
 
 ALLM switches the TV into Game Mode automatically when a console handshake is detected. Samsung's Game Bar — a quick-access HUD available by holding the Play button — shows current refresh rate, VRR status, input lag, and aspect ratio without leaving the game. It is a genuinely useful feature that competing smart TV platforms have not replicated as elegantly.
 

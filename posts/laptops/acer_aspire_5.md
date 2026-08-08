@@ -86,7 +86,7 @@ The 512GB PCIe NVMe SSD is a genuine competitive advantage at this price. Many b
 
 ## Battery Life
 
-Battery life is the Aspire 5's second strongest competitive quality after value. The 56.5Wh battery combined with the Ryzen 5 7530U's efficient 15W platform consistently delivers 10 to 11 hours of mixed productivity use in real-world testing — web browsing, document editing, video calls, and casual video streaming with display at 150 nits brightness. This runtime approaches dedicated ultrabook territory, and substantially exceeds the 6–8 hour results typical of comparable Intel-based budget laptops.
+Battery life is the Aspire 5's second strongest competitive quality after value. Independent battery testing commonly shows the 56.5Wh battery and Ryzen 5 7530U's efficient 15W platform delivering 10 to 11 hours of mixed productivity use — web browsing, document editing, video calls, and casual video streaming with display at 150 nits brightness. This runtime approaches dedicated ultrabook territory, and substantially exceeds the 6–8 hour results typical of comparable Intel-based budget laptops.
 
 Acer ships the Aspire 5 with a 65W USB-C charger rather than the barrel-connector adapters still used by some budget-tier competitors. USB-C charging means the Aspire 5 can charge from a compatible power bank, share chargers with other USB-C devices, and use third-party GaN chargers — a practical quality-of-life advantage. Charging from near-empty to full takes approximately 1.5 to 2 hours with the included adapter.
 

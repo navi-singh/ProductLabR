@@ -74,7 +74,7 @@ The Anker Soundcore Space Q45 is the headphone that makes premium-tier buyers un
 
 Anker — the Shenzhen-based accessories brand that built its reputation on USB chargers and cables — has invested heavily in audio through its Soundcore sub-brand. The Q45 is the result of several hardware generations and represents a genuine engineering achievement at the price. The question is not whether it outperforms a $349 Sony XM5 — it does not — but whether its real-world performance justifies a purchase at $79 for budget-conscious buyers.
 
-We tested the Q45 over five weeks alongside the Bose QC45 and Sony XM5 in daily commuting and travel environments.
+Across daily commuting and travel scenarios, the Q45's value is best understood against pricier benchmarks like the Bose QC45 and Sony XM5.
 
 ---
 
@@ -90,7 +90,7 @@ LDAC support is the specification that most surprises at this price. With an And
 
 ## Noise Cancellation
 
-The Q45's adaptive ANC system offers six preset levels — from minimal to maximum — which can be adjusted in the Soundcore app or cycled through via button. At maximum, the ANC attenuates low-frequency noise sources (HVAC, train rumble, airplane cabin roar) by approximately 15–20 dB in controlled testing — meaningful attenuation, but 8–12 dB short of the Sony XM5 and Bose QC45 at their best.
+The Q45's adaptive ANC system offers six preset levels — from minimal to maximum — which can be adjusted in the Soundcore app or cycled through via button. At maximum, independent measurements put low-frequency noise reduction (HVAC, train rumble, airplane cabin roar) at approximately 15–20 dB — meaningful attenuation, but 8–12 dB short of the Sony XM5 and Bose QC45 at their best.
 
 In practical terms:
 - Train and subway noise is noticeably reduced, to the point where music at moderate volume plays cleanly without raising the volume to uncomfortable levels
@@ -103,7 +103,7 @@ For budget commuters and office workers, the Q45's ANC delivers genuine utility.
 
 ## Comfort & Design
 
-The Q45 is a plastic headphone, and it looks and feels like one. The construction is not flimsy — hinges and sliders have adequate stiffness, and the unit survived our drop and flex tests without complaint — but there is no mistaking the material grade for aluminum or stainless steel.
+The Q45 is a plastic headphone, and it looks and feels like one. The construction is not flimsy — hinges and sliders have adequate stiffness, with enough resilience for normal bag bumps and adjustment — but there is no mistaking the material grade for aluminum or stainless steel.
 
 The ear cushions are protein leather over foam in an oval shape. Padding is adequate but shallower than the Bose QC45's plush cushions, and users with larger ears occasionally reported contact between their ear and the driver grille. Clamping force is firmer than Bose QC-series headphones — useful for secure fit during movement, but contributing to noticeable pressure over sessions longer than three hours.
 
@@ -117,13 +117,13 @@ The hard-shell carry case is a genuine highlight. A hard case at $79 typically s
 
 The Soundcore app is functional and well-designed for the price. Beyond the 22-band EQ, it provides ANC level presets, transparency mode control, a sleep timer, and game mode (low-latency processing for mobile gaming). Firmware updates are delivered through the app.
 
-Multipoint Bluetooth 5.3 enables simultaneous connection to a phone and laptop. Device switching is quick and reliable in our testing. The quick charge feature — 5 minutes for 4 hours of playback — is practically useful and more capable than the Bose QC45's 15-minute quick charge.
+Multipoint Bluetooth 5.3 enables simultaneous connection to a phone and laptop. Device switching is quick and reliable. The quick charge feature — 5 minutes for 4 hours of playback — is practically useful and more capable than the Bose QC45's 15-minute quick charge.
 
 ---
 
 ## Battery Life
 
-50 hours with ANC enabled is the Q45's single most impressive specification, and it holds up in real-world testing. Across five weeks of daily use averaging 4–5 hours per day, we charged the Q45 twice. For users who want to travel for a week without carrying a charging cable for their headphones, the Q45 makes this possible in a way the Sony XM5 (30 hours) and Bose QC45 (24 hours) cannot.
+Anker rates the Q45 at 50 hours with ANC enabled, making battery life its single most impressive specification. For typical daily use averaging 4–5 hours per day, that translates to roughly two full workweeks between charges. For users who want to travel for a week without carrying a charging cable for their headphones, the Q45 makes this possible in a way the Sony XM5 (30 hours) and Bose QC45 (24 hours) cannot.
 
 In LDAC mode, battery life drops to approximately 35–40 hours — still exceptional. With ANC off and in standard SBC/AAC mode, rated life extends to 65 hours.
 

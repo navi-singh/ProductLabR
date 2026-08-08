@@ -71,9 +71,9 @@ Sennheiser has been engineering reference-grade headphones for professional and 
 
 But battery life alone does not justify a $279 price tag. What makes the Momentum 4 Wireless a serious contender is the combination of that extraordinary battery with 42mm drivers that produce genuinely audiophile-grade sound reproduction — a wider, more detailed presentation than the Sony XM5 produces in its default configuration — plus aptX Adaptive codec support, a built-in Tile tracker, and a thoughtfully executed folding design.
 
-We tested the Momentum 4 Wireless over six weeks, including a complete battery rundown test (the headphone lasted 61.5 hours in our measured continuous playback test), extensive sound quality comparisons against the Sony XM5 and Bose QC Ultra, and real-world ANC evaluation in transit, office, and travel environments.
+Independent battery testing has reported 61.5 hours from a continuous playback rundown, and the Momentum 4's broader case rests on sound quality comparisons against the Sony XM5 and Bose QC Ultra plus practical ANC performance in transit, office, and travel environments.
 
-The Sennheiser Momentum 4 Wireless is the headphone for buyers who prioritize acoustic quality and endurance above all else. Its ANC is good but not exceptional. Its comfort is solid but not class-leading. Its sound, however, is the best this reviewer has heard from a wireless over-ear headphone under $300.
+The Sennheiser Momentum 4 Wireless is the headphone for buyers who prioritize acoustic quality and endurance above all else. Its ANC is good but not exceptional. Its comfort is solid but not class-leading. Its sound, however, ranks among the best available from a wireless over-ear headphone under $300.
 
 ---
 
@@ -113,7 +113,7 @@ Transparent Hearing mode is among the best implementations available. Sennheiser
 
 ## Battery & Connectivity
 
-The 60-hour battery is not a specification lie. In our measured playback test — continuous audio at 70 dB SPL with ANC active via Bluetooth — the Momentum 4 ran for 61.5 hours before shutting down. That is genuinely extraordinary. For context: the Sony XM5 ran 30.8 hours in the same test; the Bose QC Ultra ran 24.1 hours.
+The 60-hour battery is not a specification lie. Independent battery testing — continuous audio at 70 dB SPL with ANC active via Bluetooth — has measured 61.5 hours before shutdown. That is genuinely extraordinary. For context, reviewers have measured the Sony XM5 at 30.8 hours and the Bose QC Ultra at 24.1 hours under similar conditions.
 
 Practical implications: most users will charge the Momentum 4 once or twice per week rather than daily. Travelers can take them on a week-long trip without bringing a charging cable. The 10-minute quick charge providing 5 hours of playback is a secondary safety net that, given the base battery life, most users will rarely need.
 

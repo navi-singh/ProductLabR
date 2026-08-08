@@ -73,7 +73,7 @@ ratingBreakdown:
 
 Nothing is the London-based consumer electronics brand founded by OnePlus co-founder Carl Pei in 2020 with an explicit design philosophy: products that look different from everything else on the market. The original Ear (1) generated attention with its transparent polycarbonate case and stem earbuds — style-forward in a category of identical white and black cylinders. The Nothing Ear (2), released in March 2023, upgrades that foundation with stronger ANC, LHDC 5.0 hi-res audio codec support, better drivers, and a refined application.
 
-At $149, the Ear (2) sit below the Sony WF-1000XM5 ($279) and Apple AirPods Pro 2 ($249) but above budget competitors like the Soundcore Liberty 4. The question they answer is: how much premium performance can $149 buy in 2024? The answer, from our six weeks of testing, is more than expected.
+At $149, the Ear (2) sit below the Sony WF-1000XM5 ($279) and Apple AirPods Pro 2 ($249) but above budget competitors like the Soundcore Liberty 4. The question they answer is: how much premium performance can $149 buy in 2024? The answer, judging by the specifications and the balance of independent reviews, is more than expected.
 
 ---
 
