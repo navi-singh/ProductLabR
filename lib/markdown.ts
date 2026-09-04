@@ -1,10 +1,30 @@
 import { marked, Renderer } from 'marked';
+import { withBasePath } from './basePath';
+
+function escapeAttr(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
 
 export function processMarkdownContent(content: string): string {
   try {
     // Strip raw HTML blocks to prevent XSS via inline HTML in .md files
     const renderer = new Renderer();
     renderer.html = () => '';
+
+    // Inline markdown images bypass next/image, so nothing else prefixes the
+    // basePath for them. Without this every in-body image 404s on GitHub Pages,
+    // which serves the site from /ProductLabR.
+    renderer.image = ({ href, title, text }) => {
+      const src = escapeAttr(withBasePath(href ?? ''));
+      const alt = escapeAttr(text ?? '');
+      const titleAttr = title ? ` title="${escapeAttr(title)}"` : '';
+      return `<img src="${src}" alt="${alt}"${titleAttr} loading="lazy" decoding="async" class="mx-auto my-6 h-auto max-h-96 w-auto max-w-full rounded-xl border border-neutral-200" />`;
+    };
+
     marked.use({ renderer });
 
     // Configure marked for better output
@@ -62,7 +82,14 @@ export function processMarkdownContent(content: string): string {
     // Style code
     styledHtml = styledHtml.replace(/<code>/g, '<code class="bg-gray-100 px-1 py-0.5 rounded text-sm">');
     styledHtml = styledHtml.replace(/<pre>/g, '<pre class="bg-gray-100 p-4 rounded-lg my-4 overflow-x-auto">');
-    
+
+    // An all-italic paragraph directly beneath an image is a caption, not body
+    // copy. Style it as one so the attribution reads as a credit line.
+    styledHtml = styledHtml.replace(
+      /(<p class="mb-4 leading-relaxed"><img[^>]*><\/p>)\s*<p class="mb-4 leading-relaxed"><em class="italic">([\s\S]*?)<\/em><\/p>/g,
+      '$1<p class="-mt-4 mb-6 text-center text-sm text-neutral-500">$2</p>'
+    );
+
     return styledHtml;
   } catch (error) {
     console.error('Error processing markdown:', error);

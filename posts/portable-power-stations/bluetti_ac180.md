@@ -6,8 +6,8 @@ capacityWh: 1152
 features:
   - "solar"
   - "cpap"
-image: "/images/posts/bluetti_ac180/AC180_main.webp"
-productImage: "/images/posts/bluetti_ac180/AC180_main.webp"
+image: "/images/posts/portable-power-stations/bluetti_ac180/AC180_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_ac180/AC180_main.webp"
 specs:
   Battery Capacity: "1,152Wh LiFePO4"
   Inverter Power: "1,800W (Surge 2,700W)"
@@ -97,7 +97,7 @@ Testing with various solar setups confirmed reliable MPPT charge controller perf
 ## Design and Build Quality
 
 The **BLUETTI AC180** is designed for both portability and durability. It features a sturdy casing with reinforced corners, ensuring protection against minor impacts and wear. The handle is ergonomically designed for comfortable carrying, and its compact dimensions make it convenient to store in an RV, car trunk, or home.
-![BLUETTI AC180 build quality View](/images/posts/bluetti_ac180/AC180_1.jpg)
+![BLUETTI AC180 build quality View](/images/posts/portable-power-stations/bluetti_ac180/AC180_1.jpg)
 The LCD display provides real-time data on battery status, input/output power, and remaining runtime, making it easy to monitor energy consumption. The interface is intuitive, with clearly labeled buttons and ports, ensuring a seamless user experience.
 
 ## Performance and Usability
@@ -108,7 +108,7 @@ In real-world testing, the **BLUETTI AC180** performed exceptionally well across
 - **Worksite Support:** Handled power tools like drills and saws without performance drops.
 
 The fast-charging feature was a game changer. Plugging it into an AC outlet replenished the battery from 0% to 80% in just 45 minutes. Additionally, with a 500W solar panel, it reached full charge in about 3-4 hours under direct sunlight.
-![BLUETTI AC180 performance View](/images/posts/bluetti_ac180/AC180.jpg)
+![BLUETTI AC180 performance View](/images/posts/portable-power-stations/bluetti_ac180/ac180.jpg)
 
 ## Comparison to Competitors
 

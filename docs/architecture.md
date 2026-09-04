@@ -122,7 +122,7 @@ See [reference/playwright-e2e.md](./reference/playwright-e2e.md#bug-b--local-ima
 
 - `lib/adsense-config.ts` holds all slot IDs and a `shouldShowAds()` gate.
 - `components/ads/AdBanner.tsx` renders either a labeled placeholder (dev) or the real AdSense script (prod with publisher ID set).
-- The publisher ID comes from `NEXT_PUBLIC_ADSENSE_PUBLISHER_ID`. If missing in a production build, the build logs a **warning** (not an error — see commit `89e8987`) so CI passes on forks without secrets.
+- The publisher ID comes from `NEXT_PUBLIC_GOOGLE_ADSENSE_ID`. If missing in a production build, the build logs a **warning** (not an error) so CI passes on forks without secrets.
 
 **Affiliate links** are pure markup. `retailerLinks` in frontmatter → `RetailerLinks` / `PriceButton` components → `<a rel="noopener noreferrer nofollow">`. Every URL passes `isSafeUrl()` first.
 

@@ -6,8 +6,8 @@ capacityWh: 1024
 features:
   - "solar"
   - "van-life"
-image: "/images/posts/ecoflow_delta3/delta3_main.webp"
-productImage: "/images/posts/ecoflow_delta3/delta3_main.webp"
+image: "/images/posts/portable-power-stations/ecoflow_delta3/delta3_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta3/delta3_main.webp"
 specs:
   Battery Capacity: "1,024Wh LiFePO4"
   Inverter Power: "1,800W (Surge 2,700W)"

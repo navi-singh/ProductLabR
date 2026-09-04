@@ -102,6 +102,15 @@ export const CATEGORIES: Category[] = [
     description: 'Robot vacuums, smart speakers and connected devices rated on automation and reliability.',
   },
   {
+    slug: 'thermostats',
+    contentDir: 'thermostats',
+    name: 'Smart Thermostats',
+    shortName: 'Thermostats',
+    icon: '🌡️',
+    description:
+      'Wi-Fi and learning thermostats compared on HVAC compatibility, C-wire requirements, room sensors and how much they actually cut heating and cooling bills.',
+  },
+  {
     slug: 'knives-tools',
     contentDir: 'knives-tools',
     name: 'Knives & Tools',

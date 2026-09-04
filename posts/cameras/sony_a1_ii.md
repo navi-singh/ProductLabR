@@ -2,9 +2,8 @@
 title: "Sony A1 II: The Ultimate Camera for Content Creation"
 subtitle: "A comprehensive review of Sony's latest camera technology"
 date: "2025-08-17"
-image: "/images/item.png"
-productImage: "/images/item.png"
-
+image: "/images/posts/cameras/sony_a1_ii/sony_a1_ii.webp"
+productImage: "/images/posts/cameras/sony_a1_ii/sony_a1_ii.webp"
 specs:
   Sensor: "50MP Full-Frame CMOS"
   Autofocus: "Real-time tracking with AI recognition"

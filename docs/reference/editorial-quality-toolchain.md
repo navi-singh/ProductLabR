@@ -1,6 +1,6 @@
 # Reference — Editorial Quality Toolchain
 
-Deterministic editorial tooling lives in `scripts/editorial/`. It audits the 127-review corpus, ranks remediation work, gates publish readiness, and gives the agent chain a stable machine-readable contract.
+Deterministic editorial tooling lives in `scripts/editorial/`. It audits the 149-review corpus, ranks remediation work, gates publish readiness, and gives the agent chain a stable machine-readable contract.
 
 > **Important:** the rubric is a **quality floor, not a craft score**. Once an article clears the hard gates, scores cluster near 100 and cannot rank two publishable drafts. Use human/editorial review for voice, flow, judgment, and usefulness.
 

@@ -6,8 +6,8 @@ capacityWh: 500
 features:
   - "solar-kit"
   - "van-life"
-image: "/images/posts/goal_zero_yeti_500x/goal_zero_yeti_500x_main.webp"
-productImage: "/images/posts/goal_zero_yeti_500x/goal_zero_yeti_500x_main.webp"
+image: "/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_main.webp"
+productImage: "/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_main.webp"
 
 specs:
   Capacity: "505Wh"

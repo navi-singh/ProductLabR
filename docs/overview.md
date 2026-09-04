@@ -33,7 +33,7 @@ ProductLabR is an **editorial product-review site**: long-form, ranked, "best of
 
 ## What's on the site
 
-- **127 reviews** across 10 categories — the largest is **portable power stations** (33 reviews).
+- **149 reviews** across 11 categories — the largest is **portable power stations** (47 reviews).
 - **Category hubs** under `/best/` with ranked lists, "quick picks," and buying guides.
 - **Comparison pages** for head-to-head matchups (initially power stations).
 - **Interactive finder quizzes** (e.g. `PowerStationQuiz`) that route users to the right category page.

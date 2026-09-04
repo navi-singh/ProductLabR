@@ -6,8 +6,8 @@ capacityWh: 3072
 features:
   - "solar-kit"
   - "30a-rv"
-image: "/images/posts/bluetti_ac300_b300/bluetti_ac300_b300_main.webp"
-productImage: "/images/posts/bluetti_ac300_b300/bluetti_ac300_b300_main.webp"
+image: "/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_main.webp"
 
 specs:
   Capacity: "3072Wh"

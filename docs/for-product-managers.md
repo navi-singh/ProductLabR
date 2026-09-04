@@ -55,7 +55,7 @@ Article (/articles/<slug>)
 
 | Category | Reviews | Notes |
 |---|---:|---|
-| Portable power stations | 33 | The largest vertical; active expansion |
+| Portable power stations | 47 | The largest vertical; active expansion |
 | Cameras | 15 | Hybrid, pro photo, pro generic sub-hubs |
 | Headphones | 15 | Noise-cancelling, wireless earbuds |
 | TVs | 15 | Gaming TVs, OLED |
@@ -64,8 +64,9 @@ Article (/articles/<slug>)
 | Gaming | 8 | Keyboards, mice |
 | Monitors | 8 | 4K, gaming |
 | Smart home | 8 | Robot vacuums, smart speakers |
+| Smart thermostats | 8 | HVAC compatibility, sensors, and controls |
 | Knives & tools | 1 | Seed |
-| **Total** | **127** | |
+| **Total** | **149** | |
 
 ## How a review is ranked
 

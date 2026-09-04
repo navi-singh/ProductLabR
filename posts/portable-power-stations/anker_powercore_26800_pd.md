@@ -4,8 +4,8 @@ subtitle: "A comprehensive review with real-world testing, performance analysis,
 date: "2025-08-17"
 capacityWh: 99
 features: []
-image: "/images/posts/anker_powercore_26800_pd/anker_powercore_26800_pd_main.webp"
-productImage: "/images/posts/anker_powercore_26800_pd/anker_powercore_26800_pd_main.webp"
+image: "/images/posts/portable-power-stations/anker_powercore_26800_pd/anker_powercore_26800_pd_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_powercore_26800_pd/anker_powercore_26800_pd_main.webp"
 
 specs:
   Capacity: "96.48Wh"

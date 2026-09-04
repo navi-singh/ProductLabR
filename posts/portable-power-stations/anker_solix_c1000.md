@@ -6,8 +6,8 @@ capacityWh: 1056
 features:
   - "solar"
   - "van-life"
-image: "/images/posts/anker_solix_c1000/anker_c1000_main.webp"
-productImage: "/images/posts/anker_solix_c1000/anker_c1000_main.webp"
+image: "/images/posts/portable-power-stations/anker_solix_c1000/anker_c1000_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_c1000/anker_c1000_main.webp"
 specs:
   Battery Capacity: "1,056Wh LiFePO4"
   Inverter Power: "1,800W (Surge 2,400W)"

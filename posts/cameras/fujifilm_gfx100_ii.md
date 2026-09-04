@@ -2,9 +2,8 @@
 title: "Fujifilm GFX100 II: The Ultimate Camera for Content Creation"
 subtitle: "A comprehensive review of Fujifilm's latest camera technology"
 date: "2025-08-17"
-image: "/images/item.png"
-productImage: "/images/item.png"
-
+image: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii.webp"
+productImage: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii.webp"
 specs:
   Sensor: "102MP Medium Format CMOS"
   Autofocus: "425-point phase detection"

@@ -1,6 +1,6 @@
 # ProductLabR Documentation
 
-> Editorial product-review site built on Next.js App Router. 127 markdown reviews across 10 categories, statically exported to GitHub Pages, monetized through AdSense and affiliate links.
+> Editorial product-review site built on Next.js App Router. 149 markdown reviews across 11 categories, statically exported to GitHub Pages, monetized through AdSense and affiliate links.
 
 This documentation is organized by **who you are** and **what you're trying to do** — pick the entry point that matches your role.
 
@@ -45,6 +45,7 @@ Specs and plans live under `docs/superpowers/`. Completed work is kept for refer
 | ✅ Shipped | [UI Redesign Plan](./superpowers/plans/2026-05-11-ui-redesign-material-design.md) | 12-task implementation plan for the UI redesign |
 | 📋 Planned | [Power Station Categories Design](./superpowers/specs/2025-05-06-power-station-categories-design.md) | 7 new sub-category pages + comparisons + finder quiz |
 | 📋 Planned | [Power Station Category Expansion](./superpowers/plans/2025-05-06-power-station-category-expansion.md) | Implementation plan for the category expansion |
+| 📝 Current | [September 2026 Context](./context/context_2026_09_03.md) | Current inventory, architecture, and worktree context |
 
 ---
 

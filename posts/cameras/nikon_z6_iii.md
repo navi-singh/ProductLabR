@@ -2,9 +2,8 @@
 title: "Nikon Z6 III: Comprehensive Testing for Photo and Video"
 subtitle: "A comprehensive review of Nikon's latest camera technology"
 date: "2025-08-17"
-image: "/images/item.png"
-productImage: "/images/item.png"
-
+image: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii.webp"
+productImage: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii.webp"
 specs:
   Sensor: "24.5MP Full-Frame CMOS"
   Autofocus: "273-point hybrid AF"

@@ -3,6 +3,7 @@ import path from 'path';
 import { MetadataRoute } from 'next';
 import { getAllPostSlugs } from '../lib/Posts';
 import { SITE_URL } from '../lib/site-url';
+import { CATEGORIES } from '../lib/taxonomy';
 
 export const dynamic = 'force-static';
 
@@ -49,7 +50,16 @@ function getStaticRoutes(): string[] {
   }
 
   walk(appDir, []);
-  return routes.sort();
+
+  // Category hubs without a bespoke `app/best/<slug>/` directory are served by
+  // the `[category]` dynamic segment, which the walk above skips. Deriving them
+  // from the taxonomy keeps every hub in the sitemap regardless of which of the
+  // two routing paths renders it.
+  for (const category of CATEGORIES) {
+    routes.push(`/best/${category.slug}`);
+  }
+
+  return Array.from(new Set(routes)).sort();
 }
 
 function priorityFor(route: string): number {

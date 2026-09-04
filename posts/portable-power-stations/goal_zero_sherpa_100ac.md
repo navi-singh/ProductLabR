@@ -4,8 +4,8 @@ subtitle: "A comprehensive review with real-world testing, performance analysis,
 date: "2025-08-17"
 capacityWh: 100
 features: []
-image: "/images/posts/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_main.webp"
-productImage: "/images/posts/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_main.webp"
+image: "/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_main.webp"
+productImage: "/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_main.webp"
 
 specs:
   Capacity: "94.7Wh"

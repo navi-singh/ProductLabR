@@ -219,8 +219,8 @@ Use production mode when touching local image paths, `withBasePath()`, `next/ima
 
 - All ad placement goes through `<AdBanner adSlot="..." adFormat="..." />`.
 - Slots are typed via `ADSENSE_CONFIG` in `lib/adsense-config.ts`. Add a new slot there before referencing it.
-- `shouldShowAds()` gates rendering: dev shows a labeled placeholder; prod shows real ads only when `NEXT_PUBLIC_ADSENSE_PUBLISHER_ID` is set to a real `ca-pub-...` value.
-- The build emits a **warning** (not an error) if the env var is missing — see commit `89e8987`. Don't tighten this back to an error or CI will fail on forks.
+- `shouldShowAds()` gates rendering: dev shows a labeled placeholder; prod shows real ads only when `NEXT_PUBLIC_GOOGLE_ADSENSE_ID` is set to a real `ca-pub-...` value.
+- The build emits a **warning** (not an error) if the env var is missing. Don't tighten this back to an error or CI will fail on forks.
 
 ## Price visibility rule
 
@@ -249,7 +249,7 @@ Both share the `NAV_CATEGORIES` array from `lib/nav-categories.ts`. Add new top-
 | Dependency behavior differs locally vs CI | The repo is npm-only: `package-lock.json` is the single lockfile and CI runs `npm ci`. Do not add a `yarn.lock` — the workflow prefers yarn when it exists, and yarn v1 ignores npm `overrides`, so security pins would stop reaching production |
 | Product images are placeholder or missing | Product imagery is a content gap: many reviews use `/images/item.png`, and many others reference local filenames absent from `public/images/`; this is separate from the basePath bug |
 | Static export complains about a dynamic route | Add `generateStaticParams()`, or set `export const dynamic = 'force-static'` |
-| AdSense placeholder shows in prod | Env var `NEXT_PUBLIC_ADSENSE_PUBLISHER_ID` not set in the deploy environment |
+| AdSense placeholder shows in prod | Env var `NEXT_PUBLIC_GOOGLE_ADSENSE_ID` not set in the deploy environment |
 | Stale build output | Delete `.next/` and `out/`, rebuild |
 | Slug not found at runtime | The slug isn't in `posts/<category>/`, or has invalid characters (must match `/^[a-z0-9]+(?:[_-][a-z0-9]+)*$/i`) |
 

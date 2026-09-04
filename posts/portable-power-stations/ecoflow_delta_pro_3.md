@@ -7,8 +7,8 @@ features:
   - "30a-rv"
   - "solar"
   - "240v"
-image: "/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg"
-productImage: "/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg"
+image: "/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_main.webp"
 
 specs:
   Capacity: "4096Wh (expandable to 48kWh)"
@@ -66,6 +66,10 @@ The EcoFlow Delta Pro 3 is not just another portable power station—it's a flag
 
 At 113.5 lbs (51.5kg), the Delta Pro 3 makes an immediate impression with its substantial weight and premium build. EcoFlow includes a telescoping handle and rugged wheels for transport, plus robust packaging with comprehensive accessories including AC, DC, and solar charging cables. The industrial-grade plastic casing is positioned as durable, while the IP65-rated battery compartment supports both indoor and outdoor capability. The large, bright digital display provides clear real-time feedback on essential metrics for demanding scenarios.
 
+![EcoFlow Delta Pro 3 side profile showing the recessed telescoping handle and rear transport wheels](/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_profile.webp)
+
+*Side profile: the recessed telescoping handle and rear wheels that make 113.5 lbs movable by one person on flat ground. Image: EcoFlow.*
+
 ## Key Features & Design
 
 The Delta Pro 3 combines massive capacity with rapid charging and smart integration:
@@ -79,7 +83,21 @@ The Delta Pro 3 combines massive capacity with rapid charging and smart integrat
 
 The design balances industrial strength with user-focused practicality. The compact footprint (27.3" x 13.4" x 16.1") maximizes capacity efficiency while the telescoping handle and rugged wheels make the substantial weight manageable for single-person transport. The high-contrast LCD display shows real-time input/output wattage, precise battery percentage, and accurate runtime estimates at a glance. All ports feature clear labeling with protective covers for outdoor durability, and the unit maintains whisper-quiet operation even under heavy continuous load.
 
+![EcoFlow Delta Pro 3 front panel showing five 20A AC outlets, the 30A locking outlet, TT-30R RV outlet and USB bank](/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_ports.webp)
+
+*The front panel consolidates the AC outlet bank, the 30A locking outlet and the USB-A/USB-C row beneath the display. Image: EcoFlow.*
+
+Around the back, EcoFlow places the charging inputs and the expansion ports that carry the system beyond its 4,096Wh base capacity.
+
+![Rear panel of the EcoFlow Delta Pro 3 showing AC charging input, solar input and two extra battery ports](/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_rear.webp)
+
+*Rear panel: AC and solar charging inputs alongside the two extra-battery ports used for capacity expansion. Image: EcoFlow.*
+
 ## Performance Testing
+
+![Close-up of the EcoFlow Delta Pro 3 LCD showing 1892W input, 86 percent charge, 23.8 hours remaining and 2386W output](/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_display.webp)
+
+*The display reports input and output wattage, state of charge and estimated runtime simultaneously — the readout buyers rely on during an outage. Image: EcoFlow.*
 
 ### Home Backup & UPS Performance
 Real-world testing confirmed the Delta Pro 3 excels as comprehensive whole-home backup with true 10ms UPS switchover, ensuring zero interruptions for critical devices including medical equipment, home offices, and sensitive electronics. During extended simulated outages, it powered a full-size refrigerator, WiFi router, multiple laptops, LED lighting, and security systems for 8-12 hours continuously. 
@@ -95,6 +113,10 @@ The 30A RV outlet and 240V support make it ideal for travel trailers, tiny homes
 AC input achieves 80% capacity in just 50 minutes—a remarkable feat for a unit this size that outpaces virtually all competitors. Seven charging methods provide unmatched flexibility: standard AC, high-speed AC, solar (up to 2600W), EV charging, car charging, generator input, and dual charging combinations (AC + solar up to 7000W).
 
 Off-grid users consistently achieved full recharges using 800W+ solar panel arrays during single sunny days. The ability to combine charging sources means users can maintain battery levels even during heavy continuous use. System expandability to 48kWh total capacity enables scaling for extended outages, large off-grid installations, or commercial applications.
+
+![EcoFlow Delta Pro 3 paired with an extra battery unit to extend total capacity](/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_expansion.webp)
+
+*Capacity scales by docking extra batteries to the rear expansion ports; EcoFlow rates the full stack at up to 48kWh. Image: EcoFlow.*
 
 ## Competitive Analysis & Market Position
 

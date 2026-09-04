@@ -112,7 +112,7 @@ Do not hardcode `basePath`, `output: "export"`, or `images.unoptimized` in local
 
 ## Bug C — "Image unavailable" shown over a working placeholder
 
-69 of the 127 reviews point `image:` at a product-specific file that was never added to
+52 of the 149 reviews point `image:` at a product-specific file that was never added to
 `public/images/`. `OptimizedImage` is designed to absorb that by falling back to
 `/images/item.png`, but two defects stopped it working.
 

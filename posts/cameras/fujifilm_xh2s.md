@@ -2,9 +2,8 @@
 title: "Fujifilm X-H2S: Expert Review with Real-World Testing"
 subtitle: "A comprehensive review of Fujifilm's latest camera technology"
 date: "2025-08-17"
-image: "/images/item.png"
-productImage: "/images/item.png"
-
+image: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s.webp"
+productImage: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s.webp"
 specs:
   Sensor: "26.1MP APS-C X-Trans CMOS"
   Autofocus: "425-point intelligent hybrid AF"

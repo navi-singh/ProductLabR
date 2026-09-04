@@ -2,9 +2,8 @@
 title: "Sony α7R V: Comprehensive Testing for Photo and Video"
 subtitle: "A comprehensive review of Sony's latest camera technology"
 date: "2025-08-16"
-image: "/images/item.png"
-productImage: "/images/item.png"
-
+image: "/images/posts/cameras/sony_7r_v/sony_7r_v.webp"
+productImage: "/images/posts/cameras/sony_7r_v/sony_7r_v.webp"
 specs:
   Sensor: "61MP Full-Frame CMOS"
   Autofocus: "Real-time tracking with AI recognition"

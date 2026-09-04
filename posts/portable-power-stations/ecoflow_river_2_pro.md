@@ -7,8 +7,8 @@ features:
   - "van-life"
   - "cpap"
   - "solar"
-image: "/images/posts/ecoflow_river2_pro/river2_pro_main.webp"
-productImage: "/images/posts/ecoflow_river2_pro/river2_pro_main.webp"
+image: "/images/posts/portable-power-stations/ecoflow_river2_pro/river2_pro_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_river2_pro/river2_pro_main.webp"
 specs:
   Battery Capacity: "768Wh LiFePO4"
   Inverter Power: "800W (Surge 1,600W)"

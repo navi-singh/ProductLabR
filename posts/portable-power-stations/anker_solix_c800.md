@@ -6,8 +6,8 @@ capacityWh: 768
 features:
   - "van-life"
   - "cpap"
-image: "/images/posts/anker_solix_c800/anker_solix_c800_main.webp"
-productImage: "/images/posts/anker_solix_c800/anker_solix_c800_main.webp"
+image: "/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_main.webp"
 
 specs:
   Capacity: "768Wh"

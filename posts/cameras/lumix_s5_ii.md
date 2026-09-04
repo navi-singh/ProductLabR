@@ -2,8 +2,8 @@
 title: "Panasonic Lumix S5 II: The Hybrid Camera That Finally Gets Autofocus Right"
 subtitle: "A comprehensive review of Panasonic's phase-detection breakthrough in full-frame mirrorless"
 date: "2024-12-27"
-image: "/images/item.png"
-productImage: "/images/item.png"
+image: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii.webp"
+productImage: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii.webp"
 specs:
   Sensor: "24.2MP Full-Frame CMOS"
   Autofocus: "Phase-Detection Hybrid AF (779 points)"

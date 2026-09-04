@@ -74,6 +74,7 @@ Each article also emits per-route OG metadata and a JSON-LD `Review` schema.
 | `/best/smart-home` | Hub |
 | `/best/smart-home/robot-vacuums` | Sub |
 | `/best/smart-home/smart-speakers` | Sub |
+| `/best/thermostats` | Hub |
 | `/best/tvs` | Hub |
 | `/best/tvs/gaming-tvs` | Sub |
 | `/best/tvs/oled-tvs` | Sub |

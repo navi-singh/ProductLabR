@@ -4,8 +4,8 @@ subtitle: "A comprehensive review with real-world testing, performance analysis,
 date: "2025-08-17"
 capacityWh: 90
 features: []
-image: "/images/posts/ravpower_90w_ac_power_bank/ravpower_90w_ac_power_bank_main.webp"
-productImage: "/images/posts/ravpower_90w_ac_power_bank/ravpower_90w_ac_power_bank_main.webp"
+image: "/images/posts/portable-power-stations/ravpower_90w_ac_power_bank/ravpower_90w_ac_power_bank_main.webp"
+productImage: "/images/posts/portable-power-stations/ravpower_90w_ac_power_bank/ravpower_90w_ac_power_bank_main.webp"
 
 specs:
   Capacity: "88.8Wh"
