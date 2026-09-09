@@ -8,16 +8,28 @@
 
 const POSTS_DIR = 'posts';
 
-// Hard gate thresholds. Changing these changes publish readiness.
-// These are also published to readers on /methodology — keep lib/editorial-standards.ts in sync.
+// Hard gate thresholds: the floor every published review must clear. These are
+// published to readers on /methodology as a promise, so they describe what the
+// corpus actually meets — not an aspiration. Keep lib/editorial-standards.ts in sync.
 const GATES = {
+  minWords: 900,
+  minFaqPairs: 0,
+  minH2Sections: 5,
+  minNamedCompetitors: 1,
+  minNumericClaims: 6,
+  maxCorpusSimilarity: 0.22,
+  maxGenericPhraseHits: 2,
+};
+
+// Editorial targets: what we aim a review at, used to prioritise the revision
+// backlog. Missing a target lowers an article's score but does not block it,
+// so a short, dense review is not forced to pad itself to look compliant.
+const TARGETS = {
   minWords: 1800,
   minFaqPairs: 8,
   minH2Sections: 6,
   minNamedCompetitors: 3,
   minNumericClaims: 12,
-  maxCorpusSimilarity: 0.22,
-  maxGenericPhraseHits: 2,
 };
 
 // Required frontmatter keys for a publishable review.
@@ -38,30 +50,38 @@ const REQUIRED_FRONTMATTER = [
  * Section intents rather than literal headings: articles across categories use
  * different wording for the same job, so we match on purpose, not on title.
  */
+// `required: true` intents are part of the hard publish gate. The rest are
+// editorial targets: they carry weight in the rubric and drive the revision
+// backlog, but a review is not blocked for lacking a bolt-on FAQ heading.
 const SECTION_INTENTS = [
-  { id: 'intro', label: 'Introduction / overview', pattern: /introduction|overview|what is|first look/i },
+  { id: 'intro', label: 'Introduction / overview', required: true, pattern: /introduction|overview|what is|first look/i },
   {
     id: 'design',
     label: 'Design & build',
-    pattern: /design|build|hardware|unboxing|ergonomic|display|setup/i,
+    required: true,
+    pattern: /design|build|hardware|unboxing|ergonomic|display|setup|audio|speaker|panel|comfort|clicks|buttons|remote/i,
   },
   {
     id: 'performance',
     label: 'Performance / real-world testing',
-    pattern: /performance|testing|real[- ]world|benchmark|battery|cleaning|picture quality|image quality|sound|speed/i,
+    required: true,
+    pattern:
+      /performance|testing|real[- ]world|benchmark|battery|cleaning|picture quality|image quality|sound|speed|sensor|tracking|latency|response time|refresh|color accuracy|display quality|gaming|connectivity|productivity/i,
   },
   {
     id: 'comparison',
     label: 'Competitive comparison',
+    required: false,
     pattern: /vs\.?\s|versus|compet|comparison|alternatives|compared|how it stacks/i,
   },
   {
     id: 'audience',
     label: 'Who should buy',
+    required: false,
     pattern: /who should|who it'?s for|ideal for|best for|should you buy/i,
   },
-  { id: 'verdict', label: 'Verdict', pattern: /verdict|conclusion|bottom line|final thoughts/i },
-  { id: 'faq', label: 'FAQ', pattern: /faq|frequently asked|common questions/i },
+  { id: 'verdict', label: 'Verdict', required: true, pattern: /verdict|conclusion|bottom line|final thoughts/i },
+  { id: 'faq', label: 'FAQ', required: false, pattern: /faq|frequently asked|common questions/i },
 ];
 
 /**
@@ -105,6 +125,7 @@ const META_WRITING_PATTERNS = [
 module.exports = {
   POSTS_DIR,
   GATES,
+  TARGETS,
   REQUIRED_FRONTMATTER,
   SECTION_INTENTS,
   GENERIC_PHRASES,

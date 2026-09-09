@@ -1,6 +1,6 @@
 'use strict';
 
-const { GATES, SECTION_INTENTS } = require('../config');
+const { GATES, TARGETS, SECTION_INTENTS } = require('../config');
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 const ratio = (value, target) => clamp(value / target, 0, 1);
@@ -15,8 +15,8 @@ const DIMENSIONS = [
     label: 'Depth & completeness',
     weight: 20,
     score: (m) => {
-      const wordScore = ratio(m.words, GATES.minWords);
-      const sectionScore = ratio(m.h2Count, GATES.minH2Sections);
+      const wordScore = ratio(m.words, TARGETS.minWords);
+      const sectionScore = ratio(m.h2Count, TARGETS.minH2Sections);
       return wordScore * 0.7 + sectionScore * 0.3;
     },
   },
@@ -25,7 +25,7 @@ const DIMENSIONS = [
     label: 'Accuracy & evidence density',
     weight: 20,
     score: (m) => {
-      const claims = ratio(m.numericClaims, GATES.minNumericClaims);
+      const claims = ratio(m.numericClaims, TARGETS.minNumericClaims);
       const perThousand = m.words > 0 ? (m.numericClaims / m.words) * 1000 : 0;
       return claims * 0.6 + ratio(perThousand, 8) * 0.4;
     },
@@ -50,7 +50,7 @@ const DIMENSIONS = [
     label: 'Comparative buying guidance',
     weight: 10,
     score: (m) => {
-      const named = ratio(m.competitors.count, GATES.minNamedCompetitors);
+      const named = ratio(m.competitors.count, TARGETS.minNamedCompetitors);
       return named * 0.6 + (m.sections.comparison ? 0.4 : 0);
     },
   },
@@ -67,7 +67,7 @@ const DIMENSIONS = [
     score: (m) => {
       const intentsMet = SECTION_INTENTS.filter((intent) => m.sections[intent.id]).length;
       const structure = intentsMet / SECTION_INTENTS.length;
-      const faq = ratio(m.faqPairs, GATES.minFaqPairs);
+      const faq = ratio(m.faqPairs, TARGETS.minFaqPairs);
       return structure * 0.5 + faq * 0.5;
     },
   },
@@ -116,7 +116,7 @@ function priorityFor(total) {
 
 /** Rough rewrite cost so the orchestrator can sequence a backlog. */
 function effortFor(metrics) {
-  const wordGap = Math.max(0, GATES.minWords - metrics.words);
+  const wordGap = Math.max(0, TARGETS.minWords - metrics.words);
   if (wordGap > 900 || metrics.faqPairs === 0) return 'high';
   if (wordGap > 300 || metrics.retailerLinks.placeholder > 0) return 'medium';
   return 'low';

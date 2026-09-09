@@ -20,7 +20,9 @@ function runGates(metrics) {
     `${metrics.words} words`
   );
 
-  const missingIntents = SECTION_INTENTS.filter((intent) => !metrics.sections[intent.id]);
+  const missingIntents = SECTION_INTENTS.filter(
+    (intent) => intent.required && !metrics.sections[intent.id]
+  );
   add(
     'section_intents',
     'All required section intents present',

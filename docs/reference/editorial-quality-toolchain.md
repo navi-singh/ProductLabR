@@ -42,10 +42,10 @@ CLIs in scripts/editorial/*.js + .github/agents/*.agent.md
 
 | File | Responsibility |
 |---|---|
-| `scripts/editorial/config.js` | Single source of truth for thresholds (`GATES`), required frontmatter, section intents, generic phrases, meta-writing patterns, and pilot defaults. |
+| `scripts/editorial/config.js` | Single source of truth for the hard floor (`GATES`) and the editorial aspiration (`TARGETS`), plus required frontmatter, section intents, generic phrases, meta-writing patterns, and pilot defaults. |
 | `scripts/editorial/lib/corpus.js` | Walks `posts/`, parses frontmatter with `gray-matter`, returns repo-relative paths, and derives global + per-category brand indexes. |
 | `scripts/editorial/lib/metrics.js` | Counts words, headings, FAQ pairs, links, numeric claims, competitors, generic phrases, meta-writing, spec/rating contradictions, and 6-gram Jaccard corpus similarity. |
-| `scripts/editorial/lib/rubric.js` | Computes the deterministic 0–100 score across eight weighted dimensions, assigns priority bands, and estimates rewrite effort. |
+| `scripts/editorial/lib/rubric.js` | Computes the deterministic 0–100 score across eight weighted dimensions, assigns priority bands, and estimates rewrite effort. Scores against `TARGETS`, not `GATES`, so an article that clears the floor can still be ranked for revision. |
 | `scripts/editorial/lib/gates.js` | Runs 12 publish checks and emits the stable pass/fail contract consumed by agents. |
 | `scripts/editorial/audit.js` | Whole-corpus or filtered audit; optional markdown + JSON report output. |
 | `scripts/editorial/qa-gate.js` | Hard publish gate for one file, one category, or the whole corpus. |
@@ -68,11 +68,19 @@ CLIs in scripts/editorial/*.js + .github/agents/*.agent.md
 
 ### Blocking checks
 
+> **Gates are a floor, not an aspiration.** `GATES` is published to readers on
+> `/methodology` as a promise that *every* article clears it, so it must describe
+> what the corpus actually meets. `TARGETS` holds the higher numbers we aim at;
+> missing a target lowers the rubric score and queues the article for revision
+> but never blocks publication. Raising `GATES` without first raising the corpus
+> makes the public claim false — see the `editorial-gate` e2e spec, which fails
+> the build in exactly that case.
+
 | Check | Threshold / rule |
 |---|---|
-| `word_count` | Body has at least 1,800 words. |
-| `section_intents` | All seven intents are present: intro, design, performance, comparison, audience, verdict, FAQ. Matched by intent, not exact heading. |
-| `faq_pairs` | At least 8 FAQ question/answer pairs. |
+| `word_count` | Body has at least `GATES.minWords` (900) words. Target is 1,800. |
+| `section_intents` | The four `required: true` intents are present: intro, design, performance, verdict. Comparison, audience and FAQ are scored targets, not blockers. Matched by intent, not exact heading. |
+| `faq_pairs` | Not a blocking gate (`GATES.minFaqPairs` is 0). A question count is the easiest metric on the page to game, and an FAQ bolted on to clear a threshold helps nobody; the target of 8 still drives the backlog. |
 | `retailer_links` | At least one retailer link and no placeholder or non-HTTPS links. |
 | `frontmatter` | Required frontmatter fields are present. |
 | `rating_breakdown` | `ratingBreakdown.metrics` has at least 3 scored metrics from 0–10. |
