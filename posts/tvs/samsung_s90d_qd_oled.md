@@ -6,7 +6,7 @@ image: "/images/samsung_s90d_qd_oled.png"
 productImage: "/images/samsung_s90d_qd_oled.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "QD-OLED (Quantum Dot OLED, Self-Emissive)"
@@ -59,12 +59,12 @@ ratingBreakdown:
       score: 9.0
     - name: "Smart TV & Interface"
       score: 9.0
-    - name: "Audio"
-      score: 7.4
-    - name: "Value"
-      score: 9.2
     - name: "Design"
       score: 9.1
+    - name: "Value"
+      score: 7.9
+    - name: "Audio"
+      score: 7.4
 ---
 
 ## Introduction
@@ -136,4 +136,3 @@ The S90D is a harder sell for PlayStation-primary households (who will miss the 
 
 The Samsung S90D is the television that makes QD-OLED accessible. Its third-generation panel sets brightness records for self-emissive displays, its 144Hz native rate gives it a unique advantage over 120Hz OLED competitors, and its $1,299 price makes the premium picture technology attainable for a much wider audience than the Sony A95L reaches. The absence of Dolby Vision and the single HDMI 2.1 port are real compromises, but neither is disqualifying for the majority of buyers. If you want the best picture quality possible at $1,299 and can live without Dolby Vision, the S90D is the television to buy.
 
-**Overall Score: 9.1 / 10**

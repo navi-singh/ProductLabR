@@ -10,6 +10,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "home-backup"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "4,608Wh LiFePO4 (expandable to 41.4kWh)"
   Inverter Power: "6,000W at 240V / 3,600W at 120V"
@@ -42,25 +44,25 @@ cons:
   - "Display shows 100% before battery balancing completes (misleading)"
   - "USB selection is limited (only 1 USB-C)"
   - "Build materials feel budget relative to Anker/EcoFlow"
-price: "~$1,614 (with discount code TSLW)"
+price: "~$1,999 MSRP"
 retailerLinks:
   Amazon: "https://www.amazon.com/s?k=oupes%20guardian%206000"
   OUPES: "https://www.oupes.com/products/guardian-6000"
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=oupes%20guardian%206000"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 7.0
     - name: "Performance"
       score: 8.5
+    - name: "Power Output"
+      score: 10.0
+    - name: "Design & Build"
+      score: 7.0
+    - name: "Durability"
+      score: 10.0
     - name: "Ease of Use"
       score: 7.0
     - name: "Value"
       score: 9.5
-    - name: "240V Output"
-      score: 10.0
-    - name: "Warranty"
-      score: 10.0
 ---
 
 ## Introduction

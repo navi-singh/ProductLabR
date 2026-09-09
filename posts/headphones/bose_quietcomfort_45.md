@@ -6,7 +6,7 @@ image: "/images/bose_quietcomfort_45.png"
 productImage: "/images/bose_quietcomfort_45.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "40mm dynamic drivers"
@@ -61,12 +61,12 @@ ratingBreakdown:
       score: 8.8
     - name: "Noise Cancellation"
       score: 9.1
-    - name: "Comfort & Fit"
-      score: 9.4
     - name: "Battery Life"
       score: 8.9
+    - name: "Comfort & Fit"
+      score: 9.4
     - name: "Value"
-      score: 9.0
+      score: 7.9
 ---
 
 ## Introduction
@@ -146,4 +146,3 @@ Not the best choice for Android audiophiles seeking hi-res wireless audio, users
 
 The Bose QuietComfort 45 may not lead any single specification category, but it delivers a consistently excellent experience across comfort, ANC, sound quality, and portability at a competitive price. For the listener who will wear headphones for six-hour travel days and values arriving without a tension headache, the QC45 remains the most practical recommendation in the ANC headphone category. The Sony XM5 is technically superior; the QC45 is arguably more livable.
 
-**Overall Score: 9.0 / 10**

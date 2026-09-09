@@ -9,6 +9,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "large"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "3,072Wh LiFePO4 (expandable to 11kWh)"
   Inverter Power: "3,600W (120V, dual independent inverters)"
@@ -39,25 +41,25 @@ cons:
   - "Missing protective bumpers for vertical positioning"
   - "Confusing market positioning against original Delta Pro"
   - "74 lbs requires two people to lift"
-price: "~$1,499 (at launch with discount codes)"
+price: "~$1,899 MSRP"
 retailerLinks:
   Amazon: "https://www.amazon.com/s?k=ecoflow%20delta%203%20ultra%20plus"
   EcoFlow: "https://us.ecoflow.com/products/delta-3-ultra-plus"
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow%20delta%203%20ultra%20plus"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
+      score: 8.5
+    - name: "Solar Input"
+      score: 9.0
+    - name: "Expandability"
+      score: 9.5
+    - name: "Design & Build"
       score: 8.5
     - name: "Ease of Use"
       score: 8.0
     - name: "Value"
       score: 8.0
-    - name: "Expandability"
-      score: 9.5
-    - name: "Solar Input"
-      score: 9.0
 ---
 
 ## Introduction
@@ -68,7 +70,7 @@ The dual independent inverter architecture is the standout engineering choice �
 
 When one inverter trips on an overload, the other continues operating independently.
 
-For medical equipment users, small businesses, or anyone running loads that cannot be interrupted, this is not a minor feature.
+For a small business, a home lab, or anyone running loads that cannot simply drop, that is not a minor feature. If the load in question is medical, treat this as one layer of redundancy rather than the plan — confirm the requirement with the device's manufacturer and keep a second option.
 
 The 3,072Wh base capacity with 11kWh expansion ceiling positions it as a serious multi-day backup solution.
 
@@ -102,7 +104,7 @@ Each inverter independently manages its side of the load.
 
 In practice: the 30A outlet and the standard AC outlets run on separate inverter circuits — one can trip without killing the other.
 
-For mission-critical applications (medical equipment, server rooms, critical appliances), this redundancy is valuable.
+For anything you genuinely cannot afford to drop — a server rack, a freezer full of stock — that redundancy earns its keep.
 
 The unusual overload behavior reviewers flagged — only the 30A inverter side shutting off on surge — is actually consistent with this dual-inverter design.
 

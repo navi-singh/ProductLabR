@@ -8,6 +8,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "large"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "2,048Wh LiFePO4"
   Inverter Power: "2,400W (Pure Sine Wave)"
@@ -35,25 +37,25 @@ cons:
   - "High 27W idle draw — leave it plugged in all day and it wastes energy"
   - "No built-in LED light"
   - "Confusing naming within EcoFlow's crowded Delta 3 lineup"
-price: "$759 (with discount codes; MSRP ~$999)"
+price: "~$999 MSRP"
 retailerLinks:
   Amazon: "https://www.amazon.com/s?k=ecoflow%20delta%203%20max"
   EcoFlow: "https://us.ecoflow.com/products/delta-3-max-portable-power-station"
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow%20delta%203%20max"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 8.0
-    - name: "Ease of Use"
-      score: 9.0
-    - name: "Value"
-      score: 8.5
     - name: "Charging Speed"
       score: 10.0
     - name: "Solar Input"
       score: 4.0
+    - name: "Design & Build"
+      score: 8.5
+    - name: "Ease of Use"
+      score: 9.0
+    - name: "Value"
+      score: 8.5
 ---
 
 ## Introduction

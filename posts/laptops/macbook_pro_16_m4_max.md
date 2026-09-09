@@ -6,7 +6,7 @@ image: "/images/macbook_pro_16_m4_max.png"
 productImage: "/images/macbook_pro_16_m4_max.png"
 category: "laptops"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Processor: "Apple M4 Max (14-core CPU: 10 performance + 4 efficiency, up to 4.5GHz)"
@@ -46,10 +46,10 @@ ratingBreakdown:
       score: 9.5
     - name: "Build Quality"
       score: 9.7
-    - name: "Value"
-      score: 8.5
     - name: "Keyboard & Trackpad"
       score: 9.5
+    - name: "Value"
+      score: 7.1
 ---
 
 ## Introduction
@@ -98,4 +98,3 @@ It is not the right purchase for general productivity users, students, or anyone
 
 The MacBook Pro 16-inch M4 Max is the best professional laptop ever made. It delivers workstation-class compute in a package that lasts a full workday on battery, features the finest display in any laptop, and offers a port selection that eliminates the need for docks in most professional setups. The price is genuinely high — and the value proposition only makes sense for users whose work fully utilizes the M4 Max's capabilities. For those users, it is without question the right tool.
 
-**Overall Score: 9.4 / 10**

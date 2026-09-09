@@ -6,7 +6,7 @@ image: "/images/samsung_odyssey_g7.png"
 productImage: "/images/samsung_odyssey_g7.png"
 category: "monitors"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "VA (QLED)"
@@ -52,10 +52,10 @@ ratingBreakdown:
       score: 8.4
     - name: "Connectivity"
       score: 8.0
-    - name: "Value"
-      score: 8.8
     - name: "Design"
       score: 8.9
+    - name: "Value"
+      score: 7.8
 ---
 
 ## Introduction
@@ -100,4 +100,3 @@ The Samsung Odyssey G7 is built for dedicated PC gamers running powerful GPUs wh
 
 The Samsung Odyssey G7 27-inch is a singular monitor: nothing at $449 delivers 240Hz 1440p gaming with VA-class contrast and QLED color coverage. The aggressive 1000R curve, VA motion artifacts in dark scenes, and absent sRGB emulation are real compromises that will matter to some buyers. But for the gamer who wants the most immersive, high-refresh 1440p experience at this price, the Odyssey G7 remains the monitor to beat.
 
-**Overall Score: 8.7 / 10**

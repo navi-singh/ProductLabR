@@ -6,7 +6,7 @@ image: "/images/logitech-g-pro-x-superlight-2.png"
 productImage: "/images/logitech-g-pro-x-superlight-2.png"
 category: "gaming"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Sensor: "HERO 2 (25K)"
@@ -50,18 +50,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
+    - name: "Software"
+      score: 8.5
+    - name: "Build Quality"
+      score: 9.2
+    - name: "Value"
+      score: 7.5
     - name: "Sensor Performance"
       score: 9.8
     - name: "Wireless"
       score: 9.5
-    - name: "Build Quality"
-      score: 9.2
     - name: "Comfort"
       score: 8.8
-    - name: "Software"
-      score: 8.5
-    - name: "Value"
-      score: 8.9
 ---
 
 ## Introduction
@@ -125,4 +125,3 @@ The Logitech G Pro X Superlight 2 is the most technically accomplished wireless 
 
 It is an expensive, right-hand-only, feature-sparse mouse — and those limitations are appropriate caveats for any buyer considering it. But within its intended use case, competitive PC gaming, it is the current standard against which every other wireless mouse should be measured.
 
-**Overall Score: 9.1 / 10**

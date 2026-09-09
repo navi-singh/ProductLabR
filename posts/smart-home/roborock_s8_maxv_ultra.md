@@ -6,7 +6,7 @@ image: "/images/roborock_s8_maxv_ultra.png"
 productImage: "/images/roborock_s8_maxv_ultra.png"
 category: "smart-home"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Suction Power: "10,000 Pa"
@@ -41,6 +41,8 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
+    - name: "Value"
+      score: 7.1
     - name: "Vacuuming"
       score: 9.5
     - name: "Mopping"
@@ -49,8 +51,6 @@ ratingBreakdown:
       score: 9.4
     - name: "App Experience"
       score: 9.0
-    - name: "Value"
-      score: 8.5
     - name: "Noise Level"
       score: 8.2
 ---
@@ -111,4 +111,3 @@ It is less suitable for apartment dwellers with small, simple floor plans where 
 
 The Roborock S8 MaxV Ultra is the best robot vacuum and mop system available today for users who want maximum automation and capability. The 10,000 Pa suction is the most powerful on the consumer market, the VibraRise 2.0 mopping genuinely cleans rather than merely dampens floors, ReactiveAI 2.0 obstacle avoidance handles the real obstacles that exist in real homes, and the self-emptying, self-refilling, self-cleaning dock makes the system as close to truly hands-free as current technology allows. The price is high, and the dock requires space and occasional attention, but the total system performance earns its premium. If you're ready to nearly eliminate floor cleaning from your weekly routine, the S8 MaxV Ultra delivers.
 
-**Overall Score: 9.1 / 10**

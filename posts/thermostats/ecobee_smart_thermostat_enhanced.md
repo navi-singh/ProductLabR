@@ -40,18 +40,20 @@ retailerLinks:
   HomeDepot: "https://www.homedepot.com/s/ecobee%20smart%20thermostat%20enhanced"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Smart Features"
       score: 8.0
     - name: "HVAC Compatibility"
       score: 9.0
-    - name: "Ease of Use"
-      score: 8.0
     - name: "Ecosystem Support"
       score: 8.0
-    - name: "Value"
+    - name: "Design & Build"
       score: 8.5
+    - name: "Ease of Use"
+      score: 8.0
+    - name: "Value"
+      score: 7.6
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

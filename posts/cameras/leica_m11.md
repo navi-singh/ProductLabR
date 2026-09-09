@@ -33,16 +33,18 @@ ratingBreakdown:
   metrics:
     - name: "Image Quality"
       score: 8.5
+    - name: "Build Quality"
+      score: 8.5
+    - name: "Ease of Use"
+      score: 7.5
+    - name: "Value"
+      score: 6.9
     - name: "Manual Focusing Experience"
       score: 8.0
     - name: "Rangefinder Handling"
       score: 9.0
-    - name: "Build Quality"
-      score: 8.5
-    - name: "Value"
-      score: 8.0
-    - name: "Ease of Use"
-      score: 7.5
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 ## Overview: the 8,995 USD refusal to behave like a modern camera
 

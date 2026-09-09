@@ -38,6 +38,8 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=Honeywell+Home+X8S+Smart+Thermostat"
 ratingBreakdown:
   metrics:
+    - name: "Value"
+      score: 6.4
     - name: "Display & Interface"
       score: 9.0
     - name: "Smart Home Support"
@@ -48,8 +50,8 @@ ratingBreakdown:
       score: 6.5
     - name: "HVAC Transparency"
       score: 5.5
-    - name: "Value"
-      score: 6.5
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

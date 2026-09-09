@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Sizes: "47mm / 51mm"
@@ -45,18 +45,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 9.5
     - name: "Display"
       score: 8.4
-    - name: "Battery Life"
-      score: 9.9
+    - name: "Health Tracking"
+      score: 9.5
     - name: "Software"
       score: 9.2
+    - name: "Battery Life"
+      score: 9.9
     - name: "Design"
       score: 8.8
     - name: "Value"
-      score: 8.5
+      score: 7.4
 ---
 
 ## Introduction
@@ -121,4 +121,3 @@ The Garmin Fenix 7 Pro is the most capable outdoor sports smartwatch available, 
 
 The MIP display, significant weight, and limited smartwatch polish are conscious trade-offs that Garmin's target audience consistently accepts in exchange for the Fenix's field performance. At $599, it demands a premium investment — but for the serious outdoor athlete, it's a premium that pays dividends every time you push into the backcountry or toe the line at a challenging race.
 
-**Overall Score: 9.3 / 10**

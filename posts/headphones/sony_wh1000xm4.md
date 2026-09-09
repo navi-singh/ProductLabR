@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "40mm dynamic drivers"
@@ -54,16 +54,16 @@ ratingBreakdown:
   metrics:
     - name: "Sound Quality"
       score: 9.0
-    - name: "ANC Performance"
+    - name: "Noise Cancellation"
       score: 9.0
     - name: "Battery Life"
       score: 9.0
-    - name: "Comfort"
+    - name: "Comfort & Fit"
       score: 8.8
+    - name: "Value"
+      score: 8.1
     - name: "Call Quality"
       score: 8.5
-    - name: "Value"
-      score: 9.2
 ---
 
 ## Introduction
@@ -130,4 +130,3 @@ The Sony WH-1000XM4 occupies an unusual position in the 2025 headphone market: i
 
 The XM4 is the right choice for budget-conscious buyers who don't want to compromise on sound quality or features, for travelers who prioritize the compact folding design, and for Android users who want the flexibility of aptX HD alongside LDAC. The XM5 is the right choice when only the best will do.
 
-**Overall Score: 8.9 / 10**

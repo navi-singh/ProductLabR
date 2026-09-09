@@ -2,11 +2,11 @@
 title: "Nothing Ear (2): Style and Substance at the Right Price"
 subtitle: "Nothing's second-generation earbuds combine the brand's signature transparent design with genuinely competitive ANC, LHDC 5.0 hi-res audio, and impressive sound quality at $149"
 date: "2026-03-31"
-image: "/images/nothing_ear_2.png"
-productImage: "/images/nothing_ear_2.png"
+image: "/images/posts/headphones/nothing_ear_2/nothing_ear_2_main.jpg"
+productImage: "/images/posts/headphones/nothing_ear_2/nothing_ear_2_main.jpg"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "11.6mm dynamic driver"
@@ -61,12 +61,15 @@ ratingBreakdown:
       score: 8.7
     - name: "Noise Cancellation"
       score: 8.3
-    - name: "Comfort & Fit"
-      score: 8.9
     - name: "Battery Life"
       score: 9.0
+    - name: "Comfort & Fit"
+      score: 8.9
     - name: "Value"
-      score: 9.2
+      score: 8.5
+imageCredit: "Ganesh Mohan T"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
 ---
 
 ## Introduction
@@ -145,4 +148,3 @@ Not ideal for users who need the deepest ANC in flight, iOS users who cannot use
 
 The Nothing Ear (2) are the best earbuds in the $100–$200 price range for Android users who value sound quality and design in equal measure. LHDC 5.0 at $149 is a specification coup. The ANC trails the $249–$279 premium tier — that gap is real and matters for heavy travelers — but for commuters and office users, the Ear (2)'s adaptive ANC is effective and satisfying. If your budget tops at $149 and you use Android, these are the earbuds to buy.
 
-**Overall Score: 8.7 / 10**

@@ -5,8 +5,8 @@ date: "2026-08-07"
 capacityWh: 512
 features:
   - "solar"
-image: "/images/item.png"
-productImage: "/images/item.png"
+image: "/images/posts/portable-power-stations/dji_power_500/dji_power_500_main.jpg"
+productImage: "/images/posts/portable-power-stations/dji_power_500/dji_power_500_main.jpg"
 specs:
   Battery Capacity: "512Wh LFP"
   Continuous Output: "1,000W (DJI qualifies this as applying above 20% battery)"
@@ -41,18 +41,23 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=dji+power+500"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 8.0
+    - name: "Power Output"
+      score: 7.0
+    - name: "Design & Build"
+      score: 8.5
+    - name: "Portability"
+      score: 9.0
     - name: "Ease of Use"
       score: 8.5
     - name: "Value"
       score: 7.0
-    - name: "Power Output"
-      score: 7.0
-    - name: "Portability"
-      score: 9.0
+imageCredit: "TaurusEmerald"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

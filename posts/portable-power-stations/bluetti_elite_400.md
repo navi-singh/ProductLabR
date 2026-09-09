@@ -9,6 +9,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "large"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "3,840Wh LiFePO4"
   Inverter Power: "2,600W"
@@ -43,18 +45,18 @@ retailerLinks:
   Walmart: "https://www.walmart.com/search?q=bluetti%20elite%20400"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.0
     - name: "Performance"
       score: 7.0
+    - name: "Power Output"
+      score: 6.0
+    - name: "Design & Build"
+      score: 9.0
     - name: "Ease of Use"
       score: 7.5
     - name: "Value"
-      score: 7.5
+      score: 7.4
     - name: "Runtime"
       score: 9.5
-    - name: "Power Output"
-      score: 6.0
 ---
 
 ## Introduction
@@ -188,7 +190,7 @@ Unless build ruggedness or quiet operation specifically matters, Jackery wins th
 ## Who It's For
 
 **Ideal For:**
-✅ Medical device users (CPAP, oxygen concentrators) needing long-duration guaranteed runtime
+✅ CPAP users wanting multi-night runtime — with the caveat that you should confirm any medical device's requirements with its manufacturer and keep a backup plan
 ✅ Essential-load home backup focused on fridge, lights, CPAP, and phone charging
 ✅ Cabin and remote property owners focused on multi-day autonomy on modest loads
 ✅ Buyers who specifically value rugged construction over peak inverter power

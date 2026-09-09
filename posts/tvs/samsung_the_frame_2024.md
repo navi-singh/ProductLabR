@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel: "QLED (Quantum Dot LED)"
@@ -50,14 +50,14 @@ ratingBreakdown:
       score: 8.2
     - name: "Gaming Performance"
       score: 7.5
-    - name: "Smart TV"
+    - name: "Smart TV & Interface"
       score: 8.8
     - name: "Design"
       score: 9.8
-    - name: "Sound"
-      score: 7.5
     - name: "Value"
-      score: 8.2
+      score: 7.8
+    - name: "Audio"
+      score: 7.5
 ---
 
 ## Introduction
@@ -122,4 +122,3 @@ Samsung The Frame 2024 is the best art-mode television available, and for its sp
 
 It is not the right TV for cinephiles who demand perfect blacks, gamers who need VRR and multiple HDMI 2.1 ports, or buyers who want the best picture quality per dollar. It is the right TV for everyone who has ever turned off their television and wished the wall looked better for it.
 
-**Overall Score: 8.5 / 10**

@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Sizes: "41mm / 45mm"
@@ -42,18 +42,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 8.8
     - name: "Display"
       score: 9.1
-    - name: "Battery Life"
-      score: 7.5
+    - name: "Health Tracking"
+      score: 8.8
     - name: "Software"
       score: 9.2
+    - name: "Battery Life"
+      score: 7.5
     - name: "Design"
       score: 9.0
     - name: "Value"
-      score: 8.8
+      score: 8.1
 ---
 
 ## Introduction
@@ -116,4 +116,3 @@ iPhone users should not consider the Pixel Watch 3, as it requires Android. User
 
 The Google Pixel Watch 3 is a maturing, compelling smartwatch that delivers the best Wear OS experience available with a Fitbit health suite that has grown meaningfully more sophisticated. Loss of Pulse Detection represents a genuine safety innovation without precedent in consumer wearables. The battery life and Wear OS app ecosystem remain the platform's most significant limitations, but for daily Google ecosystem users who charge nightly, the Pixel Watch 3 is the best Android-native smartwatch experience available.
 
-**Overall Score: 8.8 / 10**

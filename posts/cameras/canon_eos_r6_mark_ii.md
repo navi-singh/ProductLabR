@@ -1,6 +1,6 @@
 ---
 title: "Canon EOS R6 Mark II: The Ultimate Camera for Content Creation"
-subtitle: "A comprehensive review of Canon's latest camera technology"
+subtitle: "Canon's 24MP hybrid all-rounder, and where it beats the pricier R5"
 date: "2025-08-16"
 image: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii.webp"
 productImage: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii.webp"
@@ -38,10 +38,12 @@ ratingBreakdown:
       score: 9.0
     - name: "Build Quality"
       score: 8.5
-    - name: "Value"
-      score: 8.0
     - name: "Ease of Use"
       score: 7.5
+    - name: "Value"
+      score: 8.4
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Overview: Canon's hybrid full-frame body for serious creators
@@ -117,8 +119,6 @@ Do not buy it if maximum resolution is non-negotiable. Do not buy it if 2,499 US
 The Canon EOS R6 Mark II earns its place by being practical in many demanding situations. Its 24.2MP Full-Frame CMOS sensor, Dual Pixel CMOS AF II autofocus, 4K 60p video, 6K RAW option, and 5-axis IBIS rated at 8 stops create a strong hybrid package. The 2,499 USD price is premium, and the menus require setup time, but the capabilities support the cost for buyers who will use both stills and video features.
 
 The main limitation is not hidden: 24.2MP trails higher-resolution alternatives for some work. That does not make the camera weak; it makes it specific. For creators who want a full-frame Canon body that can move from portraits to events to 4K at 60 fps footage without feeling like a compromise, the EOS R6 Mark II is one of the most sensible choices in the RF lineup.
-
-**Overall Score: 8.3 / 10**
 
 ## FAQ
 

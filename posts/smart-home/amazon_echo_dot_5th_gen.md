@@ -6,7 +6,7 @@ image: "/images/amazon_echo_dot_5th_gen.png"
 productImage: "/images/amazon_echo_dot_5th_gen.png"
 category: "smart-home"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Drivers: "1.73-inch full-range driver"
@@ -49,7 +49,7 @@ ratingBreakdown:
     - name: "Design & Build"
       score: 8.3
     - name: "Value"
-      score: 9.6
+      score: 9.3
 ---
 
 ## Overview: a small Alexa speaker that earns its place
@@ -123,8 +123,6 @@ Do not buy it as your main music system for a large living room. Do not buy it i
 The Amazon Echo Dot (5th Gen) succeeds because its price, size, and feature mix line up. For 49 USD, it provides full Alexa access, a compact 3.9-inch class body, a fuller-sounding 1.73-inch driver than older Dots, a 4-microphone far-field array, Bluetooth 5.2, dual-band Wi-Fi, optional Eero extension, and a built-in temperature sensor. None of those pieces alone would make it special. Together, they make the Dot the easiest smart-home starter device to recommend.
 
 Its weaknesses are honest ones. The driver cannot beat physics, Zigbee requires other hardware, Bluetooth may need occasional re-pairing, and the temperature sensor does not replace a complete climate sensor suite. Those caveats matter, but they do not erase the central value. For small rooms and everyday Alexa access, the Echo Dot 5th Gen is the practical default.
-
-**Overall Score: 8.4 / 10**
 
 ## FAQ
 

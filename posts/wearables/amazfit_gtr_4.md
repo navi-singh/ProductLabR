@@ -6,7 +6,7 @@ image: "/images/amazfit_gtr_4.png"
 productImage: "/images/amazfit_gtr_4.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Size: "46mm"
@@ -47,18 +47,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 8.0
-    - name: "Battery Life"
-      score: 9.5
     - name: "Display"
       score: 8.8
-    - name: "Smart Features"
+    - name: "Health Tracking"
+      score: 8.0
+    - name: "Software"
       score: 7.2
-    - name: "Value"
-      score: 9.3
+    - name: "Battery Life"
+      score: 9.5
     - name: "Design"
       score: 8.5
+    - name: "Value"
+      score: 8.9
 ---
 
 ## Introduction
@@ -121,4 +121,3 @@ It's not the right choice for users who want contactless payments, robust third-
 
 The Amazfit GTR 4 is remarkable for what it delivers at $199: a beautiful AMOLED display, dual-frequency GPS accuracy, ECG and SpO2 monitoring, Alexa built-in, and two weeks of battery life. Its weaknesses — limited app ecosystem, inconsistent HRM accuracy at high intensity, no NFC payments — are real, but they are the expected trade-offs of the price point. For buyers who care most about battery life, GPS precision, and value, the GTR 4 is not just the best option under $200 — it competes seriously with watches that cost twice as much.
 
-**Overall Score: 8.4 / 10**

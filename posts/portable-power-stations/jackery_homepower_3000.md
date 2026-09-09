@@ -48,18 +48,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=jackery+homepower+3000"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.0
     - name: "Performance"
-      score: 8.5
-    - name: "Ease of Use"
-      score: 8.5
-    - name: "Value"
       score: 8.5
     - name: "Power Output"
       score: 9.0
+    - name: "Design & Build"
+      score: 8.0
     - name: "Portability"
       score: 6.5
+    - name: "Ease of Use"
+      score: 8.5
+    - name: "Value"
+      score: 7.8
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

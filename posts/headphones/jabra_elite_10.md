@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "10mm full-range drivers"
@@ -52,16 +52,16 @@ ratingBreakdown:
   metrics:
     - name: "Sound Quality"
       score: 9.0
-    - name: "ANC Performance"
+    - name: "Noise Cancellation"
       score: 8.5
     - name: "Battery Life"
       score: 8.8
-    - name: "Comfort"
+    - name: "Comfort & Fit"
       score: 9.2
+    - name: "Value"
+      score: 7.9
     - name: "Call Quality"
       score: 9.5
-    - name: "Value"
-      score: 8.7
 ---
 
 ## Introduction
@@ -128,4 +128,3 @@ The Jabra Elite 10 earns its premium price by delivering the best call quality i
 
 If your earbuds are your primary work communication device and you log significant daily call time, the Elite 10 is the clear choice at this price point. If you want the absolute best ANC and primarily listen to music, the Sony WF-1000XM5 is the better fit.
 
-**Overall Score: 9.0 / 10**

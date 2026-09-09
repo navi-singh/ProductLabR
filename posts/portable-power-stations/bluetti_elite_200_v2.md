@@ -36,25 +36,27 @@ cons:
   - "No built-in LED light"
   - "4 AC outlets (vs 5 on some rivals)"
   - "Bluetti has restricted critical reviews — transparency concern"
-price: "$1,099 (use code TSL5 for ~$55 off)"
+price: "$1,099 MSRP"
 retailerLinks:
   Amazon: "https://www.amazon.com/s?k=bluetti%20elite%20200%20v2"
   Bluetti: "https://www.bluettipower.com/products/elite-200-v2"
   Walmart: "https://www.walmart.com/search?q=bluetti%20elite%20200%20v2"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 7.5
     - name: "Performance"
       score: 9.5
-    - name: "Ease of Use"
-      score: 7.0
-    - name: "Value"
+    - name: "Power Output"
       score: 8.5
     - name: "Efficiency"
       score: 10.0
-    - name: "Power Output"
-      score: 8.5
+    - name: "Design & Build"
+      score: 7.5
+    - name: "Ease of Use"
+      score: 7.0
+    - name: "Value"
+      score: 7.9
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

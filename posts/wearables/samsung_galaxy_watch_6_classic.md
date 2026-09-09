@@ -2,11 +2,11 @@
 title: "Samsung Galaxy Watch 6 Classic: The Premium Android Smartwatch with an Icon Returns"
 subtitle: "Samsung revives its beloved rotating physical bezel in the Galaxy Watch 6 Classic, delivering a premium classic watch design with improved health sensors and Galaxy AI features"
 date: "2026-03-31"
-image: "/images/item.png"
-productImage: "/images/item.png"
+image: "/images/posts/wearables/samsung_galaxy_watch_6_classic/samsung_galaxy_watch_6_classic_main.jpg"
+productImage: "/images/posts/wearables/samsung_galaxy_watch_6_classic/samsung_galaxy_watch_6_classic_main.jpg"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Sizes: "43mm / 47mm"
@@ -42,18 +42,26 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 8.9
     - name: "Display"
       score: 9.2
-    - name: "Battery Life"
-      score: 8.8
+    - name: "Health Tracking"
+      score: 8.9
     - name: "Software"
+      score: 8.8
+    - name: "Battery Life"
       score: 8.8
     - name: "Design"
       score: 9.5
     - name: "Value"
-      score: 8.5
+      score: 7.9
+imageCredit: "Ganesh Mohan T"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+gallery:
+  - src: "/images/posts/wearables/samsung_galaxy_watch_6_classic/samsung_galaxy_watch_6_classic_angle2.jpg"
+    credit: "Ganesh Mohan T"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Introduction
@@ -67,6 +75,10 @@ At the same $399 price as the Apple Watch Series 10's starting configuration, th
 ## Design & Display
 
 The Galaxy Watch 6 Classic's most defining feature is immediately obvious: the stainless steel rotating bezel that encircles the display. It rotates in both directions with precise mechanical detents — each click advances one item in a list or rotates one tick on the watch face — providing navigation control that doesn't require touching the display. When your hands are wet, gloved, or occupied, the bezel provides reliable, tactile navigation that pure touchscreen watches cannot match.
+
+![Samsung Galaxy Watch 6 Classic](/images/posts/wearables/samsung_galaxy_watch_6_classic/samsung_galaxy_watch_6_classic_angle2.jpg)
+
+*Ganesh Mohan T / Wikimedia Commons (CC BY-SA 4.0)*
 
 The watch is available in black or silver stainless steel, and both finishes are genuinely premium. The stainless steel construction gives the Watch 6 Classic a wrist presence that plastic-and-aluminum watches lack — it sits confidently on the wrist in formal environments where a Garmin Fenix or even an Apple Watch can feel out of place. This is a watch that works with a suit as well as workout clothes, a rare versatility in the smartwatch category.
 
@@ -120,4 +132,3 @@ The Samsung Galaxy Watch 6 Classic successfully combines Samsung's most capable 
 
 Battery life, body composition measurement, Galaxy AI integration, and a display that competes with the best in the category make the Watch 6 Classic a compelling $399 proposition for Android users who want a device that looks as good in a meeting as it does at the gym.
 
-**Overall Score: 8.8 / 10**

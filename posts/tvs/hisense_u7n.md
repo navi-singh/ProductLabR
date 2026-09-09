@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel: "Mini-LED ULED (Hisense ULED with local dimming)"
@@ -48,14 +48,14 @@ ratingBreakdown:
       score: 8.8
     - name: "Gaming Performance"
       score: 8.9
-    - name: "Smart TV"
+    - name: "Smart TV & Interface"
       score: 8.8
     - name: "Design"
       score: 8.2
-    - name: "Sound"
-      score: 6.8
     - name: "Value"
-      score: 9.6
+      score: 8.8
+    - name: "Audio"
+      score: 6.8
 ---
 
 ## Introduction
@@ -118,4 +118,3 @@ The Hisense U7N is the best television under $600 available in 2024, and it is n
 
 For first-time 4K TV buyers, households with a strict budget, or anyone who wants the best possible picture from $550, the U7N is the definitive recommendation.
 
-**Overall Score: 8.7 / 10**

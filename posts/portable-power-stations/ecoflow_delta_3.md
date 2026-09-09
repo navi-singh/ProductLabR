@@ -43,18 +43,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/ecoflow-delta-3/6789012.p"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 9.0
+    - name: "Charging Speed"
+      score: 8.5
+    - name: "Features"
+      score: 9.5
+    - name: "Design & Build"
+      score: 8.5
     - name: "Ease of Use"
       score: 8.5
     - name: "Value"
-      score: 8.0
-    - name: "Smart Features"
-      score: 9.5
-    - name: "Charging Speed"
-      score: 8.5
+      score: 7.9
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction
@@ -108,7 +110,7 @@ Remote monitoring enables users to check power status, adjust settings, and rece
 ### Power Output & Versatility
 The 1,800W continuous output with 2,700W surge capability handles demanding appliances and professional equipment effectively. Combined with enhanced X-Boost technology, the Delta 3 successfully powered devices requiring up to 2,600W, dramatically expanding its utility beyond the rated specifications.
 
-Testing confirmed reliable operation of refrigerators, microwaves, power tools, medical equipment, and high-draw appliances that exceed many competitors' capabilities. The pure sine wave output ensures compatibility with sensitive electronics and precision equipment.
+We ran refrigerators, a microwave, and power tools off it without tripping the inverter, which is the practical ceiling most people care about. The output is pure sine wave, so sensitive electronics are not a concern. We did not test it with medical equipment and would not ask you to take our word for it if you were: if a device keeps someone breathing, confirm compatibility with its manufacturer and keep a second means of power.
 
 ### Battery Performance & Longevity
 The LiFePO4 battery technology delivers exceptional longevity with 4,000+ cycles to 80% capacity—representing significant advancement over previous generations. Real-world capacity testing confirmed the full 1,024Wh specification with excellent consistency across multiple charge/discharge cycles.

@@ -6,7 +6,7 @@ image: "/images/sony_wf1000xm5.png"
 productImage: "/images/sony_wf1000xm5.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "8.4mm dynamic driver"
@@ -65,12 +65,12 @@ ratingBreakdown:
       score: 9.1
     - name: "Noise Cancellation"
       score: 9.2
-    - name: "Comfort & Fit"
-      score: 8.8
     - name: "Battery Life"
       score: 8.6
+    - name: "Comfort & Fit"
+      score: 8.8
     - name: "Value"
-      score: 8.9
+      score: 7.8
     - name: "Microphone Quality"
       score: 8.7
 ---
@@ -148,4 +148,3 @@ The WF-1000XM5 resolves the WF-1000XM4's biggest shortcomings — size, weight, 
 
 At $299 it is not cheap. It is, however, worth every cent for listeners who demand the best.
 
-**Overall Score: 9.0 / 10**

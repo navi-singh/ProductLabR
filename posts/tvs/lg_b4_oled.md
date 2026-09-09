@@ -6,7 +6,7 @@ image: "/images/lg_b4_oled.png"
 productImage: "/images/lg_b4_oled.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "WOLED (Self-Emissive, no MLA)"
@@ -59,12 +59,12 @@ ratingBreakdown:
       score: 9.2
     - name: "Smart TV & Interface"
       score: 8.8
-    - name: "Audio"
-      score: 7.5
-    - name: "Value"
-      score: 9.4
     - name: "Design"
       score: 8.7
+    - name: "Value"
+      score: 8.3
+    - name: "Audio"
+      score: 7.5
 ---
 
 ## Introduction
@@ -136,4 +136,3 @@ The C4 is the better purchase for anyone who watches a significant amount of 108
 
 The LG B4 OLED is the most compelling entry point into OLED television available. It concedes real ground to the C4 on brightness and upscaling quality, and it only offers two full-bandwidth HDMI 2.1 ports. But it preserves the features that matter most — infinite contrast, sub-2ms input lag, full VRR support, Dolby Vision IQ, and a complete webOS platform — at a price that puts genuine OLED within reach of a much broader audience. If $899 is your budget for a primary TV and you want the best picture quality that money can buy, the B4 is the answer.
 
-**Overall Score: 9.0 / 10**

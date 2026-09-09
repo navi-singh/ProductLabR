@@ -10,6 +10,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "large"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "3,584Wh LiFePO4 (expandable to 21.5kWh)"
   Inverter Power: "3,600W continuous (Surge 7,200W)"
@@ -45,18 +47,18 @@ retailerLinks:
   Costco: "https://www.costco.com/jackery-homepower-3600-plus.product.html"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.0
     - name: "Performance"
       score: 8.5
-    - name: "Ease of Use"
-      score: 9.0
-    - name: "Value"
-      score: 8.5
-    - name: "Surge Capacity"
+    - name: "Power Output"
       score: 10.0
     - name: "Expandability"
       score: 9.0
+    - name: "Design & Build"
+      score: 9.0
+    - name: "Ease of Use"
+      score: 9.0
+    - name: "Value"
+      score: 7.7
 ---
 
 ## Introduction

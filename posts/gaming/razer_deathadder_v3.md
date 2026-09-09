@@ -6,7 +6,7 @@ image: "/images/razer_deathadder_v3.png"
 productImage: "/images/razer_deathadder_v3.png"
 category: "gaming"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Sensor: "Razer Focus Pro 30K Optical"
@@ -49,16 +49,16 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
+    - name: "Build Quality"
+      score: 9.0
+    - name: "Comfort & Ergonomics"
+      score: 9.5
+    - name: "Value"
+      score: 7.9
     - name: "Sensor & Tracking"
       score: 9.6
     - name: "Clicks & Buttons"
       score: 9.3
-    - name: "Comfort & Ergonomics"
-      score: 9.5
-    - name: "Build Quality"
-      score: 9.0
-    - name: "Value"
-      score: 8.8
 ---
 
 ## Introduction
@@ -118,4 +118,3 @@ The Razer DeathAdder V3 is the best ergonomic gaming mouse at its price point. T
 
 Its limitations — wired-only at the base price, right-hand-only shape, single-zone RGB — are inherent to its design priorities. For the target user, they are acceptable trade-offs for a mouse that may be the best ergonomic gaming mouse ever made at under $100.
 
-**Overall Score: 9.1 / 10**

@@ -6,7 +6,7 @@ image: "/images/benq_pd2725u.png"
 productImage: "/images/benq_pd2725u.png"
 category: "monitors"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "IPS"
@@ -52,10 +52,10 @@ ratingBreakdown:
       score: 9.5
     - name: "Connectivity"
       score: 9.1
-    - name: "Value"
-      score: 8.3
     - name: "Design"
       score: 8.9
+    - name: "Value"
+      score: 7.1
 ---
 
 ## Introduction
@@ -96,4 +96,3 @@ The BenQ PD2725U is built for creative professionals in Mac-centric workflows wh
 
 The BenQ PD2725U is the most professionally complete 4K monitor under $700, and arguably the best designer-focused display at any price below reference-grade cinema monitors. Its Thunderbolt 3 daisy-chaining, hardware hot key puck, DualView mode, and BenQ's rigorously calibrated color science create a professional tool with no obvious omissions for its intended user. The 250 nits typical brightness and premium price are genuine limitations, but for professionals who depend on accurate, reliable color output in a Thunderbolt ecosystem, the PD2725U sets the standard.
 
-**Overall Score: 9.1 / 10**

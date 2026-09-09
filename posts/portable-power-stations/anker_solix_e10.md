@@ -9,6 +9,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "home-backup"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "6,144Wh per battery (stackable up to 5 = 30.7kWh)"
   Inverter Power: "7,600W continuous (10,000W turbo mode)"
@@ -48,18 +50,18 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20e10"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 9.5
+    - name: "Power Output"
+      score: 10.0
+    - name: "Design & Build"
+      score: 8.5
     - name: "Ease of Use"
       score: 8.0
     - name: "Value"
-      score: 7.5
+      score: 6.8
     - name: "Installation"
       score: 9.5
-    - name: "Surge Capacity"
-      score: 10.0
 ---
 
 ## Introduction

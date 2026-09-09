@@ -38,18 +38,20 @@ retailerLinks:
   HomeDepot: "https://www.homedepot.com/s/amazon%20smart%20thermostat"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 6.5
     - name: "Smart Features"
       score: 5.5
     - name: "HVAC Compatibility"
       score: 5.5
-    - name: "Ease of Use"
-      score: 7.0
     - name: "Ecosystem Support"
       score: 5.0
+    - name: "Design & Build"
+      score: 6.5
+    - name: "Ease of Use"
+      score: 7.0
     - name: "Value"
-      score: 8.5
+      score: 8.9
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

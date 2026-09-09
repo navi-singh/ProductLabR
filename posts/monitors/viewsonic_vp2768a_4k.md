@@ -6,7 +6,7 @@ image: "/images/viewsonic_vp2768a_4k.png"
 productImage: "/images/viewsonic_vp2768a_4k.png"
 category: "monitors"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "IPS"
@@ -52,10 +52,10 @@ ratingBreakdown:
       score: 9.3
     - name: "Connectivity"
       score: 8.7
-    - name: "Value"
-      score: 8.5
     - name: "Design"
       score: 8.0
+    - name: "Value"
+      score: 7.4
 ---
 
 ## Introduction
@@ -94,4 +94,3 @@ The ViewSonic VP2768a-4K is the right choice for print photographers, commercial
 
 The ViewSonic VP2768a-4K is a purpose-built professional display that earns its price premium through exceptional color accuracy infrastructure. Factory calibration with a per-unit report, 99% Adobe RGB coverage, hardware calibration support, and 65W USB-C PD make it the most capable 4K professional monitor available under $600 for print-focused creative work. It lacks the aesthetic refinement and Thunderbolt connectivity of the BenQ PD2725U at a higher price, but for pure color accuracy and professional workflow capability per dollar, it is the standard reference.
 
-**Overall Score: 8.9 / 10**

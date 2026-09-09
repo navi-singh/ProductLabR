@@ -1,6 +1,6 @@
 ---
 title: "Panasonic Lumix S5 II: The Hybrid Camera That Finally Gets Autofocus Right"
-subtitle: "A comprehensive review of Panasonic's phase-detection breakthrough in full-frame mirrorless"
+subtitle: "Phase-detect autofocus finally arrives in Panasonic's affordable full-frame"
 date: "2024-12-27"
 image: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii.webp"
 productImage: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii.webp"
@@ -45,10 +45,12 @@ ratingBreakdown:
       score: 9.0
     - name: "Build Quality"
       score: 8.5
-    - name: "Value"
-      score: 8.0
     - name: "Ease of Use"
       score: 7.0
+    - name: "Value"
+      score: 8.7
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

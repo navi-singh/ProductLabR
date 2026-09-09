@@ -44,18 +44,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20c2000%20gen2"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.0
     - name: "Performance"
       score: 9.0
-    - name: "Ease of Use"
-      score: 9.5
-    - name: "Value"
-      score: 9.5
     - name: "Power Output"
+      score: 9.0
+    - name: "Design & Build"
       score: 9.0
     - name: "Portability"
       score: 8.5
+    - name: "Ease of Use"
+      score: 9.5
+    - name: "Value"
+      score: 8.4
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

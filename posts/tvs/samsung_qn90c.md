@@ -6,7 +6,7 @@ image: "/images/samsung_qn90c.png"
 productImage: "/images/samsung_qn90c.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "Neo QLED (VA LCD with Mini LED backlight)"
@@ -62,12 +62,12 @@ ratingBreakdown:
       score: 9.3
     - name: "Smart TV & Interface"
       score: 9.0
-    - name: "Audio"
-      score: 8.5
-    - name: "Value"
-      score: 8.7
     - name: "Design"
       score: 9.1
+    - name: "Value"
+      score: 7.6
+    - name: "Audio"
+      score: 8.5
 ---
 
 ## Introduction
@@ -141,4 +141,3 @@ The QN90C is a harder sell for dedicated dark-room home theater setups, househol
 
 The Samsung QN90C Neo QLED is not the best TV you can buy — but it may well be the best TV for your living room. Its brightness performance is class-leading, its Tizen platform is excellent, and its gaming credentials are strong. The HDMI 2.1 port limitation and lack of Dolby Vision are real compromises at this price, but the QN90C's real-world performance in challenging viewing environments is something no current OLED can match.
 
-**Overall Score: 9.1 / 10**

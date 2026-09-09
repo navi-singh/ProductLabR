@@ -2,11 +2,11 @@
 title: "Garmin Forerunner 265: The Runner's Watch That Finally Gets Gorgeous"
 subtitle: "Garmin's first AMOLED Forerunner combines a stunning display with the brand's unmatched training intelligence and multi-week battery life"
 date: "2026-03-31"
-image: "/images/garmin-forerunner-265.png"
-productImage: "/images/garmin-forerunner-265.png"
+image: "/images/posts/wearables/garmin_forerunner_265/garmin_forerunner_265_main.jpg"
+productImage: "/images/posts/wearables/garmin_forerunner_265/garmin_forerunner_265_main.jpg"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Display: "1.3-inch AMOLED, 416 x 416 resolution"
@@ -48,18 +48,26 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
+    - name: "Display"
+      score: 8.8
+    - name: "Battery Life"
+      score: 9.2
+    - name: "Value"
+      score: 7.9
     - name: "GPS Accuracy"
       score: 9.5
     - name: "Training Features"
       score: 9.3
-    - name: "Battery Life"
-      score: 9.2
-    - name: "Display"
-      score: 8.8
-    - name: "Value"
-      score: 8.9
     - name: "Comfort"
       score: 8.7
+imageCredit: "3r1ccc"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC0"
+gallery:
+  - src: "/images/posts/wearables/garmin_forerunner_265/garmin_forerunner_265_angle2.jpg"
+    credit: "Wikimedia Commons contributor"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Introduction
@@ -71,6 +79,10 @@ But a prettier screen on a Garmin would mean little if the brand's signature tra
 ## Design & Display
 
 The Forerunner 265's AMOLED display is the product's most immediately compelling attribute. At 1.3 inches and 416 x 416 resolution, it produces colors that are vivid and saturated — a sharp contrast to the washed-out appearance of Garmin's MIP predecessors under indoor lighting. The screen is particularly effective when reviewing overnight data in a dark bedroom, navigating the Garmin Connect widget stack, or reading training feedback on a treadmill without squinting. Maximum brightness reaches around 1000 nits, which is adequate for most outdoor use cases, though direct tropical sunlight can reduce legibility compared to MIP displays.
+
+![Garmin Forerunner 265](/images/posts/wearables/garmin_forerunner_265/garmin_forerunner_265_angle2.jpg)
+
+*Wikimedia Commons contributor / Wikimedia Commons (CC BY-SA 4.0)*
 
 The physical design retains the Forerunner family's refined-sporty aesthetic: a circular case with five physical buttons arranged around the bezel for eyes-free navigation during runs. The fiber-reinforced polymer case and Corning Gorilla Glass lens keep weight at 47 grams for the 46mm model (39 grams for the 42mm 265S), which is light enough to wear all day without wrist fatigue. It passes the "forget you're wearing it" test during easy runs and commutes alike.
 
@@ -127,4 +139,3 @@ The Forerunner 265 represents Garmin's most successful attempt yet at building a
 
 The 20-hour GPS battery is a meaningful step down from the Forerunner 255's MIP-era endurance, and the absence of mapping is a real limitation for adventure-oriented users. But for the road and trail runner who trains consistently and wants a watch that's as smart as it is capable, the Forerunner 265 is the standard against which its competitors should be measured.
 
-**Overall Score: 9.1 / 10**

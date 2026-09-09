@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Size: "40.5mm"
@@ -42,18 +42,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 8.8
     - name: "Display"
       score: 8.5
-    - name: "Battery Life"
-      score: 8.2
+    - name: "Health Tracking"
+      score: 8.8
     - name: "Software"
       score: 8.0
+    - name: "Battery Life"
+      score: 8.2
     - name: "Design"
       score: 8.5
     - name: "Value"
-      score: 7.8
+      score: 8.1
 ---
 
 ## Introduction
@@ -120,4 +120,3 @@ The Fitbit Sense 2 is the most comprehensive stress and holistic health monitori
 
 The limitations — basic smartwatch functionality, a smaller third-party app ecosystem, and battery life that trails budget competitors — are real but well-defined. For health-first users who want to understand and manage their stress physiology with data, and who are willing to trade smartwatch breadth for health depth, the Fitbit Sense 2 delivers a genuinely differentiated experience.
 
-**Overall Score: 8.3 / 10**

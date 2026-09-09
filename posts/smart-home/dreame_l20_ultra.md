@@ -6,7 +6,7 @@ image: "/images/dreame_l20_ultra.png"
 productImage: "/images/dreame_l20_ultra.png"
 category: "smart-home"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Suction Power: "7,000 Pa"
@@ -44,12 +44,12 @@ ratingBreakdown:
       score: 9.1
     - name: "Navigation & Mapping"
       score: 9.0
-    - name: "Auto-Empty & Maintenance"
-      score: 9.3
     - name: "App & Smart Features"
       score: 8.5
     - name: "Value"
-      score: 9.2
+      score: 7.5
+    - name: "Auto-Empty & Maintenance"
+      score: 9.3
 ---
 
 ## Overview: the flagship bargain with a few grown-up caveats
@@ -111,8 +111,6 @@ Do not buy it if you want the simplest possible app, have no room for a large do
 The Dreame L20 Ultra is one of the most compelling premium robot vacuum and mop systems because it spends its budget where owners feel it: hot-water mop washing, auto-dry, auto-empty, auto-water refill, strong mapping, 7,000 Pa suction, and a 210 minutes battery. The dual pads at 180 RPM make the mopping feel purposeful rather than decorative.
 
 Its shortcomings are manageable but real. The app takes learning, the dock is large, Roborock still wins on maximum suction and polish, and Dreame's Western support reputation is younger. Even with those caveats, the L20 Ultra has a persuasive identity. It is the flagship to buy when you want serious mopping and automation without paying the full Roborock premium.
-
-**Overall Score: 9.2 / 10**
 
 ## FAQ
 

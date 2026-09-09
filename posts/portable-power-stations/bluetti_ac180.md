@@ -42,18 +42,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=bluetti%20ac%20180"
 ratingBreakdown:
   metrics:
+    - name: "Performance"
+      score: 8.0
+    - name: "Charging Speed"
+      score: 8.5
     - name: "Design & Build"
       score: 8.5
-    - name: "Performance"
+    - name: "Portability"
       score: 8.0
     - name: "Ease of Use"
       score: 8.5
     - name: "Value"
-      score: 7.5
-    - name: "Portability"
-      score: 8.0
-    - name: "Charging Speed"
-      score: 8.5
+      score: 7.6
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

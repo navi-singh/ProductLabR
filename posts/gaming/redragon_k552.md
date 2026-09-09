@@ -6,7 +6,7 @@ image: "/images/redragon_k552.png"
 productImage: "/images/redragon_k552.png"
 category: "gaming"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Switches: "Outemu Blue / Red / Brown (buyer's choice)"
@@ -48,16 +48,16 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Typing Feel & Switches"
-      score: 7.8
     - name: "Gaming Performance"
       score: 8.2
     - name: "Build Quality"
       score: 8.0
+    - name: "Value"
+      score: 9.0
+    - name: "Typing Feel & Switches"
+      score: 7.8
     - name: "RGB & Software"
       score: 7.5
-    - name: "Value"
-      score: 9.6
 ---
 
 ## Overview: a cheap mechanical keyboard that understands the assignment
@@ -117,8 +117,6 @@ Do not buy it if you need a numpad, quiet typing, per-key lighting, software mac
 The Redragon K552 works because it refuses to pretend. For 35 USD, it gives you the core experience people mean when they say they want a mechanical gaming keyboard: real switches, a firm plate, a compact TKL layout, a 1000Hz wired connection, and enough weight to feel stable. It cuts luxuries aggressively, but most of the cuts make sense.
 
 The best version for most gamers is the Red switch model because the 45g linear action is easier to live with than clicky Blues. The Brown version is the safer mixed-use choice. The Blue version is fun, loud, and divisive. Pick the switch honestly and the K552 is a very strong budget buy. Expect premium refinement and it will disappoint you within a week.
-
-**Overall Score: 8.4 / 10**
 
 ## FAQ
 

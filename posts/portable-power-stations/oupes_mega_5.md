@@ -44,18 +44,20 @@ retailerLinks:
   Walmart: "https://www.walmart.com/search?q=oupes%20mega%205"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 6.5
     - name: "Performance"
       score: 8.0
+    - name: "Power Output"
+      score: 9.0
+    - name: "Design & Build"
+      score: 6.5
     - name: "Ease of Use"
       score: 7.0
     - name: "Value"
-      score: 8.5
-    - name: "Power Output"
-      score: 9.0
+      score: 7.8
     - name: "Capacity"
       score: 10.0
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

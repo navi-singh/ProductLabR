@@ -10,6 +10,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "home-backup"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "3,840Wh LiFePO4 (expandable to 53.8kWh)"
   Inverter Power: "6,000W"
@@ -37,25 +39,25 @@ cons:
   - "Achieving 6,000W AC charging requires multi-battery setup"
   - "136 lbs — heavy even with wheels"
   - "$3,199 base price is a significant investment"
-price: "$3,199 (early-bird; MSRP $3,999)"
+price: "$3,999 MSRP"
 retailerLinks:
   Amazon: "https://www.amazon.com/s?k=anker%20solix%20f3800%20plus"
   Anker: "https://www.anker.com/products/anker-solix-f3800-plus"
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20f3800%20plus"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.0
     - name: "Performance"
       score: 9.0
-    - name: "Ease of Use"
-      score: 8.5
-    - name: "Value"
-      score: 8.0
     - name: "Solar Input"
       score: 9.5
     - name: "Expandability"
       score: 9.5
+    - name: "Design & Build"
+      score: 9.0
+    - name: "Ease of Use"
+      score: 8.5
+    - name: "Value"
+      score: 7.2
 ---
 
 ## Introduction

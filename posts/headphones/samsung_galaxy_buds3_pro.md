@@ -6,7 +6,7 @@ image: "/images/samsung_galaxy_buds3_pro.png"
 productImage: "/images/samsung_galaxy_buds3_pro.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Configuration: "10mm woofer + 5.3mm tweeter (dual driver)"
@@ -60,12 +60,12 @@ ratingBreakdown:
       score: 9.1
     - name: "Noise Cancellation"
       score: 8.9
-    - name: "Comfort & Fit"
-      score: 8.4
     - name: "Battery Life"
       score: 8.8
+    - name: "Comfort & Fit"
+      score: 8.4
     - name: "Value"
-      score: 8.7
+      score: 7.9
 ---
 
 ## Introduction
@@ -148,4 +148,3 @@ Not recommended for iPhone users (full features unavailable), users with ear ana
 
 The Samsung Galaxy Buds3 Pro are the best ANC earbuds available for Samsung Galaxy users, delivering dual-driver sound quality, SSC UHQ wireless audio, class-leading IPX7 waterproofing, and Galaxy AI features that have no equivalent in competing earbuds. The blade-style fit is fit-dependent and requires testing before committing. Outside the Samsung ecosystem, the case for the Buds3 Pro weakens considerably. At $249, they are a compelling buy for their intended audience.
 
-**Overall Score: 8.8 / 10**

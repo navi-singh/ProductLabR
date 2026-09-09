@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "35mm TriPort acoustic drivers"
@@ -52,16 +52,16 @@ ratingBreakdown:
   metrics:
     - name: "Sound Quality"
       score: 9.2
-    - name: "ANC Performance"
+    - name: "Noise Cancellation"
       score: 9.5
     - name: "Battery Life"
       score: 8.7
-    - name: "Comfort"
+    - name: "Comfort & Fit"
       score: 9.1
+    - name: "Value"
+      score: 7.7
     - name: "Call Quality"
       score: 9.0
-    - name: "Value"
-      score: 8.8
 ---
 
 ## Overview: Bose puts noise cancellation first
@@ -135,8 +135,6 @@ Do not buy them if you need the longest battery life in the category. 24 hours i
 The Bose QuietComfort Ultra Headphones are not the battery champion, not the LDAC choice, and not the cheapest premium ANC headphone. They are the headphone to buy when you want personalized noise cancellation, low-fatigue comfort, strong transparency, credible call performance, and a travel-ready folding design in one package. The 35mm drivers sound polished, the 24-hour battery is acceptable, the 15 min quick charge is useful, and the 254g weight helps them stay wearable.
 
 At 299 USD, the value depends on priorities. If you want maximum battery endurance, Sennheiser deserves a look. If LDAC and 30-hour ANC runtime matter more, Sony is a better match. If Apple ecosystem integration is the whole point, AirPods Max remain distinct. But if your day is shaped by airplanes, transit, shared offices, and calls, the QuietComfort Ultra is one of the most convincing ANC headphones available.
-
-**Overall Score: 9.2 / 10**
 
 ## FAQ
 

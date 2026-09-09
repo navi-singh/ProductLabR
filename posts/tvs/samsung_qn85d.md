@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel: "Neo QLED (Mini-LED with Quantum Matrix Technology)"
@@ -49,14 +49,14 @@ ratingBreakdown:
       score: 9.0
     - name: "Gaming Performance"
       score: 9.3
-    - name: "Smart TV"
+    - name: "Smart TV & Interface"
       score: 8.8
     - name: "Design"
       score: 9.0
-    - name: "Sound"
-      score: 7.8
     - name: "Value"
-      score: 8.6
+      score: 7.9
+    - name: "Audio"
+      score: 7.8
 ---
 
 ## Introduction
@@ -121,4 +121,3 @@ The Samsung QN85D is an excellent Mini-LED television for buyers who want Samsun
 
 The lack of Dolby Vision and the port bandwidth limitation are genuine trade-offs worth understanding before purchasing. But if those concessions are acceptable, the QN85D delivers exceptional value in the Samsung lineup.
 
-**Overall Score: 8.9 / 10**

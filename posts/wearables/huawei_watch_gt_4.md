@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Sizes: "46mm / 41mm"
@@ -42,18 +42,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 8.5
     - name: "Display"
       score: 9.0
-    - name: "Battery Life"
-      score: 9.5
+    - name: "Health Tracking"
+      score: 8.5
     - name: "Software"
       score: 7.5
+    - name: "Battery Life"
+      score: 9.5
     - name: "Design"
       score: 9.0
     - name: "Value"
-      score: 9.2
+      score: 8.9
 ---
 
 ## Introduction
@@ -118,4 +118,3 @@ The Huawei Watch GT 4 is the most impressive value-to-performance ratio in the A
 
 The app ecosystem limitations and regional NFC payment restrictions are real constraints that appropriately define the GT 4's ceiling. But within those boundaries, Huawei has built a watch that punches significantly above its price class.
 
-**Overall Score: 8.3 / 10**

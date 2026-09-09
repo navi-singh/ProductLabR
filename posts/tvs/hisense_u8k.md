@@ -6,7 +6,7 @@ image: "/images/hisense_u8k.png"
 productImage: "/images/hisense_u8k.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "VA LCD with Mini-LED backlight + Quantum Dot (QLED)"
@@ -60,12 +60,12 @@ ratingBreakdown:
       score: 8.7
     - name: "Smart TV & Interface"
       score: 9.0
-    - name: "Audio"
-      score: 8.9
-    - name: "Value"
-      score: 9.3
     - name: "Design"
       score: 8.5
+    - name: "Value"
+      score: 8.5
+    - name: "Audio"
+      score: 8.9
 ---
 
 ## Introduction
@@ -148,4 +148,3 @@ The Hisense U8K does something genuinely impressive: it makes the $1,000+ televi
 
 It is not perfect — VA viewing angles and moderate input lag are real trade-offs, and Mini-LED blooming cannot be entirely eliminated by physics. But for the vast majority of viewers in a typical living room, the U8K delivers a television experience that would have cost significantly more money just two years ago.
 
-**Overall Score: 8.9 / 10**

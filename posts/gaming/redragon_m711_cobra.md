@@ -6,7 +6,7 @@ image: "/images/redragon_m711_cobra.png"
 productImage: "/images/redragon_m711_cobra.png"
 category: "gaming"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Sensor: "PixArt PMW3325 Optical"
@@ -47,16 +47,16 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
+    - name: "Build Quality"
+      score: 7.9
+    - name: "Comfort & Ergonomics"
+      score: 8.2
+    - name: "Value"
+      score: 9.3
     - name: "Sensor & Tracking"
       score: 8.0
     - name: "Clicks & Buttons"
       score: 7.8
-    - name: "Comfort & Ergonomics"
-      score: 8.2
-    - name: "Build Quality"
-      score: 7.9
-    - name: "Value"
-      score: 9.7
 ---
 
 ## Introduction
@@ -113,4 +113,3 @@ The M711 is not suitable for competitive FPS players who need sub-80g weight and
 
 The Redragon M711 Cobra is the best gaming mouse available for under $25. The PMW3325 sensor tracks accurately, the Omron primary switches are reliable, the 7-button layout provides genuine programmability, and the ergonomic shape covers the majority of right-handed grip styles. Its 130g weight is the most limiting factor for low-sensitivity competitive players — but for its target audience of budget-focused and casual gamers, it represents exceptional value that no direct competitor can match.
 
-**Overall Score: 8.3 / 10**

@@ -46,18 +46,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+delta+3+classic"
 ratingBreakdown:
   metrics:
+    - name: "Performance"
+      score: 8.5
+    - name: "Power Output"
+      score: 8.0
     - name: "Design & Build"
       score: 8.5
-    - name: "Performance"
+    - name: "Portability"
       score: 8.5
     - name: "Ease of Use"
       score: 9.0
     - name: "Value"
-      score: 9.0
-    - name: "Power Output"
-      score: 8.0
-    - name: "Portability"
       score: 8.5
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

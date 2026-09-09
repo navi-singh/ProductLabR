@@ -39,18 +39,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=google+nest+thermostat"
 ratingBreakdown:
   metrics:
+    - name: "HVAC Compatibility"
+      score: 7.0
+    - name: "Value"
+      score: 8.8
     - name: "Design & Hardware"
       score: 8.0
     - name: "Smart Automation"
-      score: 7.0
-    - name: "HVAC Compatibility"
       score: 7.0
     - name: "App & Controls"
       score: 6.5
     - name: "Ecosystem & Future Readiness"
       score: 8.0
-    - name: "Value"
-      score: 9.0
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

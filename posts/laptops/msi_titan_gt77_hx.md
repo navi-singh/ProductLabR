@@ -6,7 +6,7 @@ image: "/images/msi_titan_gt77_hx.png"
 productImage: "/images/msi_titan_gt77_hx.png"
 category: "laptops"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Processor: "Intel Core i9-13980HX (24-core: 8P + 16E, up to 5.6GHz boost)"
@@ -47,10 +47,10 @@ ratingBreakdown:
       score: 4.5
     - name: "Build Quality"
       score: 8.8
-    - name: "Value"
-      score: 8.3
     - name: "Keyboard & Trackpad"
       score: 9.2
+    - name: "Value"
+      score: 7.1
 ---
 
 ## Introduction
@@ -106,4 +106,3 @@ It is a poor fit for anyone who regularly works away from power outlets, student
 
 The MSI Titan GT77 HX delivers on its core promise completely: this is the most powerful gaming laptop you can buy, period. The RTX 4090 at full TGP, the mechanical keyboard, the 4K 144Hz G-Sync display, and the fully upgradeable memory configuration create a compelling desktop replacement package. Battery life and portability are non-starters, and the thermal and acoustic profile requires a desk environment. For users who understand and accept those constraints, the Titan GT77 HX is an exceptional machine.
 
-**Overall Score: 8.5 / 10**

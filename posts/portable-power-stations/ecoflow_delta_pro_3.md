@@ -43,20 +43,21 @@ retailerLinks:
 # rating: 5
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.5
     - name: "Performance"
       score: 9.5
-    - name: "Ease of Use"
-      score: 8
     - name: "Expandability"
       score: 10
+    - name: "Design & Build"
+      score: 9.5
     - name: "Portability"
       score: 8
+    - name: "Ease of Use"
+      score: 8
     - name: "Value"
-      score: 9
+      score: 7.6
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
-
 
 ## Introduction
 
@@ -100,7 +101,7 @@ Around the back, EcoFlow places the charging inputs and the expansion ports that
 *The display reports input and output wattage, state of charge and estimated runtime simultaneously — the readout buyers rely on during an outage. Image: EcoFlow.*
 
 ### Home Backup & UPS Performance
-Real-world testing confirmed the Delta Pro 3 excels as comprehensive whole-home backup with true 10ms UPS switchover, ensuring zero interruptions for critical devices including medical equipment, home offices, and sensitive electronics. During extended simulated outages, it powered a full-size refrigerator, WiFi router, multiple laptops, LED lighting, and security systems for 8-12 hours continuously. 
+The 10ms switchover is quick enough that a home office rides through a cut without anything rebooting, which is the main reason to buy this over a cheaper unit. During extended simulated outages it ran a full-size refrigerator, a WiFi router, several laptops, LED lighting and a security system for 8-12 hours continuously. We did not test medical equipment and would not present a battery as a life-support plan; if that is the use case, take it up with the device manufacturer. 
 
 The EcoFlow app provides sophisticated remote monitoring and scheduling capabilities, enabling users to optimize charging times for off-peak electricity rates or maximize solar input efficiency. Smart Home Panel 2 integration allows seamless automatic grid failover, making the transition completely transparent to connected devices. Load management features help prioritize critical circuits during extended outages.
 
@@ -149,7 +150,6 @@ Primary limitations center on substantial weight (113.5 lbs) and premium pricing
 
 However, testing confirms that performance capabilities, build quality, and advanced features justify the investment for users prioritizing reliability, power capacity, and smart integration over portability and budget constraints.
 
-
 ## Final Verdict
 
 The EcoFlow Delta Pro 3 sets a new standard for portable power stations, combining best-in-class specs (4096Wh capacity, 4000W output, 50-minute fast charging) with smart features, expandability, and real-world usability.
@@ -175,7 +175,7 @@ The Delta Pro 3 represents the pinnacle of portable power technology. Its combin
 ### Frequently Asked Questions
 
 **Q: How long can it power a full-sized refrigerator?**
-A: The Delta Pro 3 can power an average full-sized refrigerator for up to three days on a single charge, depending on the unit's efficiency rating and usage patterns. It also handles freezers, sump pumps, medical equipment, and other critical appliances during extended outages. Energy-efficient ENERGY STAR refrigerators may run even longer.
+A: Roughly three days for an average full-size fridge, though that swings a lot with the appliance's efficiency and how often you open the door. Freezers and sump pumps are also well within its range. An ENERGY STAR fridge will stretch it further. For medical equipment, check the requirement with the device's manufacturer rather than relying on a runtime estimate from a review.
 
 **Q: Is indoor use completely safe?**
 A: Absolutely safe for indoor use. The Delta Pro 3 produces zero fumes or emissions and operates significantly quieter than gas generators—typically under 30dB during normal operation. Ensure adequate ventilation around the unit for optimal cooling fan performance during heavy loads or rapid charging.

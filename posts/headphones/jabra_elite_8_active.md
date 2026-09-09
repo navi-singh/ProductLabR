@@ -2,11 +2,11 @@
 title: "Jabra Elite 8 Active: Military-Grade Earbuds for Serious Athletes"
 subtitle: "Jabra's sport-focused flagship earbuds combine MIL-STD-810H military durability, IP68 water resistance, a secure athletic fit, and a 6-microphone call system at a competitive price"
 date: "2026-04-07"
-image: "/images/item.png"
-productImage: "/images/item.png"
+image: "/images/posts/headphones/jabra_elite_8_active/jabra_elite_8_active_main.jpg"
+productImage: "/images/posts/headphones/jabra_elite_8_active/jabra_elite_8_active_main.jpg"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "6mm balanced armature + 6mm dynamic (hybrid)"
@@ -53,16 +53,24 @@ ratingBreakdown:
   metrics:
     - name: "Sound Quality"
       score: 8.2
-    - name: "ANC Performance"
+    - name: "Noise Cancellation"
       score: 8.0
     - name: "Battery Life"
       score: 9.0
     - name: "Durability"
       score: 9.8
+    - name: "Value"
+      score: 8.5
     - name: "Sport Fit"
       score: 9.5
-    - name: "Value"
-      score: 9.2
+imageCredit: "Kyu3a"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+gallery:
+  - src: "/images/posts/headphones/jabra_elite_8_active/jabra_elite_8_active_angle2.jpg"
+    credit: "Kyu3a"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: rugged earbuds that put sport use ahead of hi-fi polish
@@ -76,6 +84,10 @@ The trade-off is equally clear. If you want the richest sound, the deepest ANC, 
 ## Design, build, and setup: durability is the point, not a slogan
 
 The Elite 8 Active feel purposeful rather than luxurious. Each bud weighs 5.8g, light enough to avoid the pendulum effect that makes heavier earbuds wiggle loose during fast head movement. The housing shape is compact, with no ear hook and no stem. That matters in winter hats, helmets, and floor exercises where a protruding stem can catch on fabric or get nudged during movement.
+
+![Jabra Elite 8 Active](/images/posts/headphones/jabra_elite_8_active/jabra_elite_8_active_angle2.jpg)
+
+*Kyu3a / Wikimedia Commons (CC BY-SA 4.0)*
 
 Jabra’s ShakeGrip fit technology is the central design decision. The surface material is meant to become grippier with body heat, so the buds settle more securely as the workout continues. The idea sounds like marketing until you compare it with smooth plastic earbuds during burpees, jump rope, or downhill running. The Elite 8 Active do not rely on a wing tip digging into the ear; they rely on a tackier shell, low mass, and correct eartip pressure.
 
@@ -126,8 +138,6 @@ Do not buy them if your top priority is maximum ANC, cinematic sound, or codec f
 The Jabra Elite 8 Active succeed because they know what kind of product they are. They sacrifice some hi-fi refinement and top-tier ANC to deliver the things athletes actually punish: fit, water resistance, impact tolerance, battery life, outdoor call quality, and charging convenience. The 6mm hybrid driver system is good, the ANC is adequate, and the app is serviceable. The ruggedness is the reason to buy.
 
 At 149 USD, that is a strong position. If your earbuds mostly live at a desk or on airplanes, Sony, Bose, Apple, or Jabra’s own Elite 10 may suit you better. If your earbuds live through sweat, rain, trail dust, and rushed gym-bag charging, the Elite 8 Active are the more honest recommendation.
-
-**Overall Score: 8.5 / 10**
 
 ## FAQ
 

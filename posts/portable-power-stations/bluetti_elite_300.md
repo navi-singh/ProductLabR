@@ -9,6 +9,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "large"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "3,014Wh LiFePO4"
   Inverter Power: "2,400W (Surge 3,900W for 2+ minutes)"
@@ -37,25 +39,25 @@ cons:
   - "Tight outlet spacing limits use of bulky adapters"
   - "Costs $200+ more than comparable Pecron alternatives"
   - "Bluetti's customer support response times lag behind Anker/EcoFlow"
-price: "$1,011 (with discount code; MSRP ~$1,200)"
+price: "~$1,200 MSRP"
 retailerLinks:
   Amazon: "https://www.amazon.com/s?k=bluetti%20elite%20300"
   Bluetti: "https://www.bluettipower.com/products/elite-300"
   Walmart: "https://www.walmart.com/search?q=bluetti%20elite%20300"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 8.0
+    - name: "Power Output"
+      score: 8.0
+    - name: "Design & Build"
+      score: 8.5
+    - name: "Portability"
+      score: 9.0
     - name: "Ease of Use"
       score: 8.0
     - name: "Value"
       score: 7.5
-    - name: "Portability"
-      score: 9.0
-    - name: "Power Output"
-      score: 8.0
 ---
 
 ## Introduction

@@ -2,8 +2,8 @@
 title: "Google Nest Learning Thermostat (3rd Gen) Review: Still the Benchmark, Now Officially Retired"
 subtitle: "Google has discontinued it, but the 3rd-gen Nest remains the most complete self-programming thermostat you can buy — provided you are comfortable owning hardware from 2015"
 date: "2026-08-08"
-image: "/images/item.png"
-productImage: "/images/item.png"
+image: "/images/posts/thermostats/nest_learning_thermostat_3rd_gen/nest_learning_thermostat_3rd_gen_main.jpg"
+productImage: "/images/posts/thermostats/nest_learning_thermostat_3rd_gen/nest_learning_thermostat_3rd_gen_main.jpg"
 specs:
   Display: "2.08 in circular colour LCD, 480 x 480 pixels, behind Gorilla Glass"
   Dimensions: "3.3 in diameter x 1.2 in deep"
@@ -42,18 +42,28 @@ retailerLinks:
   HomeDepot: "https://www.homedepot.com/s/nest%2520learning%2520thermostat"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.5
     - name: "Smart Features"
       score: 9.0
     - name: "HVAC Compatibility"
       score: 9.0
+    - name: "Design & Build"
+      score: 9.5
     - name: "Ease of Use"
       score: 9.0
+    - name: "Value"
+      score: 6.7
     - name: "Ecosystem & Future-Proofing"
       score: 6.0
-    - name: "Value"
-      score: 7.0
+imageCredit: "George Lane"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+gallery:
+  - src: "/images/posts/thermostats/nest_learning_thermostat_3rd_gen/nest_learning_thermostat_3rd_gen_angle2.jpg"
+    credit: "AG20044018"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction
@@ -91,6 +101,10 @@ touchscreen, no capacitive strip, and no menu you have to hunt through with a
 fingertip. It is the most direct physical control anyone has shipped on a connected
 thermostat, and it is the single detail owners miss most when they move to something
 newer.
+
+![Google Nest Learning Thermostat (3rd Gen)](/images/posts/thermostats/nest_learning_thermostat_3rd_gen/nest_learning_thermostat_3rd_gen_angle2.jpg)
+
+*AG20044018 / Wikimedia Commons (CC BY-SA 4.0)*
 
 Behind the Gorilla Glass sits a circular colour LCD measuring 2.08 inches and running
 at 480 by 480 pixels. That is a modest panel by 2026 standards, but circular displays on the wall are

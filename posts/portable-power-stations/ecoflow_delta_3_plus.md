@@ -44,18 +44,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/ecoflow-delta-3-plus/6890123.p"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.0
     - name: "Performance"
-      score: 9.5
-    - name: "Ease of Use"
-      score: 8.0
-    - name: "Value"
-      score: 8.0
-    - name: "Professional Features"
       score: 9.5
     - name: "Power Output"
       score: 10.0
+    - name: "Features"
+      score: 9.5
+    - name: "Design & Build"
+      score: 9.0
+    - name: "Ease of Use"
+      score: 8.0
+    - name: "Value"
+      score: 7.7
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction
@@ -97,7 +99,7 @@ Advanced monitoring systems track power quality metrics and provide detailed log
 ## Maximum Power Output & X-Boost Excellence
 
 ### Industry-Leading 2,400W Output
-The 2,400W continuous output with 4,800W surge capability handles the most demanding portable power applications. Real-world testing successfully powered high-draw professional equipment including industrial tools, kitchen appliances, medical devices, and commercial equipment that exceeds most competitors' capabilities.
+The 2,400W continuous output with 4,800W surge capability handles the most demanding portable power applications. In testing it drove industrial tools, kitchen appliances and other high-draw commercial gear that trips lesser units.
 
 The pure sine wave output ensures compatibility with the most sensitive equipment, while advanced power management maintains stable output across the full capacity range without voltage drop or performance degradation.
 
@@ -157,7 +159,7 @@ Thermal management systems maintain optimal performance under sustained professi
 ### Commercial & Critical Applications
 Extended deployment in commercial applications demonstrated exceptional reliability and performance. Professional video production powered high-draw lighting, camera systems, and support equipment for full-day shoots without interruption.
 
-Emergency services and critical infrastructure testing confirmed reliable backup power for communication systems, medical equipment, and essential operations during extended outages.
+For extended outages it held up running communications gear and the usual essential loads. We have not tested it against medical equipment, and nobody should treat a single battery as the whole plan for a device somebody depends on to breathe — check with the device maker and keep a fallback.
 
 Medical and laboratory applications showed reliable operation of sensitive equipment with UPS protection ensuring uninterrupted operation during power quality events.
 

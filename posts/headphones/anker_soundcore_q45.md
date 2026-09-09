@@ -6,7 +6,7 @@ image: "/images/anker_soundcore_q45.png"
 productImage: "/images/anker_soundcore_q45.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "40mm dynamic drivers"
@@ -60,12 +60,12 @@ ratingBreakdown:
       score: 8.2
     - name: "Noise Cancellation"
       score: 7.8
-    - name: "Comfort & Fit"
-      score: 7.9
     - name: "Battery Life"
       score: 9.5
+    - name: "Comfort & Fit"
+      score: 7.9
     - name: "Value"
-      score: 9.6
+      score: 9.3
 ---
 
 ## Introduction
@@ -144,4 +144,3 @@ Not suitable for frequent long-haul flyers who need maximum ANC depth, listeners
 
 The Anker Soundcore Space Q45 is not the best ANC headphone. It is, with some conviction, the best ANC headphone under $100 — and arguably the best headphone value at any price point when battery life, LDAC support, a hard case, and multipoint connectivity are weighted in the comparison. Its ANC trails the premium tier by a meaningful margin, and its comfort and build quality reflect the price. For buyers whose budget is $79 and who understand the trade-offs, it is an exceptional purchase.
 
-**Overall Score: 8.4 / 10**

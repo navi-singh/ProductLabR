@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel: "Mini-LED QLED (QLED with local dimming)"
@@ -49,14 +49,14 @@ ratingBreakdown:
       score: 9.1
     - name: "Gaming Performance"
       score: 9.2
-    - name: "Smart TV"
+    - name: "Smart TV & Interface"
       score: 9.0
     - name: "Design"
       score: 8.5
-    - name: "Sound"
-      score: 7.2
     - name: "Value"
-      score: 9.7
+      score: 8.6
+    - name: "Audio"
+      score: 7.2
 ---
 
 ## Introduction
@@ -119,4 +119,3 @@ The TCL QM8 represents an inflection point in the Mini-LED TV market. At $749, i
 
 The trade-offs are real — OLED still wins on perfect blacks, wide viewing angles, and per-pixel contrast. But for buyers who watch in bright rooms, want the best HDR highlights, or prioritize gaming specs at a sub-$1,000 price point, the QM8 has no meaningful competition.
 
-**Overall Score: 9.0 / 10**

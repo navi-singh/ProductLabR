@@ -2,11 +2,11 @@
 title: "Apple Watch Series 10: The Thinnest, Most Capable Apple Watch Yet"
 subtitle: "Apple's 2024 flagship smartwatch delivers refined design, faster performance, and improved health sensors in its slimmest form factor to date"
 date: "2026-03-31"
-image: "/images/apple-watch-series-10.png"
-productImage: "/images/apple-watch-series-10.png"
+image: "/images/posts/wearables/apple_watch_series_10/apple_watch_series_10_main.png"
+productImage: "/images/posts/wearables/apple_watch_series_10/apple_watch_series_10_main.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Chip: "Apple S10"
@@ -47,18 +47,21 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 9.3
     - name: "Display"
       score: 9.4
-    - name: "Battery Life"
-      score: 8.2
+    - name: "Health Tracking"
+      score: 9.3
     - name: "Software"
       score: 9.5
+    - name: "Battery Life"
+      score: 8.2
     - name: "Design"
       score: 9.2
     - name: "Value"
-      score: 8.5
+      score: 7.9
+imageCredit: "KK IN HK"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
 ---
 
 ## Introduction
@@ -123,4 +126,3 @@ The Apple Watch Series 10 is the best Apple Watch Apple has ever made, and by a 
 
 If you're in the Apple ecosystem and due for a smartwatch upgrade, the Series 10 earns a confident recommendation. It's the watch that finally makes sleeping with an Apple Watch feel natural — and that's a bigger deal than any single spec on the sheet.
 
-**Overall Score: 9.0 / 10**

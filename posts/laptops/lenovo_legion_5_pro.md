@@ -6,7 +6,7 @@ image: "/images/lenovo_legion_5_pro.png"
 productImage: "/images/lenovo_legion_5_pro.png"
 category: "laptops"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   CPU: "AMD Ryzen 9 7945HX (16-core, 32-thread, up to 5.4GHz boost, 55W base TDP)"
@@ -44,10 +44,10 @@ ratingBreakdown:
       score: 7.0
     - name: "Build Quality"
       score: 8.8
-    - name: "Value"
-      score: 9.2
-    - name: "Keyboard & Touchpad"
+    - name: "Keyboard & Trackpad"
       score: 8.5
+    - name: "Value"
+      score: 7.9
 ---
 
 ## Introduction
@@ -104,4 +104,3 @@ The Legion 5 Pro is a poor fit for users who need all-day battery life, who prio
 
 The Lenovo Legion 5 Pro Gen 9 earns its reputation as the gold standard for value-oriented gaming laptop performance. The Ryzen 9 7945HX and RTX 4070 combination at 140W TGP delivers genuine 1440p ultra-settings gaming capability, the QHD+ 165Hz display is legitimately excellent, and the cooling system sustains performance under extended load without audibly screaming. The touchpad and battery life are the price paid for this value equation, and they are real limitations. But for the gamer who wants maximum in-game performance per dollar, the Legion 5 Pro Gen 9 remains one of the most defensible purchases in the category.
 
-**Overall Score: 8.6 / 10**

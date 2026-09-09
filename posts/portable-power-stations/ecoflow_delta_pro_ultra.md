@@ -41,18 +41,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+delta+pro+ultra"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 9.0
+    - name: "Power Output"
+      score: 9.5
+    - name: "Design & Build"
+      score: 8.5
+    - name: "Portability"
+      score: 3.0
     - name: "Ease of Use"
       score: 7.0
     - name: "Value"
-      score: 7.0
-    - name: "Power Output"
-      score: 9.5
-    - name: "Portability"
-      score: 3.0
+      score: 6.8
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

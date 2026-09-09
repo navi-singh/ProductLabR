@@ -6,7 +6,7 @@ image: "/images/steelseries_apex_pro.png"
 productImage: "/images/steelseries_apex_pro.png"
 category: "gaming"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Switches: "OmniPoint 2.0 Adjustable Magnetic Switches"
@@ -48,16 +48,16 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Typing Feel & Switches"
-      score: 9.5
     - name: "Gaming Performance"
       score: 9.8
     - name: "Build Quality"
       score: 9.3
+    - name: "Value"
+      score: 7.2
+    - name: "Typing Feel & Switches"
+      score: 9.5
     - name: "RGB & Software"
       score: 9.0
-    - name: "Value"
-      score: 8.5
 ---
 
 ## Introduction
@@ -119,4 +119,3 @@ The SteelSeries Apex Pro TKL is the most technically capable gaming keyboard cur
 
 The primary limitations are cost and the absence of tactile switch options — but for the competitive gamer who takes input performance seriously, those are acceptable trade-offs for a keyboard that can be configured to perform in ways no fixed-actuation mechanical board can match.
 
-**Overall Score: 9.2 / 10**

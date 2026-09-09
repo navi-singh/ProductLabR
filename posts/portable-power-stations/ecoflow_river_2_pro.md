@@ -43,18 +43,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/ecoflow-river-2-pro/6517934.p"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 8.0
+    - name: "Charging Speed"
+      score: 9.5
+    - name: "Design & Build"
+      score: 8.5
+    - name: "Portability"
+      score: 9.0
     - name: "Ease of Use"
       score: 9.0
     - name: "Value"
-      score: 7.5
-    - name: "Portability"
-      score: 9.0
-    - name: "Charging Speed"
-      score: 9.5
+      score: 7.9
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

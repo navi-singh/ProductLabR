@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Size: "43mm"
@@ -45,18 +45,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 8.8
     - name: "Display"
       score: 9.3
-    - name: "Battery Life"
-      score: 8.0
+    - name: "Health Tracking"
+      score: 8.8
     - name: "Software"
       score: 8.5
+    - name: "Battery Life"
+      score: 8.0
     - name: "Design"
       score: 9.2
     - name: "Value"
-      score: 8.5
+      score: 8.2
 ---
 
 ## Introduction
@@ -123,4 +123,3 @@ The Polar Ignite 3 is the most elegant and wearable sports watch in its price ca
 
 The 5-day battery and absence of NFC payments are meaningful limitations at $299. But for the runner or cyclist who values accurate HR data, intelligent daily workout guidance, and a watch they'll forget they're wearing — the Polar Ignite 3 is the most compelling option at its price point.
 
-**Overall Score: 8.5 / 10**

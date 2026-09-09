@@ -6,7 +6,7 @@ image: "/images/dell_u2723d.png"
 productImage: "/images/dell_u2723d.png"
 category: "monitors"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "IPS Black"
@@ -42,16 +42,16 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Display Quality"
+    - name: "Picture Quality"
       score: 9.2
     - name: "Color Accuracy"
       score: 9.5
     - name: "Connectivity"
       score: 9.3
+    - name: "Value"
+      score: 7.5
     - name: "Ergonomics"
       score: 9.0
-    - name: "Value"
-      score: 8.8
     - name: "Gaming"
       score: 6.5
 ---
@@ -114,4 +114,3 @@ The U2723D is not the right choice for gamers. Its 60Hz ceiling is a hard limita
 
 The Dell UltraSharp U2723D is a near-perfect professional productivity monitor. IPS Black technology delivers contrast performance that standard IPS panels cannot match, factory calibration ensures accuracy out of the box, and the Thunderbolt 4 connectivity suite with 90W power delivery makes it the most capable single-cable workstation monitor at its price point. Its limitations—60Hz refresh rate, no speakers, modest HDR performance—are real but predictable trade-offs for a display built around professional accuracy rather than entertainment performance. For creative professionals and power laptop users, it is the benchmark at 27 inches.
 
-**Overall Score: 8.7 / 10**

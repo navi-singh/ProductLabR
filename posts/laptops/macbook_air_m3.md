@@ -6,7 +6,7 @@ image: "/images/macbook_air_m3.png"
 productImage: "/images/macbook_air_m3.png"
 category: "laptops"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   CPU: "Apple M3 (8-core CPU: 4 performance + 4 efficiency cores, up to 4.05GHz)"
@@ -44,10 +44,10 @@ ratingBreakdown:
       score: 9.5
     - name: "Build Quality"
       score: 9.3
-    - name: "Value"
-      score: 8.8
-    - name: "Keyboard & Touchpad"
+    - name: "Keyboard & Trackpad"
       score: 9.0
+    - name: "Value"
+      score: 8.2
 ---
 
 ## Introduction
@@ -106,4 +106,3 @@ The M3 Air is a poor choice for Windows-dependent workflows, sustained compute-h
 
 The MacBook Air 13-inch M3 earns its reputation as the best all-around laptop available at its price. No other machine in the sub-$1,500 category delivers the same combination of CPU performance, fanless silence, 15-hour battery endurance, and build quality. The Liquid Retina display, Magic Keyboard, and Force Touch trackpad set hardware standards that Windows ultrabooks have spent years attempting to match. The constraints — 8GB base RAM, 60Hz display, limited ports — are real, and the right configuration for most users (16GB, 512GB) costs meaningfully more than the headline price. But configured appropriately, the MacBook Air M3 is the most capable and satisfying laptop for the majority of users who will ever buy one.
 
-**Overall Score: 9.1 / 10**

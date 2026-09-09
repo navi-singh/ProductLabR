@@ -6,7 +6,7 @@ image: "/images/aoc_24g2sp.png"
 productImage: "/images/aoc_24g2sp.png"
 category: "monitors"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "IPS"
@@ -52,10 +52,10 @@ ratingBreakdown:
       score: 8.5
     - name: "Connectivity"
       score: 7.8
-    - name: "Value"
-      score: 9.4
     - name: "Design"
       score: 8.0
+    - name: "Value"
+      score: 9.2
 ---
 
 ## Introduction
@@ -100,4 +100,3 @@ The AOC 24G2SP is ideal for competitive gamers on a budget who prioritize frame 
 
 The AOC 24G2SP is simply the best gaming monitor available under $200, and it has been for good reason. It combines a properly fast 165Hz IPS panel with accurate out-of-box color calibration, AMD FreeSync Premium, and a clean aesthetic at a price point where compromises are normally mandatory. The stand ergonomics and 1080p resolution are genuine limitations, but neither undermines what makes this monitor so compelling: for competitive gaming with excellent color, it delivers results that feel impossible at $149.
 
-**Overall Score: 8.5 / 10**

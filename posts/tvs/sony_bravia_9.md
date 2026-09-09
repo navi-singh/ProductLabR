@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel: "Mini-LED with Full-Array Local Dimming"
@@ -49,14 +49,14 @@ ratingBreakdown:
       score: 9.4
     - name: "Gaming Performance"
       score: 8.7
-    - name: "Smart TV"
+    - name: "Smart TV & Interface"
       score: 9.1
     - name: "Design"
       score: 9.2
-    - name: "Sound"
-      score: 9.5
     - name: "Value"
-      score: 8.0
+      score: 7.0
+    - name: "Audio"
+      score: 9.5
 ---
 
 ## Introduction
@@ -121,4 +121,3 @@ The Sony Bravia 9 is the best television for buyers who prioritize cinematic pic
 
 At $2,499, it demands justification that competing Mini-LED TVs at $700–$1,100 do not. That justification exists — but only for viewers who will genuinely notice and value the specific areas where Sony excels. If you want the lowest input lag, the highest brightness, or the best value per dollar, look elsewhere.
 
-**Overall Score: 9.3 / 10**

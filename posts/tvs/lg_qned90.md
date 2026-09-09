@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel: "QNED Mini-LED with MLA (Micro Lens Array)"
@@ -49,14 +49,14 @@ ratingBreakdown:
       score: 8.5
     - name: "Gaming Performance"
       score: 9.2
-    - name: "Smart TV"
+    - name: "Smart TV & Interface"
       score: 9.0
     - name: "Design"
       score: 8.7
-    - name: "Sound"
-      score: 7.3
     - name: "Value"
-      score: 8.7
+      score: 8.3
+    - name: "Audio"
+      score: 7.3
 ---
 
 ## Introduction
@@ -117,4 +117,3 @@ Built-in audio is the weakest link, as with most TVs in this category. The AI So
 
 The LG QNED90 is the best gaming TV under $750 available in 2024. Its four full-bandwidth HDMI 2.1 ports, 144Hz native panel, sub-8ms input lag, and excellent webOS 24 platform deliver specifications and software quality that competing TVs charge significantly more to match. The picture quality is not as good as OLED in dark rooms, but for bright-room viewing or gaming priority use, the QNED90 is an exceptional choice.
 
-**Overall Score: 8.6 / 10**

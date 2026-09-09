@@ -42,18 +42,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/anker-solix-c1000/6548923.p"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.0
     - name: "Performance"
       score: 8.5
-    - name: "Ease of Use"
-      score: 8.5
-    - name: "Value"
-      score: 7.5
     - name: "Charging Speed"
       score: 9.5
     - name: "Features"
       score: 8.5
+    - name: "Design & Build"
+      score: 9.0
+    - name: "Ease of Use"
+      score: 8.5
+    - name: "Value"
+      score: 7.6
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction
@@ -87,7 +89,7 @@ The SOLIX C1000's defining feature is its exceptional HyperFlash charging techno
 The charging system intelligently manages heat and current flow to protect battery longevity while achieving maximum speed. Multiple protection systems ensure safe operation during rapid charging, while the advanced BMS maintains optimal performance across thousands of charging cycles.
 
 ### Power Output & Professional Performance
-The 1,800W continuous output with 2,400W surge capability handles demanding professional equipment effectively. Real-world testing successfully powered construction tools, kitchen appliances, medical equipment, and high-draw devices that exceed many competitors' capabilities. The pure sine wave output ensures compatibility with sensitive electronics and precision equipment.
+The 1,800W continuous output with 2,400W surge capability handles demanding professional equipment effectively. In testing it drove construction tools, kitchen appliances and other high-draw devices that trip lesser units. The pure sine wave output ensures compatibility with sensitive electronics and precision equipment.
 
 Power delivery remains consistent across the full capacity range without voltage drop or performance degradation. The sophisticated power management system optimizes efficiency while maintaining stable output under varying loads.
 
@@ -120,7 +122,7 @@ Extended testing across professional, camping, and emergency applications demons
 
 Construction and job site deployment successfully operated demanding power tools, air compressors, and specialized equipment requiring clean, stable power delivery. The six AC outlets proved invaluable for simultaneous multi-device operation without requiring additional power strips.
 
-Emergency backup testing confirmed reliable operation of essential home systems including refrigeration, medical equipment, communication devices, and lighting during extended outages. The substantial capacity and high output capability make it suitable for whole-home critical load backup.
+Through an extended outage it comfortably covered the ordinary essentials — refrigeration, lighting, phones and network gear. Medical equipment is a different question and one we did not test; if that is your reason for buying, verify compatibility with the device manufacturer rather than with a review. The substantial capacity and high output capability make it suitable for whole-home critical load backup.
 
 ### Premium Construction Benefits
 The robust construction withstands demanding professional environments while maintaining consistent performance. Drop resistance, moisture tolerance, and temperature stability exceed typical consumer-grade alternatives, reflecting Anker's commitment to professional-grade durability.

@@ -6,7 +6,7 @@ image: "/images/logitech-g915-tkl.png"
 productImage: "/images/logitech-g915-tkl.png"
 category: "gaming"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Switches: "Logitech GL Tactile / GL Clicky / GL Linear (low-profile mechanical)"
@@ -49,18 +49,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
+    - name: "Battery Life"
+      score: 8.5
     - name: "Build Quality"
       score: 9.3
+    - name: "Value"
+      score: 7.3
     - name: "Switch Feel"
       score: 9.0
     - name: "Wireless Performance"
       score: 9.4
-    - name: "Battery Life"
-      score: 8.5
     - name: "RGB"
       score: 9.0
-    - name: "Value"
-      score: 8.7
 ---
 
 ## Introduction
@@ -131,4 +131,3 @@ The Logitech G915 TKL occupies a specific niche — premium wireless TKL gaming 
 
 The 40-hour RGB battery will require more frequent charging than some buyers expect at $199, and the absence of hot-swap support is a real limitation for those who like to experiment with switch types. But as a daily driver gaming keyboard for competitive and enthusiast users who value quality-of-life refinements — wireless freedom, compact layout, premium materials — the G915 TKL is difficult to surpass.
 
-**Overall Score: 9.0 / 10**

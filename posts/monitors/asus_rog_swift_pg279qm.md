@@ -6,7 +6,7 @@ image: "/images/asus_rog_swift_pg279qm.png"
 productImage: "/images/asus_rog_swift_pg279qm.png"
 category: "monitors"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "Fast IPS"
@@ -52,10 +52,10 @@ ratingBreakdown:
       score: 8.8
     - name: "Connectivity"
       score: 8.3
-    - name: "Value"
-      score: 8.2
     - name: "Design"
       score: 9.0
+    - name: "Value"
+      score: 7.5
 ---
 
 ## Introduction
@@ -102,4 +102,3 @@ The ASUS ROG Swift PG279QM is built for NVIDIA GPU owners who want the best 1440
 
 The ASUS ROG Swift PG279QM is one of the finest 27-inch gaming monitors ever made. Its Fast IPS panel, hardware G-Sync, NVIDIA Reflex Latency Analyzer, and wide DCI-P3 coverage create a package that only ASUS's ROG line delivers at this price tier. The DisplayHDR 400 ceiling and IPS-standard contrast are accepted costs for the gains elsewhere. For the serious NVIDIA gamer who wants the most technically refined 1440p 240Hz monitor available, the PG279QM is the definitive answer.
 
-**Overall Score: 8.8 / 10**

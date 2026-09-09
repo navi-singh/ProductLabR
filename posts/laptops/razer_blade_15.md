@@ -6,7 +6,7 @@ image: "/images/razer_blade_15.png"
 productImage: "/images/razer_blade_15.png"
 category: "laptops"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Processor: "Intel Core i9-14900HX (24-core: 8P + 16E, up to 5.8GHz boost)"
@@ -47,10 +47,10 @@ ratingBreakdown:
       score: 6.8
     - name: "Build Quality"
       score: 9.5
-    - name: "Value"
-      score: 8.0
     - name: "Keyboard & Trackpad"
       score: 9.0
+    - name: "Value"
+      score: 7.2
 ---
 
 ## Introduction
@@ -99,4 +99,3 @@ It is not the right purchase for budget-conscious buyers (the Lenovo Legion 5 Pr
 
 The Razer Blade 15 (2024) is the finest gaming laptop you can buy from a build quality and display standpoint. The OLED 240Hz panel is genuinely stunning, the aluminum chassis is class-leading, and the RTX 4080 at 150W delivers the gaming performance to match the hardware investment. Battery life and price remain the two valid objections. For users who can accept those trade-offs — and have $2,499 to spend — there is no better 15-inch gaming laptop.
 
-**Overall Score: 8.9 / 10**

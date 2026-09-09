@@ -2,11 +2,11 @@
 title: "Apple HomePod mini: Small Speaker, Serious Smart Home Hub"
 subtitle: "The S5 chip and 360-degree audio make this the best $99 smart speaker for Apple households"
 date: "2026-03-31"
-image: "/images/apple_homepod_mini.png"
-productImage: "/images/apple_homepod_mini.png"
+image: "/images/posts/smart-home/apple_homepod_mini/apple_homepod_mini_main.jpg"
+productImage: "/images/posts/smart-home/apple_homepod_mini/apple_homepod_mini_main.jpg"
 category: "smart-home"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Chip: "Apple S5"
@@ -43,16 +43,28 @@ ratingBreakdown:
   metrics:
     - name: "Sound Quality"
       score: 8.8
-    - name: "Smart Home"
-      score: 9.0
-    - name: "Privacy"
-      score: 9.2
     - name: "Design"
       score: 9.1
     - name: "Value"
       score: 8.5
+    - name: "Smart Home"
+      score: 9.0
+    - name: "Privacy"
+      score: 9.2
     - name: "Siri"
       score: 7.8
+imageCredit: "aconcagua"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+gallery:
+  - src: "/images/posts/smart-home/apple_homepod_mini/apple_homepod_mini_angle2.jpg"
+    credit: "Arne Müseler"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 3.0 de"
+  - src: "/images/posts/smart-home/apple_homepod_mini/apple_homepod_mini_angle3.jpg"
+    credit: "KKPCW"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: the tiny Apple speaker that matters most as a home hub
@@ -67,6 +79,10 @@ The HomePod mini is built around Apple’s S5 chip, a full-range driver, dual pa
 
 The HomePod mini looks like a fabric-covered ball rather than a piece of stereo equipment. At 3.3 inches tall and 0.76 lbs, it can sit on a kitchen counter, nightstand, bookshelf, or desk without visually taking over the room. That matters because smart speakers often fail not because they sound bad, but because nobody wants one more gadget dominating a shared space.
 
+![Apple HomePod mini](/images/posts/smart-home/apple_homepod_mini/apple_homepod_mini_angle2.jpg)
+
+*Arne Müseler / Wikimedia Commons (CC BY-SA 3.0 de)*
+
 The mesh exterior and glowing top surface are doing two jobs. They make the speaker softer and less appliance-like, and they reduce the number of visible controls to the essentials. Volume is handled on the top surface, while Siri feedback appears as an animated light. There is no display, no clock face, no exposed aux port, and no battery. This is a stationary home device, not a portable Bluetooth speaker.
 
 Setup is excellent if you have the required Apple hardware. Bring an iPhone close, follow the pairing card, and the speaker can receive your Apple ID, Wi-Fi, and Home settings quickly. The process can be under 3 minutes when your account and Home app are already in order. That is the kind of setup experience that makes ordinary Bluetooth pairing feel old.
@@ -78,6 +94,10 @@ The power arrangement also deserves attention before purchase. The HomePod mini 
 ## Performance and real-world testing: better room sound than the size promises
 
 The HomePod mini sounds larger than a 3.3 inches speaker should, but it does not break physics. The full-range driver and dual passive radiators give it a warm, rounded presentation that works well for casual listening, podcasts, kitchen music, and bedroom use. The 360-degree audio pattern is the most important acoustic trait because placement is forgiving. Put it on a counter or shelf and the sound spreads around the room instead of forming a narrow sweet spot.
+
+![Apple HomePod mini](/images/posts/smart-home/apple_homepod_mini/apple_homepod_mini_angle3.jpg)
+
+*KKPCW / Wikimedia Commons (CC BY-SA 4.0)*
 
 Apple’s computational audio, driven by the S5 chip, keeps the small driver from sounding thin at normal volumes. Vocals are clear, bass has more presence than the cabinet size implies, and the speaker remains composed for background listening. Push it hard and you will hear the limits: deep bass compresses, large rooms swallow the scale, and dense music does not have the separation of a larger speaker.
 
@@ -114,8 +134,6 @@ Do not buy it if you use Android, if Spotify Connect-style openness is your top 
 The Apple HomePod mini is a focused product with an honest limitation. It is excellent inside an Apple home because the S5 chip, U1 Handoff, Thread border-router support, Intercom, HomeKit hub features, and 360-degree audio all reinforce one another. It is much less compelling for anyone outside that ecosystem.
 
 At 99 USD, the value is strong if you count smart-home infrastructure as part of the purchase. At 198 USD for a stereo pair, it becomes a tidy small-room audio setup with real Apple convenience. The sound is impressive for the size, Siri is useful but not class-leading, and the missing power adapter is annoying. For iPhone households building a smarter home, the HomePod mini remains one of Apple’s most practical devices.
-
-**Overall Score: 8.7 / 10**
 
 ## FAQ
 

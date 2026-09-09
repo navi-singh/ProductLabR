@@ -1,6 +1,6 @@
 ---
-title: "Nikon Z9: Expert Review with Real-World Testing"
-subtitle: "A comprehensive review of Nikon's latest camera technology"
+title: "Nikon Z9: The Flagship That Dropped the Mechanical Shutter"
+subtitle: "Nikon's stacked-sensor professional body for sports, wildlife and 8K video"
 date: "2025-08-17"
 image: "/images/posts/cameras/nikon_z9/nikon_z9.webp"
 productImage: "/images/posts/cameras/nikon_z9/nikon_z9.webp"
@@ -38,10 +38,12 @@ ratingBreakdown:
       score: 9.0
     - name: "Build Quality"
       score: 8.5
-    - name: "Value"
-      score: 8.0
     - name: "Ease of Use"
       score: 7.5
+    - name: "Value"
+      score: 7.5
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Overview: a flagship for people who cannot treat the camera gently

@@ -41,18 +41,20 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+trail+300+dc"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 8.0
+    - name: "Power Output"
+      score: 6.5
+    - name: "Design & Build"
+      score: 8.5
+    - name: "Portability"
+      score: 9.5
     - name: "Ease of Use"
       score: 9.0
     - name: "Value"
-      score: 8.5
-    - name: "Power Output"
-      score: 6.5
-    - name: "Portability"
-      score: 9.5
+      score: 8.8
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

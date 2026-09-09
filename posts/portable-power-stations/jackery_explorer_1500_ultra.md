@@ -9,6 +9,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "large"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "1,536Wh LiFePO4"
   Inverter Power: "1,800W"
@@ -46,18 +48,18 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=jackery%20explorer%201500%20ultra"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 9.5
     - name: "Performance"
       score: 9.0
+    - name: "Efficiency"
+      score: 10.0
+    - name: "Design & Build"
+      score: 9.5
+    - name: "Durability"
+      score: 10.0
     - name: "Ease of Use"
       score: 8.5
     - name: "Value"
-      score: 8.0
-    - name: "Durability"
-      score: 10.0
-    - name: "Efficiency"
-      score: 10.0
+      score: 7.9
 ---
 
 ## Introduction

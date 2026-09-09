@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "11mm dynamic drivers"
@@ -52,16 +52,16 @@ ratingBreakdown:
   metrics:
     - name: "Sound Quality"
       score: 8.7
-    - name: "ANC Performance"
+    - name: "Noise Cancellation"
       score: 8.6
     - name: "Battery Life"
       score: 9.0
-    - name: "Comfort"
+    - name: "Comfort & Fit"
       score: 8.8
+    - name: "Value"
+      score: 8.0
     - name: "AI Features"
       score: 9.5
-    - name: "Value"
-      score: 8.9
 ---
 
 ## Introduction
@@ -142,4 +142,3 @@ The Google Pixel Buds Pro 2 is the most compelling argument that earbuds can be 
 
 For Android ecosystem users who want their earbuds to function as an AI assistant layer — handling questions, translation, and conversation management alongside music — the Pixel Buds Pro 2 has no equivalent. For pure audio performance, spend more for the Sony WF-1000XM5 or Jabra Elite 10.
 
-**Overall Score: 8.8 / 10**

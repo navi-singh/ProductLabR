@@ -9,6 +9,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "home-backup"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "6,144Wh per unit (expandable to 184kWh with 10 batteries)"
   Inverter Power: "12,000W (120V/240V split-phase)"
@@ -46,18 +48,18 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow%20delta%20pro%20ultra%20x"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 9.0
+    - name: "Power Output"
+      score: 10.0
+    - name: "Expandability"
+      score: 10.0
+    - name: "Design & Build"
+      score: 8.5
     - name: "Ease of Use"
       score: 7.5
     - name: "Value"
-      score: 7.0
-    - name: "Power Output"
-      score: 10.0
-    - name: "Scalability"
-      score: 10.0
+      score: 6.5
 ---
 
 ## Introduction

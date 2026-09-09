@@ -42,18 +42,20 @@ retailerLinks:
   Costco: "https://www.costco.com/jackery-explorer-1000-v2-portable-power-station.product"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.5
     - name: "Performance"
       score: 8.5
+    - name: "Features"
+      score: 7.0
+    - name: "Design & Build"
+      score: 8.5
+    - name: "Durability"
+      score: 9.5
     - name: "Ease of Use"
       score: 9.0
     - name: "Value"
-      score: 8.0
-    - name: "Reliability"
-      score: 9.5
-    - name: "Features"
-      score: 7.0
+      score: 7.8
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction
@@ -106,7 +108,7 @@ The unit operates quietly during normal use, with minimal fan noise even under m
 ### Real-World Applications & Scenarios
 Extended testing across camping, emergency backup, and mobile applications demonstrated consistent reliable performance. Multi-day camping trips powered refrigeration, lighting, device charging, and small appliances for 3-5 days with conservative usage. The emergency light function proved invaluable for nighttime setup and safety applications.
 
-Home backup testing successfully powered essential appliances during outages, including refrigerators, lighting, medical devices, and communication equipment. The higher 1,500W output enables powering larger appliances that exceed many competitors' capabilities.
+Home backup testing covered the ordinary essentials — a refrigerator, lighting and communication equipment — and it handled them without complaint. We did not test medical devices, and you should not rely on any single battery for one without confirming it with the manufacturer. The higher 1,500W output enables powering larger appliances that exceed many competitors' capabilities.
 
 Professional applications including construction sites and outdoor events showed reliable power tool operation and equipment support. The robust construction withstands demanding environments while maintaining consistent performance.
 

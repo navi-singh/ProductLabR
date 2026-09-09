@@ -2,11 +2,11 @@
 title: "Withings ScanWatch 2: Medical-Grade Tracking in a Classic Watch Body"
 subtitle: "Withings' hybrid analog smartwatch delivers 30-day battery, medical-grade ECG, respiratory health monitoring, and sapphire crystal in a timeless design that doesn't look like a tech device"
 date: "2026-03-31"
-image: "/images/item.png"
-productImage: "/images/item.png"
+image: "/images/posts/wearables/withings_scanwatch_2/withings_scanwatch_2_main.jpg"
+productImage: "/images/posts/wearables/withings_scanwatch_2/withings_scanwatch_2_main.jpg"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Size: "38mm"
@@ -43,18 +43,26 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 9.0
     - name: "Display"
       score: 7.0
-    - name: "Battery Life"
-      score: 9.8
+    - name: "Health Tracking"
+      score: 9.0
     - name: "Software"
       score: 8.0
+    - name: "Battery Life"
+      score: 9.8
     - name: "Design"
       score: 9.2
     - name: "Value"
-      score: 8.0
+      score: 7.8
+imageCredit: "Susie Felber"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC0"
+gallery:
+  - src: "/images/posts/wearables/withings_scanwatch_2/withings_scanwatch_2_angle2.jpg"
+    credit: "Susie Felber"
+    source: "Wikimedia Commons"
+    license: "CC0"
 ---
 
 ## Introduction
@@ -68,6 +76,10 @@ At $349, the ScanWatch 2 is positioned at the same price as the Google Pixel Wat
 ## Design & Display
 
 The ScanWatch 2's design philosophy is the most distinctive in the wearable category. Rather than optimizing a watch face display for data density, Withings chose to preserve the analog watch dial as the primary visual element and relegate digital information to a small subdial — a compromise between classic watch aesthetics and health tracking utility.
+
+![Withings ScanWatch 2](/images/posts/wearables/withings_scanwatch_2/withings_scanwatch_2_angle2.jpg)
+
+*Susie Felber / Wikimedia Commons (CC0)*
 
 The 38mm case is available in white or black, with a stainless steel case and either a stainless steel bracelet or leather strap. The sapphire crystal glass provides scratch resistance that is genuinely superior to Gorilla Glass in daily wear — high-end mechanical watchmakers use sapphire for a reason. The 30-day battery life means you wear the ScanWatch 2 continuously for weeks at a time without interruption, which contributes to its traditional watch character.
 
@@ -121,4 +133,3 @@ The Withings ScanWatch 2 occupies a uniquely valuable position in the wearable m
 
 The analog display's information limitations are real, and the absence of built-in GPS and NFC payments are meaningful feature gaps compared to full smartwatches at the same price. But for the buyer who has been waiting for health-tracking technology that respects traditional watch aesthetics, the ScanWatch 2 has no equal.
 
-**Overall Score: 8.4 / 10**

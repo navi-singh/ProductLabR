@@ -6,7 +6,7 @@ image: "/images/corsair_k100_rgb.png"
 productImage: "/images/corsair_k100_rgb.png"
 category: "gaming"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Switches: "Corsair OPX Optical-Mechanical (linear)"
@@ -51,16 +51,16 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Typing Feel & Switches"
-      score: 9.2
     - name: "Gaming Performance"
       score: 9.5
     - name: "Build Quality"
       score: 9.4
+    - name: "Value"
+      score: 7.0
+    - name: "Typing Feel & Switches"
+      score: 9.2
     - name: "RGB & Software"
       score: 9.6
-    - name: "Value"
-      score: 8.2
 ---
 
 ## Introduction
@@ -119,4 +119,3 @@ The Corsair K100 RGB earns its flagship status by executing its ambitious featur
 
 The primary limitations — full-size footprint, linear-only switch option, and $229 price — are inherent to the product's positioning as a no-compromise flagship. For the gamer who wants one keyboard that does everything at the highest available specification, the K100 RGB is the recommendation.
 
-**Overall Score: 9.1 / 10**

@@ -2,11 +2,11 @@
 title: "Apple Watch Ultra 2: The Ultimate Adventure Smartwatch"
 subtitle: "Apple's most rugged and capable Watch pushes battery life, GPS accuracy, and durability to new limits for serious athletes and explorers"
 date: "2026-03-31"
-image: "/images/item.png"
-productImage: "/images/item.png"
+image: "/images/posts/wearables/apple_watch_ultra_2/apple_watch_ultra_2_main.jpg"
+productImage: "/images/posts/wearables/apple_watch_ultra_2/apple_watch_ultra_2_main.jpg"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Chip: "Apple S9"
@@ -45,18 +45,21 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 9.5
     - name: "Display"
       score: 9.6
-    - name: "Battery Life"
-      score: 9.8
+    - name: "Health Tracking"
+      score: 9.5
     - name: "Software"
       score: 9.5
+    - name: "Battery Life"
+      score: 9.8
     - name: "Design"
       score: 9.2
     - name: "Value"
-      score: 8.0
+      score: 6.9
+imageCredit: "Pangalau"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
 ---
 
 ## Introduction
@@ -121,4 +124,3 @@ The Apple Watch Ultra 2 is the most capable smartwatch Apple has ever built, and
 
 The ongoing SpO2 hardware lockout in the US market is a frustrating limitation that Apple has not resolved, and the single 49mm size excludes users with smaller wrists entirely. But on the metrics that matter to the Ultra 2's target audience — endurance, durability, GPS precision, and field usability — no Apple Watch has come close.
 
-**Overall Score: 9.4 / 10**

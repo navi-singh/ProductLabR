@@ -1,6 +1,6 @@
 ---
 title: "Nikon Z8: Comprehensive Testing for Photo and Video"
-subtitle: "A comprehensive review of Nikon's latest camera technology"
+subtitle: "Z9 performance in a body you can actually carry all day"
 date: "2025-08-17"
 image: "/images/posts/cameras/nikon_z8/nikon_z8.webp"
 productImage: "/images/posts/cameras/nikon_z8/nikon_z8.webp"
@@ -38,10 +38,12 @@ ratingBreakdown:
       score: 9.0
     - name: "Build Quality"
       score: 8.5
-    - name: "Value"
-      score: 8.0
     - name: "Ease of Use"
       score: 7.5
+    - name: "Value"
+      score: 7.9
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Overview: the small Nikon that should make you question the flagship

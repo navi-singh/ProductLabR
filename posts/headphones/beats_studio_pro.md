@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "40mm dynamic drivers"
@@ -51,16 +51,16 @@ ratingBreakdown:
   metrics:
     - name: "Sound Quality"
       score: 8.5
-    - name: "ANC Performance"
+    - name: "Noise Cancellation"
       score: 8.7
     - name: "Battery Life"
       score: 9.3
-    - name: "Comfort"
+    - name: "Comfort & Fit"
       score: 8.6
+    - name: "Value"
+      score: 7.3
     - name: "Call Quality"
       score: 8.5
-    - name: "Value"
-      score: 8.0
 ---
 
 ## Introduction
@@ -137,4 +137,3 @@ The Beats Studio Pro's value proposition is clearest for buyers who want a singl
 
 For Apple-primary users who want the absolute best ecosystem integration, the AirPods Max is deeper. For users who want the best ANC, the Sony XM5 is stronger. For buyers who want solid performance everywhere with exceptional battery life and genuine cross-platform compatibility, the Studio Pro is the right choice.
 
-**Overall Score: 8.6 / 10**

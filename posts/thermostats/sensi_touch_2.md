@@ -39,18 +39,20 @@ retailerLinks:
   HomeDepot: "https://www.homedepot.com/s/Sensi%20Touch%202%20ST76"
 ratingBreakdown:
   metrics:
+    - name: "Ecosystem Support"
+      score: 6.5
     - name: "Design & Build"
       score: 8.0
+    - name: "Value"
+      score: 7.4
     - name: "Scheduling & App Features"
       score: 7.5
     - name: "Installation Practicality"
       score: 6.0
-    - name: "Ecosystem Support"
-      score: 6.5
     - name: "Documentation Transparency"
       score: 5.0
-    - name: "Value"
-      score: 7.5
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

@@ -6,7 +6,7 @@ image: "/images/sony_a95l_qd_oled.png"
 productImage: "/images/sony_a95l_qd_oled.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "QD-OLED (Quantum Dot OLED, Self-Emissive)"
@@ -59,12 +59,12 @@ ratingBreakdown:
       score: 8.8
     - name: "Smart TV & Interface"
       score: 9.1
-    - name: "Audio"
-      score: 8.9
-    - name: "Value"
-      score: 7.8
     - name: "Design"
       score: 9.4
+    - name: "Value"
+      score: 6.8
+    - name: "Audio"
+      score: 8.9
 ---
 
 ## Introduction
@@ -141,4 +141,3 @@ The Sony A95L QD-OLED is the finest consumer television available. Its picture q
 
 The only reasons not to buy it are price — it costs nearly twice what the LG C4 charges — and gaming credentials that, while solid, are not class-leading. For everyone else, this is the television that makes you forget you are watching a screen.
 
-**Overall Score: 9.3 / 10**

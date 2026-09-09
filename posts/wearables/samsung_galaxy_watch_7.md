@@ -6,7 +6,7 @@ image: "/images/samsung_galaxy_watch_7.png"
 productImage: "/images/samsung_galaxy_watch_7.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Chip: "Samsung Exynos W1000 (3nm, 5-core)"
@@ -46,18 +46,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 9.2
-    - name: "Battery Life"
-      score: 7.8
     - name: "Display"
       score: 9.3
-    - name: "Smart Features"
+    - name: "Health Tracking"
+      score: 9.2
+    - name: "Software"
       score: 9.0
-    - name: "Value"
-      score: 8.8
+    - name: "Battery Life"
+      score: 7.8
     - name: "Design"
       score: 9.1
+    - name: "Value"
+      score: 8.3
 ---
 
 ## Introduction
@@ -120,4 +120,3 @@ iPhone users should not consider the Galaxy Watch 7 — it requires an Android p
 
 The Samsung Galaxy Watch 7 is the best Android smartwatch available in 2024. It's fast, health-capable, well-designed, and runs the most polished version of Wear OS yet. Galaxy AI health coaching is a genuine differentiator that makes the watch feel meaningfully smarter than its predecessors. Battery life remains the key trade-off — daily or near-daily charging is the reality for most users — but the speed, sensor breadth, and software intelligence justify the compromise for anyone invested in the Android ecosystem.
 
-**Overall Score: 9.0 / 10**

@@ -6,7 +6,7 @@ image: "/images/sony_wh1000xm5.png"
 productImage: "/images/sony_wh1000xm5.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "30mm dynamic drivers (newly designed)"
@@ -63,12 +63,12 @@ ratingBreakdown:
       score: 9.2
     - name: "Noise Cancellation"
       score: 9.4
-    - name: "Comfort"
-      score: 9.0
     - name: "Battery Life"
       score: 9.1
+    - name: "Comfort & Fit"
+      score: 9.0
     - name: "Value"
-      score: 8.8
+      score: 7.6
     - name: "Microphone Quality"
       score: 8.5
 ---
@@ -154,4 +154,3 @@ It is a harder sell for audiophiles who want the most open, expansive soundstage
 
 The Sony WH-1000XM5 earns its position as the default recommendation for anyone shopping at the $300–$350 ANC headphone tier. The ANC is the best available in a portable over-ear form factor, the sound quality with LDAC is genuinely audiophile-adjacent, and the 30-hour battery is essentially inexhaustible for normal use. The non-folding design and soft carry case are real trade-offs. They are not dealbreakers. This is the headphone most people should buy.
 
-**Overall Score: 9.0 / 10**

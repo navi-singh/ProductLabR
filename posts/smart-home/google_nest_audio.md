@@ -6,7 +6,7 @@ image: "/images/google_nest_audio.png"
 productImage: "/images/google_nest_audio.png"
 category: "smart-home"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Drivers: "3.0-inch (75mm) woofer + 0.75-inch tweeter"
@@ -49,7 +49,7 @@ ratingBreakdown:
     - name: "Design & Build"
       score: 8.6
     - name: "Value"
-      score: 8.8
+      score: 8.6
 ---
 
 ## Overview: the Google speaker that sounds like it has priorities
@@ -109,8 +109,6 @@ Do not buy it if you need a built-in Zigbee hub, Thread border-router support, o
 Google Nest Audio earns its place by being clear about what it is. It is a 99 USD Google Assistant speaker with a 75mm woofer, a 0.75 inches tweeter, Adaptive Sound, and enough physical size to make everyday music pleasant. It is not the most universal smart-home hub, and it is not the most flexible speaker for every streaming service.
 
 For Google households, that trade-off is acceptable. The assistant is useful, the sound is warm, setup is quick, and a 198 USD stereo pair can outperform expectations for the money. For Alexa, Apple, or complex mixed-protocol homes, there are better fits. For the Android user who wants one speaker to answer well and sound good doing it, Nest Audio remains the right call.
-
-**Overall Score: 8.6 / 10**
 
 ## FAQ
 

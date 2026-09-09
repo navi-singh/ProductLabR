@@ -2,11 +2,11 @@
 title: "ASUS ROG Strix G16 (2024): Uncompromising Gaming Power in a 16-Inch Frame"
 subtitle: "Intel's fastest mobile processor paired with RTX 4080 delivers desktop-class gaming performance"
 date: "2026-03-31"
-image: "/images/asus_rog_strix_g16.png"
-productImage: "/images/asus_rog_strix_g16.png"
+image: "/images/posts/laptops/asus_rog_strix_g16/asus_rog_strix_g16_main.jpg"
+productImage: "/images/posts/laptops/asus_rog_strix_g16/asus_rog_strix_g16_main.jpg"
 category: "laptops"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   CPU: "Intel Core i9-14900HX (24-core, 32-thread, up to 5.8GHz boost)"
@@ -44,10 +44,22 @@ ratingBreakdown:
       score: 6.5
     - name: "Build Quality"
       score: 9.0
-    - name: "Value"
-      score: 8.5
-    - name: "Keyboard & Touchpad"
+    - name: "Keyboard & Trackpad"
       score: 8.8
+    - name: "Value"
+      score: 7.4
+imageCredit: "P1898"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 4.0"
+gallery:
+  - src: "/images/posts/laptops/asus_rog_strix_g16/asus_rog_strix_g16_angle2.jpg"
+    credit: "P1898"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
+  - src: "/images/posts/laptops/asus_rog_strix_g16/asus_rog_strix_g16_angle3.jpg"
+    credit: "P1898"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
 ---
 
 ## Introduction
@@ -60,6 +72,10 @@ The 2024 refresh carries forward the excellent Nebula display technology that AS
 
 ASUS has refined the ROG Strix aesthetic over multiple generations, and the 2024 G16 strikes a balance between aggressive gamer styling and a chassis that would not look entirely out of place in a creative studio. The lid features a large illuminated ROG logo with a dot-matrix light panel that can be customized via Armoury Crate — understated with lighting disabled, eye-catching when active. The chassis is CNC-machined aluminum on the top cover with reinforced polymer on the base, and the whole assembly feels impressively rigid.
 
+![ASUS ROG Strix G16 (2024)](/images/posts/laptops/asus_rog_strix_g16/asus_rog_strix_g16_angle2.jpg)
+
+*P1898 / Wikimedia Commons (CC BY 4.0)*
+
 At 2.5 kg (5.5 lbs), this is a dense machine. ASUS has made every gram count structurally — the hinge mechanism opens smoothly to 180 degrees and shows no flex even under aggressive single-handed opening. The bottom panel uses precision-machined intake grilles that feed the dual-fan, liquid-metal cooling system inside. Keyboard flex is minimal thanks to the metal deck, and the lid exhibits almost no torsional twist.
 
 ROG Intelligent Cooling uses Conductonaut Extreme liquid metal compound on the CPU die — a step ASUS has taken to reduce thermal resistance dramatically. In testing, this allows the i9-14900HX to maintain boost clocks closer to its 5.8GHz ceiling under sustained loads without thermal throttling that plagues competing designs using conventional thermal paste. The tradeoff is audible: fans under full load reach approximately 50–52 dB, which is aggressive in a quiet room.
@@ -67,6 +83,10 @@ ROG Intelligent Cooling uses Conductonaut Extreme liquid metal compound on the C
 ## Display
 
 The 16-inch QHD+ (2560×1600) Nebula display is among the finest panels available in any gaming laptop in 2024. The 16:10 aspect ratio adds meaningful vertical screen real estate versus 16:9 alternatives, and at 240Hz with a 3ms response time, there is no practical gaming scenario where the panel becomes the bottleneck. ASUS rates peak brightness at 500 nits for SDR content, and the panel achieves 100% DCI-P3 color coverage with Dolby Vision certification — a specification level typically reserved for professional-grade portable displays.
+
+![ASUS ROG Strix G16 (2024)](/images/posts/laptops/asus_rog_strix_g16/asus_rog_strix_g16_angle3.jpg)
+
+*P1898 / Wikimedia Commons (CC BY 4.0)*
 
 In practice, color accuracy measured at Delta E below 2 out of the box, meaning creative professionals can trust what they see without additional calibration. Blacks are rendered with IPS-typical contrast around 1200:1, which is not OLED depth but is competitive for an IPS panel at this brightness level. Glare is managed by a matte anti-reflective coating that maintains color fidelity without introducing the haze that some matte coatings produce.
 
@@ -104,4 +124,3 @@ It is not the right choice for anyone who prioritizes portability, works predomi
 
 The ASUS ROG Strix G16 (2024) makes a compelling case for being the definitive 16-inch gaming laptop at its price tier. The combination of Intel's i9-14900HX and RTX 4080 Laptop GPU — cooled aggressively with liquid metal — delivers performance that rivals purpose-built desktop gaming rigs from two generations back. The Nebula QHD+ 240Hz display is a class-leading panel that serves gaming and creative work equally well. Battery life and travel weight are genuine limitations, but they are the expected cost of this level of performance. For desktop-replacement-minded gamers who want the best performance available in a 16-inch frame, the Strix G16 is the benchmark to beat.
 
-**Overall Score: 8.6 / 10**

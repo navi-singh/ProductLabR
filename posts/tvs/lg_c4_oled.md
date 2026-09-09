@@ -6,7 +6,7 @@ image: "/images/lg_c4_oled.png"
 productImage: "/images/lg_c4_oled.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "WOLED evo (Self-Emissive)"
@@ -60,12 +60,12 @@ ratingBreakdown:
       score: 9.4
     - name: "Smart TV & Interface"
       score: 8.8
-    - name: "Audio"
-      score: 7.5
-    - name: "Value"
-      score: 8.9
     - name: "Design"
       score: 9.0
+    - name: "Value"
+      score: 7.8
+    - name: "Audio"
+      score: 7.5
 ---
 
 ## Introduction
@@ -134,4 +134,3 @@ It is less ideal for households where the TV lives in a very bright room with la
 
 The LG C4 OLED is the 2024 benchmark against which every other television must justify itself. Its picture quality in a properly darkened room is unmatched at its price. Its gaming specifications are the most complete in the industry. webOS 24 is mature, fast, and capable. The 40W speakers and the absence of Wi-Fi 6 are legitimate criticisms, but neither undermines what is otherwise a near-perfect television purchase.
 
-**Overall Score: 9.2 / 10**

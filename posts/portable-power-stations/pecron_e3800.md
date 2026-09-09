@@ -10,6 +10,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "home-backup"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "3,840Wh LiFePO4 (expandable to 26,800Wh)"
   Inverter Power: "4,200W (Surge ~7,500W burst)"
@@ -47,18 +49,18 @@ retailerLinks:
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=pecron%20e3800"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 8.0
     - name: "Performance"
       score: 9.0
-    - name: "Ease of Use"
-      score: 8.0
-    - name: "Value"
+    - name: "Power Output"
       score: 10.0
     - name: "Solar Input"
       score: 9.5
-    - name: "Port Selection"
-      score: 10.0
+    - name: "Design & Build"
+      score: 8.0
+    - name: "Ease of Use"
+      score: 8.0
+    - name: "Value"
+      score: 8.4
 ---
 
 ## Introduction

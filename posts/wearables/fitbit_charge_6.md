@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Form Factor: "Slim band"
@@ -43,18 +43,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 8.8
     - name: "Display"
       score: 7.5
-    - name: "Battery Life"
-      score: 9.2
+    - name: "Health Tracking"
+      score: 8.8
     - name: "Software"
       score: 8.2
+    - name: "Battery Life"
+      score: 9.2
     - name: "Design"
       score: 8.8
     - name: "Value"
-      score: 9.5
+      score: 9.2
 ---
 
 ## Introduction
@@ -117,4 +117,3 @@ The Fitbit Charge 6 is the best fitness tracker available at any price, combinin
 
 The small display and absence of third-party apps appropriately define its ceiling; this is a focused health instrument with smart features, not a miniature smartphone. For users whose needs align with that definition, the Charge 6 is a confident, enthusiastic recommendation at $159.
 
-**Overall Score: 8.5 / 10**

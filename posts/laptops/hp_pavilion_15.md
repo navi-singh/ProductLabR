@@ -6,7 +6,7 @@ image: "/images/hp_pavilion_15.png"
 productImage: "/images/hp_pavilion_15.png"
 category: "laptops"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Processor: "Intel Core i5-1335U (10-core: 2P + 8E, up to 4.6GHz boost)"
@@ -47,10 +47,10 @@ ratingBreakdown:
       score: 8.2
     - name: "Build Quality"
       score: 8.0
-    - name: "Value"
-      score: 8.5
     - name: "Keyboard & Trackpad"
       score: 7.8
+    - name: "Value"
+      score: 8.7
 ---
 
 ## Introduction
@@ -104,4 +104,3 @@ It is not suited for gaming, video editing, creative professional work, or users
 
 The HP Pavilion 15 is a competent, well-designed everyday laptop that delivers on its value proposition without notable weaknesses given the price. The Core i5-1335U handles everyday tasks smoothly, the USB-C charging is convenient, and the design is polished enough for professional environments. The display brightness and 8GB RAM limit are real constraints that motivated buyers should address (upgrade the RAM if you multitask). Within its intended use case, the Pavilion 15 is one of the better options at its price point.
 
-**Overall Score: 7.8 / 10**

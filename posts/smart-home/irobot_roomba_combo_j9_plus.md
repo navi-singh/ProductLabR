@@ -6,7 +6,7 @@ image: "/images/irobot_roomba_combo_j9_plus.png"
 productImage: "/images/irobot_roomba_combo_j9_plus.png"
 category: "smart-home"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Suction Power: "10× Power Boost (vs. baseline Roomba)"
@@ -44,12 +44,12 @@ ratingBreakdown:
       score: 9.2
     - name: "Navigation & Mapping"
       score: 8.9
-    - name: "Auto-Empty & Maintenance"
-      score: 8.7
     - name: "App & Smart Features"
       score: 9.0
     - name: "Value"
-      score: 8.5
+      score: 7.3
+    - name: "Auto-Empty & Maintenance"
+      score: 8.7
 ---
 
 ## Overview: the combo Roomba with a useful bias
@@ -107,8 +107,6 @@ Do not buy it if your first priority is the most hands-off mopping system. The d
 The Roomba Combo j9+ is not the most automated robot vacuum and mop you can buy, but it may be the most sensible premium Roomba for messy mixed-floor homes. Its best features are the ones owners notice week after week: hair-resistant dual rubber brushes, a Clean Base that can hold up to 60 days of debris, a mop that gets out of the way on carpet, and iRobot OS mapping that improves with use.
 
 The weaknesses are just as clear. A 75 minutes runtime is not class-leading, camera navigation needs light, and mop-pad maintenance remains manual. Those trade-offs keep it from being a universal flagship. For pet owners with rugs, carpet, and hard floors under one roof, though, the j9+ has a coherent point of view and enough discipline to justify its 999 USD price.
-
-**Overall Score: 9.1 / 10**
 
 ## FAQ
 

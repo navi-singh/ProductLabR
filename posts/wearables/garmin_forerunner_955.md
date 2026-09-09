@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Case Size: "46mm"
@@ -44,18 +44,18 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
-    - name: "Health Tracking"
-      score: 9.3
     - name: "Display"
       score: 8.2
-    - name: "Battery Life"
-      score: 9.5
+    - name: "Health Tracking"
+      score: 9.3
     - name: "Software"
       score: 9.2
+    - name: "Battery Life"
+      score: 9.5
     - name: "Design"
       score: 8.4
     - name: "Value"
-      score: 8.8
+      score: 7.7
 ---
 
 ## Introduction
@@ -114,4 +114,3 @@ The Garmin Forerunner 955 earns its place as the best triathlon watch under $500
 
 If you compete in triathlons, run marathons with a structured plan, or need a single watch to handle multi-sport training across a full competitive season, the Forerunner 955 belongs on your wrist.
 
-**Overall Score: 9.1 / 10**

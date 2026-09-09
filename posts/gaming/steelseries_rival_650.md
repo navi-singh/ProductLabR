@@ -6,7 +6,7 @@ image: "/images/steelseries_rival_650.png"
 productImage: "/images/steelseries_rival_650.png"
 category: "gaming"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Sensor: "SteelSeries TrueMove3+ (Dual Sensor System)"
@@ -49,16 +49,16 @@ retailerLinks:
 
 ratingBreakdown:
   metrics:
+    - name: "Build Quality"
+      score: 8.9
+    - name: "Comfort & Ergonomics"
+      score: 8.8
+    - name: "Value"
+      score: 7.8
     - name: "Sensor & Tracking"
       score: 9.0
     - name: "Clicks & Buttons"
       score: 8.6
-    - name: "Comfort & Ergonomics"
-      score: 8.8
-    - name: "Build Quality"
-      score: 8.9
-    - name: "Value"
-      score: 8.7
 ---
 
 ## Introduction
@@ -118,4 +118,3 @@ The SteelSeries Rival 650 delivers a credible wireless gaming mouse at $99 with 
 
 Its primary limitations — 121g base weight, 24-hour battery, and micro-USB charging — prevent it from challenging the ultralight wireless leaders. But as a feature-rich wireless option at a mid-premium price for right-handed palm and claw grip players who value sensor precision, the Rival 650 remains a strong recommendation.
 
-**Overall Score: 8.8 / 10**

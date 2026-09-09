@@ -6,7 +6,7 @@ image: "/images/acer_aspire_5.png"
 productImage: "/images/acer_aspire_5.png"
 category: "laptops"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   CPU: "AMD Ryzen 5 7530U (6-core, 12-thread, up to 4.5GHz boost, 15W TDP)"
@@ -44,10 +44,10 @@ ratingBreakdown:
       score: 8.2
     - name: "Build Quality"
       score: 7.5
-    - name: "Value"
-      score: 9.3
-    - name: "Keyboard & Touchpad"
+    - name: "Keyboard & Trackpad"
       score: 7.8
+    - name: "Value"
+      score: 9.0
 ---
 
 ## Introduction
@@ -110,4 +110,3 @@ The Aspire 5 is a poor fit for power users who multitask heavily, anyone who edi
 
 The Acer Aspire 5 (2024) succeeds at its primary mission: delivering a reliable, capable everyday laptop for under $500 without the crippling storage, RAM, or display compromises that define the lowest tier of the budget segment. The Ryzen 5 7530U performs at a level that handles all standard productivity workloads, the PCIe SSD keeps the system responsive, and the IPS display provides adequate quality for the vast majority of daily computing tasks. Battery life exceeding 10 hours is a genuine achievement at this price point. The plastic construction, 300-nit display ceiling, and single-channel RAM are real constraints — but they are the honest cost of a $499 laptop that otherwise delivers exceptional value. For buyers who need competence on a tight budget, the Aspire 5 is the benchmark.
 
-**Overall Score: 8.0 / 10**

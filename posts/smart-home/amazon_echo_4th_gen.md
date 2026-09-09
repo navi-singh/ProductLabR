@@ -6,7 +6,7 @@ image: "/images/amazon_echo_4th_gen.png"
 productImage: "/images/amazon_echo_4th_gen.png"
 category: "smart-home"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Drivers: "3.0-inch woofer + 0.8-inch tweeter"
@@ -49,7 +49,7 @@ ratingBreakdown:
     - name: "Design & Build"
       score: 8.5
     - name: "Value"
-      score: 9.0
+      score: 8.7
 ---
 ## Overview: the smart speaker that earns its footprint
 

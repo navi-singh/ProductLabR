@@ -6,7 +6,7 @@ image: "/images/eufy_robovac_11s.png"
 productImage: "/images/eufy_robovac_11s.png"
 category: "smart-home"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Suction Power: "1300 Pa"
@@ -45,12 +45,12 @@ ratingBreakdown:
       score: 7.8
     - name: "Navigation & Mapping"
       score: 6.5
-    - name: "Dustbin & Maintenance"
-      score: 6.0
     - name: "App & Smart Features"
       score: 7.2
     - name: "Value"
-      score: 9.5
+      score: 8.7
+    - name: "Dustbin & Maintenance"
+      score: 6.0
 ---
 
 ## Overview: the budget robot vacuum that knows its limits
@@ -110,8 +110,6 @@ Do not buy it for a home dominated by carpet, for heavy pet hair embedded in rug
 The Eufy RoboVac 11S remains relevant because it solves a real problem at a low price. It is thin, quiet, easy to operate, and competent on the surfaces where budget robots make sense. The 2.85 inches height is not a gimmick; it lets the vacuum reach neglected areas that taller, smarter robots may miss. The 100 minutes runtime and 55 dB noise level make frequent use realistic.
 
 Its weaknesses are not hidden. 1300 Pa suction is limited on carpet, random navigation can miss spots, there is no mop, and the basic dock leaves dustbin emptying to you. Those limits are exactly why it costs 149 USD. For small, hard-floor homes that value low hassle over high intelligence, the 11S is still the budget robot vacuum to beat.
-
-**Overall Score: 8.3 / 10**
 
 ## FAQ
 

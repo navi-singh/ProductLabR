@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel: "Full-Array Local Dimming with Quantum Dot"
@@ -50,14 +50,14 @@ ratingBreakdown:
       score: 9.0
     - name: "Gaming Performance"
       score: 8.8
-    - name: "Smart TV"
+    - name: "Smart TV & Interface"
       score: 7.2
     - name: "Design"
       score: 7.8
-    - name: "Sound"
-      score: 7.0
     - name: "Value"
-      score: 9.3
+      score: 8.4
+    - name: "Audio"
+      score: 7.0
 ---
 
 ## Introduction
@@ -118,4 +118,3 @@ The built-in audio system is modest — adequate for background TV watching but 
 
 The Vizio P-Series Quantum X is the TV for buyers who understand exactly what they are trading off. The picture hardware — 3,000 nits, 792-zone local dimming, quantum dot, all-port HDMI 2.1 — is extraordinary at $799. The SmartCast OS, plastic build quality, and limited software update history are real compromises. If you can accept pairing the Quantum X with an external streaming device and prioritize raw display performance, nothing in this price class competes.
 
-**Overall Score: 8.7 / 10**

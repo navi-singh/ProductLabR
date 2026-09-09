@@ -50,6 +50,8 @@ ratingBreakdown:
       score: 6.5
     - name: "Buyer Risk"
       score: 5.0
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 ---
 
 ## Introduction

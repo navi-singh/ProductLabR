@@ -6,7 +6,7 @@ image: "/images/item.png"
 productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Driver Size: "42mm dynamic drivers"
@@ -53,16 +53,16 @@ ratingBreakdown:
   metrics:
     - name: "Sound Quality"
       score: 9.3
-    - name: "ANC Performance"
+    - name: "Noise Cancellation"
       score: 8.5
     - name: "Battery Life"
       score: 9.9
-    - name: "Comfort"
+    - name: "Comfort & Fit"
       score: 8.7
+    - name: "Value"
+      score: 7.9
     - name: "Call Quality"
       score: 8.4
-    - name: "Value"
-      score: 9.0
 ---
 
 ## Introduction
@@ -129,4 +129,3 @@ The Sennheiser Momentum 4 Wireless is the headphone for listeners who buy with t
 
 It loses points for ANC performance below the XM5 and QC Ultra, slightly heavier weight, and the absence of LDAC or Qi wireless charging. For buyers who know they want the best sound and the longest battery, nothing else at $279 comes close.
 
-**Overall Score: 8.9 / 10**

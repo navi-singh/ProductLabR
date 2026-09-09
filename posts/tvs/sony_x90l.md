@@ -6,7 +6,7 @@ image: "/images/sony_x90l.png"
 productImage: "/images/sony_x90l.png"
 category: "tvs"
 author: "Product Lab Team"
-authorBio: "Expert reviewers testing consumer electronics since 2018."
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 
 specs:
   Panel Type: "Full-Array LED with Local Dimming (XR Backlight Master Drive)"
@@ -59,12 +59,12 @@ ratingBreakdown:
       score: 8.7
     - name: "Smart TV & Interface"
       score: 9.1
-    - name: "Audio"
-      score: 7.0
-    - name: "Value"
-      score: 8.5
     - name: "Design"
       score: 8.6
+    - name: "Value"
+      score: 7.8
+    - name: "Audio"
+      score: 7.0
 ---
 
 ## Introduction
@@ -134,4 +134,3 @@ For dark-room movie watching where contrast is the priority, any OLED — includ
 
 The Sony X90L is the best LED television in its class for buyers who prioritize Sony's ecosystem, PS5 gaming, and a picture quality that holds up in real-world lighting conditions. The Cognitive Processor XR's scene intelligence elevates it above competing LED panels in upscaling and HDR tone mapping. The exclusive Auto HDR Tone Mapping for PS5 is a genuine differentiator that Sony's competitors cannot replicate. The 20W audio and moderate input lag hold it back from being a more straightforward recommendation, and buyers for whom input lag is paramount or a dedicated dark room viewing is the priority will find better-suited options in the OLED category. For everyone else, the X90L makes a compelling case.
 
-**Overall Score: 8.7 / 10**

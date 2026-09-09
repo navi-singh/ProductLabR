@@ -9,6 +9,8 @@ features:
 image: "/images/item.png"
 productImage: "/images/item.png"
 category: "large"
+author: "Product Lab Team"
+authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
 specs:
   Battery Capacity: "2,764Wh LiFePO4 (expandable to 58kWh with B300K batteries)"
   Inverter Power: "3,800W pure sine wave"
@@ -38,25 +40,25 @@ cons:
   - "Solar input marketing claims described as 'misleading'"
   - "85 lbs with no wheels is awkward to move"
   - "App is functional but not polished"
-price: "~$1,400 (base unit with discount code TSLAPEX300)"
+price: "~$1,700 MSRP (base unit)"
 retailerLinks:
   Amazon: "https://www.amazon.com/s?k=bluetti%20apex%20300"
   Bluetti: "https://www.bluettipower.com/products/apex-300"
   BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=bluetti%20apex%20300"
 ratingBreakdown:
   metrics:
-    - name: "Design & Build"
-      score: 7.5
     - name: "Performance"
       score: 9.0
+    - name: "Power Output"
+      score: 9.5
+    - name: "Expandability"
+      score: 10.0
+    - name: "Design & Build"
+      score: 7.5
     - name: "Ease of Use"
       score: 7.0
     - name: "Value"
       score: 9.0
-    - name: "Expandability"
-      score: 10.0
-    - name: "Power Output"
-      score: 9.5
 ---
 
 ## Introduction
