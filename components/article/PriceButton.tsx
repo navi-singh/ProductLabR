@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { withBasePath } from '@/lib/basePath';
 import { ExternalLinkIcon, ShoppingIcon } from '../../lib/icons';
 import { isSafeUrl } from '../../lib/utils';
+import { affiliateRel, withAffiliateTag } from '@/lib/affiliate';
 
 interface RetailerLinksProps {
   retailerLinks?: {
@@ -20,14 +21,6 @@ export default function RetailerLinks({
   retailerLinks = {},
   productName = "this product"
 }: RetailerLinksProps) {
-  
-  const handleRetailerClick = (url: string, retailerName: string) => {
-    if (!isSafeUrl(url)) return;
-    // Track click for analytics (in a real app)
-    console.log(`Clicked ${retailerName} link for ${productName}`);
-    window.open(url, '_blank', 'noopener,noreferrer');
-  };
-
   const getRetailerIcon = (retailer: string) => {
     switch (retailer.toLowerCase()) {
       case 'amazon':
@@ -112,12 +105,15 @@ export default function RetailerLinks({
       {/* Retailer Links - Horizontal Layout */}
       <div className="space-y-2">
         {Object.entries(retailerLinks).map(([retailer, url]) => {
-          if (!url) return null;
-          
+          if (!url || !isSafeUrl(url)) return null;
+
           return (
-            <button
+            <a
               key={retailer}
-              onClick={() => handleRetailerClick(url, retailer)}
+              href={withAffiliateTag(url)}
+              target="_blank"
+              rel={affiliateRel()}
+              aria-label={`Buy ${productName} at ${getRetailerDisplayName(retailer)}`}
               className="w-full flex items-center justify-between p-3 bg-white hover:bg-gray-50 border-2 border-gray-200 hover:border-primary rounded-lg transition-all duration-200 shadow-sm"
             >
               <div className="flex items-center gap-4">
@@ -129,7 +125,7 @@ export default function RetailerLinks({
               <div className="text-primary">
                 <ExternalLinkIcon />
               </div>
-            </button>
+            </a>
           );
         })}
       </div>

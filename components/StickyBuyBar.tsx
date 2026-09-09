@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { X, ExternalLink } from 'lucide-react';
 import { isSafeUrl } from '@/lib/utils';
+import { affiliateRel, withAffiliateTag } from '@/lib/affiliate';
 
 interface StickyBuyBarProps {
   productName: string;
@@ -76,9 +77,9 @@ export function StickyBuyBar({
 
           {/* Buy button */}
           <a
-            href={isSafeUrl(primaryRetailerUrl) ? primaryRetailerUrl : '#'}
+            href={isSafeUrl(primaryRetailerUrl) ? withAffiliateTag(primaryRetailerUrl) : '#'}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel={affiliateRel()}
             className="inline-flex shrink-0 items-center gap-1.5 rounded-md bg-accent px-4 py-2 text-[13px] font-semibold text-white hover:bg-accent/90 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-neutral-900"
             aria-label={`Buy ${productName} at ${primaryRetailerName}`}
           >

@@ -150,9 +150,19 @@ npm run editorial:audit -- --category tvs --limit 10
 npm run editorial:report
 npm run editorial:qa -- posts/<category>/<slug>.md
 npm run editorial:fix-links
+npm run images:report
+npm run images:ingest
 ```
 
 `editorial:qa` exits non-zero on blocking failures, so it can be wired into CI once the content backlog clears. The rubric is intentionally a **floor**, not a craft score: a high score only says measurable gates passed. For details, see [reference/editorial-quality-toolchain.md](./reference/editorial-quality-toolchain.md).
+
+## Product image ingestion
+
+Product imagery is manifest-driven. Add approved HTTPS image URLs to `data/product-images.json`, then run `npm run images:ingest`. The script downloads the image, stores it under `public/images/posts/<category>/<slug>/`, updates `image` and `productImage`, and records `imageCredit`, `imageSource`, and `imageLicense`.
+
+Use `npm run images:report` before and after ingestion to track reviews still using `/images/item.png` or pointing at missing local files. The workflow deliberately avoids search-engine scraping, retailer-page scraping, or unreviewed third-party download tools.
+
+Additional angle photos of the same product use extra manifest entries with a non-`main` `role` (e.g. `"angle2"`). These are appended to a `gallery` frontmatter array and rendered by `components/article/ProductGallery.tsx` below the primary product image, instead of overwriting `image`/`productImage`. Only source angle photos confirmed to show the exact reviewed model/generation.
 
 ## Styling
 
@@ -221,6 +231,22 @@ Use production mode when touching local image paths, `withBasePath()`, `next/ima
 - Slots are typed via `ADSENSE_CONFIG` in `lib/adsense-config.ts`. Add a new slot there before referencing it.
 - `shouldShowAds()` gates rendering: dev shows a labeled placeholder; prod shows real ads only when `NEXT_PUBLIC_GOOGLE_ADSENSE_ID` is set to a real `ca-pub-...` value.
 - The build emits a **warning** (not an error) if the env var is missing. Don't tighten this back to an error or CI will fail on forks.
+
+## Working with affiliate links
+
+- Outbound retailer links must be real `<a href>` anchors. They were once
+  `<button onClick={window.open(...)}>`, which meant crawlers could not follow
+  them and there was nowhere to attach a `rel`, so monetized links went
+  undisclosed to search engines.
+- Tag every retailer URL through `withAffiliateTag()` and set `rel` from
+  `affiliateRel()` (both in `lib/affiliate.ts`). Do not hand-write either.
+- Partner IDs come from `NEXT_PUBLIC_AMAZON_ASSOCIATES_TAG` and
+  `NEXT_PUBLIC_IMPACT_PUBLISHER_ID`. **Never hardcode a partner ID.** With none
+  configured, links stay untagged and `affiliateRel()` returns `nofollow`
+  instead of `sponsored`, so the site never implies revenue it cannot earn.
+- `/disclosure` and `/methodology` describe this arrangement. If you change how
+  tagging works, change those pages in the same commit — they are a promise to
+  the reader, not marketing copy.
 
 ## Price visibility rule
 

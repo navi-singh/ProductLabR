@@ -18,7 +18,9 @@ export default function DisclosurePage() {
         <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">Affiliate disclosure</h1>
         <p className="mt-3 text-base leading-relaxed text-neutral-600">
           Product Lab is reader-supported. Some links on this site are affiliate links, which means
-          we may earn a commission if you buy something after clicking one. It never costs you extra.
+          we may earn a commission if you buy something after clicking one. It never costs you
+          extra, and a link only earns us anything when we have an active partnership with that
+          retailer.
         </p>
 
         <section className="mt-10">
@@ -29,8 +31,9 @@ export default function DisclosurePage() {
                 •
               </span>
               <span>
-                Retailer buttons and price links on our reviews and buying guides are generally
-                affiliate links, including links to Amazon, Best Buy and eBay.
+                Retailer buttons and price links on our reviews and buying guides carry an
+                affiliate tag when we have a partnership with that retailer. Where we do not, the
+                link still works — we simply earn nothing from it.
               </span>
             </li>
             <li className="flex gap-3">
