@@ -1,0 +1,294 @@
+{
+  "images": [
+    {
+      "category": "headphones",
+      "slug": "apple_airpods_max",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Apple_AirPods_Max_2.jpg/1280px-Apple_AirPods_Max_2.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_AirPods_Max_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "SimonWaldherr"
+    },
+    {
+      "category": "headphones",
+      "slug": "apple_airpods_max",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Apple_AirPods_Max_3.jpg/1280px-Apple_AirPods_Max_3.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_AirPods_Max_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "SimonWaldherr"
+    },
+    {
+      "category": "headphones",
+      "slug": "apple_airpods_max",
+      "role": "angle3",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Apple_AirPods_Max_4.jpg/1280px-Apple_AirPods_Max_4.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_AirPods_Max_4.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "SimonWaldherr"
+    },
+    {
+      "category": "headphones",
+      "slug": "apple_airpods_max",
+      "role": "angle4",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Apple_AirPods_Max_5.jpg/1280px-Apple_AirPods_Max_5.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_AirPods_Max_5.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "SimonWaldherr"
+    },
+    {
+      "category": "headphones",
+      "slug": "apple_airpods_max",
+      "role": "angle5",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Apple_AirPods_Max_6.jpg/1280px-Apple_AirPods_Max_6.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_AirPods_Max_6.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "SimonWaldherr"
+    },
+    {
+      "category": "headphones",
+      "slug": "apple_airpods_pro_2",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/AirPods_Pro_%282nd_generation%29.jpg/1280px-AirPods_Pro_%282nd_generation%29.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:AirPods_Pro_(2nd_generation).jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Hajoon0102"
+    },
+    {
+      "category": "headphones",
+      "slug": "nothing_ear_2",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nothing_ear2.jpg/1280px-Nothing_ear2.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nothing_ear2.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Ganesh Mohan T"
+    },
+    {
+      "category": "thermostats",
+      "slug": "nest_learning_thermostat_3rd_gen",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Nest_Thermostat_3rd_Generation_%28Creative_Commons%29_%2845096474951%29.jpg/1280px-Nest_Thermostat_3rd_Generation_%28Creative_Commons%29_%2845096474951%29.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nest_Thermostat_3rd_Generation_(Creative_Commons)_(45096474951).jpg",
+      "license": "CC BY 2.0",
+      "credit": "George Lane"
+    },
+    {
+      "category": "thermostats",
+      "slug": "nest_learning_thermostat_3rd_gen",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Nest_learning_thermostat_in_living_room.jpg/1280px-Nest_learning_thermostat_in_living_room.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nest_learning_thermostat_in_living_room.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "AG20044018"
+    },
+    {
+      "category": "wearables",
+      "slug": "apple_watch_ultra_2",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Apple_Watch_Ultra_2.jpg/1280px-Apple_Watch_Ultra_2.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Ultra_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Pangalau"
+    },
+    {
+      "category": "headphones",
+      "slug": "jabra_elite_8_active",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Jabra_Elite_8_Active_-_1.jpg/1280px-Jabra_Elite_8_Active_-_1.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AJabra_Elite_8_Active_-_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Kyu3a"
+    },
+    {
+      "category": "headphones",
+      "slug": "jabra_elite_8_active",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Jabra_Elite_8_Active_-_2.jpg/1280px-Jabra_Elite_8_Active_-_2.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AJabra_Elite_8_Active_-_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Kyu3a"
+    },
+    {
+      "category": "laptops",
+      "slug": "asus_rog_strix_g16",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ROG_Strix_G16_2026-08-08_ASUS_01.jpg/1280px-ROG_Strix_G16_2026-08-08_ASUS_01.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AROG_Strix_G16_2026-08-08_ASUS_01.jpg",
+      "license": "CC BY 4.0",
+      "credit": "P1898"
+    },
+    {
+      "category": "laptops",
+      "slug": "asus_rog_strix_g16",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ROG_Strix_G16_2026-08-08_ASUS_02.jpg/1280px-ROG_Strix_G16_2026-08-08_ASUS_02.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AROG_Strix_G16_2026-08-08_ASUS_02.jpg",
+      "license": "CC BY 4.0",
+      "credit": "P1898"
+    },
+    {
+      "category": "laptops",
+      "slug": "asus_rog_strix_g16",
+      "role": "angle3",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ROG_Strix_G16_2026-08-08_ASUS_03.jpg/1280px-ROG_Strix_G16_2026-08-08_ASUS_03.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AROG_Strix_G16_2026-08-08_ASUS_03.jpg",
+      "license": "CC BY 4.0",
+      "credit": "P1898"
+    },
+    {
+      "category": "laptops",
+      "slug": "dell_inspiron_15_3000",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Dell_Inspiron_15_3000_%283505%29_Keyboard.jpg/1280px-Dell_Inspiron_15_3000_%283505%29_Keyboard.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADell_Inspiron_15_3000_%283505%29_Keyboard.jpg",
+      "license": "CC BY 4.0",
+      "credit": "ADecentPlayer"
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "dji_power_500",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/DJI_Power_500_Power_Station.jpg/1280px-DJI_Power_500_Power_Station.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADJI_Power_500_Power_Station.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "TaurusEmerald"
+    },
+    {
+      "category": "smart-home",
+      "slug": "apple_homepod_mini",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/HomePod_mini.jpeg/1280px-HomePod_mini.jpeg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHomePod_mini.jpeg",
+      "license": "CC BY-SA 4.0",
+      "credit": "aconcagua"
+    },
+    {
+      "category": "smart-home",
+      "slug": "apple_homepod_mini",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Apple_HomePod_mini.jpg/1280px-Apple_HomePod_mini.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AApple_HomePod_mini.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "credit": "Arne M\u00fcseler"
+    },
+    {
+      "category": "smart-home",
+      "slug": "apple_homepod_mini",
+      "role": "angle3",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Homepod_Mini_Orange_model.jpg/1280px-Homepod_Mini_Orange_model.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHomepod_Mini_Orange_model.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "KKPCW"
+    },
+    {
+      "category": "wearables",
+      "slug": "garmin_forerunner_265",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Forerunner_265.jpg/1280px-Forerunner_265.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AForerunner_265.jpg",
+      "license": "CC0",
+      "credit": "3r1ccc"
+    },
+    {
+      "category": "wearables",
+      "slug": "garmin_forerunner_265",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Garmin_Forerunner_265_musicG.jpg/1280px-Garmin_Forerunner_265_musicG.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGarmin_Forerunner_265_musicG.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Wikimedia Commons contributor"
+    },
+    {
+      "category": "wearables",
+      "slug": "garmin_venu_3",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Garmin_Venu_3_%28a%29.JPG/1280px-Garmin_Venu_3_%28a%29.JPG",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGarmin_Venu_3_%28a%29.JPG",
+      "license": "CC BY-SA 4.0",
+      "credit": "C.Stadler/Bwag"
+    },
+    {
+      "category": "wearables",
+      "slug": "garmin_venu_3",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Garmin_Venu_3_%28b%29.JPG/1280px-Garmin_Venu_3_%28b%29.JPG",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGarmin_Venu_3_%28b%29.JPG",
+      "license": "CC BY-SA 4.0",
+      "credit": "C.Stadler/Bwag"
+    },
+    {
+      "category": "wearables",
+      "slug": "samsung_galaxy_watch_6_classic",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Samsung_Galaxy_Watch_6_Classic_01.jpg/1280px-Samsung_Galaxy_Watch_6_Classic_01.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASamsung_Galaxy_Watch_6_Classic_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Ganesh Mohan T"
+    },
+    {
+      "category": "wearables",
+      "slug": "samsung_galaxy_watch_6_classic",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Samsung_Galaxy_Watch_6_Classic_01_2.jpg/1280px-Samsung_Galaxy_Watch_6_Classic_01_2.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASamsung_Galaxy_Watch_6_Classic_01_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Ganesh Mohan T"
+    },
+    {
+      "category": "wearables",
+      "slug": "withings_scanwatch_2",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Withings_ScanWatch_2_black.jpg/1280px-Withings_ScanWatch_2_black.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWithings_ScanWatch_2_black.jpg",
+      "license": "CC0",
+      "credit": "Susie Felber"
+    },
+    {
+      "category": "wearables",
+      "slug": "withings_scanwatch_2",
+      "role": "angle2",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Withings_ScanWatch_2_white.jpg/1280px-Withings_ScanWatch_2_white.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWithings_ScanWatch_2_white.jpg",
+      "license": "CC0",
+      "credit": "Susie Felber"
+    },
+    {
+      "category": "wearables",
+      "slug": "apple_watch_series_10",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Apple_Watch_10.png/1280px-Apple_Watch_10.png",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AApple_Watch_10.png",
+      "license": "CC BY-SA 4.0",
+      "credit": "KK IN HK"
+    }
+  ]
+}

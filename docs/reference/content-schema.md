@@ -25,6 +25,10 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 | `authorBio` | string | `"Jane has reviewed..."` | Used by `AuthorBio` component |
 | `image` | URL or root-relative local path | | Fallback image if `productImage` is missing |
 | `heroImage` | URL or root-relative local path | | Optional alternative hero (some templates) |
+| `imageCredit` | string | `"EcoFlow"` | Attribution for the primary product image |
+| `imageSource` | string | `"manufacturer press asset"` | Provenance for the primary product image |
+| `imageLicense` | string | `"approved manufacturer media"` | Rights/usage note for the primary product image |
+| `gallery` | array of `{ src, credit?, source?, license? }` | | Additional product photos (e.g. different angles), rendered below the primary image |
 | `rating` | number | `8.7` | Legacy single score; **deprecated** — prefer `ratingBreakdown` |
 
 ## Category-specific fields
@@ -48,6 +52,32 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 | `van-life` | < 30 lbs **and** ≥ 400W solar input |
 
 ## Nested shapes
+
+## Product image ingestion
+
+Use `npm run images:report` to list reviews that still use `/images/item.png` or reference missing local files. Use `npm run images:ingest` to download and wire approved product images from `data/product-images.json`.
+
+The ingestion manifest must use explicit, approved HTTPS image URLs only:
+
+```json
+{
+  "images": [
+    {
+      "category": "portable-power-stations",
+      "slug": "ecoflow_delta_pro_3",
+      "role": "main",
+      "sourceUrl": "https://example.com/approved-press-image.webp",
+      "sourceName": "manufacturer press kit",
+      "license": "approved manufacturer media",
+      "credit": "EcoFlow"
+    }
+  ]
+}
+```
+
+`images:ingest` writes the asset under `public/images/posts/<category>/<slug>/`, updates `image` and `productImage` for `role: "main"`, and records the credit/source/license fields in frontmatter. It intentionally does not scrape search engines, retailer pages, or unapproved third-party sources.
+
+To add extra photos of the same product (e.g. different angles), add more manifest entries for the same `category`/`slug` with a distinct `role` (e.g. `"angle2"`, `"angle3"`). Non-`main` roles do not overwrite `image`/`productImage`; instead they are appended to a `gallery` array in frontmatter and rendered as a thumbnail strip below the primary product image. Only add angle entries when the source is confirmed to depict the exact reviewed model/generation — do not substitute a different model or generation for a missing angle.
 
 ### `specs`
 

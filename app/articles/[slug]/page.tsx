@@ -1,4 +1,5 @@
 import React from 'react';
+import { resolvePublicImage } from '@/lib/resolve-image';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getPostBySlug, getAllPostSlugs } from '../../../lib/Posts';
@@ -12,6 +13,7 @@ import RatingBadge from '../../../components/article/RatingBadge';
 import { ProductSpecs } from '../../../components/article/ProductSpecs';
 import { ProsCons } from '../../../components/article/ProsCons';
 import ProductImage from '../../../components/article/ProductImage';
+import ProductGallery from '../../../components/article/ProductGallery';
 import RetailerLinks from '../../../components/article/PriceButton';
 import ArticleContent from '../../../components/article/ArticleContent';
 import { AuthorBio } from '../../../components/article/AuthorBio';
@@ -43,7 +45,9 @@ export async function generateMetadata({
   const { metadata } = post;
   const description =
     metadata.subtitle || `Expert review of the ${metadata.title} by Product Lab.`;
-  const imageUrl = metadata.productImage || metadata.heroImage || metadata.image;
+  const imageUrl = resolvePublicImage(
+    metadata.productImage || metadata.heroImage || metadata.image
+  );
 
   return {
     title: `${metadata.title} Review | Product Lab`,
@@ -90,6 +94,12 @@ export default async function ArticlePage({
   const showRating = hasRatingData(metadata);
 
   const processedContent = processMarkdownContent(content);
+
+  // Images distributed through the article body already carry their own credit
+  // line, so repeating them in the thumbnail strip is pure duplication.
+  const unplacedGallery = (metadata.gallery ?? []).filter(
+    (image) => !processedContent.includes(image.src)
+  );
   const category = metadata.category ? getCategoryByContentDir(metadata.category) : undefined;
 
   const breadcrumbItems = [
@@ -130,7 +140,7 @@ export default async function ArticlePage({
     itemReviewed: {
       '@type': 'Product',
       name: metadata.title,
-      ...(metadata.productImage ? { image: metadata.productImage } : {}),
+      ...(resolvePublicImage(metadata.productImage) ? { image: resolvePublicImage(metadata.productImage) } : {}),
     },
     url: `${SITE_URL}/articles/${slug}`,
   };
@@ -177,6 +187,9 @@ return (
           src={metadata.productImage}
           alt={metadata.title}
         />
+      )}
+      {unplacedGallery.length > 0 && (
+        <ProductGallery images={unplacedGallery} alt={metadata.title} />
       )}
 
       {/* Main Content Grid */}

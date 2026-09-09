@@ -6,6 +6,10 @@ export interface PostMetadata {
     image?: string;
     heroImage?: string;
     productImage?: string;
+    imageCredit?: string;
+    imageSource?: string;
+    imageLicense?: string;
+    gallery?: { src: string; credit?: string; source?: string; license?: string }[];
     author?: string;
     specs?: Record<string, string>;
     pros?: string[];
