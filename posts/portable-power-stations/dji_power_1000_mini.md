@@ -7,8 +7,6 @@ features:
   - "solar"
   - "van-life"
   - "cpap"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "1,008Wh LFP (typical)"
   Inverter Power: "800W continuous, 1,000W max; 1,440W in bypass (no separate surge figure published)"

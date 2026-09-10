@@ -2,8 +2,6 @@
 title: "Google Pixel Watch 3: The Best Wear OS Experience Gets Better"
 subtitle: "Google's third-generation smartwatch refines hardware design, integrates Fitbit's health suite more deeply, and adds a first-of-its-kind Loss of Pulse Detection feature"
 date: "2026-03-31"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

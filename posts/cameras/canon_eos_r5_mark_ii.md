@@ -2,8 +2,6 @@
 title: "Canon EOS R5 Mark II: A Faster, Hotter-Running Hybrid Flagship"
 subtitle: "A stacked 45MP sensor, Eye Control AF, and 8K that finally runs cooler — at a price that stings."
 date: "2025-08-17"
-image: "/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii.webp"
-productImage: "/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii.webp"
 specs:
   Sensor: "45MP Full-Frame CMOS"
   Autofocus: "Dual Pixel CMOS AF II with Eye Control"

@@ -2,8 +2,6 @@
 title: "MacBook Pro 16-inch M4 Max: The Ultimate Pro Laptop"
 subtitle: "Apple's M4 Max chip delivers unmatched performance, a breathtaking XDR display, and 24-hour battery in the best professional laptop ever made"
 date: "2026-03-31"
-image: "/images/macbook_pro_16_m4_max.png"
-productImage: "/images/macbook_pro_16_m4_max.png"
 category: "laptops"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

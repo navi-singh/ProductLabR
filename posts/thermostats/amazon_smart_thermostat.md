@@ -2,8 +2,6 @@
 title: "Amazon Smart Thermostat Review: The Budget Pick With Hard Ecosystem Walls"
 subtitle: "At $79.99, Amazon nails the price and Alexa basics, but the missing room sensors, missing learning and sparse published specs keep it from feeling universal"
 date: "2026-08-08"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Display: "Basic LED-style digital display; not a touchscreen; Amazon says the display may dim when inactive"
   Dimensions: "Amazon does not publish official dimensions; Tom's Guide described it as a rounded square of roughly 3.5 x 3.5 inches"

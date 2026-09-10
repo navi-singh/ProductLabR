@@ -2,8 +2,6 @@
 title: "Panasonic Lumix S1R II: A 47MP Studio Tool With a Video Streak"
 subtitle: "High-resolution capture, handheld pixel-shift, and Panasonic's new phase-detect AF collide in a body meant for detail work rather than speed"
 date: "2025-08-17"
-image: "/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii.webp"
-productImage: "/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii.webp"
 specs:
   Sensor: "47.3MP Full-Frame CMOS"
   Autofocus: "DFD with AI subject detection"

@@ -25,7 +25,7 @@ export function ReviewCard({ post }: ReviewCardProps) {
     >
       <div className="relative aspect-[3/2] w-full overflow-hidden bg-gradient-to-br from-primary-lightest to-primary-light/30">
         <OptimizedImage
-          src={post.image || post.productImage || '/images/item.png'}
+          src={post.image || post.productImage || '/images/placeholder-product.svg'}
           alt={post.title}
           fill
           sizes="(max-width: 640px) 50vw, 33vw"

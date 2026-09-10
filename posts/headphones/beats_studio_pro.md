@@ -2,8 +2,6 @@
 title: "Beats Studio Pro: The Cross-Platform Premium"
 subtitle: "Beats' flagship over-ear headphones deliver 40-hour battery, USB-C lossless audio, personalized spatial audio, and rare dual Apple/Android ecosystem compatibility"
 date: "2026-04-06"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

@@ -7,8 +7,6 @@ features:
   - "240v"
   - "solar"
   - "solar-kit"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "6,144Wh base (1 inverter + 1 battery), stackable to 90kWh"
   Rated Output: "7,200W to 21,600W depending on inverter count"

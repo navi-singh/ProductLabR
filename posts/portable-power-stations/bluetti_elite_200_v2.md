@@ -5,8 +5,6 @@ date: "2025-04-02"
 capacityWh: 2073
 features:
   - "solar"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "2,073Wh LiFePO4"
   Inverter Power: "2,600W (Surge 3,000W for 2+ minutes)"

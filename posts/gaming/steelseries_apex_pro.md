@@ -2,8 +2,6 @@
 title: "SteelSeries Apex Pro: The Most Customizable Gaming Keyboard Ever Made"
 subtitle: "Per-key adjustable actuation OmniPoint 2.0 magnetic switches, 8000Hz polling, and an OLED smart display make the Apex Pro the most technically advanced gaming keyboard on the market"
 date: "2026-03-31"
-image: "/images/steelseries_apex_pro.png"
-productImage: "/images/steelseries_apex_pro.png"
 category: "gaming"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

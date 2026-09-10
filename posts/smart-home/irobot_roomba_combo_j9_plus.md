@@ -2,8 +2,6 @@
 title: "iRobot Roomba Combo j9+: The Best Robot Vacuum for Pet Hair"
 subtitle: "A retractable mop that lifts on carpets, powerful suction, and iRobot OS intelligence make this the top combo robot for real homes"
 date: "2026-03-31"
-image: "/images/irobot_roomba_combo_j9_plus.png"
-productImage: "/images/irobot_roomba_combo_j9_plus.png"
 category: "smart-home"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

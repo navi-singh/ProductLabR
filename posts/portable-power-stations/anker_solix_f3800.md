@@ -7,8 +7,6 @@ features:
   - "30a-rv"
   - "solar"
   - "240v"
-image: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_main.webp"
-productImage: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_main.webp"
 
 specs:
   Capacity: "3840Wh"

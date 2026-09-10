@@ -2,8 +2,6 @@
 title: "LG B4 OLED: The Most Affordable Path to Perfect Blacks"
 subtitle: "LG's entry-level 2024 OLED delivers the core OLED experience — infinite contrast, wide color, and smooth motion — at the lowest price in the lineup"
 date: "2026-03-31"
-image: "/images/lg_b4_oled.png"
-productImage: "/images/lg_b4_oled.png"
 category: "tvs"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

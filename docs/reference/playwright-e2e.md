@@ -41,7 +41,7 @@ The live site is served from `https://navi-singh.github.io/ProductLabR/`, not fr
 Run production mode when touching:
 
 - `next/image` call sites
-- local asset URLs such as `/images/item.png`
+- local asset URLs such as `/images/placeholder-product.svg`
 - `lib/basePath.ts`
 - deploy workflow or GitHub Pages configuration
 - routes or links that may behave differently under a subpath
@@ -104,7 +104,7 @@ Current direct `next/image` call sites apply the helper in:
 
 Rule: **any new local asset URL must go through `withBasePath()` before reaching `next/image` or another rendered `src`.** Prefer `OptimizedImage` for product imagery; if you use bare `next/image`, call `withBasePath()` yourself.
 
-This fixes the deployment prefix bug only. It does not create missing assets: several reviews still reference product-specific local filenames that are not present in `public/images/`, while others intentionally use `/images/item.png` as placeholder content.
+This fixes the deployment prefix bug only. It does not create missing assets: reviews without a licensed product photo now render the neutral `/images/placeholder-product.svg` instead.
 
 ## Deployment gotcha
 

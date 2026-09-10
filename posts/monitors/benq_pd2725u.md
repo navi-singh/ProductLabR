@@ -2,8 +2,6 @@
 title: "BenQ PD2725U: The Thunderbolt 4 Designer Monitor That Gets Everything Right"
 subtitle: "A 4K IPS display with Thunderbolt 3, a hot key puck, and BenQ's meticulous color science for design professionals"
 date: "2026-03-31"
-image: "/images/benq_pd2725u.png"
-productImage: "/images/benq_pd2725u.png"
 category: "monitors"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

@@ -6,8 +6,6 @@ capacityWh: 2042
 features:
   - "solar"
   - "cpap"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "2,042Wh LiFePO4 (not expandable)"
   Inverter Power: "2,200W continuous (4,000W surge)"

@@ -2,8 +2,6 @@
 title: "Sony A7 IV: Comprehensive Testing for Photo and Video"
 subtitle: "The 33MP hybrid that replaced the a7 III as Sony's default full-frame"
 date: "2025-08-17"
-image: "/images/posts/cameras/sony_a7_iv/sony_a7_iv.webp"
-productImage: "/images/posts/cameras/sony_a7_iv/sony_a7_iv.webp"
 specs:
   Sensor: "33MP Full-Frame CMOS"
   Autofocus: "Real-time Eye AF"

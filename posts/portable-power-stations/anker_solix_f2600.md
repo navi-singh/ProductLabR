@@ -7,8 +7,6 @@ features:
   - "solar"
   - "30a-rv"
   - "cpap"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "2,560Wh LiFePO4 (expandable to 5,120Wh with one BP2600)"
   Inverter Power: "2,400W continuous (2,800W surge)"

@@ -2,8 +2,6 @@
 title: "Canon EOS R6 Mark II: The Ultimate Camera for Content Creation"
 subtitle: "Canon's 24MP hybrid all-rounder, and where it beats the pricier R5"
 date: "2025-08-16"
-image: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii.webp"
-productImage: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii.webp"
 specs:
   Sensor: "24.2MP Full-Frame CMOS"
   Autofocus: "Dual Pixel CMOS AF II"

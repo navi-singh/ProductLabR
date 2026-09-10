@@ -2,8 +2,6 @@
 title: "Huawei Watch GT 4: 14-Day AMOLED Battery in a Stylish Mid-Range Package"
 subtitle: "Huawei's Watch GT 4 delivers exceptional battery longevity for an AMOLED smartwatch alongside comprehensive health tracking and stylish design at a competitive $199 price"
 date: "2026-04-01"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

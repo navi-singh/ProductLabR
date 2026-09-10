@@ -2,8 +2,6 @@
 title: "Dreame L20 Ultra: Flagship Combo Robot at a Competitive Price"
 subtitle: "7,000Pa suction, hot-water mop washing, and 210-minute battery make this the strongest challenger to Roborock's crown"
 date: "2026-03-31"
-image: "/images/dreame_l20_ultra.png"
-productImage: "/images/dreame_l20_ultra.png"
 category: "smart-home"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

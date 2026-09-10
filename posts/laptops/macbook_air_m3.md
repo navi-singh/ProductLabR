@@ -2,8 +2,6 @@
 title: "MacBook Air 13-inch M3: The Best All-Around Laptop You Can Buy"
 subtitle: "Apple's M3 chip delivers pro-level performance with all-day battery in a fanless, 2.7-pound chassis"
 date: "2026-03-31"
-image: "/images/macbook_air_m3.png"
-productImage: "/images/macbook_air_m3.png"
 category: "laptops"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

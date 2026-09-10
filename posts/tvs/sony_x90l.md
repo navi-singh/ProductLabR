@@ -2,8 +2,6 @@
 title: "Sony X90L: The Gaming-Ready Mini-LED That Thinks Like a Cinema TV"
 subtitle: "Sony's Cognitive Processor XR brings cinematic picture intelligence to a full-array LED panel with serious gaming credentials and PlayStation-exclusive features"
 date: "2026-03-31"
-image: "/images/sony_x90l.png"
-productImage: "/images/sony_x90l.png"
 category: "tvs"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

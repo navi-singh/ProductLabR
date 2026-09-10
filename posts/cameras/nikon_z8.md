@@ -2,8 +2,6 @@
 title: "Nikon Z8: Comprehensive Testing for Photo and Video"
 subtitle: "Z9 performance in a body you can actually carry all day"
 date: "2025-08-17"
-image: "/images/posts/cameras/nikon_z8/nikon_z8.webp"
-productImage: "/images/posts/cameras/nikon_z8/nikon_z8.webp"
 specs:
   Sensor: "45.7MP Full-Frame CMOS"
   Autofocus: "493-point hybrid AF"

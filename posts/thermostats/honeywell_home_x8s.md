@@ -2,8 +2,6 @@
 title: "Honeywell Home X8S Review: A Premium Thermostat That Wants to Be the Wall Hub"
 subtitle: "The X8S asks $259.99 for a 5-inch touchscreen, Matter, an included room sensor and doorbell video integration — but the unpublished HVAC stage details keep it from being an automatic buy"
 date: "2026-08-08"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Product Name: "X8S Smart Thermostat with Video Doorbell Integration"
   Display: "5-inch color touchscreen, 480 x 800 resolution"

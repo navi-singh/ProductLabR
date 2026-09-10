@@ -4,8 +4,6 @@ subtitle: "No AC outlet, 30W USB-C, and airline-legal capacity — a straightfor
 date: "2025-08-17"
 capacityWh: 99
 features: []
-image: "/images/posts/portable-power-stations/anker_powercore_26800_pd/anker_powercore_26800_pd_main.webp"
-productImage: "/images/posts/portable-power-stations/anker_powercore_26800_pd/anker_powercore_26800_pd_main.webp"
 
 specs:
   Capacity: "96.48Wh"

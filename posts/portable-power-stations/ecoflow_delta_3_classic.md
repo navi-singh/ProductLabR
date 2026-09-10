@@ -7,8 +7,6 @@ features:
   - "solar"
   - "cpap"
   - "solar-kit"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "1,024Wh (51.2V, 20Ah) LFP / LiFePO4"
   Inverter Power: "1,800W continuous (3,600W surge)"

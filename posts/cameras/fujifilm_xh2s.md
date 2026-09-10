@@ -2,8 +2,6 @@
 title: "Fujifilm X-H2S: APS-C Built for Speed, Not Low Light"
 subtitle: "40fps bursts and 6.2K ProRes in a crop-sensor body — with the noise ceiling that implies."
 date: "2025-08-17"
-image: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s.webp"
-productImage: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s.webp"
 specs:
   Sensor: "26.1MP APS-C X-Trans CMOS"
   Autofocus: "425-point intelligent hybrid AF"

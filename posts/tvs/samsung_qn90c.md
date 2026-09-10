@@ -2,8 +2,6 @@
 title: "Samsung QN90C Neo QLED: The Brightest Room Wins"
 subtitle: "Samsung's 2023 Neo QLED flagship delivers 2,000 nits of blinding HDR brilliance and a polished Tizen smart TV experience"
 date: "2026-03-31"
-image: "/images/samsung_qn90c.png"
-productImage: "/images/samsung_qn90c.png"
 category: "tvs"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

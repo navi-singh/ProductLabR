@@ -5,8 +5,6 @@ date: "2025-07-15"
 capacityWh: 2048
 features:
   - "solar"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "large"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

@@ -2,8 +2,6 @@
 title: "ASUS ROG Swift PG279QM: The Premium 1440p 240Hz Gaming Monitor"
 subtitle: "A Fast IPS panel with G-Sync, NVIDIA Reflex Latency Analyzer, and wide DCI-P3 gamut for the serious gamer"
 date: "2026-03-31"
-image: "/images/asus_rog_swift_pg279qm.png"
-productImage: "/images/asus_rog_swift_pg279qm.png"
 category: "monitors"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

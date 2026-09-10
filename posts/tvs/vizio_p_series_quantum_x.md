@@ -2,8 +2,6 @@
 title: "Vizio P-Series Quantum X: Maximum Brightness at a Mid-Range Price"
 subtitle: "3,000 nits peak brightness and full-array local dimming with quantum dot make this Vizio's most impressive television"
 date: "2026-01-20"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

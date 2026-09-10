@@ -7,8 +7,6 @@ features:
   - "240v"
   - "solar"
   - "solar-kit"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "5,040Wh LiFePO4, expandable to 60kWh across up to five battery packs"
   Inverter Power: "7,200W continuous (14,400W surge)"

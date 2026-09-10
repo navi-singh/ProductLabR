@@ -6,8 +6,6 @@ capacityWh: 716
 features:
   - "van-life"
   - "cpap"
-image: "/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_main.webp"
-productImage: "/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_main.webp"
 
 specs:
   Capacity: "716Wh"

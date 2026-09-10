@@ -2,8 +2,6 @@
 title: "Nikon Z9: The Flagship That Dropped the Mechanical Shutter"
 subtitle: "Nikon's stacked-sensor professional body for sports, wildlife and 8K video"
 date: "2025-08-17"
-image: "/images/posts/cameras/nikon_z9/nikon_z9.webp"
-productImage: "/images/posts/cameras/nikon_z9/nikon_z9.webp"
 specs:
   Sensor: "45.7MP Full-Frame CMOS"
   Autofocus: "493-point hybrid AF"

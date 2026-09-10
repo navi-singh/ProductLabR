@@ -2,8 +2,6 @@
 title: "Emerson Sensi Wi-Fi Programmable Thermostat Review: The Cheap One That Questions the Whole Smart-Thermostat Upgrade"
 subtitle: "At $65.68, the ST55 is most interesting when treated as a connected programmable thermostat, not as a bargain version of Nest or ecobee"
 date: "2026-08-08"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Model: "ST55"
   Price: "$65.68"

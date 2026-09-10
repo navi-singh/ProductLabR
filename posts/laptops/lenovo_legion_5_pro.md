@@ -2,8 +2,6 @@
 title: "Lenovo Legion 5 Pro Gen 9: The Value-Focused Gamer's Sweet Spot"
 subtitle: "AMD's Ryzen 9 7945HX and RTX 4070 deliver exceptional 1440p gaming at a price that makes the competition uncomfortable"
 date: "2026-03-31"
-image: "/images/lenovo_legion_5_pro.png"
-productImage: "/images/lenovo_legion_5_pro.png"
 category: "laptops"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

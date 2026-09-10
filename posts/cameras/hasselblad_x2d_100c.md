@@ -2,8 +2,6 @@
 title: "Hasselblad X2D 100C: 100 Megapixels, One Frame at a Time"
 subtitle: "A stills-only medium-format instrument with a 1TB built-in SSD and no interest in your action shots."
 date: "2025-08-17"
-image: "/images/posts/cameras/hasselblad_x2d_100c/hasselblad_x2d_100c.webp"
-productImage: "/images/posts/cameras/hasselblad_x2d_100c/hasselblad_x2d_100c.webp"
 specs:
   Sensor: "100MP Medium Format CMOS"
   Autofocus: "Phase detection AF"

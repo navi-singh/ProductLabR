@@ -6,8 +6,6 @@ capacityWh: 6071
 features:
   - "solar-kit"
   - "30a-rv"
-image: "/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_main.webp"
-productImage: "/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_main.webp"
 
 specs:
   Capacity: "6071Wh"

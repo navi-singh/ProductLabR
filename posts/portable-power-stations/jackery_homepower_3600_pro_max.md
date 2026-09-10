@@ -8,8 +8,6 @@ features:
   - "240v"
   - "cpap"
   - "solar-kit"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "3,584Wh LiFePO4 base (EV-grade LFP cells)"
   Expansion: "Up to 21.5kWh in a single unit; up to 43kWh in parallel"

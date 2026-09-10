@@ -2,8 +2,6 @@
 title: "Google Nest Thermostat (2020) Review: The Cheap Nest With Its Own Point"
 subtitle: "Google's mirrored G4CVZ model skips Auto-Schedule and room sensors, but its Soli presence sensing, Matter update and $92.50 street price make it more than a budget Learning Thermostat"
 date: "2026-08-08"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Model: "G4CVZ / Google Nest Thermostat, released October 12, 2020"
   Display: "2.4 inches mirrored display; resolution not published"

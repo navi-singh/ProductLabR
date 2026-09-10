@@ -2,8 +2,6 @@
 title: "Fujifilm GFX100 II: 102MP Medium Format That Almost Shoots Like Full Frame"
 subtitle: "The resolution and files are extraordinary, and it's faster than any GFX before it — but the lenses, the format, and the price demand a specific kind of buyer"
 date: "2025-08-17"
-image: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii.webp"
-productImage: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii.webp"
 specs:
   Sensor: "102MP Medium Format CMOS"
   Autofocus: "425-point phase detection"

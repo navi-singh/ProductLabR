@@ -7,8 +7,6 @@ features:
   - "solar"
   - "solar-kit"
   - "cpap"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "3,072Wh LFP (automotive-grade full-tab cells)"
   Inverter Power: "3,600W continuous (7,200W surge)"

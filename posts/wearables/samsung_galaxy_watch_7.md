@@ -2,8 +2,6 @@
 title: "Samsung Galaxy Watch 7: The Best Android Smartwatch Just Got Smarter"
 subtitle: "Samsung's 2024 flagship watch brings a 3nm chip, Galaxy AI health coaching, and advanced body composition analysis to the best Wear OS device available"
 date: "2026-03-31"
-image: "/images/samsung_galaxy_watch_7.png"
-productImage: "/images/samsung_galaxy_watch_7.png"
 category: "wearables"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

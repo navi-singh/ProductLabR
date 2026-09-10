@@ -6,8 +6,6 @@ capacityWh: 2048
 features:
   - "30a-rv"
   - "solar"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "2,048Wh LiFePO4 (expandable to 4,096Wh)"
   Inverter Power: "2,400W (Surge 6,000W)"

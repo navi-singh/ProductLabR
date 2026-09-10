@@ -4,7 +4,10 @@ import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { withBasePath } from '@/lib/basePath';
 
-const FALLBACK_SRC = '/images/item.png';
+// A self-authored neutral placeholder. This must never be a real product photo:
+// it renders on every article whose image is missing, so anything recognisable
+// here would be shown as the product on articles about something else.
+const FALLBACK_SRC = '/images/placeholder-product.svg';
 
 interface OptimizedImageProps {
   src: string;

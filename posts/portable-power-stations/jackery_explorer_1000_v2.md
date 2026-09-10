@@ -6,8 +6,6 @@ capacityWh: 1070
 features:
   - "solar"
   - "van-life"
-image: "/images/posts/portable-power-stations/jackery_1000v2/jackery_1000v2_main.webp"
-productImage: "/images/posts/portable-power-stations/jackery_1000v2/jackery_1000v2_main.webp"
 specs:
   Battery Capacity: "1,070Wh LiFePO4"
   Inverter Power: "1,500W (Surge 3,000W)"

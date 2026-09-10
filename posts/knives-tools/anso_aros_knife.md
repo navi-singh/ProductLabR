@@ -3,9 +3,6 @@ title: "A Perfect 10: Anso of Denmark 'Aros' incredible knife"
 subtitle: "The Aros, from Jens Anso, is a stunning offering that lives well in a pocket and evinces a master designer's insight."
 date: "2025-07-02"
 author: "Anthony Sculimbrene"
-image: "https://s3.us-east-1.amazonaws.com/images.gearjunkie.com/uploads/2025/05/Anso-of-Denmark-Aros-in-a-box.jpg"
-heroImage: "https://s3.us-east-1.amazonaws.com/images.gearjunkie.com/uploads/2025/05/Anso-of-Denmark-Aros-knife.jpg"
-productImage: "https://s3.us-east-1.amazonaws.com/images.gearjunkie.com/uploads/2025/05/Anso-of-Denmark-Aros-in-a-box.jpg"
 rating: 5
 retailerLinks:
   Amazon: "https://www.amazon.com/s?k=anso%20aros%20knife"

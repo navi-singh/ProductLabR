@@ -2,8 +2,6 @@
 title: "Jabra Elite 10: The Call Quality Champion"
 subtitle: "Jabra's flagship earbuds blend MultiSensor Voice technology, Dolby Atmos spatial audio, and a supremely comfortable fit for work and play"
 date: "2026-04-02"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

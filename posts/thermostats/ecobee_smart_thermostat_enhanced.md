@@ -2,8 +2,6 @@
 title: "Ecobee Smart Thermostat Enhanced Review: The Sensible Nest Alternative With a Catch"
 subtitle: "A sharp 4-inch touchscreen, radar occupancy sensing and an included Power Extender Kit make it the pragmatic buy — but ecobee keeps its best sensor package for the Premium"
 date: "2026-08-08"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Display: "4 in full-color LCD touchscreen, 540 x 540 pixels"
   Dimensions: "103.89 mm H x 103.89 mm W x 23.88 mm D"

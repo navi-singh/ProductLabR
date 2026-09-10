@@ -7,8 +7,6 @@ features:
   - "solar"
   - "30a-rv"
   - "240v"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "3,072Wh LiFePO4 (expandable to 12,288Wh with 3 x BP3000)"
   Inverter Power: "3,600W continuous (7,200W surge)"

@@ -2,8 +2,6 @@
 title: "Amazon Echo Dot (5th Gen): The Best Budget Smart Speaker"
 subtitle: "Improved bass, a built-in temperature sensor, and full Alexa in a $49 package make this the easiest smart home entry point available"
 date: "2026-03-31"
-image: "/images/amazon_echo_dot_5th_gen.png"
-productImage: "/images/amazon_echo_dot_5th_gen.png"
 category: "smart-home"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

@@ -160,7 +160,7 @@ npm run images:ingest
 
 Product imagery is manifest-driven. Add approved HTTPS image URLs to `data/product-images.json`, then run `npm run images:ingest`. The script downloads the image, stores it under `public/images/posts/<category>/<slug>/`, updates `image` and `productImage`, and records `imageCredit`, `imageSource`, and `imageLicense`.
 
-Use `npm run images:report` before and after ingestion to track reviews still using `/images/item.png` or pointing at missing local files. The workflow deliberately avoids search-engine scraping, retailer-page scraping, or unreviewed third-party download tools.
+Use `npm run images:report` before and after ingestion to track reviews with no product image or pointing at missing local files. The workflow deliberately avoids search-engine scraping, retailer-page scraping, or unreviewed third-party download tools.
 
 Additional angle photos of the same product use extra manifest entries with a non-`main` `role` (e.g. `"angle2"`). These are appended to a `gallery` frontmatter array and rendered by `components/article/ProductGallery.tsx` below the primary product image, instead of overwriting `image`/`productImage`. Only source angle photos confirmed to show the exact reviewed model/generation.
 
@@ -273,7 +273,7 @@ Both share the `NAV_CATEGORIES` array from `lib/nav-categories.ts`. Add new top-
 | Local image works in dev but 404s on GitHub Pages | Missing `withBasePath()` on a root-relative local asset URL; run `npm run test:e2e:prod` |
 | Pages build behaves differently from local config | `actions/configure-pages` injects `basePath`, static export, and unoptimized images at deploy time |
 | Dependency behavior differs locally vs CI | The repo is npm-only: `package-lock.json` is the single lockfile and CI runs `npm ci`. Do not add a `yarn.lock` — the workflow prefers yarn when it exists, and yarn v1 ignores npm `overrides`, so security pins would stop reaching production |
-| Product images are placeholder or missing | Product imagery is a content gap: many reviews use `/images/item.png`, and many others reference local filenames absent from `public/images/`; this is separate from the basePath bug |
+| Product images show a neutral placeholder | Product imagery is a content gap: only 16 of 149 reviews have a licensed photo, so the rest render `/images/placeholder-product.svg`; this is separate from the basePath bug |
 | Static export complains about a dynamic route | Add `generateStaticParams()`, or set `export const dynamic = 'force-static'` |
 | AdSense placeholder shows in prod | Env var `NEXT_PUBLIC_GOOGLE_ADSENSE_ID` not set in the deploy environment |
 | Stale build output | Delete `.next/` and `out/`, rebuild |

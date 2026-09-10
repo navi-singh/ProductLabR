@@ -6,8 +6,6 @@ capacityWh: 286
 features:
   - "solar"
   - "cpap"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "286Wh LiFePO4 (expandable to 858Wh)"
   Inverter Power: "600W rated (1,200W with X-Boost)"

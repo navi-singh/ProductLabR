@@ -2,8 +2,6 @@
 title: "Sony A1 II: The No-Compromise Flagship That Asks a Brutal Price"
 subtitle: "50MP, 30fps and 8K in one body with almost no rolling shutter — the question isn't whether it's capable, it's whether you can justify $6,499"
 date: "2025-08-17"
-image: "/images/posts/cameras/sony_a1_ii/sony_a1_ii.webp"
-productImage: "/images/posts/cameras/sony_a1_ii/sony_a1_ii.webp"
 specs:
   Sensor: "50MP Full-Frame CMOS"
   Autofocus: "Real-time tracking with AI recognition"

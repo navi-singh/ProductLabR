@@ -6,7 +6,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..', '..');
 const POSTS_DIR = path.join(ROOT, 'posts');
 const PUBLIC_DIR = path.join(ROOT, 'public');
-const PLACEHOLDER = '/images/item.png';
+const PLACEHOLDER = '/images/placeholder-product.svg';
 
 function parseArgs(argv) {
   const args = { json: false, category: null };

@@ -2,8 +2,6 @@
 title: "Sennheiser Momentum 4 Wireless: 60 Hours of Audiophile Sound"
 subtitle: "Sennheiser's flagship wireless headphones deliver industry-leading 60-hour battery life paired with audiophile-grade acoustics and a refined folding design"
 date: "2026-04-03"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

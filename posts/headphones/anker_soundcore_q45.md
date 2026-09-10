@@ -2,8 +2,6 @@
 title: "Anker Soundcore Space Q45: Budget ANC That Punches Far Above Its Price"
 subtitle: "Anker's flagship budget ANC headphone delivers LDAC support, adaptive noise cancellation, and 50-hour battery at an almost implausible $79 price point"
 date: "2026-03-31"
-image: "/images/anker_soundcore_q45.png"
-productImage: "/images/anker_soundcore_q45.png"
 category: "headphones"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

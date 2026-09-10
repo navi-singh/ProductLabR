@@ -6,8 +6,6 @@ capacityWh: 1024
 features:
   - "van-life"
   - "cpap"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "1,024Wh LiFePO4"
   Inverter Power: "2,200W (Surge 4,400W)"

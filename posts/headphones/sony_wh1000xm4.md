@@ -2,8 +2,6 @@
 title: "Sony WH-1000XM4: The Gold Standard, Still Relevant"
 subtitle: "Sony's fourth-generation flagship over-ears deliver multipoint Bluetooth, LDAC hi-res audio, and 30-hour battery in a compact folding design that still outpaces many newer competitors"
 date: "2026-04-04"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "headphones"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

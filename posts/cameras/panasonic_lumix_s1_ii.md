@@ -2,8 +2,6 @@
 title: "Panasonic Lumix S1 II: The Hybrid That Finally Trusts Phase Detection"
 subtitle: "Panasonic bolts a partially-stacked sensor and real phase-detect AF onto its video-first flagship — here's where that gamble pays off and where it doesn't"
 date: "2025-08-17"
-image: "/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii.webp"
-productImage: "/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii.webp"
 specs:
   Sensor: "24.2MP Full-Frame CMOS"
   Autofocus: "DFD with AI subject detection"

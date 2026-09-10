@@ -6,8 +6,6 @@ capacityWh: 1152
 features:
   - "solar"
   - "cpap"
-image: "/images/posts/portable-power-stations/bluetti_ac180/AC180_main.webp"
-productImage: "/images/posts/portable-power-stations/bluetti_ac180/AC180_main.webp"
 specs:
   Battery Capacity: "1,152Wh LiFePO4"
   Inverter Power: "1,800W (Surge 2,700W)"

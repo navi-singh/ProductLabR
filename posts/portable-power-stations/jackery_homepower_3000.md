@@ -8,8 +8,6 @@ features:
   - "30a-rv"
   - "cpap"
   - "solar-kit"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "3,072Wh LiFePO4 (60Ah/51.2V, not expandable)"
   Inverter Power: "3,600W continuous (7,200W surge peak)"

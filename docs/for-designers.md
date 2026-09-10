@@ -159,7 +159,7 @@ Framer Motion is installed but used **sparingly**. The aesthetic is editorial, n
 - Provide an explicit width/height or a stable aspect-ratio container to prevent CLS.
 - **Remote domains** are whitelisted (S3, Bob Vila, Future CDN). New domains require a code change.
 - **Hero images** typically 16:9 or 3:2. Cards use 4:3.
-- Product imagery is still a content/design gap: many reviews use `/images/item.png`, and many others reference product-specific local filenames that are not present in `public/images/`. Replacing those with real product photography is not an image-component bug.
+- Product imagery is still a content/design gap: only 16 of 149 reviews have a licensed photo, so the rest render the neutral `/images/placeholder-product.svg`. Replacing those with real product photography is not an image-component bug.
 
 ## Accessibility
 

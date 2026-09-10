@@ -38,13 +38,21 @@ const REQUIRED_FRONTMATTER = [
   'subtitle',
   'date',
   'price',
-  'productImage',
   'specs',
   'pros',
   'cons',
   'retailerLinks',
   'ratingBreakdown',
 ];
+
+// Wanted on every review, but not a publish blocker. productImage sat in the
+// list above until an audit found the gate was green across the corpus while
+// 89 articles pointed at a photo of a different product: the check proved a
+// key existed, never that it named the right thing. We only have a licensed
+// photo for some products, and requiring the key just pressures an author to
+// fill it with whatever is to hand, which is how the wrong images got there.
+// Tracked as a target so the gap stays visible instead of being papered over.
+const DESIRED_FRONTMATTER = ['productImage'];
 
 /**
  * Section intents rather than literal headings: articles across categories use
@@ -127,6 +135,7 @@ module.exports = {
   GATES,
   TARGETS,
   REQUIRED_FRONTMATTER,
+  DESIRED_FRONTMATTER,
   SECTION_INTENTS,
   GENERIC_PHRASES,
   META_WRITING_PATTERNS,

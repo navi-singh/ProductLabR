@@ -2,8 +2,6 @@
 title: "Sensi Lite Smart Thermostat Review: $39.99 Buys Less Than You Think, Which May Be the Point"
 subtitle: "The ST25 is the budget Sensi for buyers who want the smallest possible smart-thermostat bet and are willing to verify every compatibility detail before trusting it"
 date: "2026-08-08"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Model: "ST25, 2023 Sensi Lite generation"
   Price: "$39.99"

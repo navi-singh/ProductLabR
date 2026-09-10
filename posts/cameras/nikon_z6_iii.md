@@ -2,8 +2,6 @@
 title: "Nikon Z6 III: A Partially-Stacked Gamble That Mostly Pays Off"
 subtitle: "6K RAW internal and a 4000-nit viewfinder, with a base-ISO dynamic range asterisk."
 date: "2025-08-17"
-image: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii.webp"
-productImage: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii.webp"
 specs:
   Sensor: "24.5MP Full-Frame CMOS"
   Autofocus: "273-point hybrid AF"

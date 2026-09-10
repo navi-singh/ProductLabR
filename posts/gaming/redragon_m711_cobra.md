@@ -2,8 +2,6 @@
 title: "Redragon M711 Cobra: The Best Budget Gaming Mouse"
 subtitle: "Reliable optical tracking, 7 programmable buttons, RGB lighting, and a comfortable right-handed shape — all for under $25"
 date: "2026-03-31"
-image: "/images/redragon_m711_cobra.png"
-productImage: "/images/redragon_m711_cobra.png"
 category: "gaming"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

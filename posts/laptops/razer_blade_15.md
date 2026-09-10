@@ -2,8 +2,6 @@
 title: "Razer Blade 15 (2024): Premium Gaming in a Sleek Package"
 subtitle: "The thinnest 15-inch gaming laptop delivers RTX 4080 power in an ultra-refined aluminum chassis with a stunning OLED display"
 date: "2026-03-31"
-image: "/images/razer_blade_15.png"
-productImage: "/images/razer_blade_15.png"
 category: "laptops"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

@@ -5,8 +5,6 @@ date: "2026-08-07"
 capacityWh: 288
 features:
   - "solar"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "288Wh LFP / LiFePO4"
   AC Output: "None - this is a DC-only unit"

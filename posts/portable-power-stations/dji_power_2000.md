@@ -6,8 +6,6 @@ capacityWh: 2048
 features:
   - "cpap"
   - "van-life"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "2,048Wh LFP"
   Inverter Power: "3,000W continuous (no surge figure published by DJI)"

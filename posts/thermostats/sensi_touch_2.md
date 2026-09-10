@@ -2,8 +2,6 @@
 title: "Emerson Sensi Touch 2 Smart Thermostat Review: The Contractor-Friendly Choice With Fewer Tricks"
 subtitle: "The ST76 is not the flashiest thermostat at $167.99, but its color touchscreen, sensor support, and plain-spoken controls make it feel built for households that value HVAC sanity over novelty"
 date: "2026-08-08"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Model: "ST76, introduced for the 2023 Sensi Touch 2 generation"
   Price: "$167.99 for this review; CNET previously described it as a $210 thermostat"

@@ -9,7 +9,7 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 | `title` | string | `"EcoFlow Delta 3 Plus"` | Product name. Becomes `<h1>` and `<title>` |
 | `date` | ISO date string | `"2026-04-10"` | Publication date. Used for sort order and OG metadata |
 | `price` | string | `"$999"`, `"$799–$999"` | Free-form display string. Ranges allowed |
-| `productImage` | URL or root-relative local path | `"https://.../delta3plus.jpg"`, `"/images/item.png"` | Primary hero image. Remote URLs must be on a whitelisted domain; local paths are served from `public/` |
+| `productImage` | URL or root-relative local path | `"https://.../delta3plus.jpg"`, `"/images/posts/cameras/nikon_z8/nikon_z8_main.webp"` | Primary hero image. Remote URLs must be on a whitelisted domain; local paths are served from `public/` |
 | `specs` | object | see below | Key–value spec table |
 | `pros` | string[] | `["Fast charging", "Quiet"]` | Bulleted strengths |
 | `cons` | string[] | `["Heavy"]` | Bulleted weaknesses |
@@ -55,7 +55,7 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 
 ## Product image ingestion
 
-Use `npm run images:report` to list reviews that still use `/images/item.png` or reference missing local files. Use `npm run images:ingest` to download and wire approved product images from `data/product-images.json`.
+Use `npm run images:report` to list reviews with no product image or a reference to a missing local file. Use `npm run images:ingest` to download and wire approved product images from `data/product-images.json`.
 
 The ingestion manifest must use explicit, approved HTTPS image URLs only:
 

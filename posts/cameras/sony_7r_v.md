@@ -2,8 +2,6 @@
 title: "Sony α7R V: 61 Megapixels of Detail, With Two Real Catches"
 subtitle: "The resolution and AI autofocus are class-leading, but rolling shutter and buffer behavior mean this is a deliberate photographer's tool, not an action camera"
 date: "2025-08-16"
-image: "/images/posts/cameras/sony_7r_v/sony_7r_v.webp"
-productImage: "/images/posts/cameras/sony_7r_v/sony_7r_v.webp"
 specs:
   Sensor: "61MP Full-Frame CMOS"
   Autofocus: "Real-time tracking with AI recognition"

@@ -2,8 +2,6 @@
 title: "MSI Titan GT77 HX: The Desktop Replacement That Means It"
 subtitle: "A 17.3-inch behemoth packing desktop-class RTX 4090 and Core i9-13980HX into a laptop that genuinely replaces a gaming desktop"
 date: "2026-03-31"
-image: "/images/msi_titan_gt77_hx.png"
-productImage: "/images/msi_titan_gt77_hx.png"
 category: "laptops"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

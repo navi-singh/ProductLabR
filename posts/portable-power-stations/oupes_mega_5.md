@@ -6,8 +6,6 @@ capacityWh: 5040
 features:
   - "30a-rv"
   - "solar"
-image: "/images/item.png"
-productImage: "/images/item.png"
 specs:
   Battery Capacity: "5,040Wh LiFePO4"
   Inverter Power: "4,000W continuous (120V)"

@@ -2,8 +2,6 @@
 title: "Samsung The Frame 2024 (LS03D): When a TV Becomes Décor"
 subtitle: "Art Mode, matte anti-reflection display, and a nearly flush wall mount make this Samsung's most unique television"
 date: "2026-01-20"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "tvs"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

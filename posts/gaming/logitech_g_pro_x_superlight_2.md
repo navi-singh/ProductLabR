@@ -2,8 +2,6 @@
 title: "Logitech G Pro X Superlight 2: The Esports Mouse Perfected"
 subtitle: "Logitech's HERO 2 sensor, 2000Hz polling, and sub-60g wireless design make the Superlight 2 the most technically accomplished esports mouse ever built"
 date: "2026-03-31"
-image: "/images/logitech-g-pro-x-superlight-2.png"
-productImage: "/images/logitech-g-pro-x-superlight-2.png"
 category: "gaming"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

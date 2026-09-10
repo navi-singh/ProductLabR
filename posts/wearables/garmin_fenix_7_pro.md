@@ -2,8 +2,6 @@
 title: "Garmin Fenix 7 Pro: The Benchmark for Serious Athletes"
 subtitle: "Garmin's flagship multisport GPS watch delivers elite training analytics, solar charging, built-in flashlight, and up to 22-day battery life for outdoor adventurers"
 date: "2026-03-31"
-image: "/images/item.png"
-productImage: "/images/item.png"
 category: "wearables"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

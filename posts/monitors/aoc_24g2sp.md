@@ -2,8 +2,6 @@
 title: "AOC 24G2SP: The Best Budget Gaming Monitor You Can Buy"
 subtitle: "A fast 165Hz IPS panel with accurate colors and AMD FreeSync Premium — at a price that's hard to beat"
 date: "2026-03-31"
-image: "/images/aoc_24g2sp.png"
-productImage: "/images/aoc_24g2sp.png"
 category: "monitors"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

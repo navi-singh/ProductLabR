@@ -2,8 +2,6 @@
 title: "Google Nest Audio: The Best Smart Speaker for Google Households"
 subtitle: "A 75mm woofer, adaptive sound tuning, and Google Assistant's unmatched knowledge base make this the ideal speaker for Android and Google service users"
 date: "2026-03-31"
-image: "/images/google_nest_audio.png"
-productImage: "/images/google_nest_audio.png"
 category: "smart-home"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

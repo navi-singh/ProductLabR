@@ -2,8 +2,6 @@
 title: "Hisense U8K: Mini-LED Value at Its Finest"
 subtitle: "Hisense's flagship Mini-LED QLED TV delivers class-leading brightness and Google TV polish at a price that embarrasses the competition"
 date: "2026-03-31"
-image: "/images/hisense_u8k.png"
-productImage: "/images/hisense_u8k.png"
 category: "tvs"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

@@ -76,7 +76,7 @@ export default function Home() {
 
             <div className="relative h-52 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-featured md:h-64">
               <OptimizedImage
-                src={featured.image || featured.productImage || '/images/item.png'}
+                src={featured.image || featured.productImage || '/images/placeholder-product.svg'}
                 alt={featured.title}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

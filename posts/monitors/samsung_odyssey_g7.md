@@ -2,8 +2,6 @@
 title: "Samsung Odyssey G7 (27\"): The 1440p 240Hz Gaming Monitor to Beat"
 subtitle: "A 1000R curved QLED VA panel at 240Hz that sets the standard for immersive 1440p gaming"
 date: "2026-03-31"
-image: "/images/samsung_odyssey_g7.png"
-productImage: "/images/samsung_odyssey_g7.png"
 category: "monitors"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."

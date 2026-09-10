@@ -2,8 +2,6 @@
 title: "Leica M11: A Deliberate 60MP Rangefinder Review"
 subtitle: "A manual-focus 60MP rangefinder for photographers who prize craft over automation"
 date: "2025-08-17"
-image: "/images/posts/cameras/leica_m11/leica_m11.webp"
-productImage: "/images/posts/cameras/leica_m11/leica_m11.webp"
 specs:
   Sensor: "60MP Full-Frame CMOS"
   Autofocus: "Manual focus rangefinder"
