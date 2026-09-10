@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getPostsByCategory } from '@/lib/Posts';
+import { articleScore } from '@/lib/articleUtils';
 
 interface RelatedArticlesProps {
   currentArticleSlug: string;
@@ -22,11 +23,6 @@ function tokenize(value: string): Set<string> {
   );
 }
 
-function averageScore(post: { ratingBreakdown?: { metrics: { score: number }[] } }): number | null {
-  const metrics = post.ratingBreakdown?.metrics;
-  if (!metrics || metrics.length === 0) return null;
-  return metrics.reduce((sum, m) => sum + m.score, 0) / metrics.length;
-}
 
 /**
  * Ranks siblings instead of taking the first N in directory order.
@@ -55,7 +51,7 @@ export function RelatedArticles({
         if (currentTokens.has(token)) overlap += 1;
       });
 
-      const score = averageScore(post);
+      const score = articleScore(post);
 
       return {
         post,
@@ -78,7 +74,7 @@ export function RelatedArticles({
       </h3>
       <div className="space-y-0">
         {posts.map((post) => {
-          const score = averageScore(post);
+          const score = articleScore(post);
           return (
             <Link
               key={post.slug}

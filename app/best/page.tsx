@@ -5,6 +5,7 @@ import { SectionLabel } from '@/components/SectionLabel';
 import { Newsletter } from '@/components/Newsletter';
 import { OptimizedImage } from '@/components/OptimizedImage';
 import { getPostsByCategory } from '@/lib/Posts';
+import { articleScore } from '@/lib/articleUtils';
 import { CATEGORIES } from '@/lib/taxonomy';
 import { GATES } from '@/lib/editorial-standards';
 import { SITE_URL } from '@/lib/site-url';
@@ -27,11 +28,6 @@ interface CategorySummary {
   topPick?: { title: string; slug: string; score: number | null };
 }
 
-function averageScore(post: { ratingBreakdown?: { metrics: { score: number }[] } }): number | null {
-  const metrics = post.ratingBreakdown?.metrics;
-  if (!metrics || metrics.length === 0) return null;
-  return metrics.reduce((sum, m) => sum + m.score, 0) / metrics.length;
-}
 
 /**
  * Counts and top picks are derived from the content tree rather than hardcoded.
@@ -41,7 +37,7 @@ function averageScore(post: { ratingBreakdown?: { metrics: { score: number }[] }
 function getCategorySummaries(): CategorySummary[] {
   return CATEGORIES.map((category) => {
     const posts = getPostsByCategory(category.contentDir);
-    const ranked = [...posts].sort((a, b) => (averageScore(b) ?? -1) - (averageScore(a) ?? -1));
+    const ranked = [...posts].sort((a, b) => (articleScore(b) ?? -1) - (articleScore(a) ?? -1));
     const best = ranked[0];
 
     return {
@@ -53,7 +49,7 @@ function getCategorySummaries(): CategorySummary[] {
       count: posts.length,
       image: posts.find((p) => p.productImage)?.productImage,
       topPick: best
-        ? { title: best.title, slug: best.slug, score: averageScore(best) }
+        ? { title: best.title, slug: best.slug, score: articleScore(best) }
         : undefined,
     };
   }).filter((summary) => summary.count > 0);

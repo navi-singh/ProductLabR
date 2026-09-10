@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { ReviewsExplorer, type ReviewEntry } from '@/components/ReviewsExplorer';
 import { getPostsByCategory } from '@/lib/Posts';
+import { articleScore } from '@/lib/articleUtils';
 import { CATEGORIES } from '@/lib/taxonomy';
 import { SITE_URL } from '@/lib/site-url';
 
@@ -12,13 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE_URL}/reviews` },
 };
 
-function averageScore(post: {
-  ratingBreakdown?: { metrics: { score: number }[] };
-}): number | null {
-  const metrics = post.ratingBreakdown?.metrics;
-  if (!metrics || metrics.length === 0) return null;
-  return metrics.reduce((sum, m) => sum + m.score, 0) / metrics.length;
-}
 
 function getAllReviews(): ReviewEntry[] {
   return CATEGORIES.flatMap((category) =>
@@ -29,7 +23,7 @@ function getAllReviews(): ReviewEntry[] {
       date: post.date ?? '',
       categorySlug: category.slug,
       categoryName: category.shortName,
-      score: averageScore(post),
+      score: articleScore(post),
     }))
   );
 }

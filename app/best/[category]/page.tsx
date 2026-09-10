@@ -8,6 +8,7 @@ import { Newsletter } from '@/components/Newsletter';
 import { OptimizedImage } from '@/components/OptimizedImage';
 import { AffiliateDisclosure } from '@/components/AffiliateDisclosure';
 import { getPostsByCategory } from '@/lib/Posts';
+import { articleScore } from '@/lib/articleUtils';
 import { CATEGORIES, getCategoryBySlug } from '@/lib/taxonomy';
 import { SITE_URL } from '@/lib/site-url';
 
@@ -58,11 +59,6 @@ export async function generateMetadata({
   };
 }
 
-function averageScore(post: { ratingBreakdown?: { metrics: { score: number }[] } }): number | null {
-  const metrics = post.ratingBreakdown?.metrics;
-  if (!metrics || metrics.length === 0) return null;
-  return metrics.reduce((sum, m) => sum + m.score, 0) / metrics.length;
-}
 
 export default async function CategoryHubPage({
   params,
@@ -77,7 +73,7 @@ export default async function CategoryHubPage({
   }
 
   const posts = [...getPostsByCategory(category.contentDir)].sort(
-    (a, b) => (averageScore(b) ?? -1) - (averageScore(a) ?? -1)
+    (a, b) => (articleScore(b) ?? -1) - (articleScore(a) ?? -1)
   );
 
   return (
@@ -119,7 +115,7 @@ export default async function CategoryHubPage({
             ) : (
               <ol className="space-y-4">
                 {posts.map((post, index) => {
-                  const score = averageScore(post);
+                  const score = articleScore(post);
                   return (
                     <li key={post.slug}>
                       <Link
