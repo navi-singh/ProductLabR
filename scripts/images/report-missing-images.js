@@ -68,12 +68,40 @@ function getPosts() {
             file: path.relative(ROOT, filePath),
             image,
             productImage,
+            noImage: !image && !productImage,
             usesPlaceholder: image === PLACEHOLDER || productImage === PLACEHOLDER,
-            missingImage: !existsLocalImage(image),
-            missingProductImage: !existsLocalImage(productImage),
+            missingImage: Boolean(image) && !existsLocalImage(image),
+            missingProductImage: Boolean(productImage) && !existsLocalImage(productImage),
           };
         });
     });
+}
+
+// Files on disk that no manifest entry accounts for. Without a recorded
+// source and licence we cannot show that we are entitled to publish them.
+function unattributedFiles() {
+  const manifestPath = path.join(ROOT, 'data', 'product-images.json');
+  if (!fs.existsSync(manifestPath)) return [];
+  const { images } = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  const known = new Set(images.map((entry) => `${entry.category}/${entry.slug}`));
+
+  const root = path.join(PUBLIC_DIR, 'images', 'posts');
+  if (!fs.existsSync(root)) return [];
+
+  const out = [];
+  const isImage = (name) => /\.(avif|gif|jpe?g|png|svg|webp)$/i.test(name);
+  const walk = (dir) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (isImage(entry.name)) {
+        const rel = path.relative(root, full).split(path.sep);
+        if (!known.has(`${rel[0]}/${rel[1]}`)) out.push(path.relative(ROOT, full));
+      }
+    }
+  };
+  walk(root);
+  return out;
 }
 
 function main() {
@@ -84,7 +112,13 @@ function main() {
     posts = posts.filter((post) => post.category === args.category);
   }
 
-  const rows = posts.filter((post) => post.usesPlaceholder || post.missingImage || post.missingProductImage);
+  // An absent image field is the gap, not the absence of a gap. This reported
+  // zero outstanding work while 133 of 149 reviews had no product photo,
+  // because it only looked for a placeholder value or a broken path.
+  const rows = posts.filter(
+    (post) => post.noImage || post.usesPlaceholder || post.missingImage || post.missingProductImage
+  );
+  const unattributed = unattributedFiles();
 
   if (args.json) {
     console.log(
@@ -92,6 +126,8 @@ function main() {
         {
           totalPosts: posts.length,
           needsImages: rows.length,
+          noImageCount: rows.filter((post) => post.noImage).length,
+          unattributedFiles: unattributed,
           placeholderCount: rows.filter((post) => post.usesPlaceholder).length,
           missingLocalFileCount: rows.filter((post) => post.missingImage || post.missingProductImage).length,
           posts: rows,
@@ -105,10 +141,18 @@ function main() {
 
   console.log(`Scanned ${posts.length} reviews.`);
   console.log(`${rows.length} reviews need product-image work.`);
+  console.log(`${rows.filter((post) => post.noImage).length} have no product image at all.`);
   console.log('');
+
+  if (unattributed.length) {
+    console.log(`${unattributed.length} image files have no manifest provenance:`);
+    for (const file of unattributed) console.log(`  ${file}`);
+    console.log('');
+  }
 
   for (const post of rows) {
     const reasons = [
+      post.noImage ? 'no image' : null,
       post.usesPlaceholder ? 'placeholder' : null,
       post.missingImage ? 'missing image' : null,
       post.missingProductImage ? 'missing productImage' : null,
