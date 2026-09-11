@@ -56,6 +56,28 @@ ratingBreakdown:
       score: 8.0
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
 ---
 
 ## Overview
@@ -94,6 +116,10 @@ are manufacturer assertions rather than independently confirmed results, and
 they should be read that way, but the framing tells you where EcoFlow believes
 this product lives: bolted into a home, not tossed in a truck bed.
 
+![EcoFlow DELTA 3 Ultra](/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle2.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
+
 The lithium iron phosphate chemistry is the right call for that role. LFP runs
 cooler and tolerates a longer service life than the nickel-based chemistries
 that dominated the previous power-station generation, and it is the reason
@@ -121,6 +147,10 @@ the company specifically names clothing steamers, electric dryers, lawnmowers
 and electric frying pans. Those are loads that trip most portable stations
 instantly, so the ability to run them, even in a boosted mode, materially widens
 what the unit can back up during an outage.
+
+![EcoFlow DELTA 3 Ultra](/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle3.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 The recharge speed is the genuinely standout figure. EcoFlow rates a 0-80%
 refill at 89 minutes from either a wall outlet or a generator. On a 3,072Wh pack
@@ -161,6 +191,10 @@ connecting to a house rather than sitting beside it. EcoFlow documents two
 methods: a Manual Transfer Switch and an Inlet Box. Both let the unit feed
 selected circuits, and both require separate hardware and, realistically, an
 electrician — so budget for that on top of the $1,399 sticker.
+
+![EcoFlow DELTA 3 Ultra](/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle4.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 The software layer is called OASIS 3.0, and it is more ambitious than the usual
 battery-percentage app. It shows real-time battery status, but it also pulls in

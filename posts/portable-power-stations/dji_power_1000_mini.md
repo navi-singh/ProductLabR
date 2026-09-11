@@ -59,6 +59,28 @@ ratingBreakdown:
       score: 6.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_main.jpg"
+productImage: "/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_main.jpg"
+imageCredit: "DJI"
+imageSource: "DJI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle2.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle3.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle4.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle5.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
 ---
 
 ## First Look
@@ -93,6 +115,10 @@ grey-on-grey styling reads as a piece of gear rather than an appliance. At 25.4
 pounds it sits within a pound of the lightest 1kWh units on the market, and the
 compact footprint means it takes up less bench or trunk space than its capacity
 suggests.
+
+![DJI Power 1000 Mini](/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle2.jpg)
+
+*DJI / DJI (Manufacturer product image)*
 
 Two design touches stand out because rivals rarely bother with them. The first is a
 retractable USB-C cable built into the chassis, rated to deliver up to 100 watts on
@@ -154,6 +180,10 @@ separate surge number to reassure you about motor start-up spikes. For a company
 selling a full kilowatt-hour of storage, choosing such a modest inverter is a real
 limitation, not a rounding error.
 
+![DJI Power 1000 Mini](/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle3.jpg)
+
+*DJI / DJI (Manufacturer product image)*
+
 Where the Mini is genuinely strong is uninterruptible power. DJI's documentation
 puts the UPS switchover at 0.01 seconds — 10 milliseconds — which is quick enough
 that a desktop, a home router, a NAS or a CPAP machine rides straight through a grid
@@ -194,6 +224,10 @@ super-fast charger either. What you buy is the entire system. That is a coherent
 choice for a travel unit, but it means the Mini can never grow into a larger backup,
 and buyers who suspect their needs will expand should look at a modular platform
 instead.
+
+![DJI Power 1000 Mini](/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle4.jpg)
+
+*DJI / DJI (Manufacturer product image)*
 
 On the software side the Mini carries Wi-Fi on 802.11 b/g/n and Bluetooth 5.0, and
 connects to the DJI Home app for remote monitoring, firmware updates and charge-rate

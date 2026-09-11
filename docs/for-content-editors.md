@@ -129,7 +129,7 @@ Keep paragraphs short — 2–4 sentences. The body type is 15px / 1.8, optimize
 
 ## Image rules
 
-- Prefer real product photos. Product imagery is still a content gap: only 16 of 149 reviews have a licensed photo; the rest render the neutral `/images/placeholder-product.svg`. Never fill the gap with a photo of a different model or another site's image.
+- Prefer real product photos. Product imagery is still a content gap: only 16 of 149 reviews have a licensed photo; the rest render no image at all, which is intended. Leave `image`/`productImage` unset until you have a licensed photo of that exact model — never fill the gap with a photo of a different model, another site's image, or a placeholder graphic.
 - Remote images should use full https URLs. Allowed domains today: Amazon S3 (`*.s3.amazonaws.com`), Bob Vila CDN, Future CDN. New domains need engineering to whitelist.
 - Local images must live under `public/` and be referenced with a root-relative path such as `/images/posts/<category>/<slug>/<slug>_main.webp`.
 - Always provide **descriptive alt text** — it's an accessibility requirement and an SEO signal.

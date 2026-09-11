@@ -50,6 +50,11 @@ ratingBreakdown:
       score: 5.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/thermostats/sensi_lite/sensi_lite_main.webp"
+productImage: "/images/posts/thermostats/sensi_lite/sensi_lite_main.webp"
+imageCredit: "Copeland / Sensi"
+imageSource: "Sensi (Copeland)"
+imageLicense: "Manufacturer product image"
 ---
 
 ## Introduction

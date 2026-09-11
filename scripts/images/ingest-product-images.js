@@ -50,6 +50,13 @@ function loadManifest(manifestPath) {
   return images;
 }
 
+// `vendored` entries document the provenance of files already committed to the
+// repo whose original download URL was never recorded. They exist so the
+// attribution report can account for those files; there is nothing to fetch.
+function isVendored(entry) {
+  return entry.vendored === true;
+}
+
 function assertSafeEntry(entry, index) {
   const location = `manifest entry ${index + 1}`;
   const required = ['category', 'slug', 'sourceUrl', 'sourceName', 'license', 'credit'];
@@ -283,25 +290,47 @@ async function ingestEntry(entry, index, args) {
 
 async function main() {
   const args = parseArgs(process.argv);
-  const entries = loadManifest(args.manifest);
+  const allEntries = loadManifest(args.manifest);
+  const vendoredCount = allEntries.filter(isVendored).length;
+  const entries = allEntries.filter((entry) => !isVendored(entry));
+
+  if (vendoredCount > 0) {
+    console.log(`Skipping ${vendoredCount} vendored entr${vendoredCount === 1 ? 'y' : 'ies'} (already in the repo, nothing to download).`);
+  }
 
   if (entries.length === 0) {
-    console.log(`No images listed in ${path.relative(ROOT, args.manifest)}.`);
+    console.log(`No downloadable images listed in ${path.relative(ROOT, args.manifest)}.`);
     console.log('Add approved image URLs to the manifest, then rerun this command.');
     return;
   }
 
   const results = [];
+  const failures = [];
   for (let i = 0; i < entries.length; i += 1) {
     // Space out real downloads so a large manifest does not trip Wikimedia's
     // burst throttle.
     if (i > 0 && !args.dryRun) await sleep(2500);
-    results.push(await ingestEntry(entries[i], i, args));
+    try {
+      results.push(await ingestEntry(entries[i], i, args));
+    } catch (error) {
+      // A single stubborn URL (e.g. sustained 429s) must not abort the rest
+      // of a large manifest; record it and keep going.
+      failures.push({ entry: entries[i], message: error instanceof Error ? error.message : String(error) });
+      console.error(`Skipped entry ${i + 1} (${entries[i].slug}/${entries[i].role ?? 'main'}): ${error instanceof Error ? error.message : error}`);
+    }
   }
 
   for (const result of results) {
     const action = result.dryRun ? 'Would write' : 'Wrote';
     console.log(`${action} ${result.image} -> ${result.review} (${result.source})`);
+  }
+
+  if (failures.length > 0) {
+    console.log(`\n${failures.length} entr${failures.length === 1 ? 'y' : 'ies'} failed and were skipped:`);
+    for (const failure of failures) {
+      console.log(`  ${failure.entry.slug}/${failure.entry.role ?? 'main'}: ${failure.message}`);
+    }
+    process.exitCode = 1;
   }
 }
 

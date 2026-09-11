@@ -60,6 +60,28 @@ ratingBreakdown:
       score: 6.8
     - name: "Installation"
       score: 9.5
+image: "/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle2.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle3.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle4.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle5.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -86,6 +108,10 @@ But for the homeowner who wants Powerwall-like functionality with Anker's build 
 
 The E10 ships as a system: inverter unit, battery modules, and the base.
 
+![Anker SOLIX E10](/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle2.webp)
+
+*Anker / Anker (Manufacturer product image)*
+
 The 60-lb inverter is the most manageable component — a single adult can handle it with care.
 
 The 130-lb batteries require two people and careful planning about final placement, since they're not easily repositioned after installation.
@@ -107,6 +133,10 @@ The E10 requires the app for all status monitoring — there's no local display 
 ### Wireless Battery Connections: The Standout Feature
 
 Every other battery-expandable power system requires physical communication cables running between battery units.
+
+![Anker SOLIX E10](/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle3.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 These cables add installation complexity, create failure points, and make reconfiguration difficult.
 
@@ -171,6 +201,10 @@ The system's MPPT controller handles multiple string configurations without requ
 ### Surge Verification
 
 Testing confirmed the 37,000W surge capacity with 2 batteries.
+
+![Anker SOLIX E10](/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle4.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 A 5-ton central AC unit (approximately 20,000W startup, 5,000W running) started cleanly on first attempt.
 

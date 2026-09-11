@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface CamEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const cameras: CamEntry[] = [
     rank: 1,
     name: 'Canon EOS R5 Mark II',
     href: '/articles/canon_eos_r5_mark_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'Outstanding hybrid performance with 8K 30p video, 45MP full-frame, Eye Control AF, and 8.5-stop IBIS.',
     score: 9.5,
     price: '$4,299',
@@ -36,7 +35,6 @@ const cameras: CamEntry[] = [
     rank: 2,
     name: 'Sony A1 II',
     href: '/articles/sony_a1_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'Exceptional speed and performance with 50MP sensor, 8K 30p video, and elite AI recognition autofocus.',
     score: 9.4,
     price: '$6,499',
@@ -47,7 +45,6 @@ const cameras: CamEntry[] = [
     rank: 3,
     name: 'Nikon Z8',
     href: '/articles/nikon_z8',
-    image: '/images/placeholder-product.svg',
     summary: 'Compact pro-grade design with excellent 8K video, outstanding dynamic range, and 45.7MP sensor.',
     score: 9.2,
     price: '$3,996',
@@ -58,7 +55,6 @@ const cameras: CamEntry[] = [
     rank: 4,
     name: 'Panasonic Lumix S1R II',
     href: '/articles/panasonic_lumix_s1r_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'Professional video features with high resolution 47.3MP sensor and advanced codec support.',
     score: 8.8,
     price: '$3,699',
@@ -68,7 +64,6 @@ const cameras: CamEntry[] = [
     rank: 5,
     name: 'Fujifilm X-H2S',
     href: '/articles/fujifilm_xh2s',
-    image: '/images/placeholder-product.svg',
     summary: 'APS-C powerhouse performance with excellent video specs and compact form factor.',
     score: 8.6,
     price: '$2,499',

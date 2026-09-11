@@ -273,7 +273,7 @@ Both share the `NAV_CATEGORIES` array from `lib/nav-categories.ts`. Add new top-
 | Local image works in dev but 404s on GitHub Pages | Missing `withBasePath()` on a root-relative local asset URL; run `npm run test:e2e:prod` |
 | Pages build behaves differently from local config | `actions/configure-pages` injects `basePath`, static export, and unoptimized images at deploy time |
 | Dependency behavior differs locally vs CI | The repo is npm-only: `package-lock.json` is the single lockfile and CI runs `npm ci`. Do not add a `yarn.lock` — the workflow prefers yarn when it exists, and yarn v1 ignores npm `overrides`, so security pins would stop reaching production |
-| Product images show a neutral placeholder | Product imagery is a content gap: only 16 of 149 reviews have a licensed photo, so the rest render `/images/placeholder-product.svg`; this is separate from the basePath bug |
+| A review shows no product image | Expected. Product imagery is a content gap: only 16 of 149 reviews have a licensed photo, and the rest deliberately render no image rather than a stand-in; separate from the basePath bug |
 | Static export complains about a dynamic route | Add `generateStaticParams()`, or set `export const dynamic = 'force-static'` |
 | AdSense placeholder shows in prod | Env var `NEXT_PUBLIC_GOOGLE_ADSENSE_ID` not set in the deploy environment |
 | Stale build output | Delete `.next/` and `out/`, rebuild |

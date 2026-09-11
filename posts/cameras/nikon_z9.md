@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 7.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/nikon_z9/nikon_z9_main.jpg"
+productImage: "/images/posts/cameras/nikon_z9/nikon_z9_main.jpg"
+imageCredit: "Henry Söderlund"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+gallery:
+  - src: "/images/posts/cameras/nikon_z9/nikon_z9_angle2.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/nikon_z9/nikon_z9_angle3.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/nikon_z9/nikon_z9_angle4.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/nikon_z9/nikon_z9_angle5.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: a flagship for people who cannot treat the camera gently
@@ -60,6 +82,10 @@ The Z9 is for sports, wildlife, press, event, commercial, and hybrid professiona
 
 A flagship camera has to earn its bulk. The Z9's rugged professional build is not decoration; it is the reason to choose it over the smaller body with similar headline imaging. The large chassis gives Nikon room to create a camera that feels planted with serious lenses, comfortable in vertical orientation, and mentally reassuring when the job does not allow hesitation. The value is not just durability. It is the confidence that the camera is meant to be worked hard.
 
+![Nikon Z9](/images/posts/cameras/nikon_z9/nikon_z9_angle2.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 That confidence has a price beyond 5,496 USD. The Z9 is large and heavy enough that ownership changes how you pack. A travel photographer who moves through airports with two lenses and a laptop will feel the penalty. A wedding shooter carrying two bodies for 10 hours may prefer a smaller shape. A studio photographer who works from a tripod may not need the bulk. The Z9 is not a universal upgrade; it is a body designed around pressure, repetition, and long days.
 
 The control layout and feature density suit a professional who wants direct access and custom behavior. They are less friendly to a buyer who hopes the camera will stay invisible. The Z9 gives you 493-point hybrid AF, 8K 60p recording, 4K 120p recording, 45.7MP files, and 5-axis stabilization rated at 6 stops; each of those capabilities brings decisions. Autofocus modes, file sizes, video formats, storage choices, button assignments, and still/video switching all need to be understood before paid work.
@@ -69,6 +95,10 @@ Ruggedness also has an emotional component. When a camera costs 5,496 USD, buyer
 ## Performance in the field: stills, video, and assignment pressure
 
 The Z9's performance story starts with the 45.7MP full-frame CMOS sensor. It gives enough resolution for cropping wildlife frames, delivering editorial stills, printing large, shooting commercial detail, and retaining flexibility when a subject does not fill the frame. The files are not merely big for bragging rights. In professional use, 45.7MP can rescue composition, support multiple crops from one moment, and satisfy clients who ask for both horizontal and vertical versions after the shoot.
+
+![Nikon Z9](/images/posts/cameras/nikon_z9/nikon_z9_angle3.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 The 493-point hybrid AF system is what makes that resolution useful in motion. A high-resolution camera that misses focus is just a large disappointment. The Z9's autofocus promise is about keeping fast, unpredictable work inside the camera's comfort zone: field sports, animals, ceremonies, stage events, and moving subjects in mixed light. It will not replace anticipation, lens choice, or good positioning, but it gives working photographers a sophisticated tracking platform instead of a slow studio-only high-resolution body.
 

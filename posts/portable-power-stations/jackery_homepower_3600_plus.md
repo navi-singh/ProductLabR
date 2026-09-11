@@ -57,6 +57,28 @@ ratingBreakdown:
       score: 9.0
     - name: "Value"
       score: 7.7
+image: "/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_main.webp"
+productImage: "/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_main.webp"
+imageCredit: "Jackery"
+imageSource: "Jackery"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle2.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle3.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle4.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle5.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -81,6 +103,10 @@ At 7,200W, the HomePower 3600 Plus handles these loads that would trip most comp
 
 At 77 lbs, the HomePower 3600 Plus sits in the middle of the 3–4kWh weight range.
 
+![Jackery HomePower 3600 Plus](/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle2.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
+
 Jackery's wheel and handle mechanism is quality hardware: the wheels use durable casters with good load ratings, and the suitcase-style handle telescopes smoothly to multiple heights.
 
 The one consistent complaint — confirmed in testing — is that the handle doesn't lock securely when extended.
@@ -98,6 +124,10 @@ Overall first impression: solid, professional hardware that was clearly engineer
 ### 7,200W Surge: Handling What Rivals Can't
 
 The 7,200W surge rating is the spec that separates the HomePower 3600 Plus from similarly priced competition.
+
+![Jackery HomePower 3600 Plus](/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle3.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 During outages, the most common failure mode for power stations is tripping when a refrigerator compressor, well pump, or central AC unit starts up.
 
@@ -154,6 +184,10 @@ The display is readable in typical indoor lighting but not the category standout
 ### Surge Performance Verification
 
 Testing confirmed the 7,200W surge specification.
+
+![Jackery HomePower 3600 Plus](/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle4.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 A 3-ton central AC unit (5,000W startup, 1,800W running) started cleanly on three successive tests.
 

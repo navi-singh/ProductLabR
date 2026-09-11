@@ -74,16 +74,15 @@ test('local asset URLs carry the deployment basePath', async ({ page, baseURL })
 });
 
 /**
- * Most posts point `image:` at a per-product file that was never added to
- * public/images. OptimizedImage is meant to absorb that by falling back to the
- * shared placeholder, but it used to raise its "Image unavailable" overlay at
- * the same moment it swapped the source in — so the overlay covered a
- * placeholder that had loaded perfectly well.
+ * Most posts have no licensed product photo. Rather than substituting a
+ * stand-in graphic, those reviews render no image element at all — a stand-in
+ * reads as "here is the product", which is how the wrong product ended up
+ * illustrated across the corpus.
  *
- * This asserts the user-visible contract only. The initial 404 still happens
- * and is expected; what must not happen is an error state on screen.
+ * This asserts the user-visible contract: no error overlay, and no image left
+ * on screen with nothing in it.
  */
-test('a post with no product image of its own degrades to the placeholder', async ({ page }) => {
+test('a post with no product image of its own renders no image at all', async ({ page }) => {
   test.skip(
     !process.env.E2E_PROD,
     'Needs a hydrated client. The dev server serves a CSP + HMR runtime that does ' +

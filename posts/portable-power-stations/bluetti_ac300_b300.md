@@ -49,6 +49,28 @@ ratingBreakdown:
       score: 7.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -61,17 +83,29 @@ That split design is the point. It lets you start with one battery and add more 
 
 An all-in-one power station is simpler to buy and simpler to carry. The AC300 asks more of you up front and pays it back in flexibility. Because the head unit holds no cells, it does nothing on its own — you must pair it with at least one B300, which is what the $2,999 bundle delivers. From there the system scales: additional B300 packs stack onto the AC300 to multiply capacity, and Bluetti's higher-tier accessories can bond two AC300 heads together for 240V split-phase output if your ambitions run to whole-home coverage.
 
+![Bluetti AC300 + B300](/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle2.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
+
 The catch is cost and bulk. Each B300 is a separate, heavy purchase, and expansion is not cheap — the price per added kilowatt-hour is one of the least attractive things about the system. You also end up with two distinct modules to store and connect, plus cabling, rather than a single object you grab and go. For buyers who know their needs will grow, that is a reasonable trade. For someone who wants a fixed amount of backup and never intends to expand, a comparably sized all-in-one may be simpler and cheaper.
 
 ## Design and Build
 
 Splitting the system across modules keeps any single piece movable. At around 45 pounds for a module, this is a two-hands, brace-your-back kind of lift rather than a one-arm carry, but because you move the head and the battery separately, you never have to hoist the full stacked weight at once. That is a quiet advantage of the modular layout that all-in-one giants cannot match. A hand truck or cart still earns its keep when you are relocating the whole system.
 
+![Bluetti AC300 + B300](/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle3.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
+
 The AC300's control surface is dense but readable: a bright display shows input and output wattage, state of charge, and time estimates, and the app adds Bluetooth and Wi-Fi monitoring so you can watch the system from a phone. The port array is where the 30A output and RV-friendly connections live, making this a natural fit for a trailer or a partial home tie-in through a transfer switch. Build quality feels appropriate to the price — this is equipment meant to sit in a garage or utility room and work for years.
 
 ## Real-World Runtime and Surge Performance
 
 Start with usable energy. After inverter conversion losses of roughly 10–15%, the 3,072Wh on the label yields about 2,750–2,800Wh at the AC outlets. Now apply it to real loads.
+
+![Bluetti AC300 + B300](/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle4.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 A refrigerator is the classic backup question, and the honest math looks nothing like a fixed "150W times four hours." A fridge that draws 150W while running only runs its compressor perhaps a third of the time, so it averages closer to 45–55W over a full hour. Divide that into roughly 2,760 usable watt-hours and a single B300 keeps a fridge cold for about 50 to 60 hours — more than two days on one battery. Widen the load to a realistic outage kit — fridge, Wi-Fi and networking, a few lights, phones charging, a fan — averaging maybe 150–200W, and you are looking at roughly 14 to 18 hours per B300. Add a second battery and those numbers double.
 

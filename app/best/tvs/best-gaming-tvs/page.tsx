@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface TVEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const tvs: TVEntry[] = [
     rank: 1,
     name: 'Samsung QN90C Neo QLED',
     href: '/articles/samsung_qn90c',
-    image: '/images/placeholder-product.svg',
     summary: 'Elite gaming TV with 144Hz refresh rate, 4x HDMI 2.1 ports, ultra-low input lag, and blazing brightness that handles any lighting condition.',
     score: 9.2,
     price: '$1,299',
@@ -36,7 +35,6 @@ const tvs: TVEntry[] = [
     rank: 2,
     name: 'LG C4 OLED',
     href: '/articles/lg_c4_oled',
-    image: '/images/placeholder-product.svg',
     summary: 'The best OLED for gaming with 4 HDMI 2.1 ports, G-Sync compatible, near-instant pixel response, and gorgeous picture quality.',
     score: 9.4,
     price: '$1,299',
@@ -47,7 +45,6 @@ const tvs: TVEntry[] = [
     rank: 3,
     name: 'Hisense U8K',
     href: '/articles/hisense_u8k',
-    image: '/images/placeholder-product.svg',
     summary: 'Incredible budget gaming TV with 144Hz panel, Mini-LED backlighting, and solid VRR support that competes with TVs costing twice as much.',
     score: 8.9,
     price: '$699',
@@ -58,7 +55,6 @@ const tvs: TVEntry[] = [
     rank: 4,
     name: 'Sony X90L',
     href: '/articles/sony_x90l',
-    image: '/images/placeholder-product.svg',
     summary: 'Sony\'s gaming-focused LED TV with excellent motion handling, HDMI 2.1 ports, and PlayStation-optimized Auto HDR Tone Mapping.',
     score: 8.8,
     price: '$899',

@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 8.4
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_main.jpg"
+productImage: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_main.jpg"
+imageCredit: "Aps1729"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC0"
+gallery:
+  - src: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_angle2.jpg"
+    credit: "Henry Söderlund"
+    source: "Wikimedia Commons"
+    license: "CC BY 2.0"
+  - src: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_angle3.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_angle4.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_angle5.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: what the X-H2S is trying to prove
@@ -53,6 +75,10 @@ The trade is real and it cuts both ways. This is not the camera for someone who 
 ## Handling, build, and the DSLR-style design
 
 The X-H2S breaks from Fujifilm's retro dial tradition, and that is intentional. Instead of dedicated shutter-speed and ISO dials, it uses a PASM mode dial and a top-plate status LCD, which is the layout sports and video shooters coming from Canon and Nikon expect. Purists who bought into Fuji for its tactile analog controls may bristle. Everyone shooting fast will appreciate the deeper grip and the clarity of a top screen showing settings at a glance. The body weighs around 660 grams with battery and card and carries proper weather sealing.
+
+![Fujifilm X-H2S](/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_angle2.jpg)
+
+*Henry Söderlund / Wikimedia Commons (CC BY 2.0)*
 
 Fujifilm also finally fixed a longstanding gripe: the NP-W235 battery is rated for roughly 580 frames per charge under CIPA, a real step up from the anemic packs in older X bodies, and it charges over USB-C. Storage is handled by two slots that are not equals — one CFexpress Type B and one SD UHS-II. The fast internal ProRes recording and the deepest high-speed photo buffers lean on the CFexpress card, so plan to buy one. The rear screen is a fully articulating vari-angle panel, and the 5.76-million-dot viewfinder runs bright and smooth at up to 120fps, which matters when you are panning with a bird.
 

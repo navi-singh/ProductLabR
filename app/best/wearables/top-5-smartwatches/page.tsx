@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface SmartwatchEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   badgeLabel?: string;
   specs?: Record<string, string>;
@@ -26,7 +26,6 @@ const smartwatches: SmartwatchEntry[] = [
     rank: 1,
     name: 'Apple Watch Series 10',
     href: '/articles/apple_watch_series_10',
-    image: '/images/placeholder-product.svg',
     summary: 'Apple\'s thinnest Watch ever with a wider always-on display, watchOS 11, sleep apnea detection, and the most comprehensive smartwatch app ecosystem on any platform.',
     score: 9.3,
     price: '$399',
@@ -37,7 +36,6 @@ const smartwatches: SmartwatchEntry[] = [
     rank: 2,
     name: 'Apple Watch Ultra 2',
     href: '/articles/apple_watch_ultra_2',
-    image: '/images/placeholder-product.svg',
     summary: 'Apple\'s most rugged and capable Watch with 36-hour battery, brightest 2000-nit display, titanium construction, and precision dual-frequency GPS for serious athletes.',
     score: 9.4,
     price: '$799',
@@ -49,7 +47,6 @@ const smartwatches: SmartwatchEntry[] = [
     rank: 3,
     name: 'Samsung Galaxy Watch 7',
     href: '/articles/samsung_galaxy_watch_7',
-    image: '/images/placeholder-product.svg',
     summary: 'Best Android smartwatch with 3nm chip for improved efficiency, Galaxy AI health coaching, BioActive sensor for body composition, and excellent Samsung ecosystem integration.',
     score: 9.0,
     price: '$299',
@@ -59,7 +56,6 @@ const smartwatches: SmartwatchEntry[] = [
     rank: 4,
     name: 'Google Pixel Watch 3',
     href: '/articles/google_pixel_watch_3',
-    image: '/images/placeholder-product.svg',
     summary: 'Best Wear OS experience with Fitbit health integration, FDA-cleared Loss of Pulse Detection, and deep Google Assistant support — ideal for Pixel phone users.',
     score: 8.8,
     price: '$349',
@@ -69,7 +65,6 @@ const smartwatches: SmartwatchEntry[] = [
     rank: 5,
     name: 'Samsung Galaxy Watch 6 Classic',
     href: '/articles/samsung_galaxy_watch_6_classic',
-    image: '/images/placeholder-product.svg',
     summary: 'Premium classic-look Android smartwatch with the iconic rotating physical bezel, stainless steel construction, 40-hour battery, and Galaxy AI health features.',
     score: 8.8,
     price: '$399',

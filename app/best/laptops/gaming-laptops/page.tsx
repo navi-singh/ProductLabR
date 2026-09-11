@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface LaptopEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const laptops: LaptopEntry[] = [
     rank: 1,
     name: 'ASUS ROG Strix G16 (2024)',
     href: '/articles/asus_rog_strix_g16',
-    image: '/images/placeholder-product.svg',
     summary: 'Best-in-class gaming performance with Intel Core i9-14900HX, RTX 4080, and a stunning 240Hz QHD display with excellent cooling.',
     score: 9.1,
     price: '$1,499',
@@ -36,7 +35,6 @@ const laptops: LaptopEntry[] = [
     rank: 2,
     name: 'Razer Blade 15',
     href: '/articles/razer_blade_15',
-    image: '/images/placeholder-product.svg',
     summary: 'Premium gaming laptop in an ultra-thin aluminum chassis with top-tier specs, excellent build quality, and a beautiful 240Hz OLED display.',
     score: 8.9,
     price: '$2,499',
@@ -47,7 +45,6 @@ const laptops: LaptopEntry[] = [
     rank: 3,
     name: 'Lenovo Legion 5 Pro',
     href: '/articles/lenovo_legion_5_pro',
-    image: '/images/placeholder-product.svg',
     summary: 'Exceptional value gaming laptop with AMD Ryzen processor, RTX 4070, and a brilliant 165Hz QHD display at under $1,100.',
     score: 8.7,
     price: '$1,099',
@@ -58,7 +55,6 @@ const laptops: LaptopEntry[] = [
     rank: 4,
     name: 'MSI Titan GT77 HX',
     href: '/articles/msi_titan_gt77_hx',
-    image: '/images/placeholder-product.svg',
     summary: 'Desktop-grade performance in a laptop with the flagship RTX 4090, top-end Intel CPU, and a massive 17.3-inch UHD display.',
     score: 8.5,
     price: '$2,299',

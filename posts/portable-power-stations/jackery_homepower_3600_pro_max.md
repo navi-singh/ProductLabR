@@ -61,6 +61,28 @@ ratingBreakdown:
       score: 7.6
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_main.webp"
+productImage: "/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_main.webp"
+imageCredit: "Jackery"
+imageSource: "Jackery"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle2.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle3.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle4.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle5.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -98,6 +120,10 @@ rating than the 4,000 cycles Jackery quotes on its consumer-tier units such as t
 3000, and it signals that this product is meant to be installed and left in place for the
 long term rather than cycled occasionally and replaced.
 
+![Jackery HomePower 3600 Pro Max](/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle2.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
+
 The safety story is the clearest differentiator. The unit carries UL 9540 certification —
 the standard for energy storage systems, as opposed to the UL 1973 battery-level listing that
 covers many portable units — and adds 5VA-grade fireproofing and a dedicated EPO (emergency
@@ -131,6 +157,10 @@ that Jackery's own numbers do not fully agree: the marketing headlines 4,000W wh
 catalogue badge lists the unit at 3,600W output, and there is no single clean continuous-output
 specification table to reconcile them. Buyers who need to size a specific circuit should
 confirm the exact continuous rating with Jackery before committing.
+
+![Jackery HomePower 3600 Pro Max](/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle3.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 Capacity scales aggressively. The 3,584Wh base can grow to 21.5kWh within a single unit
 through add-on batteries, and to 43kWh across units wired in parallel. That expansion path is

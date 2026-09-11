@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface SpeakerEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const speakers: SpeakerEntry[] = [
     rank: 1,
     name: 'Amazon Echo (4th Gen)',
     href: '/articles/amazon_echo_4th_gen',
-    image: '/images/placeholder-product.svg',
     summary: 'Best all-around smart speaker with improved audio quality, built-in Zigbee smart home hub, and Alexa with the widest smart home device compatibility.',
     score: 8.8,
     price: '$99',
@@ -36,7 +35,6 @@ const speakers: SpeakerEntry[] = [
     rank: 2,
     name: 'Apple HomePod mini',
     href: '/articles/apple_homepod_mini',
-    image: '/images/placeholder-product.svg',
     summary: 'Best smart speaker for Apple households with exceptional spatial audio for its size, seamless AirPlay 2, and HomePod intercom features.',
     score: 8.7,
     price: '$99',
@@ -47,7 +45,6 @@ const speakers: SpeakerEntry[] = [
     rank: 3,
     name: 'Amazon Echo Dot (5th Gen)',
     href: '/articles/amazon_echo_dot_5th_gen',
-    image: '/images/placeholder-product.svg',
     summary: 'The best budget smart speaker with improved bass response, built-in temperature sensor, and full Alexa functionality in a compact package.',
     score: 8.4,
     price: '$49',
@@ -58,7 +55,6 @@ const speakers: SpeakerEntry[] = [
     rank: 4,
     name: 'Google Nest Audio',
     href: '/articles/google_nest_audio',
-    image: '/images/placeholder-product.svg',
     summary: 'Google Assistant-powered smart speaker with surprisingly good audio quality, adaptive sound, and excellent integration with Google services.',
     score: 8.6,
     price: '$99',

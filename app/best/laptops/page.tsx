@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface LaptopEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const laptops: LaptopEntry[] = [
     rank: 1,
     name: 'MacBook Pro 14-inch M4 Pro',
     href: '/articles/macbook_pro_14_m4_pro',
-    image: '/images/placeholder-product.svg',
     summary: 'Apple silicon powerhouse with incredible performance, all-day battery life, and a stunning Liquid Retina XDR display.',
     score: 9.5,
     price: '$1,999',
@@ -36,7 +35,6 @@ const laptops: LaptopEntry[] = [
     rank: 2,
     name: 'ASUS ROG Strix G16 (2024)',
     href: '/articles/asus_rog_strix_g16',
-    image: '/images/placeholder-product.svg',
     summary: 'Top-tier gaming performance with the latest Intel CPU, RTX 4080, and a blazing-fast 240Hz QHD display.',
     score: 9.1,
     price: '$1,499',
@@ -47,7 +45,6 @@ const laptops: LaptopEntry[] = [
     rank: 3,
     name: 'Acer Aspire 5 (2024)',
     href: '/articles/acer_aspire_5',
-    image: '/images/placeholder-product.svg',
     summary: 'Outstanding value for everyday computing with solid performance, a sharp display, and long battery life under $700.',
     score: 8.8,
     price: '$649',

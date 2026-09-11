@@ -6,7 +6,6 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..', '..');
 const POSTS_DIR = path.join(ROOT, 'posts');
 const PUBLIC_DIR = path.join(ROOT, 'public');
-const PLACEHOLDER = '/images/placeholder-product.svg';
 
 function parseArgs(argv) {
   const args = { json: false, category: null };
@@ -69,7 +68,6 @@ function getPosts() {
             image,
             productImage,
             noImage: !image && !productImage,
-            usesPlaceholder: image === PLACEHOLDER || productImage === PLACEHOLDER,
             missingImage: Boolean(image) && !existsLocalImage(image),
             missingProductImage: Boolean(productImage) && !existsLocalImage(productImage),
           };
@@ -114,9 +112,9 @@ function main() {
 
   // An absent image field is the gap, not the absence of a gap. This reported
   // zero outstanding work while 133 of 149 reviews had no product photo,
-  // because it only looked for a placeholder value or a broken path.
+  // because it only looked for a broken path and never for an absent field.
   const rows = posts.filter(
-    (post) => post.noImage || post.usesPlaceholder || post.missingImage || post.missingProductImage
+    (post) => post.noImage || post.missingImage || post.missingProductImage
   );
   const unattributed = unattributedFiles();
 
@@ -128,7 +126,6 @@ function main() {
           needsImages: rows.length,
           noImageCount: rows.filter((post) => post.noImage).length,
           unattributedFiles: unattributed,
-          placeholderCount: rows.filter((post) => post.usesPlaceholder).length,
           missingLocalFileCount: rows.filter((post) => post.missingImage || post.missingProductImage).length,
           posts: rows,
         },
@@ -153,7 +150,6 @@ function main() {
   for (const post of rows) {
     const reasons = [
       post.noImage ? 'no image' : null,
-      post.usesPlaceholder ? 'placeholder' : null,
       post.missingImage ? 'missing image' : null,
       post.missingProductImage ? 'missing productImage' : null,
     ].filter(Boolean);

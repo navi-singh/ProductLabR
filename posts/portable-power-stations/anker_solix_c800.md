@@ -48,6 +48,28 @@ ratingBreakdown:
       score: 8.4
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle2.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle3.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle4.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle5.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -60,6 +82,10 @@ Set expectations correctly, though. The C800 is a weekend-camping and short-outa
 
 Anker built the C800 to be lifted and moved. At 19.8 pounds it is heavier than a small camping pack but light for its capacity, and the recessed side handles make it easy to reposition. The chassis feels dense and well-assembled, with a bright display up top that reports input and output wattage, remaining charge, and a live runtime estimate. It is the kind of build that survives being loaded into a truck bed and hauled to a campsite without complaint. Some versions include built-in lighting on the unit, a small touch that earns its keep in a dark campsite. The runtime estimate updates as loads change, so you can see the cost of plugging in a second device before you commit to it.
 
+![Anker SOLIX C800](/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle2.webp)
+
+*Anker / Anker (Manufacturer product image)*
+
 The port count is generous for the price: multiple AC outlets from the 1,200-watt inverter, several USB-A ports, high-wattage USB-C Power Delivery ports capable of fast-charging laptops directly, and a 12-volt car socket. That USB-C output matters — you can skip the AC inverter entirely for laptops and phones, which is more efficient and stretches the battery further. Having several output types at once means the C800 can charge a laptop, a phone, and a cooler simultaneously without an adapter shuffle.
 
 The standout is chemistry. The C800 uses lithium iron phosphate cells, which typically endure several thousand charge cycles before meaningful capacity loss — often 3,000 or more, against the few hundred to low thousands of the older NMC packs. In plain terms, a LiFePO4 station like this can be cycled almost daily for years and still hold most of its capacity. For a unit you might use every weekend, that longevity is a real, money-saving advantage. Spread the $399 price across a decade of weekend trips and the per-use cost is low, which is the quiet strength of LiFePO4 that spec sheets rarely spell out.
@@ -67,6 +93,10 @@ The standout is chemistry. The C800 uses lithium iron phosphate cells, which typ
 ## Performance and Real-World Runtime
 
 Do the math and the C800's honest capabilities come into focus. Start with 768Wh, run it through the inverter at roughly 88 percent efficiency, and about 675Wh is available at the AC outlets. Draw power over USB-C instead and you keep even more, because you skip the inverter's conversion loss entirely.
+
+![Anker SOLIX C800](/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle3.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 A 60-watt laptop runs for roughly 11 hours from a full charge. A typical phone, holding 12 to 19 watt-hours, can be recharged more than 30 times. A 50-watt 12-volt cooler runs comfortably overnight and well into the next day. A CPAP drawing 40 watts without heated humidification can run for around 15 hours — a night or two — though you should confirm your own machine's numbers before depending on it.
 

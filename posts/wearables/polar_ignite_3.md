@@ -55,6 +55,11 @@ ratingBreakdown:
       score: 9.2
     - name: "Value"
       score: 8.2
+image: "/images/posts/wearables/polar_ignite_3/polar_ignite_3_main.jpg"
+productImage: "/images/posts/wearables/polar_ignite_3/polar_ignite_3_main.jpg"
+imageCredit: "Polar Electro"
+imageSource: "Polar"
+imageLicense: "Manufacturer product image"
 ---
 
 ## Introduction

@@ -57,6 +57,28 @@ ratingBreakdown:
       score: 7.0
     - name: "Value"
       score: 9.0
+image: "/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -77,6 +99,10 @@ Bluetti engineered it natively here, at a price that undercuts the entire compet
 
 The Apex 300 arrives in substantial packaging — Bluetti clearly expects professional or semi-professional deployment rather than casual unboxing.
 
+![Bluetti Apex 300](/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_angle2.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
+
 At 85 lbs with no wheels or transport solution in the box, moving it requires two people or careful maneuvering.
 
 This is the first indication that the Apex 300 is designed for installation rather than frequent portability.
@@ -92,6 +118,10 @@ Build quality is capable and professional, but the out-of-box experience feels i
 ### 240V Split-Phase Output
 
 Most portable power stations at this price output 120V only, meaning they cannot run electric dryers, well pumps, central AC units, or Level 2 EV chargers.
+
+![Bluetti Apex 300](/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_angle3.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 The Apex 300 switches between 120V and 240V split-phase output from a single unit — no daisy-chaining required.
 
@@ -132,6 +162,10 @@ Left on 24/7, the Apex 300 consumes only 480Wh per day from idle — far lower t
 ### AC Charging Speed
 
 The 3,840W AC charging option (via 30A or 50A cable) fills 2,764Wh in approximately 45 minutes.
+
+![Bluetti Apex 300](/images/posts/portable-power-stations/bluetti_apex_300/bluetti_apex_300_angle4.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 At 120V/15A standard household charging, the rate drops to 1,800W and extends recharge to around 90 minutes.
 

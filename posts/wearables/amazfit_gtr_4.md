@@ -57,6 +57,20 @@ ratingBreakdown:
       score: 8.5
     - name: "Value"
       score: 8.9
+image: "/images/posts/wearables/amazfit_gtr_4/amazfit_gtr_4_main.webp"
+productImage: "/images/posts/wearables/amazfit_gtr_4/amazfit_gtr_4_main.webp"
+imageCredit: "Amazfit (Zepp Health)"
+imageSource: "Amazfit"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/wearables/amazfit_gtr_4/amazfit_gtr_4_angle2.webp"
+    credit: "Amazfit (Zepp Health)"
+    source: "Amazfit"
+    license: "Manufacturer product image"
+  - src: "/images/posts/wearables/amazfit_gtr_4/amazfit_gtr_4_angle3.webp"
+    credit: "Amazfit (Zepp Health)"
+    source: "Amazfit"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -71,6 +85,10 @@ The trade-offs are real — no NFC payments, limited third-party apps, and heart
 
 The GTR 4 makes an immediately strong first impression. The 1.43-inch AMOLED panel, protected by tempered glass and set within a 46mm aluminum alloy case, is one of the nicest-looking displays in any watch under $250. At 466x466 pixels, text is sharp, colors are saturated and vivid, and the watch face customization options through the Zepp app are extensive — hundreds of faces ranging from minimalist health dashboards to complex complications.
 
+![Amazfit GTR 4](/images/posts/wearables/amazfit_gtr_4/amazfit_gtr_4_angle2.webp)
+
+*Amazfit (Zepp Health) / Amazfit (Manufacturer product image)*
+
 The circular form factor gives the GTR 4 a traditional watch aesthetic that many buyers prefer over the square-faced Apple Watch or the sport-focused Garmin aesthetic. At 10.6mm thick and with an aluminum case, it feels substantial without being bulky. The default black rubber strap is comfortable for daily wear, and Amazfit offers leather and additional silicone options.
 
 One design note worth mentioning: the crown and physical button on the right side of the case are tactile and satisfying to use, which is not guaranteed at this price point. Build quality overall is impressive for $199 — there's no flex or rattle in the case, and the strap hardware feels durable.
@@ -78,6 +96,10 @@ One design note worth mentioning: the crown and physical button on the right sid
 ## Health & Fitness Tracking
 
 The GTR 4 ships with Amazfit's BioTracker 4.0 PPG sensor array, which handles continuous heart rate monitoring, SpO2 (blood oxygen saturation) measurement, stress tracking via heart rate variability analysis, and breathing quality assessment during sleep. A separate electrical sensor handles on-demand ECG readings, which produce a 30-second trace viewable in the Zepp app.
+
+![Amazfit GTR 4](/images/posts/wearables/amazfit_gtr_4/amazfit_gtr_4_angle3.webp)
+
+*Amazfit (Zepp Health) / Amazfit (Manufacturer product image)*
 
 Independent steady-state cardio comparisons — running at consistent paces, cycling, and walking — place heart rate accuracy in the same competitive range as the Samsung Galaxy Watch 7 and Apple Watch Series 10. The BioTracker 4.0 sensor locks onto heart rate quickly at the start of workouts and maintains reliable readings during moderate-intensity effort.
 

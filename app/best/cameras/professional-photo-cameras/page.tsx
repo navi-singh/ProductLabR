@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface CamEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const cameras: CamEntry[] = [
     rank: 1,
     name: 'Sony A1 II',
     href: '/articles/sony_a1_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'Ultimate stills quality with speed, advanced autofocus and video capabilities, and 50MP professional performance.',
     score: 9.6,
     price: '$6,499',
@@ -36,7 +35,6 @@ const cameras: CamEntry[] = [
     rank: 2,
     name: 'Fujifilm GFX100 II',
     href: '/articles/fujifilm_gfx100_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'Spectacular image quality and dynamic range in medium format with 102MP sensor and 8K video.',
     score: 9.5,
     price: '$7,499',
@@ -47,7 +45,6 @@ const cameras: CamEntry[] = [
     rank: 3,
     name: 'Hasselblad X2D 100C',
     href: '/articles/hasselblad_x2d_100c',
-    image: '/images/placeholder-product.svg',
     summary: '100MP medium format sensor with leaf shutter capability and exquisite color rendering.',
     score: 9.3,
     price: '$8,199',
@@ -58,7 +55,6 @@ const cameras: CamEntry[] = [
     rank: 4,
     name: 'Nikon Z9',
     href: '/articles/nikon_z9',
-    image: '/images/placeholder-product.svg',
     summary: 'High-speed stills performance in a professional camera with excellent 8K video.',
     score: 9.2,
     price: '$5,496',
@@ -68,7 +64,6 @@ const cameras: CamEntry[] = [
     rank: 5,
     name: 'Leica M11',
     href: '/articles/leica_m11',
-    image: '/images/placeholder-product.svg',
     summary: 'High-resolution rangefinder with classic craftsmanship and a unique shooting experience.',
     score: 8.8,
     price: '$8,995',

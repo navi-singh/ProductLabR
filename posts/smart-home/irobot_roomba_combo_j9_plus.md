@@ -48,6 +48,28 @@ ratingBreakdown:
       score: 7.3
     - name: "Auto-Empty & Maintenance"
       score: 8.7
+image: "/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_main.jpg"
+productImage: "/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_main.jpg"
+imageCredit: "iRobot"
+imageSource: "iRobot"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle2.jpg"
+    credit: "iRobot"
+    source: "iRobot"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle3.jpg"
+    credit: "iRobot"
+    source: "iRobot"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle4.jpg"
+    credit: "iRobot"
+    source: "iRobot"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle5.jpg"
+    credit: "iRobot"
+    source: "iRobot"
+    license: "Manufacturer product image"
 ---
 
 ## Overview: the combo Roomba with a useful bias
@@ -62,6 +84,10 @@ The appeal is iRobot's judgment. The 10× Power Boost claim is relative to a bas
 
 The Combo j9+ looks and behaves like a premium Roomba rather than a generic robot with iRobot branding. The robot's low, round body carries the dual rubber brush system underneath, a side brush for edges, the retractable mop hardware, and the front-facing vision system that feeds PrecisionVision Navigation. The important design choice is not cosmetic. By lifting the mop pad into the body when carpet is detected, the robot avoids the worst failure mode of many vacuum-mop hybrids: dragging a damp pad across soft flooring because a zone was misdrawn or forgotten.
 
+![iRobot Roomba Combo j9+](/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle2.jpg)
+
+*iRobot / iRobot (Manufacturer product image)*
+
 Setup is friendlier than the feature list suggests. Pairing starts through Bluetooth, then the robot joins Wi-Fi 2.4GHz for normal control through the iRobot app. The app's first job is not to bury you in modes; it gets the robot connected, names the home, and sends it out to build a Smart Map. A first exploratory map is roughly a 30 minutes to 45 minutes job for a typical 1,500 to 2,500 sq ft home, which is the right expectation to carry into ownership: not instant, but not a weekend project.
 
 Once the map exists, the iRobot OS experience is the main reason to choose this over cheaper hardware. Rooms can be named, no-go zones can be drawn, and cleaning preferences can be attached to specific areas. The map also improves as furniture moves. That matters if the living room changes, pet bowls migrate, or a chair that used to block a path is no longer there. A robot that treats the home as fixed becomes irritating quickly; the j9+ is better because it expects ordinary domestic disorder.
@@ -71,6 +97,10 @@ The Clean Base is the other major piece of the system. It automatically empties 
 ## Cleaning, mopping, and real-world performance
 
 The j9+ is strongest where many robot vacuums are most likely to disappoint: pet hair on carpet. iRobot's 10× Power Boost number is not directly comparable to the Pa ratings used by some competitors, so it should not be treated as a universal suction scoreboard. The practical story is the brush system. The dual rubber multi-surface rollers counter-rotate, flex against the floor, and resist the hair wrap that turns bristle brushes into maintenance projects. In a home with shedding pets, that design matters more than a single headline number.
+
+![iRobot Roomba Combo j9+](/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle3.jpg)
+
+*iRobot / iRobot (Manufacturer product image)*
 
 On hard floors, the Roomba is a confident daily cleaner. Fine dust, crumbs, pet hair, and grit are the kinds of messes it is built to collect before they accumulate into something that requires a manual vacuum. The side brush helps with baseboards and chair legs, while the mapped cleaning pattern prevents the robot from wandering aimlessly after it has learned the rooms. It is not a substitute for deep cleaning every corner, but it reduces how often those deep cleans are necessary.
 

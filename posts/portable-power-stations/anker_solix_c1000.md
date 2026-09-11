@@ -54,6 +54,28 @@ ratingBreakdown:
       score: 7.6
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle2.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle3.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle4.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle5.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -64,11 +86,19 @@ The Anker SOLIX C1000 is Anker's flagship entry into the premium portable power 
 
 At 28.6 lbs (13kg), the SOLIX C1000 is positioned as a premium unit with substantial construction. Anker's packaging reflects attention to detail with premium presentation, comprehensive documentation, and thoughtfully included accessories including AC charging cable and detailed user guide. The matte black finish with subtle blue accents epitomizes modern industrial design while resisting fingerprints and wear.
 
+![Anker SOLIX C1000](/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle2.webp)
+
+*Anker / Anker (Manufacturer product image)*
+
 The build quality exemplifies Anker's commitment to premium construction. Every surface, button, and port demonstrates meticulous attention to detail, while the integrated handles provide comfortable, secure carrying despite the substantial weight. The LCD display is designed to offer clear visibility and comprehensive information for demanding applications.
 
 ## Key Features & Premium Engineering
 
 The SOLIX C1000 combines advanced technology with premium construction:
+
+![Anker SOLIX C1000](/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle3.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 - **1,056Wh LiFePO4 Battery** – Premium chemistry with 3,000+ cycle lifespan for long-term reliability
 - **1,800W Output (2,400W Surge)** – High power capability for demanding appliances and professional equipment
@@ -83,6 +113,10 @@ The design philosophy emphasizes premium quality and user-focused innovation. Al
 
 ### Revolutionary Charging Speed
 The SOLIX C1000's defining feature is its exceptional HyperFlash charging technology. Real-world testing confirmed 0-80% charging in approximately 43 minutes using 1,000W AC input—among the fastest charging speeds available in portable power stations. Complete charging to 100% takes approximately 58 minutes, enabling rapid turnaround between applications.
+
+![Anker SOLIX C1000](/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle4.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 The charging system intelligently manages heat and current flow to protect battery longevity while achieving maximum speed. Multiple protection systems ensure safe operation during rapid charging, while the advanced BMS maintains optimal performance across thousands of charging cycles.
 
@@ -100,6 +134,10 @@ The advanced battery management system maintains optimal performance across dive
 
 ### Anker App Excellence
 The Anker smartphone app provides comprehensive control and monitoring capabilities rivaling premium competitors. Real-time data includes precise battery percentage, input/output wattage, remaining runtime estimates, and detailed charging status. Remote power management enables independent control of AC and DC outputs for optimal energy conservation.
+
+![Anker SOLIX C1000](/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle5.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 Advanced features include customizable charging profiles to optimize for speed or longevity, intelligent load balancing across multiple outputs, and historical usage tracking for power consumption analysis. Firmware updates ensure ongoing feature improvements and optimization.
 

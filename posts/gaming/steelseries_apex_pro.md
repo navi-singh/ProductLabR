@@ -56,6 +56,28 @@ ratingBreakdown:
       score: 9.5
     - name: "RGB & Software"
       score: 9.0
+image: "/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_main.jpg"
+productImage: "/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_main.jpg"
+imageCredit: "SteelSeries"
+imageSource: "SteelSeries"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle2.jpg"
+    credit: "SteelSeries"
+    source: "SteelSeries"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle3.jpg"
+    credit: "SteelSeries"
+    source: "SteelSeries"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle4.jpg"
+    credit: "SteelSeries"
+    source: "SteelSeries"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle5.png"
+    credit: "SteelSeries"
+    source: "SteelSeries"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -80,6 +102,10 @@ The switch feel itself is linear: no tactile bump, no audible click. For pure ga
 
 The 8000Hz polling rate is the Apex Pro's headline gaming specification. Standard gaming keyboards poll at 1000Hz, reporting position to the operating system 1000 times per second for a theoretical maximum input latency of 1ms. At 8000Hz, the keyboard reports 8000 times per second, reducing that ceiling to 0.125ms. In the context of modern competitive gaming where milliseconds of input latency are analyzed by professional players and coaches, this is a meaningful technical advantage.
 
+![SteelSeries Apex Pro](/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle2.jpg)
+
+*SteelSeries / SteelSeries (Manufacturer product image)*
+
 Combined with Rapid Trigger and per-key sub-millimeter actuation, the Apex Pro delivers input-to-registration latency that is measurably lower than any traditional mechanical switch keyboard in controlled testing. For competitive FPS titles, the combination of 0.4mm actuation on movement keys and 0.1mm reset on Rapid Trigger creates a strafe-switching speed that cannot be replicated on conventional hardware.
 
 The full N-Key Rollover ensures all simultaneous keypresses are registered without ghosting — a baseline requirement for competitive gaming that the Apex Pro exceeds with its 8000Hz report frequency. SteelSeries Engine allows game-specific profiles that automatically load when a game is detected, preserving the optimized actuation settings without manual switching.
@@ -88,6 +114,10 @@ The full N-Key Rollover ensures all simultaneous keypresses are registered witho
 
 The aluminum alloy top plate is immediately perceptible — there is no flex, no give, and no acoustic hollow anywhere on the keyboard surface. Pressing with both palms produces the same rigid response as pushing against a desk. For a keyboard used in competitive gaming where sudden physical movements and bracing against the board are common, this structural integrity is functional, not merely cosmetic.
 
+![SteelSeries Apex Pro](/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle3.jpg)
+
+*SteelSeries / SteelSeries (Manufacturer product image)*
+
 The keycap set uses double-shot PBT construction with legends that are crisp, well-centered, and resistant to the shine and legend fade that affects ABS keycaps after extended use. The included USB-C cable is braided and detachable, which simplifies cable management and means the entire cable can be swapped without keyboard replacement if it sustains damage.
 
 At 1350 grams, the Apex Pro TKL is heavy for a tenkeyless keyboard — the aluminum construction contributes meaningful mass. This weight keeps the board planted on a desk surface without additional padding, but it does make the keyboard less suited for frequent transport than lighter competitors.
@@ -95,6 +125,10 @@ At 1350 grams, the Apex Pro TKL is heavy for a tenkeyless keyboard — the alumi
 ## RGB & Software
 
 The per-key PRISM RGB system delivers accurate, even illumination across all 87 keys. Shine-through PBT keycaps allow the LEDs to project cleanly, and the range of available effects — reactive typing, wave animations, game-state integration, and static per-key color mapping — is competitive with the best RGB implementations in the industry.
+
+![SteelSeries Apex Pro](/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle4.jpg)
+
+*SteelSeries / SteelSeries (Manufacturer product image)*
 
 The OLED Smart Display is a 128x40 pixel screen positioned in the upper right of the keyboard. Out of the box it shows volume level and selected profile. With SteelSeries Engine configuration it can display Discord notifications, game-specific stats (kill count, health, ammo in integrated titles), currently playing track information, and custom GIF displays. It is genuinely useful rather than gimmicky, though configuration requires time investment to set up the integrations properly.
 

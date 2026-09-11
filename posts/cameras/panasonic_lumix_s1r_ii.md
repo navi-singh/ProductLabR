@@ -42,6 +42,24 @@ ratingBreakdown:
       score: 8.0
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii_main.jpg"
+productImage: "/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii_main.jpg"
+imageCredit: "Mateusz Stopczynski"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+gallery:
+  - src: "/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii_angle2.jpg"
+    credit: "Mateusz Stopczynski"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii_angle3.jpg"
+    credit: "Mateusz Stopczynski"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii_angle4.jpg"
+    credit: "Mateusz Stopczynski"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: the short version
@@ -55,6 +73,10 @@ Think landscape shooters chasing print detail, studio and product photographers 
 ## Handling and build
 
 The S1R II is a serious piece of hardware: a weather-sealed magnesium-alloy body around 795g with a deep grip, a top status display, and the dense but logical control cluster Panasonic has refined over several generations. Photographers migrating from the original S1R will feel at home immediately. The rear screen both articulates and tilts, which is more useful than it sounds — you can shoot a low, level horizon for a landscape and still flip the panel around for a talking-head video setup. The electronic viewfinder is large and high-resolution, a real asset when you're manually checking critical focus on a tripod.
+
+![Panasonic Lumix S1R II](/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii_angle2.jpg)
+
+*Mateusz Stopczynski / Wikimedia Commons (CC BY-SA 4.0)*
 
 Two honest gripes. The menu architecture is deep to the point of intimidation, especially the video pages, and Panasonic's habit of surfacing every possible parameter means a new owner should invest time building custom menu banks. And while the body is superbly made, it's not small — this is a camera you commit to carrying, not one you slip into a jacket pocket.
 

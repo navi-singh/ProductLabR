@@ -57,6 +57,28 @@ ratingBreakdown:
       score: 9.6
     - name: "Clicks & Buttons"
       score: 9.3
+image: "/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_main.webp"
+productImage: "/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_main.webp"
+imageCredit: "Razer"
+imageSource: "Razer"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle2.webp"
+    credit: "Razer"
+    source: "Razer"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle3.webp"
+    credit: "Razer"
+    source: "Razer"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle4.webp"
+    credit: "Razer"
+    source: "Razer"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle5.webp"
+    credit: "Razer"
+    source: "Razer"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -87,6 +109,10 @@ The two side buttons (forward/back) are well-positioned for thumb access without
 
 The DeathAdder V3's ergonomic profile is its defining strength. The right-handed shape creates a natural rest position for the full palm and curled fingers with a thumb shelf on the left side and a flared right edge that supports the ring and pinky fingers. For medium-to-large right hands (17–21cm measured from heel of palm to tip of middle finger), the fit is immediate and intuitive across all three grip styles.
 
+![Razer DeathAdder V3](/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle2.webp)
+
+*Razer / Razer (Manufacturer product image)*
+
 **Palm grip** users will find the V3 accommodating — the arched center section elevates the palm naturally and the length (128mm) covers most hand sizes without requiring a reach for the primary buttons. **Claw grip** users benefit from the elevated primary button section that provides good feedback at the fingertip position. **Fingertip grip** is functional but less optimal given the mouse's larger footprint — smaller, lighter mice like the G Pro X Superlight 2 serve fingertip grip better.
 
 The 64g weight is the headline ergonomic specification. At this weight, the mouse can be held at full extension, swiped rapidly across the pad, and lifted for repositioning without fatigue during extended sessions. Users accustomed to heavier mice (90–130g) will notice the reduced inertia immediately, and most players who make the transition report improved low-sensitivity precision within a few sessions.
@@ -94,6 +120,10 @@ The 64g weight is the headline ergonomic specification. At this weight, the mous
 ## Build Quality
 
 The V3's construction uses a matte plastic shell with textured rubber side grips. The shell feels smooth and professional without the premium density of metal-bodied mice, which is appropriate given the weight priority — heavier materials would compromise the 64g target. Tolerances between shell sections are tight, with no flex or creak detectable in normal use.
+
+![Razer DeathAdder V3](/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle3.webp)
+
+*Razer / Razer (Manufacturer product image)*
 
 The paracord USB-C cable is the most drag-resistant stock cable on any wired gaming mouse. Its ultra-lightweight braiding has virtually no memory of being coiled, meaning it hangs freely from the mouse without stiffening or bunching against the mouse pad. The drag difference compared to standard rubber or standard braided cables is perceptible — the V3 wired experience approaches wireless in terms of cable interference during play.
 

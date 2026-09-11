@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface MonitorEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const monitors: MonitorEntry[] = [
     rank: 1,
     name: 'LG 27UK850-W',
     href: '/articles/lg_27uk850w',
-    image: '/images/placeholder-product.svg',
     summary: 'Excellent all-around 4K monitor with wide color gamut, USB-C connectivity, and accurate factory calibration for creative professionals.',
     score: 9.1,
     price: '$699',
@@ -36,7 +35,6 @@ const monitors: MonitorEntry[] = [
     rank: 2,
     name: 'Dell U2723D UltraSharp',
     href: '/articles/dell_u2723d',
-    image: '/images/placeholder-product.svg',
     summary: 'Professional-grade IPS Black panel with stunning deep blacks, factory calibration, Thunderbolt 4 hub, and wide color gamut coverage.',
     score: 9.2,
     price: '$599',
@@ -47,7 +45,6 @@ const monitors: MonitorEntry[] = [
     rank: 3,
     name: 'ViewSonic VP2768a-4K',
     href: '/articles/viewsonic_vp2768a_4k',
-    image: '/images/placeholder-product.svg',
     summary: 'Factory-calibrated 4K professional monitor with hardware color calibration support, wide gamut, and excellent ergonomics at a fair price.',
     score: 8.8,
     price: '$449',
@@ -58,7 +55,6 @@ const monitors: MonitorEntry[] = [
     rank: 4,
     name: 'BenQ PD2725U',
     href: '/articles/benq_pd2725u',
-    image: '/images/placeholder-product.svg',
     summary: 'Designer-focused 4K monitor with hot key controller, thunderbolt 3, and excellent color science targeting graphic design and photography workflows.',
     score: 9.0,
     price: '$699',

@@ -55,6 +55,28 @@ ratingBreakdown:
       score: 7.9
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -65,11 +87,19 @@ The EcoFlow River 2 Pro occupies a unique position in portable power stations, d
 
 At 17.8 lbs (8.1kg), the River 2 Pro pairs a compact footprint with premium build-quality cues. EcoFlow packages the unit securely with AC charging cable, car charging cable, comprehensive user manual, and quick start guide. The matte black finish with blue accents gives it a premium look and resists fingerprints effectively. The integrated carrying handle provides comfortable transport, while the compact dimensions (10.4 x 7.3 x 8.7 inches) enable easy storage in vehicles or closets.
 
+![EcoFlow River 2 Pro](/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle2.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
+
 The LCD display is bright and informative, providing real-time power data at a glance. Port layout is logical with clear labeling, while the wireless charging pad on top adds modern convenience. The overall impression conveys this is serious equipment designed for reliable performance in a remarkably portable package.
 
 ## Key Features & Design Innovation
 
 The River 2 Pro combines practical capacity with cutting-edge technology:
+
+![EcoFlow River 2 Pro](/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle3.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 - **768Wh LiFePO4 Battery** – Safe chemistry with 3,000+ cycle lifespan for long-term reliability
 - **800W Output (1,600W Surge)** – Powers most household appliances and tools effectively
@@ -84,6 +114,10 @@ The design emphasizes user-focused engineering with excellent ergonomics and the
 
 ### Charging Speed Excellence
 The River 2 Pro's standout feature is its exceptional charging speed. Real-world testing confirmed 0-100% charging in approximately 70 minutes using AC input—remarkable performance for any portable power station. The 940W charging input enables quick turnaround between uses, making it practical for daily applications requiring rapid recharging.
+
+![EcoFlow River 2 Pro](/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle4.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 Solar charging at 220W maximum provides full recharge in 4-6 hours under optimal conditions using appropriate panels. The MPPT charge controller efficiently manages various solar panel configurations, while pass-through charging enables simultaneous charging and discharging for extended applications.
 
@@ -101,6 +135,10 @@ Emergency backup testing successfully powered essential home devices including W
 
 ### EcoFlow App Excellence
 The EcoFlow smartphone app sets the standard for power station control and monitoring. Real-time data includes precise battery percentage, input/output wattage, remaining runtime estimates, and charging status. Remote power management enables turning AC/DC outputs on/off independently, optimizing battery life when certain ports aren't needed.
+
+![EcoFlow River 2 Pro](/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle5.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 Historical usage tracking provides insights into power consumption patterns, while firmware updates ensure ongoing feature improvements and optimization. The app's reliability and functionality significantly enhance the user experience compared to basic LCD-only competitors.
 

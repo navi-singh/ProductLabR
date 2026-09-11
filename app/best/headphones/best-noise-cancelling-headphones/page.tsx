@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface HeadphoneEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const headphones: HeadphoneEntry[] = [
     rank: 1,
     name: 'Sony WH-1000XM5',
     href: '/articles/sony_wh1000xm5',
-    image: '/images/placeholder-product.svg',
     summary: 'The benchmark for noise-cancelling headphones with best-in-class ANC, premium sound quality, 30-hour battery, and a sleek redesigned chassis.',
     score: 9.3,
     price: '$349',
@@ -36,7 +35,6 @@ const headphones: HeadphoneEntry[] = [
     rank: 2,
     name: 'Bose QuietComfort 45',
     href: '/articles/bose_quietcomfort_45',
-    image: '/images/placeholder-product.svg',
     summary: 'Legendary Bose comfort with outstanding noise cancellation, balanced sound signature, and best-in-class plush earcup padding for long travel.',
     score: 9.0,
     price: '$329',
@@ -47,7 +45,6 @@ const headphones: HeadphoneEntry[] = [
     rank: 3,
     name: 'Anker Soundcore Q45',
     href: '/articles/anker_soundcore_q45',
-    image: '/images/placeholder-product.svg',
     summary: 'Exceptional budget ANC headphones with LDAC support, adaptive noise cancellation, and 50-hour battery at an almost unbelievable $79 price.',
     score: 8.4,
     price: '$79',
@@ -58,7 +55,6 @@ const headphones: HeadphoneEntry[] = [
     rank: 4,
     name: 'Apple AirPods Max',
     href: '/articles/apple_airpods_max',
-    image: '/images/placeholder-product.svg',
     summary: 'Apple\'s premium over-ear headphones with stunning build quality, exceptional transparency mode, and seamless Apple device integration.',
     score: 8.9,
     price: '$549',

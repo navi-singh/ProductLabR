@@ -57,6 +57,28 @@ ratingBreakdown:
       score: 7.6
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/anker_solix_f2600/anker_solix_f2600_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_f2600/anker_solix_f2600_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_f2600/anker_solix_f2600_angle2.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f2600/anker_solix_f2600_angle3.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f2600/anker_solix_f2600_angle4.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f2600/anker_solix_f2600_angle5.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -89,6 +111,10 @@ it a small floor footprint but a top-heavy stance. That is a deliberate choice f
 product meant to stand in a utility closet or beside a fridge rather than travel, and it
 reads more like an appliance than expedition gear.
 
+![Anker SOLIX F2600](/images/posts/portable-power-stations/anker_solix_f2600/anker_solix_f2600_angle2.webp)
+
+*Anker / Anker (Manufacturer product image)*
+
 Weight is where the tower ambition meets physics. At 69.7 pounds, the F2600 is not a unit
 one person repositions casually. It is heavier than the Jackery Explorer 2000 v2 by
 roughly 30 pounds and heavier than Anker's own C2000 Gen 2 by about 28 pounds, despite
@@ -119,6 +145,10 @@ converting DC cell voltage to 120V AC — typically 10 to 15 percent — so plan
 Jackery Explorer 2000 v2, which independent lab OutdoorGearLab measured at about 1,740Wh
 usable, and it is the reason to consider the F2600 over the cheaper 2kWh field: you are
 buying a real capacity margin, not a rounding difference.
+
+![Anker SOLIX F2600](/images/posts/portable-power-stations/anker_solix_f2600/anker_solix_f2600_angle3.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 The 2,400W continuous inverter clears the common household load list — a 1,500W space
 heater, a 1,000W microwave, a coffee maker, a full-size refrigerator — one appliance at a

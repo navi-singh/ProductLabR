@@ -61,6 +61,28 @@ ratingBreakdown:
       score: 7.9
     - name: "Call Quality"
       score: 8.4
+image: "/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_main.webp"
+productImage: "/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_main.webp"
+imageCredit: "Sennheiser"
+imageSource: "Sennheiser"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle2.webp"
+    credit: "Sennheiser"
+    source: "Sennheiser"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle3.webp"
+    credit: "Sennheiser"
+    source: "Sennheiser"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle4.webp"
+    credit: "Sennheiser"
+    source: "Sennheiser"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle5.webp"
+    credit: "Sennheiser"
+    source: "Sennheiser"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -79,6 +101,10 @@ The Sennheiser Momentum 4 Wireless is the headphone for buyers who prioritize ac
 
 The Momentum 4 Wireless is built to a premium specification. The headband combines a stainless steel slider mechanism with a cushioned synthetic leather band — the adjustment clicks into defined positions with a precision that feels mechanical rather than merely adequate. Ear cup rotation is smooth, allowing the cups to conform to the angle of your head.
 
+![Sennheiser Momentum 4 Wireless](/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle2.webp)
+
+*Sennheiser / Sennheiser (Manufacturer product image)*
+
 The ear cushions are large, deep, and plush. Sennheiser uses a memory foam pad wrapped in a soft leatherette material that distributes pressure evenly across the pinna. Extended listening sessions of two or three hours produce minimal fatigue. The cushions also create a generous passive seal around the ear — useful both for bass response and as a foundation for the ANC system.
 
 At 293 grams, the Momentum 4 Wireless is heavier than the Sony XM5 (250g) and Bose QC Ultra (254g). The weight is noticeable but not disqualifying — the balanced distribution prevents it from feeling top-heavy. Listeners sensitive to clamping pressure may want to try the headphones before purchasing; the steel slider mechanism produces slightly higher clamping force than competing soft-construction headbands.
@@ -90,6 +116,10 @@ The folding mechanism is genuinely compact — the Momentum 4 Wireless folds dow
 ## Sound Quality
 
 This is where the Sennheiser Momentum 4 Wireless distinguishes itself most clearly. The 42mm neodymium drivers produce a sound that is wide, detailed, and balanced in a way that reveals the acoustic engineering heritage of the brand. The frequency response is measured and neutral with a slight warmth in the low-mid range — not bass-heavy or V-shaped, but full and present in a way that serves orchestral music, jazz, and acoustic genres particularly well.
+
+![Sennheiser Momentum 4 Wireless](/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle3.webp)
+
+*Sennheiser / Sennheiser (Manufacturer product image)*
 
 With aptX Adaptive enabled on a compatible Android device, the Momentum 4 streams at up to 24-bit/96kHz, delivering a high-resolution audio experience that places individual instruments in the stereo field with impressive precision. String quartets occupy distinct space in the soundstage; drum kit elements have genuine weight and impact; vocals sit slightly forward with a lifelike presence. This is the kind of listening experience typically associated with premium wired headphones; achieving it wirelessly at $279 is a meaningful accomplishment.
 
@@ -112,6 +142,10 @@ Transparent Hearing mode is among the best implementations available. Sennheiser
 ## Battery & Connectivity
 
 The 60-hour battery is not a specification lie. Independent battery testing — continuous audio at 70 dB SPL with ANC active via Bluetooth — has measured 61.5 hours before shutdown. That is genuinely extraordinary. For context, reviewers have measured the Sony XM5 at 30.8 hours and the Bose QC Ultra at 24.1 hours under similar conditions.
+
+![Sennheiser Momentum 4 Wireless](/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle4.webp)
+
+*Sennheiser / Sennheiser (Manufacturer product image)*
 
 Practical implications: most users will charge the Momentum 4 once or twice per week rather than daily. Travelers can take them on a week-long trip without bringing a charging cable. The 10-minute quick charge providing 5 hours of playback is a secondary safety net that, given the base battery life, most users will rarely need.
 

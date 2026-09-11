@@ -53,6 +53,28 @@ ratingBreakdown:
       score: 8.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -84,6 +106,10 @@ does not publish a weight figure that I can confirm against an independent sourc
 whole RIVER line has always been built to be carried casually rather than hauled with
 intent. This is a unit designed to live on a desk, ride in a footwell, or sit in a
 tent vestibule, and the physical footprint reflects that.
+
+![EcoFlow RIVER 3 Plus](/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle2.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 That small size cuts both ways, and the port layout is where the compromise shows. The
 station carries AC, USB-A, USB-C and DC outputs, but EcoFlow's own listing does not
@@ -118,6 +144,10 @@ tripping the inverter, but it runs that appliance at reduced power. A 1,200W ket
 X-Boost boils slower than it would from the wall. It is a genuinely useful feature for
 squeezing more device compatibility out of a small inverter, but treat the 600W rating,
 not the 1,200W figure, as the real budget for anything sensitive to voltage.
+
+![EcoFlow RIVER 3 Plus](/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle3.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 Within that 600W envelope the RIVER 3 Plus covers the load it is designed for: laptops,
 phones, a monitor, a router, camp lighting, a fan, a CPAP machine overnight. EcoFlow

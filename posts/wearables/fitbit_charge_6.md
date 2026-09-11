@@ -53,6 +53,11 @@ ratingBreakdown:
       score: 8.8
     - name: "Value"
       score: 9.2
+image: "/images/posts/wearables/fitbit_charge_6/fitbit_charge_6_main.jpg"
+productImage: "/images/posts/wearables/fitbit_charge_6/fitbit_charge_6_main.jpg"
+imageCredit: "Google / Fitbit"
+imageSource: "Google Store (Fitbit)"
+imageLicense: "Manufacturer product image"
 ---
 
 ## Introduction

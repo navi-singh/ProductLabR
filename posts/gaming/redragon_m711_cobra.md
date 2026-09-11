@@ -55,6 +55,28 @@ ratingBreakdown:
       score: 8.0
     - name: "Clicks & Buttons"
       score: 7.8
+image: "/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_main.webp"
+productImage: "/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_main.webp"
+imageCredit: "Redragon"
+imageSource: "Redragon"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle2.webp"
+    credit: "Redragon"
+    source: "Redragon"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle3.webp"
+    credit: "Redragon"
+    source: "Redragon"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle4.jpg"
+    credit: "Redragon"
+    source: "Redragon"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle5.webp"
+    credit: "Redragon"
+    source: "Redragon"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -83,6 +105,10 @@ Seven total programmable buttons include the standard primary clicks, scroll whe
 
 The M711's right-handed ergonomic shape provides thumb shelf support and a raised center arch that accommodates palm and claw grip styles for medium-sized right hands (16–19cm). The shape is conservative — not dramatically sculpted like the DeathAdder — but provides enough palm support for extended gaming sessions without wrist strain.
 
+![Redragon M711 Cobra](/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle2.webp)
+
+*Redragon / Redragon (Manufacturer product image)*
+
 At 130g, the Cobra is heavy by 2024 standards where competitive mice target 60–80g. For players who use high sensitivity settings (requiring only small wrist movements), the weight is largely irrelevant — the mouse is moved less per in-game action and the mass matters little. For low-sensitivity players who make broad arm sweeps across large pads, 130g becomes perceptible over extended sessions and creates more fatigue than lighter alternatives.
 
 The textured side surfaces provide grip friction during normal hold positions. The left side texture is particularly important during rapid directional changes — it prevents the thumb from slipping forward off the mouse body during sudden movements. The right side is smooth, which is appropriate for the ring and pinky finger rest position.
@@ -90,6 +116,10 @@ The textured side surfaces provide grip friction during normal hold positions. T
 ## Build Quality
 
 The M711's plastic shell has adequate rigidity for a gaming mouse at this price. Light pressure from the sides produces minimal flex, and the shell tolerances are tight enough that there are no creaking sounds during normal use. The scroll wheel encoder has good resistance for precise scrolling with audible notch feedback.
+
+![Redragon M711 Cobra](/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle3.webp)
+
+*Redragon / Redragon (Manufacturer product image)*
 
 The braided USB-A cable is 1.8m long and provides noticeably better durability and flexibility than the unbraided rubber cables on competing budget mice. It is not as flexible as a paracord cable, but it avoids the stiffness and coiling tendency that makes rubber cables add noticeable drag during play.
 

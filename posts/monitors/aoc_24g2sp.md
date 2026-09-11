@@ -54,6 +54,28 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 9.2
+gallery:
+  - src: "/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_angle2.png"
+    credit: "AOC"
+    source: "AOC"
+    license: "Manufacturer product image"
+  - src: "/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_angle3.jpg"
+    credit: "AOC"
+    source: "AOC"
+    license: "Manufacturer product image"
+  - src: "/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_angle4.png"
+    credit: "AOC"
+    source: "AOC"
+    license: "Manufacturer product image"
+  - src: "/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_angle5.png"
+    credit: "AOC"
+    source: "AOC"
+    license: "Manufacturer product image"
+image: "/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_main.png"
+productImage: "/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_main.png"
+imageCredit: "AOC"
+imageSource: "AOC"
+imageLicense: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -66,6 +88,10 @@ It is not a monitor without compromises. The 1080p resolution feels constrained 
 
 The 24G2SP uses a 24-inch IPS panel running at 1920x1080, yielding a pixel density of approximately 92 PPI. That is on the lower end for a 24-inch panel, and text rendering at normal desktop viewing distances lacks the crispness of a 1440p or 4K display. For gaming, though, the resolution is largely adequate — especially at 165Hz, where the visual gain from smooth motion more than compensates for lower pixel density in fast-paced titles.
 
+![AOC 24G2SP](/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_angle2.png)
+
+*AOC / AOC (Manufacturer product image)*
+
 Color performance is the headline story. AOC rates this panel at 99% sRGB coverage, and measurement confirms it: out of the box, the sRGB gamut is nearly fully covered with a Delta E average hovering around 2.5 — excellent for a budget monitor. Whites are neutral rather than blue-shifted, skin tones read accurately, and gradients render without obvious banding. The 1000:1 contrast ratio is standard for IPS and means deep blacks are not the panel's forte — dark scenes in games look flat rather than cinematic — but shadow detail visibility is good, which matters more for competitive play.
 
 Brightness caps out at 250 cd/m², which is sufficient for moderately lit rooms but can wash out in sunlight or bright office environments. There is no HDR support, so HDR10-tagged game content is tone-mapped to SDR — functional but not the intended experience.
@@ -73,6 +99,10 @@ Brightness caps out at 250 cd/m², which is sufficient for moderately lit rooms 
 ## Gaming Performance
 
 At 165Hz with AMD FreeSync Premium, the gaming experience punches far above the price point. The FreeSync range covers 48–165Hz, meaning VRR stays active across the full operating range with no low framerate compensation artifacts for most users. For an AMD GPU owner playing at 100–165 FPS, tear-free gameplay is essentially guaranteed without the cost premium of G-Sync hardware modules.
+
+![AOC 24G2SP](/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_angle3.jpg)
+
+*AOC / AOC (Manufacturer product image)*
 
 The response time marketing requires some translation. AOC's "1ms MPRT" is a backlight strobing measurement — a well-understood but heavily massaged figure. Actual gray-to-gray response under normal (non-strobing) operation sits closer to 4ms, which is still perfectly competitive for 165Hz gaming. Ghosting behind fast-moving objects is minimal in practice, and the overdrive implementation is well-tuned with no significant inverse ghosting at the default setting. For competitive shooters like CS2, Valorant, or Apex Legends at 165Hz, the 24G2SP feels genuinely snappy.
 
@@ -87,6 +117,10 @@ The monitor ships without an sRGB emulation mode, which means wide-gamut content
 ## Connectivity & Ergonomics
 
 The port selection covers the essentials: two HDMI 1.4 ports and one DisplayPort 1.2 input. DisplayPort is the recommended connection for 165Hz gaming, as HDMI 1.4 bandwidth caps the refresh rate at 144Hz at 1080p. For a two-source setup — say, a PC and a console — the dual HDMI inputs are genuinely useful. The VGA port is a legacy inclusion that takes up space better used for a USB hub.
+
+![AOC 24G2SP](/images/posts/monitors/aoc_24g2sp/aoc_24g2sp_angle4.png)
+
+*AOC / AOC (Manufacturer product image)*
 
 Stand adjustment is the 24G2SP's most significant limitation. Tilt is the only movement on offer: no height adjustment, no swivel, no portrait pivot. Users with non-standard monitor heights relative to their seating position will need a separate monitor arm to hit a comfortable ergonomic setup. The stand itself is stable enough for typical use, but the lack of adjustability feels like an obvious cost-cutting measure at a monitor that otherwise punches above its weight.
 

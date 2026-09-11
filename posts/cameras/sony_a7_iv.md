@@ -42,6 +42,20 @@ ratingBreakdown:
       score: 8.4
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/sony_a7_iv/sony_a7_iv_main.jpg"
+productImage: "/images/posts/cameras/sony_a7_iv/sony_a7_iv_main.jpg"
+imageCredit: "Henry Söderlund"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+gallery:
+  - src: "/images/posts/cameras/sony_a7_iv/sony_a7_iv_angle2.jpg"
+    credit: "ROCKY"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/sony_a7_iv/sony_a7_iv_angle3.jpg"
+    credit: "Macflies"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: the sensible hybrid with a few honest compromises
@@ -60,6 +74,10 @@ Buy it if you want full-frame stills with 33MP room to crop, reliable Eye AF for
 
 The A7 IV is not a camera that wins people over by feeling exotic. Its design is practical in the Sony way: compact enough for travel and event work, customizable enough for professionals, and dense enough to frustrate people who want everything on the first screen. The build-quality score makes sense for a camera that is meant to work regularly, but its handling character is more utilitarian than luxurious.
 
+![Sony A7 IV](/images/posts/cameras/sony_a7_iv/sony_a7_iv_angle2.jpg)
+
+*ROCKY / Wikimedia Commons (CC BY-SA 4.0)*
+
 That practicality matters. A 33MP full-frame body at 2,498 USD can be the center of a serious kit without consuming the whole budget. Many buyers are better served by an A7 IV plus the right lens than by stretching to a more glamorous body and compromising the glass. The body is the least emotional part of the decision; Sony's lens ecosystem is the emotional hook. If you want native options, third-party options, compact primes, zooms, and upgrade paths, Sony makes a strong argument.
 
 The menu system is the most obvious handling complaint. Sony has improved over older bodies, but the A7 IV still expects you to understand pages of video settings, autofocus behavior, custom buttons, file formats, and connection options. That complexity is manageable for a professional who builds presets. It is irritating for someone moving from a phone, a simple DSLR, or a camera with a more guided interface.
@@ -71,6 +89,10 @@ Battery life is one of the reasons the A7 IV remains easy to recommend as an eve
 ## Performance and everyday testing: the strength is balance
 
 The 33MP full-frame CMOS sensor is the A7 IV's best compromise. It gives more cropping room than lower-resolution hybrid bodies while avoiding the storage and technique demands of ultra-high-resolution cameras. For portraits, weddings, travel, products, and small commercial jobs, 33MP is enough to crop a loose frame, print confidently, and deliver detailed files without turning every shoot into a data-management project.
+
+![Sony A7 IV](/images/posts/cameras/sony_a7_iv/sony_a7_iv_angle3.jpg)
+
+*Macflies / Wikimedia Commons (CC BY-SA 4.0)*
 
 Real-time Eye AF is the feature many owners will appreciate more than any resolution number. The A7 IV is a people camera in the best sense: portraits, receptions, kids, creators speaking to camera, and quick editorial sessions all benefit from autofocus that prioritizes faces and eyes. It does not remove the need to choose the right area mode or watch backgrounds, but it makes the camera feel trustworthy when a subject moves naturally.
 

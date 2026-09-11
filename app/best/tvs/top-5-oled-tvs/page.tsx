@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface TVEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const tvs: TVEntry[] = [
     rank: 1,
     name: 'LG C4 OLED',
     href: '/articles/lg_c4_oled',
-    image: '/images/placeholder-product.svg',
     summary: 'The definitive OLED TV for most buyers — perfect blacks, near-infinite contrast, all four HDMI 2.1 ports, and ~1.2ms input lag make it the benchmark for every competing television.',
     score: 9.4,
     price: '$1,299',
@@ -36,7 +35,6 @@ const tvs: TVEntry[] = [
     rank: 2,
     name: 'Sony A95L QD-OLED',
     href: '/articles/sony_a95l_qd_oled',
-    image: '/images/placeholder-product.svg',
     summary: "Sony's QD-OLED flagship combines perfect OLED blacks with quantum dot brightness for the best color volume available on any consumer display — the pinnacle of TV picture quality.",
     score: 9.3,
     price: '$2,499',
@@ -47,7 +45,6 @@ const tvs: TVEntry[] = [
     rank: 3,
     name: 'Samsung S90D QD-OLED',
     href: '/articles/samsung_s90d_qd_oled',
-    image: '/images/placeholder-product.svg',
     summary: 'QD-OLED performance at a more accessible price — Samsung combines its QD-OLED panel with the best gaming features in the industry, including 144Hz and comprehensive VRR support.',
     score: 9.1,
     price: '$1,399',
@@ -57,7 +54,6 @@ const tvs: TVEntry[] = [
     rank: 4,
     name: 'LG B4 OLED',
     href: '/articles/lg_b4_oled',
-    image: '/images/placeholder-product.svg',
     summary: 'The most affordable way to own a true OLED TV — perfect blacks, infinite contrast, and excellent picture quality without the premium price of the C4 or G4 series.',
     score: 8.9,
     price: '$899',
@@ -67,7 +63,6 @@ const tvs: TVEntry[] = [
     rank: 5,
     name: 'Sony X90L',
     href: '/articles/sony_x90l',
-    image: '/images/placeholder-product.svg',
     summary: "Sony's upper-mid-range LED TV delivers excellent picture processing, PS5 integration, and Dolby Vision at a price point that makes it the most accessible premium Sony.",
     score: 8.7,
     price: '$1,099',

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface StationEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const stations: StationEntry[] = [
     rank: 1,
     name: 'EcoFlow River 2 Pro',
     href: '/articles/ecoflow_river_2_pro',
-    image: '/images/placeholder-product.svg',
     summary: 'Perfect camping capacity with ultra-fast 70-minute charging and lightweight 17.2 lb design.',
     score: 9.1,
     price: '$599',
@@ -36,7 +35,6 @@ const stations: StationEntry[] = [
     rank: 2,
     name: 'Jackery Explorer 1000 v2',
     href: '/articles/jackery_explorer_1000_v2',
-    image: '/images/placeholder-product.svg',
     summary: 'Higher capacity for longer trips with powerful output and excellent build quality.',
     score: 8.9,
     price: '$799',
@@ -47,7 +45,6 @@ const stations: StationEntry[] = [
     rank: 3,
     name: 'Bluetti EB70S',
     href: '/articles/bluetti_eb70s',
-    image: '/images/placeholder-product.svg',
     summary: 'Great value for capacity with wireless charging convenience and multiple charging options.',
     score: 8.7,
     price: '$449',
@@ -58,7 +55,6 @@ const stations: StationEntry[] = [
     rank: 4,
     name: 'Goal Zero Yeti 500X',
     href: '/articles/goal_zero_yeti_500x',
-    image: '/images/placeholder-product.svg',
     summary: 'Lightweight and portable with excellent app integration and reliable brand reputation.',
     score: 8.5,
     price: '$699',
@@ -68,7 +64,6 @@ const stations: StationEntry[] = [
     rank: 5,
     name: 'Anker SOLIX C800',
     href: '/articles/anker_solix_c800',
-    image: '/images/placeholder-product.svg',
     summary: 'Excellent value proposition with high surge power rating and long 5-year warranty coverage.',
     score: 8.3,
     price: '$399',

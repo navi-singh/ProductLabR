@@ -50,6 +50,28 @@ ratingBreakdown:
       score: 5.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_main.webp"
+productImage: "/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_main.webp"
+imageCredit: "Resideo / Honeywell Home"
+imageSource: "HoneywellHome.com"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle2.webp"
+    credit: "Resideo / Honeywell Home"
+    source: "HoneywellHome.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle3.jpg"
+    credit: "Resideo / Honeywell Home"
+    source: "HoneywellHome.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle4.webp"
+    credit: "Resideo / Honeywell Home"
+    source: "HoneywellHome.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle5.jpg"
+    credit: "Resideo / Honeywell Home"
+    source: "HoneywellHome.com"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -66,6 +88,10 @@ The argument is weaker on published HVAC detail. Honeywell Home and Resideo have
 
 The X8S is physically closer to a small wall tablet than to a minimalist thermostat. Tom's Guide reports dimensions of 5.24 inches wide, 3.54 inches tall, and 0.96 inches deep, or 133 mm by 90 mm by 24 mm. That makes it wider than an ecobee square and much more rectangular than a Nest. In a hallway, it will be noticed. In a kitchen or entry area, that may be the point.
 
+![Honeywell Home X8S](/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle2.webp)
+
+*Resideo / Honeywell Home / HoneywellHome.com (Manufacturer product image)*
+
 The display is the reason to tolerate the footprint. A 5 inches panel gives the interface enough room for legible controls, status, and the extra features Honeywell is selling. Tom's Guide lists 480 pixels by 800 pixels, and the product page highlights enhanced visibility. This is the one thermostat in the group that can plausibly act as a glanceable dashboard rather than a temperature badge.
 
 Honeywell also lets owners change the face. Tom's Guide describes 8 idle screen options with different colors and designs. That sounds cosmetic, but wall devices live in rooms for years. A thermostat that can look less medical and more intentional has an advantage over a glossy white rectangle that never quite matches anything. The X8S is sold in white and black, which is not as flexible as Google's 4 finishes on the 2020 Nest, but it is enough to avoid the default-white-only problem.
@@ -79,6 +105,10 @@ Setup also routes through the First Alert by Resideo app. That makes sense for a
 ## Performance in Everyday Use
 
 The X8S has three daily-use identities: thermostat, room comfort manager, and video screen. The thermostat basics are the least controversial. It supports time-of-day scheduling, and Tom's Guide says setup walked through a schedule for the set temperature based on time of day. The more interesting layer is room priority. The reviewer described setting the bedroom sensor as the priority around 9:30 pm, then switching priority back to the thermostat around 10 pm. That is exactly how room sensors should work: the bedroom matters when sleeping, and the main hallway matters at other times.
+
+![Honeywell Home X8S](/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle3.jpg)
+
+*Resideo / Honeywell Home / HoneywellHome.com (Manufacturer product image)*
 
 Presence behavior supports that comfort-first pitch. HoneywellHome.com describes Advanced Occupancy & Presence Detection that senses and adjusts settings to maximize comfort when home and save energy when away, with Auto-Away enabled. The page does not publish a distance boundary, a setback amount, or a savings percentage. That restraint is preferable to a vague promise. The X8S can be credited for occupancy-aware control without pretending every household will get the same utility bill result.
 

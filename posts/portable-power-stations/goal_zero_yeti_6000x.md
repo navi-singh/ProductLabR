@@ -49,6 +49,28 @@ ratingBreakdown:
       score: 7.3
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_main.webp"
+productImage: "/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_main.webp"
+imageCredit: "Goal Zero"
+imageSource: "Goal Zero"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle2.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle3.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle4.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle5.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -78,6 +100,10 @@ Broaden to a light essentials load — fridge, Wi-Fi, phones, LED lighting, a fa
 ## Design, Weight and Handling
 
 At 106 pounds the Yeti 6000X is not portable in any everyday sense. Goal Zero offers a wheeled cart accessory, and with it you can move the unit across a flat floor; without it, relocating the thing is a two-person struggle. Realistically this is a stationary unit that lives in a garage or basement and gets rolled a short distance when needed. The build quality is solid and the case feels durable, but weight this high with no split-phase payoff is a poor trade — the F3800 weighs more because it is delivering triple the output and 240V, whereas the Yeti's mass mostly reflects a very large, dense NMC pack.
+
+![Goal Zero Yeti 6000X](/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle2.webp)
+
+*Goal Zero / Goal Zero (Manufacturer product image)*
 
 The app is a bright spot. Over Bluetooth and Wi-Fi it reports state of charge, input and output, and lets you manage the unit remotely, which suits a station that mostly sits in one place. The system also expands with Goal Zero's Tank battery modules if you want even more capacity, though adding storage to a platform with these chemistry and output limits is a questionable place to keep investing.
 

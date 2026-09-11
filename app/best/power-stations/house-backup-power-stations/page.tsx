@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface StationEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,7 @@ const stations: StationEntry[] = [
     rank: 1,
     name: 'EcoFlow Delta Pro 3',
     href: '/articles/ecoflow_delta_pro_3',
-    image: '/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg',
+    image: '/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_main.webp',
     summary: 'Massive 4096Wh capacity with 4000W output, home integration ready, and smart grid support.',
     score: 9.2,
     price: '$3,699',
@@ -36,7 +36,6 @@ const stations: StationEntry[] = [
     rank: 2,
     name: 'Bluetti AC300 + B300',
     href: '/articles/bluetti_ac300',
-    image: '/images/placeholder-product.svg',
     summary: 'Modular expandable design with UPS mode for seamless switching and multiple charging options.',
     score: 8.9,
     price: '$2,999',
@@ -47,7 +46,6 @@ const stations: StationEntry[] = [
     rank: 3,
     name: 'Goal Zero Yeti 6000X',
     href: '/articles/goal_zero_yeti_6000x',
-    image: '/images/placeholder-product.svg',
     summary: 'Huge 6071Wh capacity for extended runtime with professional build quality and comprehensive app control.',
     score: 8.7,
     price: '$4,999',
@@ -58,7 +56,6 @@ const stations: StationEntry[] = [
     rank: 4,
     name: 'Anker SOLIX F3800',
     href: '/articles/anker_solix_f3800',
-    image: '/images/placeholder-product.svg',
     summary: 'Highest surge power rating with long warranty coverage and home integration ready.',
     score: 8.5,
     price: '$3,999',

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface StationEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const stations: StationEntry[] = [
     rank: 1,
     name: 'Anker PowerCore 26800 PD',
     href: '/articles/anker_powercore_26800_pd',
-    image: '/images/placeholder-product.svg',
     summary: 'TSA approved for flights with 30W Power Delivery, triple device charging, and fast recharge.',
     score: 9.0,
     price: '$129',
@@ -36,7 +35,6 @@ const stations: StationEntry[] = [
     rank: 2,
     name: 'RAVPower 90W AC Power Bank',
     href: '/articles/ravpower_90w_ac',
-    image: '/images/placeholder-product.svg',
     summary: 'Actual AC outlet for laptops with multiple charging options and a clear capacity display.',
     score: 8.8,
     price: '$199',
@@ -47,7 +45,6 @@ const stations: StationEntry[] = [
     rank: 3,
     name: 'Goal Zero Sherpa 100AC',
     href: '/articles/goal_zero_sherpa_100ac',
-    image: '/images/placeholder-product.svg',
     summary: 'Wireless charging convenience with rugged outdoor construction and reliable brand reputation.',
     score: 8.5,
     price: '$299',

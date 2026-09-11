@@ -18,30 +18,38 @@ export function ReviewCard({ post }: ReviewCardProps) {
       ? post.rating * 2
       : null;
 
+  const image = post.image || post.productImage;
+
   return (
     <Link
       href={`/articles/${post.slug}`}
       className="state-layer group flex flex-col overflow-hidden rounded-xl border border-neutral-200 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:shadow-card-hover"
     >
-      <div className="relative aspect-[3/2] w-full overflow-hidden bg-gradient-to-br from-primary-lightest to-primary-light/30">
-        <OptimizedImage
-          src={post.image || post.productImage || '/images/placeholder-product.svg'}
-          alt={post.title}
-          fill
-          sizes="(max-width: 640px) 50vw, 33vw"
-          className="object-cover"
-        />
-        {score !== null && (
-          <div className="absolute right-2 top-2">
-            <ScoreBadge score={score} size="sm" />
-          </div>
-        )}
-      </div>
+      {image && (
+        <div className="relative aspect-[3/2] w-full overflow-hidden bg-gradient-to-br from-primary-lightest to-primary-light/30">
+          <OptimizedImage
+            src={image}
+            alt={post.title}
+            fill
+            sizes="(max-width: 640px) 50vw, 33vw"
+            className="object-cover"
+          />
+          {score !== null && (
+            <div className="absolute right-2 top-2">
+              <ScoreBadge score={score} size="sm" />
+            </div>
+          )}
+        </div>
+      )}
 
       <div className="flex flex-1 flex-col p-3">
-        {post.category && (
-          <span className="type-label text-primary">{post.category}</span>
-        )}
+        <div className="flex items-start justify-between gap-2">
+          {post.category && (
+            <span className="type-label text-primary">{post.category}</span>
+          )}
+          {/* Without a photo there is no image corner to pin the score to. */}
+          {!image && score !== null && <ScoreBadge score={score} size="sm" />}
+        </div>
         <h3 className="type-title mt-1 line-clamp-2 text-neutral-900">{post.title}</h3>
         {post.subtitle && (
           <p className="type-body mt-1 line-clamp-2 text-neutral-500">{post.subtitle}</p>

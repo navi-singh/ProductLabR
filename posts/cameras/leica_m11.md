@@ -43,6 +43,16 @@ ratingBreakdown:
       score: 9.0
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/leica_m11/leica_m11_main.jpg"
+productImage: "/images/posts/cameras/leica_m11/leica_m11_main.jpg"
+imageCredit: "Henry Söderlund"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+gallery:
+  - src: "/images/posts/cameras/leica_m11/leica_m11_angle2.jpg"
+    credit: "Peachyeung316"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 ## Overview: the 8,995 USD refusal to behave like a modern camera
 
@@ -57,6 +67,10 @@ Leica's strength here is coherence. The M11 knows what it is. It is a high-resol
 ## Design and build: rangefinder minimalism with a price tag
 
 The body is the argument. The M11 carries the visual grammar that makes an M camera an M camera: compact rectangular form, mechanical simplicity, and a rangefinder shooting experience that keeps the photographer looking through a window rather than watching a tiny television. Classic craftsmanship and exceptional build quality matter because Leica buyers are not paying only for output. They are paying for the physical experience of using the thing.
+
+![Leica M11](/images/posts/cameras/leica_m11/leica_m11_angle2.jpg)
+
+*Peachyeung316 / Wikimedia Commons (CC BY-SA 4.0)*
 
 Controls are deliberately spare. That is a gift if you already know what you want from aperture, shutter speed, ISO, and manual focus. It is a punishment if you expect the camera to rearrange itself for every situation. A Sony A7R V or Nikon Z8 gives you deep customization, subject-detection menus, video pages, autofocus modes, and drive settings. The Leica keeps the interface closer to the act of taking a still photograph. Fewer modes mean fewer excuses, but also fewer escape routes.
 

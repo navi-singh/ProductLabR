@@ -57,6 +57,28 @@ ratingBreakdown:
       score: 8.0
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_main.jpg"
+productImage: "/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_main.jpg"
+imageCredit: "DJI"
+imageSource: "DJI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle2.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle3.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle4.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle5.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -79,6 +101,10 @@ At full MSRP of $999, the value case weakens when the Anker SOLIX C2000 Gen 2 of
 
 Cracking open the box, it's immediately obvious this is a DJI product.
 
+![DJI Power 1000](/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle2.jpg)
+
+*DJI / DJI (Manufacturer product image)*
+
 The build quality is exceptional — every surface feels precise, the display is crisp, and the included carrying case signals a premium ownership experience most power station brands don't match.
 
 Most competitors at this capacity ship with no case; DJI includes a fitted case that protects the unit during transport.
@@ -98,6 +124,10 @@ The DJI Power app connects within 30 seconds and provides more detailed monitori
 ### Whisper-Quiet Operation: The Defining Feature
 
 The DJI Power 1000's most important feature for its target audience is how quietly it operates.
+
+![DJI Power 1000](/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle3.jpg)
+
+*DJI / DJI (Manufacturer product image)*
 
 The cooling fan spins slowly enough under typical loads to be effectively inaudible in most environments.
 
@@ -152,6 +182,10 @@ The carrying case specifically is a meaningful inclusion: it protects the unit d
 ### Efficiency: The Honest Trade-Off
 
 Real-world efficiency tested at approximately 76% under full load.
+
+![DJI Power 1000](/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle4.jpg)
+
+*DJI / DJI (Manufacturer product image)*
 
 In practical terms, you'll lose roughly 260Wh to heat on every full cycle — more than EcoFlow's Delta 3 (~85–88%) or Anker's SOLIX line (~89%).
 

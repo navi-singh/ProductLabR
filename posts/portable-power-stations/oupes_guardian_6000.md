@@ -61,6 +61,28 @@ ratingBreakdown:
       score: 7.0
     - name: "Value"
       score: 9.5
+image: "/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_main.webp"
+productImage: "/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_main.webp"
+imageCredit: "OUPES"
+imageSource: "OUPES"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle2.webp"
+    credit: "OUPES"
+    source: "OUPES"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle3.webp"
+    credit: "OUPES"
+    source: "OUPES"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle4.webp"
+    credit: "OUPES"
+    source: "OUPES"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle5.webp"
+    credit: "OUPES"
+    source: "OUPES"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -85,6 +107,10 @@ But the hardware delivers on its fundamental specs, and the 6-year warranty back
 
 At 111 lbs, the Guardian 6000 requires two people to move without wheels engaged.
 
+![OUPES Guardian 6000](/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle2.webp)
+
+*OUPES / OUPES (Manufacturer product image)*
+
 The built-in wheels and handle handle the job once out of the box — but this is a unit designed for installation, not frequent relocation.
 
 The 240V outlet configuration is the highlight: a 50A outlet and L14 twist-lock (useful for connecting to transfer switches and generator inlets) plus the standard 30A and 4x 120V outlets.
@@ -102,6 +128,10 @@ The button labeling is genuinely confusing on first use; reviewers consistently 
 ### 240V Without the Premium Price Tag
 
 True 240V split-phase output from a single unit — with a 50A outlet and L14 twist-lock — is the Guardian 6000's most powerful differentiator.
+
+![OUPES Guardian 6000](/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle3.webp)
+
+*OUPES / OUPES (Manufacturer product image)*
 
 Most power stations at this price deliver 120V only.
 
@@ -158,6 +188,10 @@ At $0.30/kWh peak vs $0.12/kWh off-peak, daily cycling through a 4kWh peak windo
 ### 240V Load Testing
 
 Testing with a full-sized electric dryer (4,200W, 240V) confirmed consistent operation through extended run cycles.
+
+![OUPES Guardian 6000](/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle4.webp)
+
+*OUPES / OUPES (Manufacturer product image)*
 
 The inverter handled startup surge (approximately 5,500W) without tripping.
 

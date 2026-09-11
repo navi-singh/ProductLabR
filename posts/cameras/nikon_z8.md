@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 7.9
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/nikon_z8/nikon_z8_main.jpg"
+productImage: "/images/posts/cameras/nikon_z8/nikon_z8_main.jpg"
+imageCredit: "昼落ち"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+gallery:
+  - src: "/images/posts/cameras/nikon_z8/nikon_z8_angle2.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/nikon_z8/nikon_z8_angle3.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/nikon_z8/nikon_z8_angle4.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/nikon_z8/nikon_z8_angle5.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: the small Nikon that should make you question the flagship
@@ -60,6 +82,10 @@ The Z8 is for the Nikon shooter who wants 45.7MP files for cropping, printing, a
 
 The Z8 has to convince you before a file ever lands on a computer. Its pro is not merely that the body is smaller than a flagship shape; it is that the smaller body changes where the camera can go. A camera with a 45.7MP sensor and 8K 60p recording becomes more useful when it is not a burden on a two-camera wedding harness or a mountain pack. The body invites work that would make a permanently gripped pro camera feel like a declaration of intent at the wrong moment.
 
+![Nikon Z8](/images/posts/cameras/nikon_z8/nikon_z8_angle2.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 Build quality still matters because the Z8 is not priced like a casual camera. The professional-build claim is believable when you look at how this camera is positioned: it is meant for people who will use 493 AF points, switch between stills and 4K clips, assign buttons, and carry it through long paid days. The handling should be judged against that reality. A body can be compact and still demanding; the Z8 asks you to configure it, learn it, and trust it under pressure.
 
 The downside is that compact does not mean effortless. Dense controls and deep customization are useful only after the setup work is done. Nikon's menus can become a maze if you try to treat the camera like a point-and-shoot with a premium sensor. The 5-axis stabilization system rated at 6 stops is a meaningful safety net for handheld stills and restrained video, but it does not turn the Z8 into a magic gimbal or replace good long-lens technique. This is a professional camera in a smaller shell, not a simplified one.
@@ -69,6 +95,10 @@ The lens question deserves honesty. Nikon Z glass can be excellent, but the syst
 ## Performance and real-world testing: where the Z8 earns its price
 
 The Z8's 45.7MP full-frame CMOS sensor is the heart of the camera's value. That resolution is high enough for serious cropping, large prints, product detail, landscapes with fine texture, and editorial work where a client may ask for multiple layouts from one frame. A 45.7MP file also exposes weak technique. If your lenses, shutter speeds, and focus choices are casual, the camera will not hide it. The reward is detail; the penalty is discipline.
+
+![Nikon Z8](/images/posts/cameras/nikon_z8/nikon_z8_angle3.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 Autofocus is the other reason this camera makes sense above cheaper Nikon bodies. A 493-point hybrid AF system gives the Z8 the kind of coverage and subject acquisition expected in a modern high-end mirrorless body. The practical advantage is not that every frame becomes perfect. It is that the camera gives action, portraits, events, and documentary work a wider margin when a subject moves unexpectedly. For a photographer who alternates between a speaker at a podium, a bride walking down an aisle, and a product detail shot, that flexibility is worth more than a single headline number.
 

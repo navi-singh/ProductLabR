@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 8.4
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_main.jpg"
+productImage: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_main.jpg"
+imageCredit: "Henry Söderlund"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+gallery:
+  - src: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_angle2.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC0"
+  - src: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_angle3.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC0"
+  - src: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_angle4.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC0"
+  - src: "/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_angle5.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC0"
 ---
 
 ## Overview: the bet Nikon made
@@ -53,6 +75,10 @@ The catch arrived almost immediately, and it became one of the more heated camer
 ## Build, viewfinder, and controls
 
 The Z6 III handles like a shrunken Z8, which is a compliment. It weighs roughly 760 grams with battery and card, has a deep, comfortable grip, extensive weather sealing, and the clean, logical control layout Nikon has refined across the Z system. If you have shot any recent Nikon, you already know where everything is.
+
+![Nikon Z6 III](/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_angle2.jpg)
+
+*昼落ち / Wikimedia Commons (CC0)*
 
 The standout piece of hardware is the viewfinder. Nikon fitted a 5.76-million-dot EVF that hits an unusually bright 4000 cd/m² peak — brighter than essentially any rival's finder — which makes a genuine difference shooting in harsh sunlight, where dim viewfinders wash out. The rear screen is a fully articulating vari-angle panel suited to video and awkward angles. Storage uses two slots: one CFexpress Type B and one SD UHS-II. The internal 6K RAW video and the deepest photo buffers want the CFexpress card, so factor one into your budget rather than leaning on SD alone. Battery life from the EN-EL15c runs to a few hundred shots per charge under CIPA testing, typical for the class, and USB-C charging keeps you topped up on the move.
 

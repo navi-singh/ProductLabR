@@ -56,6 +56,28 @@ ratingBreakdown:
       score: 8.5
     - name: "Value"
       score: 7.2
+image: "/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle2.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle3.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle4.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle5.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -80,6 +102,10 @@ But for RV owners, homesteaders, and serious off-grid builders who need 53.8kWh 
 
 The F3800 Plus arrives well-packaged for its 136-lb weight, with foam protection around all corners and clear documentation for initial setup.
 
+![Anker SOLIX F3800 Plus](/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle2.webp)
+
+*Anker / Anker (Manufacturer product image)*
+
 The telescoping handle extends smoothly, and the wheels are quality — wider-base casters than you'd find on budget units, rated for the substantial weight.
 
 First impression: a unit engineered to last, with metal chassis accents, solid port covers, and a bright color display showing input, output, and SoC at a glance.
@@ -93,6 +119,10 @@ For a 136-lb unit, it's as manageable as it can realistically be.
 ### 3,200W Solar Input
 
 3,200W of solar input on a 3,840Wh base battery means a full recharge from solar in approximately 1.5 hours under optimal conditions.
+
+![Anker SOLIX F3800 Plus](/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle3.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 More practically: you can pull significant power from panels while simultaneously running loads.
 
@@ -127,6 +157,10 @@ For homeowners who want to start with base capacity and expand as budget allows,
 ### Solar Input Real-World Numbers
 
 Testing with a 3,000W panel array under 85% efficiency conditions (realistic for mixed cloud cover) showed 2,550–2,700W actual input.
+
+![Anker SOLIX F3800 Plus](/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle4.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 Full recharge from 20% took approximately 2 hours under these conditions.
 

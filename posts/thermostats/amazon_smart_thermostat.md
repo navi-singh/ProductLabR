@@ -50,6 +50,11 @@ ratingBreakdown:
       score: 8.9
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/thermostats/amazon_smart_thermostat/amazon_smart_thermostat_main.png"
+productImage: "/images/posts/thermostats/amazon_smart_thermostat/amazon_smart_thermostat_main.png"
+imageCredit: "Amazon"
+imageSource: "Amazon (aboutamazon.com press)"
+imageLicense: "Manufacturer product image"
 ---
 
 ## Introduction

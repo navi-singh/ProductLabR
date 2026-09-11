@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 8.4
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_main.jpg"
+productImage: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_main.jpg"
+imageCredit: "Henry Söderlund"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+gallery:
+  - src: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_angle2.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_angle3.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_angle4.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_angle5.jpg"
+    credit: "Dinkun Chen"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: Canon's hybrid full-frame body for serious creators
@@ -56,6 +78,10 @@ The real buying question is not simply whether the EOS R6 Mark II is good. It is
 
 Canon bodies tend to feel familiar quickly to photographers who have used EOS DSLRs or earlier EOS R cameras, and that matters for paid work. A camera can have strong specifications and still get in the way if exposure controls, focus settings, custom buttons, and video options are buried where you cannot reach them. The R6 Mark II is aimed at users who want professional capability in a body that can be configured for repeated jobs.
 
+![Canon EOS R6 Mark II](/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_angle2.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 Reliable build quality is important context for the intended buyer. Wedding photographers, event shooters, travel creators, and documentary users do not work only in clean studios. They work outdoors, in crowded venues, under changing light, and around people who do not pause while you navigate a setting. A dependable body is not glamorous, but it is part of why a 2,499 USD camera can make sense for a working kit.
 
 The control philosophy is also a strength. Canon's grip shape, button placement, and viewfinder-centered shooting experience are designed for long sessions. That does not eliminate the learning curve. Menu complexity is a real downside, and buyers should take it seriously. Dual Pixel CMOS AF II, 4K 60p recording, 6K RAW workflow, stabilization choices, card behavior, custom modes, and stills/video switching all create menus that reward setup time.
@@ -65,6 +91,10 @@ The practical advice is to customize the camera early. Assign autofocus modes, v
 ## Image quality and low-light performance
 
 The 24.2MP Full-Frame CMOS sensor is the most important stills specification in the file. It is enough resolution for serious work, but not so much that every shoot becomes a storage and processing burden. A 24.2MP file gives room for moderate cropping, portrait retouching, editorial delivery, online publishing, and many print sizes. It is not the right choice if your business depends on heavy cropping or very large landscape prints, but it is more than enough for a wide range of professional and enthusiast assignments.
+
+![Canon EOS R6 Mark II](/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_angle3.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 The low-light claim is credible because of the full-frame sensor design and the 5-axis stabilization system. Full-frame sensors generally give photographers more flexibility in dim venues than smaller formats when lens choice is comparable, and the 5-axis IBIS rating of 8 stops helps with handheld stills when subject motion is not the limiting factor. That last clause matters. Stabilization can steady the camera, but it cannot freeze a moving dancer, athlete, or child. For moving subjects, shutter speed and lens aperture still decide the result.
 
@@ -76,6 +106,10 @@ The resolution downside is real. Some competing bodies offer more megapixels, an
 
 Dual Pixel CMOS AF II is one of the key reasons to consider this camera. Canon's autofocus system is built around confident subject acquisition and tracking, which is exactly what hybrid photographers need when switching between portraits, events, handheld video, and unpredictable subjects. The honest claim is practical rather than numerical: autofocus is a primary strength of the system, and the camera is designed around it.
 
+![Canon EOS R6 Mark II](/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_angle4.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 For portraits and events, strong autofocus reduces the number of missed frames when people lean, turn, laugh, walk toward the camera, or move through mixed lighting. For content creation, it makes solo video work less stressful because the camera can help keep a presenter, product, or moving subject in focus. For family and travel photographers, it means fewer moments lost to focus hesitation.
 
 The 5-axis IBIS rating of 8 stops supports both stills and video. In stills, stabilization helps with slower shutter speeds when the subject is relatively still. In video, it smooths handheld footage and makes lightweight shooting more practical. It is not a replacement for a gimbal, tripod, or proper support when the shot requires that level of control, but it broadens what you can do with the body alone.
@@ -85,6 +119,10 @@ Stabilization also interacts with the 24.2MP sensor in a useful way. Since the c
 ## Video performance for real-world content creation
 
 The video capability is concise but important: 4K 60p and 6K RAW. Put plainly, the R6 Mark II belongs on a shortlist for creators who want serious video options in a stills-style body. 4K at 60 fps gives editors room for smooth motion and moderate slow-down in common timelines. 6K RAW gives advanced users a higher-end acquisition option when the workflow, storage, and editing hardware can support it.
+
+![Canon EOS R6 Mark II](/images/posts/cameras/canon_eos_r6_mark_ii/canon_eos_r6_mark_ii_angle5.jpg)
+
+*Dinkun Chen / Wikimedia Commons (CC BY-SA 4.0)*
 
 That range is what makes the camera attractive to hybrid shooters. A wedding creator might capture stills for most of the day, then switch to 4K 60p for a short highlight sequence. A YouTube producer might use 4K at 60 fps for product movement or talking-head segments. A small commercial team might reserve 6K RAW for shots where grading latitude and post-production control matter more than file size.
 

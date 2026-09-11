@@ -60,6 +60,28 @@ ratingBreakdown:
       score: 7.9
     - name: "Call Quality"
       score: 9.5
+image: "/images/posts/headphones/jabra_elite_10/jabra_elite_10_main.png"
+productImage: "/images/posts/headphones/jabra_elite_10/jabra_elite_10_main.png"
+imageCredit: "Jabra / GN Audio"
+imageSource: "Jabra"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle2.png"
+    credit: "Jabra / GN Audio"
+    source: "Jabra"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle3.png"
+    credit: "Jabra / GN Audio"
+    source: "Jabra"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle4.png"
+    credit: "Jabra / GN Audio"
+    source: "Jabra"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle5.png"
+    credit: "Jabra / GN Audio"
+    source: "Jabra"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -78,6 +100,10 @@ The Elite 10 is not the right choice if class-leading ANC is your singular prior
 
 The Elite 10's ComfortFit design represents a genuinely different approach to earbud ergonomics. Rather than inserting a silicone tip deep into the ear canal, the Elite 10 rests in the concha — the curved bowl of the outer ear — with the driver housing sitting at the canal entrance without penetrating it. This design has several meaningful consequences.
 
+![Jabra Elite 10](/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle2.png)
+
+*Jabra / GN Audio / Jabra (Manufacturer product image)*
+
 First, ear fatigue is dramatically reduced. Traditional in-ear earbuds create a pressure seal inside the ear canal; over time, especially during long conference calls or multi-hour listening sessions, this pressure becomes uncomfortable. The Elite 10's open-canal geometry eliminates that pressure entirely. Reviewers commonly report comfortable wear across 4 to 6-hour continuous sessions that would have caused discomfort with conventional tip-based earbuds.
 
 Second, situational awareness is naturally enhanced. The open-canal design allows ambient sound to reach the ear even without transparency mode, which makes walking, cycling, and commuting feel safer and less isolating. For users who find fully occluded earbuds claustrophobic or socially awkward, this is a genuine differentiator.
@@ -91,6 +117,10 @@ The buds weigh 6.4 grams each — light enough to feel absent during extended se
 ## Sound Quality
 
 Jabra tuned the Elite 10 with a warm, balanced sound signature that flatters both voice content and music. The 10mm full-range drivers deliver clean low-frequency extension with good sub-bass presence — more articulate and less one-dimensional than the thin bass response some competing earbuds produce. Midrange reproduction is the Elite 10's strongest suit, which is appropriate given its call-quality focus: voice frequencies (300 Hz to 3 kHz) are reproduced with exceptional clarity and presence.
+
+![Jabra Elite 10](/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle3.png)
+
+*Jabra / GN Audio / Jabra (Manufacturer product image)*
 
 The Jabra Sound+ app provides a six-band equalizer plus the proprietary MySound feature — a brief audio test (similar to an audiogram) that characterizes your hearing response and creates a personalized EQ profile to compensate for your specific hearing characteristics. The effect is subtle but measurable, particularly for listeners over 35 who have begun to lose sensitivity in the upper frequency ranges.
 
@@ -113,6 +143,10 @@ For ANC-first buyers, the Elite 10 is not the optimal choice. For buyers who wan
 ## Battery & Connectivity
 
 The Elite 10 delivers 6 hours per charge with ANC enabled, which is consistent with the premium true wireless segment. The case adds 21 hours for a total of 27 hours — sufficient for several days of typical use. With ANC off, earbud life extends to approximately 8 hours, which is among the longer single-charge runtimes in the segment.
+
+![Jabra Elite 10](/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle4.png)
+
+*Jabra / GN Audio / Jabra (Manufacturer product image)*
 
 The five-minute quick charge (delivering 1 hour of playback) is genuinely useful. Wireless charging via Qi makes bedside top-ups convenient. The case itself is compact, with a satisfying magnetic closure and an IP54 rating that protects it against splashes.
 

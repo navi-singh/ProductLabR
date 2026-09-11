@@ -52,6 +52,11 @@ ratingBreakdown:
       score: 8.5
     - name: "Value"
       score: 8.1
+image: "/images/posts/wearables/fitbit_sense_2/fitbit_sense_2_main.jpg"
+productImage: "/images/posts/wearables/fitbit_sense_2/fitbit_sense_2_main.jpg"
+imageCredit: "Google / Fitbit"
+imageSource: "Google Store (Fitbit)"
+imageLicense: "Manufacturer product image"
 ---
 
 ## Introduction

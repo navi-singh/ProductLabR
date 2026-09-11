@@ -58,6 +58,28 @@ ratingBreakdown:
       score: 8.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -93,6 +115,10 @@ LFP units — Bluetti's Elite 100 V2, for comparison, is a slightly lighter 25.3
 The footprint is small enough to live under a desk or on a closet shelf rather than
 demanding floor space of its own.
 
+![EcoFlow DELTA 3 Classic](/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle2.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
+
 The battery chemistry is the part EcoFlow is proudest of, and with some justification.
 The pack uses lithium iron phosphate cells that the company describes as
 automotive-grade full-tab cells inside an EV-style cell-to-chassis structure. The
@@ -127,6 +153,10 @@ electric dryer or central air conditioner: a 1,500W space heater, a 1,000W micro
 coffee maker or a full-size refrigerator all sit comfortably under that limit. Running
 at a modest 600W, EcoFlow rates the fan noise at 30dB or below, which is genuinely quiet
 — quiet enough to leave running in a bedroom overnight.
+
+![EcoFlow DELTA 3 Classic](/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle3.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 EcoFlow also markets an X-Boost figure of 2,600W, and this is worth explaining honestly
 rather than repeating as a headline. X-Boost does not conjure 800 extra watts out of an

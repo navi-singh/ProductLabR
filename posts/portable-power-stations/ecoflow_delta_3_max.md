@@ -54,6 +54,28 @@ ratingBreakdown:
       score: 9.0
     - name: "Value"
       score: 8.5
+image: "/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_angle4.avif"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -80,6 +102,10 @@ Buyers upgrading from that unit will feel the regression immediately.
 
 At 45 lbs, the Delta 3 Max is noticeably light for a 2kWh unit — meaningfully easier to move than the Bluetti Elite 200 V2 at 53.4 lbs.
 
+![EcoFlow Delta 3 Max](/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_angle2.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
+
 The modern industrial design features a flat front face with all ports organized in a single accessible panel.
 
 EcoFlow's build quality is consistently good: the handle is well-balanced, the LCD display is large and clearly readable, and the port labels are legible without squinting.
@@ -93,6 +119,10 @@ The quiet operation is noticeable from the start — even with the unit running 
 ### 68-Minute AC Charging: The Standout Feature
 
 68 minutes from 0–100% via AC is exceptional.
+
+![EcoFlow Delta 3 Max](/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_angle3.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 The Anker SOLIX C2000 Gen 2 (same capacity) takes 88 minutes.
 
@@ -143,6 +173,10 @@ This is not a limitation that can be worked around — it's a fundamental constr
 ### Charge Speed Verification
 
 Independent testing confirmed the 68-minute full charge claim from 0–100% under standard 120V/15A household conditions.
+
+![EcoFlow Delta 3 Max](/images/posts/portable-power-stations/ecoflow_delta_3_max/ecoflow_delta_3_max_angle4.avif)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 The charge rate starts at the full 1,800W and tapers gently as the battery approaches 90%, then drops more sharply in the final 10% for cell balancing.
 

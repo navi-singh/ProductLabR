@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface CamEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const cameras: CamEntry[] = [
     rank: 1,
     name: 'Nikon Z9',
     href: '/articles/nikon_z9',
-    image: '/images/placeholder-product.svg',
     summary: 'Flagship hybrid performance with rugged professional build and excellent 8K video quality.',
     score: 9.6,
     price: '$5,496',
@@ -36,7 +35,6 @@ const cameras: CamEntry[] = [
     rank: 2,
     name: 'Sony A1 II',
     href: '/articles/sony_a1_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'High-resolution 50MP sensor with exceptional speed and performance, plus advanced AI autofocus.',
     score: 9.4,
     price: '$6,499',
@@ -47,7 +45,6 @@ const cameras: CamEntry[] = [
     rank: 3,
     name: 'Canon EOS R5 Mark II',
     href: '/articles/canon_eos_r5_mark_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'Outstanding hybrid performance with advanced autofocus including Eye Control and professional build.',
     score: 9.5,
     price: '$4,299',
@@ -58,7 +55,6 @@ const cameras: CamEntry[] = [
     rank: 4,
     name: 'Fujifilm GFX100 II',
     href: '/articles/fujifilm_gfx100_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'Medium-format excellence with 102MP incredible resolution and 8K video capability.',
     score: 9.3,
     price: '$7,499',

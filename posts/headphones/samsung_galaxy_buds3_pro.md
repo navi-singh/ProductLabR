@@ -64,6 +64,28 @@ ratingBreakdown:
       score: 8.4
     - name: "Value"
       score: 7.9
+image: "/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_main.webp"
+productImage: "/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_main.webp"
+imageCredit: "Samsung Electronics"
+imageSource: "Samsung"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_angle2.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_angle3.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_angle4.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_angle5.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -79,6 +101,10 @@ At $249 — the same price as the AirPods Pro 2 — the Buds3 Pro are Samsung's 
 ## Sound Quality
 
 The dual-driver configuration is the Buds3 Pro's audio signature differentiator. The 10mm woofer handles low frequencies while the 5.3mm tweeter manages mid and high range reproduction. The result is a cleaner, more separated sound than single-driver earbuds produce — bass hits without blurring the mid-range, and treble extends with detail that single-driver designs often sacrifice.
+
+![Samsung Galaxy Buds3 Pro](/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_angle2.webp)
+
+*Samsung Electronics / Samsung (Manufacturer product image)*
 
 The default sound profile is balanced with a slight low-end emphasis. The Galaxy Wearable app provides a graphic equalizer and preset profiles including Bass Boost, Soft, Dynamic, Clear, and Treble Boost. The equalizer range and preset quality are comparable to Sony's Headphones Connect.
 
@@ -107,6 +133,10 @@ The Ambient Sound mode passes environmental sound through three microphone input
 
 Fit is the most variable aspect of the Buds3 Pro experience and the area where individual anatomy matters most. The blade-style wing is designed to anchor in the outer ear's antihelix ridge; for users whose anatomy accommodates the blade geometry, the fit is secure and fatigue-free. For users whose outer ear anatomy is incompatible with the wing shape, the Buds3 Pro can feel unstable or mildly uncomfortable over extended sessions.
 
+![Samsung Galaxy Buds3 Pro](/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_angle3.webp)
+
+*Samsung Electronics / Samsung (Manufacturer product image)*
+
 The ear tip sizes (XS, S, M, L) provide acoustic sealing. The combination of a soft silicone tip and the outer blade anchor creates a different fit mechanism than the stem designs of the AirPods Pro 2. Neither is universally better — they suit different ear shapes. Before purchasing, testing the fit in a retail environment is advisable.
 
 IPX7 waterproofing on the earbuds is the strongest water resistance specification in the premium earbud category. The earbuds can be submerged to 1 meter for up to 30 minutes — suitable for swimming laps, which neither the AirPods Pro 2 (IPX4) nor the Sony WF-1000XM5 (IPX4) can claim. For athletes who train in rain, pool-adjacent environments, or humid climates, this is a meaningful differentiator.
@@ -116,6 +146,10 @@ IPX7 waterproofing on the earbuds is the strongest water resistance specificatio
 ## Features & Connectivity
 
 Galaxy AI integration is the Buds3 Pro's most distinctive functional differentiator. Live Translate, when used with a Samsung Galaxy phone, performs real-time spoken translation — one party speaks in one language, the earbuds translate and play back the translation audibly, and the phone screen shows both the original text and translation simultaneously. Reviewers using English/Spanish pairs have found the accuracy and latency impressive for a real-time system.
+
+![Samsung Galaxy Buds3 Pro](/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_angle4.webp)
+
+*Samsung Electronics / Samsung (Manufacturer product image)*
 
 Interpreter Mode extends this to group scenarios where both participants use the earbuds or phone speaker. For travelers and business users operating in multilingual environments, these features add genuine value that no competing earbud provides.
 

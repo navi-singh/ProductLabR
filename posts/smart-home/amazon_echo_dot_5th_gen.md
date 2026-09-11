@@ -48,6 +48,20 @@ ratingBreakdown:
       score: 8.3
     - name: "Value"
       score: 9.3
+image: "/images/posts/smart-home/amazon_echo_dot_5th_gen/amazon_echo_dot_5th_gen_main.jpg"
+productImage: "/images/posts/smart-home/amazon_echo_dot_5th_gen/amazon_echo_dot_5th_gen_main.jpg"
+imageCredit: "TaurusEmerald"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+gallery:
+  - src: "/images/posts/smart-home/amazon_echo_dot_5th_gen/amazon_echo_dot_5th_gen_angle2.jpg"
+    credit: "Radom1967"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/smart-home/amazon_echo_dot_5th_gen/amazon_echo_dot_5th_gen_angle3.jpg"
+    credit: "Aktulisert"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Overview: a small Alexa speaker that earns its place
@@ -62,6 +76,10 @@ The central trade-off is clear: the 5th Gen model sounds fuller than the 4th Gen
 
 The 5th Gen Dot keeps the rounded fabric-covered shape introduced in the prior generation. It does not look like a miniature tower or a visible gadget stack; it reads as a soft sphere with a light ring, physical top controls, and enough visual restraint to blend into a shelf. That matters because smart speakers work best when they can stay plugged in and available all day. A device that looks too technical is more likely to be hidden, moved, or unplugged.
 
+![Amazon Echo Dot (5th Gen)](/images/posts/smart-home/amazon_echo_dot_5th_gen/amazon_echo_dot_5th_gen_angle2.jpg)
+
+*Radom1967 / Wikimedia Commons (CC BY-SA 4.0)*
+
 The dimensions are one of the strongest practical arguments for this model. A device measuring 3.9 inches by 3.9 inches by 3.5 inches can fit beside a lamp, behind a computer monitor, near a coffee maker, or on the narrow ledge of a bathroom vanity. It does not need the footprint of a full-size speaker, and it does not ask you to rearrange a room before it becomes useful. The fabric mesh also helps it avoid the shiny-plastic look that can make small electronics feel cheaper than they are.
 
 Setup remains one of Amazon's most polished flows. The Alexa app detects the Dot, walks through Wi-Fi setup, links the device to the Amazon account, and then exposes speaker settings, routines, music services, Bluetooth, and EQ controls. Basic setup can take under 3 minutes when your account and Wi-Fi are ready, which matches the role of the product: it is meant to be added quickly, not treated like a weekend project. The app also provides custom EQ, so you can trim bass or lift treble after hearing it in your own room.
@@ -71,6 +89,10 @@ The physical controls are straightforward. Volume up, volume down, action, and m
 ## Sound performance in real rooms
 
 The Echo Dot's sound should be described in proportional terms. For a 49 USD speaker using a 1.73-inch driver, the 5th Gen model is pleasantly full. It has enough mid-bass presence to make radio, podcasts, audiobooks, and casual playlists sound less hollow than older puck-shaped Echo Dots. Voices are clear, the tonal balance is forgiving, and the Alexa app's EQ can make the speaker warmer or brighter depending on where it sits.
+
+![Amazon Echo Dot (5th Gen)](/images/posts/smart-home/amazon_echo_dot_5th_gen/amazon_echo_dot_5th_gen_angle3.jpg)
+
+*Aktulisert / Wikimedia Commons (CC BY-SA 4.0)*
 
 The improvement over the 4th Gen Dot is most obvious at modest volume. In a bedroom, office, or small kitchen, music has body instead of sounding like a voice prompt stretched into a song. Podcasts do not become boomy, and spoken-word content remains easy to follow. That is the best-case environment: close to the listener, surrounded by reflective room surfaces, and not competing with a large open floor plan.
 

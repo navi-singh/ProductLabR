@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface TVEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const tvs: TVEntry[] = [
     rank: 1,
     name: 'LG C4 OLED',
     href: '/articles/lg_c4_oled',
-    image: '/images/placeholder-product.svg',
     summary: 'LG\'s best all-around OLED with a new MLA panel, incredible picture quality, 4 HDMI 2.1 ports, and top gaming features including G-Sync and FreeSync.',
     score: 9.4,
     price: '$1,299',
@@ -36,7 +35,6 @@ const tvs: TVEntry[] = [
     rank: 2,
     name: 'Sony A95L QD-OLED',
     href: '/articles/sony_a95l_qd_oled',
-    image: '/images/placeholder-product.svg',
     summary: 'The absolute best picture quality you can buy with Sony\'s Cognitive Processor XR, QD-OLED panel, and exceptional color volume and brightness.',
     score: 9.5,
     price: '$2,499',
@@ -47,7 +45,6 @@ const tvs: TVEntry[] = [
     rank: 3,
     name: 'Samsung S90D QD-OLED',
     href: '/articles/samsung_s90d_qd_oled',
-    image: '/images/placeholder-product.svg',
     summary: 'Outstanding QD-OLED performance at a more accessible price with excellent brightness, color, and Samsung\'s excellent gaming features.',
     score: 9.1,
     price: '$1,099',
@@ -58,7 +55,6 @@ const tvs: TVEntry[] = [
     rank: 4,
     name: 'LG B4 OLED',
     href: '/articles/lg_b4_oled',
-    image: '/images/placeholder-product.svg',
     summary: 'Entry-level OLED that still delivers the core OLED benefits — perfect blacks, infinite contrast, and a wide color gamut — at a great price.',
     score: 9.0,
     price: '$899',

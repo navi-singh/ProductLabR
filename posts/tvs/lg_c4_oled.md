@@ -64,6 +64,28 @@ ratingBreakdown:
       score: 7.8
     - name: "Audio"
       score: 7.5
+image: "/images/posts/tvs/lg_c4_oled/lg_c4_oled_main.avif"
+productImage: "/images/posts/tvs/lg_c4_oled/lg_c4_oled_main.avif"
+imageCredit: "LG Electronics"
+imageSource: "LG.com"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/tvs/lg_c4_oled/lg_c4_oled_angle2.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_c4_oled/lg_c4_oled_angle3.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_c4_oled/lg_c4_oled_angle4.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_c4_oled/lg_c4_oled_angle5.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -80,6 +102,10 @@ The C4 slots into LG's 2024 lineup between the entry-level B4 and the flagship G
 
 The WOLED evo panel is the heart of this television. Unlike traditional LCD/LED displays that rely on a backlight shining through liquid crystals, every pixel in the C4 generates its own light — and more importantly, can switch off completely. The result is a contrast ratio that is, for practical purposes, infinite. Blacks in dark scenes are not dark gray; they are black. Shadow detail in films like *Blade Runner 2049* or *Dune* is preserved with a precision no LED backlight can match.
 
+![LG C4 OLED](/images/posts/tvs/lg_c4_oled/lg_c4_oled_angle2.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
+
 HDR performance is where the C4 story gets nuanced. The peak HDR brightness sits at approximately 1,000 nits on a small 10% window — meaningfully higher than the C3's ~800 nits and sufficient to make specular highlights in Dolby Vision content genuinely pop. However, when brightness is sustained across a large portion of the screen — a bright outdoor scene, say — the panel dims to around 160 nits to manage heat. This is an inherent OLED trade-off, and in a typical darkened viewing environment it is rarely an issue. In a sunlit room, a high-end Mini-LED competitor will outshine the C4.
 
 Dolby Vision IQ uses the built-in ambient light sensor to dynamically adjust tone mapping curves. In practice, this means the picture looks correct whether you are watching at noon with the blinds open or at midnight in total darkness. It is one of the most useful smart HDR implementations available, and paired with the Alpha9 Gen7's upgraded AI upscaling engine, even 1080p content looks remarkably clean.
@@ -91,6 +117,10 @@ Color accuracy is class-leading. The C4 covers 99% of the DCI-P3 color space and
 ## Gaming Performance
 
 This is where the LG C4 does not merely compete — it dominates. Reviewers have measured input lag at approximately 1.2 milliseconds at 4K/120Hz in Game Optimizer mode, a figure so low it essentially cannot be felt. For context, human reaction times are measured in hundreds of milliseconds; the C4's lag is perceptually zero.
+
+![LG C4 OLED](/images/posts/tvs/lg_c4_oled/lg_c4_oled_angle3.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
 
 All four HDMI ports are full-bandwidth 2.1, supporting 48 Gbps bandwidth. This means PS5, Xbox Series X, and a gaming PC can all be connected simultaneously at 4K/120Hz with no compromise or port-hunting. Many competing TVs — even expensive ones — restrict full HDMI 2.1 bandwidth to only two ports.
 
@@ -104,6 +134,10 @@ For competitive gaming on PC, the C4 also supports 4K/144Hz via DisplayPort-over
 
 webOS 24 is a significant evolution of LG's platform. The home screen has been reorganized around content cards rather than app rows, and the AI recommendation engine has grown genuinely useful — suggesting content across connected streaming services based on what you actually watch, not what LG is paid to promote. The Magic Remote remains the most intuitive TV remote on the market, combining a point-and-click cursor with voice control via both Google Assistant and Amazon Alexa.
 
+![LG C4 OLED](/images/posts/tvs/lg_c4_oled/lg_c4_oled_angle4.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
+
 The ThinQ AI integration allows app pairing with your phone and basic smart home control. Screen Share via AirPlay 2 and Miracast is reliable and low-latency. The app library covers all major streaming services — Netflix, Disney+, Apple TV+, HBO Max, Paramount+, Peacock, Hulu — though a handful of niche services are still absent.
 
 One genuine concern: LG has moved toward a more ad-forward home screen in recent years, serving promotional content alongside your apps. It can be pared back in settings, but the default experience feels commercial.
@@ -113,6 +147,10 @@ One genuine concern: LG has moved toward a more ad-forward home screen in recent
 ## Audio
 
 The C4's built-in 40W, 2.2-channel audio system is the weakest component of an otherwise excellent package. LG's AI Sound Pro processing does a creditable job of simulating spatial audio from streaming services' Dolby Atmos tracks, and dialog clarity is good. But bass extension is limited, and the system lacks the power and driver excursion to fill a large room. The WiSA-compatible speaker outputs and eARC-enabled HDMI port (port 2) make pairing with a soundbar or AV receiver clean and simple. Plan to spend another $300–$500 on audio if this is your primary TV.
+
+![LG C4 OLED](/images/posts/tvs/lg_c4_oled/lg_c4_oled_angle5.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
 
 ---
 

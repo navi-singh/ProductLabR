@@ -66,6 +66,28 @@ ratingBreakdown:
       score: 7.6
     - name: "Audio"
       score: 8.5
+image: "/images/posts/tvs/samsung_qn90c/samsung_qn90c_main.webp"
+productImage: "/images/posts/tvs/samsung_qn90c/samsung_qn90c_main.webp"
+imageCredit: "Samsung Electronics"
+imageSource: "Samsung.com (AE region)"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/tvs/samsung_qn90c/samsung_qn90c_angle2.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_qn90c/samsung_qn90c_angle3.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_qn90c/samsung_qn90c_angle4.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_qn90c/samsung_qn90c_angle5.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -82,6 +104,10 @@ The QN90C is Samsung's answer to the OLED question: instead of perfect blacks, o
 
 The headline specification is real: reviewers have measured approximately 2,000 nits of peak HDR brightness on a 10% white window in Cinema or Dynamic mode. Across larger portions of the screen, the television can sustain around 1,400 nits before thermal management begins gently rolling back output. These are numbers that simply do not exist on OLED panels.
 
+![Samsung QN90C Neo QLED](/images/posts/tvs/samsung_qn90c/samsung_qn90c_angle2.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
+
 What does that mean on screen? In a bright room, HDR content on the QN90C genuinely pops in a way that OLED cannot replicate. Specular highlights — sunlight glinting off water, lightning flashes, lens flares — have a physical intensity that pulls you into the content. Samsung's HDR10+ processing dynamically adjusts tone mapping per scene, and while it lacks the near-universal Dolby Vision compatibility of LG's C4, HDR10+ content (Amazon Prime Video, Samsung TV Plus) looks exceptional.
 
 Quantum Matrix Technology Pro provides fine-grained backlight control through 792 local dimming zones on the 65-inch panel. By Mini LED standards, this is very good. But the physics of LCD mean that some haloing — a faint halo of light around bright objects set against dark backgrounds — remains visible in carefully chosen test content. In real viewing conditions, it is rarely distracting.
@@ -95,6 +121,10 @@ One genuine weakness: viewing angles. The QN90C uses a VA (Vertical Alignment) p
 ## Gaming Features
 
 Samsung has built a comprehensive gaming suite into the QN90C that competes directly with LG's Game Optimizer. The Game Bar overlay — accessible with a button press during gameplay — provides a heads-up display for input lag mode, VRR status, refresh rate, and black equalizer.
+
+![Samsung QN90C Neo QLED](/images/posts/tvs/samsung_qn90c/samsung_qn90c_angle3.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
 
 AMD FreeSync Premium Pro support is certified and functional, with a VRR range spanning 48 to 144Hz. At 144Hz (on the two HDMI 2.1 ports), the QN90C is one of the few TVs to support this higher ceiling for PC gamers with capable GPUs. Reviewers measure input lag at 4K/120Hz at approximately 4 milliseconds — not OLED-class, but firmly below the threshold of perceptibility for the vast majority of players.
 
@@ -117,6 +147,10 @@ The app library is comprehensive: Netflix, Disney+, Apple TV+, Prime Video, HBO 
 ## Audio
 
 The QN90C's 60W, 4.2.2-channel Object Tracking Sound+ system is a genuine step above the category average. The speaker array is distributed behind the panel to physically track and localize sound to whatever is happening on screen — explosions sound like they come from where you see them, dialog tracks with moving characters. Dolby Atmos decoding is handled natively, and vertical channel simulation from the up-firing elements creates a modest but real sense of ceiling-height audio.
+
+![Samsung QN90C Neo QLED](/images/posts/tvs/samsung_qn90c/samsung_qn90c_angle4.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
 
 It is still not a substitute for a dedicated soundbar or surround sound system in a large room, but it is the best built-in audio arrangement on any television in this price range. The eARC-enabled port (HDMI 3) allows lossless audio passthrough to compatible soundbars and receivers.
 

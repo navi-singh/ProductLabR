@@ -53,6 +53,28 @@ ratingBreakdown:
       score: 6.8
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -90,6 +112,10 @@ weight the system toward more power (additional inverters, up to a 21,600W ceili
 more endurance (additional batteries, up to 90kWh), depending on whether your problem is
 starting heavy loads or riding out long outages.
 
+![EcoFlow DELTA Pro Ultra](/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle2.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
+
 A detail that reads like a footnote but is not: EcoFlow says the battery self-heats when
 temperatures drop below 32F, allowing the pack to charge and discharge normally in cold
 conditions. Lithium chemistry is notoriously unhappy about charging below freezing, and
@@ -122,6 +148,10 @@ split-phase, so it does not merely power appliances through extension cords — 
 back real 240V circuits: a well pump, an electric dryer, a heat-pump air handler, a
 range. That is the line that separates a whole-home unit from a large portable one, and
 plenty of otherwise-capable stations never cross it.
+
+![EcoFlow DELTA Pro Ultra](/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle3.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 Charging is flexible by design, with EcoFlow listing five ways to top the system up.
 The company does not publish a single tidy 0-to-100% figure on the fetched listing the

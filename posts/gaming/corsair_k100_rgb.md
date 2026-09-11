@@ -59,6 +59,28 @@ ratingBreakdown:
       score: 9.2
     - name: "RGB & Software"
       score: 9.6
+image: "/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_main.avif"
+productImage: "/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_main.avif"
+imageCredit: "Corsair"
+imageSource: "Corsair"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle2.avif"
+    credit: "Corsair"
+    source: "Corsair"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle3.avif"
+    credit: "Corsair"
+    source: "Corsair"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle4.avif"
+    credit: "Corsair"
+    source: "Corsair"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle5.avif"
+    credit: "Corsair"
+    source: "Corsair"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -79,6 +101,10 @@ For pure gaming, the OPX is excellent. For typists who depend on tactile feedbac
 
 The 8000Hz polling rate shared with the SteelSeries Apex Pro places the K100 at the theoretical ceiling of current keyboard input reporting. At 8000 reports per second, the maximum latency between a keypress and the operating system receiving the input is 0.125ms — effectively imperceptible in isolation but relevant in the aggregate when combined with low-latency displays, mice, and low-ping network connections for competitive gaming.
 
+![Corsair K100 RGB](/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle2.avif)
+
+*Corsair / Corsair (Manufacturer product image)*
+
 Full N-Key Rollover ensures no input is dropped regardless of how many keys are simultaneously held — a baseline requirement for competitive gaming that the K100 meets without qualification. The 1.0mm OPX actuation is among the fastest in production keyboards, registering inputs earlier in the keystroke travel than competitors with 1.5–2.0mm actuation points.
 
 The 6 dedicated macro keys along the left edge enable complex command sequences, ability rotations, or scripted inputs to be bound to single physical keys with tactile confirmation. For MMO and MOBA players who benefit from deep macro configuration, the K100 provides more programmable real estate without displacing standard keys than most competitors.
@@ -87,6 +113,10 @@ The 6 dedicated macro keys along the left edge enable complex command sequences,
 
 The anodized brushed aluminum frame is the K100's construction showcase. The surface is machine-finished to a level of precision that makes direct contact feel less like consumer electronics and more like precision tooling. There is zero flex anywhere on the keyboard surface — pressing with full force produces no perceptible movement or acoustic change. The aluminum extends across the entire top surface, including the dedicated media zone above the numpad, which feels as solid as the main key area.
 
+![Corsair K100 RGB](/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle3.avif)
+
+*Corsair / Corsair (Manufacturer product image)*
+
 At 1300 grams, the K100 is not moving accidentally. On a standard desk surface without a pad, the keyboard stays positioned through aggressive gaming sessions without drifting. The rubber feet on the underside provide additional purchase, and adjustable height feet allow two angle positions for typing preference.
 
 The dual USB-A cable design means the keyboard occupies two host ports — one for the keyboard's data and power, one for the USB passthrough port on the keyboard body. The passthrough supports USB 2.0 and is positioned on the right side of the keyboard for convenient connection of headsets, USB drives, or secondary peripherals. This design is unusual but genuinely convenient for users with rear-panel-only USB configurations on their desktop.
@@ -94,6 +124,10 @@ The dual USB-A cable design means the keyboard occupies two host ports — one f
 ## RGB & Software
 
 The 44-zone dynamic RGB system is the most sophisticated keyboard lighting implementation Corsair has produced, and it shows. The per-key LEDs are individually addressable with accurate color reproduction across the full spectrum, and the light diffusion through the translucent keycap legends is even and bright without hotspotting. The iCUE Control Wheel — a physical rotary dial with 6-zone RGB of its own — adds a dimension of ambient illumination and tactile interaction to the keyboard surface that no competing keyboard offers.
+
+![Corsair K100 RGB](/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle4.avif)
+
+*Corsair / Corsair (Manufacturer product image)*
 
 Corsair iCUE software is the most feature-complete keyboard configuration platform available, enabling per-key lighting programming, game-specific profile automation, hardware synchronization across Corsair peripherals, and deep macro scripting. iCUE's integration with hundreds of game titles for dynamic lighting that responds to in-game events — health, ammo, ability cooldowns — represents the most developed game integration of any keyboard software platform.
 
