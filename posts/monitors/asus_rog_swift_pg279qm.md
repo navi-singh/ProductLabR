@@ -54,6 +54,28 @@ ratingBreakdown:
       score: 9.0
     - name: "Value"
       score: 7.5
+image: "/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_main.png"
+productImage: "/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_main.png"
+imageCredit: "ASUS"
+imageSource: "ASUS"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_angle2.png"
+    credit: "ASUS"
+    source: "ASUS"
+    license: "Manufacturer product image"
+  - src: "/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_angle3.png"
+    credit: "ASUS"
+    source: "ASUS"
+    license: "Manufacturer product image"
+  - src: "/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_angle4.png"
+    credit: "ASUS"
+    source: "ASUS"
+    license: "Manufacturer product image"
+  - src: "/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_angle5.png"
+    credit: "ASUS"
+    source: "ASUS"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -66,6 +88,10 @@ The PG279QM does not try to compete with Samsung's Odyssey G7 on contrast or imm
 
 ASUS's Fast IPS panel technology is the critical differentiator from standard IPS. By overdriving the liquid crystal cells more aggressively, Fast IPS achieves pixel transitions closer to 1ms GtG in real-world measurement — substantially better than the 4–5ms GtG typical of conventional IPS panels. The practical effect is that ghosting at 240Hz is nearly imperceptible, and the motion clarity advantage over slower IPS panels is visible in side-by-side comparison.
 
+![ASUS ROG Swift PG279QM](/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_angle2.png)
+
+*ASUS / ASUS (Manufacturer product image)*
+
 At 2560x1440 on a 27-inch panel, the pixel density of 109 PPI is the sweet spot of the current generation: text is crisp and readable without requiring display scaling, in-game detail is noticeably sharper than 1080p, and the resolution is achievable at high frame rates without requiring a flagship GPU. This is the resolution tier where most serious PC gamers operate in 2026.
 
 Color coverage is a genuine strength. The 98% DCI-P3 rating is outstanding for a gaming panel — it matches or exceeds most "professional" monitors at this price and means games mastered in wide color gamut look strikingly vivid. The factory calibration is above average for a gaming monitor, with Delta E averages typically measured in the 2–3 range out of the box. An sRGB emulation mode is available in the OSD for color-managed workflows, which is a meaningful inclusion competitors often omit.
@@ -75,6 +101,10 @@ HDR is the weakest point. DisplayHDR 400 certification requires only 400 nits pe
 ## Gaming Performance
 
 The PG279QM's gaming performance is best-in-class at 1440p. The Fast IPS panel, hardware G-Sync, and 240Hz ceiling combine into an experience that is technically the most refined available at this resolution and size. G-Sync's hardware implementation — as opposed to the software-based G-Sync Compatible certification other monitors use — delivers smoother variable refresh rate performance across the supported 1–240Hz range, with less occasional frame pacing inconsistency than FreeSync solutions.
+
+![ASUS ROG Swift PG279QM](/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_angle3.png)
+
+*ASUS / ASUS (Manufacturer product image)*
 
 The NVIDIA Reflex Latency Analyzer is a unique ROG feature: a dedicated USB-C port connects to a Reflex-compatible mouse, and the monitor measures total system latency from click to pixel. It is a genuinely useful tool for competitive players tuning their setup, and it represents the kind of thoughtful ecosystem integration that justifies the ROG premium over generic 240Hz alternatives.
 
@@ -89,6 +119,10 @@ For professional colorists who need sub-1 Delta E accuracy with hardware calibra
 ## Connectivity & Ergonomics
 
 The three HDMI 2.0 ports are unusual and genuinely practical for users with multiple sources — a PC, a console, and a streaming device can all stay connected simultaneously. The single DisplayPort 1.4 input handles PC gaming at full 240Hz. The absence of HDMI 2.1 means console users are limited to 1080p or 1440p at high refresh rates rather than 4K 120Hz, but the PG279QM was clearly designed as a PC gaming display first.
+
+![ASUS ROG Swift PG279QM](/images/posts/monitors/asus_rog_swift_pg279qm/asus_rog_swift_pg279qm_angle4.png)
+
+*ASUS / ASUS (Manufacturer product image)*
 
 Ergonomics are comprehensive: 0–100mm height adjustment, ±25° swivel, -5° to +20° tilt, and full 90° clockwise portrait pivot. The ROG stand is robust and fully adjustable, accommodating a wide range of seating and desk configurations. The monitor chassis features ROG's signature angular styling and an Aura Sync RGB accent on the rear — visible as ambient lighting behind the monitor when placed near a wall.
 

@@ -56,6 +56,28 @@ ratingBreakdown:
       score: 7.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_main.jpg"
+productImage: "/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_main.jpg"
+imageCredit: "DJI"
+imageSource: "DJI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle2.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle3.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle4.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle5.jpg"
+    credit: "DJI"
+    source: "DJI"
+    license: "Manufacturer product image"
 ---
 
 ## First Look
@@ -89,6 +111,10 @@ millimetres, or 17.64 by 8.86 by 12.76 inches. That mass is on the heavy side
 for the 2,048Wh it stores; several rivals deliver the same capacity for six to
 nine pounds less. The weight buys durability and, presumably, the structure
 needed for the expansion system, but it is not a unit you reposition casually.
+
+![DJI Power 2000](/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle2.jpg)
+
+*DJI / DJI (Manufacturer product image)*
 
 The port layout is where DJI's thinking shows through, and it is unusually
 opinionated. There are four AC outputs and a single AC input, four USB-C ports,
@@ -126,6 +152,10 @@ point is a documentation failure, not a design one; the unit surely has a surge
 ceiling, but a buyer trying to confirm it can start a well pump or a power saw is
 left without the number they need. For a company this large, that omission is
 hard to excuse.
+
+![DJI Power 2000](/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle3.jpg)
+
+*DJI / DJI (Manufacturer product image)*
 
 Charging is a bright spot. DJI specifies a 0-80% AC recharge in about 55 minutes
 on US 120V power, which is a genuinely fast top-up for a 2,048Wh pack. The company

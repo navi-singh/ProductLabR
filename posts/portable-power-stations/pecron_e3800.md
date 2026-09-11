@@ -59,6 +59,28 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 8.4
+image: "/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -81,6 +103,10 @@ But if raw specifications and value per dollar matter most, the E3800 is impossi
 
 The E3800 arrives in utilitarian packaging — adequate protection without the premium unboxing theater of Anker or EcoFlow.
 
+![Pecron E3800](/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle2.webp)
+
+*Pecron / Pecron (Manufacturer product image)*
+
 At 87 lbs, it requires two people to move; built-in wheels handle the job once out of the box.
 
 The touchscreen interface is a notable design choice — most competitors at this price use button-driven interfaces.
@@ -98,6 +124,10 @@ Build quality is functional and business-like rather than premium, but nothing f
 ### 3,000W Dual Solar Input: The Headline Spec
 
 Dual 1,500W solar ports accept two independent panel arrays.
+
+![Pecron E3800](/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle3.webp)
+
+*Pecron / Pecron (Manufacturer product image)*
 
 This is useful for mixed orientations or panel types that can't be efficiently series-combined.
 
@@ -154,6 +184,10 @@ For standard computer and networking equipment, 30–50ms is typically tolerable
 ### Solar Input Performance
 
 Testing with a 2,800W panel array under variable cloud conditions showed 2,400–2,650W actual input.
+
+![Pecron E3800](/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle4.webp)
+
+*Pecron / Pecron (Manufacturer product image)*
 
 The dual independent inputs allowed mixing a 1,500W east-facing array with a 1,000W south-facing array simultaneously.
 

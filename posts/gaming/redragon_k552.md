@@ -56,6 +56,28 @@ ratingBreakdown:
       score: 7.8
     - name: "RGB & Software"
       score: 7.5
+image: "/images/posts/gaming/redragon_k552/redragon_k552_main.webp"
+productImage: "/images/posts/gaming/redragon_k552/redragon_k552_main.webp"
+imageCredit: "Redragon"
+imageSource: "Redragon"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/gaming/redragon_k552/redragon_k552_angle2.webp"
+    credit: "Redragon"
+    source: "Redragon"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/redragon_k552/redragon_k552_angle3.webp"
+    credit: "Redragon"
+    source: "Redragon"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/redragon_k552/redragon_k552_angle4.webp"
+    credit: "Redragon"
+    source: "Redragon"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/redragon_k552/redragon_k552_angle5.webp"
+    credit: "Redragon"
+    source: "Redragon"
+    license: "Manufacturer product image"
 ---
 
 ## Overview: a cheap mechanical keyboard that understands the assignment
@@ -70,6 +92,10 @@ The result is a keyboard with a narrow but useful promise. If you are replacing 
 
 The K552 uses a tenkeyless layout, so it removes the numpad and keeps the function row, arrows, and navigation cluster. That makes it far easier to position a mouse comfortably than a full-size gaming keyboard, especially on small desks. The board measures 355 x 131 x 37mm, which is compact enough for gaming setups where mouse space matters but not as cramped as a 60 percent keyboard that hides arrows and function keys behind layers.
 
+![Redragon K552](/images/posts/gaming/redragon_k552/redragon_k552_angle2.webp)
+
+*Redragon / Redragon (Manufacturer product image)*
+
 The build is the best part of the product. A metal mounting plate sits above an ABS body, and that plate changes both feel and sound. Budget keyboards with all-plastic construction can flex when you press hard near the center. The K552 feels firmer because the switches are anchored to metal, and the 910g weight helps the board stay planted when you are gaming without a desk mat. It is not a premium aluminum case, but it has the kind of desk stability that many 35 USD peripherals lack.
 
 The ABS shell and keycaps are where the budget shows. ABS caps can develop shine on heavily used keys, and the legends may fade after 6–12 months of hard use. That is not a surprising defect; it is one of the compromises that gets the keyboard to this price. If you type for work all day and care about long-term keycap texture, a board with better caps is worth considering. If this is a first mechanical keyboard or a gaming-first purchase, the wear is tolerable.
@@ -81,6 +107,10 @@ The fixed cable is the most annoying design compromise. Braiding is better than 
 ## Performance and real-world testing: switches matter more than lighting
 
 The K552 feels like a mechanical keyboard because it is one. The switch choice is the most important decision you make before buying. Outemu Blue switches have a tactile click and a 60g actuation force. They are the loudest, most dramatic option, and they make the biggest impression if you are coming from a mushy membrane keyboard. They are also the easiest to regret in a shared room.
+
+![Redragon K552](/images/posts/gaming/redragon_k552/redragon_k552_angle3.webp)
+
+*Redragon / Redragon (Manufacturer product image)*
 
 Outemu Red switches use a lighter 45g linear action. They are the safest choice for gaming because the press is smoother, quieter, and easier to repeat quickly. If you play shooters, action games, or anything with rapid strafing and repeated key taps, Red is the version I would buy. Outemu Brown switches sit between those personalities with a 55g tactile feel and less click noise than Blue. Brown is the compromise for buyers who type a lot but do not want to advertise every keystroke.
 

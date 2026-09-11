@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface CamEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const cameras: CamEntry[] = [
     rank: 1,
     name: 'Sony A7 IV',
     href: '/articles/sony_a7_iv',
-    image: '/images/placeholder-product.svg',
     summary: 'Balanced photo/video performance with excellent value proposition and reliable Real-time Eye AF.',
     score: 9.0,
     price: '$2,498',
@@ -36,7 +35,6 @@ const cameras: CamEntry[] = [
     rank: 2,
     name: 'Nikon Z6 III',
     href: '/articles/nikon_z6_iii',
-    image: '/images/placeholder-product.svg',
     summary: 'Excellent hybrid specifications with 6K internal recording and outstanding 8-stop stabilization.',
     score: 8.9,
     price: '$2,499',
@@ -47,7 +45,6 @@ const cameras: CamEntry[] = [
     rank: 3,
     name: 'Canon EOS R6 Mark II',
     href: '/articles/canon_r6_mark_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'Excellent autofocus performance with great low-light capabilities and professional video features.',
     score: 8.8,
     price: '$2,499',
@@ -58,7 +55,6 @@ const cameras: CamEntry[] = [
     rank: 4,
     name: 'Panasonic Lumix S5 II',
     href: '/articles/lumix_s5_ii',
-    image: '/images/placeholder-product.svg',
     summary: '6K video recording with excellent stabilization and full-frame sensor at an approachable price.',
     score: 8.6,
     price: '$1,999',
@@ -68,7 +64,6 @@ const cameras: CamEntry[] = [
     rank: 5,
     name: 'Panasonic Lumix S1 II',
     href: '/articles/panasonic_lumix_s1_ii',
-    image: '/images/placeholder-product.svg',
     summary: 'High-quality 8K video in a versatile single body solution for video-focused creators.',
     score: 8.5,
     price: '$2,799',

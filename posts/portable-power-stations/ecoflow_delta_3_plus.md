@@ -56,6 +56,28 @@ ratingBreakdown:
       score: 7.7
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -66,11 +88,19 @@ The EcoFlow Delta 3 Plus sits near the top of EcoFlow's portable power lineup, c
 
 At 30.8 lbs (14kg), the Delta 3 Plus is a substantial unit with premium construction cues. EcoFlow's flagship packaging reflects the premium positioning with exceptional protection, comprehensive documentation, premium cables, and detailed setup guides for professional applications. The refined design features premium materials with sophisticated LED status indicators that provide both aesthetic appeal and functional system monitoring.
 
+![EcoFlow Delta 3 Plus](/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle2.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
+
 The build quality exemplifies EcoFlow's engineering excellence with precision manufacturing, premium components, and robust construction designed for demanding professional applications. The dual integrated handles provide secure carrying despite the substantial weight, while the expanded footprint accommodates the enhanced internal components and cooling systems.
 
 ## Key Features & Professional Engineering
 
 The Delta 3 Plus combines maximum capability with professional-grade features:
+
+![EcoFlow Delta 3 Plus](/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle3.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 - **2,400W Output (4,800W Surge)** – Industry-leading power capability for professional and demanding applications
 - **Professional UPS Function** – 10ms switchover time for critical equipment protection
@@ -123,6 +153,10 @@ Remote monitoring enables comprehensive oversight of home energy systems, with d
 ### Maximum Power Capability Testing
 Extensive testing across professional applications demonstrated the Delta 3 Plus's exceptional capability. Construction sites successfully operated multiple power tools simultaneously, while commercial kitchens powered high-draw equipment including commercial mixers, refrigeration, and cooking equipment.
 
+![EcoFlow Delta 3 Plus](/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle4.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
+
 Medical and laboratory applications confirmed reliable operation of sensitive equipment requiring clean, stable power with UPS protection. The combination of high output and professional UPS functionality makes it suitable for critical applications where power interruption could have serious consequences.
 
 ### Extended Runtime Analysis
@@ -139,6 +173,10 @@ Solar charging at 800W maximum input provides fastest renewable charging availab
 
 ### Professional-Grade Monitoring
 The enhanced EcoFlow app provides comprehensive monitoring and control capabilities designed for professional applications. Real-time data includes detailed power quality metrics, equipment load analysis, runtime predictions, and historical usage analytics.
+
+![EcoFlow Delta 3 Plus](/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle5.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 Professional features include equipment logging, maintenance scheduling, performance optimization recommendations, and comprehensive reporting capabilities suitable for commercial and critical applications.
 

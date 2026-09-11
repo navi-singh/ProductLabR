@@ -63,6 +63,28 @@ ratingBreakdown:
       score: 8.3
     - name: "Audio"
       score: 7.5
+image: "/images/posts/tvs/lg_b4_oled/lg_b4_oled_main.avif"
+productImage: "/images/posts/tvs/lg_b4_oled/lg_b4_oled_main.avif"
+imageCredit: "LG Electronics"
+imageSource: "LG.com"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/tvs/lg_b4_oled/lg_b4_oled_angle2.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_b4_oled/lg_b4_oled_angle3.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_b4_oled/lg_b4_oled_angle4.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_b4_oled/lg_b4_oled_angle5.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -76,6 +98,10 @@ The question buyers rightfully ask is: what do you actually give up? After testi
 ## Picture Quality & HDR
 
 The B4 uses the same fundamental WOLED panel technology as the C4 — individual organic light-emitting diodes that switch off completely to produce true pixel-level black. The contrast ratio is, for all practical purposes, infinite: a dark theater scene in *Oppenheimer* reveals shadow detail with the same precision you would see on the C4, the G4, or any OLED that LG sells.
+
+![LG B4 OLED](/images/posts/tvs/lg_b4_oled/lg_b4_oled_angle2.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
 
 The difference becomes apparent in HDR brightness. The C4's WOLED evo panel with Micro Lens Array (MLA) technology concentrates more photons toward the viewer, achieving approximately 1,000 nits on a 10% highlight window. The B4's panel, without MLA, reaches closer to 750 nits — still a creditable HDR performance figure, but one that makes specular highlights less arresting in side-by-side viewing. The gap widens in full-screen bright content, where the B4's sustained brightness of around 130 nits falls below the C4's sustained figure.
 
@@ -91,6 +117,10 @@ Dolby Vision IQ, shared with the more expensive models, uses the built-in light 
 
 The B4 is a remarkable gaming television at its price. Input lag in Game Optimizer mode has been measured at approximately 1.6ms at 4K/120Hz — higher than the C4's ~1.2ms, but still perceptually instantaneous and among the lowest figures measured on any display. For competitive gaming at any level, this is not a meaningful limitation.
 
+![LG B4 OLED](/images/posts/tvs/lg_b4_oled/lg_b4_oled_angle3.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
+
 The B4 supports G-Sync Compatible, FreeSync Premium, and HDMI Forum VRR across the same 40–120Hz range as the C4, meaning it handles variable refresh from PlayStation, Xbox, and PC simultaneously without configuration. ALLM is supported and works correctly. The Game Optimizer menu provides access to the same gaming settings as the C4, including Black Stabilizer for shadow detail visibility and a customizable gaming HUD overlay.
 
 The key difference from the C4 is the HDMI port configuration: the B4 provides two HDMI 2.1 (48Gbps) ports rather than four. Ports 1 and 4 are full-bandwidth 2.1; ports 2 and 3 are HDMI 2.0 (18Gbps, limited to 4K/60Hz or 1080p/120Hz). For a single-console household — a PS5 or Xbox on port 1, a streaming device or cable box on port 2 — this is a non-issue. For a multi-device gaming setup requiring simultaneous 4K/120Hz from console, PC, and a secondary device, the B4's port configuration will require a workaround.
@@ -103,6 +133,10 @@ The 0.1ms pixel response of the self-emissive OLED panel means fast motion in ga
 
 webOS 24 on the B4 is identical to webOS 24 on the C4 and G4. LG does not segment its software experience by price tier, which means B4 buyers get the same home screen, the same Magic Remote, the same AI content recommendations, and the same app library as owners of significantly more expensive LG televisions.
 
+![LG B4 OLED](/images/posts/tvs/lg_b4_oled/lg_b4_oled_angle4.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
+
 The Magic Remote, included in the box, is LG's trackpad-style pointer remote that allows users to navigate the interface by pointing at the screen. Paired with the voice control microphone, it is one of the most intuitive remotes in the industry. Google Assistant and Amazon Alexa are both available for voice commands.
 
 App availability covers all major streaming services. Screen Share via AirPlay 2 and Miracast is supported. ThinQ integration connects the TV to LG's smart home ecosystem for control of compatible appliances. The home screen's promotional content — ads and sponsored recommendations — remains a minor irritation that can be reduced in settings.
@@ -112,6 +146,10 @@ App availability covers all major streaming services. Screen Share via AirPlay 2
 ## Audio
 
 The B4's 40W, 2.2-channel audio system matches the C4's specifications and delivers similar performance: clear dialogue, competent Dolby Atmos simulation for surround content, and limited bass extension. AI Sound Pro processing adjusts equalization and virtualization based on the content type. It is adequate for everyday viewing in a typical sized room.
+
+![LG B4 OLED](/images/posts/tvs/lg_b4_oled/lg_b4_oled_angle5.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
 
 For film enthusiasts or anyone who wants immersive audio to match the B4's excellent picture, a soundbar is the right next step. The eARC-capable HDMI port (port 2) makes integration with an external audio system clean, and Sony's Acoustic Center Sync equivalent on LG — LG WOWCAST for compatible soundbars — allows wireless integration of a compatible LG soundbar without an HDMI cable.
 

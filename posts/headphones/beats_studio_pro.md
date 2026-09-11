@@ -59,6 +59,28 @@ ratingBreakdown:
       score: 7.3
     - name: "Call Quality"
       score: 8.5
+image: "/images/posts/headphones/beats_studio_pro/beats_studio_pro_main.jpg"
+productImage: "/images/posts/headphones/beats_studio_pro/beats_studio_pro_main.jpg"
+imageCredit: "Beats Electronics"
+imageSource: "Beats by Dre"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/headphones/beats_studio_pro/beats_studio_pro_angle2.jpg"
+    credit: "Beats Electronics"
+    source: "Beats by Dre"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/beats_studio_pro/beats_studio_pro_angle3.png"
+    credit: "Beats Electronics"
+    source: "Beats by Dre"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/beats_studio_pro/beats_studio_pro_angle4.jpg"
+    credit: "Beats Electronics"
+    source: "Beats by Dre"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/beats_studio_pro/beats_studio_pro_angle5.jpg"
+    credit: "Beats Electronics"
+    source: "Beats by Dre"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -77,6 +99,10 @@ Across Apple, Android, and PC devices, the Studio Pro's strongest case is unusua
 
 The Beats Studio Pro inherits the folding architecture that made previous Beats headphones travel-friendly, and improves it with a more refined execution. The steel-reinforced headband and rotating ear cups fold into a compact bundle that fits into the included premium hard-shell case with a satisfying fit. The case itself is fabric-wrapped with metal zipper pulls — it reads as premium and travels well.
 
+![Beats Studio Pro](/images/posts/headphones/beats_studio_pro/beats_studio_pro_angle2.jpg)
+
+*Beats Electronics / Beats by Dre (Manufacturer product image)*
+
 Physical controls replace the touch surfaces of the Sony XM5: a power button on the right cup, a dedicated ANC mode button, and multi-function playback controls. The tactile feedback of physical buttons is reassuring for wearers who struggle with accidental touch control triggers. There is no risk of accidentally skipping a track by brushing the ear cup with a jacket collar.
 
 At 260 grams, the Studio Pro is slightly heavier than the Sony XM5 (250g) but meaningfully lighter than the AirPods Max (385g). Clamping force is moderate, producing a secure seal without discomfort in typical listening sessions. The ear cushions use a soft foam material with a faux leather covering that breathes reasonably well — though extended wear in warm environments will cause more heat accumulation than perforated alternatives.
@@ -88,6 +114,10 @@ Four color options — Black, Deep Brown, Navy, and Sandstone — provide a rang
 ## Sound Quality
 
 The Beats Studio Pro's 40mm drivers produce a signature sound that is distinctly Beats: bass-forward, energetic, and consumer-tuned rather than reference-grade. The low-frequency response is the headphone's defining characteristic — bass is not just present but prominent, with a full, physical impact on bass-heavy music that gives electronic, hip-hop, and pop an immersive, almost speaker-like quality.
+
+![Beats Studio Pro](/images/posts/headphones/beats_studio_pro/beats_studio_pro_angle3.png)
+
+*Beats Electronics / Beats by Dre (Manufacturer product image)*
 
 Midrange clarity is good but takes a slight back seat to the bass emphasis — vocals are present and intelligible but sit behind the bass energy in the mix. Treble is smooth and non-fatiguing, extending reasonably well through 15 kHz without the brightness or harshness that bass-boosted headphones sometimes produce.
 
@@ -112,6 +142,10 @@ The ANC mode button cycles through three states: Active Noise Cancelling, Transp
 ## Battery & Connectivity
 
 The 40-hour battery life with ANC is the Studio Pro's second most impressive technical achievement after USB-C lossless audio. Independent battery tests have reported 39.2 hours at consistent ANC and 70 dB playback — essentially on spec. This places it above the Sony XM5 (30 hours) and Bose QC Ultra (24 hours), and only behind the Sennheiser Momentum 4 (60 hours) in the premium segment.
+
+![Beats Studio Pro](/images/posts/headphones/beats_studio_pro/beats_studio_pro_angle4.jpg)
+
+*Beats Electronics / Beats by Dre (Manufacturer product image)*
 
 The 10-minute fast charge providing 4 hours of playback is standard for the tier. No wireless charging is included.
 

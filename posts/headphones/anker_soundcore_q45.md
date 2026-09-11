@@ -64,6 +64,28 @@ ratingBreakdown:
       score: 7.9
     - name: "Value"
       score: 9.3
+image: "/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_main.webp"
+productImage: "/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_main.webp"
+imageCredit: "Anker Innovations"
+imageSource: "Anker Soundcore"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_angle2.webp"
+    credit: "Anker Innovations"
+    source: "Anker Soundcore"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_angle3.webp"
+    credit: "Anker Innovations"
+    source: "Anker Soundcore"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_angle4.webp"
+    credit: "Anker Innovations"
+    source: "Anker Soundcore"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_angle5.webp"
+    credit: "Anker Innovations"
+    source: "Anker Soundcore"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -79,6 +101,10 @@ Across daily commuting and travel scenarios, the Q45's value is best understood 
 ## Sound Quality
 
 The Q45's 40mm drivers deliver a V-shaped sound signature — boosted bass and treble with a slightly recessed mid-range. Out of the box, this sounds lively and engaging for pop, electronic, hip-hop, and any genre that benefits from low-end weight. The default tuning can feel congested on complex orchestral recordings or acoustic jazz, where mid-range detail matters more.
+
+![Anker Soundcore Space Q45](/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_angle2.webp)
+
+*Anker Innovations / Anker Soundcore (Manufacturer product image)*
 
 The Soundcore app's 22-band equalizer is legitimately impressive for the price. Dialing back the bass shelf by 2–3 dB and adding 1–2 dB to the upper mid-range produces a significantly more balanced response that serves a wider range of genres. This degree of EQ granularity typically arrives in headphones costing $150–$200 or more.
 
@@ -103,6 +129,10 @@ For budget commuters and office workers, the Q45's ANC delivers genuine utility.
 
 The Q45 is a plastic headphone, and it looks and feels like one. The construction is not flimsy — hinges and sliders have adequate stiffness, with enough resilience for normal bag bumps and adjustment — but there is no mistaking the material grade for aluminum or stainless steel.
 
+![Anker Soundcore Space Q45](/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_angle3.webp)
+
+*Anker Innovations / Anker Soundcore (Manufacturer product image)*
+
 The ear cushions are protein leather over foam in an oval shape. Padding is adequate but shallower than the Bose QC45's plush cushions, and users with larger ears occasionally reported contact between their ear and the driver grille. Clamping force is firmer than Bose QC-series headphones — useful for secure fit during movement, but contributing to noticeable pressure over sessions longer than three hours.
 
 At 253 grams, the Q45 is comparable in weight to the Sony XM5 (250g) but heavier than the Bose QC45 (238g). Weight distribution is even. The wear detection sensor, which automatically pauses playback when the headphones are lifted off the head, is a feature that many headphones costing twice as much do not include.
@@ -114,6 +144,10 @@ The hard-shell carry case is a genuine highlight. A hard case at $79 typically s
 ## Features & Connectivity
 
 The Soundcore app is functional and well-designed for the price. Beyond the 22-band EQ, it provides ANC level presets, transparency mode control, a sleep timer, and game mode (low-latency processing for mobile gaming). Firmware updates are delivered through the app.
+
+![Anker Soundcore Space Q45](/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_angle4.webp)
+
+*Anker Innovations / Anker Soundcore (Manufacturer product image)*
 
 Multipoint Bluetooth 5.3 enables simultaneous connection to a phone and laptop. Device switching is quick and reliable. The quick charge feature — 5 minutes for 4 hours of playback — is practically useful and more capable than the Bose QC45's 15-minute quick charge.
 

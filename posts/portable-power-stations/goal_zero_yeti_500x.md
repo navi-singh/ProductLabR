@@ -48,6 +48,28 @@ ratingBreakdown:
       score: 8.1
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_main.webp"
+productImage: "/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_main.webp"
+imageCredit: "Goal Zero"
+imageSource: "Goal Zero"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle2.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle3.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle4.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle5.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -59,6 +81,10 @@ Let us be clear about what this unit is for, because the old marketing oversold 
 ## Design and Build
 
 Goal Zero has always built rugged, tidy hardware, and the 500X is a good example. At 12.9 pounds it is genuinely portable, with a fixed handle and a squat, stable footprint that rides well in a trunk or a van. The front panel is clean: a crisp display shows input and output in watts, remaining charge as a percentage, and estimated time to empty or full. That readout alone makes the unit easier to live with than stations that leave you guessing about how much time you have left. The estimate updates as your load changes, so you can watch the cost of switching on a second device in real time.
+
+![Goal Zero Yeti 500X](/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle2.webp)
+
+*Goal Zero / Goal Zero (Manufacturer product image)*
 
 The port array covers two AC outlets, multiple USB ports including USB-C Power Delivery, and 12-volt outputs for car-style accessories. The 6mm and Anderson-style inputs make it a natural fit for Goal Zero's own solar panels, which is a real convenience if you are already in that ecosystem. Two AC outlets is enough for a laptop and a fan at once, though you will rarely have the wattage headroom to load both heavily. Fit and finish are a step above budget stations, and the whole thing feels built to be knocked around a campsite for years. The rubberized corners shrug off knocks, and the ports sit under a layout that is easy to read even by headlamp. This is hardware you can hand to a less careful family member without wincing.
 

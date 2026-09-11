@@ -54,6 +54,28 @@ ratingBreakdown:
       score: 7.6
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle2.jpg"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -64,9 +86,17 @@ The BLUETTI AC180 sits in the sweet spot for portable power stations, offering s
 
 At 35.2 lbs (16kg), the AC180 strikes an impressive balance between capacity and portability. BLUETTI packages the unit securely with comprehensive accessories including AC charging cable, solar charging cable, car charging cable, and detailed documentation. The build centers on robust plastic construction and a matte finish that resists fingerprints and scratches. The integrated top handle provides comfortable carrying, while the compact footprint (13.4 x 9.8 x 12.5 inches) makes storage straightforward. The LCD display is bright and informative, reinforcing its professional equipment positioning for reliable performance.
 
+![BLUETTI AC180](/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle2.jpg)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
+
 ## Key Features & Design
 
 The AC180 combines practical capacity with user-focused engineering:
+
+![BLUETTI AC180](/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle3.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 - **1,152Wh LiFePO4 Battery** – Safe chemistry with 3,500+ cycle lifespan for long-term value
 - **1,800W Output (2,700W Surge)** – Powers most household appliances and tools  
@@ -81,6 +111,10 @@ The design emphasizes accessibility and durability. The compact form factor maxi
 
 ### Home Backup & UPS Performance
 Real-world testing confirmed the AC180 excels as reliable home backup with 20ms UPS switchover, ensuring minimal interruption for essential devices. During extended power outages, it powered a refrigerator, WiFi router, multiple devices, and LED lighting for 6-8 hours continuously. The UPS mode proved invaluable for maintaining internet connectivity and protecting sensitive electronics from power fluctuations.
+
+![BLUETTI AC180](/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle4.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 The LCD display provides excellent monitoring capabilities, showing real-time power consumption and accurate runtime estimates. While the 20ms switching time isn't as fast as premium units, it's sufficient for most backup applications excluding the most sensitive medical equipment.
 
@@ -99,6 +133,10 @@ Testing with various solar setups confirmed reliable MPPT charge controller perf
 The **BLUETTI AC180** is designed for both portability and durability. It features a sturdy casing with reinforced corners, ensuring protection against minor impacts and wear. The handle is ergonomically designed for comfortable carrying, and its compact dimensions make it convenient to store in an RV, car trunk, or home.
 ![BLUETTI AC180 build quality View](/images/posts/portable-power-stations/bluetti_ac180/AC180_1.jpg)
 The LCD display provides real-time data on battery status, input/output power, and remaining runtime, making it easy to monitor energy consumption. The interface is intuitive, with clearly labeled buttons and ports, ensuring a seamless user experience.
+
+![BLUETTI AC180](/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle5.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 ## Performance and Usability
 

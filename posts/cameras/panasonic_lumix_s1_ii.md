@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 8.3
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_main.jpg"
+productImage: "/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_main.jpg"
+imageCredit: "昼落ち"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC0"
+gallery:
+  - src: "/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_angle2.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC0"
+  - src: "/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_angle3.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC0"
+  - src: "/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_angle4.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC0"
+  - src: "/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_angle5.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC0"
 ---
 
 ## Introduction
@@ -59,6 +81,10 @@ The 24.2MP resolution is a deliberate choice, not a limitation Panasonic couldn'
 ## Design and handling
 
 Panasonic did not reinvent the chassis, and that's fine. The S1 II is a substantial magnesium-alloy body of roughly 800g that feels built to be rained on, with weather sealing Panasonic positions for professional field use. The grip is deep enough for large lenses, the top-plate status display is still there, and the control layout will be instantly legible to anyone coming from an S5 II or the original S1.
+
+![Panasonic Lumix S1 II](/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_angle2.jpg)
+
+*昼落ち / Wikimedia Commons (CC0)*
 
 The joystick, the tactile dials, and the fully articulating rear screen that also tilts are the ergonomic highlights — a rare combination that lets you flip the screen out for a vlog and still tilt it for a low waist-level stills angle. The electronic viewfinder is high-resolution and large, the kind of finder you can manually focus a vintage lens through without squinting. Two things bear mentioning: the menu system remains dense, with video and photo settings living in sprawling tabbed trees, and Panasonic's willingness to expose every parameter is a blessing for a colorist and a headache for a beginner. Budget an afternoon to build custom menus before your first real shoot.
 

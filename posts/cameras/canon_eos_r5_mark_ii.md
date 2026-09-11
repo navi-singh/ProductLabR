@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 7.8
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_main.jpg"
+productImage: "/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_main.jpg"
+imageCredit: "D. Benjamin Miller"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC0"
+gallery:
+  - src: "/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_angle2.jpg"
+    credit: "D. Benjamin Miller"
+    source: "Wikimedia Commons"
+    license: "CC0"
+  - src: "/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_angle3.jpg"
+    credit: "GodeNehler"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_angle4.jpg"
+    credit: "GodeNehler"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_angle5.jpg"
+    credit: "Dinkun Chen"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## First look: who this camera is actually built for
@@ -53,6 +75,10 @@ It mostly earns that ambition. But the sticker reads $4,299 body-only, which is 
 ## Build, controls, and the thermal design question
 
 Pick it up and the R5 Mark II feels like a Canon pro body, because it essentially is one. It weighs roughly 746 grams with a card and battery, the magnesium-alloy chassis carries the same weather sealing Canon has trusted for years, and the grip suits larger hands better than any mirrorless rival short of the R3. The control layout will be muscle memory for anyone coming from an R5 or R6: the top mode dial, the smart controller nub on the rear, the customizable multi-function bar's absence in favor of proper buttons. Canon did not reinvent the ergonomics, and that restraint is the right call.
+
+![Canon EOS R5 Mark II](/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_angle2.jpg)
+
+*D. Benjamin Miller / Wikimedia Commons (CC0)*
 
 Two changes matter. The first is a new battery. The R5 Mark II runs on the LP-E6P, a higher-output cell that the older LP-E6NH cannot fully replace for the demanding drive modes — your old batteries will work, but not at the camera's peak. Canon rates it for roughly 340 frames through the viewfinder and about 630 using the rear screen under CIPA testing, and in real bursts you will empty a pack faster than those numbers suggest because the stacked sensor and heavy processing are power-hungry. Carry two spares. The second change is thermal: Canon redesigned the internal heat path and offers a clip-on cooling fan grip, the CF-R20EP, for video shooters who intend to roll long takes.
 

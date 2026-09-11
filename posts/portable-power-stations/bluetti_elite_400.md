@@ -55,6 +55,24 @@ ratingBreakdown:
       score: 7.4
     - name: "Runtime"
       score: 9.5
+image: "/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -77,6 +95,10 @@ For the wrong buyer — someone who needs to run kitchen appliances, a microwave
 
 The Elite 400 immediately stands out from its siblings in the Bluetti lineup: the build quality is noticeably higher.
 
+![Bluetti Elite 400](/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle2.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
+
 Reviewers who have handled the Elite 200 V2 and Elite 300 consistently note that the Elite 400 feels like a different tier of construction.
 
 The handles are reinforced, the wheels roll on quality casters, and the removable side vents — allowing easy fan cleaning — signal long-term maintenance was considered in the design.
@@ -92,6 +114,10 @@ At 85 lbs, moving the unit requires the wheels for anything more than short dist
 ### The Inverter Trade-Off
 
 A 2,600W continuous inverter on a 3,840Wh battery means you'll run out of inverter headroom long before you run out of battery.
+
+![Bluetti Elite 400](/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle3.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 A window AC unit at 1,400W, a refrigerator at 200W, and lights at 100W puts you at 1,700W — comfortably within range.
 
@@ -138,6 +164,10 @@ If solar is your primary charging method, the Elite 400's slow recharge rate cre
 ### Runtime Measurements
 
 Testing on essential home circuit loads confirmed the Elite 400's runtime claims.
+
+![Bluetti Elite 400](/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle4.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 At 300W combined draw (fridge, lights, CPAP), the unit ran 9.1 hours before reaching 10% remaining — close to the theoretical 10+ hours.
 

@@ -48,6 +48,11 @@ ratingBreakdown:
       score: 8.6
     - name: "Value"
       score: 8.6
+image: "/images/posts/smart-home/google_nest_audio/google_nest_audio_main.jpg"
+productImage: "/images/posts/smart-home/google_nest_audio/google_nest_audio_main.jpg"
+imageCredit: "TaurusEmerald"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
 ---
 
 ## Overview: the Google speaker that sounds like it has priorities

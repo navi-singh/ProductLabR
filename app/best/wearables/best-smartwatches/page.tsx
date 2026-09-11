@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface WatchEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const watches: WatchEntry[] = [
     rank: 1,
     name: 'Apple Watch Series 10',
     href: '/articles/apple_watch_series_10',
-    image: '/images/placeholder-product.svg',
     summary: 'Apple\'s thinnest Watch ever with a wider always-on display, faster charge, sleep apnea detection, and the most comprehensive health suite on any smartwatch.',
     score: 9.3,
     price: '$399',
@@ -36,7 +35,6 @@ const watches: WatchEntry[] = [
     rank: 2,
     name: 'Samsung Galaxy Watch 7',
     href: '/articles/samsung_galaxy_watch_7',
-    image: '/images/placeholder-product.svg',
     summary: 'Best Android smartwatch with 3nm chip for improved efficiency, advanced body composition analysis, and Galaxy AI-powered health coaching.',
     score: 9.0,
     price: '$299',
@@ -47,7 +45,6 @@ const watches: WatchEntry[] = [
     rank: 3,
     name: 'Amazfit GTR 4',
     href: '/articles/amazfit_gtr_4',
-    image: '/images/placeholder-product.svg',
     summary: 'Exceptional two-week battery life with SpO2, ECG, comprehensive sports tracking, and Alexa built-in at a budget-friendly price that challenges pricier rivals.',
     score: 8.4,
     price: '$149',
@@ -58,7 +55,6 @@ const watches: WatchEntry[] = [
     rank: 4,
     name: 'Garmin Forerunner 265',
     href: '/articles/garmin_forerunner_265',
-    image: '/images/placeholder-product.svg',
     summary: 'Best smartwatch for runners with Garmin\'s unmatched training analytics, GPS accuracy, multi-sport tracking, and 15-day battery life.',
     score: 9.1,
     price: '$449',

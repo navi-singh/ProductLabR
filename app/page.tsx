@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         {featured && (
-          <div className="mt-5 grid items-center gap-6 md:grid-cols-2">
+          <div className={`mt-5 grid items-center gap-6 ${featured.image || featured.productImage ? 'md:grid-cols-2' : ''}`}>
             <div>
               <h1 className="type-display text-neutral-900">{featured.title}</h1>
               {featured.subtitle && (
@@ -74,15 +74,17 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative h-52 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-featured md:h-64">
-              <OptimizedImage
-                src={featured.image || featured.productImage || '/images/placeholder-product.svg'}
-                alt={featured.title}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-contain p-4"
-              />
-            </div>
+            {(featured.image || featured.productImage) && (
+              <div className="relative h-52 overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-featured md:h-64">
+                <OptimizedImage
+                  src={featured.image || featured.productImage}
+                  alt={featured.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-contain p-4"
+                />
+              </div>
+            )}
           </div>
         )}
       </section>

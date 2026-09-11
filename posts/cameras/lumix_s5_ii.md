@@ -49,6 +49,28 @@ ratingBreakdown:
       score: 8.7
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_main.jpg"
+productImage: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_main.jpg"
+imageCredit: "Henry Söderlund"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+gallery:
+  - src: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_angle2.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_angle3.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_angle4.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
+  - src: "/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_angle5.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Introduction
@@ -58,6 +80,10 @@ The Panasonic Lumix S5 II represents a pivotal moment for Panasonic's full-frame
 ## Unboxing & First Impressions
 
 Panasonic lists the S5 II at 714g with battery and card, and standard package contents commonly include the camera body, battery, charging accessories, USB-C cable, shoulder strap, and documentation. The magnesium-alloy construction, weather sealing, 3.68M-dot OLED viewfinder, and vari-angle LCD position it as a practical hybrid body for outdoor shooting, video work, and creators who need flexible composition angles.
+
+![Panasonic Lumix S5 II](/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_angle2.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 ## Key Features & Revolutionary Changes
 
@@ -78,6 +104,10 @@ The design maintains Panasonic's signature ergonomics while incorporating user f
 ### Phase-Detection Breakthrough
 The S5 II's most significant improvement addresses Panasonic's historical weakness: autofocus performance. The new phase-detection system with 779 points covers 100% of the sensor area, delivering dramatically improved subject acquisition and tracking compared to the contrast-only system in the original S5.
 
+![Panasonic Lumix S5 II](/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_angle3.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 Independent reviews report reliable subject tracking for portraits, wildlife, and sports photography. While not quite matching Sony's latest α7R V or Canon's R6 Mark II in absolute tracking performance, the improvement over previous Panasonic cameras is substantial. Face and eye detection is widely reported to work reliably for both humans and animals, with improved accuracy in challenging lighting conditions.
 
 ### Video Autofocus Capabilities
@@ -88,6 +118,10 @@ Focus breathing compensation helps maintain consistent framing during focus tran
 ## Performance and Usability
 
 The Lumix S5 II delivers exceptional performance in both photography and videography. The new phase-detection autofocus system is fast and accurate, making it easier to track moving subjects. The 5-axis IBIS ensures sharp images and smooth video footage, even when shooting handheld.
+
+![Panasonic Lumix S5 II](/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_angle4.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 ### Real-World Scenarios:
 - **Photography**: The 24.2MP sensor produces detailed and vibrant images, with excellent dynamic range and low-light performance.
@@ -154,6 +188,10 @@ Focus breathing compensation minimizes lens breathing effects during focus trans
 
 ### Sensor Performance & Dynamic Range
 The 24.2MP full-frame sensor delivers excellent image quality with impressive dynamic range approaching 14 stops. Color reproduction maintains Panasonic's natural color science, providing pleasing skin tones and accurate color rendition across diverse lighting conditions.
+
+![Panasonic Lumix S5 II](/images/posts/cameras/lumix_s5_ii/lumix_s5_ii_angle5.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 High ISO performance benefits from dual native ISO technology, with clean images extending to ISO 6400 and usable results to ISO 25600. The sensor's excellent latitude enables significant shadow recovery and highlight protection during post-processing.
 

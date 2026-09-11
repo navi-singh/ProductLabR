@@ -9,6 +9,9 @@ features:
   - "240v"
 image: "/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_main.webp"
 productImage: "/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "https://us.ecoflow.com/products/delta-pro-3-portable-power-station"
+imageLicense: "Manufacturer product image"
 
 specs:
   Capacity: "4096Wh (expandable to 48kWh)"

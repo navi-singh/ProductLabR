@@ -4,13 +4,9 @@ import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { withBasePath } from '@/lib/basePath';
 
-// A self-authored neutral placeholder. This must never be a real product photo:
-// it renders on every article whose image is missing, so anything recognisable
-// here would be shown as the product on articles about something else.
-const FALLBACK_SRC = '/images/placeholder-product.svg';
-
 interface OptimizedImageProps {
-  src: string;
+  /** Omit when no licensed photo exists — the component then renders nothing. */
+  src?: string | null;
   alt: string;
   fill?: boolean;
   sizes?: string;
@@ -34,74 +30,60 @@ export const OptimizedImage = ({
   height,
 }: OptimizedImageProps) => {
   const imgRef = useRef<HTMLImageElement | null>(null);
-  const [imgSrc, setImgSrc] = useState(() => withBasePath(src));
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
 
-  const handleError = () => {
-    const fallback = withBasePath(FALLBACK_SRC);
-
-    // First failure: retry with the placeholder and keep the loading shimmer up.
-    // Surfacing the error state here would paint "Image unavailable" over a
-    // placeholder that is about to load perfectly well.
-    if (imgSrc !== fallback) {
-      setImgSrc(fallback);
-      return;
-    }
-
-    // The placeholder itself is unreachable, so there is nothing left to show.
-    setHasError(true);
-    setIsLoading(false);
-  };
-
-  const handleLoad = () => {
-    setIsLoading(false);
-  };
+  const imgSrc = src ? withBasePath(src) : null;
 
   // Server-rendered images — especially `priority` ones — routinely finish
   // loading or failing before React hydrates, and a synthetic onLoad/onError
-  // is never dispatched for an event that already fired. Left alone that
-  // stranded a broken image with no fallback, and a cached image at opacity-0.
-  // So reconcile against the element's settled state once on mount.
+  // is never dispatched for an event that already fired, which stranded cached
+  // images at opacity-0. So reconcile against the element's settled state.
   useEffect(() => {
+    setHasError(false);
+    setIsLoading(true);
+
     const img = imgRef.current;
     if (!img || !img.complete) return;
 
-    if (img.naturalWidth === 0) {
-      handleError();
-    } else {
-      setIsLoading(false);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (img.naturalWidth === 0) setHasError(true);
+    else setIsLoading(false);
   }, [imgSrc]);
 
+  // Reviews without a licensed product photo render no image at all. We
+  // deliberately do not substitute a placeholder graphic: an empty space is
+  // honest, whereas a stand-in reads as "here is the product" and previously
+  // led to the wrong product being shown.
+  if (!imgSrc || hasError) return null;
+
+  const img = (
+    <Image
+      ref={imgRef}
+      src={imgSrc}
+      alt={alt}
+      {...(fill ? { fill: true, sizes } : { width: width || 400, height: height || 300 })}
+      className={`${className} ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
+      priority={priority}
+      onError={() => setHasError(true)}
+      onLoad={() => setIsLoading(false)}
+    />
+  );
+
   if (fill) {
+    // A `fill` image is positioned against the nearest positioned ancestor, so
+    // the wrapper must have a size. When the caller supplies wrapperClassName it
+    // sizes the box itself; otherwise the call site has already established a
+    // sized, positioned parent and the wrapper just has to cover it. Falling
+    // back to `relative ${className}` instead collapsed the wrapper to zero
+    // height, which silently blanked every card image.
+    const wrapper = wrapperClassName ? `relative ${wrapperClassName}` : 'absolute inset-0';
+
     return (
-      <div className={`relative ${wrapperClassName || className}`}>
+      <div className={wrapper}>
         {isLoading && (
           <div className="absolute inset-0 bg-gradient-to-br from-primary-lightest to-primary-light/30 animate-pulse rounded" />
         )}
-        <Image
-          ref={imgRef}
-          src={imgSrc}
-          alt={alt}
-          fill
-          sizes={sizes}
-          className={`${className} ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
-          priority={priority}
-          onError={handleError}
-          onLoad={handleLoad}
-        />
-        {hasError && (
-          <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-lightest to-primary-light/30">
-            <div className="text-center text-primary-light">
-              <svg className="w-8 h-8 mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
-              </svg>
-              <span className="text-xs">Image unavailable</span>
-            </div>
-          </div>
-        )}
+        {img}
       </div>
     );
   }
@@ -114,28 +96,7 @@ export const OptimizedImage = ({
           style={{ width: width || 'auto', height: height || 'auto' }}
         />
       )}
-      <Image
-        ref={imgRef}
-        src={imgSrc}
-        alt={alt}
-        width={width || 400}
-        height={height || 300}
-        className={`${className} ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
-        priority={priority}
-        onError={handleError}
-        onLoad={handleLoad}
-      />
-      {hasError && (
-        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary-lightest to-primary-light/30 rounded">
-          <div className="text-center text-primary-light">
-            <svg className="w-8 h-8 mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
-            </svg>
-            <span className="text-xs">Image unavailable</span>
-          </div>
-        </div>
-      )}
+      {img}
     </div>
   );
 };
-

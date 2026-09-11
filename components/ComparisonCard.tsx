@@ -28,15 +28,21 @@ function extractNum(val: string | undefined): number {
 }
 
 export function ComparisonCard({ a, b, verdict, buyA, buyB }: ComparisonCardProps) {
+  // Reserve the media row only when at least one side has a photo, and keep it
+  // on both sides so the two columns stay vertically aligned.
+  const showMedia = Boolean(a.image || b.image);
+
   return (
     <div className="rounded-xl border border-neutral-200 bg-white overflow-hidden">
       {/* Header */}
       <div className="grid grid-cols-2 divide-x divide-neutral-200">
         {[{ entry: a, buyUrl: buyA }, { entry: b, buyUrl: buyB }].map(({ entry, buyUrl }) => (
           <div key={entry.slug} className="p-5 flex flex-col items-center text-center gap-3">
-            <div className="relative h-32 w-full">
-              <OptimizedImage src={entry.image} alt={entry.title} fill sizes="250px" className="object-contain" />
-            </div>
+            {showMedia && (
+              <div className="relative h-32 w-full">
+                <OptimizedImage src={entry.image} alt={entry.title} fill sizes="250px" className="object-contain" />
+              </div>
+            )}
             <h3 className="font-bold text-neutral-900 text-sm">{entry.title}</h3>
             <div className="flex items-center gap-2">
               <ScoreBadge score={entry.score} showLabel />

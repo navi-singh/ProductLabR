@@ -41,6 +41,28 @@ cons:
   - "Even cheap models are expensive"
   - "Absurd packaging"
 authorBio: "Anthony Sculimbrene has been writing about knives and other everyday carry gear for more than a decade. He has written for numerous digital and print sources in those years. He has also cultivated relationships with people throughout the gear world both through his reviews and his work on knife laws. He enjoys reveling in the details of good design and the history of gear. Sculimbrene is a lawyer and legal consultant for AKTI (American Knife and Tool Institute), an industry advocacy and trade group that is working to reform knife laws around the United States."
+image: "/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_main.webp"
+productImage: "/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_main.webp"
+imageCredit: "Anso of Denmark"
+imageSource: "Anso of Denmark"
+imageLicense: "Maker product image"
+gallery:
+  - src: "/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle2.webp"
+    credit: "Anso of Denmark"
+    source: "Anso of Denmark"
+    license: "Maker product image"
+  - src: "/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle3.webp"
+    credit: "Anso of Denmark"
+    source: "Anso of Denmark"
+    license: "Maker product image"
+  - src: "/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle4.webp"
+    credit: "Anso of Denmark"
+    source: "Anso of Denmark"
+    license: "Maker product image"
+  - src: "/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle5.webp"
+    credit: "Anso of Denmark"
+    source: "Anso of Denmark"
+    license: "Maker product image"
 ---
 ## Introduction: the Anso promise finally lands in a pocket
 
@@ -56,6 +78,10 @@ My opinion is blunt: if you are already comfortable with the idea of a premium d
 
 The Aros looks playful, but the best parts of the design are practical. The handle has enough contour and milling to give your fingertips information without turning the scales into sandpaper. The blade sits in the handle like it was drawn from the back end forward, not bolted onto a generic frame. The clip is elegant without being fragile, and it lands at the same end of the handle where the lanyard problem usually appears. Instead of forcing the lanyard hole through both scales and making the clip fight for real estate, Anso routes the lanyard out the back. It is a small asymmetry, but it solves a real pocket problem.
 
+![A Perfect 10](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle2.webp)
+
+*Anso of Denmark / Anso of Denmark (Maker product image)*
+
 The dimensions matter. A 2.5 inches blade is short enough to be legal in more places than a 3.5 inches bruiser, easier to use in a crowded workshop, and less awkward around people who do not think knives are a hobby. A 6 inches overall length means the handle is compact, yet it does not feel like a keychain knife. The 1.91 oz carbon-fiber weight is the sweet spot: light enough that gym shorts and thin summer pockets do not complain, substantial enough that the knife does not feel disposable. Many high-end folders are excellent on a desk and annoying in jeans. The Aros reverses that order. It is better in the pocket than in photographs.
 
 Build quality is high in the ways that affect use. The crowned spine is comfortable under the thumb. The sharpening choil is wide enough to make stropping easy all the way to the heel of the edge. The bearing pivot helps the small flipper tab do its work without requiring a theatrical wrist snap. The button lock is smooth and intuitive, and on a knife this size the usual complaint about button locks not being the absolute strongest mechanism misses the point. This is not a pry bar. It is a precision slicer.
@@ -65,6 +91,10 @@ The one design decision I actively dislike has nothing to do with the knife. The
 ## Real-world cutting performance: small blade, long reach
 
 The first job was cardboard, because cardboard is where pocket knives tell on themselves. Thick packing board can make a pretty edge feel wedgy, especially when the blade stock is proud and the grind is lazy. The Aros did not behave that way. The flat grind and slender blade moved through thick cardboard like a zipper pull, separating the material cleanly instead of cracking it apart. In corrugated cardboard, the tip pierced easily and the edge tracked straight. It is not as thin behind the edge as a Victorinox blade or a TRM Nerd, but it has enough bite to feel efficient rather than decorative.
+
+![A Perfect 10](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle3.webp)
+
+*Anso of Denmark / Anso of Denmark (Maker product image)*
 
 That distinction is important. Plenty of expensive knives have fine steel and beautiful finishing, then remind you during the first recycling run that geometry beats glamour. The Aros has both. It is not a hard-use folder in the theatrical sense. It is not the knife I would take to baton kindling, scrape paint, or abuse on a job site. It is the knife I would choose for the daily stream of precise cuts: cardboard, clamshell packaging, cord, tape, food-packet openings, and the small workshop chores where a larger knife starts to feel rude.
 

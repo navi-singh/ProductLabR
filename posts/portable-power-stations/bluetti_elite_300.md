@@ -56,6 +56,28 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 7.5
+image: "/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_angle4.jpg"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -80,6 +102,10 @@ The 2,400W continuous inverter is the notable limitation — conservative for a 
 
 Unpacking the Elite 300, the weight advantage versus peers is immediately apparent.
 
+![Bluetti Elite 300](/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_angle2.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
+
 At 58 lbs, this is a unit one adult can move comfortably — not one-hand carry, but single-person transport without drama.
 
 The integrated handles on both sides are ergonomically well-placed, and the overall footprint is noticeably more compact than typical 3kWh units.
@@ -97,6 +123,10 @@ The outlet spacing is snug — check if you're using bulky right-angle plugs, as
 ### Size and Weight: The Core Advantage
 
 3,014Wh at 58 lbs is impressive engineering for a LiFePO4 chemistry unit.
+
+![Bluetti Elite 300](/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_angle3.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 Bluetti clearly optimized for a lighter form factor.
 
@@ -151,6 +181,10 @@ This flexibility is rare at this price point.
 ### Inverter Load Testing
 
 Real-world load testing confirmed the 2,400W continuous limit is accurate.
+
+![Bluetti Elite 300](/images/posts/portable-power-stations/bluetti_elite_300/bluetti_elite_300_angle4.jpg)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 A 1,200W portable AC plus a 1,000W microwave (2,200W combined) ran without tripping.
 

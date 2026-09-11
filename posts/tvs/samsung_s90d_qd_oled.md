@@ -63,6 +63,28 @@ ratingBreakdown:
       score: 7.9
     - name: "Audio"
       score: 7.4
+image: "/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_main.webp"
+productImage: "/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_main.webp"
+imageCredit: "Samsung Electronics"
+imageSource: "Samsung.com"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_angle2.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_angle3.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_angle4.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_angle5.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -77,6 +99,10 @@ Against the LG C4 and Samsung's 2023 S90C, the QN55S90DAFXZA reads as a meaningf
 
 Independent testing has measured Samsung's third-generation QD-OLED panel in the S90D at approximately 1,400 nits peak brightness on a 10% HDR window — a figure that outstrips the Sony A95L's second-gen panel by a measurable margin and supports its status as the brightest self-emissive consumer TV independently measured at launch. This is not a minor incremental improvement; it is the kind of leap that makes the panel's HDR highlights genuinely dazzling in the way that early Mini-LED demos were dazzling: spectral light sources in HDR content now pop with an intensity that was previously the exclusive domain of LED backlights.
 
+![Samsung S90D QD-OLED](/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_angle2.webp)
+
+*Samsung Electronics / Samsung.com (Manufacturer product image)*
+
 Sustained full-screen brightness runs to approximately 220 nits — again meaningfully higher than traditional WOLED and slightly above the Sony A95L, though Samsung's ABL (Automatic Brightness Limiter) still engages in sustained bright scenes as it does on all OLED technologies. Black levels are, as with any self-emissive technology, perfect — pixels that should be black are completely off.
 
 Color coverage is extraordinary. Samsung's quantum dot layer converts the blue OLED emission to precise red and green primaries with exceptional efficiency, resulting in DCI-P3 coverage that approaches 100% with remarkable gamut volume at high luminance. The NQ4 AI Gen2 processor applies Samsung's Neural Quantum Processor algorithms to upscaling and noise reduction, delivering clean results on 1080p and even 720p source material.
@@ -88,6 +114,10 @@ The one significant picture quality caveat: the S90D does not support Dolby Visi
 ## Gaming Performance
 
 The S90D's 144Hz native panel is a significant differentiator versus the 120Hz ceiling of most competing OLEDs. In practice, 144Hz benefits apply primarily to PC gaming — where a GPU can be pushed beyond 120fps — and certain current-generation console titles as more games patch in 120fps modes. The extra headroom means the VRR window is effectively 48–144Hz, giving adaptive sync more room to work cleanly at the top end.
+
+![Samsung S90D QD-OLED](/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_angle3.webp)
+
+*Samsung Electronics / Samsung.com (Manufacturer product image)*
 
 FreeSync Premium Pro certification covers variable refresh across the full range. The S90D does not hold NVIDIA G-Sync Compatible status, which means it will not appear in Nvidia GPU menus as a verified G-Sync display. In practice, FreeSync generally functions correctly on Nvidia hardware via HDMI VRR in compatible titles, but it is not the seamless certified experience G-Sync Compatible provides.
 
@@ -101,6 +131,10 @@ ALLM switches the TV into Game Mode automatically when a console handshake is de
 
 Tizen OS is one of the most polished smart TV platforms on the market, and it shows most clearly in its responsiveness. The S90D's menus open instantly, apps launch fast, and the home screen reorganizes content intelligently based on viewing habits. Samsung's universal guide aggregates live TV listings, streaming recommendations, and ambient mode content into a unified interface.
 
+![Samsung S90D QD-OLED](/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_angle4.webp)
+
+*Samsung Electronics / Samsung.com (Manufacturer product image)*
+
 The app library is essentially complete — every major streaming service has a native Tizen app, and Samsung's SmartThings integration allows the TV to serve as a hub for controlling compatible smart home devices. Samsung Gaming Hub, included on S90D, provides direct access to cloud gaming services including Xbox Game Pass and NVIDIA GeForce Now without a connected console.
 
 Samsung's Ambient Mode, which displays artwork, photo slideshows, or informational widgets when the TV is idle, transforms the S90D into a display piece when not in active use. The QD-OLED panel's extraordinary color makes artwork mode particularly striking.
@@ -112,6 +146,10 @@ Dolby Atmos is supported via passthrough and processing, though the absence of D
 ## Audio
 
 The S90D's 40W, 2.1-channel speaker system is an average performer for a television at this price point. The dedicated woofer — Samsung's Object Tracking Sound Lite implementation — adds some directional audio processing, tracking on-screen movement to adjust the speaker emphasis. It is a meaningful improvement over stereo-only arrangements, but the physics of a thin-cabinet OLED enclosure limit bass extension and overall dynamic range.
+
+![Samsung S90D QD-OLED](/images/posts/tvs/samsung_s90d_qd_oled/samsung_s90d_qd_oled_angle5.webp)
+
+*Samsung Electronics / Samsung.com (Manufacturer product image)*
 
 For movie watching and casual streaming, the built-in audio is perfectly adequate. For music, action films, or immersive gaming audio, a soundbar upgrade is strongly recommended. The S90D's eARC-enabled HDMI port (HDMI 1) supports lossless audio passthrough, and Samsung's Q-Symphony feature allows compatible Samsung soundbars to integrate with the TV's built-in speakers to produce a unified multi-source audio field. Paired with a Samsung HW-Q990C, the S90D becomes a genuinely impressive audio-visual system.
 

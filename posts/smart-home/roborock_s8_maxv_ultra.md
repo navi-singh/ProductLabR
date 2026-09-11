@@ -51,6 +51,28 @@ ratingBreakdown:
       score: 9.0
     - name: "Noise Level"
       score: 8.2
+image: "/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_main.webp"
+productImage: "/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_main.webp"
+imageCredit: "Roborock"
+imageSource: "Roborock"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle2.webp"
+    credit: "Roborock"
+    source: "Roborock"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle3.webp"
+    credit: "Roborock"
+    source: "Roborock"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle4.webp"
+    credit: "Roborock"
+    source: "Roborock"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle5.webp"
+    credit: "Roborock"
+    source: "Roborock"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -71,6 +93,10 @@ The app is one of the most feature-complete in the robot vacuum category. Schedu
 
 The S8 MaxV Ultra's 10,000 Pa suction is not a marketing number that disappears in practice—it is genuinely and noticeably powerful. On hard floors, it captures fine dust, pet dander, and debris particles that lesser robots leave behind in multiple passes. On low-pile carpet, it extracts embedded dirt that requires multiple conventional passes from lower-powered competitors. On medium-pile carpet, the suction improvement is most dramatic: where many robots skim the surface, the S8 MaxV Ultra pulls particulate from within the pile in a single pass.
 
+![Roborock S8 MaxV Ultra](/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle2.webp)
+
+*Roborock / Roborock (Manufacturer product image)*
+
 The dual rubber brush system—two counter-rotating rubber rollers rather than the traditional bristle brush—is a significant practical improvement for pet owners and anyone with long hair in the household. Bristle brushes trap hair and require frequent manual cleaning to maintain performance; the rubber rollers guide hair to the sides for collection rather than entangling it. Long-term reviewer reports find the brushes require minimal maintenance compared with competitors.
 
 Edge cleaning performance is strong. A dedicated side brush pushes wall-adjacent debris toward the suction path, and the robot's mapping intelligence ensures it makes dedicated edge passes along walls and furniture. Corner coverage is not perfect—no circular robot is—but the coverage is as good as any current competitor.
@@ -78,6 +104,10 @@ Edge cleaning performance is strong. A dedicated side brush pushes wall-adjacent
 ## Mopping Performance
 
 The VibraRise 2.0 mopping system is the most advanced mop implementation in any consumer robot. The dual mop pads oscillate at 3000 RPM in a horizontal scrubbing motion, applying significant mechanical friction to the floor surface rather than simply dragging a damp cloth. The practical effect is that dried-on stains, light grease, and tracked-in grime that conventional robot mops merely spread around are actually broken up and removed.
+
+![Roborock S8 MaxV Ultra](/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle3.webp)
+
+*Roborock / Roborock (Manufacturer product image)*
 
 The VibraRise system's automatic carpet detection and lift mechanism is critical to the system's real-world usability. The moment the S8 MaxV Ultra's sensors detect carpet, the mop assembly rises 5mm off the ground, preventing wet mop pads from saturating carpet fibers. In homes with mixed hard floor and carpet areas—which is most homes—this eliminates the need to set up no-mop zones manually or separate cleaning runs for different surfaces.
 

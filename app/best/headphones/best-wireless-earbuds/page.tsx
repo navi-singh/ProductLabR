@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface EarbudEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const earbuds: EarbudEntry[] = [
     rank: 1,
     name: 'Sony WF-1000XM5',
     href: '/articles/sony_wf1000xm5',
-    image: '/images/placeholder-product.svg',
     summary: 'The best true wireless earbuds overall with industry-leading ANC, hi-res audio support via LDAC, and a dramatic redesign with a smaller, more comfortable fit.',
     score: 9.3,
     price: '$279',
@@ -36,7 +35,6 @@ const earbuds: EarbudEntry[] = [
     rank: 2,
     name: 'Apple AirPods Pro 2',
     href: '/articles/apple_airpods_pro_2',
-    image: '/images/placeholder-product.svg',
     summary: 'Best earbuds for iPhone users with best-in-class ANC, Transparency mode, personalized spatial audio, and seamless Apple ecosystem integration.',
     score: 9.2,
     price: '$249',
@@ -47,7 +45,6 @@ const earbuds: EarbudEntry[] = [
     rank: 3,
     name: 'Nothing Ear (2)',
     href: '/articles/nothing_ear_2',
-    image: '/images/placeholder-product.svg',
     summary: 'Distinctive transparent design with surprisingly strong ANC, hi-res audio support, and excellent sound quality at a mid-range price.',
     score: 8.7,
     price: '$149',
@@ -58,7 +55,6 @@ const earbuds: EarbudEntry[] = [
     rank: 4,
     name: 'Samsung Galaxy Buds3 Pro',
     href: '/articles/samsung_galaxy_buds3_pro',
-    image: '/images/placeholder-product.svg',
     summary: 'Redesigned blade-style fit with strong ANC, intelligent ambient mode, and excellent integration with Samsung Galaxy devices.',
     score: 8.8,
     price: '$249',

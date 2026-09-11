@@ -50,6 +50,28 @@ ratingBreakdown:
       score: 7.4
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle2.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle3.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle4.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle5.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -61,6 +83,10 @@ The number that matters most here is not capacity; it is output. At 6,000W conti
 ## Design and Build
 
 There is no getting around the 132 pounds. Anker fits the F3800 with wheels and a telescoping handle, and on a flat garage floor one person can roll it around without much drama. Lifting it — into a truck bed, up a step, onto a shelf — is firmly a two-person task, and you should plan your storage and deployment around that fact. This is a unit that lives in one place and gets rolled to where it is needed, not carried.
+
+![Anker SOLIX F3800](/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle2.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 The build reflects the mission. The chassis is heavy-duty, the display is large and legible, and the port bank includes the 30A RV outlet and the high-current 240V-capable output that define the unit's purpose. Bluetooth and Wi-Fi through the app let you monitor and configure it remotely, which matters when the unit is wired into a backup setup and living in a utility area. Everything about the physical design says permanent installation or semi-permanent backup rather than weekend portability.
 

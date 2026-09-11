@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface ProductEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const products: ProductEntry[] = [
     rank: 1,
     name: 'Logitech G Pro X Superlight 2',
     href: '/articles/logitech_g_pro_x_superlight_2',
-    image: '/images/placeholder-product.svg',
     summary: 'The gold standard for competitive gaming mice — ultra-lightweight at 60g, HERO 2 sensor, and near-zero click latency.',
     score: 9.4,
     price: '$159',
@@ -36,7 +35,6 @@ const products: ProductEntry[] = [
     rank: 2,
     name: 'SteelSeries Apex Pro',
     href: '/articles/steelseries_apex_pro',
-    image: '/images/placeholder-product.svg',
     summary: 'Revolutionary adjustable actuation OmniPoint 2.0 switches let you customize the feel per-key for ultimate competitive advantage.',
     score: 9.2,
     price: '$179',
@@ -47,7 +45,6 @@ const products: ProductEntry[] = [
     rank: 3,
     name: 'Redragon M711 Cobra',
     href: '/articles/redragon_m711_cobra',
-    image: '/images/placeholder-product.svg',
     summary: 'An incredible budget gaming mouse with solid sensor, programmable buttons, and RGB lighting that punches well above its price.',
     score: 8.3,
     price: '$25',

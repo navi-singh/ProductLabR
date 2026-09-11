@@ -57,6 +57,28 @@ ratingBreakdown:
       score: 9.0
     - name: "Clicks & Buttons"
       score: 8.6
+image: "/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_main.jpg"
+productImage: "/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_main.jpg"
+imageCredit: "SteelSeries"
+imageSource: "SteelSeries"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle2.jpg"
+    credit: "SteelSeries"
+    source: "SteelSeries"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle3.jpg"
+    credit: "SteelSeries"
+    source: "SteelSeries"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle4.jpg"
+    credit: "SteelSeries"
+    source: "SteelSeries"
+    license: "Manufacturer product image"
+  - src: "/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle5.jpg"
+    credit: "SteelSeries"
+    source: "SteelSeries"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -87,6 +109,10 @@ SteelSeries Engine 3 provides full button remapping, macro assignment, and CPI c
 
 The Rival 650's ergonomic profile is a right-handed contoured shape optimized for palm and claw grip styles. The arched center section provides a natural palm rest position, and the left-side thumb shelf is positioned for comfortable reach to the side buttons without requiring a grip adjustment. For hands measuring 18–21cm in length, the fit is natural and sustained without fatigue.
 
+![SteelSeries Rival 650](/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle2.jpg)
+
+*SteelSeries / SteelSeries (Manufacturer product image)*
+
 The adjustable weight system is a differentiating feature that allows meaningful customization. The base configuration without weights sits at approximately 96g; adding the included tungsten weight cartridges increases mass to up to 135g. Users can configure weight in the 96–135g range and, critically, distribute the mass by placing weights toward the front or rear of the mouse to influence balance point. Players who prefer a front-heavy mouse for precision during fast flicks configure weights forward; those who prefer rear-heavy balance for palm rest stability configure accordingly.
 
 At 121g in the default weight configuration, the Rival 650 is heavier than competitive ultralight mice. For medium-to-high sensitivity players whose movements are primarily wrist-based, the weight difference versus a 60g competitor is not perceptible as fatigue during play. For low-sensitivity players who make full arm sweeps, the additional mass relative to ultralight mice accumulates over long sessions.
@@ -94,6 +120,10 @@ At 121g in the default weight configuration, the Rival 650 is heavier than compe
 ## Build Quality
 
 The Rival 650's construction uses a matte rubber-coated plastic shell that provides a secure grip in hand across all normal gaming scenarios. The coating is pleasant to touch and does not become slippery with hand moisture during extended play. The shell tolerances are excellent — no flex, no creak, no perceptible movement between shell halves under pressure.
+
+![SteelSeries Rival 650](/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle3.jpg)
+
+*SteelSeries / SteelSeries (Manufacturer product image)*
 
 The Quantum wireless receiver is a compact 2.4GHz dongle that stores in a slot on the underside of the mouse for travel. The wireless connection establishes within seconds of the mouse powering on and maintains stable connectivity across standard desktop distances (up to 10m) without interference from WiFi, other 2.4GHz devices, or standard office/gaming room environments in testing.
 

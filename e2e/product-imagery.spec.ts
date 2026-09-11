@@ -106,26 +106,43 @@ test.describe('product imagery integrity', () => {
     expect(external, 'hotlinking republishes another origin bandwidth and content').toEqual([]);
   });
 
-  test('the fallback image is a neutral placeholder, not a product photo', () => {
+  test('no placeholder graphic stands in for a missing product photo', () => {
     const source = fs.readFileSync(
       path.join(process.cwd(), 'components', 'OptimizedImage.tsx'),
       'utf8',
     );
-    const match = source.match(/FALLBACK_SRC\s*=\s*'([^']+)'/);
-    expect(match, 'OptimizedImage must declare a fallback').not.toBeNull();
 
-    const fallback = match![1];
-    // The fallback renders on every article lacking an image, so a photograph
-    // here is asserted as the product on all of them.
-    expect(fallback, 'fallback must be a vector placeholder').toMatch(/\.svg$/);
-    expect(fs.existsSync(path.join(PUBLIC_DIR, fallback.replace(/^\//, '')))).toBe(true);
+    // A stand-in graphic reads as "here is the product". Reviews without a
+    // licensed photo must render no image at all rather than a substitute.
+    expect(source).not.toMatch(/FALLBACK_SRC/);
+
+    const roots = ['app', 'components', 'lib', 'posts'];
+    const offenders: string[] = [];
+    const walk = (dir: string) => {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) walk(full);
+        else if (/\.(tsx?|jsx?|md)$/.test(entry.name)) {
+          if (fs.readFileSync(full, 'utf8').includes('placeholder-product')) {
+            offenders.push(path.relative(process.cwd(), full));
+          }
+        }
+      }
+    };
+    for (const root of roots) walk(path.join(process.cwd(), root));
+
+    expect(offenders, 'these still substitute a placeholder image').toEqual([]);
   });
 
   test('images carry source and licence attribution', () => {
     const manifestPath = path.join(process.cwd(), 'data', 'product-images.json');
     const { images } = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-    const undocumented = images.filter(
-      (i: Record<string, string>) => !i.sourceUrl || !i.license || !i.credit,
+
+    // `vendored` entries record provenance for files already committed whose
+    // original download URL was never captured, so they carry a sourcePage
+    // instead of a fetchable sourceUrl.
+    const undocumented = images.filter((i: Record<string, unknown>) =>
+      i.vendored ? !i.sourcePage || !i.license || !i.credit : !i.sourceUrl || !i.license || !i.credit,
     );
 
     expect(undocumented, 'every ingested image needs provenance we can defend').toEqual([]);

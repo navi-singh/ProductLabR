@@ -55,6 +55,28 @@ ratingBreakdown:
       score: 8.3
     - name: "Audio"
       score: 7.3
+image: "/images/posts/tvs/lg_qned90/lg_qned90_main.avif"
+productImage: "/images/posts/tvs/lg_qned90/lg_qned90_main.avif"
+imageCredit: "LG Electronics"
+imageSource: "LG.com"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/tvs/lg_qned90/lg_qned90_angle2.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_qned90/lg_qned90_angle3.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_qned90/lg_qned90_angle4.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/lg_qned90/lg_qned90_angle5.avif"
+    credit: "LG Electronics"
+    source: "LG.com"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -71,6 +93,10 @@ Viewed as both a gaming TV and a bright-room alternative to OLED, the 65-inch QN
 
 The QNED90's picture quality is defined by what it is and what it is not. It is a high-brightness LCD TV with a wide color gamut, Mini-LED backlighting, and a capable processing engine. It is not an OLED, and the difference in black level performance is apparent in direct comparison. In a dark room watching content with very dark scenes, the QNED90's backlight glow and local dimming halo are visible where an OLED would show absolute black.
 
+![LG QNED90 (2024)](/images/posts/tvs/lg_qned90/lg_qned90_angle2.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
+
 In any other context, the QNED90's picture is impressive. Peak brightness of approximately 1,200–1,500 nits (depending on window size and content) makes HDR highlights genuinely bright. The MLA layer improves brightness extraction from the OLED panel's light output — wait, this is a QNED LCD, and MLA on an LCD improves directionality and perceived brightness at normal viewing distances.
 
 Color coverage from the QNED (Quantum NanoCell) technology is slightly below pure quantum dot panels like Samsung's QLED. Independent testing generally places DCI-P3 coverage around 90–93%, compared to 95–98% for QLED alternatives. In practice, the difference is subtle and most viewers would not perceive it without direct side-by-side comparison.
@@ -85,6 +111,10 @@ Local dimming quality is good but not exceptional. The zone count produces adequ
 
 The QNED90's gaming specifications are, genuinely, excellent. Four HDMI 2.1 ports with full 48Gbps bandwidth is the same configuration as the LG C4 OLED — rare even among premium TVs, and extraordinary at $699. This means PS5, Xbox Series X, Nintendo Switch (via 4K upscaling dock), and a gaming PC can all connect simultaneously without any port-bandwidth compromises.
 
+![LG QNED90 (2024)](/images/posts/tvs/lg_qned90/lg_qned90_angle3.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
+
 The 144Hz native panel is another specification that puts the QNED90 ahead of most TVs at this price. PC gamers running high-end hardware can achieve 4K/144Hz with full variable refresh rate — the extra headroom above 120Hz is meaningful for fast-paced first-person shooters and racing simulations.
 
 G-Sync Compatible and FreeSync Premium certifications ensure adaptive sync works correctly across both major GPU ecosystems. ALLM triggers automatically when a console is detected and switches to Game Optimizer mode.
@@ -97,6 +127,10 @@ Reviewers place input lag at 4K/120Hz around 5–7ms in Game Optimizer mode — 
 
 webOS 24 is one of the best smart TV platforms available, and the QNED90's implementation benefits from the same software as LG's OLED lineup. The Magic Remote — LG's point-and-click TV remote — remains uniquely intuitive, allowing cursor-based navigation that feels like using a computer mouse. Content Card home screen layout, Google Assistant and Amazon Alexa support, and ThinQ AI smart home integration are all present.
 
+![LG QNED90 (2024)](/images/posts/tvs/lg_qned90/lg_qned90_angle4.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
+
 App support covers all major streaming services. AirPlay 2 and Miracast enable wireless display mirroring from Apple and Android devices respectively. The webOS 24 interface is fast and responsive on the QNED90's hardware.
 
 The main webOS criticism — LG's increasing home screen advertising — applies here as well. The default layout features promotional content and sponsored recommendations. This can be reduced in settings but not eliminated entirely.
@@ -106,6 +140,10 @@ The main webOS criticism — LG's increasing home screen advertising — applies
 ## Design & Audio
 
 The QNED90 shares LG's standard design language — slim bezel, clean back panel, aluminum-accented stand. It is attractive without being a statement piece. Build quality is solid and appropriate for the price.
+
+![LG QNED90 (2024)](/images/posts/tvs/lg_qned90/lg_qned90_angle5.avif)
+
+*LG Electronics / LG.com (Manufacturer product image)*
 
 Built-in audio is the weakest link, as with most TVs in this category. The AI Sound Pro processing creates a creditable approximation of spatial audio from Dolby Atmos content, but the speaker drivers' physical limitations restrict bass extension and overall volume output. eARC on HDMI 2 enables correct Atmos passthrough to a connected soundbar or AV receiver.
 

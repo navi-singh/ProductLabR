@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 7.1
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_main.jpg"
+productImage: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_main.jpg"
+imageCredit: "昼落ち"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 4.0"
+gallery:
+  - src: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_angle2.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
+  - src: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_angle3.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
+  - src: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_angle4.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
+  - src: "/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_angle5.jpg"
+    credit: "昼落ち"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
 ---
 
 ## Overview: why this camera exists
@@ -59,6 +81,10 @@ Then there's the practical weight of all that data. A single 102MP raw is roughl
 ## Design and handling a big camera
 
 The GFX100 II is a substantial body of roughly a kilogram before you attach a lens, and its medium-format lenses are correspondingly large. This is not a discreet street camera or a travel-light kit; it's a considered instrument you commit to carrying. That said, Fujifilm has made it more livable than medium format used to be. The grip is comfortable for the size, the top and rear controls follow Fujifilm's tactile philosophy, and the tilting high-resolution rear screen and enormous, detachable electronic viewfinder make composing and checking critical focus genuinely pleasant.
+
+![Fujifilm GFX100 II](/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_angle2.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY 4.0)*
 
 The in-body stabilization is the unsung hero here. Strong IBIS on a 102MP sensor means you can shoot handheld in situations that would once have demanded a tripod, which is a meaningful expansion of where medium format can go. It doesn't turn the GFX100 II into a run-and-gun camera, but it removes a real barrier.
 

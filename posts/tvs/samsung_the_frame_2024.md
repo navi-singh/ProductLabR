@@ -56,6 +56,28 @@ ratingBreakdown:
       score: 7.8
     - name: "Audio"
       score: 7.5
+image: "/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_main.webp"
+productImage: "/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_main.webp"
+imageCredit: "Samsung Electronics"
+imageSource: "Samsung.com (AE region)"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_angle2.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_angle3.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_angle4.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_angle5.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -71,6 +93,10 @@ We installed the 55-inch 2024 Frame in a modern living room over a fireplace man
 ## Picture Quality
 
 The Frame's picture quality context is important: this is not a TV designed primarily for cinematic picture accuracy or maximum HDR performance. It is designed to spend part of its life displaying artwork and to look beautiful doing both. Within those priorities, Samsung has still managed to deliver a competent QLED panel that performs well for everyday viewing.
+
+![Samsung The Frame 2024 (LS03D)](/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_angle2.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
 
 The QLED (quantum dot) layer provides color coverage in the 95–96% DCI-P3 range, which is genuine wide color gamut performance. The matte anti-reflection coating — which Samsung calls the Ultra Viewing Angle finish on this model — dramatically reduces reflections without a conventional matte screen's penalty of reduced perceived sharpness. The matte finish is optimized differently than a typical anti-glare coating, and the resulting image maintains clarity while handling room glare excellently.
 
@@ -88,6 +114,10 @@ Art Mode is technically a display function, and it is executed with care. Samsun
 
 The Frame is not a gaming TV, and that is stated clearly rather than apologetically. The HDMI port configuration reflects the design priorities: three HDMI 2.0 ports capable of 4K/60Hz and one HDMI 2.1 port supporting 4K/120Hz. A PS5 or Xbox Series X connected to the HDMI 2.1 port can use 4K/120Hz mode. Connected to any other port, those consoles are limited to 4K/60Hz.
 
+![Samsung The Frame 2024 (LS03D)](/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_angle3.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
+
 There is no Variable Refresh Rate support beyond what the single HDMI 2.1 port enables. No FreeSync certification, no G-Sync certification. ALLM works on the HDMI 2.1 port. Input lag in Game Mode measures approximately 12–15ms at 4K/60Hz — adequate for casual gaming and party games, not competitive for fast-paced shooters or fighting games.
 
 The Frame is a perfectly adequate gaming TV for households that casually play games — sports titles, party games, RPGs at 30–60fps. It is not the right TV for households where gaming is a primary activity.
@@ -98,6 +128,10 @@ The Frame is a perfectly adequate gaming TV for households that casually play ga
 
 Tizen OS on The Frame is Samsung's standard implementation with one significant addition: deep Art Store integration. The Art Store provides access to thousands of licensed artworks from museums and galleries, with new pieces updated regularly. The basic tier includes a small selection of artwork at no charge; the full catalog requires a $4.99/month subscription. Samsung's own gallery includes classic paintings, modern photography, and contemporary digital art.
 
+![Samsung The Frame 2024 (LS03D)](/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_angle4.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
+
 The personal photo mode is particularly well-executed. The Frame's camera optional accessory (sold separately) can detect the number of people in the room and adjust Art Mode content accordingly — showing family photos when the whole family is present, or specific artwork curated per the room's occupants.
 
 Tizen OS's standard strengths and weaknesses apply: fast, well-designed interface with good app availability, offset by Samsung's advertising-heavy home screen defaults and HDR10+-only HDR support.
@@ -107,6 +141,10 @@ Tizen OS's standard strengths and weaknesses apply: fast, well-designed interfac
 ## Design & Audio
 
 Design is The Frame's raison d'être. The 2024 LS03D comes with a natural wood bezel by default, with five additional Customizable Bezel options available separately in different colors and materials — white, black, teak, beige, and brown. The bezels snap magnetically and can be changed in seconds without any tools.
+
+![Samsung The Frame 2024 (LS03D)](/images/posts/tvs/samsung_the_frame_2024/samsung_the_frame_2024_angle5.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
 
 The No-Gap Wall Mount positions the panel 25mm from the wall — close enough that at normal viewing distances it appears flush. One Connect Box — Samsung's external box that consolidates all connections — ships with The Frame and attaches via a single thin cable that can be hidden in a wall channel or concealed along a baseboard. The result is a panel with no visible cable clutter.
 

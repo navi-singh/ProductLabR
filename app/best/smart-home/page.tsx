@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface ProductEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const products: ProductEntry[] = [
     rank: 1,
     name: 'Roborock S8 MaxV Ultra',
     href: '/articles/roborock_s8_maxv_ultra',
-    image: '/images/placeholder-product.svg',
     summary: 'The ultimate robot vacuum and mop combo with self-emptying base, sonic mopping, and advanced obstacle avoidance using dual cameras.',
     score: 9.4,
     price: '$1,599',
@@ -36,7 +35,6 @@ const products: ProductEntry[] = [
     rank: 2,
     name: 'Amazon Echo (4th Gen)',
     href: '/articles/amazon_echo_4th_gen',
-    image: '/images/placeholder-product.svg',
     summary: 'Best-sounding Echo yet with a spherical design, built-in Zigbee hub, and seamless integration across the entire Amazon ecosystem.',
     score: 8.8,
     price: '$99',
@@ -47,7 +45,6 @@ const products: ProductEntry[] = [
     rank: 3,
     name: 'Eufy RoboVac 11S',
     href: '/articles/eufy_robovac_11s',
-    image: '/images/placeholder-product.svg',
     summary: 'Ultra-slim, quiet robot vacuum that delivers reliable cleaning on hard floors and carpets at a budget-friendly price.',
     score: 8.3,
     price: '$199',

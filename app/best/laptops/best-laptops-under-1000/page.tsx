@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface LaptopEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const laptops: LaptopEntry[] = [
     rank: 1,
     name: 'Acer Aspire 5 (2024)',
     href: '/articles/acer_aspire_5',
-    image: '/images/placeholder-product.svg',
     summary: 'Outstanding all-around laptop under $700 with a powerful Ryzen 7 processor, sharp 1080p IPS display, and excellent battery life.',
     score: 8.8,
     price: '$649',
@@ -36,7 +35,6 @@ const laptops: LaptopEntry[] = [
     rank: 2,
     name: 'HP Pavilion 15',
     href: '/articles/hp_pavilion_15',
-    image: '/images/placeholder-product.svg',
     summary: 'Great everyday laptop with a solid Intel processor, fast SSD storage, and a quality display in a slim, premium-feeling chassis.',
     score: 8.5,
     price: '$599',
@@ -47,7 +45,6 @@ const laptops: LaptopEntry[] = [
     rank: 3,
     name: 'Lenovo IdeaPad 3i',
     href: '/best/laptops/best-laptops-under-1000',
-    image: '/images/placeholder-product.svg',
     summary: 'Reliable budget laptop for students and light users with dependable performance, good keyboard, and long battery life under $450.',
     score: 8.2,
     price: '$449',
@@ -58,7 +55,6 @@ const laptops: LaptopEntry[] = [
     rank: 4,
     name: 'Dell Inspiron 15 3000',
     href: '/articles/dell_inspiron_15_3000',
-    image: '/images/placeholder-product.svg',
     summary: 'Dependable Dell everyday laptop with solid build quality, good keyboard, and a bright display perfect for office and school work.',
     score: 8.0,
     price: '$549',

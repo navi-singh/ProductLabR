@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface KeyboardEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const keyboards: KeyboardEntry[] = [
     rank: 1,
     name: 'Corsair K100 RGB',
     href: '/articles/corsair_k100_rgb',
-    image: '/images/placeholder-product.svg',
     summary: 'The flagship gaming keyboard with optical-mechanical switches, 44-zone RGB, 8000Hz polling rate, and a premium aluminum frame for the ultimate setup.',
     score: 9.1,
     price: '$229',
@@ -36,7 +35,6 @@ const keyboards: KeyboardEntry[] = [
     rank: 2,
     name: 'Logitech G915 TKL',
     href: '/articles/logitech_g915_tkl',
-    image: '/images/placeholder-product.svg',
     summary: 'Best wireless gaming keyboard with ultra-thin low-profile switches, 40-hour battery life, and simultaneous wireless + Bluetooth connectivity.',
     score: 9.0,
     price: '$199',
@@ -47,7 +45,6 @@ const keyboards: KeyboardEntry[] = [
     rank: 3,
     name: 'Redragon K552',
     href: '/articles/redragon_k552',
-    image: '/images/placeholder-product.svg',
     summary: 'Best-value gaming keyboard with solid Outemu mechanical switches, RGB backlighting, and a compact TKL layout at an incredibly affordable price.',
     score: 8.4,
     price: '$35',
@@ -58,7 +55,6 @@ const keyboards: KeyboardEntry[] = [
     rank: 4,
     name: 'SteelSeries Apex Pro',
     href: '/articles/steelseries_apex_pro',
-    image: '/images/placeholder-product.svg',
     summary: 'Unique adjustable actuation per-key switch technology lets you set the ideal response depth for every key, with an 8000Hz polling rate.',
     score: 9.2,
     price: '$179',

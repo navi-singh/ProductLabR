@@ -56,6 +56,24 @@ ratingBreakdown:
       score: 8.2
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_main.webp"
+productImage: "/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_main.webp"
+imageCredit: "Jackery"
+imageSource: "Jackery"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_angle3.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_angle4.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_angle2.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -90,6 +108,10 @@ company describes the unit as "indoor friendly," and that is a fair characterisa
 the intent: this is a product designed to sit in a hallway closet or beside a desk
 rather than in the bed of a truck.
 
+![Jackery Explorer 2000 v2](/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_angle3.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
+
 The folding handle is the single most consequential design decision on the chassis.
 Combined with the 39.5-pound mass, it makes the v2 one of the few units in the class
 that a single person can genuinely reposition without planning ahead. OutdoorGearLab,
@@ -121,6 +143,10 @@ on. OutdoorGearLab measured a full wall recharge at 2.5 hours, working out to ro
 817Wh per hour of charging throughput. That is a meaningful gap — about 47% longer than
 the marketing figure — and it is the kind of difference that matters if you are trying
 to top up between rolling blackouts rather than overnight.
+
+![Jackery Explorer 2000 v2](/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_angle4.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 Neither number is unreasonable in isolation. Manufacturer charge times are typically
 measured under favourable conditions with a warm-but-not-hot pack and a clean supply

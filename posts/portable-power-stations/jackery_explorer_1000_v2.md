@@ -54,6 +54,28 @@ ratingBreakdown:
       score: 7.8
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_main.webp"
+productImage: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_main.webp"
+imageCredit: "Jackery"
+imageSource: "Jackery"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle2.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle3.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle4.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle5.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -64,11 +86,19 @@ The Jackery Explorer 1000 v2 continues the evolution of one of the most trusted 
 
 At 23.8 lbs (10.8kg), the Explorer 1000 v2 is substantial for its capacity class and presents as a sturdy design. Jackery's packaging reflects attention to detail with secure foam protection, comprehensive documentation, and included AC charging cable. The iconic orange and black design immediately identifies it as a Jackery product, while the matte finish resists wear and maintains professional appearance.
 
+![Jackery Explorer 1000 v2](/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle2.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
+
 The build quality exemplifies Jackery's focus on durability over flashy features. The integrated handle provides comfortable carrying, though the weight requires consideration for frequent transport. The LCD display, while basic compared to premium competitors, provides essential information clearly. Overall construction conveys confidence in long-term reliability and outdoor durability.
 
 ## Key Features & Proven Design
 
 The Explorer 1000 v2 emphasizes core functionality with proven technology:
+
+![Jackery Explorer 1000 v2](/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle3.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 - **1,070Wh LiFePO4 Battery** – Industry-leading cycle life with 4,000+ cycles to 70% capacity
 - **1,500W Output (3,000W Surge)** – Higher power capability for demanding appliances and tools
@@ -83,6 +113,10 @@ The design philosophy emphasizes reliability and user-friendliness over advanced
 
 ### Power Output & Appliance Compatibility
 The 1,500W continuous output with 3,000W surge capability handles demanding appliances effectively. Real-world testing successfully powered refrigerators, microwaves, power tools, and space heaters that require higher wattage than many competitors support. The higher output makes it suitable for home backup applications requiring substantial power delivery.
+
+![Jackery Explorer 1000 v2](/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle4.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 Surge capability proved reliable for starting motors and compressors, essential for refrigeration and power tool applications. The pure sine wave output ensures compatibility with sensitive electronics including laptops, medical devices, and precision equipment.
 
@@ -130,6 +164,10 @@ Goal Zero's Yeti 1000X offers similar capacity with app connectivity and modular
 
 ### Construction Excellence
 The Explorer 1000 v2's construction emphasizes durability over premium aesthetics. The housing withstands impacts, moisture, and temperature variations effectively, while internal components are well-protected against environmental stress. Quality control maintains Jackery's reputation for reliability across thousands of units.
+
+![Jackery Explorer 1000 v2](/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle5.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 Heat dissipation proves excellent with strategic ventilation and efficient thermal management. The unit maintains safe operation under sustained loads without thermal throttling, essential for demanding applications requiring consistent power delivery.
 

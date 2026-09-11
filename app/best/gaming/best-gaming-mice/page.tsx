@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface MouseEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const mice: MouseEntry[] = [
     rank: 1,
     name: 'Logitech G Pro X Superlight 2',
     href: '/articles/logitech_g_pro_x_superlight_2',
-    image: '/images/placeholder-product.svg',
     summary: 'The definitive competitive gaming mouse at just 60g with the flawless HERO 2 sensor, near-instant LIGHTSPEED 2.4GHz wireless, and 95-hour battery life.',
     score: 9.4,
     price: '$159',
@@ -36,7 +35,6 @@ const mice: MouseEntry[] = [
     rank: 2,
     name: 'Razer DeathAdder V3',
     href: '/articles/razer_deathadder_v3',
-    image: '/images/placeholder-product.svg',
     summary: 'Best ergonomic gaming mouse with iconic right-handed shape redesigned 30% lighter, Focus Pro 30K sensor, and HyperSpeed wireless at under $80.',
     score: 9.1,
     price: '$79',
@@ -47,7 +45,6 @@ const mice: MouseEntry[] = [
     rank: 3,
     name: 'Redragon M711 Cobra',
     href: '/articles/redragon_m711_cobra',
-    image: '/images/placeholder-product.svg',
     summary: 'Outstanding budget gaming mouse with a reliable optical sensor, 7 programmable buttons, RGB lighting, and solid build quality at an unbeatable price.',
     score: 8.3,
     price: '$25',
@@ -58,7 +55,6 @@ const mice: MouseEntry[] = [
     rank: 4,
     name: 'SteelSeries Rival 650',
     href: '/articles/steelseries_rival_650',
-    image: '/images/placeholder-product.svg',
     summary: 'Quantum wireless mouse with dual sensor system, adjustable weight, and a distinctive design suited for both claw and palm grips.',
     score: 8.8,
     price: '$119',

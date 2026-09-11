@@ -46,6 +46,11 @@ ratingBreakdown:
       score: 9.0
     - name: "Value"
       score: 8.2
+image: "/images/posts/laptops/macbook_air_m3/macbook_air_m3_main.jpg"
+productImage: "/images/posts/laptops/macbook_air_m3/macbook_air_m3_main.jpg"
+imageCredit: "Thomas Amberg"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 2.0"
 ---
 
 ## Introduction

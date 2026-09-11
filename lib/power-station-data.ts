@@ -11,7 +11,7 @@ export interface PowerStationEntry {
   date: string;
   price: string;
   priceNum: number;
-  image: string;
+  image?: string;
   capacityWh: number;
   features: string[];
   score: number;
@@ -48,7 +48,7 @@ export const getAllPowerStations = cache((): PowerStationEntry[] => {
         date: data.date ?? '',
         price: data.price ?? '',
         priceNum: parsePrice(data.price ?? ''),
-        image: data.productImage ?? data.image ?? '/images/placeholder-product.svg',
+        image: data.productImage ?? data.image ?? undefined,
         capacityWh: data.capacityWh ?? 0,
         features: data.features ?? [],
         score: calcScore(data.ratingBreakdown),

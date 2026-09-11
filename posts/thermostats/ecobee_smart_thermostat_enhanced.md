@@ -52,6 +52,16 @@ ratingBreakdown:
       score: 7.6
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/thermostats/ecobee_smart_thermostat_enhanced/ecobee_smart_thermostat_enhanced_main.png"
+productImage: "/images/posts/thermostats/ecobee_smart_thermostat_enhanced/ecobee_smart_thermostat_enhanced_main.png"
+imageCredit: "ecobee"
+imageSource: "ecobee.com"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/thermostats/ecobee_smart_thermostat_enhanced/ecobee_smart_thermostat_enhanced_angle2.jpg"
+    credit: "ecobee"
+    source: "ecobee.com"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -65,6 +75,10 @@ What remains is a carefully targeted middle product. The Enhanced gives you rada
 ## Design and Build
 
 Ecobee chose a square face rather than Nest's jewellery-like circle, and the choice pays off in readability. The front is black, the backing is white, and the whole thermostat measures 103.89 mm tall by 103.89 mm wide by 23.88 mm deep. In wall terms, that is compact but not dainty: the screen reads like a small control panel rather than a hidden sensor.
+
+![Ecobee Smart Thermostat Enhanced](/images/posts/thermostats/ecobee_smart_thermostat_enhanced/ecobee_smart_thermostat_enhanced_angle2.jpg)
+
+*ecobee / ecobee.com (Manufacturer product image)*
 
 The display is the strongest visual argument for this model. It is a 4-inch full-colour LCD touchscreen at 540 by 540 pixels, which gives it more working room than the older Google Nest Learning Thermostat's 2.08 inches circular display. A thermostat screen does not need phone-level sharpness, but it does need enough space for mode, setpoint, humidity and menu controls without turning every tap into a guessing game. Ecobee gets that balance right.
 

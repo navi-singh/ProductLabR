@@ -42,6 +42,11 @@ ratingBreakdown:
       score: 7.3
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/sony_a1_ii/sony_a1_ii_main.jpg"
+productImage: "/images/posts/cameras/sony_a1_ii/sony_a1_ii_main.jpg"
+imageCredit: "BobSmith810"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 4.0"
 ---
 
 ## Introduction

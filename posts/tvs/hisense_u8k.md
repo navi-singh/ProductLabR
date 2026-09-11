@@ -64,6 +64,20 @@ ratingBreakdown:
       score: 8.5
     - name: "Audio"
       score: 8.9
+image: "/images/posts/tvs/hisense_u8k/hisense_u8k_main.avif"
+productImage: "/images/posts/tvs/hisense_u8k/hisense_u8k_main.avif"
+imageCredit: "Hisense"
+imageSource: "Hisense USA (page since removed; image still hosted on Hisense's own CDN)"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/tvs/hisense_u8k/hisense_u8k_angle2.avif"
+    credit: "Hisense"
+    source: "Hisense USA (page since removed; image still hosted on Hisense's own CDN)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/hisense_u8k/hisense_u8k_angle3.avif"
+    credit: "Hisense"
+    source: "Hisense USA (page since removed; image still hosted on Hisense's own CDN)"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -80,6 +94,10 @@ The U8K competes directly with the Samsung QN90C and occupies the tier just belo
 
 The U8K's headline capability is its brightness. Hisense's Mini-LED backlight with local dimming pushes peak HDR output to approximately 1,500 nits on a bright window, according to reviewer measurements in the Filmmaker or HDR Vivid preset. In a living room with afternoon sun pouring through windows, this TV does not get washed out — a fundamental challenge for OLED panels.
 
+![Hisense U8K](/images/posts/tvs/hisense_u8k/hisense_u8k_angle2.avif)
+
+*Hisense / Hisense USA (page since removed; image still hosted on Hisense's own CDN) (Manufacturer product image)*
+
 The full suite of HDR formats is present: Dolby Vision IQ, HDR10+ Adaptive, HDR10, HLG, and IMAX Enhanced. This is extraordinary at $699. The QN90C, at $1,499, does not support Dolby Vision. The Hisense does. Dolby Vision IQ uses the built-in ambient light sensor to dynamically adjust the tone map, so the picture remains balanced whether you're watching at noon or midnight.
 
 Quantum Dot color filters expand the color gamut meaningfully beyond standard LED. Independent testing has put the U8K at 97% of the DCI-P3 color space and approximately 75% of Rec. 2020. Saturated HDR content — tropical landscapes, neon cityscapes, vibrant animation — looks richly colorful and engaging.
@@ -95,6 +113,10 @@ Out-of-the-box calibration in the default Vivid picture mode oversaturates and o
 ## Gaming Performance
 
 The U8K is one of the most gaming-capable TVs at this price. A 144Hz native panel, HDMI 2.1 bandwidth for 4K/144Hz, AMD FreeSync Premium certification, HDMI Forum VRR, and ALLM are all present. The Gaming Bar — accessible via the remote during gameplay — provides a HUD overlay for VRR status, refresh rate, HDR mode, and black equalizer without leaving the game.
+
+![Hisense U8K](/images/posts/tvs/hisense_u8k/hisense_u8k_angle3.avif)
+
+*Hisense / Hisense USA (page since removed; image still hosted on Hisense's own CDN) (Manufacturer product image)*
 
 Reviewers place input lag in Game Mode at approximately 14 milliseconds at 4K/120Hz. This is more than adequate for the overwhelming majority of gaming experiences — casual, cooperative, RPG, and even most competitive multiplayer. The 14ms figure is perceptibly higher than OLED's sub-2ms and the Samsung QN90C's ~4ms, and dedicated competitive FPS players who are sensitive to even slight delay may feel the difference.
 

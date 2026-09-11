@@ -55,6 +55,28 @@ ratingBreakdown:
       score: 7.9
     - name: "Audio"
       score: 7.8
+image: "/images/posts/tvs/samsung_qn85d/samsung_qn85d_main.webp"
+productImage: "/images/posts/tvs/samsung_qn85d/samsung_qn85d_main.webp"
+imageCredit: "Samsung Electronics"
+imageSource: "Samsung.com (AE region)"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/tvs/samsung_qn85d/samsung_qn85d_angle2.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_qn85d/samsung_qn85d_angle3.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_qn85d/samsung_qn85d_angle4.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
+  - src: "/images/posts/tvs/samsung_qn85d/samsung_qn85d_angle5.webp"
+    credit: "Samsung Electronics"
+    source: "Samsung.com (AE region)"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -71,6 +93,10 @@ Alongside the TCL QM8 and LG C4 OLED, the 55-inch QN85D sits in a revealing posi
 
 Quantum Matrix Technology is Samsung's marketing name for its Mini-LED backlighting system with precision dimming control. In the QN85D, the zone count is lower than the flagship QN90D but substantially higher than budget full-array TVs. The result is local dimming that handles most real-world content excellently — HDR highlights bloom minimally, shadow regions stay dark, and the transition between bright and dark areas is gradual rather than abrupt.
 
+![Samsung QN85D Neo QLED](/images/posts/tvs/samsung_qn85d/samsung_qn85d_angle2.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
+
 Independent testing places peak brightness on the QN85D at approximately 1,500–1,800 nits depending on content window size and model configuration. This is lower than Samsung's flagship QN90D but still considerably brighter than OLED alternatives. In a bright room, the QN85D's picture remains vivid and punchy where OLED panels begin to wash out. The quantum dot color layer ensures wide color gamut performance across the full brightness range.
 
 Color accuracy is very good. The QN85D covers approximately 95% of DCI-P3 and benefits from Samsung's well-regarded factory calibration, with reviewers typically measuring Delta-E values under 3.0 in Movie mode. HDR10+ Adaptive uses the ambient light sensor to dynamically adjust tone mapping — functionally similar to Dolby Vision IQ, though limited to HDR10+ content.
@@ -84,6 +110,10 @@ The optional matte anti-reflection screen — the Ultra Viewing Angle+ finish �
 ## Gaming Performance
 
 The QN85D's 144Hz panel is a meaningful differentiator for PC gamers. While consoles are capped at 120Hz maximum, a gaming PC with a high-end GPU can push 4K/144Hz — a mode the QN85D supports with full variable refresh rate coverage. FreeSync Premium Pro and G-Sync Compatible certification ensures adaptive sync works across both major GPU ecosystems.
+
+![Samsung QN85D Neo QLED](/images/posts/tvs/samsung_qn85d/samsung_qn85d_angle3.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
 
 Samsung's Game Bar overlay is the most comprehensive gaming interface available on any TV. A quick button press overlays a heads-up display showing current frame rate, VRR status, input lag mode, and HDR settings without requiring a trip into the main settings menu. This is genuinely useful during gaming sessions.
 
@@ -99,6 +129,10 @@ Samsung Gaming Hub is a valuable addition — it provides cloud gaming access vi
 
 Tizen OS on the QN85D is fast, well-designed, and loaded with features. Samsung's Universal Guide aggregates content recommendations across connected apps, and the interface navigation is smooth and responsive. The remote features a solar charging strip and built-in infrared blaster for controlling external devices.
 
+![Samsung QN85D Neo QLED](/images/posts/tvs/samsung_qn85d/samsung_qn85d_angle4.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
+
 The primary complaint about Tizen is Samsung's aggressive home screen monetization. The default home layout prominently features Samsung TV Plus (their free ad-supported streaming service), sponsored content recommendations, and app advertising. This can be customized but not entirely removed. For users who prioritize a clean, distraction-free interface, LG's webOS or Sony's Google TV implementation are less commercial by default.
 
 App support covers all major streaming services. Samsung has maintained exclusive deals with some content partners, though the gap versus Google TV's Play Store library has narrowed.
@@ -108,6 +142,10 @@ App support covers all major streaming services. Samsung has maintained exclusiv
 ## Design & Audio
 
 Samsung's design language on the QN85D is sharp and contemporary. The thin bezel, clean back panel, and aluminum stand project a premium appearance that justifies the price point. The One Connect Box option — available on higher-tier Samsung models — is not included on the QN85D, meaning all cable connections attach directly to the TV.
+
+![Samsung QN85D Neo QLED](/images/posts/tvs/samsung_qn85d/samsung_qn85d_angle5.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
 
 Object Tracking Sound (OTS) uses multiple speakers positioned to match on-screen action, creating some sense of audio dimensionality. The system is competent for TV audio standards but limited by driver size constraints. At this price tier, a companion soundbar is recommended for any serious audio use.
 

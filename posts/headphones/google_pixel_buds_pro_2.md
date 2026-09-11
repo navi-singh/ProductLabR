@@ -60,6 +60,28 @@ ratingBreakdown:
       score: 8.0
     - name: "AI Features"
       score: 9.5
+image: "/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_main.jpg"
+productImage: "/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_main.jpg"
+imageCredit: "Google"
+imageSource: "Google Store"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle2.png"
+    credit: "Google"
+    source: "Google Store"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle3.jpg"
+    credit: "Google"
+    source: "Google Store"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle4.jpg"
+    credit: "Google"
+    source: "Google Store"
+    license: "Manufacturer product image"
+  - src: "/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle5.jpg"
+    credit: "Google"
+    source: "Google Store"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -78,6 +100,10 @@ The Pixel Buds Pro 2 may not be for everyone. If you prioritize audio quality or
 
 Google fundamentally redesigned the Pixel Buds Pro's physical form for the second generation, addressing the most common complaint about the original: that its large housing caused fit problems and ear fatigue during extended sessions. The Pixel Buds Pro 2 is significantly smaller, at 6.2 grams per bud — lighter than the original and competitive with the Jabra Elite 10 (6.4g) and Apple AirPods Pro 2 (5.3g).
 
+![Google Pixel Buds Pro 2](/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle2.png)
+
+*Google / Google Store (Manufacturer product image)*
+
 The new stem-free design removes the extending fin of the original, resulting in a more compact earbud that sits flush with the ear. Four silicone eartip sizes are included, along with an eartip fit test in the Pixel Buds app that measures the acoustic seal quality and recommends the optimal tip size. Reviewers generally find this guide accurate — users who selected tips based on the app's recommendation reported better seal and comfort than those who chose by visual estimation.
 
 The charging case is smaller than the original and features a premium matte finish with a satisfying magnetic closure. The IPX2 case rating is modest — it will survive light splashes but is not designed for rain exposure. The IPX4 earbud rating handles sweat and incidental moisture adequately for gym use.
@@ -89,6 +115,10 @@ Color options — Hazel, Porcelain, Peony, and Mint — give the Pixel Buds Pro 
 ## Sound Quality
 
 The 11mm dynamic drivers in the Pixel Buds Pro 2 produce a sound that is balanced and listenable rather than immediately impressive. Google has tuned the frequency response toward the warm mid-centric presentation that consumer listening research consistently identifies as "pleasing" — bass is present and defined, midrange is clear, treble is smooth and non-fatiguing.
+
+![Google Pixel Buds Pro 2](/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle3.jpg)
+
+*Google / Google Store (Manufacturer product image)*
 
 The Pixel Buds app provides a five-band equalizer and preset profiles (Bass Boost, Treble Boost, Podcast, and manual EQ). The EQ range is sufficient for meaningful tuning, and the Bass Boost preset adds genuine low-frequency presence for EDM and hip-hop listeners. However, the absence of LDAC or aptX means the codec ceiling is AAC — and while AAC at 256 kbps is adequate for most streaming content, it falls short of the high-resolution potential offered by Sony's LDAC implementation.
 
@@ -114,6 +144,10 @@ Transparency mode is natural-sounding and well-calibrated, though it slightly am
 
 The Google Tensor A1 chip enables the Pixel Buds Pro 2's defining feature: deep Gemini AI integration with significant on-device processing. Pressing and holding the earbud activates Gemini, which can answer questions, schedule reminders, read and summarize notifications, and execute Google Assistant actions — all while remaining responsive even with limited cellular data.
 
+![Google Pixel Buds Pro 2](/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle4.jpg)
+
+*Google / Google Store (Manufacturer product image)*
+
 Live Translate is the most impressive AI capability in daily use. Speaking a phrase in English, the earbuds can simultaneously translate the spoken audio to a target language (over 40 supported) and play the translation through the speaker of a connected Pixel phone for the other person to hear. The bidirectional translation mode allows two people speaking different languages to have a real conversation mediated by the earbuds with impressive latency — under 1 second for common language pairs.
 
 Conversation Detection's intelligence extends beyond simple microphone activation. The Tensor A1 chip performs acoustic classification to distinguish between the user speaking to someone else versus singing along to music, coughing, or having a phone call. Reviewers have reported roughly 85–90% classification accuracy, with a false-trigger rate low enough that the feature can remain enabled by default.
@@ -125,6 +159,10 @@ Heads Up, Google's safety feature that detects you're about to walk into traffic
 ## Battery & Connectivity
 
 The 8-hour per-charge battery life with ANC enabled is excellent for the category — equal to the Jabra Elite 10 and significantly better than the Apple AirPods Pro 2 (6 hours). The case adds 22 hours for 30 hours total. Independent battery testing at consistent ANC and 70 dB playback has reported 7.8 hours — essentially on spec.
+
+![Google Pixel Buds Pro 2](/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle5.jpg)
+
+*Google / Google Store (Manufacturer product image)*
 
 The five-minute quick charge providing 1 hour of playback is standard for the premium segment. Qi wireless charging is present, and USB-C provides wired charging. Both charging modes work as expected.
 

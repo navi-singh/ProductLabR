@@ -46,6 +46,28 @@ ratingBreakdown:
       score: 8.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_main.webp"
+productImage: "/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_main.webp"
+imageCredit: "Goal Zero"
+imageSource: "Goal Zero"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle2.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle3.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle4.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle5.webp"
+    credit: "Goal Zero"
+    source: "Goal Zero"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -59,6 +81,10 @@ There is one genuinely useful thing the marketing around this unit tends to bury
 ## Design and Build
 
 Goal Zero builds solid hardware, and the Sherpa 100AC is no exception. The chassis is anodized aluminum over a soft-touch base, and at 2.0 pounds it drops into a jacket pocket or the top pouch of a daypack without weighing you down. The front carries a small monochrome display that reports charge percentage and live input and output wattage — more feedback than the pile-of-cables approach most travelers default to.
+
+![Goal Zero Sherpa 100AC](/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle2.webp)
+
+*Goal Zero / Goal Zero (Manufacturer product image)*
 
 The port layout is the entire reason to buy this thing. You get one AC outlet fed by a pure sine wave inverter rated to 100 watts, USB-C Power Delivery for laptops and quick phone charging, USB-A for older accessories, and the Qi pad on top for a phone or an earbuds case with no cable at all. Pure sine wave output deserves a callout: budget inverters emit a blocky, "modified" waveform that some laptop bricks, camera chargers, and finicky adapters dislike, and Goal Zero avoids that here. Devices see power that looks like the wall.
 

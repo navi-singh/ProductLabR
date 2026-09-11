@@ -49,6 +49,28 @@ ratingBreakdown:
       score: 8.3
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -60,6 +82,10 @@ The chemistry is the reason to care. Lithium iron phosphate cells are rated for 
 ## Design and Build
 
 At 21.4 pounds the EB70S sits in the sweet spot for a portable: heavy enough to feel solid, light enough that one arm moves it from garage to trunk without complaint. The single top handle is molded in and comfortable, and the footprint is compact enough to wedge behind a seat or into a gear tote. This is a unit you actually pick up and relocate, which is more than can be said for the 100-pound backup stations further up Bluetti's range.
+
+![Bluetti EB70S](/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle2.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 The front panel keeps things legible. A screen reports battery percentage, live input and output wattage, and an estimated runtime figure that updates as loads change. Ports are grouped sensibly — AC outlets, 12V DC, USB-A, USB-C, and a wireless charging pad on the top surface that is handy for topping a phone at camp. There is a built-in LED light for emergencies. Port covers suggest some thought about dust and splashes, though this is not a sealed, weatherproof unit; treat it like electronics, not a cooler.
 

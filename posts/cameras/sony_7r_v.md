@@ -42,6 +42,28 @@ ratingBreakdown:
       score: 7.9
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/cameras/sony_7r_v/sony_7r_v_main.jpg"
+productImage: "/images/posts/cameras/sony_7r_v/sony_7r_v_main.jpg"
+imageCredit: "Henry Söderlund"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY 2.0"
+gallery:
+  - src: "/images/posts/cameras/sony_7r_v/sony_7r_v_angle2.jpg"
+    credit: "PantheraLeo1359531"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
+  - src: "/images/posts/cameras/sony_7r_v/sony_7r_v_angle3.jpg"
+    credit: "PantheraLeo1359531"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
+  - src: "/images/posts/cameras/sony_7r_v/sony_7r_v_angle4.jpg"
+    credit: "PantheraLeo1359531"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
+  - src: "/images/posts/cameras/sony_7r_v/sony_7r_v_angle5.jpg"
+    credit: "PantheraLeo1359531"
+    source: "Wikimedia Commons"
+    license: "CC BY 4.0"
 ---
 
 ## Overview: the pitch and the catches
@@ -71,6 +93,10 @@ The buffer is the second constraint. Sixty-one-megapixel raws are large, and whi
 ## Build and handling
 
 The body is classic Sony pro-consumer: weather-sealed, comfortably gripped, and lighter than a true flagship. The standout is the rear screen, a four-axis design that both tilts and fully articulates — genuinely the best-implemented articulating screen Sony has shipped, equally happy for a waist-level landscape or a flipped-out video framing. The electronic viewfinder is large and extremely high-resolution, which pays dividends when you're checking critical focus on a detailed scene.
+
+![Sony α7R V](/images/posts/cameras/sony_7r_v/sony_7r_v_angle2.jpg)
+
+*PantheraLeo1359531 / Wikimedia Commons (CC BY 4.0)*
 
 The usual Sony menu caveat applies: it's deep, touch-driven, and takes time to tame, though it's more coherent than older generations. Nothing about the ergonomics is a dealbreaker; this is a refined, mature body that gets out of the way once configured. The grip accommodates large G Master telephotos without strain, the customizable buttons let you map the AI subject modes to a thumb press, and the dual card doors and weather sealing are built to survive the kind of field use landscape work demands. It feels like a camera designed by people who shoot for a living.
 

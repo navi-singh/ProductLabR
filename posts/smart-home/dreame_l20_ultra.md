@@ -48,6 +48,28 @@ ratingBreakdown:
       score: 7.5
     - name: "Auto-Empty & Maintenance"
       score: 9.3
+image: "/images/posts/smart-home/dreame_l20_ultra/dreame_l20_ultra_main.webp"
+productImage: "/images/posts/smart-home/dreame_l20_ultra/dreame_l20_ultra_main.webp"
+imageCredit: "Dreame"
+imageSource: "Dreame"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/smart-home/dreame_l20_ultra/dreame_l20_ultra_angle2.webp"
+    credit: "Dreame"
+    source: "Dreame"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/dreame_l20_ultra/dreame_l20_ultra_angle3.webp"
+    credit: "Dreame"
+    source: "Dreame"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/dreame_l20_ultra/dreame_l20_ultra_angle4.webp"
+    credit: "Dreame"
+    source: "Dreame"
+    license: "Manufacturer product image"
+  - src: "/images/posts/smart-home/dreame_l20_ultra/dreame_l20_ultra_angle5.webp"
+    credit: "Dreame"
+    source: "Dreame"
+    license: "Manufacturer product image"
 ---
 
 ## Overview: the flagship bargain with a few grown-up caveats
@@ -62,6 +84,10 @@ The L20 Ultra is best understood as a hard-floor and large-home specialist that 
 
 The L20 Ultra system is physically dominated by its dock. That is expected from a robot that promises to automate so many dirty jobs. The base needs a practical location with power, room for the robot to enter and leave, and enough clearance that filling, emptying, and cleaning tasks are not awkward. The dock's footprint is a real cost of ownership, even if the price is the easier number to compare.
 
+![Dreame L20 Ultra](/images/posts/smart-home/dreame_l20_ultra/dreame_l20_ultra_angle2.webp)
+
+*Dreame / Dreame (Manufacturer product image)*
+
 That dock is also the reason the product makes sense. Auto-empty reduces dustbin handling. Auto-water refill supports mopping runs. Hot-water mop washing addresses pad hygiene after wet cleaning. Auto-dry helps prevent a damp pad from sitting in the dock after the wash cycle. Those features matter because robot mops fail as household appliances when they simply transfer cleaning labor from the floor to the sink. Dreame does not eliminate all maintenance, but it moves the routine closer to a weekly system check than a post-run chore.
 
 Initial setup runs through the Dreame Home app with Bluetooth pairing and Wi-Fi configuration. Support for both 2.4GHz and 5GHz networks is welcome because many smart-home devices still force 2.4GHz only. The mapping run is one of the product's strengths. LiDAR gives the robot a fast sense of the home, while 3D structured light helps it interpret obstacles and depth. In ordinary layouts, the first usable map requires less owner correction than a bump-and-guess robot ever could.
@@ -73,6 +99,10 @@ The newer-brand concern is also real. Dreame has become a serious player, not a 
 ## Vacuuming, mopping, navigation, and real-world performance
 
 The 7,000 Pa suction figure puts the L20 Ultra firmly in flagship territory, even though it trails the Roborock S8 MaxV Ultra's 10,000 Pa headline. The practical difference depends on your floors. On hard surfaces and low carpet, 7,000 Pa is already more than enough for dust, crumbs, pet hair, and daily debris. On medium carpet, the floating rubber brush helps maintain contact as the floor height changes. The gap to 10,000 Pa matters most for buyers who care about maximum extraction from carpet rather than broad day-to-day competence.
+
+![Dreame L20 Ultra](/images/posts/smart-home/dreame_l20_ultra/dreame_l20_ultra_angle3.webp)
+
+*Dreame / Dreame (Manufacturer product image)*
 
 The brush system is simpler than Roborock's dual-rubber approach, but it is sensible. A single floating rubber brush avoids the worst hair-tangle behavior of bristles and adjusts as the robot crosses thresholds and texture changes. Pet owners with long hair in the home will still need to inspect the roller periodically. No robot at this level is maintenance-free, but rubber is the right material choice for reducing frustration.
 

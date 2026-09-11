@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface StationEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,7 @@ const powerStations: StationEntry[] = [
     rank: 1,
     name: 'EcoFlow Delta Pro 3',
     href: '/articles/ecoflow_delta_pro_3',
-    image: '/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg',
+    image: '/images/posts/portable-power-stations/ecoflow_delta_pro_3/ecoflow_delta_pro_3_main.webp',
     summary: 'Massive 4096Wh capacity with 4000W output, 50-minute fast charging, and 10ms UPS mode for home backup.',
     score: 9.8,
     price: '$3,699',
@@ -36,7 +36,6 @@ const powerStations: StationEntry[] = [
     rank: 2,
     name: 'EcoFlow Delta 3 Plus',
     href: '/articles/ecoflow_delta_3_plus',
-    image: '/images/posts/delta_3_pro/EcoFlow-Delta-Pro-3.jpg',
     summary: 'Excellent capacity-to-weight ratio with fast charging and UPS capability in a portable design.',
     score: 9.4,
     price: '$799',
@@ -47,7 +46,6 @@ const powerStations: StationEntry[] = [
     rank: 3,
     name: 'Anker Solix C1000',
     href: '/articles/anker_solix_c1000',
-    image: '/images/placeholder-product.svg',
     summary: 'Excellent value for money from a reliable brand with good capacity and multiple charging options.',
     score: 9.0,
     price: '$499',
@@ -58,7 +56,7 @@ const powerStations: StationEntry[] = [
     rank: 4,
     name: 'Bluetti AC180',
     href: '/articles/bluetti_ac180',
-    image: '/images/posts/bluetti_ac180/AC180_main.webp',
+    image: '/images/posts/portable-power-stations/bluetti_ac180/AC180_1.jpg',
     summary: 'Excellent solar charging with LiFePO4 battery, good build quality, and wireless charging pad.',
     score: 9.2,
     price: '$699',
@@ -68,7 +66,6 @@ const powerStations: StationEntry[] = [
     rank: 5,
     name: 'Jackery Explorer 1000 V2',
     href: '/articles/jackery_explorer_1000_v2',
-    image: '/images/placeholder-product.svg',
     summary: 'User-friendly design with reliable performance, good brand reputation, and comprehensive warranty.',
     score: 8.8,
     price: '$799',
@@ -78,7 +75,6 @@ const powerStations: StationEntry[] = [
     rank: 6,
     name: 'EcoFlow River 2 Pro',
     href: '/articles/ecoflow_river_2_pro',
-    image: '/images/placeholder-product.svg',
     summary: 'Ultra-portable design with fast charging and multiple charging ports for light camping.',
     score: 8.6,
     price: '$429',
@@ -88,7 +84,6 @@ const powerStations: StationEntry[] = [
     rank: 7,
     name: 'EcoFlow Delta 3',
     href: '/articles/ecoflow_delta_3',
-    image: '/images/placeholder-product.svg',
     summary: 'Balanced specs with good value, fast charging, and compact design for most users.',
     score: 9.0,
     price: '$599',

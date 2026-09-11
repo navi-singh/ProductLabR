@@ -58,6 +58,28 @@ ratingBreakdown:
       score: 8.5
     - name: "Value"
       score: 7.9
+image: "/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_main.webp"
+productImage: "/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_main.webp"
+imageCredit: "Jackery"
+imageSource: "Jackery"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_angle2.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_angle3.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_angle4.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_angle5.webp"
+    credit: "Jackery"
+    source: "Jackery"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -82,6 +104,10 @@ Almost nothing is lost to heat — meaning almost every watt you capture from so
 
 The Explorer 1500 Ultra's physical construction communicates its purpose immediately.
 
+![Jackery Explorer 1500 Ultra](/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_angle2.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
+
 The rubberized corners, textured grip surfaces, and IP65 port cover seals are visible design choices not present on typical consumer power stations.
 
 The unit feels engineered to survive handling rather than to look good on a shelf.
@@ -101,6 +127,10 @@ In sandy or dusty environments where fine particles clog fans and degrade coolin
 ### Durability: IP65 and 1-Meter Drop
 
 IP65 certification means the 1500 Ultra is fully dust-tight and can withstand water jets from any direction.
+
+![Jackery Explorer 1500 Ultra](/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_angle3.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 This covers construction sites, boat decks, and rainy camping trips.
 
@@ -163,6 +193,10 @@ In dusty environments — construction sites, gravel roads, desert camping — t
 ### Efficiency Verification
 
 Multiple independent labs confirmed the 98% efficiency figure under controlled testing.
+
+![Jackery Explorer 1500 Ultra](/images/posts/portable-power-stations/jackery_explorer_1500_ultra/jackery_explorer_1500_ultra_angle4.webp)
+
+*Jackery / Jackery (Manufacturer product image)*
 
 Testing under real-world variable load showed efficiency ranging from 96–98% depending on load profile — even at 96%, the 1500 Ultra leads the category.
 

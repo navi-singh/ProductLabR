@@ -58,6 +58,28 @@ ratingBreakdown:
       score: 7.5
     - name: "Value"
       score: 6.5
+image: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -80,6 +102,10 @@ What makes it compelling despite the price is a combination of capabilities that
 
 The Delta Pro Ultra X ships as a modular system: the inverter unit arrives separately from the battery modules, each in dedicated packaging.
 
+![EcoFlow Delta Pro Ultra X](/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_angle2.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
+
 The 70-lb inverter is substantial but manageable with the integrated handle and wheels.
 
 Each 11-lb battery module is genuinely easy to handle — the contrast with traditional home battery systems requiring professional installation equipment is striking.
@@ -95,6 +121,10 @@ The battery module handles are the physical weak point reviewers consistently fl
 ### 12kW Inverter: What It Actually Means
 
 12,000W continuous output is double what most home backup power stations deliver.
+
+![EcoFlow Delta Pro Ultra X](/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_angle3.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 In practice: a central AC unit (3–5kW), a well pump (1–2kW), a refrigerator and freezer (400W), lighting (500W), and multiple other loads can run simultaneously without approaching the inverter ceiling.
 
@@ -155,6 +185,10 @@ But at $7,699 these rough edges are frustrating and warrant waiting for a few fi
 ### Full Load Testing
 
 Testing under 10kW simultaneous load (central AC + well pump + multiple appliances) confirmed the 12kW inverter handled the combined draw without throttling or derating.
+
+![EcoFlow Delta Pro Ultra X](/images/posts/portable-power-stations/ecoflow_delta_pro_ultra_x/ecoflow_delta_pro_ultra_x_angle4.webp)
+
+*EcoFlow / EcoFlow (Manufacturer product image)*
 
 The split-phase 240V output ran an electric dryer and central AC simultaneously — impossible with any other portable power station.
 

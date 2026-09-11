@@ -8,7 +8,7 @@ interface RankedProductCardProps {
   rank: number;
   name: string;
   href: string;
-  image: string;
+  image?: string;
   summary: string;
   score: number;
   badge?: 'best-overall' | 'best-value' | 'budget-pick';
@@ -20,7 +20,6 @@ export function RankedProductCard({
   rank, name, href, image, summary, score, badge, buyUrl: _buyUrl, specs,
 }: RankedProductCardProps) {
   const isTopRanked = rank === 1;
-
   return (
     <div
       data-testid="ranked-card"
@@ -47,9 +46,11 @@ export function RankedProductCard({
           higher z-index, not a child of it. */}
       <div className="relative z-0">
         <div className="flex flex-col gap-5 sm:flex-row">
-          <div data-testid="ranked-card-media" className="relative h-36 w-full flex-shrink-0 overflow-hidden rounded-lg bg-gradient-to-br from-primary-lightest to-primary-light/30 sm:w-44">
-            <OptimizedImage src={image} alt={name} fill sizes="180px" className="object-contain p-2" />
-          </div>
+          {image && (
+            <div data-testid="ranked-card-media" className="relative h-36 w-full flex-shrink-0 overflow-hidden rounded-lg bg-gradient-to-br from-primary-lightest to-primary-light/30 sm:w-44">
+              <OptimizedImage src={image} alt={name} fill sizes="180px" className="object-contain p-2" />
+            </div>
+          )}
 
           <div className="flex-1">
             <div className="flex items-center gap-2">

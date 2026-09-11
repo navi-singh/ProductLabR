@@ -54,6 +54,28 @@ ratingBreakdown:
       score: 8.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI"
+    license: "Manufacturer product image"
 ---
 
 ## Overview
@@ -87,6 +109,10 @@ the unit may not be the person who bought it. Plenty of 1kWh stations creep past
 staying under that line is the difference between a unit you reposition freely and one you
 resent moving.
 
+![Bluetti Elite 100 V2](/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle2.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
+
 Bluetti leans on acoustics as a selling point, claiming the unit stays around 30 decibels
 when the load is under 600 watts. That is Bluetti's own figure rather than a measurement
 from an independent lab, so I will treat it as a claim, not a verified result. The
@@ -117,6 +143,10 @@ handful of phones. The 3,600W surge headroom absorbs the start-up spike from a f
 compressor or a power tool. What it will not do is run a 1,500W space heater alongside other
 large loads, or handle an electric kettle and a microwave together — at 1,024Wh and 1,800W,
 this is a one-big-thing-at-a-time unit, and that is the correct expectation for the class.
+
+![Bluetti Elite 100 V2](/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle3.webp)
+
+*BLUETTI / BLUETTI (Manufacturer product image)*
 
 Charging is where the Elite 100 V2 genuinely stands out. Bluetti claims a 0-80% AC recharge
 in 45 minutes and roughly 70 minutes to a full 100%. If the real-world figure lands anywhere

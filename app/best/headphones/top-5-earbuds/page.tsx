@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 interface EarbudEntry {
-  rank: number; name: string; href: string; image: string; summary: string;
+  rank: number; name: string; href: string; image?: string; summary: string;
   score: number; price: string; badge?: 'best-overall' | 'best-value' | 'budget-pick';
   specs?: Record<string, string>;
 }
@@ -25,7 +25,6 @@ const earbuds: EarbudEntry[] = [
     rank: 1,
     name: 'Sony WF-1000XM5',
     href: '/articles/sony_wf1000xm5',
-    image: '/images/placeholder-product.svg',
     summary: 'World-class ANC, LDAC hi-res audio, and a dramatically more compact design than the XM4 — the best true wireless earbuds available in 2025.',
     score: 9.3,
     price: '$279',
@@ -36,7 +35,6 @@ const earbuds: EarbudEntry[] = [
     rank: 2,
     name: 'Apple AirPods Pro 2',
     href: '/articles/apple_airpods_pro_2',
-    image: '/images/placeholder-product.svg',
     summary: 'H2 chip powers best-in-class ANC for Apple users, Personalized Spatial Audio, and seamless iPhone/iPad/Mac integration with 6-hour battery.',
     score: 9.2,
     price: '$249',
@@ -47,7 +45,6 @@ const earbuds: EarbudEntry[] = [
     rank: 3,
     name: 'Jabra Elite 10',
     href: '/articles/jabra_elite_10',
-    image: '/images/placeholder-product.svg',
     summary: 'Best call quality earbuds on the market via MultiSensor Voice technology, Dolby Atmos spatial audio, and an ergonomic open-canal ComfortFit design.',
     score: 9.0,
     price: '$249',
@@ -57,7 +54,6 @@ const earbuds: EarbudEntry[] = [
     rank: 4,
     name: 'Google Pixel Buds Pro 2',
     href: '/articles/google_pixel_buds_pro_2',
-    image: '/images/placeholder-product.svg',
     summary: 'Tensor A1 chip enables Gemini AI integration, Conversation Detection, and Live Translate — the most intelligent earbuds available for Android users.',
     score: 8.8,
     price: '$229',
@@ -67,7 +63,6 @@ const earbuds: EarbudEntry[] = [
     rank: 5,
     name: 'Nothing Ear (2)',
     href: '/articles/nothing_ear_2',
-    image: '/images/placeholder-product.svg',
     summary: 'Distinctive transparent design with impressive ANC, LHDC 5.0 codec support, and premium performance at a significantly lower price than flagship competitors.',
     score: 8.7,
     price: '$149',

@@ -57,6 +57,28 @@ ratingBreakdown:
       score: 7.6
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker"
+imageLicense: "Manufacturer product image"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle2.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle3.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle4.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
+  - src: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle5.webp"
+    credit: "Anker"
+    source: "Anker"
+    license: "Manufacturer product image"
 ---
 
 ## Introduction
@@ -88,6 +110,10 @@ carry it upstairs one-handed. At 91.5 pounds it is heavier than the F2600 by rou
 pounds and heavier than most rivals in its capacity tier, though the wheels make flat
 transitions between a garage, a driveway and a vehicle tailgate manageable for one person.
 
+![Anker SOLIX F3000](/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle2.webp)
+
+*Anker / Anker (Manufacturer product image)*
+
 The construction signal that matters most is not the chassis but the certification. Anker
 lists the F3000 as UL9540 certified — the standard for energy-storage systems, covering the
 battery, inverter and control electronics as an integrated whole, rather than the narrower
@@ -116,6 +142,10 @@ comes with real surge headroom: Anker rates the surge at 7,200W, a 2x ratio that
 essentially any household motor — a well pump, a large compressor, a table saw — without the
 hesitation that a thin surge margin introduces. For a unit meant to back a home rather than
 a campsite, that headroom is exactly the right specification to prioritise.
+
+![Anker SOLIX F3000](/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle3.webp)
+
+*Anker / Anker (Manufacturer product image)*
 
 Capacity behaves the way LiFePO4 capacity always does. The 3,072Wh nameplate becomes
 roughly 2,600 to 2,750Wh at the outlet after inverter conversion losses, and it scales

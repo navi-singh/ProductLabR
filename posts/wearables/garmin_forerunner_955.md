@@ -54,6 +54,11 @@ ratingBreakdown:
       score: 8.4
     - name: "Value"
       score: 7.7
+image: "/images/posts/wearables/garmin_forerunner_955/garmin_forerunner_955_main.jpg"
+productImage: "/images/posts/wearables/garmin_forerunner_955/garmin_forerunner_955_main.jpg"
+imageCredit: "Oatberry"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
 ---
 
 ## Introduction
