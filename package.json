@@ -25,6 +25,10 @@
     "editorial:fix-links": "node scripts/editorial/fix-links.js",
     "editorial:pilot": "node scripts/editorial/select-pilot.js",
     "editorial:compare": "node scripts/editorial/compare-arms.js",
+    "review:next": "node scripts/review-queue.js next --prompt",
+    "review:claim": "node scripts/review-queue.js claim",
+    "review:complete": "node scripts/review-queue.js complete",
+    "review:discover": "node scripts/discover-solar-lab-products.js",
     "images:report": "node scripts/images/report-missing-images.js",
     "images:ingest": "node scripts/images/ingest-product-images.js"
   },

@@ -4825,6 +4825,56 @@
       "sourcePage": "https://www.samsung.com/us/watches/galaxy-watch7/",
       "license": "Manufacturer product image",
       "credit": "Samsung Electronics"
+    },
+    {
+      "category": "wearables",
+      "slug": "apple_watch_series_12",
+      "role": "main",
+      "sourceUrl": "https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-2up-260909_big.jpg.large.jpg",
+      "sourcePage": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+      "sourceName": "Apple Newsroom press/media",
+      "license": "Apple Newsroom press/media asset; editorial reuse from official press-release media download",
+      "credit": "Apple Inc."
+    },
+    {
+      "category": "wearables",
+      "slug": "apple_watch_series_12",
+      "role": "angle2",
+      "sourceUrl": "https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-lifestyle-01-260909_big.jpg.large.jpg",
+      "sourcePage": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+      "sourceName": "Apple Newsroom press/media",
+      "license": "Apple Newsroom press/media asset; editorial reuse from official press-release media download",
+      "credit": "Apple Inc."
+    },
+    {
+      "category": "wearables",
+      "slug": "apple_watch_series_12",
+      "role": "angle3",
+      "sourceUrl": "https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-Heart-Rate-app-260909_inline.jpg.large.jpg",
+      "sourcePage": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+      "sourceName": "Apple Newsroom press/media",
+      "license": "Apple Newsroom press/media asset; editorial reuse from official press-release media download",
+      "credit": "Apple Inc."
+    },
+    {
+      "category": "wearables",
+      "slug": "apple_watch_series_12",
+      "role": "angle4",
+      "sourceUrl": "https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-readiness-260909_big.jpg.large.jpg",
+      "sourcePage": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+      "sourceName": "Apple Newsroom press/media",
+      "license": "Apple Newsroom press/media asset; editorial reuse from official press-release media download",
+      "credit": "Apple Inc."
+    },
+    {
+      "category": "wearables",
+      "slug": "apple_watch_series_12",
+      "role": "angle5",
+      "sourceUrl": "https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-Dark-Bronze-Aluminum-with-Olive-Sport-Band-260909_inline.jpg.large.jpg",
+      "sourcePage": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+      "sourceName": "Apple Newsroom press/media",
+      "license": "Apple Newsroom press/media asset; editorial reuse from official press-release media download",
+      "credit": "Apple Inc."
     }
   ]
 }
