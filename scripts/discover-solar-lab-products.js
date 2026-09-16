@@ -76,13 +76,6 @@ function parseReviewUrls(xml) {
     });
 }
 
-function extractPublishedDate(html) {
-  const match = html.match(/Last Published:\s*([A-Za-z]{3}\s+[A-Za-z]{3}\s+\d{1,2}\s+\d{4})/i);
-  if (!match) return null;
-  const date = new Date(match[1]);
-  return Number.isNaN(date.getTime()) ? null : date.toISOString().slice(0, 10);
-}
-
 async function main() {
   const sitemapUrl = process.argv[2] || DEFAULT_SITEMAP;
   const xml = await fetchText(sitemapUrl);
@@ -105,12 +98,10 @@ async function main() {
     if (!['portable-power-stations', 'smart-generators'].includes(category)) {
       continue;
     }
-    const html = await fetchText(sourceUrl);
-    const sourcePublishedDate = extractPublishedDate(html) || review.sitemapLastmod.slice(0, 10);
+    const sourceLastmod = review.sitemapLastmod.slice(0, 10);
     const existingItem = queue.items.find((item) => normalize(item.slug || item.product || '') === key);
     if (existingItem) {
-      existingItem.sourcePublishedDate = sourcePublishedDate;
-      existingItem.sourcePublishedDateStatus = extractPublishedDate(html) ? 'page_last_published' : 'sitemap_lastmod_fallback';
+      existingItem.sourceLastmod = sourceLastmod;
       continue;
     }
     queue.items.push({
@@ -118,8 +109,7 @@ async function main() {
       product,
       slug: key,
       sourceUrl,
-      sourcePublishedDate,
-      sourcePublishedDateStatus: extractPublishedDate(html) ? 'page_last_published' : 'sitemap_lastmod_fallback',
+      sourceLastmod,
       brief: `Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.`,
       status: 'pending',
     });

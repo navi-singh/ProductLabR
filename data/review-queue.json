@@ -15,8 +15,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/aferiy-p210-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -24,12 +23,8 @@
       "slug": "allpowers_r1500",
       "sourceUrl": "https://www.thesolarlab.com/review/allpowers-r1500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "blocked",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published",
-      "claimedAt": "2026-09-15T23:14:11.326Z",
-      "blockedAt": "2026-09-15T23:23:54.891Z",
-      "blocker": "Copilot exited with code 1."
+      "status": "pending",
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -38,11 +33,10 @@
       "sourceUrl": "https://www.thesolarlab.com/review/allpowers-s2000-pro-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published",
       "claimedAt": "2026-09-15T23:41:26.840Z",
       "completedAt": "2026-09-16T00:12:37.859Z",
-      "reviewPath": "posts/portable-power-stations/allpowers_s2000_pro.md"
+      "reviewPath": "posts/portable-power-stations/allpowers_s2000_pro.md",
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -51,11 +45,10 @@
       "sourceUrl": "https://www.thesolarlab.com/review/anker-c300x-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published",
       "claimedAt": "2026-09-16T00:28:56.470Z",
       "completedAt": "2026-09-16T00:44:52.309Z",
-      "reviewPath": "posts/portable-power-stations/anker_c300x.md"
+      "reviewPath": "posts/portable-power-stations/anker_c300x.md",
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "accessories",
@@ -72,8 +65,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/anker-f2600-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -82,8 +74,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/anker-f3000-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -92,8 +83,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-c1000-gen-2",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -102,8 +92,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-c2000-gen-2",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -112,8 +101,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-c800x-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -122,8 +110,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-f1500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -140,8 +127,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-s2000",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -214,8 +200,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-ac500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -232,8 +217,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-fridgepower",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -242,8 +226,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-hands-free-2",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -252,8 +235,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-pioneer-na",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -262,8 +244,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-power-station-redemption",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -272,8 +253,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/camping-ecoflow-delta-2-max",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -282,8 +262,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/can-you-survive-a-24-hour-outage-with-a-power-station",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "smart-generators",
@@ -292,8 +271,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/champion-8500-dual-fuel-generator",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "solar-panels",
@@ -310,8 +288,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/dabbsson-2000l",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -320,8 +297,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/dabbsson-600l-review-a-capable-power-station-for-under-300",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -330,8 +306,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/dabbsson-dsb2100-pro-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -340,8 +315,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/dji-power-1000-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -350,8 +324,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/dji-power-1000-v2",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -376,8 +349,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-2-max-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -386,8 +358,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-3-1000-air",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -396,8 +367,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-pro-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -422,8 +392,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-river-2-pro-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -432,8 +401,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-river-3-plus-wireless",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -442,8 +410,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-river-3-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "smart-generators",
@@ -452,8 +419,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-smart-generator-4000-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "solar-panels",
@@ -462,8 +428,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-solar-tracker-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -472,8 +437,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-trail-300dc",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "batteries",
@@ -570,8 +534,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/eg4-bossbox-ess",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -596,8 +559,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/eg4-chargeverter-plus",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -606,8 +568,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/eg4-flexboss-18-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "inverters",
@@ -624,8 +585,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/eg4-gridboss-and-flexboss",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -634,8 +594,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/eg4-gridboss-mid-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "solar-panels",
@@ -644,8 +603,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/eg4-hybrid-solar-window-ac",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "batteries",
@@ -702,8 +660,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/eg4-products-are-emp-hardened",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "solar-panels",
@@ -728,8 +685,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/enphase-iq-powerpack-1500",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "solar-panels",
@@ -738,8 +694,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/eufy-s3-pro-solar-security-camera",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "inverters",
@@ -772,8 +727,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/goal-zero-yeti-pro-4000",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -790,8 +744,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/hysolis-apollo-5k-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -800,8 +753,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/iceco-pb1000-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -826,8 +778,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-1000-plus-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -836,8 +787,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-1000-v2-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -854,8 +804,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-explorer-3000-pro",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "accessories",
@@ -864,8 +813,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-fridgeguard",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -874,8 +822,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/mango-power-e-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -892,8 +839,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/oscal-powermax-3600-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -902,8 +848,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/oupes-exodus-1200-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -912,8 +857,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/oupes-exodus-2400",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -922,8 +866,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/oupes-mega-1-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -932,8 +875,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/oupes-mega-2-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -942,8 +884,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/oupes-mega-3-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -952,8 +893,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e1000lfp-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -962,8 +902,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e1500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -972,8 +911,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e2400lfp-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -982,8 +920,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e300lfp-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -992,8 +929,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e3600-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -1026,8 +962,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-f1000",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -1036,8 +971,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-f3000lfp-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "portable-power-stations",
@@ -1046,8 +980,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-f5000lfp",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "batteries",
@@ -1064,8 +997,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/powerfield-powerrack",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     },
     {
       "category": "batteries",
@@ -1202,8 +1134,7 @@
       "sourceUrl": "https://www.thesolarlab.com/review/zendure-superbase-v-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "pending",
-      "sourcePublishedDate": "2026-09-14",
-      "sourcePublishedDateStatus": "page_last_published"
+      "sourceLastmod": "2026-09-14"
     }
   ]
 }

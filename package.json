@@ -26,6 +26,8 @@
     "editorial:pilot": "node scripts/editorial/select-pilot.js",
     "editorial:compare": "node scripts/editorial/compare-arms.js",
     "review:next": "node scripts/review-queue.js next --prompt",
+    "review:status": "node scripts/review-queue.js status",
+    "review:reset": "node scripts/review-queue.js reset",
     "review:claim": "node scripts/review-queue.js claim",
     "review:complete": "node scripts/review-queue.js complete",
     "review:discover": "node scripts/discover-solar-lab-products.js",

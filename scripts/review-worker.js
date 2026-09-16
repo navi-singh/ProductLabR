@@ -5,57 +5,60 @@ const { spawn, spawnSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const REPO_ROOT = path.join(__dirname, '..');
-const QUEUE_PATH = path.join(REPO_ROOT, 'data', 'review-queue.json');
-const POSTS_DIR = path.join(REPO_ROOT, 'posts');
-const ALLOWED_CATEGORIES = new Set([
-  'portable-power-stations',
-  'smart-generators',
-]);
-const MIN_SOURCE_REVIEW_DATE = '2025-01-01';
+const {
+  REPO_ROOT,
+  displayProduct,
+  findEligible,
+  readQueue,
+  resetItem,
+  slugFor,
+  staleClaims,
+  writeQueue,
+} = require('./lib/queue-core');
 
-function normalize(value) {
-  return value
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '_')
-    .replace(/^_+|_+$/g, '');
-}
-
-function isExcluded(item) {
-  return /(?:^|_)(?:best|testing|guide|comparison|revisit|bundle|mount|charger|kit|ground|split|bike|cooler|fridge|battery|inverter|panel|transfer|accessory)(?:_|$)/i.test(
-    item.slug || normalize(item.product)
-  );
-}
-
-function readQueue() {
-  const queue = JSON.parse(fs.readFileSync(QUEUE_PATH, 'utf8'));
-  if (!queue || !Array.isArray(queue.items)) {
-    throw new Error('data/review-queue.json must contain an items array.');
+function parseArgs(argv) {
+  const args = { execute: false, count: 1, category: null };
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === '--execute') args.execute = true;
+    else if (arg === '--count') args.count = Number(argv[++i]);
+    else if (arg === '--category') args.category = argv[++i];
   }
-  return queue;
+  if (!Number.isInteger(args.count) || args.count < 1) {
+    throw new Error('--count must be a positive integer.');
+  }
+  return args;
 }
 
-function findEligible(queue) {
-  return queue.items.find((item) => {
-    const slug = item.slug || normalize(item.product || '');
-    return (
-      ALLOWED_CATEGORIES.has(item.category) &&
-      !isExcluded(item) &&
-      item.status === 'pending' &&
-      typeof item.sourcePublishedDate === 'string' &&
-      item.sourcePublishedDate >= MIN_SOURCE_REVIEW_DATE &&
-      !fs.existsSync(path.join(POSTS_DIR, item.category, `${slug}.md`))
+/**
+ * Spawning `copilot` from inside an active Copilot session fails instantly with a
+ * generic exit 1. Detect it up front so the item is not burned as "blocked" for
+ * what is really an environment problem.
+ */
+function assertNotNested() {
+  const nested = ['COPILOT_AGENT_ID', 'COPILOT_SESSION_ID', 'GITHUB_COPILOT_CLI'].find(
+    (key) => process.env[key]
+  );
+  if (nested) {
+    throw new Error(
+      `Refusing to run: ${nested} is set, so this appears to be running inside an ` +
+        'existing Copilot session where the nested agent would fail immediately. ' +
+        'Run this from a plain terminal instead.'
     );
-  });
+  }
 }
 
 function buildPrompt(item) {
-  const slug = item.slug || normalize(item.product);
-  return `Create one new ProductLabR review for "${item.product}" in "${item.category}".
+  const slug = slugFor(item);
+  const product = displayProduct(item);
+  return `Create one new ProductLabR review for "${product}" in "${item.category}".
 
 Queue slug: ${slug}
-Verified Solar Lab review publication date: ${item.sourcePublishedDate}
 Discovery URL: ${item.sourceUrl || 'none'}
+
+Verify the product's official launch date from primary sources as part of the evidence brief.
+Only continue if that launch date is 2025-01-01 or later; if it is earlier or cannot be verified, stop and report the blocker.
+Do not treat the discovery URL's publish date as evidence of the launch date.
 
 Use the repository's evidence brief, draft, editorial review, fact-check, and QA workflow.
 Use the discovery URL only as a lead; do not copy its article text.
@@ -94,6 +97,25 @@ function runCopilot(prompt) {
   });
 }
 
+/** The agent is asked to run the gate; this verifies it actually passed. */
+function assertQaGatePasses(relativePath) {
+  const result = spawnSync(
+    process.execPath,
+    [path.join(REPO_ROOT, 'scripts', 'editorial', 'qa-gate.js'), relativePath],
+    { cwd: REPO_ROOT, encoding: 'utf8' }
+  );
+  if (result.status !== 0) {
+    const failures = (result.stdout || '')
+      .split('\n')
+      .filter((line) => line.includes('FAIL'))
+      .map((line) => line.trim())
+      .join('; ');
+    throw new Error(
+      `Editorial QA gate failed for ${relativePath}${failures ? `: ${failures}` : '.'}`
+    );
+  }
+}
+
 function git(args) {
   const result = spawnSync('git', args, { cwd: REPO_ROOT, encoding: 'utf8' });
   if (result.error) throw result.error;
@@ -105,22 +127,33 @@ function git(args) {
   return (result.stdout || '').trim();
 }
 
+/**
+ * Stage only the paths this run owns, so unrelated work already in the tree is
+ * never swept into a generated review commit.
+ */
 function commitRun(item, slug) {
-  git(['add', '-A']);
-  if (!git(['status', '--porcelain'])) {
+  const paths = [
+    path.posix.join('posts', item.category, `${slug}.md`),
+    path.posix.join('public', 'images', 'posts', item.category, slug),
+    path.posix.join('data', 'review-queue.json'),
+    path.posix.join('data', 'product-images.json'),
+  ].filter((rel) => fs.existsSync(path.join(REPO_ROOT, rel)));
+
+  git(['add', '--', ...paths]);
+
+  if (!git(['diff', '--cached', '--name-only'])) {
     console.log('Nothing to commit.');
     return;
   }
 
-  const subject = `feat(${item.category}): add ${item.product} review`;
+  const subject = `feat(${item.category}): add ${displayProduct(item)} review`;
   const body = [
-    `Generated by npm run review:worker from the review queue.`,
-    ``,
+    'Generated by npm run review:worker from the review queue.',
+    '',
     `Queue slug: ${slug}`,
-    `Source review published: ${item.sourcePublishedDate}`,
     item.sourceUrl ? `Discovery lead: ${item.sourceUrl}` : null,
-    ``,
-    `Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>`,
+    '',
+    'Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>',
   ]
     .filter((line) => line !== null)
     .join('\n');
@@ -129,46 +162,34 @@ function commitRun(item, slug) {
   console.log(`Committed ${git(['rev-parse', '--short', 'HEAD'])}: ${subject}`);
 }
 
-async function main() {
-  const execute = process.argv.includes('--execute');
-  const queue = readQueue();
-  const item = findEligible(queue);
-
-  if (!item) {
-    console.log(
-      'No eligible review: requires an allowed category, pending status, no existing file, and a Solar Lab review publication date >= 2025-01-01.'
-    );
-    return;
+function reclaimStale(queue) {
+  const stale = staleClaims(queue);
+  for (const item of stale) {
+    console.log(`Reclaiming stale claim: ${slugFor(item)}`);
+    resetItem(item);
   }
+  if (stale.length) writeQueue(queue);
+}
 
-  const slug = item.slug || normalize(item.product);
-  const prompt = buildPrompt(item);
-  console.log(JSON.stringify({ slug, product: item.product, prompt }, null, 2));
-
-  if (!execute) {
-    console.log('\nDry run only. Re-run with --execute to start Copilot.');
-    return;
-  }
+async function processOne(item, queue) {
+  const slug = slugFor(item);
+  const reviewPath = path.join(REPO_ROOT, 'posts', item.category, `${slug}.md`);
+  const relativePath = path.relative(REPO_ROOT, reviewPath);
 
   item.status = 'in_progress';
   item.claimedAt = new Date().toISOString();
-  fs.writeFileSync(QUEUE_PATH, `${JSON.stringify(queue, null, 2)}\n`);
+  writeQueue(queue);
 
   let succeeded = false;
   try {
-    await runCopilot(prompt);
-    const reviewPath = path.join(
-      REPO_ROOT,
-      'posts',
-      item.category,
-      `${slug}.md`
-    );
+    await runCopilot(buildPrompt(item));
     if (!fs.existsSync(reviewPath)) {
-      throw new Error(`Copilot completed without creating ${path.relative(REPO_ROOT, reviewPath)}.`);
+      throw new Error(`Copilot completed without creating ${relativePath}.`);
     }
+    assertQaGatePasses(relativePath);
     item.status = 'completed';
     item.completedAt = new Date().toISOString();
-    item.reviewPath = path.relative(REPO_ROOT, reviewPath);
+    item.reviewPath = relativePath;
     succeeded = true;
   } catch (error) {
     item.status = 'blocked';
@@ -176,11 +197,49 @@ async function main() {
     item.blocker = error.message;
     throw error;
   } finally {
-    fs.writeFileSync(QUEUE_PATH, `${JSON.stringify(queue, null, 2)}\n`);
+    writeQueue(queue);
   }
 
-  // Commit only after the queue file is flushed, so it lands in the same commit.
+  // Commit after the queue is flushed so the status update lands in the same commit.
   if (succeeded) commitRun(item, slug);
+}
+
+async function main() {
+  const args = parseArgs(process.argv.slice(2));
+
+  if (!args.execute) {
+    const queue = readQueue();
+    const item = findEligible(queue, args.category);
+    if (!item) {
+      console.log(
+        'No eligible review: needs an allowed category, pending status, and no existing file.'
+      );
+      return;
+    }
+    console.log(
+      JSON.stringify(
+        { slug: slugFor(item), product: displayProduct(item), prompt: buildPrompt(item) },
+        null,
+        2
+      )
+    );
+    console.log('\nDry run only. Re-run with --execute to start Copilot.');
+    return;
+  }
+
+  assertNotNested();
+  reclaimStale(readQueue());
+
+  for (let done = 0; done < args.count; done += 1) {
+    const queue = readQueue();
+    const item = findEligible(queue, args.category);
+    if (!item) {
+      console.log(`No further eligible reviews. Completed ${done} of ${args.count}.`);
+      return;
+    }
+    console.log(`\n=== [${done + 1}/${args.count}] ${slugFor(item)} ===`);
+    await processOne(item, queue);
+  }
 }
 
 if (require.main === module) {
@@ -190,4 +249,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { commitRun, findEligible, isExcluded };
+module.exports = { assertQaGatePasses, buildPrompt, commitRun };
