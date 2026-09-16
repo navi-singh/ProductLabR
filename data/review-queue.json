@@ -202,8 +202,11 @@
       "slug": "bluetti_ac500",
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-ac500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Bluetti Ac500 launched in 2022, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",
@@ -317,8 +320,11 @@
       "slug": "dji_power_1000_power_station",
       "sourceUrl": "https://www.thesolarlab.com/review/dji-power-1000-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Dji Power 1000 Power Station launched in 2024, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",
@@ -354,8 +360,11 @@
       "slug": "ecoflow_delta_2_max",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-2-max-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Ecoflow Delta 2 Max launched in 2023, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",
@@ -372,8 +381,11 @@
       "slug": "ecoflow_delta_pro",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-pro-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Ecoflow Delta Pro launched in 2021, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",
@@ -397,8 +409,11 @@
       "slug": "ecoflow_river_2_pro_power_station",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-river-2-pro-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Ecoflow River 2 Pro Power Station launched in 2022, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",
@@ -415,8 +430,11 @@
       "slug": "ecoflow_river_3",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-river-3-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Ecoflow River 3 launched in 2024, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "smart-generators",
@@ -783,8 +801,11 @@
       "slug": "jackery_1000_plus",
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-1000-plus-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Jackery 1000 Plus launched in 2023, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",
@@ -792,8 +813,11 @@
       "slug": "jackery_1000_v2",
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-1000-v2-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Jackery 1000 V2 launched in 2024, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",
@@ -809,8 +833,11 @@
       "slug": "jackery_explorer_3000_pro",
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-explorer-3000-pro",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Jackery Explorer 3000 Pro launched in 2022, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "accessories",
@@ -827,8 +854,11 @@
       "slug": "mango_power_e",
       "sourceUrl": "https://www.thesolarlab.com/review/mango-power-e-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Mango Power E launched in 2022, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",
@@ -1099,7 +1129,10 @@
       "slug": "testing_the_anker_f3800",
       "sourceUrl": "https://www.thesolarlab.com/review/testing-the-anker-f3800",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending"
+      "status": "blocked",
+      "blockedAt": "2026-09-16T18:25:51.988Z",
+      "blocker": "Pre-screen: Anker F3800 launched in 2023, before the 2025-01-01 launch-date rule.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",

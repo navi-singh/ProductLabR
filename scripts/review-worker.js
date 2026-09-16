@@ -32,7 +32,8 @@ const USAGE = `Generate ProductLabR reviews from the review queue.
   --help                 Show this message.
 
 Each successful review is committed locally. Nothing is ever pushed.
-Products launched before 2025-01-01 are refused by design; see npm run review:status.`;
+Products launched before 2025-01-01 are refused by design; see npm run review:status.
+Run "npm run review:prescreen" first to retire pre-2025 products cheaply.`;
 
 function parseArgs(argv) {
   const args = { execute: false, count: 1, category: null, slug: null, stopOnError: false, help: false };
