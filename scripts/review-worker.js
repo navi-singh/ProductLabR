@@ -1,0 +1,149 @@
+#!/usr/bin/env node
+'use strict';
+
+const { spawn } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+
+const REPO_ROOT = path.join(__dirname, '..');
+const QUEUE_PATH = path.join(REPO_ROOT, 'data', 'review-queue.json');
+const POSTS_DIR = path.join(REPO_ROOT, 'posts');
+const ALLOWED_CATEGORIES = new Set([
+  'portable-power-stations',
+  'smart-generators',
+]);
+const MIN_SOURCE_REVIEW_DATE = '2025-01-01';
+
+function normalize(value) {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
+function isExcluded(item) {
+  return /(?:^|_)(?:best|testing|guide|comparison|revisit|bundle|mount|charger|kit|ground|split|bike|cooler|fridge|battery|inverter|panel|transfer|accessory)(?:_|$)/i.test(
+    item.slug || normalize(item.product)
+  );
+}
+
+function readQueue() {
+  const queue = JSON.parse(fs.readFileSync(QUEUE_PATH, 'utf8'));
+  if (!queue || !Array.isArray(queue.items)) {
+    throw new Error('data/review-queue.json must contain an items array.');
+  }
+  return queue;
+}
+
+function findEligible(queue) {
+  return queue.items.find((item) => {
+    const slug = item.slug || normalize(item.product || '');
+    return (
+      ALLOWED_CATEGORIES.has(item.category) &&
+      !isExcluded(item) &&
+      item.status === 'pending' &&
+      typeof item.sourcePublishedDate === 'string' &&
+      item.sourcePublishedDate >= MIN_SOURCE_REVIEW_DATE &&
+      !fs.existsSync(path.join(POSTS_DIR, item.category, `${slug}.md`))
+    );
+  });
+}
+
+function buildPrompt(item) {
+  const slug = item.slug || normalize(item.product);
+  return `Create one new ProductLabR review for "${item.product}" in "${item.category}".
+
+Queue slug: ${slug}
+Verified Solar Lab review publication date: ${item.sourcePublishedDate}
+Discovery URL: ${item.sourceUrl || 'none'}
+
+Use the repository's evidence brief, draft, editorial review, fact-check, and QA workflow.
+Use the discovery URL only as a lead; do not copy its article text.
+Use only approved, verifiable sources. Do not invent facts, testing, prices, images, links, or specifications.
+Write only posts/${item.category}/${slug}.md.
+Run npm run editorial:qa -- posts/${item.category}/${slug}.md.
+Do not commit, push, open a pull request, merge, deploy, or publish.`;
+}
+
+function runCopilot(prompt) {
+  return new Promise((resolve, reject) => {
+    const child = spawn(
+      'copilot',
+      [
+        '--agent',
+        'review-generator',
+        '--allow-all-tools',
+        '--allow-all-paths',
+        '--allow-all-urls',
+        '--no-ask-user',
+        '--prompt',
+        prompt,
+        '--mode',
+        'autopilot',
+        '--max-autopilot-continues',
+        '5',
+      ],
+      { cwd: REPO_ROOT, stdio: 'inherit' }
+    );
+    child.once('error', reject);
+    child.once('exit', (code, signal) => {
+      if (signal) reject(new Error(`Copilot stopped with signal ${signal}.`));
+      else if (code !== 0) reject(new Error(`Copilot exited with code ${code}.`));
+      else resolve();
+    });
+  });
+}
+
+async function main() {
+  const execute = process.argv.includes('--execute');
+  const queue = readQueue();
+  const item = findEligible(queue);
+
+  if (!item) {
+    console.log(
+      'No eligible review: requires an allowed category, pending status, no existing file, and a Solar Lab review publication date >= 2025-01-01.'
+    );
+    return;
+  }
+
+  const slug = item.slug || normalize(item.product);
+  const prompt = buildPrompt(item);
+  console.log(JSON.stringify({ slug, product: item.product, prompt }, null, 2));
+
+  if (!execute) {
+    console.log('\nDry run only. Re-run with --execute to start Copilot.');
+    return;
+  }
+
+  item.status = 'in_progress';
+  item.claimedAt = new Date().toISOString();
+  fs.writeFileSync(QUEUE_PATH, `${JSON.stringify(queue, null, 2)}\n`);
+
+  try {
+    await runCopilot(prompt);
+    const reviewPath = path.join(
+      REPO_ROOT,
+      'posts',
+      item.category,
+      `${slug}.md`
+    );
+    if (!fs.existsSync(reviewPath)) {
+      throw new Error(`Copilot completed without creating ${path.relative(REPO_ROOT, reviewPath)}.`);
+    }
+    item.status = 'completed';
+    item.completedAt = new Date().toISOString();
+    item.reviewPath = path.relative(REPO_ROOT, reviewPath);
+  } catch (error) {
+    item.status = 'blocked';
+    item.blockedAt = new Date().toISOString();
+    item.blocker = error.message;
+    throw error;
+  } finally {
+    fs.writeFileSync(QUEUE_PATH, `${JSON.stringify(queue, null, 2)}\n`);
+  }
+}
+
+main().catch((error) => {
+  console.error(error.message);
+  process.exitCode = 1;
+});
