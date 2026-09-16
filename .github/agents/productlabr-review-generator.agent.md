@@ -1,7 +1,6 @@
 ---
-name: "Review Generator"
+name: productlabr-review-generator
 description: "Create one evidence-backed ProductLabR review draft and validate it without publishing."
-tools: ["codebase", "fetch", "githubRepo", "search", "usages", "runCommands"]
 ---
 
 # Review Generator

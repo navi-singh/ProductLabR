@@ -38,7 +38,7 @@ function parseArgs(argv) {
  * what is really an environment problem.
  */
 function assertNotNested() {
-  const nested = ['COPILOT_AGENT_ID', 'COPILOT_SESSION_ID', 'GITHUB_COPILOT_CLI'].find(
+  const nested = ['COPILOT_AGENT_SESSION_ID', 'COPILOT_CLI', 'COPILOT_LOADER_PID'].find(
     (key) => process.env[key]
   );
   if (nested) {
@@ -76,7 +76,9 @@ function runCopilot(prompt) {
       'copilot',
       [
         '--agent',
-        'review-generator',
+        'productlabr-review-generator',
+        '--add-dir',
+        REPO_ROOT,
         '--allow-all-tools',
         '--allow-all-paths',
         '--allow-all-urls',
