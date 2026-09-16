@@ -17,14 +17,16 @@ const {
 } = require('./lib/queue-core');
 
 function parseArgs(argv) {
-  const args = { execute: false, count: 1, category: null };
+  const args = { execute: false, count: 1, category: null, stopOnError: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === '--execute') args.execute = true;
+    else if (arg === '--stop-on-error') args.stopOnError = true;
     else if (arg === '--count') args.count = Number(argv[++i]);
+    else if (arg === '--all') args.count = Infinity;
     else if (arg === '--category') args.category = argv[++i];
   }
-  if (!Number.isInteger(args.count) || args.count < 1) {
+  if (args.count !== Infinity && (!Number.isInteger(args.count) || args.count < 1)) {
     throw new Error('--count must be a positive integer.');
   }
   return args;
@@ -229,16 +231,37 @@ async function main() {
 
   assertNotNested();
   reclaimStale(readQueue());
+  const results = { completed: [], blocked: [] };
 
   for (let done = 0; done < args.count; done += 1) {
     const queue = readQueue();
     const item = findEligible(queue, args.category);
     if (!item) {
-      console.log(`No further eligible reviews. Completed ${done} of ${args.count}.`);
-      return;
+      console.log(`\nNo further eligible reviews after ${done} attempt(s).`);
+      break;
     }
-    console.log(`\n=== [${done + 1}/${args.count}] ${slugFor(item)} ===`);
-    await processOne(item, queue);
+    const slug = slugFor(item);
+    const label = args.count === Infinity ? `${done + 1}` : `${done + 1}/${args.count}`;
+    console.log(`\n=== [${label}] ${slug} ===`);
+    try {
+      await processOne(item, queue);
+      results.completed.push(slug);
+    } catch (error) {
+      console.error(`Blocked: ${error.message}`);
+      results.blocked.push(slug);
+      // One bad item should not abandon the rest of the batch.
+      if (args.stopOnError) break;
+    }
+  }
+
+  console.log(
+    `\nDone. ${results.completed.length} completed, ${results.blocked.length} blocked.`
+  );
+  if (results.completed.length) console.log(`  completed: ${results.completed.join(', ')}`);
+  if (results.blocked.length) {
+    console.log(`  blocked:   ${results.blocked.join(', ')}`);
+    console.log('  retry with: npm run review:reset -- --blocked');
+    process.exitCode = 1;
   }
 }
 
