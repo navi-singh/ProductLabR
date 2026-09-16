@@ -68,12 +68,19 @@ async function fetchText(url) {
 }
 
 function parseReviewUrls(xml) {
-  return [...xml.matchAll(/<loc>(https:\/\/www\.thesolarlab\.com\/review\/[^<]+)<\/loc>/g)]
-    .map((match) => match[1])
+  return [...xml.matchAll(/<url>\s*<loc>(https:\/\/www\.thesolarlab\.com\/review\/[^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>\s*<\/url>/g)]
+    .map((match) => ({ url: match[1], sitemapLastmod: match[2] }))
     .filter((url) => {
-      const slug = url.split('/').pop();
+      const slug = url.url.split('/').pop();
       return !isComparisonSlug(slug) && !isNonProductSlug(slug);
     });
+}
+
+function extractPublishedDate(html) {
+  const match = html.match(/Last Published:\s*([A-Za-z]{3}\s+[A-Za-z]{3}\s+\d{1,2}\s+\d{4})/i);
+  if (!match) return null;
+  const date = new Date(match[1]);
+  return Number.isNaN(date.getTime()) ? null : date.toISOString().slice(0, 10);
 }
 
 async function main() {
@@ -87,14 +94,23 @@ async function main() {
   );
   const discovered = [];
 
-  for (const sourceUrl of reviewUrls) {
+  for (const review of reviewUrls) {
+    const sourceUrl = review.url;
     const sourceSlug = sourceUrl.split('/').pop();
     const key = normalize(sourceSlug);
-    if (!key || existing.has(key) || queued.has(key)) continue;
+    if (!key || existing.has(key)) continue;
 
     const product = titleFromSlug(sourceSlug);
     const category = categoryForSlug(sourceSlug);
     if (!['portable-power-stations', 'smart-generators'].includes(category)) {
+      continue;
+    }
+    const html = await fetchText(sourceUrl);
+    const sourcePublishedDate = extractPublishedDate(html) || review.sitemapLastmod.slice(0, 10);
+    const existingItem = queue.items.find((item) => normalize(item.slug || item.product || '') === key);
+    if (existingItem) {
+      existingItem.sourcePublishedDate = sourcePublishedDate;
+      existingItem.sourcePublishedDateStatus = extractPublishedDate(html) ? 'page_last_published' : 'sitemap_lastmod_fallback';
       continue;
     }
     queue.items.push({
@@ -102,8 +118,8 @@ async function main() {
       product,
       slug: key,
       sourceUrl,
-      launchDate: null,
-      launchDateStatus: 'needs_verification',
+      sourcePublishedDate,
+      sourcePublishedDateStatus: extractPublishedDate(html) ? 'page_last_published' : 'sitemap_lastmod_fallback',
       brief: `Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.`,
       status: 'pending',
     });

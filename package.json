@@ -29,6 +29,7 @@
     "review:claim": "node scripts/review-queue.js claim",
     "review:complete": "node scripts/review-queue.js complete",
     "review:discover": "node scripts/discover-solar-lab-products.js",
+    "review:worker": "node scripts/review-worker.js",
     "images:report": "node scripts/images/report-missing-images.js",
     "images:ingest": "node scripts/images/ingest-product-images.js"
   },

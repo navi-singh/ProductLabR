@@ -20,8 +20,8 @@ Create exactly one new ProductLabR product review from the task prompt.
 ## Safety and publishing boundary
 
 - Treat queue discovery URLs as leads only; use approved and verifiable sources for claims.
-- Only write reviews for products with a verified official launch date of 2025-01-01 or later.
-- If the launch date is unknown, disputed, or earlier than 2025, do not draft the review; report the queue item as blocked.
+- Only process queue items whose Solar Lab review publication date is 2025-01-01 or later.
+- Treat the source review date as an eligibility filter, not proof of the product's launch date.
 - Never invent specifications, measurements, prices, product images, retailer URLs, or test results.
 - If a required fact cannot be verified, stop and report the blocker.
 - Do not modify existing reviews unless the task explicitly names one.
