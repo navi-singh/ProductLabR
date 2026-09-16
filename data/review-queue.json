@@ -25,9 +25,9 @@
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "blocked",
       "sourceLastmod": "2026-09-14",
-      "claimedAt": "2026-09-16T18:05:08.250Z",
-      "blockedAt": "2026-09-16T18:07:43.177Z",
-      "blocker": "Copilot completed without creating posts/portable-power-stations/allpowers_r1500.md."
+      "blockedAt": "2026-09-16T18:13:33.461Z",
+      "blocker": "Copilot completed without creating posts/portable-power-stations/allpowers_r1500.md. Reported reason: the official ALLPOWERS R1500 launch date could not be verified as 2025-01-01 or later.",
+      "blockerKind": "launch-date"
     },
     {
       "category": "portable-power-stations",

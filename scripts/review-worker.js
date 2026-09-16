@@ -2,11 +2,14 @@
 'use strict';
 
 const { spawn, spawnSync } = require('child_process');
+
+const MAX_CAPTURED_OUTPUT = 200_000;
 const fs = require('fs');
 const path = require('path');
 
 const {
   REPO_ROOT,
+  classifyBlocker,
   displayProduct,
   findEligible,
   readQueue,
@@ -17,7 +20,7 @@ const {
 } = require('./lib/queue-core');
 
 function parseArgs(argv) {
-  const args = { execute: false, count: 1, category: null, stopOnError: false };
+  const args = { execute: false, count: 1, category: null, slug: null, stopOnError: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === '--execute') args.execute = true;
@@ -25,6 +28,7 @@ function parseArgs(argv) {
     else if (arg === '--count') args.count = Number(argv[++i]);
     else if (arg === '--all') args.count = Infinity;
     else if (arg === '--category') args.category = argv[++i];
+    else if (arg === '--slug') args.slug = argv[++i];
   }
   if (args.count !== Infinity && (!Number.isInteger(args.count) || args.count < 1)) {
     throw new Error('--count must be a positive integer.');
@@ -32,20 +36,15 @@ function parseArgs(argv) {
   return args;
 }
 
-/**
- * Spawning `copilot` from inside an active Copilot session fails instantly with a
- * generic exit 1. Detect it up front so the item is not burned as "blocked" for
- * what is really an environment problem.
- */
-function assertNotNested() {
+/** Nested runs work, but they share the outer session's approvals and quota. */
+function warnIfNested() {
   const nested = ['COPILOT_AGENT_SESSION_ID', 'COPILOT_CLI', 'COPILOT_LOADER_PID'].find(
     (key) => process.env[key]
   );
   if (nested) {
-    throw new Error(
-      `Refusing to run: ${nested} is set, so this appears to be running inside an ` +
-        'existing Copilot session where the nested agent would fail immediately. ' +
-        'Run this from a plain terminal instead.'
+    console.warn(
+      `Warning: ${nested} is set, so this is running inside an existing Copilot ` +
+        'session. Nested runs work but share that session\'s approvals and quota.'
     );
   }
 }
@@ -67,7 +66,11 @@ Use the discovery URL only as a lead; do not copy its article text.
 Use only approved, verifiable sources. Do not invent facts, testing, prices, images, links, or specifications.
 Write only posts/${item.category}/${slug}.md.
 Run npm run editorial:qa -- posts/${item.category}/${slug}.md.
-Do not commit, push, open a pull request, merge, deploy, or publish.`;
+Do not commit, push, open a pull request, merge, deploy, or publish.
+
+You are already the review generator; never call the skill tool for "review-generator".
+Do not stop until either posts/${item.category}/${slug}.md exists and passes the QA gate,
+or you have a concrete blocker to report. Do not end the session with no file and no blocker.`;
 }
 
 function runCopilot(prompt) {
@@ -90,15 +93,48 @@ function runCopilot(prompt) {
         '--max-autopilot-continues',
         '5',
       ],
-      { cwd: REPO_ROOT, stdio: 'inherit' }
+      { cwd: REPO_ROOT, stdio: ['inherit', 'pipe', 'pipe'] }
     );
+
+    let output = '';
+    const tee = (stream, sink) => {
+      stream.setEncoding('utf8');
+      stream.on('data', (chunk) => {
+        output += chunk;
+        if (output.length > MAX_CAPTURED_OUTPUT) {
+          output = output.slice(-MAX_CAPTURED_OUTPUT);
+        }
+        sink.write(chunk);
+      });
+    };
+    tee(child.stdout, process.stdout);
+    tee(child.stderr, process.stderr);
+
     child.once('error', reject);
-    child.once('exit', (code, signal) => {
+    child.once('close', (code, signal) => {
       if (signal) reject(new Error(`Copilot stopped with signal ${signal}.`));
       else if (code !== 0) reject(new Error(`Copilot exited with code ${code}.`));
-      else resolve();
+      else resolve(output);
     });
   });
+}
+
+/** Pull the agent's own stated reason out of its transcript, so a failed run
+ *  reports why it stopped instead of only that the file is missing. */
+function extractBlocker(output) {
+  const lines = (output || '')
+    .replace(/\u001b\[[0-9;]*m/g, '')
+    .split('\n')
+    .map((line) => line.replace(/^[\s│└●*-]+/, '').trim())
+    .filter(Boolean);
+
+  const stated = lines.find((line) => /^\**\s*(blocked|blocker)\b/i.test(line));
+  if (stated) return stated.replace(/\*\*/g, '').slice(0, 300);
+
+  const reason = lines.find((line) =>
+    /(could not|cannot|unable to) (be )?(verif|establish|confirm|find)/i.test(line)
+  );
+  return reason ? reason.replace(/\*\*/g, '').slice(0, 300) : '';
 }
 
 /** The agent is asked to run the gate; this verifies it actually passed. */
@@ -186,9 +222,13 @@ async function processOne(item, queue) {
 
   let succeeded = false;
   try {
-    await runCopilot(buildPrompt(item));
+    const output = await runCopilot(buildPrompt(item));
     if (!fs.existsSync(reviewPath)) {
-      throw new Error(`Copilot completed without creating ${relativePath}.`);
+      const reason = extractBlocker(output);
+      throw new Error(
+        `Copilot completed without creating ${relativePath}.` +
+          (reason ? ` Reported reason: ${reason}` : '')
+      );
     }
     assertQaGatePasses(relativePath);
     item.status = 'completed';
@@ -199,6 +239,7 @@ async function processOne(item, queue) {
     item.status = 'blocked';
     item.blockedAt = new Date().toISOString();
     item.blocker = error.message;
+    item.blockerKind = classifyBlocker(error.message);
     throw error;
   } finally {
     writeQueue(queue);
@@ -213,7 +254,7 @@ async function main() {
 
   if (!args.execute) {
     const queue = readQueue();
-    const item = findEligible(queue, args.category);
+    const item = findEligible(queue, args.category, args.slug);
     if (!item) {
       console.log(
         'No eligible review: needs an allowed category, pending status, and no existing file.'
@@ -231,13 +272,13 @@ async function main() {
     return;
   }
 
-  assertNotNested();
+  warnIfNested();
   reclaimStale(readQueue());
   const results = { completed: [], blocked: [] };
 
   for (let done = 0; done < args.count; done += 1) {
     const queue = readQueue();
-    const item = findEligible(queue, args.category);
+    const item = findEligible(queue, args.category, args.slug);
     if (!item) {
       console.log(`\nNo further eligible reviews after ${done} attempt(s).`);
       break;
@@ -274,4 +315,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { assertQaGatePasses, buildPrompt, commitRun };
+module.exports = { assertQaGatePasses, buildPrompt, commitRun, extractBlocker };

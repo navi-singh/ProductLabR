@@ -110,7 +110,12 @@ function isEligible(item, category) {
   );
 }
 
-function findEligible(queue, category) {
+function findEligible(queue, category, slug) {
+  if (slug) {
+    return queue.items.find(
+      (item) => slugFor(item) === slug && isEligible(item, category)
+    );
+  }
   return queue.items.find((item) => isEligible(item, category));
 }
 
@@ -123,18 +128,28 @@ function staleClaims(queue, now = Date.now()) {
   );
 }
 
+/**
+ * A launch-date block is permanent: the product simply predates the 2025 cutoff, so
+ * retrying it only burns another full research run. Everything else is transient.
+ */
+function classifyBlocker(message) {
+  return /launch date|2025-01-01/i.test(message || '') ? 'launch-date' : 'error';
+}
+
 function resetItem(item) {
   item.status = 'pending';
   delete item.claimedAt;
   delete item.completedAt;
   delete item.blockedAt;
   delete item.blocker;
+  delete item.blockerKind;
   delete item.reviewPath;
   return item;
 }
 
 module.exports = {
   ALLOWED_CATEGORIES,
+  classifyBlocker,
   POSTS_DIR,
   QUEUE_PATH,
   REPO_ROOT,

@@ -86,13 +86,26 @@ function complete(queue, slug, reviewPath) {
 }
 
 /** Return a single item, all blocked items, or all stale claims to pending. */
-function reset(queue, { slug, blocked, stale }) {
+function reset(queue, { slug, blocked, stale, force }) {
   let targets;
+  let skipped = 0;
   if (slug) targets = [requireItem(queue, slug)];
-  else if (blocked) targets = queue.items.filter((i) => i.status === 'blocked');
-  else if (stale) targets = staleClaims(queue);
+  else if (blocked) {
+    targets = queue.items.filter((i) => i.status === 'blocked');
+    if (!force) {
+      const before = targets.length;
+      targets = targets.filter((i) => i.blockerKind !== 'launch-date');
+      skipped = before - targets.length;
+    }
+  } else if (stale) targets = staleClaims(queue);
   else throw new Error('reset requires --slug <slug>, --blocked, or --stale.');
 
+  if (skipped) {
+    console.log(
+      `Skipped ${skipped} item(s) blocked on the 2025 launch-date rule; ` +
+        'retrying them cannot succeed. Use --force to override.'
+    );
+  }
   if (targets.length === 0) {
     console.log('Nothing to reset.');
     return;
@@ -119,7 +132,8 @@ function status(queue) {
   if (blocked.length) {
     console.log('\nblocked:');
     for (const item of blocked) {
-      console.log(`  ${slugFor(item)}: ${item.blocker || 'no reason recorded'}`);
+      const kind = item.blockerKind === 'launch-date' ? ' [launch-date, permanent]' : '';
+      console.log(`  ${slugFor(item)}${kind}: ${item.blocker || 'no reason recorded'}`);
     }
   }
 }
@@ -151,6 +165,7 @@ function main() {
       slug: valueFor('--slug'),
       blocked: args.includes('--blocked'),
       stale: args.includes('--stale'),
+      force: args.includes('--force'),
     });
   }
   throw new Error(
