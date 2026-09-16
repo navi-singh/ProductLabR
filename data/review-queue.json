@@ -23,8 +23,11 @@
       "slug": "allpowers_r1500",
       "sourceUrl": "https://www.thesolarlab.com/review/allpowers-r1500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-16T18:05:08.250Z",
+      "blockedAt": "2026-09-16T18:07:43.177Z",
+      "blocker": "Copilot completed without creating posts/portable-power-stations/allpowers_r1500.md."
     },
     {
       "category": "portable-power-stations",
@@ -323,8 +326,11 @@
       "slug": "dji_power_1000_v2",
       "sourceUrl": "https://www.thesolarlab.com/review/dji-power-1000-v2",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-16T18:09:27.867Z",
+      "completedAt": "2026-09-16T18:13:09.368Z",
+      "reviewPath": "posts/portable-power-stations/dji_power_1000_v2.md"
     },
     {
       "category": "portable-power-stations",
