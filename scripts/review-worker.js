@@ -19,17 +19,34 @@ const {
   writeQueue,
 } = require('./lib/queue-core');
 
+const USAGE = `Generate ProductLabR reviews from the review queue.
+
+  npm run review:worker -- [options]
+
+  --execute              Actually run. Without it, the worker only reports what it would do.
+  --count <n>            Generate n reviews in one batch (default 1).
+  --all                  Work through every eligible queue item.
+  --category <name>      Restrict to a single category.
+  --slug <slug>          Target one specific queue item, e.g. to retry it.
+  --stop-on-error        Abort the batch on the first failure (default: keep going).
+  --help                 Show this message.
+
+Each successful review is committed locally. Nothing is ever pushed.
+Products launched before 2025-01-01 are refused by design; see npm run review:status.`;
+
 function parseArgs(argv) {
-  const args = { execute: false, count: 1, category: null, slug: null, stopOnError: false };
+  const args = { execute: false, count: 1, category: null, slug: null, stopOnError: false, help: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
-    if (arg === '--execute') args.execute = true;
+    if (arg === '--help' || arg === '-h') args.help = true;
+    else if (arg === '--execute') args.execute = true;
     else if (arg === '--stop-on-error') args.stopOnError = true;
     else if (arg === '--count') args.count = Number(argv[++i]);
     else if (arg === '--all') args.count = Infinity;
     else if (arg === '--category') args.category = argv[++i];
     else if (arg === '--slug') args.slug = argv[++i];
   }
+  if (args.help) return args;
   if (args.count !== Infinity && (!Number.isInteger(args.count) || args.count < 1)) {
     throw new Error('--count must be a positive integer.');
   }
@@ -251,6 +268,11 @@ async function processOne(item, queue) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
+
+  if (args.help) {
+    console.log(USAGE);
+    return;
+  }
 
   if (!args.execute) {
     const queue = readQueue();
