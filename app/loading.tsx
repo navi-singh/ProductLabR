@@ -1,7 +1,7 @@
 export default function Loading() {
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Trending Section Skeleton */}
+      {/* Latest reviews skeleton */}
       <section className="bg-gradient-to-r from-primary/5 to-purple-500/5 border-b border-gray-200">
         <div className="container mx-auto px-4">
           <div className="flex items-center py-4">
