@@ -4,14 +4,18 @@ import getPostMetadata from './getPostMetadata';
 /**
  * Posts are sorted newest-first, so this is a recency list. It was previously
  * labelled "Trending", which implied a popularity signal the site does not yet
- * collect. Swap in GA4/Search Console data before reinstating that label.
+ * collect.
+ *
+ * The heading avoids "Latest Reviews" because the homepage already uses that
+ * label for the main feed, and two identical headings on one page tell the
+ * reader nothing about how the lists differ.
  */
 export function LatestReviews({ limit = 5 }: { limit?: number }) {
   const posts = getPostMetadata().slice(0, limit);
 
   return (
     <div className="rounded-xl border border-primary-light bg-gradient-to-b from-primary-lightest to-neutral-50 p-4">
-      <h3 className="mb-3 text-xs font-semibold uppercase tracking-widest text-primary">Latest Reviews</h3>
+      <h3 className="mb-3 text-xs font-semibold uppercase tracking-widest text-primary">Recently Published</h3>
       <ol className="space-y-0">
         {posts.map((post, i) => (
           <li key={post.slug} className="flex gap-2 border-b border-primary/10 py-2 last:border-0">

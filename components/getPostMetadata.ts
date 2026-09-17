@@ -35,6 +35,8 @@ const getPostMetadata = cache((): PostMetadata[] => {
           retailerLinks: matterResult.data.retailerLinks,
           category: 'general',
           ratingBreakdown: matterResult.data.ratingBreakdown,
+          capacityWh: matterResult.data.capacityWh,
+          features: matterResult.data.features,
         };
       });
       
@@ -75,6 +77,8 @@ const getPostMetadata = cache((): PostMetadata[] => {
             retailerLinks: matterResult.data.retailerLinks,
             category: category,
             ratingBreakdown: matterResult.data.ratingBreakdown,
+            capacityWh: matterResult.data.capacityWh,
+            features: matterResult.data.features,
           };
         });
 

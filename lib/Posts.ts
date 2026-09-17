@@ -73,6 +73,8 @@ export function getPostBySlug(slug: string): { metadata: PostMetadata; content: 
       rating: matterResult.data.rating,
       retailerLinks: matterResult.data.retailerLinks,
       ratingBreakdown: matterResult.data.ratingBreakdown,
+      capacityWh: matterResult.data.capacityWh,
+      features: matterResult.data.features,
       category: fileInfo.category,
     };
 

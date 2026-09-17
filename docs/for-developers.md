@@ -107,6 +107,35 @@ getStationsBySlugs(["ecoflow-delta-3-plus", "anker-solix-c1000"])
 getQuickPicks(entries)               // { bestOverall, bestValue, budgetPick }
 ```
 
+## Trending section
+
+The homepage sidebar reads a build-time snapshot at `data/trending.json`. There is
+no runtime counter, so the site stays fully static.
+
+```bash
+npm run trending -- --from-json ga4-export.json            # dry run, prints the ranking
+npm run trending -- --from-json ga4-export.json --execute  # writes data/trending.json
+```
+
+Input rows are `{ path | slug, views, priorViews }`; anything else is ignored. The
+export can come from GA4, Search Console, or any other source — the ranking does
+not care.
+
+Ranking is **growth, not raw pageviews**: `(views - priorViews) / (priorViews + 20)`.
+An evergreen review would win a raw-views ranking every single week, which tells a
+returning reader nothing. The smoothing constant and a `--min-views` floor stop a
+review going from 3 views to 9 from topping the chart.
+
+`components/TrendingReviews.tsx` renders the "Trending" heading **only** when the
+snapshot is present, under `MAX_SNAPSHOT_AGE_DAYS` old, and resolves at least
+`MIN_TRENDING_ITEMS` live reviews. Otherwise it falls back to `LatestReviews`
+("Recently Published"). This is deliberate: the widget previously displayed the five
+newest posts under a "Trending" heading, claiming a popularity signal that was never
+measured. Do not reinstate the label without data behind it.
+
+If no snapshot is committed, the fallback is what ships — which is the correct
+behaviour, not a bug.
+
 ## Content & frontmatter
 
 Every review is a markdown file with YAML frontmatter. Full schema lives at [reference/content-schema.md](./reference/content-schema.md). The minimum-viable shape:

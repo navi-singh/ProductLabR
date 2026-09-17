@@ -34,7 +34,8 @@
     "review:worker": "node scripts/review-worker.js",
     "images:report": "node scripts/images/report-missing-images.js",
     "images:ingest": "node scripts/images/ingest-product-images.js",
-    "review:prescreen": "node scripts/prescreen-launch-dates.js"
+    "review:prescreen": "node scripts/prescreen-launch-dates.js",
+    "trending": "node scripts/fetch-trending.js"
   },
   "dependencies": {
     "@next/third-parties": "^16.3.4",

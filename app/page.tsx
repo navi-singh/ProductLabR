@@ -5,7 +5,7 @@ import { OptimizedImage } from '@/components/OptimizedImage';
 import { ReviewCard } from '@/components/ReviewCard';
 import { ScoreBadge } from '@/components/ScoreBadge';
 import { SectionLabel } from '@/components/SectionLabel';
-import { LatestReviews } from '@/components/LatestReviews';
+import { TrendingReviews } from '@/components/TrendingReviews';
 import { Newsletter } from '@/components/Newsletter';
 import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
@@ -182,7 +182,7 @@ export default function Home() {
 
         {/* Sidebar */}
         <aside className="space-y-4">
-          <LatestReviews />
+          <TrendingReviews />
 
           <AdBanner
             adSlot={ADSENSE_CONFIG.adSlots.sidebar}
