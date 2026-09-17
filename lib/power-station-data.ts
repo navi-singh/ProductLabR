@@ -74,6 +74,27 @@ export function getStationsBySlugs(slugs: string[]): PowerStationEntry[] {
   return slugs.map((slug) => all.find((s) => s.slug === slug)).filter(Boolean) as PowerStationEntry[];
 }
 
+/**
+ * Coverage stats for a hub card. Derived rather than hand-written because the
+ * category page previously hardcoded both values and every one of them had
+ * drifted — the CPAP card advertised 6 reviews against 16 in the corpus.
+ */
+export function summarizeStations(entries: PowerStationEntry[]): {
+  count: number;
+  priceRange: string;
+} {
+  const prices = entries.map((s) => s.priceNum).filter((n) => n > 0);
+  if (prices.length === 0) return { count: entries.length, priceRange: '—' };
+
+  const fmt = (n: number) => `$${n.toLocaleString('en-US')}`;
+  const low = Math.min(...prices);
+  const high = Math.max(...prices);
+  return {
+    count: entries.length,
+    priceRange: low === high ? fmt(low) : `${fmt(low)} – ${fmt(high)}`,
+  };
+}
+
 export function getQuickPicks(entries: PowerStationEntry[]): {
   label: string; name: string; href: string; score: number; price: string;
 }[] {
