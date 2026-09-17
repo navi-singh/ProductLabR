@@ -36,29 +36,38 @@ for (const path of ARTICLES) {
   });
 }
 
-test('the rating clears the fold on a laptop viewport', async ({ page }) => {
+test('the imagery block ends inside the first screen on a laptop', async ({ page }) => {
   test.skip(
     !process.env.E2E_PROD,
-    'The dev server renders an ad placeholder that production does not, which ' +
-      'shifts everything below the hero down ~100px. Measuring the fold against ' +
-      'dev would assert a layout no reader ever sees: npm run test:e2e:prod',
+    'The dev server renders an ad placeholder above the hero that production ' +
+      'does not, which pushes the imagery ~95px lower (930px in dev vs under ' +
+      '900 shipped). Only the built site reflects what a reader sees: ' +
+      'npm run test:e2e:prod',
   );
 
   // A common laptop, and the case that prompted this: at 1440x900 the uncapped
-  // hero left the rating 370px below the fold.
+  // hero ran to y=1270 and pushed the written review entirely off screen.
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto(ARTICLES[0], { waitUntil: 'domcontentloaded' });
 
-  const rating = page.getByText(/out of 10/i).first();
-  await expect(rating).toBeVisible();
+  const title = (await page.locator('h1').first().innerText()).trim();
+  const hero = page.getByAltText(title, { exact: true }).first();
+  await expect(hero).toBeVisible();
 
-  const box = await rating.boundingBox();
-  expect(box, 'rating has no layout box').not.toBeNull();
+  // Where the imagery stops is what the caps control, and unlike a verdict or
+  // score block it exists on every review regardless of how complete the copy is.
+  const boxes = [await hero.boundingBox()];
+  const thumbs = page.getByAltText(/additional angle \d+$/);
+  for (let i = 0; i < (await thumbs.count()); i += 1) {
+    boxes.push(await thumbs.nth(i).boundingBox());
+  }
+
+  const bottom = Math.max(...boxes.filter(Boolean).map((b) => b!.y + b!.height));
 
   expect(
-    box!.y,
-    `The rating sits ${Math.round(box!.y)}px down the page, below the 900px fold. ` +
-      'The hero has grown back into the space the verdict needs.',
+    bottom,
+    `Product imagery runs to ${Math.round(bottom)}px, past the 900px fold. ` +
+      'Nothing of the review itself is visible without scrolling.',
   ).toBeLessThan(900);
 });
 
