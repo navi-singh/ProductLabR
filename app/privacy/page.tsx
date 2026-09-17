@@ -74,6 +74,26 @@ export default function PrivacyPage() {
             request logs such as IP address, user agent and requested URL for security and
             operational purposes.
           </p>
+          <p className="mt-3 text-sm leading-relaxed text-neutral-600">
+            We also use Google Analytics to understand which reviews people read and how they found
+            them. It sets cookies to recognise returning visits and reports to us only in aggregate
+            &mdash; page views, referring sites, approximate region and device type. We do not
+            receive your name, email address or any information that identifies you personally, and
+            we do not sell or share this data.
+          </p>
+          <p className="mt-3 text-sm leading-relaxed text-neutral-600">
+            You can prevent this collection entirely with the{' '}
+            <a
+              href="https://tools.google.com/dlpage/gaoptout"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+              className="text-primary hover:underline"
+            >
+              Google Analytics opt-out browser add-on
+            </a>
+            , or by blocking cookies as described below. Blocking analytics does not affect access
+            to any content on this site.
+          </p>
         </section>
 
         <section className="mt-10">

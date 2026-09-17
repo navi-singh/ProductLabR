@@ -80,6 +80,18 @@ jobs:
         # shipped to production points at http://localhost:3000.
         env:
           NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.base_url }}
+          # A GA4 measurement ID is public by design (it ships in the page
+          # source), so it is checked in rather than kept as a secret. Setting a
+          # NEXT_PUBLIC_GA_ID repository variable overrides this default, which
+          # is how you would point a fork or a staging deploy at its own
+          # property without touching this file.
+          NEXT_PUBLIC_GA_ID: ${{ vars.NEXT_PUBLIC_GA_ID || 'G-B8E1RFCF6C' }}
+          # Without this the build falls back to the placeholder publisher ID,
+          # which is what production has been shipping: the AdSense script loads
+          # but can serve no ads, so every impression is lost. Set a
+          # NEXT_PUBLIC_GOOGLE_ADSENSE_ID repository variable to the ca-pub-...
+          # value from the AdSense dashboard.
+          NEXT_PUBLIC_GOOGLE_ADSENSE_ID: ${{ vars.NEXT_PUBLIC_GOOGLE_ADSENSE_ID }}
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
