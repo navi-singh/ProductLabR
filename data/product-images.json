@@ -4875,6 +4875,61 @@
       "sourceName": "Apple Newsroom press/media",
       "license": "Apple Newsroom press/media asset; editorial reuse from official press-release media download",
       "credit": "Apple Inc."
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "anker_f3000",
+      "role": "main",
+      "sourceUrl": "https://www.dropbox.com/scl/fo/5ch2x0th9wrgczke2nltu/AAbiGSJtTpUBaIjpYFyL9Ak?rlkey=npniip2rbqlx9soagrvag2m6w&st=lnbv073r&dl=0",
+      "sourcePage": "https://www.anker-in.com/posts/anker-solix-launches-f3000-portable-power-station-delivering-essential-home-backup-power",
+      "sourceName": "Anker SOLIX Press Kit",
+      "license": "Manufacturer press/media asset; editorial reuse from official press kit",
+      "credit": "Anker SOLIX",
+      "vendored": true
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "anker_f3000",
+      "role": "angle2",
+      "sourceUrl": "https://www.dropbox.com/scl/fo/5ch2x0th9wrgczke2nltu/AAbiGSJtTpUBaIjpYFyL9Ak?rlkey=npniip2rbqlx9soagrvag2m6w&st=lnbv073r&dl=0",
+      "sourcePage": "https://www.anker-in.com/posts/anker-solix-launches-f3000-portable-power-station-delivering-essential-home-backup-power",
+      "sourceName": "Anker SOLIX Press Kit",
+      "license": "Manufacturer press/media asset; editorial reuse from official press kit",
+      "credit": "Anker SOLIX",
+      "vendored": true
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "anker_f3000",
+      "role": "angle3",
+      "sourceUrl": "https://www.dropbox.com/scl/fo/5ch2x0th9wrgczke2nltu/AAbiGSJtTpUBaIjpYFyL9Ak?rlkey=npniip2rbqlx9soagrvag2m6w&st=lnbv073r&dl=0",
+      "sourcePage": "https://www.anker-in.com/posts/anker-solix-launches-f3000-portable-power-station-delivering-essential-home-backup-power",
+      "sourceName": "Anker SOLIX Press Kit",
+      "license": "Manufacturer press/media asset; editorial reuse from official press kit",
+      "credit": "Anker SOLIX",
+      "vendored": true
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "anker_f3000",
+      "role": "angle4",
+      "sourceUrl": "https://www.dropbox.com/scl/fo/5ch2x0th9wrgczke2nltu/AAbiGSJtTpUBaIjpYFyL9Ak?rlkey=npniip2rbqlx9soagrvag2m6w&st=lnbv073r&dl=0",
+      "sourcePage": "https://www.anker-in.com/posts/anker-solix-launches-f3000-portable-power-station-delivering-essential-home-backup-power",
+      "sourceName": "Anker SOLIX Press Kit",
+      "license": "Manufacturer press/media asset; editorial reuse from official press kit",
+      "credit": "Anker SOLIX",
+      "vendored": true
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "anker_f3000",
+      "role": "angle5",
+      "sourceUrl": "https://www.dropbox.com/scl/fo/5ch2x0th9wrgczke2nltu/AAbiGSJtTpUBaIjpYFyL9Ak?rlkey=npniip2rbqlx9soagrvag2m6w&st=lnbv073r&dl=0",
+      "sourcePage": "https://www.anker-in.com/posts/anker-solix-launches-f3000-portable-power-station-delivering-essential-home-backup-power",
+      "sourceName": "Anker SOLIX Press Kit",
+      "license": "Manufacturer press/media asset; editorial reuse from official press kit",
+      "credit": "Anker SOLIX",
+      "vendored": true
     }
   ]
 }

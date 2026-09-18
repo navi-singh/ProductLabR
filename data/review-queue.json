@@ -67,8 +67,12 @@
       "slug": "anker_f2600_power_station",
       "sourceUrl": "https://www.thesolarlab.com/review/anker-f2600-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-18T18:26:31.943Z",
+      "blockedAt": "2026-09-18T18:27:47.512Z",
+      "blocker": "Copilot completed without creating posts/portable-power-stations/anker_f2600_power_station.md.",
+      "blockerKind": "error"
     },
     {
       "category": "portable-power-stations",
@@ -76,8 +80,11 @@
       "slug": "anker_f3000",
       "sourceUrl": "https://www.thesolarlab.com/review/anker-f3000-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-18T18:27:47.530Z",
+      "completedAt": "2026-09-18T18:37:17.903Z",
+      "reviewPath": "posts/portable-power-stations/anker_f3000.md"
     },
     {
       "category": "portable-power-stations",
