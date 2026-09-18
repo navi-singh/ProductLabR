@@ -130,8 +130,12 @@
       "slug": "anker_solix_f1500",
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-f1500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-18T18:42:46.309Z",
+      "blockedAt": "2026-09-18T18:44:54.076Z",
+      "blocker": "Copilot completed without creating posts/portable-power-stations/anker_solix_f1500.md. Reported reason: Blocked: I did not create `posts/portable-power-stations/anker_solix_f1500.md`.",
+      "blockerKind": "error"
     },
     {
       "category": "portable-power-stations",
@@ -147,8 +151,11 @@
       "slug": "anker_solix_s2000",
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-s2000",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-18T18:44:54.098Z",
+      "completedAt": "2026-09-18T18:47:25.287Z",
+      "reviewPath": "posts/portable-power-stations/anker_solix_s2000.md"
     },
     {
       "category": "portable-power-stations",
