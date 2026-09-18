@@ -268,8 +268,11 @@
       "slug": "bluetti_pioneer_na",
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-pioneer-na",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-18T18:53:23.070Z",
+      "completedAt": "2026-09-18T19:03:45.672Z",
+      "reviewPath": "posts/portable-power-stations/bluetti_pioneer_na.md"
     },
     {
       "category": "portable-power-stations",
