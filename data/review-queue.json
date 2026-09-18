@@ -92,8 +92,12 @@
       "slug": "anker_solix_c1000_gen_2",
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-c1000-gen-2",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-18T18:37:18.476Z",
+      "blockedAt": "2026-09-18T18:38:45.893Z",
+      "blocker": "Copilot completed without creating posts/portable-power-stations/anker_solix_c1000_gen_2.md. Reported reason: The requested slug already exists in the repository, so I’m treating it as a pre-existing review rather than overwriting it. I’ll verify the launch-date gate and the existing file’s QA status; if the official date cannot be verified, I’ll report that concrete blocker.",
+      "blockerKind": "error"
     },
     {
       "category": "portable-power-stations",
@@ -101,8 +105,12 @@
       "slug": "anker_solix_c2000_gen_2",
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-c2000-gen-2",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-18T18:38:45.914Z",
+      "blockedAt": "2026-09-18T18:39:24.534Z",
+      "blocker": "Copilot completed without creating posts/portable-power-stations/anker_solix_c2000_gen_2.md.",
+      "blockerKind": "error"
     },
     {
       "category": "portable-power-stations",
@@ -110,8 +118,11 @@
       "slug": "anker_solix_c800x",
       "sourceUrl": "https://www.thesolarlab.com/review/anker-solix-c800x-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-18T18:39:24.557Z",
+      "completedAt": "2026-09-18T18:42:46.182Z",
+      "reviewPath": "posts/portable-power-stations/anker_solix_c800x.md"
     },
     {
       "category": "portable-power-stations",
