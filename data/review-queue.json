@@ -251,8 +251,11 @@
       "slug": "ecoflow_delta_3_1000_air",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-3-1000-air",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T18:39:13.333Z",
+      "completedAt": "2026-09-19T18:41:36.406Z",
+      "reviewPath": "posts/portable-power-stations/ecoflow_delta_3_1000_air.md"
     },
     {
       "category": "portable-power-stations",
