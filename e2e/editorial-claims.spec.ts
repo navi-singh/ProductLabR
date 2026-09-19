@@ -59,8 +59,24 @@ test('no article claims tested or guaranteed support for medical equipment', () 
     /ensuring zero interruptions for critical devices including medical/i,
   ];
 
+  // Telling a reader a figure is "not a guaranteed runtime" is the disclaimer
+  // this gate exists to encourage, so matching the phrase alone would penalise
+  // the correct behaviour and push writers back toward bare manufacturer
+  // numbers. Only an unqualified assertion counts.
+  const DISCLAIMED = /(?:rather than|instead of|not|never|isn't|no)\s+(?:an?\s+)?guaranteed runtime/i;
+
   const offenders = corpus.flatMap((a) =>
-    forbidden.filter((re) => re.test(a.body)).map((re) => `${a.category}/${a.slug} :: ${re}`),
+    forbidden
+      .filter((re) => {
+        if (!re.test(a.body)) return false;
+        if (re.source === 'guaranteed runtime') {
+          const asserted = a.body.match(/guaranteed runtime/gi)?.length ?? 0;
+          const disclaimed = a.body.match(new RegExp(DISCLAIMED, 'gi'))?.length ?? 0;
+          return asserted > disclaimed;
+        }
+        return true;
+      })
+      .map((re) => `${a.category}/${a.slug} :: ${re}`),
   );
 
   expect(offenders, `Unqualified medical-equipment claims:\n  ${offenders.join('\n  ')}`).toEqual(
