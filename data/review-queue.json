@@ -535,7 +535,10 @@
       "slug": "testing_the_anker_f3800",
       "sourceUrl": "https://www.thesolarlab.com/review/testing-the-anker-f3800",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending"
+      "status": "completed",
+      "claimedAt": "2026-09-19T20:19:27.921Z",
+      "completedAt": "2026-09-19T20:22:11.691Z",
+      "reviewPath": "posts/portable-power-stations/testing_the_anker_f3800.md"
     },
     {
       "category": "portable-power-stations",
