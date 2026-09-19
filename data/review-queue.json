@@ -219,8 +219,11 @@
       "slug": "dabbsson_dsb2100_pro_power_station",
       "sourceUrl": "https://www.thesolarlab.com/review/dabbsson-dsb2100-pro-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T18:33:30.334Z",
+      "completedAt": "2026-09-19T18:36:52.401Z",
+      "reviewPath": "posts/portable-power-stations/dabbsson_dsb2100_pro_power_station.md"
     },
     {
       "category": "portable-power-stations",
