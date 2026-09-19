@@ -9,7 +9,6 @@ const path = require('path');
 
 const {
   REPO_ROOT,
-  classifyBlocker,
   displayProduct,
   findEligible,
   readQueue,
@@ -31,9 +30,7 @@ const USAGE = `Generate ProductLabR reviews from the review queue.
   --stop-on-error        Abort the batch on the first failure (default: keep going).
   --help                 Show this message.
 
-Each successful review is committed locally. Nothing is ever pushed.
-Products launched before 2025-01-01 are refused by design; see npm run review:status.
-Run "npm run review:prescreen" first to retire pre-2025 products cheaply.`;
+Each successful review is committed locally. Nothing is ever pushed.`;
 
 function parseArgs(argv) {
   const args = { execute: false, count: 1, category: null, slug: null, stopOnError: false, help: false };
@@ -75,8 +72,9 @@ function buildPrompt(item) {
 Queue slug: ${slug}
 Discovery URL: ${item.sourceUrl || 'none'}
 
-Verify the product's official launch date from primary sources as part of the evidence brief.
-Only continue if that launch date is 2025-01-01 or later; if it is earlier or cannot be verified, stop and report the blocker.
+Establish the product's official launch date from primary sources as part of the evidence brief,
+and state it accurately in the review. Age is not a reason to refuse: an older product is reviewed
+on its current merits, with its age made clear to the reader.
 Do not treat the discovery URL's publish date as evidence of the launch date.
 
 Use the repository's evidence brief, draft, editorial review, fact-check, and QA workflow.
@@ -257,7 +255,6 @@ async function processOne(item, queue) {
     item.status = 'blocked';
     item.blockedAt = new Date().toISOString();
     item.blocker = error.message;
-    item.blockerKind = classifyBlocker(error.message);
     throw error;
   } finally {
     writeQueue(queue);

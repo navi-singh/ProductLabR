@@ -28,7 +28,7 @@ function buildPrompt(item) {
 Queue slug: ${slug}
 ${item.brief ? `Editorial brief: ${item.brief}\n` : ''}${sourceNotes}
 Follow the repository's Brief -> Draft/Rewrite -> Editorial Reviewer -> Fact-check -> QA Gate workflow.
-Verify the product's official launch date from primary sources. Only proceed if it is 2025-01-01 or later; if it is earlier or cannot be verified, mark the queue item as blocked and report the evidence needed.
+Establish the product's official launch date from primary sources and state it accurately. Age is not a reason to refuse: review an older product on its current merits and make its age clear to the reader.
 Do not treat the discovery URL's publish date as evidence of the launch date.
 Use only approved, verifiable sources. Do not invent specifications, prices, measurements, images, retailer URLs, or test results.
 Write the review to posts/${item.category}/${slug}.md only after the evidence is sufficient.
@@ -86,26 +86,13 @@ function complete(queue, slug, reviewPath) {
 }
 
 /** Return a single item, all blocked items, or all stale claims to pending. */
-function reset(queue, { slug, blocked, stale, force }) {
+function reset(queue, { slug, blocked, stale }) {
   let targets;
-  let skipped = 0;
   if (slug) targets = [requireItem(queue, slug)];
-  else if (blocked) {
-    targets = queue.items.filter((i) => i.status === 'blocked');
-    if (!force) {
-      const before = targets.length;
-      targets = targets.filter((i) => i.blockerKind !== 'launch-date');
-      skipped = before - targets.length;
-    }
-  } else if (stale) targets = staleClaims(queue);
+  else if (blocked) targets = queue.items.filter((i) => i.status === 'blocked');
+  else if (stale) targets = staleClaims(queue);
   else throw new Error('reset requires --slug <slug>, --blocked, or --stale.');
 
-  if (skipped) {
-    console.log(
-      `Skipped ${skipped} item(s) blocked on the 2025 launch-date rule; ` +
-        'retrying them cannot succeed. Use --force to override.'
-    );
-  }
   if (targets.length === 0) {
     console.log('Nothing to reset.');
     return;
@@ -132,8 +119,7 @@ function status(queue) {
   if (blocked.length) {
     console.log('\nblocked:');
     for (const item of blocked) {
-      const kind = item.blockerKind === 'launch-date' ? ' [launch-date, permanent]' : '';
-      console.log(`  ${slugFor(item)}${kind}: ${item.blocker || 'no reason recorded'}`);
+      console.log(`  ${slugFor(item)}: ${item.blocker || 'no reason recorded'}`);
     }
   }
 }
@@ -165,7 +151,6 @@ function main() {
       slug: valueFor('--slug'),
       blocked: args.includes('--blocked'),
       stale: args.includes('--stale'),
-      force: args.includes('--force'),
     });
   }
   throw new Error(

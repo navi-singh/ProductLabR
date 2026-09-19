@@ -96,9 +96,8 @@ function findItem(queue, slug) {
 }
 
 /**
- * Deliberately does NOT gate on a source date. The only date the source exposes
- * is a site-wide CMS republish stamp, so it cannot establish product recency;
- * the agent verifies the product's real launch date during the brief step.
+ * Deliberately does NOT gate on a date. Product age is an editorial matter for
+ * the review to describe, not a reason to refuse the work.
  */
 function isEligible(item, category) {
   return (
@@ -128,14 +127,6 @@ function staleClaims(queue, now = Date.now()) {
   );
 }
 
-/**
- * A launch-date block is permanent: the product simply predates the 2025 cutoff, so
- * retrying it only burns another full research run. Everything else is transient.
- */
-function classifyBlocker(message) {
-  return /launch date|2025-01-01/i.test(message || '') ? 'launch-date' : 'error';
-}
-
 function resetItem(item) {
   item.status = 'pending';
   delete item.claimedAt;
@@ -149,7 +140,6 @@ function resetItem(item) {
 
 module.exports = {
   ALLOWED_CATEGORIES,
-  classifyBlocker,
   POSTS_DIR,
   QUEUE_PATH,
   REPO_ROOT,

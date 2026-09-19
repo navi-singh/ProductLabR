@@ -24,10 +24,10 @@ review and its images, not merely an outline or draft.
 - Treat queue discovery URLs as leads only. Never copy the source article's text,
   structure, or wording; use approved primary and reputable secondary sources for
   every claim.
-- Verify the product's official launch date from primary sources as part of the
-  evidence brief. Only write the review if that launch date is 2025-01-01 or later.
-- If the launch date is unknown, disputed, or earlier than 2025-01-01, do not draft
-  the review. Stop and report the item as blocked with the evidence still needed.
+- Establish the product's official launch date from primary sources as part of the
+  evidence brief, and state it accurately in the review. Age is not a reason to
+  refuse: review an older product on its current merits, and make its age clear so
+  a reader can judge how current the advice is.
 - A discovery source's own publish or "last published" date is not evidence of the
   product's launch date.
 - You are already the review generator. Never invoke the `skill` tool for
