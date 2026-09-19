@@ -360,8 +360,11 @@
       "slug": "jackery_1000_v2",
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-1000-v2-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T18:49:56.851Z",
+      "completedAt": "2026-09-19T18:53:27.849Z",
+      "reviewPath": "posts/portable-power-stations/jackery_1000_v2.md"
     },
     {
       "category": "portable-power-stations",

@@ -3492,7 +3492,7 @@
       "role": "main",
       "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/E1000_v2.webp?v=1788767551",
       "sourceName": "Jackery",
-      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourcePage": "https://www.prnewswire.com/news-releases/jackery-revamps-classic-power-stations-lighter-more-powerful-e1000-v2--e240-v2-plus-upgraded-solarsaga-100w-302220919.html",
       "license": "Manufacturer product image",
       "credit": "Jackery"
     },
@@ -3502,7 +3502,7 @@
       "role": "angle2",
       "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/E1000_v2-1.webp?v=1788767551",
       "sourceName": "Jackery",
-      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourcePage": "https://www.prnewswire.com/news-releases/jackery-revamps-classic-power-stations-lighter-more-powerful-e1000-v2--e240-v2-plus-upgraded-solarsaga-100w-302220919.html",
       "license": "Manufacturer product image",
       "credit": "Jackery"
     },
@@ -3512,7 +3512,7 @@
       "role": "angle3",
       "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/E1000_v2_SolarSaga_200W.webp?v=1788767551",
       "sourceName": "Jackery",
-      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourcePage": "https://www.prnewswire.com/news-releases/jackery-revamps-classic-power-stations-lighter-more-powerful-e1000-v2--e240-v2-plus-upgraded-solarsaga-100w-302220919.html",
       "license": "Manufacturer product image",
       "credit": "Jackery"
     },
@@ -3522,7 +3522,7 @@
       "role": "angle4",
       "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/E1000_v2x2.webp?v=1788767551",
       "sourceName": "Jackery",
-      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourcePage": "https://www.prnewswire.com/news-releases/jackery-revamps-classic-power-stations-lighter-more-powerful-e1000-v2--e240-v2-plus-upgraded-solarsaga-100w-302220919.html",
       "license": "Manufacturer product image",
       "credit": "Jackery"
     },
@@ -3532,7 +3532,7 @@
       "role": "angle5",
       "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/jackery-portable-power-station-explorer-1000-v2-4406587.webp?v=1787835966",
       "sourceName": "Jackery",
-      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourcePage": "https://www.prnewswire.com/news-releases/jackery-revamps-classic-power-stations-lighter-more-powerful-e1000-v2--e240-v2-plus-upgraded-solarsaga-100w-302220919.html",
       "license": "Manufacturer product image",
       "credit": "Jackery"
     },
@@ -4930,6 +4930,56 @@
       "license": "Manufacturer press/media asset; editorial reuse from official press kit",
       "credit": "Anker SOLIX",
       "vendored": true
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "jackery_1000_v2",
+      "role": "main",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/E1000_v2.webp?v=1788767551",
+      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourceName": "Jackery",
+      "license": "Manufacturer product image",
+      "credit": "Jackery"
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "jackery_1000_v2",
+      "role": "angle2",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/E1000_v2-1.webp?v=1788767551",
+      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourceName": "Jackery",
+      "license": "Manufacturer product image",
+      "credit": "Jackery"
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "jackery_1000_v2",
+      "role": "angle3",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/E1000_v2_SolarSaga_200W.webp?v=1788767551",
+      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourceName": "Jackery",
+      "license": "Manufacturer product image",
+      "credit": "Jackery"
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "jackery_1000_v2",
+      "role": "angle4",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/E1000_v2x2.webp?v=1788767551",
+      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourceName": "Jackery",
+      "license": "Manufacturer product image",
+      "credit": "Jackery"
+    },
+    {
+      "category": "portable-power-stations",
+      "slug": "jackery_1000_v2",
+      "role": "angle5",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/jackery-portable-power-station-explorer-1000-v2-4406587.webp?v=1787835966",
+      "sourcePage": "https://www.jackery.com/products/jackery-explorer-1000-v2",
+      "sourceName": "Jackery",
+      "license": "Manufacturer product image",
+      "credit": "Jackery"
     }
   ]
 }
