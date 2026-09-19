@@ -336,8 +336,11 @@
       "slug": "ecoflow_trail_300dc",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-trail-300dc",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T18:46:13.637Z",
+      "completedAt": "2026-09-19T18:47:43.008Z",
+      "reviewPath": "posts/portable-power-stations/ecoflow_trail_300dc.md"
     },
     {
       "category": "portable-power-stations",
