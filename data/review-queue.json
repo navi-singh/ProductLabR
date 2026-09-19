@@ -437,8 +437,11 @@
       "slug": "pecron_e300lfp",
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e300lfp-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T19:05:17.818Z",
+      "completedAt": "2026-09-19T19:08:35.894Z",
+      "reviewPath": "posts/portable-power-stations/pecron_e300lfp.md"
     },
     {
       "category": "portable-power-stations",
