@@ -128,9 +128,10 @@ function runCopilot(prompt) {
 
     child.once('error', reject);
     child.once('close', (code, signal) => {
-      if (signal) reject(new Error(`Copilot stopped with signal ${signal}.`));
-      else if (code !== 0) reject(new Error(`Copilot exited with code ${code}.`));
-      else resolve(output);
+      let failure = '';
+      if (signal) failure = `Copilot stopped with signal ${signal}.`;
+      else if (code !== 0) failure = `Copilot exited with code ${code}.`;
+      resolve({ output, failure });
     });
   });
 }
@@ -238,11 +239,16 @@ async function processOne(item, queue) {
 
   let succeeded = false;
   try {
-    const output = await runCopilot(buildPrompt(item));
+    const { output, failure } = await runCopilot(buildPrompt(item));
+
+    // A non-zero exit is not authoritative: the agent routinely finishes the review
+    // and then exits non-zero (autopilot continue limit). Judge the run by the
+    // artifact it produced, or finished work gets discarded and wrongly blocked.
     if (!fs.existsSync(reviewPath)) {
       const reason = extractBlocker(output);
       throw new Error(
-        `Copilot completed without creating ${relativePath}.` +
+        `Copilot did not produce ${relativePath}.` +
+          (failure ? ` ${failure}` : '') +
           (reason ? ` Reported reason: ${reason}` : '')
       );
     }
