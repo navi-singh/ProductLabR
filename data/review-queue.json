@@ -120,8 +120,11 @@
       "slug": "bluetti_ac500",
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-ac500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T17:51:01.995Z",
+      "blockedAt": "2026-09-19T17:53:45.162Z",
+      "blocker": "Copilot did not produce posts/portable-power-stations/bluetti_ac500.md. Copilot exited with code 1."
     },
     {
       "category": "portable-power-stations",
@@ -170,8 +173,11 @@
       "slug": "bluetti_power_station_redemption",
       "sourceUrl": "https://www.thesolarlab.com/review/bluetti-power-station-redemption",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T17:53:45.171Z",
+      "blockedAt": "2026-09-19T17:56:27.891Z",
+      "blocker": "Copilot did not produce posts/portable-power-stations/bluetti_power_station_redemption.md. Copilot exited with code 1."
     },
     {
       "category": "portable-power-stations",
@@ -179,8 +185,11 @@
       "slug": "camping_ecoflow_delta_2_max",
       "sourceUrl": "https://www.thesolarlab.com/review/camping-ecoflow-delta-2-max",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "blocked",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T17:56:27.901Z",
+      "blockedAt": "2026-09-19T17:59:10.448Z",
+      "blocker": "Copilot did not produce posts/portable-power-stations/camping_ecoflow_delta_2_max.md. Copilot exited with code 1."
     },
     {
       "category": "portable-power-stations",
@@ -188,8 +197,9 @@
       "slug": "dabbsson_2000l",
       "sourceUrl": "https://www.thesolarlab.com/review/dabbsson-2000l",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "in_progress",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T17:59:10.454Z"
     },
     {
       "category": "portable-power-stations",
@@ -197,8 +207,11 @@
       "slug": "dabbsson_600l_review_a_capable_power_station_for_under_300",
       "sourceUrl": "https://www.thesolarlab.com/review/dabbsson-600l-review-a-capable-power-station-for-under-300",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T18:31:27.446Z",
+      "completedAt": "2026-09-19T18:33:30.224Z",
+      "reviewPath": "posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300.md"
     },
     {
       "category": "portable-power-stations",
