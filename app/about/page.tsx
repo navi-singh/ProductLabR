@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { CATEGORIES } from '@/lib/taxonomy';
-import { SITE_URL } from '@/lib/site-url';
+import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'About Product Lab',
   description:
     'Who we are, what we cover, and the standards behind every Product Lab review and buying guide.',
-  alternates: { canonical: `${SITE_URL}/about` },
+  alternates: { canonical: canonicalUrl(`/about`) },
 };
 
 export default function AboutPage() {

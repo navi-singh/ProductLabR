@@ -11,3 +11,14 @@ if (!configured && process.env.NODE_ENV === 'production') {
 }
 
 export const SITE_URL = (configured ?? 'http://localhost:3000').replace(/\/$/, '');
+
+/**
+ * Builds an absolute URL in the same trailing-slash form the static export
+ * serves. GitHub Pages resolves a slashless path to a redirect, so emitting
+ * the slashless form in a sitemap or JSON-LD advertises a URL that is one hop
+ * away from the real one - and disagrees with the canonical tag Next emits.
+ */
+export function canonicalUrl(path = ''): string {
+  const normalized = `/${path}`.replace(/\/+/g, '/').replace(/\/$/, '');
+  return normalized === '/' ? `${SITE_URL}/` : `${SITE_URL}${normalized}/`;
+}

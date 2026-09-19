@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { MetadataRoute } from 'next';
 import { getAllPostSlugs } from '../lib/Posts';
-import { SITE_URL } from '../lib/site-url';
+import { canonicalUrl } from '../lib/site-url';
 import { CATEGORIES } from '../lib/taxonomy';
 
 export const dynamic = 'force-static';
@@ -70,18 +70,17 @@ function priorityFor(route: string): number {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = SITE_URL;
   const lastModified = new Date();
 
   const staticEntries: MetadataRoute.Sitemap = ['', ...getStaticRoutes()].map((route) => ({
-    url: `${baseUrl}${route}`,
+    url: canonicalUrl(route),
     lastModified,
     changeFrequency: route === '' ? 'daily' : 'weekly',
     priority: priorityFor(route),
   }));
 
   const articleEntries: MetadataRoute.Sitemap = getAllPostSlugs().map((slug) => ({
-    url: `${baseUrl}/articles/${slug}`,
+    url: canonicalUrl(`/articles/${slug}`),
     lastModified,
     changeFrequency: 'monthly',
     priority: 0.7,

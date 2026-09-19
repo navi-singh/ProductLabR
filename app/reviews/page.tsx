@@ -4,13 +4,13 @@ import { ReviewsExplorer, type ReviewEntry } from '@/components/ReviewsExplorer'
 import { getPostsByCategory } from '@/lib/Posts';
 import { articleScore } from '@/lib/articleUtils';
 import { CATEGORIES } from '@/lib/taxonomy';
-import { SITE_URL } from '@/lib/site-url';
+import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'All Reviews | Product Lab',
   description:
     'Browse every Product Lab review. Filter by category, search by product, and sort by rating or recency.',
-  alternates: { canonical: `${SITE_URL}/reviews` },
+  alternates: { canonical: canonicalUrl(`/reviews`) },
 };
 
 

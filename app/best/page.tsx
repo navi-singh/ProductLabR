@@ -8,13 +8,13 @@ import { getPostsByCategory } from '@/lib/Posts';
 import { articleScore } from '@/lib/articleUtils';
 import { CATEGORIES } from '@/lib/taxonomy';
 import { GATES } from '@/lib/editorial-standards';
-import { SITE_URL } from '@/lib/site-url';
+import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'Best Products — Expert Reviews & Buying Guides | Product Lab',
   description:
     'Every Product Lab buying guide in one place. Independently scored recommendations across power stations, headphones, TVs, cameras, laptops and more.',
-  alternates: { canonical: `${SITE_URL}/best` },
+  alternates: { canonical: canonicalUrl(`/best`) },
 };
 
 interface CategorySummary {

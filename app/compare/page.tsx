@@ -5,13 +5,13 @@ import { SectionLabel } from '@/components/SectionLabel';
 import { Newsletter } from '@/components/Newsletter';
 import { AffiliateDisclosure } from '@/components/AffiliateDisclosure';
 import { getComparisons, type Comparison } from '@/lib/comparisons';
-import { SITE_URL } from '@/lib/site-url';
+import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'Head-to-Head Comparisons | Product Lab',
   description:
     'Side-by-side product comparisons from Product Lab. When two products are close, we put them directly against each other and pick one.',
-  alternates: { canonical: `${SITE_URL}/compare` },
+  alternates: { canonical: canonicalUrl(`/compare`) },
 };
 
 export default function ComparePage() {

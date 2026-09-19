@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // The static export writes articles/<slug>.html plus a sibling
+  // articles/<slug>/ directory holding RSC payloads but no index.html, so
+  // GitHub Pages served a hard 404 for every trailing-slash URL. This emits
+  // the index.html those directories were missing.
+  trailingSlash: true,
+
   // Image optimization
   images: {
     remotePatterns: [

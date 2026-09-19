@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { GATES, TARGETS } from '@/lib/editorial-standards';
-import { SITE_URL } from '@/lib/site-url';
+import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'How We Test and Score | Product Lab',
   description:
     'The rubric, evidence rules and automated quality gate every Product Lab review must clear before it is published.',
-  alternates: { canonical: `${SITE_URL}/methodology` },
+  alternates: { canonical: canonicalUrl(`/methodology`) },
 };
 
 const SCORE_BANDS = [

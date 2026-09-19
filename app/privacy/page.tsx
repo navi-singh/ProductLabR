@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import { Breadcrumb } from '@/components/Breadcrumb';
-import { SITE_URL } from '@/lib/site-url';
+import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Product Lab',
   description:
     'What data Product Lab collects, how advertising and analytics cookies are used, and the choices available to you.',
-  alternates: { canonical: `${SITE_URL}/privacy` },
+  alternates: { canonical: canonicalUrl(`/privacy`) },
 };
 
 export default function PrivacyPage() {

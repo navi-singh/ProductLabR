@@ -10,7 +10,7 @@ import { AffiliateDisclosure } from '@/components/AffiliateDisclosure';
 import { getPostsByCategory } from '@/lib/Posts';
 import { articleScore } from '@/lib/articleUtils';
 import { CATEGORIES, getCategoryBySlug } from '@/lib/taxonomy';
-import { SITE_URL } from '@/lib/site-url';
+import { canonicalUrl } from '@/lib/site-url';
 
 /**
  * Generic hub for any taxonomy category without a bespoke page.
@@ -55,7 +55,7 @@ export async function generateMetadata({
   return {
     title: `Best ${category.name} — Reviews & Buying Guide | Product Lab`,
     description: category.description,
-    alternates: { canonical: `${SITE_URL}/best/${category.slug}` },
+    alternates: { canonical: canonicalUrl(`/best/${category.slug}`) },
   };
 }
 

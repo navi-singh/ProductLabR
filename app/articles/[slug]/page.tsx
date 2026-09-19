@@ -26,7 +26,7 @@ import { AffiliateDisclosure } from '../../../components/AffiliateDisclosure';
 import { getCategoryByContentDir } from '../../../lib/taxonomy';
 import AdBanner from '../../../components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '../../../lib/adsense-config';
-import { SITE_URL } from '../../../lib/site-url';
+import { SITE_URL, canonicalUrl } from '../../../lib/site-url';
 
 export const revalidate = 86400;
 
@@ -57,7 +57,7 @@ export async function generateMetadata({
       title: `${metadata.title} Review | Product Lab`,
       description,
       type: 'article',
-      url: `${SITE_URL}/articles/${slug}`,
+      url: canonicalUrl(`/articles/${slug}`),
       ...(imageUrl ? { images: [{ url: imageUrl }] } : {}),
     },
     twitter: {
@@ -142,7 +142,7 @@ export default async function ArticlePage({
       name: metadata.title,
       ...(resolvePublicImage(metadata.productImage) ? { image: resolvePublicImage(metadata.productImage) } : {}),
     },
-    url: `${SITE_URL}/articles/${slug}`,
+    url: canonicalUrl(`/articles/${slug}`),
   };
 
 return (

@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import { Breadcrumb } from '@/components/Breadcrumb';
-import { SITE_URL } from '@/lib/site-url';
+import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure | Product Lab',
   description:
     'How Product Lab makes money, what an affiliate link is, and why commissions do not affect our scores or rankings.',
-  alternates: { canonical: `${SITE_URL}/disclosure` },
+  alternates: { canonical: canonicalUrl(`/disclosure`) },
 };
 
 export default function DisclosurePage() {
