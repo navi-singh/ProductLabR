@@ -472,7 +472,10 @@
       "slug": "pecron_e3800_240v_bundle",
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e3800-240v-bundle",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending"
+      "status": "completed",
+      "claimedAt": "2026-09-19T19:23:16.826Z",
+      "completedAt": "2026-09-19T19:26:45.554Z",
+      "reviewPath": "posts/portable-power-stations/pecron_e3800_240v_bundle.md"
     },
     {
       "category": "batteries",
