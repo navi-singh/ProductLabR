@@ -449,8 +449,11 @@
       "slug": "pecron_e3600",
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e3600-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T19:08:36.003Z",
+      "completedAt": "2026-09-19T19:19:57.019Z",
+      "reviewPath": "posts/portable-power-stations/pecron_e3600.md"
     },
     {
       "category": "portable-power-stations",
