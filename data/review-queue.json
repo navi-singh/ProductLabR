@@ -324,8 +324,11 @@
       "slug": "ecoflow_smart_generator_4000",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-smart-generator-4000-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T18:43:39.187Z",
+      "completedAt": "2026-09-19T18:46:13.513Z",
+      "reviewPath": "posts/smart-generators/ecoflow_smart_generator_4000.md"
     },
     {
       "category": "portable-power-stations",
