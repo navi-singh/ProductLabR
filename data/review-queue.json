@@ -305,8 +305,11 @@
       "slug": "ecoflow_river_3_plus_wireless",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-river-3-plus-wireless",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T06:07:28.633Z",
+      "completedAt": "2026-09-19T06:09:46.980Z",
+      "reviewPath": "posts/portable-power-stations/ecoflow_river_3_plus_wireless.md"
     },
     {
       "category": "portable-power-stations",
