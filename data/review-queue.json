@@ -239,8 +239,11 @@
       "slug": "ecoflow_delta_2_max",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-2-max-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T18:36:52.535Z",
+      "completedAt": "2026-09-19T18:39:13.210Z",
+      "reviewPath": "posts/portable-power-stations/ecoflow_delta_2_max.md"
     },
     {
       "category": "portable-power-stations",
