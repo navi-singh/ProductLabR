@@ -491,8 +491,11 @@
       "slug": "pecron_f1000",
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-f1000",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T19:26:45.688Z",
+      "completedAt": "2026-09-19T19:52:38.083Z",
+      "reviewPath": "posts/portable-power-stations/pecron_f1000.md"
     },
     {
       "category": "portable-power-stations",
