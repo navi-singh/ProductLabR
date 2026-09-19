@@ -413,8 +413,11 @@
       "slug": "pecron_e1500",
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-e1500-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T18:57:56.535Z",
+      "completedAt": "2026-09-19T18:59:54.016Z",
+      "reviewPath": "posts/portable-power-stations/pecron_e1500.md"
     },
     {
       "category": "portable-power-stations",
