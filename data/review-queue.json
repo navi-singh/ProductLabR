@@ -503,8 +503,11 @@
       "slug": "pecron_f3000lfp",
       "sourceUrl": "https://www.thesolarlab.com/review/pecron-f3000lfp-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "pending",
-      "sourceLastmod": "2026-09-14"
+      "status": "completed",
+      "sourceLastmod": "2026-09-14",
+      "claimedAt": "2026-09-19T20:15:48.070Z",
+      "completedAt": "2026-09-19T20:17:34.886Z",
+      "reviewPath": "posts/portable-power-stations/pecron_f3000lfp.md"
     },
     {
       "category": "portable-power-stations",
