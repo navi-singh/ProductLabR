@@ -86,7 +86,7 @@ export function RelatedArticles({
               </div>
               {score !== null && (
                 <div className="mt-0.5 text-[11px] text-primary">
-                  {(score / 10).toFixed(1)}{' '}
+                  {(score / 20).toFixed(1)}/5{' '}
                   {score / 10 >= 9 ? 'Excellent' : score / 10 >= 8 ? 'Great' : 'Good'}
                 </div>
               )}
