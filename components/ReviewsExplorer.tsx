@@ -154,7 +154,7 @@ export function ReviewsExplorer({ reviews }: { reviews: ReviewEntry[] }) {
                 )}
                 {review.score !== null && (
                   <span className="mt-auto pt-3 text-xs font-semibold text-primary">
-                    {(review.score / 10).toFixed(1)} / 10
+                    {(review.score / 20).toFixed(1)} / 5
                   </span>
                 )}
               </Link>

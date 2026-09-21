@@ -148,7 +148,7 @@ export default async function CategoryHubPage({
                           <div className="mt-2 flex items-center gap-3 text-xs">
                             {score !== null && (
                               <span className="font-semibold text-primary">
-                                {(score / 10).toFixed(1)} / 10
+                                {(score / 20).toFixed(1)} / 5
                               </span>
                             )}
                             {post.price && <span className="text-neutral-600">{post.price}</span>}

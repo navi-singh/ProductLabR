@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { Inter, Playfair_Display } from 'next/font/google';
+import { Inter, Newsreader } from 'next/font/google';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { TrustBar } from '@/components/TrustBar';
 import { MobileBottomNav } from '@/components/MobileBottomNav';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { SITE_URL } from '@/lib/site-url';
@@ -17,7 +16,7 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-const playfair = Playfair_Display({
+const newsreader = Newsreader({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-display',
@@ -28,8 +27,7 @@ export const metadata: Metadata = {
   title: 'Product Lab - Expert Reviews You Can Trust',
   description:
     'Expert reviews of power stations, cameras, and tech gear. Professional testing and honest comparisons to help you make informed buying decisions.',
-  keywords:
-    'product reviews, power stations, cameras, tech reviews, buying guides, expert testing',
+  keywords: 'product reviews, power stations, cameras, tech reviews, buying guides, expert testing',
   authors: [{ name: 'Product Lab Team' }],
   creator: 'Product Lab',
   publisher: 'Product Lab',
@@ -49,15 +47,13 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: SITE_URL,
     title: 'Product Lab - Expert Reviews You Can Trust',
-    description:
-      'Expert reviews of power stations, cameras, and tech gear.',
+    description: 'Expert reviews of power stations, cameras, and tech gear.',
     siteName: 'Product Lab',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Product Lab - Expert Reviews You Can Trust',
-    description:
-      'Expert reviews of power stations, cameras, and tech gear.',
+    description: 'Expert reviews of power stations, cameras, and tech gear.',
     creator: '@productlab',
   },
 };
@@ -84,14 +80,14 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${inter.variable} ${newsreader.variable}`}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#007ACC" />
       </head>
-      <body className="font-sans antialiased bg-neutral-50 text-neutral-700">
+      <body className="bg-neutral-50 font-sans text-neutral-700 antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
@@ -103,10 +99,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <Header posts={posts} />
-        <TrustBar />
-        <main className="mx-auto max-w-[1280px] px-4 pb-16 sm:px-6 md:pb-0">
-          {children}
-        </main>
+        <main className="mx-auto max-w-[1280px] px-4 pb-16 sm:px-6 md:pb-0">{children}</main>
         <Footer />
         <MobileBottomNav />
         {gaId && <GoogleAnalytics gaId={gaId} />}

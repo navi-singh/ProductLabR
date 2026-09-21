@@ -39,7 +39,9 @@ export function VerdictBox({ overallScore, verdict, metrics }: VerdictBoxProps) 
               <div key={metric.name}>
                 <div className="mb-1 flex items-center justify-between">
                   <span className="text-[11px] text-neutral-400">{metric.name}</span>
-                  <span className="text-xs font-bold text-neutral-800">{metric.score.toFixed(1)}</span>
+                  <span className="text-xs font-bold text-neutral-800">
+                    {(metric.score / 2).toFixed(1)}
+                  </span>
                 </div>
                 <div className="h-2.5 rounded-full bg-neutral-200">
                   <div

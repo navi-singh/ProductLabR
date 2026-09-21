@@ -17,27 +17,27 @@ interface RetailerLinksProps {
   productName?: string;
 }
 
-export default function RetailerLinks({ 
+export default function RetailerLinks({
   retailerLinks = {},
-  productName = "this product"
+  productName = 'this product',
 }: RetailerLinksProps) {
   const getRetailerIcon = (retailer: string) => {
     switch (retailer.toLowerCase()) {
       case 'amazon':
         return (
-          <div className="w-16 h-8 relative flex items-center justify-center">
+          <div className="relative flex h-6 w-8 shrink-0 items-center justify-center">
             <Image
               src={withBasePath('/images/amazon.png')}
               alt="Amazon"
-              width={48}
-              height={32}
+              width={32}
+              height={24}
               className="object-contain"
             />
           </div>
         );
       case 'ebay':
         return (
-          <div className="w-8 h-6 relative flex items-center justify-center">
+          <div className="relative flex h-6 w-8 items-center justify-center">
             <Image
               src={withBasePath('/images/ebay.svg')}
               alt="eBay"
@@ -48,23 +48,41 @@ export default function RetailerLinks({
           </div>
         );
       case 'ecoflow':
-        return <div className="w-8 h-6 bg-green-500 text-white rounded text-xs font-bold flex items-center justify-center">EC</div>;
+        return (
+          <div className="flex h-6 w-8 items-center justify-center rounded bg-green-600 text-xs font-bold text-white">
+            EC
+          </div>
+        );
       case 'evo':
-        return <div className="w-8 h-6 bg-green-600 text-white rounded text-xs font-bold flex items-center justify-center">E</div>;
+        return (
+          <div className="flex h-6 w-8 items-center justify-center rounded bg-green-600 text-xs font-bold text-white">
+            E
+          </div>
+        );
       case 'rei':
-        return <div className="w-8 h-6 bg-green-700 text-white rounded text-xs font-bold flex items-center justify-center">R</div>;
+        return (
+          <div className="flex h-6 w-8 items-center justify-center rounded bg-green-700 text-xs font-bold text-white">
+            R
+          </div>
+        );
       case 'backcountry':
-        return <div className="w-8 h-6 bg-orange-600 text-white rounded text-xs font-bold flex items-center justify-center">B</div>;
+        return (
+          <div className="flex h-6 w-8 items-center justify-center rounded bg-orange-600 text-xs font-bold text-white">
+            B
+          </div>
+        );
       case 'bestbuy':
-        return <div className="w-8 h-6 relative flex items-center justify-center">
+        return (
+          <div className="relative flex h-6 w-8 items-center justify-center">
             <Image
               src={withBasePath('/images/bestbuy.jpg')}
-              alt="bestbuy"
+              alt="Best Buy"
               width={48}
               height={32}
               className="object-contain"
             />
-            </div>;
+          </div>
+        );
       default:
         return <ShoppingIcon />;
     }
@@ -87,50 +105,70 @@ export default function RetailerLinks({
       case 'backcountry':
         return 'Backcountry';
       case 'manufacturer':
-        return 'Direct from Manufacturer';
+        return 'Manufacturer';
       default:
         return retailer.charAt(0).toUpperCase() + retailer.slice(1);
     }
   };
 
-  // Simple retailer links layout
+  const safeRetailers = Object.entries(retailerLinks).filter(([, url]) => url && isSafeUrl(url));
+  if (safeRetailers.length === 0) return null;
+
+  const [primaryRetailer, ...secondaryRetailers] = safeRetailers;
+
   return (
-    <div className="bg-gradient-to-br from-slate-50 to-gray-100 rounded-xl p-3 border border-gray-200">
-      {/* Header */}
-      <div className="text-center mb-3">
-        <div className="text-sm font-semibold text-gray-800">🛒 Where to Buy</div>
-        <div className="text-xs text-gray-500">Click to visit retailer</div>
+    <section
+      id="where-to-buy"
+      className="rounded-xl border border-amber-200 bg-amber-50 p-4 shadow-featured"
+    >
+      <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p className="type-label text-accent">Where to Buy</p>
+          <h3 className="mt-1 text-[15px] font-bold text-neutral-900">Current retailer options</h3>
+        </div>
+        <span className="text-xs font-semibold text-neutral-500">
+          Affiliate links never affect scores
+        </span>
       </div>
 
-      {/* Retailer Links - Horizontal Layout */}
-      <div className="space-y-2">
-        {Object.entries(retailerLinks).map(([retailer, url]) => {
-          if (!url || !isSafeUrl(url)) return null;
+      <a
+        href={withAffiliateTag(primaryRetailer[1]!)}
+        target="_blank"
+        rel={affiliateRel()}
+        aria-label={`Buy ${productName} at ${getRetailerDisplayName(primaryRetailer[0])}`}
+        className="flex w-full items-center justify-between gap-2 rounded-lg bg-accent px-4 py-3 text-white transition-colors hover:bg-accent/90"
+      >
+        <span className="flex min-w-0 items-center gap-3">
+          <span className="rounded bg-white p-1.5 text-neutral-900">
+            {getRetailerIcon(primaryRetailer[0])}
+          </span>
+          <span className="truncate font-bold">
+            Check price at {getRetailerDisplayName(primaryRetailer[0])}
+          </span>
+        </span>
+        <ExternalLinkIcon />
+      </a>
 
-          return (
+      {secondaryRetailers.length > 0 && (
+        <div className="mt-2 grid grid-cols-1 gap-2">
+          {secondaryRetailers.map(([retailer, url]) => (
             <a
               key={retailer}
-              href={withAffiliateTag(url)}
+              href={withAffiliateTag(url!)}
               target="_blank"
               rel={affiliateRel()}
               aria-label={`Buy ${productName} at ${getRetailerDisplayName(retailer)}`}
-              className="w-full flex items-center justify-between p-3 bg-white hover:bg-gray-50 border-2 border-gray-200 hover:border-primary rounded-lg transition-all duration-200 shadow-sm"
+              className="flex items-center justify-between gap-2 rounded-lg border border-neutral-200 bg-white px-3 py-2.5 text-sm font-semibold text-neutral-700 hover:border-accent hover:text-accent"
             >
-              <div className="flex items-center gap-4">
+              <span className="flex min-w-0 items-center gap-2">
                 {getRetailerIcon(retailer)}
-                <span className="font-semibold text-lg text-gray-900">
-                  {getRetailerDisplayName(retailer)}
-                </span>
-              </div>
-              <div className="text-primary">
-                <ExternalLinkIcon />
-              </div>
+                <span className="truncate">{getRetailerDisplayName(retailer)}</span>
+              </span>
+              <ExternalLinkIcon />
             </a>
-          );
-        })}
-      </div>
-
-
-    </div>
+          ))}
+        </div>
+      )}
+    </section>
   );
 }
