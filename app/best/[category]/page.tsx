@@ -126,9 +126,7 @@ export default async function CategoryHubPage({
             Best {category.name}
           </h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">{category.description}</p>
-          <p className="mt-3 text-xs text-white/70">
-            {posts.length} {posts.length === 1 ? 'review' : 'reviews'}, ranked by our score.
-          </p>
+          <p className="mt-3 text-xs text-white/70">Ranked by our score.</p>
         </div>
       </div>
 
@@ -261,11 +259,7 @@ export default async function CategoryHubPage({
           </main>
 
           <aside className="space-y-5">
-            <GuideTrustPanel
-              reviewCount={posts.length}
-              categoryName={category.shortName}
-              latestUpdate={latestUpdate}
-            />
+            <GuideTrustPanel latestUpdate={latestUpdate} />
 
             <div className="rounded-xl border border-neutral-200 bg-white p-4">
               <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">

@@ -29,7 +29,7 @@ interface CategorySummary {
 }
 
 /**
- * Counts and top picks are derived from the content tree rather than hardcoded.
+ * Counts (used only for filtering, never displayed) and top picks are derived from the content tree rather than hardcoded.
  * The previous version listed five categories, three of which pointed at routes
  * that do not exist, with counts that had drifted from reality.
  */
@@ -54,7 +54,6 @@ function getCategorySummaries(): CategorySummary[] {
 
 export default function BestPage() {
   const categories = getCategorySummaries();
-  const totalReviews = categories.reduce((sum, c) => sum + c.count, 0);
   const featured = categories.filter((c) => c.count >= 5).slice(0, 4);
   const featuredSlugs = new Set(featured.map((c) => c.slug));
   const remaining = categories.filter((c) => !featuredSlugs.has(c.slug));
@@ -78,9 +77,6 @@ export default function BestPage() {
               against the same rubric, so the ordering means something.
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
-              <span className="rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-semibold text-neutral-700">
-                {totalReviews} reviews
-              </span>
               <span className="rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-semibold text-neutral-700">
                 {categories.length} categories
               </span>
@@ -114,9 +110,6 @@ export default function BestPage() {
                           className="object-cover transition-transform duration-300 group-hover:scale-105"
                         />
                       )}
-                      <span className="absolute left-3 top-3 rounded-full bg-accent px-2.5 py-0.5 text-[11px] font-semibold text-white">
-                        {category.count} reviews
-                      </span>
                     </div>
                     <div className="p-5">
                       <div className="text-[11px] font-semibold uppercase tracking-wide text-primary">
@@ -164,9 +157,6 @@ export default function BestPage() {
                         </span>
                         <span className="mt-0.5 line-clamp-2 block text-xs text-neutral-500">
                           {category.description}
-                        </span>
-                        <span className="mt-1 block text-[11px] text-primary">
-                          {category.count} {category.count === 1 ? 'review' : 'reviews'}
                         </span>
                       </span>
                     </Link>
@@ -226,12 +216,9 @@ export default function BestPage() {
                   <li key={category.slug}>
                     <Link
                       href={`/best/${category.slug}`}
-                      className="flex items-center justify-between rounded-md px-3 py-2 text-sm hover:bg-primary-lightest"
+                      className="block rounded-md px-3 py-2 text-sm hover:bg-primary-lightest"
                     >
                       <span className="font-medium text-neutral-700">{category.shortName}</span>
-                      <span className="rounded-full bg-neutral-100 px-2 py-0.5 text-[11px] text-neutral-500">
-                        {category.count}
-                      </span>
                     </Link>
                   </li>
                 ))}
@@ -240,7 +227,7 @@ export default function BestPage() {
                 href="/reviews"
                 className="mt-3 block px-3 text-xs font-semibold text-primary hover:underline"
               >
-                Browse all {totalReviews} reviews →
+                Browse all reviews →
               </Link>
             </div>
 

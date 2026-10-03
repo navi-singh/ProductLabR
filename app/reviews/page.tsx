@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: canonicalUrl(`/reviews`) },
 };
 
-
 function getAllReviews(): ReviewEntry[] {
   return CATEGORIES.flatMap((category) =>
     getPostsByCategory(category.contentDir).map((post) => ({
@@ -24,7 +23,7 @@ function getAllReviews(): ReviewEntry[] {
       categorySlug: category.slug,
       categoryName: category.shortName,
       score: articleScore(post),
-    }))
+    })),
   );
 }
 
@@ -42,7 +41,7 @@ export default function ReviewsPage() {
           <a href="/methodology" className="text-primary hover:underline">
             rubric
           </a>
-          . {reviews.length} reviews across {CATEGORIES.length} categories.
+          .
         </p>
       </header>
 

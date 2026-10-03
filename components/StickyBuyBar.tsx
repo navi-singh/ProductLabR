@@ -45,7 +45,7 @@ export function StickyBuyBar({
 
   return (
     <div
-      className={`fixed bottom-16 left-0 right-0 z-40 transition-transform duration-300 md:bottom-0 md:z-50 ${
+      className={`fixed bottom-16 left-0 right-0 z-40 transition-transform duration-300 lg:bottom-0 lg:z-50 ${
         isVisible
           ? 'translate-y-0'
           : 'pointer-events-none translate-y-[calc(100%+4rem)] md:translate-y-full'

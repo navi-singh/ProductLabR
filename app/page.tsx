@@ -10,7 +10,7 @@ import { Newsletter } from '@/components/Newsletter';
 import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getPostsByCategory } from '@/lib/Posts';
-import { CATEGORIES } from '@/lib/taxonomy';
+import { CATEGORIES, getCategoryByContentDir } from '@/lib/taxonomy';
 import { getComparisons } from '@/lib/comparisons';
 
 const bestOfGuides = [
@@ -60,64 +60,39 @@ export default function Home() {
   const posts = getPostMetadata();
   const featured = posts[0];
   const recentPosts = posts.slice(1, 7);
-  const decisionPosts = posts.slice(0, 3);
   const comparisons = getComparisons();
-  const latestDate = posts[0]?.date
-    ? new Date(posts[0].date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
-    : 'recently';
 
   const featuredScore = featured ? scoreFromPost(featured) : null;
 
   return (
     <>
       <section className="-mx-4 bg-gradient-to-b from-primary-lightest via-neutral-50 to-neutral-50 px-4 py-10 sm:-mx-6 sm:px-6 lg:py-14">
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-end">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 rounded bg-white px-3 py-1 text-[11px] font-bold uppercase tracking-[0.08em] text-primary shadow-sm ring-1 ring-neutral-200">
-              <span className="h-2 w-2 rounded-full bg-accent" />
-              Independent benchmark reviews
-            </div>
-            <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight text-neutral-900 md:text-6xl">
-              Evidence-first tech reviews for faster buying decisions.
-            </h1>
-            <p className="mt-4 max-w-2xl text-lg leading-relaxed text-neutral-600">
-              Product Lab turns hands-on testing, specs, and real-world trade-offs into clear
-              recommendations across power stations, audio, TVs, cameras, and everyday tech.
-            </p>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Link
-                href="/best"
-                className="inline-flex h-11 items-center justify-center rounded-lg bg-accent px-5 text-sm font-bold text-white hover:bg-accent/90"
-              >
-                Browse buying guides
-              </Link>
-              <Link
-                href="/methodology"
-                className="inline-flex h-11 items-center justify-center rounded-lg border border-primary px-5 text-sm font-bold text-primary hover:bg-primary hover:text-white"
-              >
-                How we score
-              </Link>
-            </div>
+        <div className="max-w-4xl">
+          <div className="inline-flex items-center gap-2 rounded bg-white px-3 py-1 text-[11px] font-bold uppercase tracking-[0.08em] text-primary shadow-sm ring-1 ring-neutral-200">
+            <span className="h-2 w-2 rounded-full bg-accent" />
+            Independent tech reviews
           </div>
-
-          <aside className="rounded-xl border border-neutral-200 bg-white p-5 shadow-featured">
-            <p className="type-label text-accent">Testing Snapshot</p>
-            <div className="mt-4 space-y-3">
-              {[
-                [`${posts.length}`, 'products tested and scored'],
-                [`${CATEGORIES.length}`, 'active product categories'],
-                [latestDate, 'latest review refresh'],
-              ].map(([value, label]) => (
-                <div
-                  key={label}
-                  className="flex items-center justify-between gap-4 border-b border-neutral-100 pb-3 last:border-0 last:pb-0"
-                >
-                  <span className="text-sm text-neutral-500">{label}</span>
-                  <strong className="text-right text-lg text-neutral-900">{value}</strong>
-                </div>
-              ))}
-            </div>
-          </aside>
+          <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight text-neutral-900 md:text-6xl">
+            Evidence-first tech reviews for faster buying decisions.
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-neutral-600">
+            Product Lab turns hands-on testing, specs, and real-world trade-offs into clear
+            recommendations across power stations, audio, TVs, cameras, and everyday tech.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link
+              href="/best"
+              className="inline-flex h-11 items-center justify-center rounded-lg bg-accent px-5 text-sm font-bold text-white hover:bg-accent/90"
+            >
+              Browse buying guides
+            </Link>
+            <Link
+              href="/methodology"
+              className="inline-flex h-11 items-center justify-center rounded-lg border border-primary px-5 text-sm font-bold text-primary hover:bg-primary hover:text-white"
+            >
+              How we score
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -129,10 +104,12 @@ export default function Home() {
             <div className="flex flex-col justify-center">
               <div className="flex flex-wrap items-center gap-2">
                 <span className="rounded bg-accent px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.08em] text-white">
-                  Editor&apos;s Pick
+                  Featured review
                 </span>
                 {featured.category && (
-                  <span className="type-label text-neutral-500">{featured.category}</span>
+                  <span className="type-label text-neutral-500">
+                    {getCategoryByContentDir(featured.category)?.shortName ?? featured.category}
+                  </span>
                 )}
               </div>
               <h2 className="mt-3 font-display text-3xl font-semibold leading-tight tracking-tight text-neutral-900 md:text-4xl">
@@ -165,50 +142,6 @@ export default function Home() {
                 />
               </div>
             )}
-          </div>
-        </section>
-      )}
-
-      {decisionPosts.length > 0 && (
-        <section className="mt-8 rounded-xl border border-neutral-200 bg-primary-lightest p-5">
-          <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
-            <div>
-              <p className="type-label text-accent">Lab Decision Matrix</p>
-              <h2 className="type-headline mt-1 text-neutral-900">
-                Start with the latest top picks
-              </h2>
-            </div>
-            <Link href="/reviews" className="text-sm font-bold text-primary hover:text-accent">
-              All reviews →
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-            {decisionPosts.map((post) => {
-              const score = scoreFromPost(post);
-              return (
-                <Link
-                  key={post.slug}
-                  href={`/articles/${post.slug}`}
-                  className="group rounded-xl border border-neutral-200 bg-white p-4 shadow-featured transition-all hover:-translate-y-0.5 hover:shadow-card-hover"
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <span className="type-label text-accent">{post.category || 'Review'}</span>
-                    {score !== null && <ScoreBadge score={score} />}
-                  </div>
-                  <h3 className="mt-2 line-clamp-2 text-[15px] font-bold leading-snug text-neutral-900 group-hover:text-accent">
-                    {post.title}
-                  </h3>
-                  {post.subtitle && (
-                    <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-neutral-500">
-                      {post.subtitle}
-                    </p>
-                  )}
-                  <span className="mt-4 inline-flex text-xs font-bold text-primary">
-                    Read verdict →
-                  </span>
-                </Link>
-              );
-            })}
           </div>
         </section>
       )}
@@ -308,15 +241,10 @@ export default function Home() {
                   <Link
                     key={cat.slug}
                     href={`/best/${cat.slug}`}
-                    className="flex items-center justify-between rounded-md bg-primary-lightest/70 px-3 py-2 text-sm text-neutral-600 hover:bg-primary-lightest hover:text-primary"
+                    className="block rounded-md bg-primary-lightest/70 px-3 py-2 text-sm text-neutral-600 hover:bg-primary-lightest hover:text-primary"
                   >
-                    <span>
-                      <span className="mr-1.5">{cat.icon}</span>
-                      {cat.shortName}
-                    </span>
-                    <span className="type-label rounded-full bg-primary px-1.5 text-white">
-                      {catPosts.length}
-                    </span>
+                    <span className="mr-1.5">{cat.icon}</span>
+                    {cat.shortName}
                   </Link>
                 );
               })}
