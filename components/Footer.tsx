@@ -20,6 +20,7 @@ const COMPANY_LINKS = [
   { label: 'Privacy policy', href: '/privacy' },
   { label: 'All reviews', href: '/reviews' },
   { label: 'Comparisons', href: '/compare' },
+  { label: 'Buying advice', href: '/learn' },
 ];
 
 export function Footer() {
@@ -28,7 +29,9 @@ export function Footer() {
       <div className="mx-auto max-w-content px-4 py-12 sm:px-6">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <Link href="/" className="text-base font-bold tracking-wide">PRODUCT LAB</Link>
+            <Link href="/" className="text-base font-bold tracking-wide">
+              PRODUCT LAB
+            </Link>
             <p className="mt-3 text-sm leading-relaxed text-neutral-400">
               Independent product reviews scored against a fixed rubric, so you can tell which
               trade-off you are actually buying.
@@ -40,11 +43,16 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-neutral-300">Categories</h3>
+            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-neutral-300">
+              Categories
+            </h3>
             <ul className="space-y-2">
               {CATEGORIES.map((category) => (
                 <li key={category.slug}>
-                  <Link href={`/best/${category.slug}`} className="text-sm text-neutral-400 hover:text-primary-light">
+                  <Link
+                    href={`/best/${category.slug}`}
+                    className="text-sm text-neutral-400 hover:text-primary-light"
+                  >
                     {category.shortName}
                   </Link>
                 </li>
@@ -53,11 +61,16 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-neutral-300">Best Of</h3>
+            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-neutral-300">
+              Best Of
+            </h3>
             <ul className="space-y-2">
               {BEST_OF_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-neutral-400 hover:text-primary-light">
+                  <Link
+                    href={link.href}
+                    className="text-sm text-neutral-400 hover:text-primary-light"
+                  >
                     {link.label}
                   </Link>
                 </li>
@@ -66,11 +79,16 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-neutral-300">Company</h3>
+            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-neutral-300">
+              Company
+            </h3>
             <ul className="space-y-2">
               {COMPANY_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-neutral-400 hover:text-primary-light">
+                  <Link
+                    href={link.href}
+                    className="text-sm text-neutral-400 hover:text-primary-light"
+                  >
                     {link.label}
                   </Link>
                 </li>

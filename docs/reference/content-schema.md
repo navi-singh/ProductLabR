@@ -31,6 +31,13 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 | `gallery` | array of `{ src, credit?, source?, license? }` | | Additional product photos (e.g. different angles), rendered below the primary image |
 | `rating` | number | `8.7` | Legacy single score; **deprecated** — prefer `ratingBreakdown` |
 
+| `lastReviewed` | ISO date string | `"2026-09-15"` | Optional review-maintenance date shown in the evidence snapshot |
+| `reviewedBy` | string | `"Product Lab"` | Optional reviewer attribution shown when supplied |
+| `editedBy` | string | `"Editorial desk"` | Optional editor attribution shown when supplied |
+| `evidenceLevel` | enum | `"spec-analysis"` | `hands-on`, `spec-analysis`, or `independent-source-synthesis`; describe only the evidence actually available |
+| `updateHistory` | array of `{ date, note }` | | Optional record of substantive review updates |
+| `evidenceSources` | array of `{ label, url, type? }` | | Optional source metadata; displayed as a tracked-source count |
+
 ## Category-specific fields
 
 ### Power stations (`posts/portable-power-stations/*.md`)
