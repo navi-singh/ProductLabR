@@ -78,6 +78,16 @@ export function Header({ posts = [] }: HeaderProps) {
               Compare
             </Link>
             <Link
+              href="/learn"
+              className={`rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
+                pathname.startsWith('/learn')
+                  ? 'bg-white/12 text-white'
+                  : 'text-white/75 hover:bg-white/10 hover:text-white'
+              }`}
+            >
+              Learn
+            </Link>
+            <Link
               href="/reviews"
               className={`rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
                 pathname.startsWith('/reviews')

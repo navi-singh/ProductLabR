@@ -2,7 +2,7 @@ import React from 'react';
 import { resolvePublicImage } from '@/lib/resolve-image';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getPostBySlug, getAllPostSlugs } from '../../../lib/Posts';
+import { getPostBySlug, getAllPostSlugs, getPostsByCategory } from '../../../lib/Posts';
 import { processMarkdownContent } from '../../../lib/markdown';
 import {
   calculateOverallScore,
@@ -15,6 +15,12 @@ import {
 import ScoreCard from '../../../components/article/ScoreCard';
 import { ProductSpecs } from '../../../components/article/ProductSpecs';
 import { ProsCons } from '../../../components/article/ProsCons';
+import {
+  BestForSkipIf,
+  ComparedAgainst,
+  EvidenceSnapshot,
+  WhatWeChecked,
+} from '../../../components/article/ReviewTrustModules';
 import ProductImage from '../../../components/article/ProductImage';
 import ProductGallery from '../../../components/article/ProductGallery';
 import RetailerLinks from '../../../components/article/PriceButton';
@@ -99,6 +105,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     (image) => !processedContent.includes(image.src),
   );
   const category = metadata.category ? getCategoryByContentDir(metadata.category) : undefined;
+  const categoryPosts = metadata.category ? getPostsByCategory(metadata.category) : [];
 
   const breadcrumbItems = [
     { label: 'Home', href: '/' },
@@ -233,6 +240,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
           {/* Pros & Cons */}
           <ProsCons pros={metadata.pros} cons={metadata.cons} />
+
+          <div className="mb-5 space-y-4">
+            <BestForSkipIf metadata={metadata} />
+            <WhatWeChecked metadata={metadata} />
+            <ComparedAgainst current={metadata} candidates={categoryPosts} />
+            <EvidenceSnapshot metadata={metadata} />
+          </div>
 
           {/* MID-ARTICLE AD - Best performing */}
           <AdBanner
