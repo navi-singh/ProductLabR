@@ -1,12 +1,9 @@
 interface GuideTrustPanelProps {
-  reviewCount: number;
-  categoryName: string;
   latestUpdate?: string;
 }
 
-export function GuideTrustPanel({ reviewCount, categoryName, latestUpdate }: GuideTrustPanelProps) {
+export function GuideTrustPanel({ latestUpdate }: GuideTrustPanelProps) {
   const stats = [
-    [`${reviewCount}`, `${categoryName.toLowerCase()} reviewed`],
     ['0', 'sponsored rankings'],
     ['Fixed', 'scoring rubric'],
     [latestUpdate ?? 'Current', 'latest refresh'],
@@ -25,7 +22,7 @@ export function GuideTrustPanel({ reviewCount, categoryName, latestUpdate }: Gui
         </p>
         <div className="mt-5 grid grid-cols-2 gap-3">
           {stats.map(([value, label]) => (
-            <div key={label} className="rounded-lg bg-white/10 p-3">
+            <div key={label} className="rounded-lg bg-white/10 p-3 last:col-span-2">
               <div className="text-xl font-extrabold tabular-nums">{value}</div>
               <div className="mt-0.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-white/65">
                 {label}

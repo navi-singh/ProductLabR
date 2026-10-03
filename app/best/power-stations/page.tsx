@@ -192,7 +192,6 @@ function stationComparisonRow(station: PowerStationEntry, rank?: number): Compar
 export default function PowerStationsHub() {
   const powerStationCategories = getHubCards();
   const allStations = getAllPowerStations();
-  const totalReviewed = allStations.length;
   const latestTimestamp = Math.max(
     ...allStations.map((station) => new Date(station.date).getTime()).filter(Number.isFinite),
   );
@@ -236,23 +235,20 @@ export default function PowerStationsHub() {
               Best Power Stations 2025
             </h1>
             <p className="mt-3 max-w-3xl text-base leading-relaxed text-neutral-600">
-              Expert-reviewed portable power solutions for every need and budget. {totalReviewed}{' '}
-              models reviewed for performance, reliability, and value.
+              Expert-reviewed portable power solutions for every need and budget, compared for
+              performance, reliability, and value.
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
-              {[
-                `${totalReviewed} Models Reviewed`,
-                'Real-World Performance',
-                'All Budgets Covered',
-                'Zero Sponsored Reviews',
-              ].map((tag) => (
-                <span
-                  key={tag}
-                  className="rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-semibold text-neutral-700"
-                >
-                  {tag}
-                </span>
-              ))}
+              {['Real-World Performance', 'All Budgets Covered', 'Zero Sponsored Reviews'].map(
+                (tag) => (
+                  <span
+                    key={tag}
+                    className="rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-semibold text-neutral-700"
+                  >
+                    {tag}
+                  </span>
+                ),
+              )}
             </div>
           </div>
         </div>
@@ -288,9 +284,6 @@ export default function PowerStationsHub() {
                       </div>
                       <div className="flex flex-col items-start gap-2 sm:items-end">
                         <div className="text-xs text-neutral-400">{category.priceRange}</div>
-                        <div className="text-xs text-neutral-400">
-                          {category.count} models reviewed
-                        </div>
                         <Link
                           href={category.href}
                           className="inline-flex items-center rounded-md bg-primary px-3.5 py-1.5 text-xs font-semibold text-white hover:bg-primary-dark"
@@ -371,11 +364,7 @@ export default function PowerStationsHub() {
           </main>
 
           <aside className="space-y-5">
-            <GuideTrustPanel
-              reviewCount={totalReviewed}
-              categoryName="Power Stations"
-              latestUpdate={latestUpdate}
-            />
+            <GuideTrustPanel latestUpdate={latestUpdate} />
 
             <div className="rounded-xl border border-neutral-200 bg-white p-4">
               <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">

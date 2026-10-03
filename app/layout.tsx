@@ -99,7 +99,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <Header posts={posts} />
-        <main className="mx-auto max-w-[1280px] px-4 pb-16 sm:px-6 md:pb-0">{children}</main>
+        <main className="mx-auto max-w-[1280px] px-4 pb-16 sm:px-6 lg:pb-0">{children}</main>
         <Footer />
         <MobileBottomNav />
         {gaId && <GoogleAnalytics gaId={gaId} />}

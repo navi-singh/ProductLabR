@@ -101,10 +101,9 @@ export function ReviewsExplorer({ reviews }: { reviews: ReviewEntry[] }) {
                 : 'border-neutral-300 text-neutral-600 hover:border-primary hover:text-primary'
             }`}
           >
-            All ({reviews.length})
+            All
           </button>
           {availableCategories.map((category) => {
-            const count = reviews.filter((r) => r.categorySlug === category.slug).length;
             const isActive = activeCategory === category.slug;
             return (
               <button
@@ -118,16 +117,12 @@ export function ReviewsExplorer({ reviews }: { reviews: ReviewEntry[] }) {
                     : 'border-neutral-300 text-neutral-600 hover:border-primary hover:text-primary'
                 }`}
               >
-                {category.shortName} ({count})
+                {category.shortName}
               </button>
             );
           })}
         </div>
       </div>
-
-      <p className="mb-3 text-xs text-neutral-500" role="status" aria-live="polite">
-        Showing {visible.length} of {reviews.length} reviews
-      </p>
 
       {visible.length === 0 ? (
         <p className="rounded-lg border border-dashed border-neutral-300 p-8 text-center text-sm text-neutral-500">

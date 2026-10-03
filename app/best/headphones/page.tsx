@@ -327,7 +327,6 @@ export default function HeadphonesPage() {
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               {[
-                '30+ Products Tested',
                 'ANC Performance Measured',
                 'Sound Quality Rated',
                 'Zero Sponsored Reviews',
@@ -381,7 +380,7 @@ export default function HeadphonesPage() {
                     className="flex items-center justify-between rounded-lg border border-neutral-200 bg-neutral-50 px-4 py-3 hover:border-primary hover:bg-primary-lightest"
                   >
                     <span className="text-sm font-semibold text-neutral-800">{cat.label}</span>
-                    <span className="text-xs text-neutral-400">{cat.count} reviewed →</span>
+                    <span className="text-xs text-neutral-400">View guide →</span>
                   </Link>
                 ))}
               </div>

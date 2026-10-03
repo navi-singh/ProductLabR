@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { OptimizedImage } from './OptimizedImage';
 import { ScoreBadge } from './ScoreBadge';
 import type { PostMetadata } from './PostMetadata';
+import { getCategoryByContentDir } from '@/lib/taxonomy';
 
 interface ReviewCardProps {
   post: PostMetadata;
@@ -45,7 +46,9 @@ export function ReviewCard({ post }: ReviewCardProps) {
       <div className="flex flex-1 flex-col p-3">
         <div className="flex items-start justify-between gap-2">
           {post.category && (
-            <span className="type-label text-primary">{post.category}</span>
+            <span className="type-label text-primary">
+              {getCategoryByContentDir(post.category)?.shortName ?? post.category}
+            </span>
           )}
           {/* Without a photo there is no image corner to pin the score to. */}
           {!image && score !== null && <ScoreBadge score={score} size="sm" />}

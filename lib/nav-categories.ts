@@ -4,7 +4,6 @@ export interface NavCategory {
   name: string;
   href: string;
   icon: string;
-  count?: number;
 }
 
 /**

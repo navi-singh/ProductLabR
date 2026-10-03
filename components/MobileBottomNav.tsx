@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { NAV_CATEGORIES } from '@/lib/nav-categories';
 
 const NAV_ITEMS = [
-  { label: 'Home',    href: '/',     icon: '🏠' },
+  { label: 'Home', href: '/', icon: '🏠' },
   { label: 'Best Of', href: '/best', icon: '🏆' },
 ] as const;
 
@@ -23,7 +23,7 @@ export function MobileBottomNav() {
         <>
           {/* Backdrop */}
           <div
-            className="fixed inset-0 z-40 bg-black/30 md:hidden"
+            className="fixed inset-0 z-40 bg-black/30 lg:hidden"
             onClick={() => setSheetOpen(false)}
             aria-hidden="true"
           />
@@ -33,7 +33,7 @@ export function MobileBottomNav() {
             role="dialog"
             aria-modal="true"
             aria-label="All Categories"
-            className="fixed inset-x-0 bottom-16 z-50 max-h-[60vh] overflow-y-auto rounded-t-2xl bg-white pb-4 shadow-xl md:hidden"
+            className="fixed inset-x-0 bottom-16 z-50 max-h-[60vh] overflow-y-auto rounded-t-2xl bg-white pb-4 shadow-xl lg:hidden"
           >
             <div className="sticky top-0 bg-white px-4 pb-2 pt-3">
               <div className="mx-auto h-1 w-8 rounded-full bg-neutral-300" />
@@ -57,7 +57,7 @@ export function MobileBottomNav() {
       )}
 
       {/* Bottom nav bar */}
-      <nav className="fixed inset-x-0 bottom-0 z-50 grid grid-cols-4 border-t border-neutral-200 bg-white md:hidden">
+      <nav className="fixed inset-x-0 bottom-0 z-50 grid grid-cols-4 border-t border-neutral-200 bg-white lg:hidden">
         {NAV_ITEMS.map((item) => {
           const active = isActive(item.href);
           return (

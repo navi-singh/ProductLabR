@@ -56,7 +56,7 @@ export function Header({ posts = [] }: HeaderProps) {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
+                  className={`hidden whitespace-nowrap rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors min-[1320px]:block ${
                     active
                       ? 'bg-white/12 text-white'
                       : 'text-white/75 hover:bg-white/10 hover:text-white'
@@ -69,7 +69,7 @@ export function Header({ posts = [] }: HeaderProps) {
             <CategoryDropdown categories={NAV_CATEGORIES} />
             <Link
               href="/compare"
-              className={`rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
+              className={`whitespace-nowrap rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
                 pathname.startsWith('/compare')
                   ? 'bg-white/12 text-white'
                   : 'text-white/75 hover:bg-white/10 hover:text-white'
@@ -79,7 +79,7 @@ export function Header({ posts = [] }: HeaderProps) {
             </Link>
             <Link
               href="/learn"
-              className={`rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
+              className={`whitespace-nowrap rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
                 pathname.startsWith('/learn')
                   ? 'bg-white/12 text-white'
                   : 'text-white/75 hover:bg-white/10 hover:text-white'
@@ -89,7 +89,7 @@ export function Header({ posts = [] }: HeaderProps) {
             </Link>
             <Link
               href="/reviews"
-              className={`rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
+              className={`whitespace-nowrap rounded-lg px-3 py-2 text-[13px] font-semibold transition-colors ${
                 pathname.startsWith('/reviews')
                   ? 'bg-white/12 text-white'
                   : 'text-white/75 hover:bg-white/10 hover:text-white'
