@@ -34,7 +34,8 @@
     "review:worker": "node scripts/review-worker.js",
     "images:report": "node scripts/images/report-missing-images.js",
     "images:ingest": "node scripts/images/ingest-product-images.js",
-    "trending": "node scripts/fetch-trending.js"
+    "trending": "node scripts/fetch-trending.js",
+    "docs:catalog": "node scripts/docs/generate-product-catalog.js"
   },
   "dependencies": {
     "@next/third-parties": "^16.3.4",
