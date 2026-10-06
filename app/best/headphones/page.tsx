@@ -386,10 +386,10 @@ export default function HeadphonesPage() {
               </div>
             </div>
 
-            {/* How We Test */}
+            {/* How We Evaluate */}
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Headphones</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Headphones</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   {

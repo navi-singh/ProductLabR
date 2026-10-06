@@ -4,7 +4,7 @@ import { GATES, TARGETS } from '@/lib/editorial-standards';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'How We Test and Score | Product Lab',
+  title: 'How We Research and Score | Product Lab',
   description:
     'The rubric, evidence rules and automated quality gate every Product Lab review must clear before it is published.',
   alternates: { canonical: canonicalUrl(`/methodology`) },
@@ -12,27 +12,27 @@ export const metadata: Metadata = {
 
 const SCORE_BANDS = [
   {
-    range: '9.0–10',
+    range: '4.5–5.0',
     detail:
       'Class-leading. We struggled to find a meaningful complaint, and we would buy it with our own money.',
   },
   {
-    range: '8.0–8.9',
+    range: '4.0–4.4',
     detail:
       'Strong recommendation with a caveat we name explicitly in the review. Most readers will be happy.',
   },
   {
-    range: '7.0–7.9',
+    range: '3.5–3.9',
     detail:
       'Good, but beaten on at least one dimension by something we would point you at first. Buy it on sale.',
   },
   {
-    range: '6.0–6.9',
+    range: '3.0–3.4',
     detail:
       'Compromised. Usually a product that works but is priced against much better competition.',
   },
   {
-    range: 'Below 6',
+    range: 'Below 3.0',
     detail:
       'We would steer you away. Either it underdelivers on its own pitch or a cheaper rival does the same job.',
   },
@@ -97,10 +97,10 @@ const PIPELINE = [
 export default function MethodologyPage() {
   return (
     <main className="mx-auto w-full max-w-3xl px-4 py-6">
-      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'How we test' }]} />
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'How we score' }]} />
 
       <article className="mt-5">
-        <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">How we test and score</h1>
+        <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">How we research and score</h1>
         <p className="mt-3 text-base leading-relaxed text-neutral-600">
           A review is only useful if you can tell how it was produced. This page describes the
           rubric we score against, the process every review goes through, and the objective
@@ -127,9 +127,9 @@ export default function MethodologyPage() {
         <section className="mt-10">
           <h2 className="text-xl font-bold text-neutral-900">What the numbers mean</h2>
           <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-            We only review gear that is worth someone&apos;s consideration, so our scores cluster in
-            the upper half of the scale by design. That is not generosity — it is a filter applied
-            before we start writing. Here is what each band actually signals:
+            Scores are out of 5. Most reviews land between 3.5 and 4.5, but we publish lower scores
+            when a product underdelivers — a low number is a useful warning, not a reason to skip the
+            review. Here is what each band actually signals:
           </p>
           <dl className="mt-4 space-y-3">
             {SCORE_BANDS.map((band) => (

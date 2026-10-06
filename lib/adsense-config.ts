@@ -56,6 +56,8 @@ export const isAdSenseConfigured = () => {
  */
 const PLACEHOLDER_SLOT = /^(?:1234567890|2345678901|3456789012|4567890123|5678901234|6789012345|7890123456|8901234567|9012345678)$/;
 
+export const isPlaceholderAdSlot = (slot: string): boolean => PLACEHOLDER_SLOT.test(slot);
+
 export const getPlaceholderAdSlots = (): string[] =>
   Object.entries(ADSENSE_CONFIG.adSlots)
     .filter(([, slot]) => PLACEHOLDER_SLOT.test(slot))
@@ -74,12 +76,8 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Helper function to check if ads should be shown
-export const shouldShowAds = () => {
-  // In production, show ads if configured
-  if (process.env.NODE_ENV === 'production') {
-    return isAdSenseConfigured();
-  }
-  
-  // In development, always show placeholders for layout testing
-  return true;
+export const shouldShowAds = () => isAdSenseConfigured();
+
+export const shouldShowAdSlot = (slot: string) => {
+  return shouldShowAds() && !isPlaceholderAdSlot(slot);
 };

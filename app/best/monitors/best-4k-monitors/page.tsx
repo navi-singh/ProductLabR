@@ -116,7 +116,7 @@ export default function Best4KMonitorsPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test 4K Monitors</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate 4K Monitors</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {[
                   { title: 'Color Accuracy Testing', items: ['Delta E measurements before and after calibration', 'sRGB, Adobe RGB, and DCI-P3 gamut coverage', 'White point accuracy at D65 standard', 'Gamma curve tracking across luminance levels', 'Uniformity testing across all monitor zones'] },

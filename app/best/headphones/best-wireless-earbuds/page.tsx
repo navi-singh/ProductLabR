@@ -116,7 +116,7 @@ export default function BestWirelessEarbudsPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Wireless Earbuds</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Wireless Earbuds</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {[
                   { title: 'What to Look For', items: ['ANC quality in office, plane, and street environments', 'Sound signature: balanced vs bass-heavy vs bright', 'Eartip fit and long-wear comfort', 'Codec support: LDAC for hi-res, AAC for iPhone', 'Water resistance rating for workouts'] },

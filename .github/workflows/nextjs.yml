@@ -92,6 +92,9 @@ jobs:
           # NEXT_PUBLIC_GOOGLE_ADSENSE_ID repository variable to the ca-pub-...
           # value from the AdSense dashboard.
           NEXT_PUBLIC_GOOGLE_ADSENSE_ID: ${{ vars.NEXT_PUBLIC_GOOGLE_ADSENSE_ID }}
+          NEXT_PUBLIC_AMAZON_ASSOCIATES_TAG: ${{ vars.NEXT_PUBLIC_AMAZON_ASSOCIATES_TAG }}
+          NEXT_PUBLIC_IMPACT_PUBLISHER_ID: ${{ vars.NEXT_PUBLIC_IMPACT_PUBLISHER_ID }}
+          NEXT_PUBLIC_NEWSLETTER_ENDPOINT: ${{ vars.NEXT_PUBLIC_NEWSLETTER_ENDPOINT }}
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

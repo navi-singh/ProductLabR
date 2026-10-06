@@ -125,7 +125,7 @@ export default function BestHybridCameras() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Hybrid Cameras</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Hybrid Cameras</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {[
                   { title: 'What Makes a Great Hybrid Camera?', items: ['Excellent video recording capabilities (4K/8K)', 'High-resolution sensor for detailed stills', 'Advanced autofocus for both photo and video', 'In-body image stabilization', 'Professional video features and codecs'] },

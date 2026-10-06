@@ -228,10 +228,10 @@ export default function WearablesPage() {
               </div>
             </div>
 
-            {/* How We Test */}
+            {/* How We Evaluate */}
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Wearables</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Wearables</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   { title: 'Health Accuracy', desc: 'Heart rate, SpO2, and sleep tracking accuracy compared against medical-grade reference devices over multiple weeks.' },

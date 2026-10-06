@@ -68,7 +68,7 @@ const powerStations: StationEntry[] = [
     href: '/articles/jackery_explorer_1000_v2',
     summary: 'User-friendly design with reliable performance, good brand reputation, and comprehensive warranty.',
     score: 8.8,
-    price: '$799',
+    price: 'From $589',
     specs: { Capacity: '1070Wh', Output: '1500W', Weight: '23.8 lbs', Design: 'User-friendly' },
   },
   {
@@ -77,7 +77,7 @@ const powerStations: StationEntry[] = [
     href: '/articles/ecoflow_river_2_pro',
     summary: 'Ultra-portable design with fast charging and multiple charging ports for light camping.',
     score: 8.6,
-    price: '$429',
+    price: '$349',
     specs: { Capacity: '768Wh', Output: '800W', Weight: '17.4 lbs', Form: 'Ultra-compact' },
   },
   {
@@ -145,7 +145,7 @@ export default function PortablePowerStationsPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Portable Power Stations</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Portable Power Stations</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   { title: 'Capacity Testing', desc: 'We measure actual usable capacity, charge/discharge cycles, and real-world runtime with common devices.' },

@@ -115,7 +115,7 @@ export default function ComparePage() {
                     href="/methodology"
                     className="block rounded-md px-3 py-2 text-neutral-700 hover:bg-primary-lightest"
                   >
-                    How we test
+                    How we score
                   </Link>
                 </li>
               </ul>

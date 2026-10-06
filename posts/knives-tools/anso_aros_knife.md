@@ -1,5 +1,5 @@
 ---
-title: "A Perfect 10: Anso of Denmark 'Aros' incredible knife"
+title: "Anso of Denmark Aros Review: A Compact Premium Folder That Earns Its Price"
 subtitle: "The Aros, from Jens Anso, is a stunning offering that lives well in a pocket and evinces a master designer's insight."
 date: "2025-07-02"
 author: "Anthony Sculimbrene"
@@ -9,7 +9,6 @@ retailerLinks:
   REI: "https://www.rei.com/search?q=anso%20aros%20knife"
   Walmart: "https://www.walmart.com/search?q=anso%20aros%20knife"
 ratingBreakdown:
-  overallScore: 94
   metrics:
     - name: "Blade Steel & Edge Retention - 45%"
       score: 9.4
@@ -78,7 +77,7 @@ My opinion is blunt: if you are already comfortable with the idea of a premium d
 
 The Aros looks playful, but the best parts of the design are practical. The handle has enough contour and milling to give your fingertips information without turning the scales into sandpaper. The blade sits in the handle like it was drawn from the back end forward, not bolted onto a generic frame. The clip is elegant without being fragile, and it lands at the same end of the handle where the lanyard problem usually appears. Instead of forcing the lanyard hole through both scales and making the clip fight for real estate, Anso routes the lanyard out the back. It is a small asymmetry, but it solves a real pocket problem.
 
-![A Perfect 10](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle2.webp)
+![Anso of Denmark Aros knife](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle2.webp)
 
 *Anso of Denmark / Anso of Denmark (Maker product image)*
 
@@ -92,7 +91,7 @@ The one design decision I actively dislike has nothing to do with the knife. The
 
 The first job was cardboard, because cardboard is where pocket knives tell on themselves. Thick packing board can make a pretty edge feel wedgy, especially when the blade stock is proud and the grind is lazy. The Aros did not behave that way. The flat grind and slender blade moved through thick cardboard like a zipper pull, separating the material cleanly instead of cracking it apart. In corrugated cardboard, the tip pierced easily and the edge tracked straight. It is not as thin behind the edge as a Victorinox blade or a TRM Nerd, but it has enough bite to feel efficient rather than decorative.
 
-![A Perfect 10](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle3.webp)
+![Anso of Denmark Aros knife](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle3.webp)
 
 *Anso of Denmark / Anso of Denmark (Maker product image)*
 
@@ -136,7 +135,7 @@ The Aros is the best kind of premium knife: expensive for reasons you can feel i
 
 If you want the maximum amount of knife for the least money, look elsewhere. If you want a compact folder where the designer's quirks have been disciplined into utility, the Aros is outstanding. It feels like Jens Anso finally delivering the knife his reputation always promised.
 
-**Overall: 10 out of 10.**
+**Overall: 4.3 out of 5.**
 
 ## FAQ
 

@@ -1,81 +1,93 @@
 ---
-title: "Jackery Explorer 1000 v2: The Reliable Workhorse of Portable Power"
-subtitle: "A comprehensive review of Jackery's updated flagship with LiFePO4 battery and enhanced performance"
-date: "2024-12-27"
+title: 'Jackery Explorer 1000 v2: The Reliable Workhorse of Portable Power'
+subtitle: >-
+  A comprehensive review of Jackery's updated flagship with LiFePO4 battery and
+  enhanced performance
+date: '2024-12-27'
 capacityWh: 1070
 features:
-  - "solar"
-  - "van-life"
+  - solar
+  - van-life
 specs:
-  Battery Capacity: "1,070Wh LiFePO4"
-  Inverter Power: "1,500W (Surge 3,000W)"
-  AC Output: "3 x 120V outlets"
-  USB Ports: "2 x USB-A (18W), 2 x USB-C (100W PD)"
-  DC Output: "1 x 12V/10A carport"
-  Charging Methods: "AC (800W), Solar (200W), Car (12V)"
-  Weight: "23.8 lbs (10.8kg)"
-  Dimensions: "13.1 x 9.2 x 11.2 in (33.3 x 23.4 x 28.4 cm)"
-  Emergency Light: "Integrated LED with SOS mode"
-  Cycle Life: "4,000+ cycles to 70%"
-  Operating Temperature: "-4°F to 104°F (-20°C to 40°C)"
-  Battery Chemistry: "LiFePO4 (Lithium Iron Phosphate)"
-  Safety Certifications: "UL 2743, FCC, CE, PSE"
+  Battery Capacity: '1,070Wh LiFePO4'
+  Inverter Power: '1,500W (Surge 3,000W)'
+  AC Output: 3 x 120V outlets
+  USB Ports: '2 x USB-A (18W), 2 x USB-C (100W PD)'
+  DC Output: 1 x 12V/10A carport
+  Charging Methods: 'AC (800W), Solar (200W), Car (12V)'
+  Weight: 23.8 lbs (10.8kg)
+  Dimensions: 13.1 x 9.2 x 11.2 in (33.3 x 23.4 x 28.4 cm)
+  Emergency Light: Integrated LED with SOS mode
+  Cycle Life: '4,000+ cycles to 70%'
+  Operating Temperature: '-4°F to 104°F (-20°C to 40°C)'
+  Battery Chemistry: LiFePO4 (Lithium Iron Phosphate)
+  Safety Certifications: 'UL 2743, FCC, CE, PSE'
 pros:
-  - "Proven reliability with Jackery's trusted brand reputation"
-  - "LiFePO4 battery provides 4,000+ cycles for exceptional longevity"
-  - "Higher output at 1,500W handles more demanding appliances"
-  - "Emergency LED light with SOS function for safety applications"
-  - "Comprehensive safety certifications for peace of mind"
-  - "Solar panel compatibility with excellent MPPT efficiency"
-  - "User-friendly design with simple, intuitive operation"
+  - Proven reliability with Jackery's trusted brand reputation
+  - 'LiFePO4 battery provides 4,000+ cycles for exceptional longevity'
+  - 'Higher output at 1,500W handles more demanding appliances'
+  - Emergency LED light with SOS function for safety applications
+  - Comprehensive safety certifications for peace of mind
+  - Solar panel compatibility with excellent MPPT efficiency
+  - 'User-friendly design with simple, intuitive operation'
 cons:
-  - "Slower charging speed compared to latest competitors"
-  - "No app connectivity or smart features"
-  - "Limited to 3 AC outlets for multiple devices"
-  - "Basic LCD display lacks detailed power information"
-price: "$1,099 (often on sale for $899-$999)"
+  - Slower charging speed compared to latest competitors
+  - No app connectivity or smart features
+  - Limited to 3 AC outlets for multiple devices
+  - Basic LCD display lacks detailed power information
+price: From $589 (base unit; official Jackery price as of 2026-10-05)
 retailerLinks:
-  Amazon: "https://amazon.com/dp/B0C8Q5T9J9"
-  Jackery: "https://www.jackery.com/products/explorer-1000-v2"
-  Costco: "https://www.costco.com/jackery-explorer-1000-v2-portable-power-station.product"
+  Jackery: 'https://www.jackery.com/products/jackery-explorer-1000-v2'
+  Amazon: 'https://amazon.com/dp/B0C8Q5T9J9'
+  Costco: >-
+    https://www.costco.com/jackery-explorer-1000-v2-portable-power-station.product
 ratingBreakdown:
   metrics:
-    - name: "Performance"
+    - name: Performance
       score: 8.5
-    - name: "Features"
-      score: 7.0
-    - name: "Design & Build"
+    - name: Features
+      score: 7
+    - name: Design & Build
       score: 8.5
-    - name: "Durability"
+    - name: Durability
       score: 9.5
-    - name: "Ease of Use"
-      score: 9.0
-    - name: "Value"
+    - name: Ease of Use
+      score: 9
+    - name: Value
       score: 7.8
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
-image: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_main.webp"
-productImage: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_main.webp"
-imageCredit: "Jackery"
-imageSource: "Jackery"
-imageLicense: "Manufacturer product image"
+author: Product Lab Team
+authorBio: >-
+  The Product Lab team reviews consumer electronics by combining hands-on use
+  with manufacturer documentation and published independent lab measurements. We
+  say which is which in each review.
+image: >-
+  /images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_main.webp
+productImage: >-
+  /images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_main.webp
+imageCredit: Jackery
+imageSource: Jackery
+imageLicense: Manufacturer product image
 gallery:
-  - src: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle2.webp"
-    credit: "Jackery"
-    source: "Jackery"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle3.webp"
-    credit: "Jackery"
-    source: "Jackery"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle4.webp"
-    credit: "Jackery"
-    source: "Jackery"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle5.webp"
-    credit: "Jackery"
-    source: "Jackery"
-    license: "Manufacturer product image"
+  - src: >-
+      /images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle2.webp
+    credit: Jackery
+    source: Jackery
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle3.webp
+    credit: Jackery
+    source: Jackery
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle4.webp
+    credit: Jackery
+    source: Jackery
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle5.webp
+    credit: Jackery
+    source: Jackery
+    license: Manufacturer product image
 ---
 
 ## Introduction

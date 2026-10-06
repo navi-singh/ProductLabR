@@ -1,80 +1,114 @@
 ---
-title: "EcoFlow DELTA Pro Ultra Review: Whole-Home Backup That Scales to 90kWh"
-subtitle: "A modular 6,144Wh base that stacks toward 90kWh with rare dual UL certification — priced from $4,199 and climbing past $7,899 before installation"
-date: "2026-08-07"
+title: 'EcoFlow DELTA Pro Ultra Review: Whole-Home Backup That Scales to 90kWh'
+subtitle: >-
+  A modular 6,144Wh base that stacks toward 90kWh with rare dual UL
+  certification — priced from $4,199 and climbing past $7,899 before
+  installation
+date: '2026-08-07'
 capacityWh: 6144
 features:
-  - "240v"
-  - "solar"
-  - "solar-kit"
+  - 240v
+  - solar
+  - solar-kit
 specs:
-  Battery Capacity: "6,144Wh base (1 inverter + 1 battery), stackable to 90kWh"
-  Rated Output: "7,200W to 21,600W depending on inverter count"
-  Voltage: "120V/240V split-phase"
-  Certification: "UL1973 and UL9540 (EcoFlow states it is the only portable power station certified to both)"
-  Charging Methods: "5 ways to charge"
-  Cold-Weather Operation: "Battery self-heats below 32F to run normally in the cold"
-  Home Integration: "EcoFlow Smart Home Panel 2 (professional installation required)"
-  Base Price: "$4,199 (1 inverter + 1 battery)"
-  Solar Generator Bundle: "$4,599 with a 400W solar panel"
-  Refurbished Options: "Refurbished battery $1,959; refurbished inverter $2,239"
-  Successor Model: "DELTA Pro Ultra X (whole-home kit $7,999)"
+  Battery Capacity: '6,144Wh base (1 inverter + 1 battery), stackable to 90kWh'
+  Rated Output: '7,200W to 21,600W depending on inverter count'
+  Voltage: 120V/240V split-phase
+  Certification: >-
+    UL1973 and UL9540 (EcoFlow states it is the only portable power station
+    certified to both)
+  Charging Methods: 5 ways to charge
+  Cold-Weather Operation: Battery self-heats below 32F to run normally in the cold
+  Home Integration: EcoFlow Smart Home Panel 2 (professional installation required)
+  Base Price: '$4,199 (1 inverter + 1 battery)'
+  Solar Generator Bundle: '$4,599 with a 400W solar panel'
+  Refurbished Options: 'Refurbished battery $1,959; refurbished inverter $2,239'
+  Successor Model: 'DELTA Pro Ultra X (whole-home kit $7,999)'
 pros:
-  - "Certified to both UL1973 and UL9540, a pairing EcoFlow says no rival portable power station holds"
-  - "Stacks from 6,144Wh to 90kWh, covering one circuit up to a whole house"
-  - "7,200W to 21,600W range drives heavy 240V loads such as wells, dryers and heat pumps"
-  - "Battery self-heats below 32F, so it keeps working in an unheated garage or winter cabin"
-  - "Five charging methods and Smart Home Panel 2 integration for automatic transfer"
-  - "Refurbished inverter and battery listings soften the cost of growing the system"
+  - >-
+    Certified to both UL1973 and UL9540, a pairing EcoFlow says no rival
+    portable power station holds
+  - 'Stacks from 6,144Wh to 90kWh, covering one circuit up to a whole house'
+  - >-
+    7,200W to 21,600W range drives heavy 240V loads such as wells, dryers and
+    heat pumps
+  - >-
+    Battery self-heats below 32F, so it keeps working in an unheated garage or
+    winter cabin
+  - >-
+    Five charging methods and Smart Home Panel 2 integration for automatic
+    transfer
+  - >-
+    Refurbished inverter and battery listings soften the cost of growing the
+    system
 cons:
-  - "The base pairing is already $4,199, and larger bundles reach $7,899 before installation"
-  - "The inverter package ships without the cable required to add a second inverter to the panel"
-  - "Smart Home Panel 2 needs paid professional installation quoted only after an on-site assessment"
-  - "EcoFlow does not expose weight, footprint or switchover timing on the fetched listing"
-  - "The newer DELTA Pro Ultra X already overlaps the range and muddies the decision"
-price: "$4,199"
+  - >-
+    The base pairing is already $4,199, and larger bundles reach $7,899 before
+    installation
+  - >-
+    The inverter package ships without the cable required to add a second
+    inverter to the panel
+  - >-
+    Smart Home Panel 2 needs paid professional installation quoted only after an
+    on-site assessment
+  - >-
+    EcoFlow does not expose weight, footprint or switchover timing on the
+    fetched listing
+  - >-
+    The newer DELTA Pro Ultra X already overlaps the range and muddies the
+    decision
+price: '$4,199 (1 inverter + 1 battery; official EcoFlow price as of 2026-10-05)'
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=ecoflow+delta+pro+ultra"
-  EcoFlow: "https://us.ecoflow.com/products/delta-pro-ultra-whole-home-backup-power"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+delta+pro+ultra"
+  EcoFlow: 'https://us.ecoflow.com/products/delta-pro-ultra'
+  Amazon: 'https://www.amazon.com/s?k=ecoflow+delta+pro+ultra'
+  BestBuy: 'https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+delta+pro+ultra'
 ratingBreakdown:
   metrics:
-    - name: "Performance"
-      score: 9.0
-    - name: "Power Output"
+    - name: Performance
+      score: 9
+    - name: Power Output
       score: 9.5
-    - name: "Design & Build"
+    - name: Design & Build
       score: 8.5
-    - name: "Portability"
-      score: 3.0
-    - name: "Ease of Use"
-      score: 7.0
-    - name: "Value"
+    - name: Portability
+      score: 3
+    - name: Ease of Use
+      score: 7
+    - name: Value
       score: 6.8
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
-image: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_main.webp"
-productImage: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_main.webp"
-imageCredit: "EcoFlow"
-imageSource: "EcoFlow"
-imageLicense: "Manufacturer product image"
+author: Product Lab Team
+authorBio: >-
+  The Product Lab team reviews consumer electronics by combining hands-on use
+  with manufacturer documentation and published independent lab measurements. We
+  say which is which in each review.
+image: >-
+  /images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_main.webp
+productImage: >-
+  /images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_main.webp
+imageCredit: EcoFlow
+imageSource: EcoFlow
+imageLicense: Manufacturer product image
 gallery:
-  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle2.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle3.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle4.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle5.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle2.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle3.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle4.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_delta_pro_ultra/ecoflow_delta_pro_ultra_angle5.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
 ---
 
 ## Introduction

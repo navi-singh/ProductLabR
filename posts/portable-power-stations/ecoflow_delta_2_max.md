@@ -1,53 +1,62 @@
 ---
-title: "EcoFlow DELTA 2 Max Review: A Mature 2kWh Power Station With One Big Caveat"
-subtitle: "EcoFlow's 2,048Wh station still makes a strong camping and outage-backup case in 2026, but its X-Boost promise should not guide your load planning"
-date: "2026-09-19"
-category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from third-party testing in each review."
+title: 'EcoFlow DELTA 2 Max Review: A Mature 2kWh Power Station With One Big Caveat'
+subtitle: >-
+  EcoFlow's 2,048Wh station still makes a strong camping and outage-backup case
+  in 2026, but its X-Boost promise should not guide your load planning
+date: '2026-09-19'
+category: portable-power-stations
+author: Product Lab Team
+authorBio: >-
+  The Product Lab team reviews consumer electronics by combining manufacturer
+  documentation with published independent measurements. We distinguish
+  documented specifications from third-party testing in each review.
 specs:
-  Battery Capacity: "2,048Wh LiFePO4"
-  Inverter Output: "2,400W continuous, pure sine wave"
-  X-Boost: "Up to 3,400W (EcoFlow claim)"
-  AC Input: "1,800W maximum"
-  Solar Input: "1,000W maximum"
-  AC Outlets: "6 x 120V"
-  USB Ports: "4 x USB-A, 2 x USB-C (100W each)"
-  DC Output: "1 x 12V car socket, 2 x DC5521"
-  Expandability: "Up to 6,144Wh with two expansion batteries"
-  UPS: "20ms automatic switchover"
-  Weight: "Approx. 50lb (22kg)"
-  Battery Chemistry: "LiFePO4"
+  Battery Capacity: '2,048Wh LiFePO4'
+  Inverter Output: '2,400W continuous, pure sine wave'
+  X-Boost: 'Up to 3,400W (EcoFlow claim)'
+  AC Input: '1,800W maximum'
+  Solar Input: '1,000W maximum'
+  AC Outlets: 6 x 120V
+  USB Ports: '4 x USB-A, 2 x USB-C (100W each)'
+  DC Output: '1 x 12V car socket, 2 x DC5521'
+  Expandability: 'Up to 6,144Wh with two expansion batteries'
+  UPS: 20ms automatic switchover
+  Weight: Approx. 50lb (22kg)
+  Battery Chemistry: LiFePO4
 pros:
-  - "Large 2,048Wh capacity with a 2,400W pure-sine inverter"
-  - "1,000W solar input and 1,800W AC charging are useful for genuine off-grid use"
-  - "Six AC outlets and two 100W USB-C ports are unusually practical"
-  - "Expandable to 6,144Wh with two extra batteries"
-  - "Independent testing found strong efficiency and low idle draw"
+  - 'Large 2,048Wh capacity with a 2,400W pure-sine inverter'
+  - >-
+    1,000W solar input and 1,800W AC charging are useful for genuine off-grid
+    use
+  - Six AC outlets and two 100W USB-C ports are unusually practical
+  - 'Expandable to 6,144Wh with two extra batteries'
+  - Independent testing found strong efficiency and low idle draw
 cons:
-  - "Around 50lb makes this a two-handed lift, not a grab-and-go battery"
-  - "X-Boost is not a substitute for a larger inverter when a load needs surge power"
-  - "No built-in light despite the unit's camping and outage role"
-  - "The original 2023 design is less compact than newer 2kWh competitors"
-price: "Launch MSRP: $1,599; current price varies by retailer"
+  - 'Around 50lb makes this a two-handed lift, not a grab-and-go battery'
+  - >-
+    X-Boost is not a substitute for a larger inverter when a load needs surge
+    power
+  - No built-in light despite the unit's camping and outage role
+  - The original 2023 design is less compact than newer 2kWh competitors
+price: '$1,029 (base unit; official EcoFlow price as of 2026-10-05)'
 retailerLinks:
-  EcoFlow: "https://www.ecoflow.com/us/delta-2-max-portable-power-station"
-  Amazon: "https://www.amazon.com/s?k=EcoFlow+DELTA+2+Max"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=EcoFlow+DELTA+2+Max"
+  EcoFlow: 'https://us.ecoflow.com/products/delta-2-max-portable-power-station'
+  Amazon: 'https://www.amazon.com/s?k=EcoFlow+DELTA+2+Max'
+  BestBuy: 'https://www.bestbuy.com/site/searchpage.jsp?st=EcoFlow+DELTA+2+Max'
 ratingBreakdown:
   metrics:
-    - name: "Performance"
+    - name: Performance
       score: 8.7
-    - name: "Charging Speed"
-      score: 9.0
-    - name: "Portability"
+    - name: Charging Speed
+      score: 9
+    - name: Portability
       score: 6.8
-    - name: "Design & Build"
+    - name: Design & Build
       score: 8.2
-    - name: "Ease of Use"
-      score: 9.0
-    - name: "Value"
-      score: 8.0
+    - name: Ease of Use
+      score: 9
+    - name: Value
+      score: 8
 ---
 
 ## Introduction: Still Relevant, But No Longer New

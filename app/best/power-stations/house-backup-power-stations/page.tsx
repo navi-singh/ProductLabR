@@ -58,7 +58,7 @@ const stations: StationEntry[] = [
     href: '/articles/anker_solix_f3800',
     summary: 'Highest surge power rating with long warranty coverage and home integration ready.',
     score: 8.5,
-    price: '$3,999',
+    price: '$1,979.99',
     specs: { Capacity: '3840Wh', Output: '6000W surge', Battery: 'LiFePO4', Warranty: '10 years' },
   },
 ];

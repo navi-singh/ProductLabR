@@ -128,7 +128,7 @@ export default function Top5SmartwatchesPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Smartwatches</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Smartwatches</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   { title: 'App Ecosystem', desc: 'Third-party app availability, quality, and consistency evaluated across key categories: navigation, fitness, productivity, and payments.' },

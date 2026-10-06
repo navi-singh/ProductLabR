@@ -116,7 +116,7 @@ export default function BestNoiseCancellingPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Noise-Cancelling Headphones</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Noise-Cancelling Headphones</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {[
                   { title: 'ANC Testing Environments', items: ['Airplane cabin during long-haul flights', 'Open-plan office with ambient noise', 'City street and public transport', 'Home HVAC/appliance noise reduction', 'Low, mid, and high-frequency attenuation'] },

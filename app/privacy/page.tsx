@@ -17,21 +17,30 @@ export default function PrivacyPage() {
       <article className="mt-5">
         <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">Privacy policy</h1>
         <p className="mt-3 text-base leading-relaxed text-neutral-600">
-          Product Lab is a static website. We do not ask you to create an account and we do not
-          collect personal information directly. This page explains what third parties may collect
-          when you visit.
+          Product Lab is a static website. We do not ask you to create an account. This page
+          explains what we and our service providers may collect when you visit, subscribe or follow
+          an outbound link.
         </p>
+
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-neutral-900">Cookie consent</h2>
+          <p className="mt-2 text-sm leading-relaxed text-neutral-600">
+            Google analytics and advertising cookies are denied by default. When the cookie banner
+            appears, you can accept or reject those cookies. Your choice is stored in your browser so
+            we can respect it on later visits, and you can change it any time using Cookie settings
+            in the footer.
+          </p>
+        </section>
 
         <section className="mt-10">
           <h2 className="text-xl font-bold text-neutral-900">Advertising</h2>
           <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-            We use Google AdSense to display advertising. Third-party vendors, including Google, use
-            cookies to serve ads based on your prior visits to this and other websites. Google&apos;s
-            use of advertising cookies enables it and its partners to serve ads to you based on your
-            visit to this site and other sites on the internet.
+            If you accept cookies, we may use Google AdSense to display advertising. Third-party
+            vendors, including Google, may use cookies to serve and measure ads based on your visits
+            to this and other websites. If you reject cookies, we do not load the AdSense script.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-neutral-600">
-            You can opt out of personalised advertising by visiting{' '}
+            You can also opt out of personalised advertising by visiting{' '}
             <a
               href="https://www.google.com/settings/ads"
               rel="noopener noreferrer nofollow"
@@ -75,14 +84,13 @@ export default function PrivacyPage() {
             operational purposes.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-neutral-600">
-            We also use Google Analytics to understand which reviews people read and how they found
-            them. It sets cookies to recognise returning visits and reports to us only in aggregate
-            &mdash; page views, referring sites, approximate region and device type. We do not
-            receive your name, email address or any information that identifies you personally, and
-            we do not sell or share this data.
+            If you accept cookies, we use Google Analytics to understand which reviews people read
+            and how they found them. It sets cookies to recognise returning visits and reports to us
+            in aggregate &mdash; page views, referring sites, approximate region and device type. If
+            you reject cookies, analytics storage remains denied.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-neutral-600">
-            You can prevent this collection entirely with the{' '}
+            You can also prevent Google Analytics collection with the{' '}
             <a
               href="https://tools.google.com/dlpage/gaoptout"
               rel="noopener noreferrer nofollow"
@@ -91,16 +99,26 @@ export default function PrivacyPage() {
             >
               Google Analytics opt-out browser add-on
             </a>
-            , or by blocking cookies as described below. Blocking analytics does not affect access
-            to any content on this site.
+            . Blocking analytics does not affect access to any content on this site.
+          </p>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-neutral-900">Newsletter</h2>
+          <p className="mt-2 text-sm leading-relaxed text-neutral-600">
+            If the newsletter form is available and you submit your email address, that address is
+            sent to our newsletter provider for subscription handling. We use it only to send the
+            newsletter or manage your subscription. If you do not submit the form, we do not collect
+            your email address.
           </p>
         </section>
 
         <section className="mt-10">
           <h2 className="text-xl font-bold text-neutral-900">Your choices</h2>
           <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-            You can block or delete cookies in your browser settings at any time. Blocking
-            advertising cookies does not affect access to any content on this site.
+            You can reject optional cookies in our banner, reopen Cookie settings from the footer,
+            or block and delete cookies in your browser settings at any time. Blocking advertising
+            or analytics cookies does not affect access to any content on this site.
           </p>
         </section>
 

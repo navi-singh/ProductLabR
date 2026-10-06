@@ -168,7 +168,7 @@ export default function BestPage() {
             <section>
               <SectionLabel>Our Process</SectionLabel>
               <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
-                <h2 className="mb-2 text-lg font-bold text-neutral-900">How we test</h2>
+                <h2 className="mb-2 text-lg font-bold text-neutral-900">How we score</h2>
                 <p className="mb-5 text-sm leading-relaxed text-neutral-600">
                   Reviews are scored on a fixed rubric and blocked from publication until they clear
                   objective thresholds.

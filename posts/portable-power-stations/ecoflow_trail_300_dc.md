@@ -1,80 +1,93 @@
 ---
-title: "EcoFlow TRAIL 300 DC Review: A 288Wh Battery That Deliberately Skips the AC Inverter"
-subtitle: "At $159 and 5.69 lbs, the TRAIL 300 DC bets that campers and photographers want efficient DC power, not a wall socket they will rarely use"
-date: "2026-08-07"
+title: >-
+  EcoFlow TRAIL 300 DC Review: A 288Wh Battery That Deliberately Skips the AC
+  Inverter
+subtitle: >-
+  At $159 and 5.69 lbs, the TRAIL 300 DC bets that campers and photographers
+  want efficient DC power, not a wall socket they will rarely use
+date: '2026-08-07'
 capacityWh: 288
 features:
-  - "solar"
+  - solar
 specs:
-  Battery Capacity: "288Wh LFP / LiFePO4"
-  AC Output: "None - this is a DC-only unit"
-  Total DC Output: "300W maximum discharge"
-  USB-C: "2 x 140W (input and output)"
-  USB-A: "2 x 12W"
-  Car Outlet: "120W maximum"
-  Solar / Car Input: "110W maximum"
-  Weight: "2.58kg (5.69 lbs)"
-  Dimensions: "167 x 115 x 166 mm"
-  Battery Chemistry: "LFP (Lithium Iron Phosphate)"
-  Ingress Rating: "IP30 (dust-protected, not waterproof)"
-  Extras: "Built-in light, woven carry handle, Wi-Fi/Bluetooth app"
-  Warranty: "3 years"
+  Battery Capacity: 288Wh LFP / LiFePO4
+  AC Output: None - this is a DC-only unit
+  Total DC Output: 300W maximum discharge
+  USB-C: 2 x 140W (input and output)
+  USB-A: 2 x 12W
+  Car Outlet: 120W maximum
+  Solar / Car Input: 110W maximum
+  Weight: 2.58kg (5.69 lbs)
+  Dimensions: 167 x 115 x 166 mm
+  Battery Chemistry: LFP (Lithium Iron Phosphate)
+  Ingress Rating: 'IP30 (dust-protected, not waterproof)'
+  Extras: 'Built-in light, woven carry handle, Wi-Fi/Bluetooth app'
+  Warranty: 3 years
 pros:
-  - "288Wh of LFP storage in a 5.69 lb, one-hand package"
-  - "Two 140W USB-C ports charge and discharge fast"
-  - "No inverter means no idle AC conversion losses draining the pack"
-  - "120W car outlet and 110W solar/car input for on-the-move topping up"
-  - "$159 list, or $149 for members, undercuts most AC-equipped rivals"
-  - "Built-in light and app monitoring add real field utility"
+  - '288Wh of LFP storage in a 5.69 lb, one-hand package'
+  - Two 140W USB-C ports charge and discharge fast
+  - No inverter means no idle AC conversion losses draining the pack
+  - 120W car outlet and 110W solar/car input for on-the-move topping up
+  - '$159 list, or $149 for members, undercuts most AC-equipped rivals'
+  - Built-in light and app monitoring add real field utility
 cons:
-  - "No AC output at all - nothing that needs a wall plug will run from it"
-  - "288Wh is small; it is a device-charger, not a home-backup unit"
-  - "IP30 rating means dust resistance only, not water protection"
-  - "110W input ceiling makes solar or car recharging slow"
-  - "No battery expansion path"
-price: "$159"
+  - No AC output at all - nothing that needs a wall plug will run from it
+  - '288Wh is small; it is a device-charger, not a home-backup unit'
+  - 'IP30 rating means dust resistance only, not water protection'
+  - 110W input ceiling makes solar or car recharging slow
+  - No battery expansion path
+price: $159 (TRAIL 300 DC base unit; official EcoFlow price as of 2026-10-05)
 retailerLinks:
-  EcoFlow: "https://us.ecoflow.com/products/trail-series"
-  Amazon: "https://www.amazon.com/s?k=ecoflow+trail+300+dc"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+trail+300+dc"
+  EcoFlow: 'https://us.ecoflow.com/products/trail-series'
+  Amazon: 'https://www.amazon.com/s?k=ecoflow+trail+300+dc'
+  BestBuy: 'https://www.bestbuy.com/site/searchpage.jsp?st=ecoflow+trail+300+dc'
 ratingBreakdown:
   metrics:
-    - name: "Performance"
-      score: 8.0
-    - name: "Power Output"
+    - name: Performance
+      score: 8
+    - name: Power Output
       score: 6.5
-    - name: "Design & Build"
+    - name: Design & Build
       score: 8.5
-    - name: "Portability"
+    - name: Portability
       score: 9.5
-    - name: "Ease of Use"
-      score: 9.0
-    - name: "Value"
+    - name: Ease of Use
+      score: 9
+    - name: Value
       score: 8.8
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
-image: "/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_main.webp"
-productImage: "/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_main.webp"
-imageCredit: "EcoFlow"
-imageSource: "EcoFlow"
-imageLicense: "Manufacturer product image"
+author: Product Lab Team
+authorBio: >-
+  The Product Lab team reviews consumer electronics by combining hands-on use
+  with manufacturer documentation and published independent lab measurements. We
+  say which is which in each review.
+image: >-
+  /images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_main.webp
+productImage: >-
+  /images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_main.webp
+imageCredit: EcoFlow
+imageSource: EcoFlow
+imageLicense: Manufacturer product image
 gallery:
-  - src: "/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle2.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle3.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle4.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle5.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle2.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle3.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle4.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle5.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
 ---
 
 ## Introduction

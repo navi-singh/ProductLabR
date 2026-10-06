@@ -17,7 +17,7 @@ export function AffiliateDisclosure({ variant = 'inline' }: AffiliateDisclosureP
       affiliate commission, at no extra cost to you. Commissions never influence our scores or
       rankings — see{' '}
       <a href="/methodology" className="underline hover:text-primary">
-        how we test and score
+        how we research and score
       </a>
       .
     </>

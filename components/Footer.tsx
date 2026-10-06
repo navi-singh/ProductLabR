@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CookieSettingsLink } from '@/components/CookieConsent';
 import { CATEGORIES } from '@/lib/taxonomy';
 
 // Guide routes are curated rather than derived: these are the highest-intent
@@ -15,7 +16,7 @@ const BEST_OF_LINKS = [
 
 const COMPANY_LINKS = [
   { label: 'About', href: '/about' },
-  { label: 'How we test', href: '/methodology' },
+  { label: 'How we score', href: '/methodology' },
   { label: 'Affiliate disclosure', href: '/disclosure' },
   { label: 'Privacy policy', href: '/privacy' },
   { label: 'All reviews', href: '/reviews' },
@@ -93,6 +94,9 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <CookieSettingsLink />
+              </li>
             </ul>
           </div>
         </div>

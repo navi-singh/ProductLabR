@@ -120,10 +120,10 @@ export default function SmartHomePage() {
               </div>
             </div>
 
-            {/* How We Test */}
+            {/* How We Evaluate */}
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Smart Home Devices</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Smart Home Devices</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   { title: 'Real-World Performance', desc: 'We test robot vacuums on multiple floor types, smart speakers in real acoustic environments, and doorbells in varying lighting.' },

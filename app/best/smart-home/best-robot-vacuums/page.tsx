@@ -116,7 +116,7 @@ export default function BestRobotVacuumsPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Robot Vacuums</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Robot Vacuums</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {[
                   { title: 'Cleaning Performance', items: ['Hard floor debris pickup efficiency', 'Carpet deep cleaning with fine and coarse debris', 'Pet hair tangle resistance on brush roll', 'Corner and edge cleaning performance', 'Mopping wetness and scrubbing effectiveness'] },

@@ -27,7 +27,7 @@ const stations: StationEntry[] = [
     href: '/articles/ecoflow_river_2_pro',
     summary: 'Perfect camping capacity with ultra-fast 70-minute charging and lightweight 17.2 lb design.',
     score: 9.1,
-    price: '$599',
+    price: '$349',
     badge: 'best-overall' as const,
     specs: { Capacity: '768Wh', Output: '800W', Weight: '17.2 lbs', Charging: '70 min' },
   },
@@ -37,7 +37,7 @@ const stations: StationEntry[] = [
     href: '/articles/jackery_explorer_1000_v2',
     summary: 'Higher capacity for longer trips with powerful output and excellent build quality.',
     score: 8.9,
-    price: '$799',
+    price: 'From $589',
     badge: 'best-value' as const,
     specs: { Capacity: '1070Wh', Output: '1500W', Weight: '23.8 lbs', Safety: 'ChargeShield 2.0' },
   },
@@ -72,8 +72,8 @@ const stations: StationEntry[] = [
 ];
 
 const quickPicks = [
-  { label: 'Best Overall', name: 'EcoFlow River 2 Pro', href: '/articles/ecoflow_river_2_pro', score: 9.1, price: '$599' },
-  { label: 'Best Value', name: 'Jackery Explorer 1000 v2', href: '/articles/jackery_explorer_1000_v2', score: 8.9, price: '$799' },
+  { label: 'Best Overall', name: 'EcoFlow River 2 Pro', href: '/articles/ecoflow_river_2_pro', score: 9.1, price: '$349' },
+  { label: 'Best Value', name: 'Jackery Explorer 1000 v2', href: '/articles/jackery_explorer_1000_v2', score: 8.9, price: 'From $589' },
   { label: 'Budget Pick', name: 'Bluetti EB70S', href: '/articles/bluetti_eb70s', score: 8.7, price: '$449' },
 ];
 

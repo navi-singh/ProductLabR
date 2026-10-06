@@ -125,7 +125,7 @@ export default function Top5FitnessWatchesPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Fitness Watches</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Fitness Watches</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   { title: 'GPS Accuracy', desc: 'Route traces compared against reference-grade GPS devices across urban, trail, and open-terrain environments over multiple weeks of real-world testing.' },

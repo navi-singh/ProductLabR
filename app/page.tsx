@@ -76,7 +76,7 @@ export default function Home() {
             Evidence-first tech reviews for faster buying decisions.
           </h1>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-neutral-600">
-            Product Lab turns hands-on testing, specs, and real-world trade-offs into clear
+            Product Lab turns manufacturer specs, independent test data, and real-world trade-offs into clear
             recommendations across power stations, audio, TVs, cameras, and everyday tech.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">

@@ -1,84 +1,90 @@
 ---
-title: "Anker SOLIX F3800 Review: 6,000W and 240V Split-Phase in One Box"
-subtitle: "The rare portable station that can start a well pump and back up 240V circuits — what its surge and split-phase output mean for whole-home use"
-date: "2025-08-17"
+title: 'Anker SOLIX F3800 Review: 6,000W and 240V Split-Phase in One Box'
+subtitle: >-
+  The rare portable station that can start a well pump and back up 240V circuits
+  — what its surge and split-phase output mean for whole-home use
+date: '2025-08-17'
 capacityWh: 3840
 features:
-  - "30a-rv"
-  - "solar"
-  - "240v"
-
+  - 30a-rv
+  - solar
+  - 240v
 specs:
-  Capacity: "3840Wh"
-  Output: "6000W"
-  Battery Chemistry: "LiFePO4"
-  Weight: "132 lbs"
-  Charging: "AC, Solar, Car"
-  UPS: "Yes"
-  Dimensions: "TBD"
-  App: "Bluetooth & Wi-Fi enabled"
-  
+  Capacity: 3840Wh
+  Output: 6000W
+  Battery Chemistry: LiFePO4
+  Weight: 132 lbs
+  Charging: 'AC, Solar, Car'
+  UPS: 'Yes'
+  Dimensions: TBD
+  App: Bluetooth & Wi-Fi enabled
 pros:
-  - "6,000W inverter with the highest surge rating in this group"
-  - "Native 120V/240V split-phase output from a single unit"
-  - "LiFePO4 chemistry rated for thousands of cycles"
-  - "Designed for transfer-switch and home-panel integration"
-
+  - '6,000W inverter with the highest surge rating in this group'
+  - Native 120V/240V split-phase output from a single unit
+  - LiFePO4 chemistry rated for thousands of cycles
+  - Designed for transfer-switch and home-panel integration
 cons:
-  - "132 lbs — wheels help, but lifting it is a two-person job"
-  - "Whole-home tie-in needs a transfer switch and usually an electrician"
-  - "Premium price, and expansion batteries add up"
-  - "Base capacity is modest relative to its output; heavy loads drain it quickly"
-
-price: "$3,999"
+  - '132 lbs — wheels help, but lifting it is a two-person job'
+  - Whole-home tie-in needs a transfer switch and usually an electrician
+  - 'Premium price, and expansion batteries add up'
+  - Base capacity is modest relative to its output; heavy loads drain it quickly
+price: '$1,979.99 (official Anker SOLIX price as of 2026-10-05)'
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=anker%20solix%20f3800"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20f3800"
-  Walmart: "https://www.walmart.com/search?q=anker%20solix%20f3800"
-  
+  Anker: 'https://www.ankersolix.com/products/f3800'
+  Amazon: 'https://www.amazon.com/s?k=anker%20solix%20f3800'
+  BestBuy: 'https://www.bestbuy.com/site/searchpage.jsp?st=anker%20solix%20f3800'
 ratingBreakdown:
   metrics:
-    - name: "Performance"
-      score: 9.0
-    - name: "Design & Build"
+    - name: Performance
+      score: 9
+    - name: Design & Build
       score: 8.5
-    - name: "Portability"
+    - name: Portability
       score: 7.5
-    - name: "Ease of Use"
-      score: 8.0
-    - name: "Value"
+    - name: Ease of Use
+      score: 8
+    - name: Value
       score: 7.4
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
-image: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_main.webp"
-productImage: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_main.webp"
-imageCredit: "Anker"
-imageSource: "Anker"
-imageLicense: "Manufacturer product image"
+author: Product Lab Team
+authorBio: >-
+  The Product Lab team reviews consumer electronics by combining hands-on use
+  with manufacturer documentation and published independent lab measurements. We
+  say which is which in each review.
+image: >-
+  /images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_main.webp
+productImage: >-
+  /images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_main.webp
+imageCredit: Anker
+imageSource: Anker
+imageLicense: Manufacturer product image
 gallery:
-  - src: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle2.webp"
-    credit: "Anker"
-    source: "Anker"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle3.webp"
-    credit: "Anker"
-    source: "Anker"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle4.webp"
-    credit: "Anker"
-    source: "Anker"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle5.webp"
-    credit: "Anker"
-    source: "Anker"
-    license: "Manufacturer product image"
+  - src: >-
+      /images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle2.webp
+    credit: Anker
+    source: Anker
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle3.webp
+    credit: Anker
+    source: Anker
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle4.webp
+    credit: Anker
+    source: Anker
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle5.webp
+    credit: Anker
+    source: Anker
+    license: Manufacturer product image
 ---
 
 ## Introduction
 
 Most portable power stations are glorified battery boxes with a modest inverter bolted on. The Anker SOLIX F3800 is the opposite: a 6,000W inverter with native 120V/240V split-phase output, wrapped around a 3,840Wh LiFePO4 pack. That inversion of priorities is the entire reason it exists. This is a unit designed to start the hard loads and feed real household circuits — a well pump, a 240V appliance, a partial home panel — rather than just keep a laptop alive at camp.
 
-The number that matters most here is not capacity; it is output. At 6,000W continuous with the highest surge rating in this comparison, the F3800 does things smaller stations physically cannot. And because it produces true split-phase 240V from a single box, it slots into home backup scenarios that normally demand a standby generator. The price of admission is size, weight, and the reality that doing this properly means a transfer switch and, for most people, an electrician. At $3,999 it is a lot of money — but it is aimed at a job the cheaper units simply cannot do.
+The number that matters most here is not capacity; it is output. At 6,000W continuous with the highest surge rating in this comparison, the F3800 does things smaller stations physically cannot. And because it produces true split-phase 240V from a single box, it slots into home backup scenarios that normally demand a standby generator. The price of admission is size, weight, and the reality that doing this properly means a transfer switch and, for most people, an electrician. At $1,979.99 it is a lot of money — but it is aimed at a job the cheaper units simply cannot do.
 
 ## Design and Build
 
@@ -124,7 +130,7 @@ Skip it if your loads are light electronics and small appliances — you would b
 
 ## Verdict
 
-The Anker SOLIX F3800 is the portable station to buy when the job is genuinely demanding: starting pumps and compressors, backing up 240V circuits, and integrating with a home panel. Its 6,000W inverter and category-leading surge make it capable where others fail, and LiFePO4 chemistry means it will still be doing the job many years from now. The weight, the modest base capacity relative to its output, and the real cost of proper home integration are the tradeoffs. For the buyer with heavy loads and a plan for installation, $3,999 buys capability that cheaper units cannot approach.
+The Anker SOLIX F3800 is the portable station to buy when the job is genuinely demanding: starting pumps and compressors, backing up 240V circuits, and integrating with a home panel. Its 6,000W inverter and category-leading surge make it capable where others fail, and LiFePO4 chemistry means it will still be doing the job many years from now. The weight, the modest base capacity relative to its output, and the real cost of proper home integration are the tradeoffs. For the buyer with heavy loads and a plan for installation, $1,979.99 buys capability that cheaper units cannot approach.
 
 ## FAQ
 

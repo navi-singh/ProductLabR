@@ -32,15 +32,15 @@
     },
     {
       "category": "portable-power-stations",
-      "product": "Anker F3000",
-      "slug": "anker_f3000",
+      "product": "Anker SOLIX F3000",
+      "slug": "anker_solix_f3000",
       "sourceUrl": "https://www.thesolarlab.com/review/anker-f3000-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
       "sourceLastmod": "2026-09-14",
       "claimedAt": "2026-09-18T18:27:47.530Z",
       "completedAt": "2026-09-18T18:37:17.903Z",
-      "reviewPath": "posts/portable-power-stations/anker_f3000.md"
+      "reviewPath": "posts/portable-power-stations/anker_solix_f3000.md"
     },
     {
       "category": "portable-power-stations",
@@ -181,15 +181,15 @@
     },
     {
       "category": "portable-power-stations",
-      "product": "Camping Ecoflow Delta 2 Max",
-      "slug": "camping_ecoflow_delta_2_max",
+      "product": "EcoFlow DELTA 2 Max",
+      "slug": "ecoflow_delta_2_max",
       "sourceUrl": "https://www.thesolarlab.com/review/camping-ecoflow-delta-2-max",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
       "sourceLastmod": "2026-09-14",
       "claimedAt": "2026-09-19T20:11:45.111Z",
       "completedAt": "2026-09-19T20:15:47.959Z",
-      "reviewPath": "posts/portable-power-stations/camping_ecoflow_delta_2_max.md"
+      "reviewPath": "posts/portable-power-stations/ecoflow_delta_2_max.md"
     },
     {
       "category": "portable-power-stations",
@@ -235,18 +235,6 @@
     },
     {
       "category": "portable-power-stations",
-      "product": "Ecoflow Delta 2 Max",
-      "slug": "ecoflow_delta_2_max",
-      "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-2-max-review",
-      "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
-      "status": "completed",
-      "sourceLastmod": "2026-09-14",
-      "claimedAt": "2026-09-19T18:36:52.535Z",
-      "completedAt": "2026-09-19T18:39:13.210Z",
-      "reviewPath": "posts/portable-power-stations/ecoflow_delta_2_max.md"
-    },
-    {
-      "category": "portable-power-stations",
       "product": "Ecoflow Delta 3 1000 Air",
       "slug": "ecoflow_delta_3_1000_air",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-delta-3-1000-air",
@@ -287,15 +275,15 @@
     },
     {
       "category": "portable-power-stations",
-      "product": "Ecoflow River 2 Pro Power Station",
-      "slug": "ecoflow_river_2_pro_power_station",
+      "product": "EcoFlow RIVER 2 Pro",
+      "slug": "ecoflow_river_2_pro",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-river-2-pro-power-station-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
       "sourceLastmod": "2026-09-14",
       "claimedAt": "2026-09-19T05:58:04.151Z",
       "completedAt": "2026-09-19T06:00:33.830Z",
-      "reviewPath": "posts/portable-power-stations/ecoflow_river_2_pro_power_station.md"
+      "reviewPath": "posts/portable-power-stations/ecoflow_river_2_pro.md"
     },
     {
       "category": "portable-power-stations",
@@ -332,15 +320,15 @@
     },
     {
       "category": "portable-power-stations",
-      "product": "Ecoflow Trail 300dc",
-      "slug": "ecoflow_trail_300dc",
+      "product": "EcoFlow TRAIL 300 DC",
+      "slug": "ecoflow_trail_300_dc",
       "sourceUrl": "https://www.thesolarlab.com/review/ecoflow-trail-300dc",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
       "sourceLastmod": "2026-09-14",
       "claimedAt": "2026-09-19T18:46:13.637Z",
       "completedAt": "2026-09-19T18:47:43.008Z",
-      "reviewPath": "posts/portable-power-stations/ecoflow_trail_300dc.md"
+      "reviewPath": "posts/portable-power-stations/ecoflow_trail_300_dc.md"
     },
     {
       "category": "portable-power-stations",
@@ -356,15 +344,15 @@
     },
     {
       "category": "portable-power-stations",
-      "product": "Jackery 1000 V2",
-      "slug": "jackery_1000_v2",
+      "product": "Jackery Explorer 1000 v2",
+      "slug": "jackery_explorer_1000_v2",
       "sourceUrl": "https://www.thesolarlab.com/review/jackery-1000-v2-review",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
       "sourceLastmod": "2026-09-14",
       "claimedAt": "2026-09-19T18:49:56.851Z",
       "completedAt": "2026-09-19T18:53:27.849Z",
-      "reviewPath": "posts/portable-power-stations/jackery_1000_v2.md"
+      "reviewPath": "posts/portable-power-stations/jackery_explorer_1000_v2.md"
     },
     {
       "category": "portable-power-stations",
@@ -531,25 +519,25 @@
     },
     {
       "category": "portable-power-stations",
-      "product": "Testing The Anker F3800",
-      "slug": "testing_the_anker_f3800",
+      "product": "Anker SOLIX F3800",
+      "slug": "anker_solix_f3800",
       "sourceUrl": "https://www.thesolarlab.com/review/testing-the-anker-f3800",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
       "claimedAt": "2026-09-19T20:19:27.921Z",
       "completedAt": "2026-09-19T20:22:11.691Z",
-      "reviewPath": "posts/portable-power-stations/testing_the_anker_f3800.md"
+      "reviewPath": "posts/portable-power-stations/anker_solix_f3800.md"
     },
     {
       "category": "portable-power-stations",
-      "product": "Testing The Ecoflow Delta Pro Ultra",
-      "slug": "testing_the_ecoflow_delta_pro_ultra",
+      "product": "EcoFlow DELTA Pro Ultra",
+      "slug": "ecoflow_delta_pro_ultra",
       "sourceUrl": "https://www.thesolarlab.com/review/testing-the-ecoflow-delta-pro-ultra",
       "brief": "Use the source URL only as a discovery lead. Build an independent evidence brief from approved primary and reputable secondary sources before drafting.",
       "status": "completed",
       "claimedAt": "2026-09-19T20:22:11.799Z",
       "completedAt": "2026-09-19T20:26:01.451Z",
-      "reviewPath": "posts/portable-power-stations/testing_the_ecoflow_delta_pro_ultra.md"
+      "reviewPath": "posts/portable-power-stations/ecoflow_delta_pro_ultra.md"
     }
   ]
 }

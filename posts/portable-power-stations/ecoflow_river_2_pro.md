@@ -1,82 +1,93 @@
 ---
-title: "EcoFlow River 2 Pro: Compact Power Station That Punches Above Its Weight"
-subtitle: "A comprehensive review of EcoFlow's mid-tier portable power solution with impressive charging speeds"
-date: "2024-12-27"
+title: 'EcoFlow River 2 Pro: Compact Power Station That Punches Above Its Weight'
+subtitle: >-
+  A comprehensive review of EcoFlow's mid-tier portable power solution with
+  impressive charging speeds
+date: '2024-12-27'
 capacityWh: 768
 features:
-  - "van-life"
-  - "cpap"
-  - "solar"
+  - van-life
+  - cpap
+  - solar
 specs:
-  Battery Capacity: "768Wh LiFePO4"
-  Inverter Power: "800W (Surge 1,600W)"
-  AC Output: "4 x 120V outlets"
-  USB Ports: "2 x USB-A (12W), 2 x USB-C (100W PD)"
-  DC Output: "1 x 12V/10A carport, 2 x DC5521"
-  Wireless Charging: "15W top panel"
-  Charging Methods: "AC (940W), Solar (220W), Car (100W)"
-  Weight: "17.8 lbs (8.1kg)"
-  Dimensions: "10.4 x 7.3 x 8.7 in (26.4 x 18.5 x 22.1 cm)"
-  X-Boost Technology: "Up to 1,000W with compatible devices"
-  Cycle Life: "3,000+ cycles to 80%"
-  Operating Temperature: "14°F to 113°F (-10°C to 45°C)"
-  Battery Chemistry: "LiFePO4 (Lithium Iron Phosphate)"
+  Battery Capacity: 768Wh LiFePO4
+  Inverter Power: '800W (Surge 1,600W)'
+  AC Output: 4 x 120V outlets
+  USB Ports: '2 x USB-A (12W), 2 x USB-C (100W PD)'
+  DC Output: '1 x 12V/10A carport, 2 x DC5521'
+  Wireless Charging: 15W top panel
+  Charging Methods: 'AC (940W), Solar (220W), Car (100W)'
+  Weight: 17.8 lbs (8.1kg)
+  Dimensions: 10.4 x 7.3 x 8.7 in (26.4 x 18.5 x 22.1 cm)
+  X-Boost Technology: 'Up to 1,000W with compatible devices'
+  Cycle Life: '3,000+ cycles to 80%'
+  Operating Temperature: 14°F to 113°F (-10°C to 45°C)
+  Battery Chemistry: LiFePO4 (Lithium Iron Phosphate)
 pros:
-  - "Ultra-fast charging - 0-100% in 70 minutes with AC input"
-  - "X-Boost technology enables powering 1,000W+ devices"
-  - "Excellent portability at just 17.8 lbs with carrying handle"
-  - "Comprehensive EcoFlow app with remote monitoring and control"
-  - "Multiple charging options including fast solar input"
-  - "LiFePO4 battery chemistry for safety and longevity"
-  - "Expandable with additional battery for doubled capacity"
+  - Ultra-fast charging - 0-100% in 70 minutes with AC input
+  - 'X-Boost technology enables powering 1,000W+ devices'
+  - Excellent portability at just 17.8 lbs with carrying handle
+  - Comprehensive EcoFlow app with remote monitoring and control
+  - Multiple charging options including fast solar input
+  - LiFePO4 battery chemistry for safety and longevity
+  - Expandable with additional battery for doubled capacity
 cons:
-  - "Lower capacity compared to larger power stations"
-  - "Limited to 4 AC outlets for multiple appliances"
-  - "X-Boost may not work with all high-wattage devices"
-  - "Premium pricing for the capacity offered"
-price: "$599 (often on sale for $479-$529)"
+  - Lower capacity compared to larger power stations
+  - Limited to 4 AC outlets for multiple appliances
+  - X-Boost may not work with all high-wattage devices
+  - Premium pricing for the capacity offered
+price: $349 (base unit; official EcoFlow price as of 2026-10-05)
 retailerLinks:
-  Amazon: "https://amazon.com/dp/B0BS7F1KVV"
-  EcoFlow: "https://us.ecoflow.com/products/river-2-pro-portable-power-station"
-  BestBuy: "https://www.bestbuy.com/site/ecoflow-river-2-pro/6517934.p"
+  EcoFlow: 'https://us.ecoflow.com/products/river-2-pro-portable-power-station'
+  Amazon: 'https://amazon.com/dp/B0BS7F1KVV'
+  BestBuy: 'https://www.bestbuy.com/site/ecoflow-river-2-pro/6517934.p'
 ratingBreakdown:
   metrics:
-    - name: "Performance"
-      score: 8.0
-    - name: "Charging Speed"
+    - name: Performance
+      score: 8
+    - name: Charging Speed
       score: 9.5
-    - name: "Design & Build"
+    - name: Design & Build
       score: 8.5
-    - name: "Portability"
-      score: 9.0
-    - name: "Ease of Use"
-      score: 9.0
-    - name: "Value"
+    - name: Portability
+      score: 9
+    - name: Ease of Use
+      score: 9
+    - name: Value
       score: 7.9
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
-image: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_main.webp"
-productImage: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_main.webp"
-imageCredit: "EcoFlow"
-imageSource: "EcoFlow"
-imageLicense: "Manufacturer product image"
+author: Product Lab Team
+authorBio: >-
+  The Product Lab team reviews consumer electronics by combining hands-on use
+  with manufacturer documentation and published independent lab measurements. We
+  say which is which in each review.
+image: >-
+  /images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_main.webp
+productImage: >-
+  /images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_main.webp
+imageCredit: EcoFlow
+imageSource: EcoFlow
+imageLicense: Manufacturer product image
 gallery:
-  - src: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle2.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle3.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle4.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle5.webp"
-    credit: "EcoFlow"
-    source: "EcoFlow"
-    license: "Manufacturer product image"
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle2.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle3.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle4.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle5.webp
+    credit: EcoFlow
+    source: EcoFlow
+    license: Manufacturer product image
 ---
 
 ## Introduction

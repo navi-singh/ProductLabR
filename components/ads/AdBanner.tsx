@@ -1,6 +1,7 @@
 'use client';
 import { useEffect } from 'react';
-import { ADSENSE_CONFIG, shouldShowAds } from '@/lib/adsense-config';
+import { ADSENSE_CONFIG, shouldShowAdSlot } from '@/lib/adsense-config';
+import { useGoogleConsent } from '@/components/CookieConsent';
 
 interface AdBannerProps {
   adSlot: string;
@@ -17,29 +18,21 @@ export default function AdBanner({
   className = "",
   style = {}
 }: AdBannerProps) {
+  const consent = useGoogleConsent();
+
   useEffect(() => {
     try {
-      // @ts-ignore
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      if (consent === 'accepted' && shouldShowAdSlot(adSlot)) {
+        ((window as typeof window & { adsbygoogle?: unknown[] }).adsbygoogle =
+          (window as typeof window & { adsbygoogle?: unknown[] }).adsbygoogle || []).push({});
+      }
     } catch (err) {
       console.log('AdSense error:', err);
     }
-  }, []);
+  }, [adSlot, consent]);
 
-  // Don't render anything if ads shouldn't be shown
-  if (!shouldShowAds()) {
+  if (consent !== 'accepted' || !shouldShowAdSlot(adSlot)) {
     return null;
-  }
-  
-  // Show placeholder in development when configured
-  if (process.env.NODE_ENV === 'development') {
-    return (
-      <div className={`ad-placeholder bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-4 text-center text-gray-500 ${className}`} style={style}>
-        <div className="text-sm">AdSense Placeholder</div>
-        <div className="text-xs">Slot: {adSlot}</div>
-        <div className="text-xs">Format: {adFormat}</div>
-      </div>
-    );
   }
 
   return (

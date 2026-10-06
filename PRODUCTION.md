@@ -136,8 +136,18 @@ CMD ["npm", "start"]
 ```env
 NEXT_PUBLIC_SITE_URL=https://productlab.com
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_GOOGLE_ADSENSE_ID=ca-pub-XXXXXXXXXXXXXXXX
+NEXT_PUBLIC_AMAZON_ASSOCIATES_TAG=yourtag-20
+NEXT_PUBLIC_IMPACT_PUBLISHER_ID=XXXXXXX
+NEXT_PUBLIC_NEWSLETTER_ENDPOINT=https://provider.example/subscribe
 NODE_ENV=production
 ```
+
+In CI these come from GitHub repository variables (`vars.*`) wired in
+`.github/workflows/nextjs.yml`. Unset values degrade safely: affiliate links ship
+untagged, the newsletter form is hidden, and ad slots render nothing. Ad slot IDs
+live in `lib/adsense-config.ts`; placeholder IDs never render. Google Analytics and
+AdSense stay off until the visitor accepts the cookie banner (Consent Mode v2).
 
 ### CDN Configuration
 - Static assets served from CDN

@@ -125,7 +125,7 @@ export default function TopEarbudsPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Wireless Earbuds</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Wireless Earbuds</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   { title: 'Fit & Seal Testing', desc: 'We test each earbud across multiple ear shapes and sizes using included and aftermarket tips to evaluate seal quality and passive isolation baseline.' },

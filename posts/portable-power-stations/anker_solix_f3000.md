@@ -1,84 +1,104 @@
 ---
-title: "Anker SOLIX F3000 Review: A UL9540 Backbone That Scales to 12kWh and 240V"
-subtitle: "3,072Wh, a 7,200W surge, three-battery expansion and plug-and-play 240V pairing make the F3000 a system disguised as a power station — at 91.5lb and $1,499"
-date: "2026-08-07"
+title: 'Anker SOLIX F3000 Review: A UL9540 Backbone That Scales to 12kWh and 240V'
+subtitle: >-
+  3,072Wh, a 7,200W surge, three-battery expansion and plug-and-play 240V
+  pairing make the F3000 a system disguised as a power station — at 91.5lb and
+  $1,399.99
+date: '2026-08-07'
 capacityWh: 3072
 features:
-  - "solar"
-  - "30a-rv"
-  - "240v"
+  - solar
+  - 30a-rv
+  - 240v
 specs:
-  Battery Capacity: "3,072Wh LiFePO4 (expandable to 12,288Wh with 3 x BP3000)"
-  Inverter Power: "3,600W continuous (7,200W surge)"
-  AC Output: "4 x 1,800W 120V outlets, 1 x 3,600W 30A TT-30R (120V)"
-  240V Output: "Yes, by pairing two units (plug-and-play, no electrician)"
-  USB Ports: "2 x USB-C (100W), 2 x USB-A (12W)"
-  DC Output: "1 x 120W car socket"
-  Solar Input: "2,400W maximum (11-165V, 17A MPPT)"
-  AC Charging: "Up to 3,600W (pass-through supported)"
-  Certification: "UL9540 certified"
-  Weight: "91.5 lbs (41.5kg)"
-  Battery Chemistry: "LiFePO4 (Lithium Iron Phosphate)"
-  Cycle Life: "3,000+ cycles to 80% capacity"
-  Dimensions: "25.6 x 11.8 x 14.8 in"
-  App Control: "Anker app (Wi-Fi + Bluetooth)"
-  Warranty: "5 years"
+  Battery Capacity: '3,072Wh LiFePO4 (expandable to 12,288Wh with 3 x BP3000)'
+  Inverter Power: '3,600W continuous (7,200W surge)'
+  AC Output: '4 x 1,800W 120V outlets, 1 x 3,600W 30A TT-30R (120V)'
+  240V Output: 'Yes, by pairing two units (plug-and-play, no electrician)'
+  USB Ports: '2 x USB-C (100W), 2 x USB-A (12W)'
+  DC Output: 1 x 120W car socket
+  Solar Input: '2,400W maximum (11-165V, 17A MPPT)'
+  AC Charging: 'Up to 3,600W (pass-through supported)'
+  Certification: UL9540 certified
+  Weight: 91.5 lbs (41.5kg)
+  Battery Chemistry: LiFePO4 (Lithium Iron Phosphate)
+  Cycle Life: '3,000+ cycles to 80% capacity'
+  Dimensions: 25.6 x 11.8 x 14.8 in
+  App Control: Anker app (Wi-Fi + Bluetooth)
+  Warranty: 5 years
 pros:
-  - "3,600W inverter with a genuine 7,200W surge starts almost any household motor"
-  - "Expands to 12,288Wh with three BP3000 batteries on a single unit"
-  - "Pairs two units for plug-and-play 240V without an electrician"
-  - "2,400W solar input can refill the pack in under two hours in good sun (Anker claim)"
-  - "UL9540 certification is the energy-storage standard, not just UL for the enclosure"
-  - "3,600W pass-through charges and powers loads at full speed simultaneously"
+  - >-
+    3,600W inverter with a genuine 7,200W surge starts almost any household
+    motor
+  - 'Expands to 12,288Wh with three BP3000 batteries on a single unit'
+  - Pairs two units for plug-and-play 240V without an electrician
+  - >-
+    2,400W solar input can refill the pack in under two hours in good sun (Anker
+    claim)
+  - >-
+    UL9540 certification is the energy-storage standard, not just UL for the
+    enclosure
+  - '3,600W pass-through charges and powers loads at full speed simultaneously'
 cons:
-  - "91.5 lbs is a genuine two-person lift for anything but flat, wheeled moves"
-  - "$1,499 before you buy a single expansion battery or solar panel"
-  - "Only two USB-C ports and one car socket — a lean DC array for the size"
-  - "Anker lists no UPS switchover time, so treat it as a backup source, not a true UPS"
-  - "Full 12kWh and 240V ambitions require buying multiple units and batteries"
-price: "$1,499"
+  - '91.5 lbs is a genuine two-person lift for anything but flat, wheeled moves'
+  - '$1,399.99 before you buy a single expansion battery or solar panel'
+  - Only two USB-C ports and one car socket — a lean DC array for the size
+  - >-
+    Anker lists no UPS switchover time, so treat it as a backup source, not a
+    true UPS
+  - Full 12kWh and 240V ambitions require buying multiple units and batteries
+price: '$1,399.99 (official Anker SOLIX price as of 2026-10-05)'
 retailerLinks:
-  Amazon: "https://www.amazon.com/s?k=anker+solix+f3000"
-  Anker: "https://www.ankersolix.com/products/f3000"
-  BestBuy: "https://www.bestbuy.com/site/searchpage.jsp?st=anker+solix+f3000"
+  Amazon: 'https://www.amazon.com/s?k=anker+solix+f3000'
+  Anker: 'https://www.ankersolix.com/products/f3000'
+  BestBuy: 'https://www.bestbuy.com/site/searchpage.jsp?st=anker+solix+f3000'
 ratingBreakdown:
   metrics:
-    - name: "Performance"
-      score: 9.0
-    - name: "Power Output"
+    - name: Performance
+      score: 9
+    - name: Power Output
       score: 9.5
-    - name: "Design & Build"
-      score: 9.0
-    - name: "Portability"
+    - name: Design & Build
+      score: 9
+    - name: Portability
       score: 4.5
-    - name: "Ease of Use"
+    - name: Ease of Use
       score: 8.5
-    - name: "Value"
+    - name: Value
       score: 7.6
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
-image: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_main.webp"
-productImage: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_main.webp"
-imageCredit: "Anker"
-imageSource: "Anker"
-imageLicense: "Manufacturer product image"
+author: Product Lab Team
+authorBio: >-
+  The Product Lab team reviews consumer electronics by combining hands-on use
+  with manufacturer documentation and published independent lab measurements. We
+  say which is which in each review.
+image: >-
+  /images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_main.webp
+productImage: >-
+  /images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_main.webp
+imageCredit: Anker
+imageSource: Anker
+imageLicense: Manufacturer product image
 gallery:
-  - src: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle2.webp"
-    credit: "Anker"
-    source: "Anker"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle3.webp"
-    credit: "Anker"
-    source: "Anker"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle4.webp"
-    credit: "Anker"
-    source: "Anker"
-    license: "Manufacturer product image"
-  - src: "/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle5.webp"
-    credit: "Anker"
-    source: "Anker"
-    license: "Manufacturer product image"
+  - src: >-
+      /images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle2.webp
+    credit: Anker
+    source: Anker
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle3.webp
+    credit: Anker
+    source: Anker
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle4.webp
+    credit: Anker
+    source: Anker
+    license: Manufacturer product image
+  - src: >-
+      /images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle5.webp
+    credit: Anker
+    source: Anker
+    license: Manufacturer product image
 ---
 
 ## Introduction
@@ -88,10 +108,10 @@ the capacity you own for the life of the unit. The Anker SOLIX F3000 is built on
 opposite premise. Its 3,072Wh base pack is the entry point to a modular platform that
 stacks to 12,288Wh on a single chassis, pairs with a second unit for 240V, and carries a
 UL9540 certification that signals it was engineered as an energy-storage system rather
-than a scaled-up battery box. At $1,499, it is priced and positioned as infrastructure.
+than a scaled-up battery box. At $1,399.99, it is priced and positioned as infrastructure.
 
 The trade for that ambition is mass and cost. The F3000 weighs 91.5 pounds — a figure that
-removes any pretence of casual portability — and the $1,499 sticker buys only the base
+removes any pretence of casual portability — and the $1,399.99 sticker buys only the base
 unit. A meaningful expansion battery, a set of solar panels, or the second unit needed for
 240V each add hundreds of dollars more. This is a platform you commit to, not a
 plug-and-forget appliance.
@@ -213,7 +233,7 @@ years of daily cycling.
 
 Look elsewhere if you need portability, a true seamless UPS, or a lower entry cost. At 91.5
 pounds this is a wheeled, place-heavily appliance; the absence of a published switchover
-time makes it a poor fit for protecting a desktop against blackouts; and at $1,499 before
+time makes it a poor fit for protecting a desktop against blackouts; and at $1,399.99 before
 accessories it is a commitment. Buyers who want most of this capability for less should
 compare the EcoFlow DELTA 3 Ultra, and those who only need 2kWh should not overbuy.
 
@@ -226,7 +246,7 @@ larger appliances, and the UL9540 certification matters the moment you consider 
 into a home. As the backbone of a growing energy system, it is a strong, coherent buy.
 
 The reservations are the price of that ambition. At 91.5 pounds it is a two-person or
-wheels-only proposition. At $1,499 it is the entry fee to a platform whose full value —
+wheels-only proposition. At $1,399.99 it is the entry fee to a platform whose full value —
 12kWh, 240V, solar — requires buying more. The lean two-port USB-C array is stingy for the
 size, and the absence of a published UPS switchover time means it should not be the answer
 for anyone whose priority is protecting a computer.
@@ -291,7 +311,7 @@ The LiFePO4 pack is rated for more than 3,000 charge cycles to 80% capacity, and
 the F3000 with a 5-year warranty. At regular home-backup use that implies well over a decade
 of service before meaningful capacity loss.
 
-**Is it worth $1,499 over the cheaper F2600?**
+**Is it worth $1,399.99 over the cheaper F2600?**
 It depends on your loads. The F2600 saves $400 and 22 pounds and adds a documented 20ms UPS
 time. The F3000 buys a much stronger 7,200W surge, 240V pairing, UL9540 certification,
 2,400W solar input and expansion to 12,288Wh instead of 5,120Wh. If you have motor loads or

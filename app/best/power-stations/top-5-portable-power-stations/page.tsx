@@ -67,7 +67,7 @@ const powerStations: StationEntry[] = [
     href: '/articles/jackery_explorer_1000_v2',
     summary: 'The most user-friendly pick with one-button operation, handle design, and Jackery\'s trusted brand and warranty.',
     score: 8.8,
-    price: '$799',
+    price: 'From $589',
     badge: 'budget-pick' as const,
     specs: { Capacity: '1070Wh', Output: '1500W', Weight: '23.8 lbs', Design: 'Beginner-friendly' },
   },
@@ -76,7 +76,7 @@ const powerStations: StationEntry[] = [
 const quickPicks = [
   { label: 'Best Overall', name: 'EcoFlow Delta Pro 3', href: '/articles/ecoflow_delta_pro_3', score: 9.8, price: '$3,699' },
   { label: 'Best Value', name: 'EcoFlow Delta 3 Plus', href: '/articles/ecoflow_delta_3_plus', score: 9.4, price: '$799' },
-  { label: 'Most User-Friendly', name: 'Jackery Explorer 1000 V2', href: '/articles/jackery_explorer_1000_v2', score: 8.8, price: '$799' },
+  { label: 'Most User-Friendly', name: 'Jackery Explorer 1000 V2', href: '/articles/jackery_explorer_1000_v2', score: 8.8, price: 'From $589' },
 ];
 
 export default function Top5PortablePowerStationsPage() {
@@ -127,7 +127,7 @@ export default function Top5PortablePowerStationsPage() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test Portable Power Stations</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate Portable Power Stations</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   { title: 'Capacity Testing', desc: 'We measure actual usable capacity, charge/discharge cycles, and real-world runtime with common devices.' },

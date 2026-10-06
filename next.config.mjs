@@ -6,6 +6,10 @@ const nextConfig = {
   // the index.html those directories were missing.
   trailingSlash: true,
 
+  // Playwright drives the dev server via 127.0.0.1; without this Next blocks its
+  // dev resources cross-origin and pages never hydrate.
+  allowedDevOrigins: ['127.0.0.1'],
+
   // Image optimization
   images: {
     remotePatterns: [

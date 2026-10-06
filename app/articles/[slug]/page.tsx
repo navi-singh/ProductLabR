@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { resolvePublicImage } from '@/lib/resolve-image';
 import type { Metadata } from 'next';
@@ -36,6 +37,7 @@ import { getCategoryByContentDir } from '../../../lib/taxonomy';
 import AdBanner from '../../../components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '../../../lib/adsense-config';
 import { SITE_URL, canonicalUrl } from '../../../lib/site-url';
+import { getArticleRedirect, getArticleRedirectSlugs } from '../../../lib/redirects';
 
 export const revalidate = 86400;
 
@@ -45,6 +47,16 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  const redirectSlug = getArticleRedirect(slug);
+
+  if (redirectSlug) {
+    return {
+      title: 'Review moved | Product Lab',
+      robots: { index: false, follow: false },
+      alternates: { canonical: `/articles/${redirectSlug}` },
+    };
+  }
+
   const post = getPostBySlug(slug);
 
   if (!post) {
@@ -77,7 +89,7 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const slugs = getAllPostSlugs();
+  const slugs = Array.from(new Set([...getAllPostSlugs(), ...getArticleRedirectSlugs()]));
   return slugs.map((slug: string) => ({
     slug: slug,
   }));
@@ -85,6 +97,26 @@ export async function generateStaticParams() {
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const redirectSlug = getArticleRedirect(slug);
+
+  if (redirectSlug) {
+    const targetPath = `/articles/${redirectSlug}/`;
+
+    return (
+      <main className="mx-auto max-w-2xl px-6 py-16 text-center">
+        {/* Relative so the refresh survives the GitHub Pages basePath. */}
+        <meta httpEquiv="refresh" content={`0; url=../${redirectSlug}/`} />
+        <h1 className="font-display text-3xl font-semibold text-neutral-900">Review moved</h1>
+        <p className="mt-4 text-neutral-600">
+          This duplicate review has been consolidated into the canonical article.
+        </p>
+        <Link className="mt-6 inline-block text-primary underline" href={targetPath}>
+          Continue to the updated review
+        </Link>
+      </main>
+    );
+  }
+
   const post = getPostBySlug(slug);
 
   if (!post) {

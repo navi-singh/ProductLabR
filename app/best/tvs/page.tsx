@@ -229,10 +229,10 @@ export default function TVsPage() {
               </div>
             </div>
 
-            {/* How We Test */}
+            {/* How We Evaluate */}
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Test TVs</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">How We Evaluate TVs</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {[
                   { title: 'Picture Quality', desc: 'Calibrated measurements of peak brightness, contrast ratio, color volume, and HDR tone mapping across multiple content types.' },

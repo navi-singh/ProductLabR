@@ -1,7 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
 import AdBanner from './AdBanner';
-import { shouldShowAds } from '@/lib/adsense-config';
+import { shouldShowAdSlot } from '@/lib/adsense-config';
+import { useGoogleConsent } from '@/components/CookieConsent';
 
 interface ResponsiveAdProps {
   mobileAdSlot: string;
@@ -14,6 +15,7 @@ export default function ResponsiveAd({
   desktopAdSlot, 
   className = "" 
 }: ResponsiveAdProps) {
+  const consent = useGoogleConsent();
   const [isMobile, setIsMobile] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -28,13 +30,10 @@ export default function ResponsiveAd({
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  // Don't render if ads shouldn't be shown
-  if (!shouldShowAds()) {
-    return null;
-  }
+  const adSlot = isMobile ? mobileAdSlot : desktopAdSlot;
 
-  if (!mounted) {
-    return <div className={`ad-placeholder ${className}`} style={{ height: '90px' }} />;
+  if (consent !== 'accepted' || !shouldShowAdSlot(adSlot) || !mounted) {
+    return null;
   }
 
   return (
