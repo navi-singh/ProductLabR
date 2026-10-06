@@ -56,6 +56,33 @@ ratingBreakdown:
       score: 7.0
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent testing. We distinguish documented claims from outside measurements and analysis."
+image: "/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_main.webp"
+productImage: "/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_main.webp"
+imageCredit: "DJI"
+imageSource: "DJI product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "DJI Power 1000 V2 angled front view with AC outlets and display"
+gallery:
+  - src: "/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle2.webp"
+    credit: "DJI"
+    source: "DJI product page"
+    license: "Manufacturer product image"
+    alt: "DJI Power 1000 V2 in an outdoor campsite scene with front ports visible"
+  - src: "/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle3.webp"
+    credit: "DJI"
+    source: "DJI product page"
+    license: "Manufacturer product image"
+    alt: "DJI Power 1000 V2 straight front view showing ports and side vent"
+  - src: "/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle4.webp"
+    credit: "DJI"
+    source: "DJI product page"
+    license: "Manufacturer product image"
+    alt: "DJI Power 1000 V2 top angle showing the front control panel"
+  - src: "/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle5.webp"
+    credit: "DJI"
+    source: "DJI product page"
+    license: "Manufacturer product image"
+    alt: "DJI Power 1000 V2 with charging cable beside the front panel"
 ---
 
 ## Introduction
@@ -70,6 +97,10 @@ The catch is the SDC ecosystem. Solar charging, car charging, 12V accessories, d
 
 At 31.3 lb (14.2kg), the Power 1000 V2 is transportable but not truly light. It is reasonable to lift into a car or move around a house, yet it is a poor choice if your definition of portable means carrying it several hundred yards every day. The low, rectangular chassis and front-facing controls make it easier to place than many taller stations, and the screen exposes input, output, battery level, and runtime without requiring an app.
 
+![DJI Power 1000 V2 in an outdoor campsite scene with front ports visible](/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle2.webp)
+
+*DJI / DJI product page (Manufacturer product image)*
+
 The front panel is a meaningful improvement over the original. Four AC outlets give the V2 enough room for a laptop charger, lights, camera chargers, and a small appliance at the same time. There are also two USB-A ports and two USB-C ports rated at 140W each, or 280W combined. The USB-C output is useful for high-performance laptops, but the connected device and cable must support USB PD 3.1 and EPR to reach the maximum.
 
 There are two SDC ports, and they are the center of the product's design compromise. DJI uses them for expansion batteries, drone charging, solar and car adapters, and other DC accessories. That keeps the exterior clean, but it also means the station does not have a conventional built-in solar input or a standard 12V car socket. Use one SDC port for an expansion battery and another for solar, and there is no spare port for a separate DC accessory.
@@ -79,6 +110,10 @@ The physical fast-charge switch is a good touch. It lets you choose a faster or 
 ## Charging and real-world performance
 
 DJI rates the V2 at 2,600W continuous output under its stated laboratory conditions. That is a substantial increase over the original model and enough headroom for demanding combinations of appliances, lights, tools, and creator equipment. It does not turn a 1,024Wh battery into a whole-house system: high-wattage loads still drain the pack quickly. The useful distinction is that the inverter is less likely to be the first limitation when several moderate loads run together.
+
+![DJI Power 1000 V2 straight front view showing ports and side vent](/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle3.webp)
+
+*DJI / DJI product page (Manufacturer product image)*
 
 Wall charging is the clearest performance upgrade. DJI claims 0-80% in 37 minutes and a full charge in 56 minutes. Those are controlled-condition figures, not a promise that every outlet, temperature, and battery state will reproduce the same result, but they are excellent targets for a station this size. The official product page says maximum grid input depends on battery level and temperature, so the headline rate should be treated as a peak rather than a constant.
 

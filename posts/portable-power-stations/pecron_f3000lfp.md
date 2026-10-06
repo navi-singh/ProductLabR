@@ -48,6 +48,33 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 9.1
+image: "/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron F3000LFP front three-quarter view showing display and outlet panel"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F3000LFP mounted on a wheeled transport cart"
+  - src: "/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F3000LFP shown beside an expansion battery from the rear"
+  - src: "/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F3000LFP on a cart with folding solar panels behind it"
+  - src: "/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F3000LFP front view with two folding solar panels"
 ---
 
 ## Introduction
@@ -61,6 +88,10 @@ The central question is not whether the F3000LFP has an impressive specification
 ## Design, Ports, and Setup
 
 The F3000LFP is a large, horizontal box with a more modern appearance than Pecron's older, visibly utilitarian stations. At about 63 lb, it is portable in the car-camping and garage sense, not the backpacking sense. One person can reposition it carefully, but frequent stairs, vehicle loading, and rough ground are good reasons to add the optional cart or plan for a second person.
+
+![Pecron F3000LFP mounted on a wheeled transport cart](/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The port layout is the product's most practical design decision. Pecron puts five 120V AC outlets, the 30A output, the 12V car socket, two barrel connectors, and the USB ports on the front. That makes the F3000LFP easier to use in the back of a vehicle or against a wall than a station that hides critical outputs around the sides. It also makes the unit easier to inspect during an outage because the active connections are visible from one position.
 
@@ -83,6 +114,10 @@ The expansion path is credible but should be priced as a system. Pecron lists su
 ## Performance and Real-World Use
 
 The F3000LFP's 3,600W continuous pure-sine inverter is the headline feature that most clearly separates it from smaller budget stations. It can run demanding combinations of appliances, tools, and electronics that would overwhelm a 1,000W or 2,000W unit. The dedicated 30A output also makes the rating more useful for an RV or a single high-draw load than a headline number spread across a handful of ordinary outlets.
+
+![Pecron F3000LFP shown beside an expansion battery from the rear](/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 Pecron claims a 4,500W surge for five seconds. The Solar Lab managed a 4,500W load for about 10 seconds before the unit tripped and needed a restart. That is unusually strong behavior for a budget station, but it should still be treated as tested headroom under one reviewer's conditions rather than a promise that every compressor, pump, or motor will start without hesitation.
 

@@ -47,6 +47,33 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 7.0
+image: "/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "BLUETTI AC200L angled front view from the left side"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI AC200L front panel with display and covered outlets"
+  - src: "/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI AC200L top and front view with integrated handle"
+  - src: "/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI AC200L angled front view showing right side handle"
+  - src: "/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI AC200L powering a campsite cooking setup"
 ---
 
 ## Introduction: redemption is possible, but not automatic
@@ -73,6 +100,10 @@ The AC200L's LiFePO4 chemistry is a sensible choice for a device expected to sit
 
 The AC200L's appeal is practical rather than elegant: substantial stored energy, a generous inverter, and a familiar front-panel layout. The tradeoff is mass. A station in the 2kWh class is portable in the sense that it can be moved, not in the sense that you will casually carry it from a car to a campsite every morning. Plan its parking location before you buy it.
 
+![BLUETTI AC200L front panel with display and covered outlets](/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle2.webp)
+
+*BLUETTI / BLUETTI product page (Manufacturer product image)*
+
 Older Bluetti ownership also had a cable problem. The Solar Lab's account describes a lineup that leaned heavily on proprietary connectors, while competing products more often used readily replaceable generic cables. Newer Bluetti models appear to be moving toward more standard input and output arrangements. That is the kind of boring change that helps after the warranty ends: a lost cable is annoying, not a reason to retire the entire station.
 
 The app is useful for checking state of charge, changing settings, and reading fault information on supported units. It is not a substitute for the display or a reason to install the station where Wi-Fi is unavailable. For emergency use, configure the app while the unit is healthy, keep the relevant cables with the station, and test the system under a modest load before storing it.
@@ -82,6 +113,10 @@ The hidden bill is larger than the AC200L listing. Expansion batteries, solar pa
 ## Performance and the reliability question
 
 The most uncomfortable detail in this review is that the AC200L did not fail immediately. The Solar Lab says it passed most of its standardized tests before errors appeared during later filming while plugged into the wall. The screen flashed errors, the LED behavior became erratic, and the app pointed to BMS communication and system initialization failures. Bluetti reportedly said the internal failure required a full replacement.
+
+![BLUETTI AC200L top and front view with integrated handle](/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle3.webp)
+
+*BLUETTI / BLUETTI product page (Manufacturer product image)*
 
 That account does not establish a fleet-wide defect rate. One failed sample cannot tell us how many AC200L units fail, when they fail, or whether storage conditions contributed. It does establish a credible buyer risk: a station may look healthy during a short checkout and still fail later. That is why I would not choose old, deeply discounted inventory as the only emergency power source for a refrigerator, CPAP, or sump pump.
 

@@ -50,6 +50,33 @@ ratingBreakdown:
       score: 8.6
     - name: "Value"
       score: 8.5
+image: "/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron F1000LFP front three-quarter view showing ports and integrated light"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F1000LFP straight front view with AC outlets and display"
+  - src: "/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F1000LFP shown with a folding solar panel behind it"
+  - src: "/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F1000LFP angled front view showing side handle and output panel"
+  - src: "/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F1000LFP front view with two folding solar panels"
 ---
 
 ## Introduction
@@ -64,6 +91,10 @@ The F1000LFP is best for car camping, weekend work away from mains power, and a 
 
 At 24 lb according to the independent review cited below, the F1000LFP belongs in a car, RV, or closet rather than on a hiking trail. That still makes it notably easier to move than many 1kWh-class stations. The case has a built-in light with brightness settings and an SOS mode, a practical upgrade when the station is being carried during an outage rather than admired on a shelf.
 
+![Pecron F1000LFP straight front view with AC outlets and display](/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
+
 The front-panel layout is the hardware's most persuasive feature. Four 120V outlets, two USB-C ports, two USB-A ports, a 12V car socket, and a barrel connector are all accessible from one face. Pecron describes the station as having 10 outputs, and the published port count supports that total. More important than the count, the AC outlets are spaced so a large laptop brick should not immediately sacrifice an adjacent socket. This is a modest convenience that matters more on a compact station than another decorative feature.
 
 Pecron lists a 100W PD USB-C output, which is useful for a laptop that supports USB-C charging. The app connects by Bluetooth and can monitor power and adjust settings; do not buy the F1000LFP solely for remote control, but the separate access to the app without keeping the AC inverter running is a sound way to avoid unnecessary drain. Pecron also says the box includes the needed AC and solar charging cables, though buyers should confirm the current package contents before ordering.
@@ -73,6 +104,10 @@ The published 2+3-year warranty wording deserves a phone call or a read of the c
 ## Performance, Efficiency, and Charging
 
 Pecron rates the pure-sine inverter at 1,500W continuous and states a 3,000W surge capability. Continuous output is the number to plan around. A refrigerator compressor, pump, or power tool can demand more electricity for a moment than it does while running, and the surge figure alone does not prove that every motor will start. Check the appliance label and leave headroom instead of treating the headline surge number as a universal guarantee.
+
+![Pecron F1000LFP shown with a folding solar panel behind it](/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The independent testing from [The Solar Lab](https://www.thesolarlab.com/review/pecron-f1000) reported a full AC recharge in 58 minutes from empty. That is a strong practical result for this capacity class and is consistent with Pecron's 1,000W input rating. Pecron advertises 0% to 80% in 50 minutes, so its claim should be read as a manufacturer estimate rather than the same result under every wall circuit or temperature. The same source reported a little over 90 minutes for a full solar charge using approximately 600W of panels in favorable conditions. Real solar time will vary with panel angle, clouds, heat, and the input voltage of the array.
 

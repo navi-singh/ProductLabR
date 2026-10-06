@@ -57,6 +57,33 @@ ratingBreakdown:
       score: 7.7
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from reported test results and do not claim hands-on testing we did not perform."
+image: "/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "EcoFlow DELTA 3 1000 Air angled front view with display and outlet"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA 3 1000 Air straight front view with single AC outlet"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA 3 1000 Air side input panel and front display"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA 3 1000 Air rear view with integrated handle"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA 3 1000 Air powering a refrigerator in a kitchen"
 ---
 
 ## Introduction: the Air is a battery-first power station
@@ -71,6 +98,10 @@ There is also a naming wrinkle worth making clear. EcoFlow's official DELTA 3 fa
 
 The 22-pound weight is the Air's most immediately useful physical specification. A 960Wh station at that weight is manageable from a closet to a car, from a vehicle to a campsite, or between a desk and a networking cabinet. It is not ultralight, but it is substantially easier to place than many 1,000Wh stations with 1,800W or 2,000W inverters.
 
+![EcoFlow DELTA 3 1000 Air straight front view with single AC outlet](/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle2.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
+
 EcoFlow keeps the familiar DELTA screen and a rear handle, but the port layout is unusually sparse. The front gives you one 120V house outlet, one 12W USB-A port, and one 18W USB-C port. There is no second AC outlet, no 12V car socket, no built-in light, and no expansion connector. That is not a missing accessory; it is the design brief.
 
 The limited interface can be an advantage during an outage. There are fewer output groups to understand and fewer ways to accidentally distribute a small battery across unimportant devices. It also makes the station a poor shared family power box. If one person is using the only AC outlet, everybody else is negotiating for access or reaching for a power strip.
@@ -82,6 +113,10 @@ The EcoFlow app connects over Wi-Fi or Bluetooth and handles output controls, se
 ## Performance and charging: strong for one load
 
 The 500W continuous inverter is the central constraint. It is enough for a router, monitor, laptop charger, small television, lights, and many refrigerator cycles, but it is not enough for the high-wattage appliances people commonly associate with a DELTA-branded station. A kettle, microwave, hair dryer, space heater, or induction cooktop will usually exceed the rating before runtime is even considered.
+
+![EcoFlow DELTA 3 1000 Air side input panel and front display](/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle3.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
 
 That limit is easier to live with when the load is predictable. A computer or network cabinet does not need 1,800W of headroom, and a single low-wattage appliance can run for a useful period from 960Wh. The battery's capacity, not the headline output, is the reason to choose the Air. Buyers should make a list of the exact watts their essential devices draw rather than assuming the DELTA name implies whole-home capability.
 

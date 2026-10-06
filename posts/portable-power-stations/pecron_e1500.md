@@ -48,6 +48,33 @@ ratingBreakdown:
       score: 7.5
     - name: "Value"
       score: 8.6
+image: "/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron E1500LFP front three-quarter view showing display and AC outlets"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E1500LFP front view with three folding solar panels"
+  - src: "/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E1500LFP front view with one folding solar panel"
+  - src: "/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E1500LFP shown with two expansion batteries behind it"
+  - src: "/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E1500LFP paired with stacked expansion batteries in front view"
 ---
 
 ## Introduction: A Capable Older Station With One Important Warning
@@ -61,6 +88,10 @@ Pecron's official product record lists the E1500LFP as created and published on 
 ## Design, Ports, and Setup
 
 The E1500's physical design favors protection over polish. The Solar Lab described a boxy, utilitarian enclosure with orange protective feet and external padding. That is not fashionable, but it is sensible for a unit that may be placed on a campsite floor, in a work vehicle, or beside emergency equipment. The extra protection also makes the station feel more at home in rough transport than a thin, furniture-like chassis would.
+
+![Pecron E1500LFP front view with three folding solar panels](/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 At 18kg, or about 40lb, it is portable in the car-camping sense rather than the backpacking sense. One person can move it between a vehicle and a campsite, but repeated long carries will quickly become tiresome. The weight is a reminder that 1,536Wh is a meaningful amount of stored energy, not a large power bank that belongs in a daypack.
 
@@ -85,6 +116,10 @@ Pass-through charging worked in The Solar Lab's testing, allowing connected equi
 ## Performance in Real-World Use
 
 The E1500's 2,200W pure-sine inverter is sufficient for many ordinary portable-power jobs. It can cover laptops, lights, kitchen appliances, a refrigerator, and a collection of chargers if the combined running load stays below the rating. Pure-sine output is also the sensible choice for sensitive electronics, though compatibility depends on the equipment and not just the waveform label.
+
+![Pecron E1500LFP front view with one folding solar panel](/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The limitation is surge behavior. Pecron's 4,400W figure sounds like generous headroom for compressors, vacuums, and power tools. The Solar Lab found otherwise: when its load moved beyond 2,200W, the station shut down rather than delivering a useful surge. That does not mean every appliance will fail to start, but it means the surge number should not drive a purchase decision. If a refrigerator, pump, air conditioner, or tool has a difficult startup, measure its real demand or choose a station with independently demonstrated surge performance.
 

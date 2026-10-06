@@ -48,6 +48,33 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 9.2
+image: "/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron E3600LFP bundle shown with a folding solar panel behind the station"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3600LFP bundle with expansion batteries and transport cart"
+  - src: "/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3600LFP bundle angled beside stacked expansion batteries and cart"
+  - src: "/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3600LFP bundle front view with multiple folding solar panels"
+  - src: "/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3600LFP bundle stacked on an expansion battery on the wheeled cart"
 ---
 
 ## Introduction
@@ -63,6 +90,10 @@ The answer is not a simple yes or no. The E3600LFP Bundle is an attractive optio
 ## Design, Bundle, and Everyday Setup
 
 The E3600LFP Bundle looks like it was designed for people who actually need energy, not for buyers chasing a showroom aesthetic. The official store page presents a product family centered on a big battery, broad output selection, and a configuration that makes sense for repeat use. The bundle adds a 300W solar panel and a trolley, which is a meaningful convenience upgrade if your goal is to move the station from a van, garage, worksite, or cabin without dragging a heavy box around.
+
+![Pecron E3600LFP bundle with expansion batteries and transport cart](/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 That matters because a large portable station is only as good as how easy it is to use in real life. A trolley is not glamorous, but it is practical. If the system is going to sit in a camper, a cabin, or a home backup area, a wheeled base makes it easier to live with and reduces the difference between “portable” and “only portable in the driveway.” The panel also matters because it turns the product from a battery box into a real solar-ready system, which broadens the station's value beyond a single emergency-use scenario.
 
@@ -87,6 +118,10 @@ The biggest caveat is simply that a big solar number is not always a useful real
 ## Performance and Real-World Suitability
 
 The 3,600W inverter is the product's defining performance feature. Pecron rates the unit at 3,600W continuous output with a 7,000W surge claim, which places it in the same general weight class as stronger mid-sized portable batteries rather than small or midsize emergency units. In practice, that means the station can power a real slice of household or worksite gear: router and laptop equipment, some lighting, a refrigerator, power tools, and other moderate loads. The output headroom is strong enough that the bundle will appeal to anyone who is sick of tiny stations that max out with a single appliance.
+
+![Pecron E3600LFP bundle angled beside stacked expansion batteries and cart](/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 That is the key strength of the bundle: it is not just a battery pack. It is a serious inverter system, and for many buyers, that matters more than a polished instruction manual or a deeper app ecosystem. If you want a station that can handle a meaningful set of loads without constantly feeling constrained, the E3600LFP Bundle is built for that use case.
 

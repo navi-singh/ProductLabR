@@ -40,6 +40,33 @@ ratingBreakdown:
       score: 7.5
     - name: "Build & Design"
       score: 8.4
+image: "/images/posts/portable-power-stations/bluetti_hands_free_2/bluetti_hands_free_2_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_hands_free_2/bluetti_hands_free_2_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "BLUETTI Handsfree 2 backpack and power module front view"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_hands_free_2/bluetti_hands_free_2_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI Handsfree 2 backpack side view with power module installed"
+  - src: "/images/posts/portable-power-stations/bluetti_hands_free_2/bluetti_hands_free_2_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI Handsfree 2 open backpack compartments with power module"
+  - src: "/images/posts/portable-power-stations/bluetti_hands_free_2/bluetti_hands_free_2_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI Handsfree 2 power module being placed in the backpack"
+  - src: "/images/posts/portable-power-stations/bluetti_hands_free_2/bluetti_hands_free_2_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI Handsfree 2 removable power module rear view"
 ---
 
 ## Introduction
@@ -52,6 +79,10 @@ That makes the right question less about “How much battery capacity does it ha
 
 The most obvious idea behind the Handsfree 2 is that it should feel less like a portable battery and more like a work pack you can live with all day. The product page frames it as a backpack power station with 60L storage, which makes the storage function part of the value proposition rather than a side benefit. In other words, you are not just carrying a battery; you are carrying a bag for tools, chargers, layers, or personal gear, with power available as part of the system.
 
+![BLUETTI Handsfree 2 backpack side view with power module installed](/images/posts/portable-power-stations/bluetti_hands_free_2/bluetti_hands_free_2_angle2.webp)
+
+*BLUETTI / BLUETTI product page (Manufacturer product image)*
+
 That design choice gives the unit a clear identity. It suits people who already move around with gear and want one bag to do two jobs. It is less compelling for anyone shopping for a conventional power station that sits in a garage, cabin, or home office and stays put. For a backpack-first product, the benefit is obvious: less separate hardware, less fumbling around for power, and a tidier way to carry both energy and essentials at once.
 
 The tradeoff is that this is a specialized item, not a universal one. The unit's format makes it easier to travel with a load of gear, but it also means the battery is constrained by the same practicality rules as a backpack. The design makes sense when mobility matters more than maximum battery density or a large number of expansion options.
@@ -59,6 +90,10 @@ The tradeoff is that this is a specialized item, not a universal one. The unit's
 ## Performance and Real-World Use
 
 The Handsfree 2's headline numbers are simple and important: 512Wh battery capacity, 700W output, and a backpack form factor. That combination makes it far more useful for mobile work than a tiny power bank, but still far less capable than a larger, stationary power station for long outages or higher-draw appliances. This is a practical middle ground rather than a pure performance monster.
+
+![BLUETTI Handsfree 2 open backpack compartments with power module](/images/posts/portable-power-stations/bluetti_hands_free_2/bluetti_hands_free_2_angle3.webp)
+
+*BLUETTI / BLUETTI product page (Manufacturer product image)*
 
 For a day on the move, the power station can plausibly cover phones, laptop charging, lights, camera gear, and small accessories. It is also a useful fit for people who need to carry power alongside tools or devices while moving between locations. That makes sense for on-site work, field operations, camping trips, outdoor content creation, and other situations where a conventional power station would be awkward to move.
 

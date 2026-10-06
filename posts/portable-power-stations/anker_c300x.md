@@ -50,6 +50,12 @@ ratingBreakdown:
       score: 9.2
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/anker_c300x/anker_c300x_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_c300x/anker_c300x_main.webp"
+imageCredit: "TaurusEmerald"
+imageSource: "Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+imageAlt: "Anker SOLIX C300X front view with AC outlets and shoulder strap"
 ---
 
 ## Introduction

@@ -1,0 +1,29 @@
+{
+  "note": "Reviews with no usable licensed image source (discontinued, no manufacturer page, nothing on Wikimedia). Exempt from the image minimum; keyed by slug.",
+  "reviews": {
+    "anker_c300x": {
+      "reason": "Only one freely licensed image found; anker.com product page has no usable gallery",
+      "flaggedAt": "2026-10-05"
+    },
+    "anker_powercore_26800_pd": {
+      "reason": "Discontinued; no manufacturer product page with images",
+      "flaggedAt": "2026-10-05"
+    },
+    "anker_solix_c800x": {
+      "reason": "Product page offers only a bundle shot and text-overlay graphics",
+      "flaggedAt": "2026-10-05"
+    },
+    "anker_solix_f1500": {
+      "reason": "Discontinued; no manufacturer product page with images",
+      "flaggedAt": "2026-10-05"
+    },
+    "ravpower_90w_ac_power_bank": {
+      "reason": "No exact-match product images found from manufacturer or free sources",
+      "flaggedAt": "2026-10-05"
+    },
+    "dji_power_500": {
+      "reason": "Manufacturer page exposes only one additional clean product image",
+      "flaggedAt": "2026-10-05"
+    }
+  }
+}

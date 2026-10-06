@@ -180,7 +180,10 @@ npm run editorial:report
 npm run editorial:qa -- posts/<category>/<slug>.md
 npm run editorial:fix-links
 npm run images:report
+npm run images:discover -- --category <category>
+npm run images:promote
 npm run images:ingest
+npm run images:place
 ```
 
 `editorial:qa` exits non-zero on blocking failures, so it can be wired into CI once the content backlog clears. The rubric is intentionally a **floor**, not a craft score: a high score only says measurable gates passed. For details, see [reference/editorial-quality-toolchain.md](./reference/editorial-quality-toolchain.md).
@@ -189,7 +192,21 @@ npm run images:ingest
 
 Product imagery is manifest-driven. Add approved HTTPS image URLs to `data/product-images.json`, then run `npm run images:ingest`. The script downloads the image, stores it under `public/images/posts/<category>/<slug>/`, updates `image` and `productImage`, and records `imageCredit`, `imageSource`, and `imageLicense`.
 
-Use `npm run images:report` before and after ingestion to track reviews with no product image or pointing at missing local files. The workflow deliberately avoids search-engine scraping, retailer-page scraping, or unreviewed third-party download tools.
+Use `npm run images:report` before and after ingestion to track reviews with no product image or pointing at missing local files. The workflow deliberately avoids search-engine scraping, retailer-page scraping, or unreviewed third-party download tools; the only pages it reads are manufacturer product pages and Wikimedia Commons.
+
+### Backfilling more photos per review
+
+Each review targets 5 product images and should have at least 3 (hero, gallery and inline images all count). The policy lives in `scripts/images/lib/image-policy.js`: at most one lifestyle shot, source images at least 800px on the long edge, and output as metadata-stripped WebP no wider than 1600px and around 300KB. The editorial QA gate reports a `product_images` check against `GATES.minImages`; it stays advisory until `enforceImageMinimum` is turned on in `scripts/editorial/config.js`.
+
+The backfill runs in five steps:
+
+1. **Discover**: `npm run images:discover -- --category <category>` (or `--slug <slug>`) writes candidates for reviews below the minimum to `data/image-candidates.json`. Sources are freely licensed Wikimedia Commons files and the manufacturer's own product page, read through Shopify `<page>.json`, Product JSON-LD or `og:image`. Retailer links are never used. When a review's links do not point at a usable manufacturer page, add one to `data/image-source-pages.json` or pass `--url <page> --slug <slug>`. `--candidates <file>` lets several curators work on separate files.
+2. **Curate**: by hand, per candidate, set `approved: true`, `kind` (`product` or `lifestyle`) and a descriptive `alt`. Optionally set `role: "main"` on the preferred hero. Reject sale badges, text overlays, infographics, other models and other regions' variants when a local one exists. Re-running discovery keeps this curation.
+3. **Promote**: `npm run images:promote` validates approved candidates (alt text, provenance, https, lifestyle cap, target count) and appends them to `data/product-images.json` with `main`/`angleN` roles.
+4. **Ingest**: `npm run images:ingest -- --category <category>` downloads and processes the images. It rejects low-resolution sources, byte-identical copies of any image on the site and near-duplicates (a background-trimmed difference hash) within the same review.
+5. **Place**: `npm run images:place` moves gallery images into matching body sections. Unplaced images stay in the gallery strip.
+
+When a review cannot reach the minimum (discontinued product, no clean images), record the reason in `data/image-exceptions.json`. `images:report` and the QA gate then treat it as flagged instead of failing. `e2e/image-pipeline.spec.ts` covers the pipeline logic and the backfilled categories.
 
 Additional angle photos of the same product use extra manifest entries with a non-`main` `role` (e.g. `"angle2"`). These are appended to a `gallery` frontmatter array and rendered by `components/article/ProductGallery.tsx` below the primary product image, instead of overwriting `image`/`productImage`. Only source angle photos confirmed to show the exact reviewed model/generation.
 

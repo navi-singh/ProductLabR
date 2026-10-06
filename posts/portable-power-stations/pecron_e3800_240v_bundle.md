@@ -48,6 +48,33 @@ ratingBreakdown:
       score: 7.7
     - name: "Value"
       score: 9.3
+image: "/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron E3800 240V bundle stacked with expansion batteries on rolling bases"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3800 240V bundle angled side view with stacked batteries"
+  - src: "/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3800 240V bundle with two stations and split phase hub accessories"
+  - src: "/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3800 240V bundle with solar panels dual stations and accessories"
+  - src: "/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3800 240V bundle front view of the station on caster wheels"
 ---
 
 ## Introduction
@@ -61,6 +88,10 @@ That matters because the E3800 is not a six-month novelty. It is a serious capac
 ## Design, Bundle Logic, and Everyday Setup
 
 The E3800 is a large system built around a practical idea: give the buyer enough capacity and inverter headroom to run a meaningful share of essential loads without creating a product that is only useful in a perfect lab environment. The standard unit is large and heavy enough to command respect — roughly 87 lb in the official product listing — which means it is not a "grab and go" quick-charge station. It is a system you move deliberately, deploy carefully, and use with a plan. That is not a flaw so much as a reality check. This is a serious energy device for people who want real usable power, not a compact emergency gadget.
+
+![Pecron E3800 240V bundle angled side view with stacked batteries](/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The 240V bundle adds an important layer of practicality. The storefront shows a dual-unit 240V kit with a 240V box and cart configuration, which is the clearest sign that Pecron is not just selling a single station. It is selling a larger system concept for bigger loads, home backup, or a more flexible off-grid arrangement. That is a very different proposition from a simple "big battery with some outlets" story. It is about expanding into 240V use cases without pushing the buyer all the way up to a premium high-end platform.
 
@@ -83,6 +114,10 @@ The big caveat is that the product is strongest when the buyer is willing to thi
 ## Performance and Real-World Suitability
 
 The E3800 does not just have strong numbers. It is built to solve a real class of problems: sustained household essentials, off-grid use, workshop loads, and heavier backup situations where a smaller portable station would feel constrained. The official product page positions the base unit at 4,200W continuous output with a peak burst rating around 7,500W. Those are serious numbers. They are enough to matter for refrigerator startup, pumps, tools, and a meaningful share of household or workshop gear.
+
+![Pecron E3800 240V bundle with two stations and split phase hub accessories](/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 That matters more than the brand name or the app ecosystem because a good power station has to prove it can do something useful. The E3800's capacity and output make it relevant to people who need to run real equipment instead of simply charging a laptop or a few lights. It is designed for buyers who have a more practical, less aspirational use case. This is a product that should be judged on how well it solves a real load problem, not on whether it has the slickest app or the most refined support channels.
 

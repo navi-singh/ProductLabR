@@ -49,6 +49,33 @@ ratingBreakdown:
       score: 8.1
     - name: "Value"
       score: 9.0
+image: "/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron E3600LFP straight front view showing display and outlet layout"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3600LFP angled front view with side vent and outlets visible"
+  - src: "/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3600LFP rear view showing fans and high power connectors"
+  - src: "/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3600LFP rear panel view showing DC and communication ports"
+  - src: "/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E3600LFP mounted on its wheeled transport cart"
 ---
 
 ## Introduction
@@ -62,6 +89,10 @@ That makes the E3600LFP a credible bargain if you know what you are buying. It i
 ## Design, Ports, and Everyday Use
 
 The E3600LFP looks like a product designed for people with a real-world setup rather than a showroom. The product copy positions it as a large-capacity power station with a broad set of outputs, and the feature list supports that impression. Pecron advertises a versatile output layout with 120V AC outputs, DC ports, a 30A high-power output, USB-A and USB-C connections, and a wireless charging pad. That is exactly the kind of mix that matters when a station is meant to run appliances, recharge electronics, and sit in a home, van, or jobsite setup without forcing a separate power strip into every use case.
+
+![Pecron E3600LFP angled front view with side vent and outlets visible](/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The design tone is practical rather than premium. It does not give the same polished, boutique feel as a high-end EcoFlow or BLUETTI product, but it does not need to. Buyers who are tracking megawatt-hours of battery capacity and inverter headroom are not buying the E3600LFP for a living-room statement piece. They are buying it to move power from one place to another with as little friction as possible.
 
@@ -84,6 +115,10 @@ There is a real caveat here, though: the feature list is only as good as the equ
 ## Performance and Real-World Suitability
 
 The E3600LFP's inverter is where the value story meets the buyer's reality. Pecron rates it at 3,600W continuous output with a 7,000W surge claim, which puts it in the upper middle of the portable-power-station market and competes more with 3kW-class models than with smaller 1kW budget boxes. A 3,600W pure-sine inverter is enough to run a surprising amount of household gear: routers, lights, a refrigerator, a microwave, power tools, and other mid-sized loads. For a buyer who is trying to avoid the frustrating limitations of a tiny station, that kind of headroom is meaningful.
+
+![Pecron E3600LFP rear view showing fans and high power connectors](/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The big question is whether the product lives up to the promise when the load gets serious. This is where a buyer should read the spec sheet carefully and not assume that a headline surge figure equals a stable real-world operating ceiling. A 7,000W surge number is a useful marketing number, but the safety margin matters more than the maximum number on the label. In the same way, a 3,600W inverter is only as impressive as the station's thermal behavior, transfer stability, and the quality of the battery-to-inverter path.
 

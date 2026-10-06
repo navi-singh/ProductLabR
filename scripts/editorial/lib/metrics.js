@@ -8,6 +8,8 @@ const {
   META_WRITING_PATTERNS,
 } = require('../config');
 
+const { collectReviewImages, loadImageExceptions } = require('../../images/lib/image-policy');
+
 const SHINGLE_SIZE = 6;
 
 function normalizeWords(text) {
@@ -309,6 +311,10 @@ function analyzeArticle(post, context) {
     similarity: { max: Number(maxSimilarity.toFixed(4)), nearest: nearestNeighbor },
     frontmatter: checkFrontmatter(post.data),
     contradictions: findSpecRatingContradictions(post.data),
+    images: {
+      count: collectReviewImages(post.data, body).length,
+      exception: loadImageExceptions()[post.slug] || null,
+    },
   };
 }
 

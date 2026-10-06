@@ -57,6 +57,33 @@ ratingBreakdown:
       score: 9
     - name: Value
       score: 8
+image: "/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "EcoFlow DELTA 2 Max angled front view with side vents"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA 2 Max straight front view with display and ports"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA 2 Max rear view with cooling fans"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA 2 Max angled side view from the right"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA 2 Max AC outlet panel and front display"
 ---
 
 ## Introduction: Still Relevant, But No Longer New
@@ -71,6 +98,10 @@ EcoFlow rates the station at 2,048Wh and 2,400W of continuous pure-sine output. 
 
 At approximately 50lb, the DELTA 2 Max belongs in a vehicle, garage, or utility room more than on a backpacking checklist. The weight buys a useful layout. There are six 120V AC outlets, four USB-A ports, two 100W USB-C ports, a 12V car socket, and two DC5521 outputs. That is enough connectivity for a refrigerator, lights, laptops, camera batteries, and small appliances without immediately reaching for a power strip.
 
+![EcoFlow DELTA 2 Max straight front view with display and ports](/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle2.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
+
 The physical arrangement is practical for stationary use. Solar Lab notes that the USB ports are on the front while the AC outlets sit on the rear, which lets the unit sit against a wall or at the back of a vehicle while keeping the frequently used low-power ports accessible. The display is clear, the EcoFlow app pairs over Bluetooth, and the app adds controls and readings that are not available from the front panel alone.
 
 There is no built-in light. That omission matters more on a 50lb station than it would on a small battery bank: this is exactly the kind of device people keep for blackouts and take car camping, when a light would be useful. It is not a deal-breaker, but it means adding a headlamp or lantern to the emergency kit.
@@ -80,6 +111,10 @@ Setup is otherwise straightforward. The app handles monitoring, remote switching
 ## Battery and Charging Performance
 
 The 2,048Wh LiFePO4 pack is the DELTA 2 Max's most durable advantage. LiFePO4 chemistry is better suited to repeated cycling than the older lithium-ion packs found in many early power stations, and EcoFlow positions the battery for a long service life. The capacity is large enough to cover a weekend of modest camping loads or to keep a refrigerator, router, lights, and device chargers running during a shorter outage, depending on the actual draw.
+
+![EcoFlow DELTA 2 Max rear view with cooling fans](/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle3.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
 
 Charging is unusually flexible for this size class. EcoFlow specifies up to 1,800W from AC and up to 1,000W from solar. Solar Lab measured roughly 1.2 to 1.5 hours for a full AC charge and about 2 hours from a 1,000W panel setup in strong sun. Those results are not promises for every home: panel orientation, temperature, shading, and the final balancing phase all change the clock. They do show that the station can be replenished quickly when the input is available.
 

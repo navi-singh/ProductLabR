@@ -49,6 +49,28 @@ ratingBreakdown:
       score: 4.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_main.webp"
+productImage: "/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_main.webp"
+imageCredit: "ALLPOWERS"
+imageSource: "ALLPOWERS product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "ALLPOWERS S2000 Pro angled front view with display and outlets"
+gallery:
+  - src: "/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_angle2.webp"
+    credit: "ALLPOWERS"
+    source: "ALLPOWERS product page"
+    license: "Manufacturer product image"
+    alt: "ALLPOWERS S2000 Pro straight front view showing four AC outlets"
+  - src: "/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_angle3.webp"
+    credit: "ALLPOWERS"
+    source: "ALLPOWERS product page"
+    license: "Manufacturer product image"
+    alt: "ALLPOWERS S2000 Pro angled side view with handle and front ports"
+  - src: "/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_angle4.webp"
+    credit: "ALLPOWERS"
+    source: "ALLPOWERS product page"
+    license: "Manufacturer product image"
+    alt: "ALLPOWERS S2000 Pro top angle showing handle rails and front panel"
 ---
 
 ## Introduction
@@ -70,6 +92,10 @@ Past that, I can't tell you much with confidence about the physical experience o
 ## Performance Testing: The Efficiency Test That Exposed the Real Inverter Rating
 
 This is the section that matters most, and it comes almost entirely from The Solar Lab's published testing, which I'm attributing directly because I have no independent lab data of my own on this unit.
+
+![ALLPOWERS S2000 Pro straight front view showing four AC outlets](/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_angle2.webp)
+
+*ALLPOWERS / ALLPOWERS product page (Manufacturer product image)*
 
 Early results looked promising. The S2000 Pro passed initial voltage-output checks, delivering correct power to connected appliances. It also handled a surge test cleanly — a meaningful result given that the outlet's account of two prior AllPowers units described them overheating and shutting down the moment they approached a surge condition. Whatever changed in this unit's design, the surge behavior is a genuine improvement.
 

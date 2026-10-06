@@ -53,6 +53,33 @@ ratingBreakdown:
       score: 8.0
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Anker SOLIX C1000 Gen 2 angled front view with display and outlets"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle2.webp"
+    credit: "Anker"
+    source: "Anker product page"
+    license: "Manufacturer product image"
+    alt: "Anker SOLIX C1000 Gen 2 straight front view showing AC outlets"
+  - src: "/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle3.webp"
+    credit: "Anker"
+    source: "Anker product page"
+    license: "Manufacturer product image"
+    alt: "Anker SOLIX C1000 Gen 2 rear view showing the back panel"
+  - src: "/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle5.webp"
+    credit: "Anker"
+    source: "Anker product page"
+    license: "Manufacturer product image"
+    alt: "Anker SOLIX C1000 Gen 2 rear panel with DC input ports"
+  - src: "/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle4.webp"
+    credit: "Anker"
+    source: "Anker product page"
+    license: "Manufacturer product image"
+    alt: "Anker SOLIX C1000 Gen 2 side angle showing the rear panel"
 ---
 
 ## Introduction: the C1000 Gen 2's real tradeoff
@@ -67,6 +94,10 @@ Anker's product page is unusually clear about the model's purpose. The Gen 2 is 
 
 At 15.12 by 8.19 by 9.61 inches and 24.9 pounds, this is still a substantial object, but it stays within the range one adult can lift from a floor or car trunk without planning the move. The proportions are practical rather than especially slim. It will fit under a desk or on a shelf, yet the depth and weight are noticeable if you are carrying it down a trail instead of from a vehicle to a campsite.
 
+![Anker SOLIX C1000 Gen 2 straight front view showing AC outlets](/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle2.webp)
+
+*Anker / Anker product page (Manufacturer product image)*
+
 The physical layout follows the familiar portable-station formula: a front display, switched output groups, and separate input controls. Anker rates the unit for 10 connected devices and includes a screen for power flow and remaining capacity. That matters more than decorative lighting on a station intended for outages; you can see whether a load is actually drawing power before blaming the battery for a problem.
 
 The app is part of the ownership experience. Anker says UltraFast Charging must be enabled in the app, and the app also supports monitoring and time-of-use scheduling. That is useful for a station that may live in a closet for months. It also creates one more setup step than a purely physical box. Buyers who want to hand the station to a relative during an outage should enable the desired charging mode in advance and leave the basic buttons understandable without the phone.
@@ -76,6 +107,10 @@ Anker's five-year warranty is a meaningful advantage at this price, but it is no
 ## Performance and charging: where the Gen 2 earns its name
 
 The headline upgrade is output. The C1000 Gen 2 is rated for 2,000W continuous and 3,000W peak output, compared with the original C1000's 1,800W continuous rating. That extra margin is useful for appliances with startup surges and for running several moderate loads at once. It does not turn a 1,024Wh battery into a long-duration home backup: wattage determines what can start, while watt-hours determine how long it can run.
+
+![Anker SOLIX C1000 Gen 2 rear view showing the back panel](/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle3.webp)
+
+*Anker / Anker product page (Manufacturer product image)*
 
 Anker claims a 1,600W AC input and a full recharge in 49 minutes with UltraFast Charging enabled. Treat the 49-minute figure as a best-case manufacturer result. Actual time depends on the starting state, temperature, charging mode, and whether the unit is simultaneously powering something. Even with that qualification, a fast refill changes the ownership pattern. You can use the station during an outage, plug it in when mains power returns, and have it ready again without leaving it connected overnight.
 

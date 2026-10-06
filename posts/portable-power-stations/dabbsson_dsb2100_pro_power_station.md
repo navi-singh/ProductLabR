@@ -53,6 +53,33 @@ ratingBreakdown:
 category: "portable-power-stations"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from third-party test results."
+image: "/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_main.webp"
+productImage: "/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_main.webp"
+imageCredit: "Dabbsson"
+imageSource: "Dabbsson product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Dabbsson DBS2100 Pro angled front view showing side outlets"
+gallery:
+  - src: "/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle2.webp"
+    credit: "Dabbsson"
+    source: "Dabbsson product page"
+    license: "Manufacturer product image"
+    alt: "Dabbsson DBS2100 Pro straight front view with display and ports"
+  - src: "/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle3.webp"
+    credit: "Dabbsson"
+    source: "Dabbsson product page"
+    license: "Manufacturer product image"
+    alt: "Dabbsson DBS2100 Pro rear panel with AC outlets and vents"
+  - src: "/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle5.webp"
+    credit: "Dabbsson"
+    source: "Dabbsson product page"
+    license: "Manufacturer product image"
+    alt: "Dabbsson DBS2100 Pro stacked with expansion battery front view"
+  - src: "/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle4.webp"
+    credit: "Dabbsson"
+    source: "Dabbsson product page"
+    license: "Manufacturer product image"
+    alt: "Dabbsson DBS2100 Pro rear lower panel with protected ports"
 ---
 
 ## Introduction
@@ -74,6 +101,10 @@ That is a lot of flexibility in one 54 lb box. It can serve as a campsite power 
 ## Design, Ports, and Everyday Handling
 
 The tower-shaped enclosure is compact enough to place beside an RV dinette or in a garage, but 54 lb is still a two-handed carry for many people. The weight is reasonable for 2,150Wh, not genuinely light. Buyers who expect to move it from car to campsite every weekend should budget for careful lifting rather than imagining a portable battery that behaves like luggage.
+
+![Dabbsson DBS2100 Pro straight front view with display and ports](/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle2.webp)
+
+*Dabbsson / Dabbsson product page (Manufacturer product image)*
 
 The port selection is the station's strongest physical argument. The TT-30 outlet is more useful to an RV owner than another pair of household sockets, and the three USB-C plus three USB-A ports cover a family of phones, laptops, cameras, and lights without immediately requiring a power strip. The front display shows the essential input, output, and state-of-charge information. The Solar Lab found the screen functional rather than impressive, and described the app in similar terms: usable for monitoring and settings, but less polished than EcoFlow's or Anker's software.
 

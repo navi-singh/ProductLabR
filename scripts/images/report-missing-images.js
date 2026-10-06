@@ -2,18 +2,24 @@
 
 const fs = require('fs');
 const path = require('path');
+const matter = require('gray-matter');
+
+const { IMAGE_POLICY, collectReviewImages, loadImageExceptions } = require('./lib/image-policy');
 
 const ROOT = path.join(__dirname, '..', '..');
 const POSTS_DIR = path.join(ROOT, 'posts');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 
 function parseArgs(argv) {
-  const args = { json: false, category: null };
+  const args = { json: false, category: null, min: IMAGE_POLICY.minPerReview };
 
   for (let i = 2; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === '--json') {
       args.json = true;
+    } else if (arg === '--min') {
+      args.min = Number(argv[i + 1]);
+      i += 1;
     } else if (arg === '--category') {
       args.category = argv[i + 1];
       i += 1;
@@ -60,6 +66,7 @@ function getPosts() {
           const frontmatter = readFrontmatter(filePath);
           const image = readScalar(frontmatter, 'image');
           const productImage = readScalar(frontmatter, 'productImage');
+          const parsed = matter(fs.readFileSync(filePath, 'utf8'));
 
           return {
             category,
@@ -70,6 +77,7 @@ function getPosts() {
             noImage: !image && !productImage,
             missingImage: Boolean(image) && !existsLocalImage(image),
             missingProductImage: Boolean(productImage) && !existsLocalImage(productImage),
+            imageCount: collectReviewImages(parsed.data, parsed.content).length,
           };
         });
     });
@@ -117,6 +125,13 @@ function main() {
     (post) => post.noImage || post.missingImage || post.missingProductImage
   );
   const unattributed = unattributedFiles();
+  const exceptions = loadImageExceptions();
+  const belowMinimum = posts
+    .filter((post) => post.imageCount < args.min && !exceptions[post.slug])
+    .sort((a, b) => a.imageCount - b.imageCount || a.file.localeCompare(b.file));
+  const flagged = posts
+    .filter((post) => exceptions[post.slug])
+    .map((post) => ({ ...post, exception: exceptions[post.slug] }));
 
   if (args.json) {
     console.log(
@@ -127,6 +142,10 @@ function main() {
           noImageCount: rows.filter((post) => post.noImage).length,
           unattributedFiles: unattributed,
           missingLocalFileCount: rows.filter((post) => post.missingImage || post.missingProductImage).length,
+          minImages: args.min,
+          belowMinimumCount: belowMinimum.length,
+          belowMinimum: belowMinimum.map(({ file, category, slug, imageCount }) => ({ file, category, slug, imageCount })),
+          flaggedUnavailable: flagged.map(({ file, imageCount, exception }) => ({ file, imageCount, ...exception })),
           posts: rows,
         },
         null,
@@ -139,7 +158,20 @@ function main() {
   console.log(`Scanned ${posts.length} reviews.`);
   console.log(`${rows.length} reviews need product-image work.`);
   console.log(`${rows.filter((post) => post.noImage).length} have no product image at all.`);
+  console.log(`${belowMinimum.length} have fewer than ${args.min} images (excluding ${flagged.length} flagged as unavailable).`);
   console.log('');
+
+  if (belowMinimum.length) {
+    console.log(`Below the ${args.min}-image minimum:`);
+    for (const post of belowMinimum) console.log(`  ${post.imageCount}  ${post.file}`);
+    console.log('');
+  }
+
+  if (flagged.length) {
+    console.log('Flagged: no usable licensed images available:');
+    for (const post of flagged) console.log(`  ${post.imageCount}  ${post.file}  (${post.exception.reason})`);
+    console.log('');
+  }
 
   if (unattributed.length) {
     console.log(`${unattributed.length} image files have no manifest provenance:`);

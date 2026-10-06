@@ -47,6 +47,23 @@ ratingBreakdown:
       score: 6.4
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/aferiy_p210_power_station/aferiy_p210_power_station_main.webp"
+productImage: "/images/posts/portable-power-stations/aferiy_p210_power_station/aferiy_p210_power_station_main.webp"
+imageCredit: "AFERIY"
+imageSource: "AFERIY product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "AFERIY P210 three-quarter view showing top handle and side outlets"
+gallery:
+  - src: "/images/posts/portable-power-stations/aferiy_p210_power_station/aferiy_p210_power_station_angle2.webp"
+    credit: "AFERIY"
+    source: "AFERIY product page"
+    license: "Manufacturer product image"
+    alt: "AFERIY P210 angled front view showing side fan and rear outlet panel"
+  - src: "/images/posts/portable-power-stations/aferiy_p210_power_station/aferiy_p210_power_station_angle3.webp"
+    credit: "AFERIY"
+    source: "AFERIY product page"
+    license: "Manufacturer product image"
+    alt: "AFERIY P210 charging devices outdoors beside a vehicle"
 ---
 
 ## Introduction
@@ -61,6 +78,10 @@ The problem is that the P210's real-world behavior under load undercuts the mark
 
 The P210 is a large, tower-style unit that feels built for a garage, cabin, or campsite table rather than a car trunk. At 48.5 pounds, it is not a station you will happily carry across a yard every time you need to move it. The handles are functional, and the overall form is straightforward enough to understand quickly, but this is not a lightweight or elegant “grab and go” design. It is more like a workhorse that stays put once it has reached its destination.
 
+![AFERIY P210 angled front view showing side fan and rear outlet panel](/images/posts/portable-power-stations/aferiy_p210_power_station/aferiy_p210_power_station_angle2.webp)
+
+*AFERIY / AFERIY product page (Manufacturer product image)*
+
 The port layout is the strongest argument in the P210's favor. Six AC outlets are generous in a category where many stations push you toward a power strip. The mix of USB-A and USB-C ports, plus the solar and 12V options, makes it flexible for a wide range of loads. The review also mentions the built-in light, cable storage area, and port doors that stay open while in use. Those details are small, but they matter when you are trying to use the station in the dark or in a hurry.
 
 That said, the design does not hide the fact that the P210 is a budget-first machine. It is practical rather than refined, and it telegraphs the compromise directly: plenty of functionality, but not much in the way of polish or premium feel. For many buyers, that trade is acceptable. For anyone expecting a premium, quiet, high-trust experience, the P210 may feel like a cheaper product in a more expensive wrapper.
@@ -68,6 +89,10 @@ That said, the design does not hide the fact that the P210 is a budget-first mac
 ## Performance and Real-World Output
 
 The headline numbers are the part that get people interested, but the real issue is how consistently the P210 can deliver them. At 2,400W continuous output, it is in the league of the bigger portable stations, which is why the spec sheet grabs attention. But the Solar Lab test makes the operating limits much clearer: the unit is not simply a workhorse, it is a station that has to be treated carefully when pushed hard.
+
+![AFERIY P210 charging devices outdoors beside a vehicle](/images/posts/portable-power-stations/aferiy_p210_power_station/aferiy_p210_power_station_angle3.webp)
+
+*AFERIY / AFERIY product page (Manufacturer product image)*
 
 The 2,245W load test is the key example. The review estimated that the unit should have run for about 55 minutes if it delivered the capacity it claims. Instead, it ran for about 43 minutes, giving it a rough efficiency of 78%. That is a normal range for many stations, but it is not a good sign for a unit that markets a lot of output and a lot of battery capacity. It means the inverter and battery management system are converting power less efficiently than the ideal, and that matters when you are running a fridge, a fan, or a window AC unit for an extended period.
 

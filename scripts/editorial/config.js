@@ -19,6 +19,9 @@ const GATES = {
   minNumericClaims: 6,
   maxCorpusSimilarity: 0.22,
   maxGenericPhraseHits: 2,
+  minImages: 3,
+  // Advisory until the image backfill finishes; flip to true to block publishing.
+  enforceImageMinimum: false,
 };
 
 // Editorial targets: what we aim a review at, used to prioritise the revision

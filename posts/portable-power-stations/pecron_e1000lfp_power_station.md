@@ -53,6 +53,33 @@ ratingBreakdown:
       score: 7.8
     - name: "Value"
       score: 8.7
+image: "/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron E1000LFP front three-quarter view showing display and outlet panel"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E1000LFP straight front view with AC and DC ports"
+  - src: "/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E1000LFP shown with two folding solar panels behind it"
+  - src: "/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E1000LFP front view with a single folding solar panel"
+  - src: "/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E1000LFP stacked on an expansion battery with front ports visible"
 ---
 
 ## Introduction
@@ -67,6 +94,10 @@ The E1000LFP is therefore a strong budget choice for camping, vehicle-based work
 
 At 29 lbs, the E1000LFP is portable without being backpacking equipment. It is a sensible size for a car trunk, campsite, or home office shelf, and the rounded enclosure is a clear step away from the industrial-looking cases on some older Pecron stations. The front layout is practical rather than luxurious: a display, physical controls, AC outlets, DC connections, and USB ports are separated well enough that ordinary plugs should not collide.
 
+![Pecron E1000LFP straight front view with AC and DC ports](/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
+
 Five 120V AC outlets are the design's most useful detail. Many stations in this capacity range provide two or four, which quickly forces a power strip into the setup. The E1000LFP can run a router, laptop charger, light, fan, and small appliance without immediately turning the station into a tangle of adapters. The 12V car socket and 5A barrel connector also make more sense for camping than a station that offers only AC and USB.
 
 USB connectivity is adequate rather than class-leading: two USB-C ports, including a 100W PD capability, and two USB-A ports cover phones, tablets, cameras, and a laptop. Pecron also lists an XT60 20A output, app control, Wi-Fi control, and a display that can be checked without turning on an inverter. That last behavior matters because the station's idle draw is significant when an inverter is active.
@@ -76,6 +107,10 @@ The weak points are familiar budget-hardware details. The protective outlet flap
 ## Performance and Charging
 
 Pecron rates the inverter at 1,800W with a 3,000W surge figure. In the Solar Lab's independent test, the station sustained a 1,556W load and delivered about 84% efficiency. That is a respectable result for a compact station, but it means the usable energy from the 1,024Wh pack will be materially below the nameplate once inverter losses and the station's own consumption are included.
+
+![Pecron E1000LFP shown with two folding solar panels behind it](/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The surge rating is the more important caveat. The same test found that a 2,200W load lasted about five seconds before the unit shut down. That is a little headroom above 1,800W, not a realistic guarantee that a 3,000W motor-starting event will succeed. It should run ordinary refrigerators, small kitchen appliances, CPAP machines, and many tools, but buyers with high-startup loads should check the appliance's actual behavior rather than relying on the headline surge number.
 
