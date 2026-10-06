@@ -70,17 +70,29 @@ gallery:
 
 The Sony A7R V exists to resolve detail that other full-frame cameras can't touch. Its 61-megapixel sensor is the highest resolution in the class, and paired with Sony's dedicated AI autofocus processor, it can lock onto an eye and hold it while capturing texture down to individual eyelashes. For landscape, studio, portrait, architecture, and commercial photographers, that combination is close to ideal. At $3,898 it's expensive but not flagship-expensive, which is part of why it's such a popular high-resolution body.
 
+![Sony α7R V](/images/posts/cameras/sony_7r_v/sony_7r_v_angle3.jpg)
+
+*PantheraLeo1359531 / Wikimedia Commons (CC BY 4.0)*
+
 But two asterisks follow the A7R V everywhere, and any honest buyer needs to see them first. The sensor is not stacked, which means rolling shutter is a real concern in electronic-shutter and video modes. And those 61MP files are big, slow to write, and fill a buffer that isn't built for sustained speed. This is a camera that rewards deliberate shooting and punishes anyone who treats it like a sports body.
 
 ## Image quality and resolution
 
 Sixty-one megapixels is not a spec-sheet flex here; it's the whole point. The A7R V resolves fine detail with a clarity that gives you enormous latitude to crop — you can frame a landscape wide and pull a tight composition out of it in post, or shoot a portrait and crop to a headshot without visible quality loss. For large prints, the resolution holds up at sizes where lesser sensors start to soften.
 
+![Sony α7R V](/images/posts/cameras/sony_7r_v/sony_7r_v_angle4.jpg)
+
+*PantheraLeo1359531 / Wikimedia Commons (CC BY 4.0)*
+
 Sony also offers a pixel-shift multi-shot mode that composites several frames into an even higher-resolution image, which is a serious tool for reproduction, product, and architecture work where absolute detail matters. It requires a locked-down tripod and a static subject, and the frames are merged in Sony's software rather than in-camera, so it's a studio technique, not a run-and-gun one. Used within its limits, it's remarkable.
 
 ## Autofocus: the genuine highlight
 
 The A7R V introduced Sony's AI-driven recognition processor, and it's the feature that transforms this camera from a slow studio specialist into something more versatile. Eye detection for humans, animals, and birds is fast and tenacious, holding through movement and partial occlusion in a way that makes portrait and wildlife work far less stressful. The system even recognizes human poses and body position, which helps it stay locked when a subject turns away from the camera.
+
+![Sony α7R V](/images/posts/cameras/sony_7r_v/sony_7r_v_angle5.jpg)
+
+*PantheraLeo1359531 / Wikimedia Commons (CC BY 4.0)*
 
 This is important context for the resolution: a 61MP file is only useful if focus is precise, because the sensor mercilessly reveals any miss. The AI autofocus is what lets you actually exploit all those pixels handheld. Combined with the strong in-body stabilization, the A7R V is far more handholdable than its resolution would suggest.
 

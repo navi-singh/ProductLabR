@@ -70,6 +70,10 @@ gallery:
 
 The Nikon Z9 is not trying to be the most reasonable way into Nikon's best hybrid technology. It is Nikon's no-apology professional body: 45.7MP full-frame CMOS resolution, 493-point hybrid AF, 8K 60p video, 4K 120p video, 5-axis IBIS rated at 6 stops, and a 5,496 USD price that tells you immediately who it is for. This is the camera for the photographer who wants the body, controls, durability, and working rhythm of a flagship as much as the files themselves.
 
+![Nikon Z9](/images/posts/cameras/nikon_z9/nikon_z9_angle4.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 That matters because the Z9 and Z8 should not be reduced to a price comparison. The Z8 is the smaller, less expensive way to reach much of Nikon's hybrid firepower. The Z9 is the one you buy when the camera is going to live on a sideline, in a press pit, beside a wildlife blind, or inside a commercial workflow where confidence is worth carrying a larger body. If the Z8 is the smarter travel companion, the Z9 is the assignment appliance.
 
 The Z9 is also easy to overbuy. A large, expensive, deeply featured professional camera is a poor match for a hobbyist who wants convenience, a creator who mainly films casual clips, or a photographer who has not already accepted the cost of fast cards, serious lenses, and a deliberate setup process. The camera's strength is that it refuses to be casual. Its weakness is exactly the same thing.
@@ -113,6 +117,10 @@ The complexity is real. A camera this capable can waste your time if you refuse 
 ## Alternatives compared: Z8, Canon EOS R5 Mark II, Sony A1 II, and Canon EOS R3
 
 The Nikon Z8 is the comparison that matters most because it challenges the Z9 from inside the same family. If you want a smaller camera with a 45.7MP sensor, 493-point hybrid AF, 8K 60p, 4K 120p, and a lower price, the Z8 is brutally persuasive. The Z9 answers with body-first advantages: flagship handling, rugged presence, and a shape that makes sense for big lenses and vertical shooting. Choose the Z8 for mobility. Choose the Z9 for assignment confidence.
+
+![Nikon Z9](/images/posts/cameras/nikon_z9/nikon_z9_angle5.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 Canon EOS R5 Mark II competes as the high-resolution hybrid for photographers already invested in Canon. Canon's appeal is a different ergonomic language, a different autofocus interface, and an RF lens path that may fit certain shooters better. The Z9 is the more unapologetically pro-bodied Nikon answer. A Canon owner should not switch lightly. A Nikon owner who wants a flagship should not pretend the Canon is interchangeable just because both sit in the high-end hybrid conversation.
 

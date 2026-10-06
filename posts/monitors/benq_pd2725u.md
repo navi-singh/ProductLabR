@@ -86,7 +86,7 @@ The PD2725U's 4K IPS panel is calibrated to BenQ's AQCOLOR standard before shipp
 
 ![BenQ PD2725U](/images/posts/monitors/benq_pd2725u/benq_pd2725u_angle2.avif)
 
-*BenQ / BenQ (Manufacturer product image)*
+*BenQ (Manufacturer product image)*
 
 The 1200:1 contrast ratio is modestly above standard IPS levels, providing slightly more depth in shadows and richer dark tones than 1000:1 alternatives. In the context of design and illustration work, this translates to more believable dark color chips, richer shadow detail in product photography, and more accurate rendering of near-black neutral tones.
 
@@ -95,6 +95,10 @@ Brightness at 250 cd/m² typical is conservative compared to consumer monitors, 
 ## Color Accuracy & Professional Use
 
 The PD2725U's color science is its flagship capability. 100% sRGB and 100% Rec.709 coverage ensures complete gamut for digital photography, web design, broadcast video, and SDR content workflows. 95% DCI-P3 extends the gamut to cover most of the digital cinema color space, making it suitable for video content destined for streaming services.
+
+![BenQ PD2725U](/images/posts/monitors/benq_pd2725u/benq_pd2725u_angle4.avif)
+
+*BenQ (Manufacturer product image)*
 
 BenQ's DualView mode is a unique professional feature: the screen can be split into two independent halves, each displaying a different color mode simultaneously. A designer can view a design file in sRGB on the left and DCI-P3 on the right — comparing how an image appears across two different output color spaces in real time. For a creative director reviewing deliverables intended for both web and cinema distribution, this capability alone can justify the purchase.
 
@@ -108,7 +112,7 @@ Dual Thunderbolt 3 ports are the PD2725U's most consequential technical feature.
 
 ![BenQ PD2725U](/images/posts/monitors/benq_pd2725u/benq_pd2725u_angle3.avif)
 
-*BenQ / BenQ (Manufacturer product image)*
+*BenQ (Manufacturer product image)*
 
 Two HDMI 2.0 inputs and a DisplayPort 1.4 output cover desktop workstations and secondary connections. The two USB-A 3.1 downstream ports provide hub functionality for peripherals, though users with many USB accessories will likely still need a separate hub. The ergonomic stand offers 130mm height adjustment, ±45° swivel, -5° to +20° tilt, and 90° portrait pivot. The industrial-clean chassis finish and cable management channel through the stand keep the desk environment tidy.
 

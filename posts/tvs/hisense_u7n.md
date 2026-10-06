@@ -94,7 +94,7 @@ The Mini-LED backlight in the U7N delivers genuine local dimming performance. Th
 
 ![Hisense U7N](/images/posts/tvs/hisense_u7n/hisense_u7n_angle2.avif)
 
-*Hisense / Hisense USA (Manufacturer product image)*
+*Hisense USA (Manufacturer product image)*
 
 Peak HDR brightness of approximately 1,500 nits is the U7N's standout specification. This is bright enough to produce the visceral "pop" of good HDR highlights in a way that entry-level TVs with 300–500 nit peaks simply cannot match. Bright outdoor scenes, explosions, and shiny surfaces in Dolby Vision content have genuine intensity. In a well-lit room, the U7N holds its own against sunlight reflections.
 
@@ -112,7 +112,7 @@ Three HDMI 2.1 ports supporting 48Gbps each makes the U7N one of the best-equipp
 
 ![Hisense U7N](/images/posts/tvs/hisense_u7n/hisense_u7n_angle3.avif)
 
-*Hisense / Hisense USA (Manufacturer product image)*
+*Hisense USA (Manufacturer product image)*
 
 The 144Hz native panel is a genuine advantage for PC gamers running high-end hardware. Variable Refresh Rate covers the standard ranges with FreeSync Premium and G-Sync Compatible certification ensuring cross-platform compatibility. ALLM works automatically with major consoles.
 
@@ -128,7 +128,7 @@ Google TV on the U7N benefits from Hisense's relatively light-touch customizatio
 
 ![Hisense U7N](/images/posts/tvs/hisense_u7n/hisense_u7n_angle4.avif)
 
-*Hisense / Hisense USA (Manufacturer product image)*
+*Hisense USA (Manufacturer product image)*
 
 Performance is adequate — app launches take 2–3 seconds on average, and the home screen navigation is smooth. Heavy processing tasks like initial search or loading large app libraries take slightly longer than on more powerful hardware, but day-to-day navigation is fine.
 
@@ -142,7 +142,7 @@ The U7N's design is utilitarian but inoffensive — a slim bezel, clean back pan
 
 ![Hisense U7N](/images/posts/tvs/hisense_u7n/hisense_u7n_angle5.avif)
 
-*Hisense / Hisense USA (Manufacturer product image)*
+*Hisense USA (Manufacturer product image)*
 
 Built-in audio is the U7N's weakest specification. The speaker system produces acceptable TV audio for casual viewing but lacks the power, bass extension, and spatial processing to deliver a satisfying experience with action movies or music. A soundbar addition is strongly recommended and will transform the audio experience significantly.
 

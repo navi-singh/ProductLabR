@@ -88,7 +88,7 @@ At 35.2 lbs (16kg), the AC180 strikes an impressive balance between capacity and
 
 ![BLUETTI AC180](/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle2.jpg)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 ## Key Features & Design
 
@@ -96,7 +96,7 @@ The AC180 combines practical capacity with user-focused engineering:
 
 ![BLUETTI AC180](/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle3.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 - **1,152Wh LiFePO4 Battery** – Safe chemistry with 3,500+ cycle lifespan for long-term value
 - **1,800W Output (2,700W Surge)** – Powers most household appliances and tools  
@@ -114,7 +114,7 @@ Real-world testing confirmed the AC180 excels as reliable home backup with 20ms 
 
 ![BLUETTI AC180](/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle4.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 The LCD display provides excellent monitoring capabilities, showing real-time power consumption and accurate runtime estimates. While the 20ms switching time isn't as fast as premium units, it's sufficient for most backup applications excluding the most sensitive medical equipment.
 
@@ -136,7 +136,7 @@ The LCD display provides real-time data on battery status, input/output power, a
 
 ![BLUETTI AC180](/images/posts/portable-power-stations/bluetti_ac180/bluetti_ac180_angle5.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 ## Performance and Usability
 

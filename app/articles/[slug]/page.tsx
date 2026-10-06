@@ -23,7 +23,6 @@ import {
   WhatWeChecked,
 } from '../../../components/article/ReviewTrustModules';
 import ProductImage from '../../../components/article/ProductImage';
-import ProductGallery from '../../../components/article/ProductGallery';
 import RetailerLinks from '../../../components/article/PriceButton';
 import ArticleContent from '../../../components/article/ArticleContent';
 import { AuthorBio } from '../../../components/article/AuthorBio';
@@ -131,11 +130,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   const processedContent = processMarkdownContent(content);
 
-  // Images distributed through the article body already carry their own credit
-  // line, so repeating them in the thumbnail strip is pure duplication.
-  const unplacedGallery = (metadata.gallery ?? []).filter(
-    (image) => !processedContent.includes(image.src),
-  );
   const category = metadata.category ? getCategoryByContentDir(metadata.category) : undefined;
   const categoryPosts = metadata.category ? getPostsByCategory(metadata.category) : [];
 
@@ -231,9 +225,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
       {/* Product Image */}
       {metadata.productImage && <ProductImage src={metadata.productImage} alt={metadata.imageAlt || metadata.title} />}
-      {unplacedGallery.length > 0 && (
-        <ProductGallery images={unplacedGallery} alt={metadata.title} />
-      )}
 
       {/* Main Content Grid */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">

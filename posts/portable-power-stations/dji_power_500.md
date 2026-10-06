@@ -97,7 +97,7 @@ point for a product aimed at location shooters.
 
 ![DJI Power 500 straight front view showing AC outlets and USB ports](/images/posts/portable-power-stations/dji_power_500/dji_power_500_angle2.webp)
 
-*DJI / DJI product page (Manufacturer product image)*
+*DJI product page (Manufacturer product image)*
 
 The chemistry is LFP — lithium iron phosphate — which is the right call for durability.
 DJI rates the pack to hold over 70% of its capacity after 4,000 cycles under its stated

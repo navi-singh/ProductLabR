@@ -90,7 +90,7 @@ At 30.8 lbs (14kg), the Delta 3 Plus is a substantial unit with premium construc
 
 ![EcoFlow Delta 3 Plus](/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle2.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The build quality exemplifies EcoFlow's engineering excellence with precision manufacturing, premium components, and robust construction designed for demanding professional applications. The dual integrated handles provide secure carrying despite the substantial weight, while the expanded footprint accommodates the enhanced internal components and cooling systems.
 
@@ -100,7 +100,7 @@ The Delta 3 Plus combines maximum capability with professional-grade features:
 
 ![EcoFlow Delta 3 Plus](/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle3.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 - **2,400W Output (4,800W Surge)** – Industry-leading power capability for professional and demanding applications
 - **Professional UPS Function** – 10ms switchover time for critical equipment protection
@@ -155,7 +155,7 @@ Extensive testing across professional applications demonstrated the Delta 3 Plus
 
 ![EcoFlow Delta 3 Plus](/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle4.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 Medical and laboratory applications confirmed reliable operation of sensitive equipment requiring clean, stable power with UPS protection. The combination of high output and professional UPS functionality makes it suitable for critical applications where power interruption could have serious consequences.
 
@@ -176,7 +176,7 @@ The enhanced EcoFlow app provides comprehensive monitoring and control capabilit
 
 ![EcoFlow Delta 3 Plus](/images/posts/portable-power-stations/ecoflow_delta_3_plus/ecoflow_delta_3_plus_angle5.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 Professional features include equipment logging, maintenance scheduling, performance optimization recommendations, and comprehensive reporting capabilities suitable for commercial and critical applications.
 

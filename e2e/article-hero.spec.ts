@@ -71,21 +71,7 @@ test('the imagery block ends inside the first screen on a laptop', async ({ page
   ).toBeLessThan(900);
 });
 
-test('gallery thumbnails stay subordinate to the hero', async ({ page }) => {
+test('gallery photos render inside the review, not as a strip under the hero', async ({ page }) => {
   await page.goto(ARTICLES[0], { waitUntil: 'domcontentloaded' });
-
-  const thumbs = page.getByAltText(/additional angle \d+$/);
-  const count = await thumbs.count();
-  test.skip(count === 0, 'this article renders no gallery strip');
-
-  for (let i = 0; i < count; i += 1) {
-    const box = await thumbs.nth(i).boundingBox();
-    if (!box) continue;
-
-    expect(
-      box.height,
-      `Gallery thumbnail ${i + 1} rendered ${Math.round(box.height)}px tall. ` +
-        'Square thumbnails at column width consume as much fold as the hero itself.',
-    ).toBeLessThanOrEqual(140 + TOLERANCE_PX);
-  }
+  await expect(page.getByAltText(/additional angle \d+$/)).toHaveCount(0);
 });

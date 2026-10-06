@@ -84,7 +84,7 @@ Anker built the C800 to be lifted and moved. At 19.8 pounds it is heavier than a
 
 ![Anker SOLIX C800](/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle2.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 The port count is generous for the price: multiple AC outlets from the 1,200-watt inverter, several USB-A ports, high-wattage USB-C Power Delivery ports capable of fast-charging laptops directly, and a 12-volt car socket. That USB-C output matters — you can skip the AC inverter entirely for laptops and phones, which is more efficient and stretches the battery further. Having several output types at once means the C800 can charge a laptop, a phone, and a cooler simultaneously without an adapter shuffle.
 
@@ -96,7 +96,7 @@ Do the math and the C800's honest capabilities come into focus. Start with 768Wh
 
 ![Anker SOLIX C800](/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle3.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 A 60-watt laptop runs for roughly 11 hours from a full charge. A typical phone, holding 12 to 19 watt-hours, can be recharged more than 30 times. A 50-watt 12-volt cooler runs comfortably overnight and well into the next day. A CPAP drawing 40 watts without heated humidification can run for around 15 hours — a night or two — though you should confirm your own machine's numbers before depending on it.
 
@@ -108,9 +108,17 @@ For a brief power outage, the C800 can keep phones charged, a router online, and
 
 This is another place the C800 pulls ahead of older stations. It charges quickly from a wall outlet — Anker's newer stations are built around fast AC recharge, so you can refill a large chunk of the battery in a short window rather than waiting overnight. It also accepts solar and 12-volt car input for off-grid top-ups, with real solar performance depending on panel size and sun. A UPS-style pass-through mode lets it sit between the wall and a sensitive device, switching to battery quickly enough to keep many electronics running through a brief cut, though it is not a substitute for a dedicated online UPS for critical gear.
 
+![Anker SOLIX C800](/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle4.webp)
+
+*Anker (Manufacturer product image)*
+
 ## How It Compares
 
 Put the C800 next to the Goal Zero Yeti 500X and the contrast is stark. The Anker offers 768Wh to the Yeti's 505, a 1,200-watt inverter to the Yeti's 300, longer-lived LiFePO4 chemistry against the Yeti's older NMC, and faster charging — all for well under the Yeti's $699 price. On value it is not a close contest. Jackery's Explorer 1000 and EcoFlow's River and Delta stations are the more serious competition, matching the C800 on chemistry and often on capacity, and shoppers should cross-shop those on price, weight, and port layout.
+
+![Anker SOLIX C800](/images/posts/portable-power-stations/anker_solix_c800/anker_solix_c800_angle5.webp)
+
+*Anker (Manufacturer product image)*
 
 Where the C800 gives ground is brand track record and service network. Anker is newer to power stations than to charging accessories, and its service footprint for large batteries is less established than some rivals'. The app is functional but basic, covering monitoring and port control without much polish. Those are fair caveats, but none of them undo the core value story: at $399 for 768Wh of LiFePO4 with a 1,200-watt inverter, this is one of the better deals in its size class. If you value a long service record above sticker value, a Jackery or EcoFlow may give more peace of mind, but you will usually pay for it.
 

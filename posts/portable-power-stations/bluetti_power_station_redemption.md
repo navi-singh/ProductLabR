@@ -80,6 +80,10 @@ gallery:
 
 “Bluetti Power Station Redemption” sounds like a brand story, not a product review, and that is exactly the point. The useful question is not whether Bluetti once made good specifications. It did. The useful question is whether a buyer can trust a current Bluetti station when the lights go out, after an older AC200L reportedly went from normal operation to a collection of fatal error codes.
 
+![BLUETTI AC200L angled front view showing right side handle](/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle4.webp)
+
+*BLUETTI product page (Manufacturer product image)*
+
 The answer is a qualified yes. Bluetti has a more coherent modern lineup, fewer obviously proprietary cabling traps, and a support process capable of replacing the failed unit described by The Solar Lab. Those are meaningful improvements. They are not proof that every older station is suddenly safe, and they do not turn a two-year-old AC200L into a new-generation purchase.
 
 I am treating the discovery review as an independent long-term reliability report, not as a specification sheet. It describes standardized charge, discharge, surge, idle-consumption, and load tests on an AC200L that initially behaved normally before a BMS communication failure and system initialization failure appeared while the unit was charging. Bluetti's official product page confirms the hardware class—2,048Wh and 2,400W—but cannot prove reliability over time.
@@ -89,6 +93,10 @@ One date also needs careful handling. Bluetti's current product JSON gives the A
 ## What the AC200L gets right on paper
 
 The AC200L is still a serious mid-size power station. Its 2,048Wh LiFePO4 battery and 2,400W pure-sine inverter cover the normal outage brief: refrigerator, networking gear, lights, medical electronics, and a selection of kitchen loads. A 2,400W inverter is also enough headroom for motor startup that overwhelms smaller 1,000W-class stations, although surge behavior is load- and duration-dependent.
+
+![BLUETTI AC200L powering a campsite cooking setup](/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle5.webp)
+
+*BLUETTI product page (Manufacturer product image)*
 
 Bluetti lists up to 1,200W of solar input and up to 2,400W of AC charging. Those are manufacturer maximums, not results I independently measured. They matter because the AC200L can be replenished quickly in a planned backup setup, but only if the input source, cable, temperature, and state of charge allow it. A solar array that looks large on paper is not a guarantee of 1,200W at the battery.
 
@@ -102,7 +110,7 @@ The AC200L's appeal is practical rather than elegant: substantial stored energy,
 
 ![BLUETTI AC200L front panel with display and covered outlets](/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle2.webp)
 
-*BLUETTI / BLUETTI product page (Manufacturer product image)*
+*BLUETTI product page (Manufacturer product image)*
 
 Older Bluetti ownership also had a cable problem. The Solar Lab's account describes a lineup that leaned heavily on proprietary connectors, while competing products more often used readily replaceable generic cables. Newer Bluetti models appear to be moving toward more standard input and output arrangements. That is the kind of boring change that helps after the warranty ends: a lost cable is annoying, not a reason to retire the entire station.
 
@@ -116,7 +124,7 @@ The most uncomfortable detail in this review is that the AC200L did not fail imm
 
 ![BLUETTI AC200L top and front view with integrated handle](/images/posts/portable-power-stations/bluetti_power_station_redemption/bluetti_power_station_redemption_angle3.webp)
 
-*BLUETTI / BLUETTI product page (Manufacturer product image)*
+*BLUETTI product page (Manufacturer product image)*
 
 That account does not establish a fleet-wide defect rate. One failed sample cannot tell us how many AC200L units fail, when they fail, or whether storage conditions contributed. It does establish a credible buyer risk: a station may look healthy during a short checkout and still fail later. That is why I would not choose old, deeply discounted inventory as the only emergency power source for a refrigerator, CPAP, or sump pump.
 

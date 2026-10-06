@@ -79,6 +79,10 @@ older design in 2026, but age alone is not the problem. The problem is that a 3,
 station with a 3,000W inverter still uses traditional lithium-ion cells while newer
 competitors have moved heavily toward LiFePO4.
 
+![Jackery Explorer 3000 Pro pair shown from the front on white](/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_angle4.webp)
+
+*Jackery product page (Manufacturer product image)*
+
 The rest of the specification remains useful. Jackery rates the Explorer 3000 Pro for
 3,000W of continuous AC output, a claimed 6,000W surge, 1,800W wall input, and up to
 1,400W of solar input. SolarLab's independent review found that it sustained the
@@ -103,7 +107,7 @@ available.
 
 ![Jackery Explorer 3000 Pro front view flanked by folding solar panels](/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_angle2.webp)
 
-*Jackery / Jackery product page (Manufacturer product image)*
+*Jackery product page (Manufacturer product image)*
 
 The output layout is unusually friendly to mixed loads. The official page lists four
 120V AC outlets rated at 20A, plus a fifth 120V outlet rated at 25A. There are two USB-C
@@ -130,7 +134,7 @@ stations offer longer cycle-life designs at similar capacity.
 
 ![Jackery Explorer 3000 Pro shown beside an expansion battery](/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_angle3.webp)
 
-*Jackery / Jackery product page (Manufacturer product image)*
+*Jackery product page (Manufacturer product image)*
 
 Charging is much easier to praise. Jackery specifies up to 1,800W from AC and up to
 1,400W from solar through two inputs. SolarLab reported that the unit reached the

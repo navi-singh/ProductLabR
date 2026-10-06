@@ -85,7 +85,7 @@ At 24.7 lbs (11.2kg), the Delta 3 strikes an excellent balance between capacity 
 
 ![EcoFlow Delta 3](/images/posts/portable-power-stations/ecoflow_delta_3/ecoflow_delta_3_angle2.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The build quality demonstrates EcoFlow's engineering maturity with premium materials and precise manufacturing tolerances. The integrated handles provide comfortable carrying, while the compact footprint enables versatile placement in homes, vehicles, or outdoor settings. The LCD display is designed for clear visibility and comprehensive information across both mobile and stationary applications.
 
@@ -95,7 +95,7 @@ The Delta 3 combines advanced portable power with intelligent connectivity:
 
 ![EcoFlow Delta 3](/images/posts/portable-power-stations/ecoflow_delta_3/ecoflow_delta_3_angle3.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 - **1,024Wh LiFePO4 Battery** – Enhanced chemistry with 4,000+ cycle lifespan for exceptional longevity
 - **Enhanced X-Boost Technology** – Powers devices up to 2,600W with intelligent power management
@@ -136,7 +136,7 @@ The 1,800W continuous output with 2,700W surge capability handles demanding appl
 
 ![EcoFlow Delta 3](/images/posts/portable-power-stations/ecoflow_delta_3/ecoflow_delta_3_angle4.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 We ran refrigerators, a microwave, and power tools off it without tripping the inverter, which is the practical ceiling most people care about. The output is pure sine wave, so sensitive electronics are not a concern. We did not test it with medical equipment and would not ask you to take our word for it if you were: if a device keeps someone breathing, confirm compatibility with its manufacturer and keep a second means of power.
 

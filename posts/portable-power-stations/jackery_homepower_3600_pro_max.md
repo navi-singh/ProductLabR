@@ -120,9 +120,13 @@ rating than the 4,000 cycles Jackery quotes on its consumer-tier units such as t
 3000, and it signals that this product is meant to be installed and left in place for the
 long term rather than cycled occasionally and replaced.
 
+![Jackery HomePower 3600 Pro Max](/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle4.webp)
+
+*Jackery (Manufacturer product image)*
+
 ![Jackery HomePower 3600 Pro Max](/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle2.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 The safety story is the clearest differentiator. The unit carries UL 9540 certification —
 the standard for energy storage systems, as opposed to the UL 1973 battery-level listing that
@@ -158,9 +162,13 @@ catalogue badge lists the unit at 3,600W output, and there is no single clean co
 specification table to reconcile them. Buyers who need to size a specific circuit should
 confirm the exact continuous rating with Jackery before committing.
 
+![Jackery HomePower 3600 Pro Max](/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle5.webp)
+
+*Jackery (Manufacturer product image)*
+
 ![Jackery HomePower 3600 Pro Max](/images/posts/portable-power-stations/jackery_homepower_3600_pro_max/jackery_homepower_3600_pro_max_angle3.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 Capacity scales aggressively. The 3,584Wh base can grow to 21.5kWh within a single unit
 through add-on batteries, and to 43kWh across units wired in parallel. That expansion path is

@@ -88,7 +88,7 @@ At 28.6 lbs (13kg), the SOLIX C1000 is positioned as a premium unit with substan
 
 ![Anker SOLIX C1000](/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle2.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 The build quality exemplifies Anker's commitment to premium construction. Every surface, button, and port demonstrates meticulous attention to detail, while the integrated handles provide comfortable, secure carrying despite the substantial weight. The LCD display is designed to offer clear visibility and comprehensive information for demanding applications.
 
@@ -98,7 +98,7 @@ The SOLIX C1000 combines advanced technology with premium construction:
 
 ![Anker SOLIX C1000](/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle3.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 - **1,056Wh LiFePO4 Battery** – Premium chemistry with 3,000+ cycle lifespan for long-term reliability
 - **1,800W Output (2,400W Surge)** – High power capability for demanding appliances and professional equipment
@@ -116,7 +116,7 @@ The SOLIX C1000's defining feature is its exceptional HyperFlash charging techno
 
 ![Anker SOLIX C1000](/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle4.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 The charging system intelligently manages heat and current flow to protect battery longevity while achieving maximum speed. Multiple protection systems ensure safe operation during rapid charging, while the advanced BMS maintains optimal performance across thousands of charging cycles.
 
@@ -137,7 +137,7 @@ The Anker smartphone app provides comprehensive control and monitoring capabilit
 
 ![Anker SOLIX C1000](/images/posts/portable-power-stations/anker_solix_c1000/anker_solix_c1000_angle5.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 Advanced features include customizable charging profiles to optimize for speed or longevity, intelligent load balancing across multiple outputs, and historical usage tracking for power consumption analysis. Firmware updates ensure ongoing feature improvements and optimization.
 

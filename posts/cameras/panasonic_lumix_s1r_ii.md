@@ -66,9 +66,17 @@ gallery:
 
 Panasonic built the S1R II for photographers who care more about resolving a fabric weave or a mountain ridge than about firing 20 frames a second. Its 47.3MP full-frame sensor is the star, the new phase-detect autofocus is the plot twist, and the video toolkit is a bonus that keeps this from being a one-trick studio camera. At $3,699 it slots into one of the most crowded price brackets in photography, and it wins buyers who value detail, dynamic range, and Panasonic's grading-friendly workflow over the last few percent of tracking speed. This is a deliberate, considered tool — not a do-everything hero body — and knowing that going in will save you disappointment later.
 
+![Panasonic Lumix S1R II](/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii_angle3.jpg)
+
+*Mateusz Stopczynski / Wikimedia Commons (CC BY-SA 4.0)*
+
 ## Who this camera is actually for
 
 Think landscape shooters chasing print detail, studio and product photographers who light carefully and shoot deliberately, architecture and interiors work, and hybrid creators who want a high-megapixel stills body that can also deliver clean 6K and 4K when a client asks. The 47.3MP sensor gives you room to crop into a scene or make large prints where fine texture holds up. If you shoot fast sports, birds in erratic flight, or spend your career at ISO 12800 in a dark gym, this is the wrong Panasonic — the S1 II with its lower-resolution, motion-optimized sensor is the better match, and I'd steer you there without hesitation.
+
+![Panasonic Lumix S1R II](/images/posts/cameras/panasonic_lumix_s1r_ii/panasonic_lumix_s1r_ii_angle4.jpg)
+
+*Mateusz Stopczynski / Wikimedia Commons (CC BY-SA 4.0)*
 
 ## Handling and build
 

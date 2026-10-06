@@ -90,6 +90,10 @@ gallery:
 
 The EcoFlow DELTA 3 1000 Air is easiest to understand as a large battery attached to a deliberately small inverter. It stores 960Wh, weighs 22 pounds, accepts up to 500W from solar, and delivers 500W through its single AC outlet. That is a very different proposition from the regular DELTA 3 family models, which are designed to run a much broader set of household loads.
 
+![EcoFlow DELTA 3 1000 Air rear view with integrated handle](/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle4.webp)
+
+*EcoFlow product page (Manufacturer product image)*
+
 The trade is sensible if the job is keeping one important load alive: a router and modem, a desktop computer, a refrigerator during cycling, a CPAP machine after compatibility testing, or a modest camping setup. It is frustrating if the buyer expects a general-purpose station with several outlets, USB-C laptop charging, a 12V socket, or a path to more battery capacity. The Air has none of those extras.
 
 There is also a naming wrinkle worth making clear. EcoFlow's official DELTA 3 family page documents the standard DELTA 3 and says its release was scheduled for November 1, 2024. EcoFlow's current US catalog and downloads page do not publish a separate product page or launch date for the 1000 Air. That makes November 1, 2024 useful family context, not a verified Air launch date. This review treats the Air as a distinct, stripped-down variant and does not pretend EcoFlow has published a launch date it has not.
@@ -100,7 +104,7 @@ The 22-pound weight is the Air's most immediately useful physical specification.
 
 ![EcoFlow DELTA 3 1000 Air straight front view with single AC outlet](/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle2.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 EcoFlow keeps the familiar DELTA screen and a rear handle, but the port layout is unusually sparse. The front gives you one 120V house outlet, one 12W USB-A port, and one 18W USB-C port. There is no second AC outlet, no 12V car socket, no built-in light, and no expansion connector. That is not a missing accessory; it is the design brief.
 
@@ -116,7 +120,7 @@ The 500W continuous inverter is the central constraint. It is enough for a route
 
 ![EcoFlow DELTA 3 1000 Air side input panel and front display](/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle3.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 That limit is easier to live with when the load is predictable. A computer or network cabinet does not need 1,800W of headroom, and a single low-wattage appliance can run for a useful period from 960Wh. The battery's capacity, not the headline output, is the reason to choose the Air. Buyers should make a list of the exact watts their essential devices draw rather than assuming the DELTA name implies whole-home capability.
 
@@ -131,6 +135,10 @@ UPS behavior still depends on the exact device. A 10ms transfer is not a univers
 ## Solar, alternator charging, and everyday ownership
 
 The Air accepts up to 500W of solar input. The Solar Lab says a full solar recharge can take around two hours in suitable conditions. That is a useful system ceiling for a folding panel or a modest pair of panels, but it is not a weather guarantee. Shade, cloud, panel angle, cable losses, and the battery's state of charge can make the real day much longer.
+
+![EcoFlow DELTA 3 1000 Air powering a refrigerator in a kitchen](/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_angle5.webp)
+
+*EcoFlow product page (Manufacturer product image)*
 
 AC input is rated at 650W, which is a reasonable match for a station intended to be refilled from an ordinary wall outlet. The important point is not a claimed stopwatch record; it is that the station can replenish at a rate that fits short outage recovery and routine travel. Buyers should not interpret the 650W input as 650W of continuous output. Charging power and inverter power are separate limits.
 

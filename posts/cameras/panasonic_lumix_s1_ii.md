@@ -76,6 +76,10 @@ So the question is not whether the S1 II is a capable video camera. It plainly i
 
 The headline is the move away from contrast-only Depth-from-Defocus toward on-sensor phase detection. Older Lumix bodies used DFD, which reads defocus cues between frames; it was accurate for stills but produced the "wobble" and hunting that plagued Panasonic video for years. The S1 II keeps DFD as part of the equation but adds phase-detect points across the frame, and the practical result is that focus pulls settle instead of pumping. If you have ever watched a Lumix rack focus and then second-guess itself, that specific annoyance is largely gone here.
 
+![Panasonic Lumix S1 II](/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_angle3.jpg)
+
+*昼落ち / Wikimedia Commons (CC0)*
+
 The 24.2MP resolution is a deliberate choice, not a limitation Panasonic couldn't overcome. Lower pixel counts mean bigger photosites, cleaner high-ISO files, and — crucially — enough readout headroom to do 8K and high-frame-rate 4K without cooking the sensor. This is a body optimized for motion first. If you spend most of your time shooting stills that get printed large or cropped aggressively, that decision works against you, and I'll come back to it.
 
 ## Design and handling
@@ -92,11 +96,19 @@ The joystick, the tactile dials, and the fully articulating rear screen that als
 
 This is the section that decides whether the S1 II earns its keep. In good light, subject detection locks onto human eyes quickly and holds through profile turns and partial occlusion — the failure mode that used to define Lumix tracking. Animal and vehicle recognition are on board too, and while I wouldn't hand this body to a professional bird photographer over a stacked-sensor Sony, it will keep a running dog or a moving car in focus far more reliably than any DFD-only Lumix ever did.
 
+![Panasonic Lumix S1 II](/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_angle4.jpg)
+
+*昼落ち / Wikimedia Commons (CC0)*
+
 Where it still trails the best is in continuous-tracking burst work at the edges of the frame and in very low light, where phase-detect confidence drops and the system leans back on contrast cues. It's better, not best-in-class. For weddings, documentary, interviews, event coverage, and run-and-gun video, it clears the bar comfortably. For high-speed sports as your primary use, a Sony A9-series or the flagship end of Nikon and Canon still track with more tenacity.
 
 ## Video: the reason most buyers are here
 
 The S1 II shoots 8K at 30p and 4K at 60p, with Panasonic's usual generosity around codecs, log profiles, and open-gate capture that uses the full sensor height for reframing in post. V-Log comes standard with a wide dynamic range, and the camera is a genuine tool for people who grade footage rather than shoot it straight. There's no artificial recording-time paywall on the features that matter, and Panasonic's heat management means long takes are realistic rather than theoretical.
+
+![Panasonic Lumix S1 II](/images/posts/cameras/panasonic_lumix_s1_ii/panasonic_lumix_s1_ii_angle5.jpg)
+
+*昼落ち / Wikimedia Commons (CC0)*
 
 If your work is a mix of client video and stills — corporate, wedding films, branded content, YouTube — this is one of the most complete single bodies you can buy at the price, and it's the strongest argument in the S1 II's favor. The tradeoff is that all this capability sits behind that dense interface, and the 24MP sensor that helps video is the same sensor that limits stills.
 

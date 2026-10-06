@@ -80,6 +80,10 @@ gallery:
 
 The EcoFlow DELTA Pro is still a formidable battery, but it is not a casual camping accessory. EcoFlow launched the original DELTA Pro on **July 15, 2021**, through its official product launch campaign. That date matters in 2026: this is an older platform that remains technically capable, but it now competes with newer stations that package similar capacity in more refined ways.
 
+![EcoFlow DELTA Pro paired with an extra battery module](/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle4.webp)
+
+*EcoFlow product page (Manufacturer product image)*
+
 Its proposition is easy to understand. EcoFlow rates the DELTA Pro at 3,600Wh with a 3,600W continuous pure-sine inverter, up to 1,600W of solar input, and up to 2,400W of AC charging. It can accept extra batteries, feed demanding appliances, and integrate with EcoFlow's broader home-energy accessories. The tradeoff is equally clear: the base station weighs about 99lb before you add anything.
 
 That makes the DELTA Pro a strong choice for a buyer who needs high-output backup power in a garage, vehicle, workshop, or RV and can move it with wheels or a cart. It is a poor choice for anyone imagining a battery they will regularly carry down a trail. The word portable describes its form factor and transport options, not its lifting experience.
@@ -90,7 +94,7 @@ The DELTA Pro is built around a large central battery with wheels and a telescop
 
 ![EcoFlow DELTA Pro straight front view with display and outlets](/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle2.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 EcoFlow's product documentation gives the unit approximate dimensions of 25 by 11.2 by 16.4 inches. The footprint is manageable for a utility room or the cargo area of a large vehicle, but it needs deliberate storage. Leave access to the vents, charging ports, and handle rather than treating it like a box that can be buried under camping gear.
 
@@ -104,7 +108,7 @@ The 3,600Wh LFP battery is the DELTA Pro's core advantage. EcoFlow's lithium iro
 
 ![EcoFlow DELTA Pro rear side view showing wheels and cooling fans](/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle3.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 Charging flexibility is unusually good for the platform's age. EcoFlow rates AC input at up to 2,400W and solar input at up to 1,600W. The company advertises roughly 0–80% AC charging in 2.7 hours under its stated conditions. That is a manufacturer rating, not a promise for every outlet, temperature, battery age, or charging mode. The last part of a charge can take longer as the system balances and tapers input.
 
@@ -115,6 +119,10 @@ The battery can power devices while charging, which suits outage and RV use. Tha
 ## Output, X-Boost, and Real-World Loads
 
 The 3,600W continuous inverter is the number that should guide a purchase. It provides meaningful headroom for a refrigerator, microwave, power tools, networking equipment, lights, and chargers, assuming their combined running demand stays below the limit and their startup surges are compatible.
+
+![EcoFlow DELTA Pro with smart generator adapter beside the unit](/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle5.webp)
+
+*EcoFlow product page (Manufacturer product image)*
 
 EcoFlow advertises X-Boost up to 4,500W. That mode can let some compatible resistive appliances operate by reducing voltage or otherwise managing the load, but it does not turn the DELTA Pro into a 4,500W inverter. A compressor, pump, air conditioner, or tool with a difficult startup can still trip the station. Plan around 3,600W continuous output and verify the appliance's running and starting requirements.
 

@@ -88,6 +88,10 @@ The argument is weaker on published HVAC detail. Honeywell Home and Resideo have
 
 The X8S is physically closer to a small wall tablet than to a minimalist thermostat. Tom's Guide reports dimensions of 5.24 inches wide, 3.54 inches tall, and 0.96 inches deep, or 133 mm by 90 mm by 24 mm. That makes it wider than an ecobee square and much more rectangular than a Nest. In a hallway, it will be noticed. In a kitchen or entry area, that may be the point.
 
+![Honeywell Home X8S](/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle4.webp)
+
+*Resideo / Honeywell Home / HoneywellHome.com (Manufacturer product image)*
+
 ![Honeywell Home X8S](/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle2.webp)
 
 *Resideo / Honeywell Home / HoneywellHome.com (Manufacturer product image)*
@@ -105,6 +109,10 @@ Setup also routes through the First Alert by Resideo app. That makes sense for a
 ## Performance in Everyday Use
 
 The X8S has three daily-use identities: thermostat, room comfort manager, and video screen. The thermostat basics are the least controversial. It supports time-of-day scheduling, and Tom's Guide says setup walked through a schedule for the set temperature based on time of day. The more interesting layer is room priority. The reviewer described setting the bedroom sensor as the priority around 9:30 pm, then switching priority back to the thermostat around 10 pm. That is exactly how room sensors should work: the bedroom matters when sleeping, and the main hallway matters at other times.
+
+![Honeywell Home X8S](/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle5.jpg)
+
+*Resideo / Honeywell Home / HoneywellHome.com (Manufacturer product image)*
 
 ![Honeywell Home X8S](/images/posts/thermostats/honeywell_home_x8s/honeywell_home_x8s_angle3.jpg)
 

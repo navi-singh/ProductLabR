@@ -22,6 +22,7 @@ const {
   hammingDistance,
   NEAR_DUPLICATE_BITS,
 } = require('../scripts/images/ingest-product-images.js');
+const { buildCaption } = require('../scripts/images/place-body-images.js');
 const { loadCorpus, buildBrandIndex, REPO_ROOT } = require('../scripts/editorial/lib/corpus.js');
 const { analyzeCorpus } = require('../scripts/editorial/lib/metrics.js');
 const { runGates } = require('../scripts/editorial/lib/gates.js');
@@ -169,6 +170,17 @@ test.describe('image gate', () => {
   });
 });
 
+test.describe('body placement', () => {
+  test('captions drop a credit the source already names', () => {
+    expect(
+      buildCaption({ credit: 'EcoFlow', source: 'EcoFlow product page', license: 'Manufacturer' }),
+    ).toBe('EcoFlow product page (Manufacturer)');
+    expect(buildCaption({ credit: 'LG Electronics', source: 'LG.com' })).toBe(
+      'LG Electronics / LG.com',
+    );
+  });
+});
+
 test.describe('backfilled corpus', () => {
   const manifest = JSON.parse(
     fs.readFileSync(path.join(ROOT, 'data', 'product-images.json'), 'utf8'),
@@ -212,5 +224,17 @@ test.describe('backfilled corpus', () => {
         .map((file) => path.basename(file, '.md')),
     );
     expect(Object.keys(exceptions).filter((slug) => !slugs.has(slug))).toEqual([]);
+  });
+
+  test('every gallery photo appears in its review body', () => {
+    const missing: string[] = [];
+    for (const file of fs.readdirSync(path.join(ROOT, 'posts'), { recursive: true }).map(String)) {
+      if (!file.endsWith('.md')) continue;
+      const { data, content } = matter(fs.readFileSync(path.join(ROOT, 'posts', file), 'utf8'));
+      for (const item of (data.gallery ?? []) as { src: string }[]) {
+        if (!content.includes(`](${item.src})`)) missing.push(`${file}: ${item.src}`);
+      }
+    }
+    expect(missing).toEqual([]);
   });
 });

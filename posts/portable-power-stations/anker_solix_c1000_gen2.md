@@ -86,6 +86,10 @@ gallery:
 
 The Anker SOLIX C1000 Gen 2 is a fast 1kWh power station for buyers who would rather carry one compact box than build a larger battery system later. Anker gives it a 1,024Wh battery, a 2,000W continuous inverter, 600W solar input, and a claimed 49-minute full wall recharge. Those are strong numbers for a unit listed at $529.99 and weighing 24.9 pounds.
 
+![Anker SOLIX C1000 Gen 2 rear panel with DC input ports](/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle5.webp)
+
+*Anker product page (Manufacturer product image)*
+
 The catch is not hidden in the fine print: the C1000 Gen 2 cannot accept an expansion battery. The older Anker SOLIX C1000 is slower and slightly heavier, but it can grow. That makes the Gen 2 a more focused product than its name suggests. It is a high-output, quick-refill station for a fridge, networking gear, CPAP machine, tools, and weekend equipment — not the first brick in a whole-home battery system.
 
 Anker's product page is unusually clear about the model's purpose. The Gen 2 is smaller and lighter than the older C1000, and Anker says it reaches 80% capacity after 4,000 cycles. Those are manufacturer claims rather than independent test results, so the useful conclusion is narrower: the C1000 Gen 2 looks compelling when portability and recharge time matter more than future capacity.
@@ -96,7 +100,7 @@ At 15.12 by 8.19 by 9.61 inches and 24.9 pounds, this is still a substantial obj
 
 ![Anker SOLIX C1000 Gen 2 straight front view showing AC outlets](/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle2.webp)
 
-*Anker / Anker product page (Manufacturer product image)*
+*Anker product page (Manufacturer product image)*
 
 The physical layout follows the familiar portable-station formula: a front display, switched output groups, and separate input controls. Anker rates the unit for 10 connected devices and includes a screen for power flow and remaining capacity. That matters more than decorative lighting on a station intended for outages; you can see whether a load is actually drawing power before blaming the battery for a problem.
 
@@ -110,7 +114,7 @@ The headline upgrade is output. The C1000 Gen 2 is rated for 2,000W continuous a
 
 ![Anker SOLIX C1000 Gen 2 rear view showing the back panel](/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle3.webp)
 
-*Anker / Anker product page (Manufacturer product image)*
+*Anker product page (Manufacturer product image)*
 
 Anker claims a 1,600W AC input and a full recharge in 49 minutes with UltraFast Charging enabled. Treat the 49-minute figure as a best-case manufacturer result. Actual time depends on the starting state, temperature, charging mode, and whether the unit is simultaneously powering something. Even with that qualification, a fast refill changes the ownership pattern. You can use the station during an outage, plug it in when mains power returns, and have it ready again without leaving it connected overnight.
 
@@ -123,6 +127,10 @@ Anker also claims at least 80% retained capacity after 4,000 cycles and describe
 ## What it is like to own without expansion
 
 The missing expansion port is the defining ownership decision. A 1,024Wh station can cover a refrigerator's cycling load, internet equipment, lights, laptops, and phone charging for a useful outage window, but the duration changes quickly when a resistive heater, kettle, microwave, or induction cooktop enters the picture. The C1000 Gen 2 can power those devices within its inverter limit; it cannot make the stored energy last longer.
+
+![Anker SOLIX C1000 Gen 2 side angle showing the rear panel](/images/posts/portable-power-stations/anker_solix_c1000_gen2/anker_solix_c1000_gen2_angle4.webp)
+
+*Anker product page (Manufacturer product image)*
 
 That fixed capacity is also a benefit. There is no extra battery to balance, no second box to store, and no expansion cable to misplace. For an apartment resident, traveler, or camper who wants a self-contained emergency kit, the simpler system is easier to budget and move. For a homeowner planning staged backup, the limitation is permanent. Anker itself directs buyers who need expansion toward the older C1000.
 

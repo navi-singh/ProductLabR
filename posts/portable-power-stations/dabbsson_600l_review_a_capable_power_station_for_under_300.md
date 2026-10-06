@@ -84,7 +84,7 @@ The 600L's physical design is one of its best arguments. At 17.6 pounds, it is l
 
 ![Dabbsson 600L front panel with display light and AC outlets](/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle2.webp)
 
-*Dabbsson / Dabbsson product page (Manufacturer product image)*
+*Dabbsson product page (Manufacturer product image)*
 
 The front layout is straightforward: two AC outlets, a 12V car port, a DC5521 barrel port, two USB-A ports, and two USB-C ports. Dabbsson specifies one 100W USB-C port and one 30W USB-C port, which is a sensible division for a laptop plus smaller devices. There is also a front LED light. That makes the 600L useful as a camp light and emergency lamp without consuming an outlet or carrying a separate flashlight.
 
@@ -98,7 +98,7 @@ The independent numbers are encouraging. The Solar Lab measured 85% efficiency, 
 
 ![Dabbsson 600L rear side view with charging input panel](/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle3.webp)
 
-*Dabbsson / Dabbsson product page (Manufacturer product image)*
+*Dabbsson product page (Manufacturer product image)*
 
 The 600L's capacity is enough for a router, laptop, phones, lights, and a small cooler, but runtime depends on the load and whether you use AC or DC. A 60W device would theoretically consume 60Wh per hour; allowing for conversion losses, the 768Wh pack is a roughly ten-hour-class source at that load, not a multi-day answer. A laptop charger and a few phones draw much less than that. A compressor cooler or refrigerator is more variable because its motor cycles, so use the screen's live estimate rather than multiplying the capacity by a nameplate wattage.
 
@@ -112,6 +112,10 @@ The 15ms UPS claim gives the 600L a second useful role. It can keep a router, mo
 
 The 600L is not silent in every mode. The Solar Lab reported a faint high-frequency sound from the inverter that some people noticed and others did not. It also observed fans ramping up and down at inconsistent intervals while charging. Neither issue suggests a failure by itself, but both affect where the station belongs. It is fine in a garage, living room, or campsite. On a bedside table or beside a quiet desk, noise-sensitive owners may find it distracting.
 
+![Dabbsson 600L angled side view with front outlets visible](/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle4.webp)
+
+*Dabbsson product page (Manufacturer product image)*
+
 The app improves ownership, especially when the station is used as standby power. It can show live input and output, switch the light and outlets, and schedule behavior. Bluetooth is the documented connection on the review page, so buyers should not assume that the station can be monitored from anywhere over the internet. That distinction matters: local phone control is convenient, while remote outage alerts require a different kind of connected device.
 
 Battery chemistry and cycle ratings also need careful reading. Dabbsson's official page says the pack can reach 4,000 cycles while retaining more than 80% of its capacity. That is a manufacturer rating under specified conditions, not a guarantee of 4,000 identical cycles in a hot car or damp tent. Still, it is a strong longevity claim for a station at this price. Store it charged according to the manual, avoid extreme temperatures, and do not confuse a cycle rating with a warranty.
@@ -119,6 +123,10 @@ Battery chemistry and cycle ratings also need careful reading. Dabbsson's offici
 ## Dabbsson 600L vs. EcoFlow River 3, Anker C300, and Jackery
 
 The closest alternatives are the EcoFlow River 3, Anker SOLIX C300, and larger Jackery Explorer models. The EcoFlow River 3 is the better choice when compactness, a newer product platform, and quiet everyday operation matter more than having 768Wh available. It is a smaller-capacity class, so the Dabbsson lasts longer for the same modest load. EcoFlow's software and support ecosystem are also more established, which can justify paying more.
+
+![Dabbsson 600L paired with a folding solar panel](/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle5.webp)
+
+*Dabbsson product page (Manufacturer product image)*
 
 The Anker SOLIX C300 is another sensible small-station alternative. It is easier to recommend for buyers who want a modern Anker ecosystem and do not need the 600L's larger battery. The Dabbsson wins on capacity and, at its official price, on raw watt-hours per dollar. Anker is the safer brand pick for someone who values a broad support footprint over maximum runtime.
 

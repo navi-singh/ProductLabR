@@ -76,6 +76,10 @@ gallery:
 
 The BLUETTI AC500 makes sense only when you stop calling it a complete portable power station. It is a 5,000W inverter, charger, display, and port hub that borrows its energy from separate B300, B300S, or newer B300K batteries. BLUETTI’s own product page describes the AC500 as a 5,000W-output, 5,000W-solar-input system, while its current catalog sells it in battery bundles rather than as a self-contained box ([BLUETTI AC500 product page](https://www.bluettipower.com/products/solar-generator-ac500); [BLUETTI AC500+B300S catalog record](https://www.bluettipower.com/products/home-backup-power-ac500.js)).
 
+![BLUETTI AC500 three-quarter front view with display and outlets](/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle4.webp)
+
+*BLUETTI product page (Manufacturer product image)*
+
 That distinction is the review’s central point. The AC500 is a compelling foundation for a fixed home-backup setup, an RV with serious electrical demands, or an off-grid system that will grow over time. It is a poor choice for a buyer who wants to grab one box, charge it, and take it camping. There is no internal battery, so the inverter is not usable by itself. A first-time buyer needs to budget for at least one expansion battery, the large interconnect cable, and potentially a transfer switch or home-integration hardware.
 
 BLUETTI introduced the AC500 platform in 2022 through its [official crowdfunding campaign](https://www.indiegogo.com/projects/bluetti-ac500-the-most-powerful-solar-generator). That is the product’s launch year, not the date of the current US catalog record: BLUETTI’s present Shopify record for the AC500+B300S kit was created in late 2024 and published in January 2025. The distinction matters in 2026 because this is a mature design, not a new-generation station. Its strengths are still substantial, but newer platforms have made 240V integration and easier portability more common.
@@ -86,7 +90,7 @@ The AC500’s physical design is dominated by its role as stationary equipment. 
 
 ![BLUETTI AC500 front panel mounted above B300S battery](/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle2.webp)
 
-*BLUETTI / BLUETTI product page (Manufacturer product image)*
+*BLUETTI product page (Manufacturer product image)*
 
 The port selection is more useful than the usual collection of USB sockets. BLUETTI lists 120V receptacles alongside 30A, L14-30, and 50A connections, which gives the AC500 a plausible path into an RV or a properly installed selected-circuit backup panel. Those connectors are also a warning: this is not just a weekend cooler-and-laptop product. A transfer switch must isolate a home from the grid, and permanent wiring belongs with a qualified electrician. Never backfeed a household panel through an improvised cable.
 
@@ -95,6 +99,10 @@ The front display and BLUETTI app are valuable because the system can be spread 
 ## Battery Architecture and Expansion
 
 The AC500’s battery flexibility is its best reason to exist. The B300S is a 3,072Wh LiFePO4 battery, and BLUETTI’s catalog offers configurations with one, two, or three B300S packs: 3,072Wh, 6,144Wh, or 9,216Wh. The batteries are not a hidden accessory; they are the system. A single AC500 without one is effectively an expensive control box.
+
+![BLUETTI AC500 top view showing wireless charging pads](/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle5.webp)
+
+*BLUETTI product page (Manufacturer product image)*
 
 This modularity works well for staged buying. A homeowner can begin with one B300S for refrigeration, networking, lighting, and device charging, then add another pack when a longer outage or heavier daily load justifies it. The same inverter remains in service as storage grows. That is more sensible than replacing an all-in-one station every time your backup plan gets bigger.
 
@@ -108,7 +116,7 @@ The headline number is 5,000W of continuous AC output, with a 10,000W peak figur
 
 ![BLUETTI AC500 angled front view showing side connectors](/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle3.webp)
 
-*BLUETTI / BLUETTI product page (Manufacturer product image)*
+*BLUETTI product page (Manufacturer product image)*
 
 Output capability is not the same as unlimited runtime. At a steady 500W load, a 3,072Wh battery contains roughly 6.1 hours of idealized energy before conversion losses and reserve limits. At 1,000W, the same arithmetic drops to about 3.1 hours. Those are planning estimates, not lab results, and actual runtime varies with temperature, battery age, inverter efficiency, and the load’s duty cycle. A refrigerator that cycles on and off can last far longer than a continuously running 500W heater, even though both may be described loosely as “500W appliances.”
 

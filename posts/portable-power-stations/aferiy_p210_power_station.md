@@ -80,7 +80,7 @@ The P210 is a large, tower-style unit that feels built for a garage, cabin, or c
 
 ![AFERIY P210 angled front view showing side fan and rear outlet panel](/images/posts/portable-power-stations/aferiy_p210_power_station/aferiy_p210_power_station_angle2.webp)
 
-*AFERIY / AFERIY product page (Manufacturer product image)*
+*AFERIY product page (Manufacturer product image)*
 
 The port layout is the strongest argument in the P210's favor. Six AC outlets are generous in a category where many stations push you toward a power strip. The mix of USB-A and USB-C ports, plus the solar and 12V options, makes it flexible for a wide range of loads. The review also mentions the built-in light, cable storage area, and port doors that stay open while in use. Those details are small, but they matter when you are trying to use the station in the dark or in a hurry.
 
@@ -92,7 +92,7 @@ The headline numbers are the part that get people interested, but the real issue
 
 ![AFERIY P210 charging devices outdoors beside a vehicle](/images/posts/portable-power-stations/aferiy_p210_power_station/aferiy_p210_power_station_angle3.webp)
 
-*AFERIY / AFERIY product page (Manufacturer product image)*
+*AFERIY product page (Manufacturer product image)*
 
 The 2,245W load test is the key example. The review estimated that the unit should have run for about 55 minutes if it delivered the capacity it claims. Instead, it ran for about 43 minutes, giving it a rough efficiency of 78%. That is a normal range for many stations, but it is not a good sign for a unit that markets a lot of output and a lot of battery capacity. It means the inverter and battery management system are converting power less efficiently than the ideal, and that matters when you are running a fridge, a fan, or a window AC unit for an extended period.
 

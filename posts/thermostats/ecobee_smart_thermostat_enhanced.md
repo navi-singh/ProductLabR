@@ -78,7 +78,7 @@ Ecobee chose a square face rather than Nest's jewellery-like circle, and the cho
 
 ![Ecobee Smart Thermostat Enhanced](/images/posts/thermostats/ecobee_smart_thermostat_enhanced/ecobee_smart_thermostat_enhanced_angle2.jpg)
 
-*ecobee / ecobee.com (Manufacturer product image)*
+*ecobee.com (Manufacturer product image)*
 
 The display is the strongest visual argument for this model. It is a 4-inch full-colour LCD touchscreen at 540 by 540 pixels, which gives it more working room than the older Google Nest Learning Thermostat's 2.08 inches circular display. A thermostat screen does not need phone-level sharpness, but it does need enough space for mode, setpoint, humidity and menu controls without turning every tap into a guessing game. Ecobee gets that balance right.
 

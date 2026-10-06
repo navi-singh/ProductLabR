@@ -124,7 +124,7 @@ See [reference/playwright-e2e.md](./reference/playwright-e2e.md#bug-b--local-ima
 - `components/ads/AdBanner.tsx` renders either a labeled placeholder (dev) or the real AdSense script (prod with publisher ID set).
 - The publisher ID comes from `NEXT_PUBLIC_GOOGLE_ADSENSE_ID`. If missing in a production build, the build logs a **warning** (not an error) so CI passes on forks without secrets.
 
-**Affiliate links** are pure markup. `retailerLinks` in frontmatter → `RetailerLinks` / `PriceButton` components → `<a rel="noopener noreferrer nofollow">`. Every URL passes `isSafeUrl()` first.
+**Affiliate links** are pure markup. `retailerLinks` in frontmatter → `RetailerLinks` (`components/article/PriceButton.tsx`) → one equal-weight "Check price" row per retailer, tagged by `withAffiliateTag()` with `rel` from `affiliateRel()` and a commission disclosure beside the links. Rows never show prices or "lowest price" claims (Amazon Associates policy). Every URL passes `isSafeUrl()` first.
 
 ## Security posture
 

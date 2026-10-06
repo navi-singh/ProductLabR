@@ -102,9 +102,13 @@ But for RV owners, homesteaders, and serious off-grid builders who need 53.8kWh 
 
 The F3800 Plus arrives well-packaged for its 136-lb weight, with foam protection around all corners and clear documentation for initial setup.
 
+![Anker SOLIX F3800 Plus](/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle5.webp)
+
+*Anker (Manufacturer product image)*
+
 ![Anker SOLIX F3800 Plus](/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle2.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 The telescoping handle extends smoothly, and the wheels are quality — wider-base casters than you'd find on budget units, rated for the substantial weight.
 
@@ -122,7 +126,7 @@ For a 136-lb unit, it's as manageable as it can realistically be.
 
 ![Anker SOLIX F3800 Plus](/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle3.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 More practically: you can pull significant power from panels while simultaneously running loads.
 
@@ -160,7 +164,7 @@ Testing with a 3,000W panel array under 85% efficiency conditions (realistic for
 
 ![Anker SOLIX F3800 Plus](/images/posts/portable-power-stations/anker_solix_f3800_plus/anker_solix_f3800_plus_angle4.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 Full recharge from 20% took approximately 2 hours under these conditions.
 

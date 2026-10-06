@@ -116,6 +116,10 @@ LDAC support is the specification that most surprises at this price. With an And
 
 The Q45's adaptive ANC system offers six preset levels — from minimal to maximum — which can be adjusted in the Soundcore app or cycled through via button. At maximum, independent measurements put low-frequency noise reduction (HVAC, train rumble, airplane cabin roar) at approximately 15–20 dB — meaningful attenuation, but 8–12 dB short of the Sony XM5 and Bose QC45 at their best.
 
+![Anker Soundcore Space Q45](/images/posts/headphones/anker_soundcore_q45/anker_soundcore_q45_angle5.webp)
+
+*Anker Innovations / Anker Soundcore (Manufacturer product image)*
+
 In practical terms:
 - Train and subway noise is noticeably reduced, to the point where music at moderate volume plays cleanly without raising the volume to uncomfortable levels
 - Office HVAC and ambient chatter are reduced but not eliminated — the environment becomes more comfortable, not silent

@@ -83,17 +83,29 @@ Put plainly, this is a premium price for the shortest-lived chemistry in its cla
 
 This is the single most important thing to understand before spending $4,999, and it is the thing the spec sheet's "Li-ion" label quietly glosses over. The Yeti 6000X uses nickel-based lithium (NMC) cells. Those cells are typically rated for on the order of 500 full charge cycles before they fade toward 80% of their original capacity. The LiFePO4 packs in competing stations are generally rated for thousands of cycles — often 3,000 or more — to reach the same point. That is not a rounding difference; it is a six-fold gap in usable lifespan.
 
+![Goal Zero Yeti 6000X](/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle3.webp)
+
+*Goal Zero (Manufacturer product image)*
+
 Translate it into ownership. Cycle an NMC pack heavily and you can wear through its rated life in a couple of years; a LiFePO4 rival cycled the same way keeps going for the better part of a decade. Calendar aging affects both, but the cycle math alone means the most expensive station in this group is also the one most likely to need replacement first. When a LiFePO4 competitor costs a thousand dollars less and lasts several times longer, the Yeti's chemistry is not a footnote — it is the review.
 
 ## Output That Doesn't Match the Battery
 
 The second problem is proportion. A 6,071Wh battery paired with only a 2,000W inverter is a giant tank feeding a narrow spout. Two thousand watts is enough for electronics, lighting, a fridge, a coffee maker in a pinch, and small appliances, but it cannot start the heavy motor loads that define serious home backup. A large well pump, a central-air compressor, many 1,500W-plus power tools at startup — these are out of reach. And because the unit produces only 120V, there is no split-phase 240V output at all, which rules out 240V appliances and standard whole-home panel backup.
 
+![Goal Zero Yeti 6000X](/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle4.webp)
+
+*Goal Zero (Manufacturer product image)*
+
 So you have a station with the endurance for a multi-day outage but not the muscle to run the demanding loads a multi-day outage often involves. If your plan is to keep a fridge, lights, and devices alive for a long time, that mismatch may not bother you. If you imagined this big battery running your pump or your air conditioning, it will not.
 
 ## Real-World Runtime
 
 To be fair, the one place the Yeti 6000X delivers is raw endurance for light loads. After inverter conversion losses of roughly 10–15%, plan on about 5,400–5,500Wh reaching your outlets. Apply that to a refrigerator, which cycles its compressor rather than running it constantly: a fridge drawing 150W while running averages closer to 50W over a full hour. Divide 50W into about 5,460 usable watt-hours and you get on the order of 105 to 110 hours of fridge operation — roughly four and a half days on a single charge. That is a real strength, and no one should pretend otherwise.
+
+![Goal Zero Yeti 6000X](/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle5.webp)
+
+*Goal Zero (Manufacturer product image)*
 
 Broaden to a light essentials load — fridge, Wi-Fi, phones, LED lighting, a fan — averaging perhaps 150–200W, and the pack still carries you somewhere in the range of 27 to 36 hours, well over a day. For the specific job of quietly powering low-draw gear for a long stretch, the capacity does exactly what the number promises.
 
@@ -103,7 +115,7 @@ At 106 pounds the Yeti 6000X is not portable in any everyday sense. Goal Zero of
 
 ![Goal Zero Yeti 6000X](/images/posts/portable-power-stations/goal_zero_yeti_6000x/goal_zero_yeti_6000x_angle2.webp)
 
-*Goal Zero / Goal Zero (Manufacturer product image)*
+*Goal Zero (Manufacturer product image)*
 
 The app is a bright spot. Over Bluetooth and Wi-Fi it reports state of charge, input and output, and lets you manage the unit remotely, which suits a station that mostly sits in one place. The system also expands with Goal Zero's Tank battery modules if you want even more capacity, though adding storage to a platform with these chemistry and output limits is a questionable place to keep investing.
 

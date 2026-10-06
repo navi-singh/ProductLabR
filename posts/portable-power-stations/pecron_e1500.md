@@ -81,6 +81,10 @@ gallery:
 
 The Pecron E1500LFP is not a sleek lifestyle accessory. It is a roughly 40lb power box with a 1,536Wh battery, a 2,200W inverter, a high solar-input ceiling, and enough ports for camping, vehicle work, and short outage backup. That plainness is part of the appeal. The E1500 concentrates on energy storage and connection options instead of trying to win a design contest.
 
+![Pecron E1500LFP shown with two expansion batteries behind it](/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
+
 The more important story is the gap between its headline surge number and its tested behavior. Pecron advertises a 4,400W surge rating, but The Solar Lab reported that its test unit shut down when pushed beyond the 2,200W continuous rating. The E1500 can still be a good value, especially at Pecron's current official price, but it should be bought as a 2,200W station rather than as a 4,400W motor-starting solution.
 
 Pecron's official product record lists the E1500LFP as created and published on **June 16, 2023**. That is the clearest primary-source launch date I found for this product listing; the discovery review's publication date is not being used as launch evidence. In 2026, this is an older design with a current listing, so the question is whether its capacity, expansion path, and charging hardware still justify its compromises.
@@ -91,7 +95,7 @@ The E1500's physical design favors protection over polish. The Solar Lab describ
 
 ![Pecron E1500LFP front view with three folding solar panels](/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 At 18kg, or about 40lb, it is portable in the car-camping sense rather than the backpacking sense. One person can move it between a vehicle and a campsite, but repeated long carries will quickly become tiresome. The weight is a reminder that 1,536Wh is a meaningful amount of stored energy, not a large power bank that belongs in a daypack.
 
@@ -104,6 +108,10 @@ One usability quirk matters in daily ownership: The Solar Lab reported that the 
 ## Battery Capacity and Charging
 
 The 1,536Wh LiFePO4 battery is the E1500's durable foundation. Pecron rates it for more than 3,500 cycles to 80% capacity. That is a manufacturer claim, not a promise that every battery will achieve the number under every temperature and charging pattern, but LiFePO4 is the right chemistry for a station expected to be cycled regularly. It is a better fit for repeated camping, van work, and scheduled backup than a small emergency-only pack.
+
+![Pecron E1500LFP paired with stacked expansion batteries in front view](/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 The 1,000W maximum solar input is unusually strong for this capacity. In ideal sunlight, that ceiling gives the E1500 a realistic path to recovering a substantial portion of its battery during the day. Actual output will depend on panel orientation, shade, temperature, and the array's electrical characteristics. The ceiling is valuable because it leaves room for a serious panel setup; it is not a guarantee of 1,000W on a cloudy afternoon.
 
@@ -119,7 +127,7 @@ The E1500's 2,200W pure-sine inverter is sufficient for many ordinary portable-p
 
 ![Pecron E1500LFP front view with one folding solar panel](/images/posts/portable-power-stations/pecron_e1500/pecron_e1500_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The limitation is surge behavior. Pecron's 4,400W figure sounds like generous headroom for compressors, vacuums, and power tools. The Solar Lab found otherwise: when its load moved beyond 2,200W, the station shut down rather than delivering a useful surge. That does not mean every appliance will fail to start, but it means the surge number should not drive a purchase decision. If a refrigerator, pump, air conditioner, or tool has a difficult startup, measure its real demand or choose a station with independently demonstrated surge performance.
 

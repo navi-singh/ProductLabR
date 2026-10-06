@@ -96,7 +96,7 @@ The G Pro X Superlight 2 is, by deliberate design, an exercise in restraint. The
 
 ![Logitech G Pro X Superlight 2](/images/posts/gaming/logitech_g_pro_x_superlight_2/logitech_g_pro_x_superlight_2_angle2.jpg)
 
-*Logitech / Logitech (Manufacturer product image)*
+*Logitech (Manufacturer product image)*
 
 What Logitech chose to invest in instead is structural integrity at low mass. The Superlight 2 weighs 60 grams on a postal scale — a figure that places it among the lightest full-sized wireless mice ever produced. Unlike the honeycomb-shell mice that achieved similar weights through material removal, the Superlight 2 achieves its weight target through material selection and density optimization while maintaining a completely solid, hole-free exterior. There are no structural flex points, no panel gaps, and no creaking under firm grip pressure.
 
@@ -110,7 +110,7 @@ The HERO 2 sensor is the technical core of the Superlight 2, and it represents a
 
 ![Logitech G Pro X Superlight 2](/images/posts/gaming/logitech_g_pro_x_superlight_2/logitech_g_pro_x_superlight_2_angle3.jpg)
 
-*Logitech / Logitech (Manufacturer product image)*
+*Logitech (Manufacturer product image)*
 
 In practical terms, the HERO 2's zero-smoothing behavior is what matters most to competitive players. Sensors that apply smoothing introduce micro-delays and artificiality to cursor movement that can be perceived as "floaty" or imprecise during fast flick shots or micro-adjustments. The Superlight 2's sensor tracks faithfully at all sensitivity settings — from low 400 DPI configurations favored by CS2 professionals to higher 1600–3200 DPI settings used in faster-paced tactical shooters — without introducing the positional artifacts that plague cheaper optical sensors.
 
@@ -121,6 +121,10 @@ Mouse pad surface compatibility is broad. Reviewers report the HERO 2 tracks con
 ## Wireless & Battery
 
 LIGHTSPEED wireless is Logitech's 2.4GHz proprietary wireless protocol, and it has set the benchmark for wireless gaming peripherals since its introduction. The Superlight 2's LIGHTSPEED implementation targets sub-1ms wireless latency — matching or exceeding wired USB at most polling rates — and independent reviews generally report no perceptible responsiveness difference between wired and wireless modes.
+
+![Logitech G Pro X Superlight 2](/images/posts/gaming/logitech_g_pro_x_superlight_2/logitech_g_pro_x_superlight_2_angle5.jpg)
+
+*Logitech (Manufacturer product image)*
 
 The Superlight 2 introduces support for 2000Hz polling, which doubles the standard 1000Hz report rate and theoretically reduces maximum input latency to 0.5ms. The practical significance of 2000Hz depends on your system's ability to process updates at that frequency — you'll need a reasonably modern CPU and a game that benefits from sub-millisecond input processing. Critically, 2000Hz wireless operation requires the Logitech Powerplay charging mat, which wirelessly charges the mouse during play and handles the higher-frequency communication. Without a Powerplay mat, the mouse operates at 1000Hz wireless.
 
@@ -134,7 +138,7 @@ Logitech G HUB is the software layer for the Superlight 2, and it's the most cap
 
 ![Logitech G Pro X Superlight 2](/images/posts/gaming/logitech_g_pro_x_superlight_2/logitech_g_pro_x_superlight_2_angle4.jpg)
 
-*Logitech / Logitech (Manufacturer product image)*
+*Logitech (Manufacturer product image)*
 
 Onboard memory stores up to 5 profiles directly in the mouse, which means your settings persist when moving to a different machine — a critical feature for tournament players who can't rely on having G HUB installed on competition PCs.
 

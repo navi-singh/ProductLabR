@@ -130,9 +130,13 @@ carry it upstairs one-handed. At 91.5 pounds it is heavier than the F2600 by rou
 pounds and heavier than most rivals in its capacity tier, though the wheels make flat
 transitions between a garage, a driveway and a vehicle tailgate manageable for one person.
 
+![Anker SOLIX F3000](/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle4.webp)
+
+*Anker (Manufacturer product image)*
+
 ![Anker SOLIX F3000](/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle2.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 The construction signal that matters most is not the chassis but the certification. Anker
 lists the F3000 as UL9540 certified — the standard for energy-storage systems, covering the
@@ -163,9 +167,13 @@ essentially any household motor — a well pump, a large compressor, a table saw
 hesitation that a thin surge margin introduces. For a unit meant to back a home rather than
 a campsite, that headroom is exactly the right specification to prioritise.
 
+![Anker SOLIX F3000](/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle5.webp)
+
+*Anker (Manufacturer product image)*
+
 ![Anker SOLIX F3000](/images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_angle3.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 Capacity behaves the way LiFePO4 capacity always does. The 3,072Wh nameplate becomes
 roughly 2,600 to 2,750Wh at the outlet after inverter conversion losses, and it scales

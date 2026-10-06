@@ -70,6 +70,10 @@ gallery:
 
 Nikon did something unusual with the Z6 III: it put a partially-stacked sensor in a mid-priced full-frame body, a design that sits between the ordinary sensor in the older Z6 II and the fully stacked chip in the flagship Z8. The payoff is speed. Faster readout means 6K RAW recorded internally, 4K up to 120p, 20 frames per second of RAW stills, and much less rolling-shutter distortion than a conventional 24-megapixel camera. For $2,499, a hybrid shooter gets video and burst capabilities that recently belonged to bodies costing far more.
 
+![Nikon Z6 III](/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_angle3.jpg)
+
+*昼落ち / Wikimedia Commons (CC0)*
+
 The catch arrived almost immediately, and it became one of the more heated camera debates of its year: the partially-stacked design appears to give up a little dynamic range at base ISO compared with the older Z6 II. That is a real tradeoff, and I will not wave it away. But it is also narrower in practice than the online reaction implied, and for most of the people this camera targets, the speed is worth the small cost. This review is about whether that tradeoff fits you.
 
 ## Build, viewfinder, and controls
@@ -86,11 +90,19 @@ The standout piece of hardware is the viewfinder. Nikon fitted a 5.76-million-do
 
 The Z6 III inherits the subject-detection autofocus developed for the Z8 and Z9, and it is a large step up from the Z6 II. It recognizes people, animals, birds, and vehicles, holds eye focus tenaciously, and tracks moving subjects with a reliability that makes the camera feel modern. It is not flawless in the most chaotic scenes, where the very best Sony and Canon systems still edge ahead, but for weddings, events, wildlife, and general fast shooting it delivers a high keeper rate.
 
+![Nikon Z6 III](/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_angle4.jpg)
+
+*昼落ち / Wikimedia Commons (CC0)*
+
 Speed is the whole reason this sensor exists. Twenty frames per second in RAW with the electronic shutter, up to 120 frames per second at reduced resolution for JPEGs, and greatly reduced rolling shutter thanks to the quicker readout — this is a camera that can chase action a Z6 II would fumble. The in-body stabilization is rated around 8 stops, among the strongest available, and it makes handheld low-light stills and stabilized handheld video genuinely practical.
 
 ## The dynamic range controversy, honestly
 
 Let's address the argument directly, because it is the single most discussed thing about this camera. Independent testing at Photons to Photos measured the Z6 III's base-ISO dynamic range roughly two-thirds of a stop to about a stop behind the older Z6 II. The partially-stacked sensor, to achieve its speed, appears to sacrifice a slice of the deep-shadow latitude that made the Z6 II a landscape darling. That is a real, measurable regression at base ISO, and if your work involves extreme shadow recovery from a single low-ISO exposure — landscape photographers pulling five stops out of a foreground — you have a legitimate reason to pause.
+
+![Nikon Z6 III](/images/posts/cameras/nikon_z6_iii/nikon_z6_iii_angle5.jpg)
+
+*昼落ち / Wikimedia Commons (CC0)*
 
 Now the context. The gap narrows and effectively disappears as you raise ISO, so for event, wedding, wildlife, and video shooters working above base ISO, it rarely matters. In normal exposures with reasonable technique, you will not see it in a print. It is a genuine tradeoff aimed at a specific use case, not a broken camera. The reaction was louder than the effect. Know which shooter you are: if you are a base-ISO shadow-puller, weigh it seriously; if you are almost anyone else, the speed you gain is the better deal.
 

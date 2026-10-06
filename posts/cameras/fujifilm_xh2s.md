@@ -70,6 +70,10 @@ gallery:
 
 Fujifilm built the X-H2S to argue that a crop sensor can chase professional action, and for the most part the argument holds. The heart of it is a 26.1-megapixel stacked X-Trans sensor — the first stacked chip Fujifilm shipped in an APS-C body — and stacking is what buys the speed: up to 40 frames per second with the electronic shutter, blackout-free, with autofocus and exposure tracking between frames. That is a spec that a few years ago belonged to cameras costing three times as much. At $2,499 the X-H2S asks you to accept a smaller sensor in exchange for speed, video muscle, and a lighter kit.
 
+![Fujifilm X-H2S](/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_angle3.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 The trade is real and it cuts both ways. This is not the camera for someone who shoots weddings in dim churches and wants the cleanest possible high-ISO files, and it is not the camera for a photographer chasing shallow depth of field on a budget. It is a sports, wildlife, and hybrid-video tool. Understand what a crop sensor gives up before you fall for the frame rate.
 
 ## Handling, build, and the DSLR-style design
@@ -86,11 +90,19 @@ Fujifilm also finally fixed a longstanding gripe: the NP-W235 battery is rated f
 
 The 40-frame-per-second burst is not marketing theater; the stacked sensor's fast readout also suppresses rolling-shutter skew, so electronic-shutter shooting of moving subjects holds its geometry far better than an unstacked APS-C camera would. Buffer depth with a good CFexpress card runs into the hundreds of frames, deep enough that a long sequence at a track meet won't stall you. Mechanical shutter tops out around 15 frames per second for those who want it.
 
+![Fujifilm X-H2S](/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_angle4.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 Autofocus took a real leap here. Fujifilm's subject-detection system, trained with deep-learning, recognizes animals, birds, cars, bikes, and aircraft in addition to faces and eyes, and it tracks them with a confidence earlier X bodies never had. It is very good. It is not quite Sony or Canon at the absolute cutting edge — in cluttered scenes it can hunt or hand off a subject a beat slower than the class leaders — but for the overwhelming majority of wildlife and sports work it delivers keepers at a high rate.
 
 ## Where the crop sensor draws the line
 
 Here is the blunt part. A 26.1-megapixel APS-C sensor gathers less light than a full-frame chip, and no amount of processing repeals physics. Push past ISO 6400 and noise builds noticeably faster than it would on a full-frame body; by ISO 12800 you are managing grain, not ignoring it. For dim receptions, indoor sports under bad lighting, or astro work, a full-frame camera at the same price will simply give you cleaner files. The X-H2S is best fed light — bright daylight sports, well-lit action, wildlife in the open. Put a number on it: the 26.1-megapixel sensor measures about 23.5 x 15.6mm, roughly 40% the area of a 36 x 24mm full-frame chip, and that surface-area gap is exactly the light you leave on the table after dark. The 1.5x crop factor also reframes your lenses — a 50mm behaves like a 75mm equivalent — which helps reach for wildlife but works against you when you want a genuinely wide, fast field of view.
+
+![Fujifilm X-H2S](/images/posts/cameras/fujifilm_xh2s/fujifilm_xh2s_angle5.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 There is a second wrinkle worth naming: X-Trans demosaicing. Fujifilm's unconventional color-filter array can trip up Adobe Lightroom and Camera Raw, producing smeary, watercolor-like artifacts on fine foliage and feather detail at high magnification. Capture One and Fujifilm's own processing handle X-Trans files more gracefully, and recent Adobe versions have improved, but if you are a Lightroom loyalist who pixel-peeps landscapes, this quirk is real and you should test it with your own workflow.
 

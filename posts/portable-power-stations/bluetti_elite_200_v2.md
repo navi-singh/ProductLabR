@@ -105,9 +105,13 @@ Whether it wins overall depends on how much you value software polish and outlet
 
 The Elite 200 V2 is a substantial unit at 53.4 lbs — noticeably heavier than the Anker SOLIX C2000 Gen 2 at 42 lbs.
 
+![Bluetti Elite 200 V2](/images/posts/portable-power-stations/bluetti_elite_200_v2/bluetti_elite_200_v2_angle5.webp)
+
+*BLUETTI (Manufacturer product image)*
+
 ![Bluetti Elite 200 V2](/images/posts/portable-power-stations/bluetti_elite_200_v2/bluetti_elite_200_v2_angle2.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 The build feels solid and purposeful.
 
@@ -129,7 +133,7 @@ At 94% efficiency, a typical 2,073Wh charge loses only about 124Wh to heat.
 
 ![Bluetti Elite 200 V2](/images/posts/portable-power-stations/bluetti_elite_200_v2/bluetti_elite_200_v2_angle3.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 At 87% efficiency (a common competitor figure), the same charge loses roughly 270Wh.
 
@@ -193,7 +197,7 @@ Testing at 200W constant load: 94.2% measured efficiency.
 
 ![Bluetti Elite 200 V2](/images/posts/portable-power-stations/bluetti_elite_200_v2/bluetti_elite_200_v2_angle4.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 Testing at 800W constant load: 92.8% efficiency (slight decrease at higher load, as expected).
 

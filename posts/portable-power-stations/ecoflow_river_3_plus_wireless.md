@@ -89,6 +89,10 @@ use it away from a wall: the wireless bundle pairs the station with a detachable
 magnetic 5,000mAh power bank that can travel with your phone while the main station
 stays in the car, tent, or campsite.
 
+![EcoFlow RIVER 3 Plus Wireless top view showing the wireless charging dock](/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle5.webp)
+
+*EcoFlow product page (Manufacturer product image)*
+
 That is a better idea than it sounds. A conventional small power station is often
 overkill for the most common outdoor job, which is topping up a phone while people
 are walking around. Pulling a cable from the station works, but it leaves the bulky
@@ -118,7 +122,7 @@ while the small magnetic pack follows the person who needs a charge.
 
 ![EcoFlow RIVER 3 Plus Wireless stacked with extra battery and charger](/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle3.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 The main unit offers 7 outlets in total, including 3 AC outlets, USB ports, and a
 12V car outlet. EcoFlow says all 3 AC outlets receive UPS protection. That layout
@@ -148,7 +152,7 @@ connected device.
 
 ![EcoFlow RIVER 3 Plus Wireless rear outlet panel and top charger](/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle4.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 EcoFlow also advertises X-Boost up to 1,200W. Treat that as a compatibility mode,
 not as a 1,200W inverter. X-Boost can let some resistive appliances operate by
@@ -178,6 +182,10 @@ a wire-free connection. That is a more meaningful upgrade than the wireless pack
 The magnetic battery improves convenience; the expansion batteries improve runtime.
 If the purchase is meant for multi-day camping or longer outages, budget for the
 larger battery rather than assuming the phone accessory changes the station's class.
+
+![EcoFlow RIVER 3 Plus Wireless angled front view with charging pad](/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle2.webp)
+
+*EcoFlow product page (Manufacturer product image)*
 
 EcoFlow lists a 5-year warranty and describes the LiFePO4 battery as lasting more
 than 10 years before falling to 80% capacity. Those are manufacturer claims, not an

@@ -92,6 +92,10 @@ At $199, it commands a significant premium over keyboards with traditional mecha
 
 The OmniPoint 2.0 switch is a Hall Effect magnetic sensor, not a traditional mechanical switch. Instead of a physical contact that closes a circuit at a fixed actuation point, the switch uses a magnet passing a sensor to detect position continuously throughout its travel. This architecture enables two capabilities that traditional mechanical switches cannot replicate: per-key adjustable actuation and Rapid Trigger.
 
+![SteelSeries Apex Pro](/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle5.png)
+
+*SteelSeries (Manufacturer product image)*
+
 **Adjustable actuation** works exactly as advertised. Using SteelSeries Engine software, every key on the board can be independently configured to any actuation point between 0.1mm and 4.0mm. In practice, the most common configuration is setting movement keys (WASD) to 0.4–0.8mm for the fastest possible input registration while setting the rest of the board to 1.5–2.0mm to preserve deliberate keystroke feedback. At 0.1mm, the switch will register from the slightest touch — genuinely hair-trigger. At 4.0mm, it requires full depression to actuate, effectively eliminating accidental inputs from resting fingers.
 
 **Rapid Trigger** is the secondary advantage enabled by continuous position sensing. Traditional mechanical switches have debounce delays — a brief pause after actuation that prevents multiple registrations from switch bounce. These delays (typically 5–10ms) also delay reset recognition. Rapid Trigger eliminates this: the switch resets as soon as it physically rises 0.1mm from its actuation point, rather than waiting for full reset. In practice, this means faster repeated keypresses in scenarios like strafing, bunny hopping, or rapid spell casting — and it's genuinely detectable in competitive play.
@@ -104,7 +108,7 @@ The 8000Hz polling rate is the Apex Pro's headline gaming specification. Standar
 
 ![SteelSeries Apex Pro](/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle2.jpg)
 
-*SteelSeries / SteelSeries (Manufacturer product image)*
+*SteelSeries (Manufacturer product image)*
 
 Combined with Rapid Trigger and per-key sub-millimeter actuation, the Apex Pro delivers input-to-registration latency that is measurably lower than any traditional mechanical switch keyboard in controlled testing. For competitive FPS titles, the combination of 0.4mm actuation on movement keys and 0.1mm reset on Rapid Trigger creates a strafe-switching speed that cannot be replicated on conventional hardware.
 
@@ -116,7 +120,7 @@ The aluminum alloy top plate is immediately perceptible — there is no flex, no
 
 ![SteelSeries Apex Pro](/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle3.jpg)
 
-*SteelSeries / SteelSeries (Manufacturer product image)*
+*SteelSeries (Manufacturer product image)*
 
 The keycap set uses double-shot PBT construction with legends that are crisp, well-centered, and resistant to the shine and legend fade that affects ABS keycaps after extended use. The included USB-C cable is braided and detachable, which simplifies cable management and means the entire cable can be swapped without keyboard replacement if it sustains damage.
 
@@ -128,7 +132,7 @@ The per-key PRISM RGB system delivers accurate, even illumination across all 87 
 
 ![SteelSeries Apex Pro](/images/posts/gaming/steelseries_apex_pro/steelseries_apex_pro_angle4.jpg)
 
-*SteelSeries / SteelSeries (Manufacturer product image)*
+*SteelSeries (Manufacturer product image)*
 
 The OLED Smart Display is a 128x40 pixel screen positioned in the upper right of the keyboard. Out of the box it shows volume level and selected profile. With SteelSeries Engine configuration it can display Discord notifications, game-specific stats (kill count, health, ammo in integrated titles), currently playing track information, and custom GIF displays. It is genuinely useful rather than gimmicky, though configuration requires time investment to set up the integrations properly.
 

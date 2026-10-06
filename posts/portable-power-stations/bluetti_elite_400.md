@@ -97,7 +97,7 @@ The Elite 400 immediately stands out from its siblings in the Bluetti lineup: th
 
 ![Bluetti Elite 400](/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle2.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 Reviewers who have handled the Elite 200 V2 and Elite 300 consistently note that the Elite 400 feels like a different tier of construction.
 
@@ -117,7 +117,7 @@ A 2,600W continuous inverter on a 3,840Wh battery means you'll run out of invert
 
 ![Bluetti Elite 400](/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle3.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 A window AC unit at 1,400W, a refrigerator at 200W, and lights at 100W puts you at 1,700W — comfortably within range.
 
@@ -167,7 +167,7 @@ Testing on essential home circuit loads confirmed the Elite 400's runtime claims
 
 ![Bluetti Elite 400](/images/posts/portable-power-stations/bluetti_elite_400/bluetti_elite_400_angle4.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 At 300W combined draw (fridge, lights, CPAP), the unit ran 9.1 hours before reaching 10% remaining — close to the theoretical 10+ hours.
 

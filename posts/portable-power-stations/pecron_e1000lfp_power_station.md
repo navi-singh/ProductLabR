@@ -94,9 +94,13 @@ The E1000LFP is therefore a strong budget choice for camping, vehicle-based work
 
 At 29 lbs, the E1000LFP is portable without being backpacking equipment. It is a sensible size for a car trunk, campsite, or home office shelf, and the rounded enclosure is a clear step away from the industrial-looking cases on some older Pecron stations. The front layout is practical rather than luxurious: a display, physical controls, AC outlets, DC connections, and USB ports are separated well enough that ordinary plugs should not collide.
 
+![Pecron E1000LFP front view with a single folding solar panel](/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
+
 ![Pecron E1000LFP straight front view with AC and DC ports](/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 Five 120V AC outlets are the design's most useful detail. Many stations in this capacity range provide two or four, which quickly forces a power strip into the setup. The E1000LFP can run a router, laptop charger, light, fan, and small appliance without immediately turning the station into a tangle of adapters. The 12V car socket and 5A barrel connector also make more sense for camping than a station that offers only AC and USB.
 
@@ -110,7 +114,7 @@ Pecron rates the inverter at 1,800W with a 3,000W surge figure. In the Solar Lab
 
 ![Pecron E1000LFP shown with two folding solar panels behind it](/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The surge rating is the more important caveat. The same test found that a 2,200W load lasted about five seconds before the unit shut down. That is a little headroom above 1,800W, not a realistic guarantee that a 3,000W motor-starting event will succeed. It should run ordinary refrigerators, small kitchen appliances, CPAP machines, and many tools, but buyers with high-startup loads should check the appliance's actual behavior rather than relying on the headline surge number.
 
@@ -121,6 +125,10 @@ The tradeoff is idle consumption. With the AC inverter on and no load attached, 
 ## How It Compares
 
 The EcoFlow DELTA 2 is the more polished alternative for buyers who value a mature app, broad availability, and an established ecosystem. The Pecron counters with five AC outlets and a lower current list price, but EcoFlow is the safer choice when software support and accessory availability matter more than outlet count.
+
+![Pecron E1000LFP stacked on an expansion battery with front ports visible](/images/posts/portable-power-stations/pecron_e1000lfp_power_station/pecron_e1000lfp_power_station_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 The BLUETTI AC180 is another sensible comparison. It is aimed at the same general class of camping and emergency-backup jobs, with a strong display and a widely documented support ecosystem. The Pecron is easier to justify when its $399 base price holds and when five AC sockets are genuinely useful; BLUETTI is the more comfortable recommendation for shoppers who prefer a better-known platform.
 

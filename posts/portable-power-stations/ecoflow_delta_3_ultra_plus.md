@@ -104,9 +104,13 @@ For existing EcoFlow owners with expansion batteries, the backward compatibility
 
 At 74 lbs, the Delta 3 Ultra Plus requires two people for comfortable lifting.
 
+![EcoFlow Delta 3 Ultra Plus](/images/posts/portable-power-stations/ecoflow_delta_3_ultra_plus/ecoflow_delta_3_ultra_plus_angle5.webp)
+
+*EcoFlow (Manufacturer product image)*
+
 ![EcoFlow Delta 3 Ultra Plus](/images/posts/portable-power-stations/ecoflow_delta_3_ultra_plus/ecoflow_delta_3_ultra_plus_angle2.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 EcoFlow's packaging is professional-grade with adequate protection and thorough documentation.
 
@@ -126,7 +130,7 @@ The Delta 3 Ultra Plus runs two inverters in parallel by default.
 
 ![EcoFlow Delta 3 Ultra Plus](/images/posts/portable-power-stations/ecoflow_delta_3_ultra_plus/ecoflow_delta_3_ultra_plus_angle3.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 Each inverter independently manages its side of the load.
 
@@ -176,7 +180,7 @@ Testing confirmed the dual-inverter architecture working as described.
 
 ![EcoFlow Delta 3 Ultra Plus](/images/posts/portable-power-stations/ecoflow_delta_3_ultra_plus/ecoflow_delta_3_ultra_plus_angle4.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 Running 1,800W through each inverter bank simultaneously produced no interference or shared trip.
 

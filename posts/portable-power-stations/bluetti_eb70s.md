@@ -85,7 +85,7 @@ At 21.4 pounds the EB70S sits in the sweet spot for a portable: heavy enough to 
 
 ![Bluetti EB70S](/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle2.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 The front panel keeps things legible. A screen reports battery percentage, live input and output wattage, and an estimated runtime figure that updates as loads change. Ports are grouped sensibly — AC outlets, 12V DC, USB-A, USB-C, and a wireless charging pad on the top surface that is handy for topping a phone at camp. There is a built-in LED light for emergencies. Port covers suggest some thought about dust and splashes, though this is not a sealed, weatherproof unit; treat it like electronics, not a cooler.
 
@@ -94,6 +94,10 @@ One genuine annoyance: the cooling fan. It spins up whenever the unit is chargin
 ## Real-World Runtime and What It Actually Powers
 
 Capacity ratings are optimistic by nature, so start by discounting them. Pushing energy through the inverter to an AC outlet costs roughly 10–15% in conversion losses, so of the 716Wh on the label you should plan on about 610–640Wh reaching your devices. DC loads pulled straight from the USB and 12V ports lose less and get closer to the full number.
+
+![Bluetti EB70S](/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle3.webp)
+
+*BLUETTI (Manufacturer product image)*
 
 Now the appliance everyone asks about: the refrigerator. The template-spec way to answer this is wrong, so here is the real version. A mid-size fridge might draw 150W while its compressor runs, but the compressor does not run constantly — it cycles, typically at about 25–35% duty. Averaged over an hour that fridge pulls closer to 40–60W at the wall. Take the middle of that range, about 50W, and divide it into the usable 630Wh: you get roughly 11 to 14 hours of fridge operation. That is enough to protect food overnight or through a short daytime outage, not enough for a multi-day event.
 
@@ -105,9 +109,17 @@ Smaller loads are where the unit shines. Phones take about 15Wh for a full charg
 
 The single most important number after capacity is the 800W continuous output. Anything with a heating element or a big motor will trip it. A microwave, an electric kettle, a hair dryer, a coffee maker, a space heater, a toaster — none of these are viable, because they demand well over 800W the moment you switch them on. This is not a flaw so much as a category boundary: the EB70S is a small-appliance and electronics unit, full stop. If your list includes any kitchen heating device, you have already outgrown it and should look at a 1,500W-plus station.
 
+![Bluetti EB70S](/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle4.webp)
+
+*BLUETTI (Manufacturer product image)*
+
 ## Charging, Solar and Van-Life Notes
 
 Three input paths keep the EB70S flexible. Wall charging is the default and gets you from empty to full in an evening, though it will not win any speed contests. The car socket is useful for topping up on long drives, but at 12V the trickle is slow — treat it as a maintenance charge rather than a full refill. Solar is where the unit becomes genuinely off-grid capable: pair it with a folding panel and, given a clear day and the right wattage, you can offset most of a campsite's daily draw and keep the pack from running down.
+
+![Bluetti EB70S](/images/posts/portable-power-stations/bluetti_eb70s/bluetti_eb70s_angle5.webp)
+
+*BLUETTI (Manufacturer product image)*
 
 For van dwellers the DC side deserves attention. Pulling power straight from the 12V and USB-C ports skips the inverter entirely, which both saves energy and keeps the fan quieter. A 12V fridge, a laptop over USB-C, and phones on the wireless pad make a low-loss setup that the 716Wh pack can sustain for a couple of days. The moment you introduce AC appliances, efficiency drops and the fan works harder, so build your van's power plan around DC where you can and reserve the AC outlets for the things that truly need them.
 

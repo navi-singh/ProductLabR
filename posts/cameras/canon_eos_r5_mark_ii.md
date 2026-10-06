@@ -70,6 +70,10 @@ gallery:
 
 Canon took the 45-megapixel body that photographers loved in 2020 and rebuilt it around a stacked, back-illuminated sensor so it could finally keep up with fast action. That is the whole story of the R5 Mark II. The original R5 was a gorgeous stills camera saddled with a slower readout and a video mode that would tap out on heat before a ceremony ended. This second version keeps the resolution, adds the quick sensor, and borrows the Eye Control autofocus from the pro-grade R3. The buyer it courts is the person who refuses to own two bodies: someone who shoots a wedding on Saturday, a youth soccer match on Sunday, and a catalog product spread on Monday, and wants one camera that says yes to all three.
 
+![Canon EOS R5 Mark II](/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_angle3.jpg)
+
+*GodeNehler / Wikimedia Commons (CC BY-SA 4.0)*
+
 It mostly earns that ambition. But the sticker reads $4,299 body-only, which is $300 above where the first R5 arrived, and that puts it in a bracket where a Nikon Z8 undercuts it by several hundred dollars while doing much of the same work. This is not a casual upgrade. If you already own an R5 and mostly shoot portraits or landscapes, the Mark II will not transform your photos. Its case is built almost entirely on speed and on fixing old frustrations, so the question is whether those frustrations were yours.
 
 ## Build, controls, and the thermal design question
@@ -88,11 +92,19 @@ Card slots are split, one CFexpress Type B and one SD UHS-II. That mismatch is d
 
 The stacked sensor unlocks up to 30 frames per second in electronic shutter with full 45-megapixel RAW, and paired with a CFexpress card the buffer runs deep enough that you rarely think about it during a match. Rolling-shutter skew, the curse of the original R5's electronic shutter, is dramatically reduced here, so panning shots of cars or birds no longer lean like a funhouse mirror. Mechanical shutter tops out lower, around 12 frames per second, and most action shooters will simply live on the silent electronic mode.
 
+![Canon EOS R5 Mark II](/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_angle4.jpg)
+
+*GodeNehler / Wikimedia Commons (CC BY-SA 4.0)*
+
 Dual Pixel CMOS AF II with subject recognition is the reason to buy this over a cheaper Canon. It locks onto people, animals, and vehicles with the kind of tenacity that makes you trust it, and a new "Action Priority" mode for team sports tries to guess which player will receive the ball. Eye Control AF, which moves the focus point to wherever you are looking in the viewfinder, is the headline trick — and the honest caveat. When it calibrates to your eye it feels like magic; when it doesn't, it feels like a gimmick. Glasses wearers, people with strong astigmatism, and left-eye shooters report inconsistent results, and there is no guarantee it will read your eye well until you try it. Treat it as a bonus, not a reason to buy.
 
 ## Image quality and the 8K heat story
 
 At base ISO the 45-megapixel files are everything Canon's color science reputation promises: skin tones that need almost no correction, generous latitude for recovering highlights at a wedding, and enough resolution to crop hard and still print large. Dynamic range at base is very good, though a stacked sensor trades a sliver of it against a conventional design, so pixel-peepers pulling extreme shadow lifts will find marginally more noise than a non-stacked 45-megapixel chip would show. In normal use you will not notice.
+
+![Canon EOS R5 Mark II](/images/posts/cameras/canon_eos_r5_mark_ii/canon_eos_r5_mark_ii_angle5.jpg)
+
+*Dinkun Chen / Wikimedia Commons (CC BY-SA 4.0)*
 
 Video is where the Mark II settles an old score. It records 8K up to 30p and 4K up to 120p, with Canon Log 3 for grading and RAW options for people who want them. The original R5 became notorious for overheating and shutting down mid-8K; this one runs meaningfully longer thanks to the reworked heat path, and with the CF-R20EP fan grip attached it can hold long 8K takes in a way its predecessor never could. It is not thermally infinite. In a hot room, with no fan, recording 8K continuously, you can still hit a limit — just far later than before. For a wedding ceremony shot in 4K, overheating is essentially a non-issue now.
 

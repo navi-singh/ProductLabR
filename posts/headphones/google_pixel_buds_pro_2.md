@@ -102,7 +102,7 @@ Google fundamentally redesigned the Pixel Buds Pro's physical form for the secon
 
 ![Google Pixel Buds Pro 2](/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle2.png)
 
-*Google / Google Store (Manufacturer product image)*
+*Google Store (Manufacturer product image)*
 
 The new stem-free design removes the extending fin of the original, resulting in a more compact earbud that sits flush with the ear. Four silicone eartip sizes are included, along with an eartip fit test in the Pixel Buds app that measures the acoustic seal quality and recommends the optimal tip size. Reviewers generally find this guide accurate — users who selected tips based on the app's recommendation reported better seal and comfort than those who chose by visual estimation.
 
@@ -118,7 +118,7 @@ The 11mm dynamic drivers in the Pixel Buds Pro 2 produce a sound that is balance
 
 ![Google Pixel Buds Pro 2](/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle3.jpg)
 
-*Google / Google Store (Manufacturer product image)*
+*Google Store (Manufacturer product image)*
 
 The Pixel Buds app provides a five-band equalizer and preset profiles (Bass Boost, Treble Boost, Podcast, and manual EQ). The EQ range is sufficient for meaningful tuning, and the Bass Boost preset adds genuine low-frequency presence for EDM and hip-hop listeners. However, the absence of LDAC or aptX means the codec ceiling is AAC — and while AAC at 256 kbps is adequate for most streaming content, it falls short of the high-resolution potential offered by Sony's LDAC implementation.
 
@@ -146,7 +146,7 @@ The Google Tensor A1 chip enables the Pixel Buds Pro 2's defining feature: deep 
 
 ![Google Pixel Buds Pro 2](/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle4.jpg)
 
-*Google / Google Store (Manufacturer product image)*
+*Google Store (Manufacturer product image)*
 
 Live Translate is the most impressive AI capability in daily use. Speaking a phrase in English, the earbuds can simultaneously translate the spoken audio to a target language (over 40 supported) and play the translation through the speaker of a connected Pixel phone for the other person to hear. The bidirectional translation mode allows two people speaking different languages to have a real conversation mediated by the earbuds with impressive latency — under 1 second for common language pairs.
 
@@ -162,7 +162,7 @@ The 8-hour per-charge battery life with ANC enabled is excellent for the categor
 
 ![Google Pixel Buds Pro 2](/images/posts/headphones/google_pixel_buds_pro_2/google_pixel_buds_pro_2_angle5.jpg)
 
-*Google / Google Store (Manufacturer product image)*
+*Google Store (Manufacturer product image)*
 
 The five-minute quick charge providing 1 hour of playback is standard for the premium segment. Qi wireless charging is present, and USB-C provides wired charging. Both charging modes work as expected.
 

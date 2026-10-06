@@ -86,9 +86,13 @@ That makes the Pioneer Na+ interesting, but also a little more complicated than 
 
 BLUETTI's product page presents the Pioneer Na+ as a conventional portable power-station form factor rather than a weirding-out industrial battery block. That is a strength. This category benefits from clear, familiar ergonomics: a durable shell, obvious ports, and an upright design meant to sit in a garage, RV, cabin, or camp setup without demanding a dedicated battery cabinet. The product is designed to be practical first and dramatic second.
 
+![BLUETTI Pioneer Na+ angled front right view with DC ports](/images/posts/portable-power-stations/bluetti_pioneer_na/bluetti_pioneer_na_angle4.webp)
+
+*BLUETTI product page (Manufacturer product image)*
+
 ![BLUETTI Pioneer Na+ front panel with AC outlets and display](/images/posts/portable-power-stations/bluetti_pioneer_na/bluetti_pioneer_na_angle2.webp)
 
-*BLUETTI / BLUETTI product page (Manufacturer product image)*
+*BLUETTI product page (Manufacturer product image)*
 
 The standout design decision is the sodium-ion battery chemistry rather than size or flashy features. In a category crowded with lithium-iron-phosphate (LiFePO4) devices, sodium-ion is the differentiator. BLUETTI is telling buyers that this is not just another 900Wh unit but a deliberately colder-weather-focused one. In practical terms, that matters most if you camp in winter, keep gear in an unheated shed, or need a power source that stays stable when the temperatures swing hard.
 
@@ -100,7 +104,7 @@ The Pioneer Na+ is positioned as a flexible, mid-range portable station rather t
 
 ![BLUETTI Pioneer Na+ straight front view on gray background](/images/posts/portable-power-stations/bluetti_pioneer_na/bluetti_pioneer_na_angle3.webp)
 
-*BLUETTI / BLUETTI product page (Manufacturer product image)*
+*BLUETTI product page (Manufacturer product image)*
 
 The most important performance claim is cold-weather operation. BLUETTI says the unit can deliver power down to -25°C and that charging remains safe at -15°C. For most buyers, that is not just a niche feature. It is a genuine differentiator if you live in an area with winter camping, cold-weather RV travel, or seasonal cabin use. In the portable power world, cold tolerance is often one of the first real-world constraints people run into, and this product is clearly trying to address it head-on.
 
@@ -111,6 +115,10 @@ If BLUETTI's claims are accurate, the Pioneer Na+ fits a very specific buyer pro
 ## Comparison to the Field
 
 The Pioneer Na+ is best compared with mid-range portable power stations that stress portability and flexibility rather than maximum home-backup capacity. The direct nearest comparison is with established lithium-based units such as the Jackery Explorer 1000, the EcoFlow River 2 Pro, and the Anker Solix C1000. Those products are familiar, well-documented, and easy to compare side by side.
+
+![BLUETTI Pioneer Na+ rear panel with ventilation and input ports](/images/posts/portable-power-stations/bluetti_pioneer_na/bluetti_pioneer_na_angle5.webp)
+
+*BLUETTI product page (Manufacturer product image)*
 
 The gap is not necessarily capacity. The Pioneer Na+ does not dominate the market on raw numbers; its 900Wh capacity is respectable but not class-leading. The advantage is chemistry and cold-weather capability. In a category where many units become less reliable or less efficient when they get cold, BLUETTI is effectively arguing that sodium-ion matters. If the outdoor-use use case is real, the Pioneer Na+ becomes more compelling than a standard lithium unit with the same ballpark capacity.
 

@@ -103,9 +103,13 @@ But if raw specifications and value per dollar matter most, the E3800 is impossi
 
 The E3800 arrives in utilitarian packaging â€” adequate protection without the premium unboxing theater of Anker or EcoFlow.
 
+![Pecron E3800](/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle5.webp)
+
+*Pecron (Manufacturer product image)*
+
 ![Pecron E3800](/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle2.webp)
 
-*Pecron / Pecron (Manufacturer product image)*
+*Pecron (Manufacturer product image)*
 
 At 87 lbs, it requires two people to move; built-in wheels handle the job once out of the box.
 
@@ -127,7 +131,7 @@ Dual 1,500W solar ports accept two independent panel arrays.
 
 ![Pecron E3800](/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle3.webp)
 
-*Pecron / Pecron (Manufacturer product image)*
+*Pecron (Manufacturer product image)*
 
 This is useful for mixed orientations or panel types that can't be efficiently series-combined.
 
@@ -187,7 +191,7 @@ Testing with a 2,800W panel array under variable cloud conditions showed 2,400â€
 
 ![Pecron E3800](/images/posts/portable-power-stations/pecron_e3800/pecron_e3800_angle4.webp)
 
-*Pecron / Pecron (Manufacturer product image)*
+*Pecron (Manufacturer product image)*
 
 The dual independent inputs allowed mixing a 1,500W east-facing array with a 1,000W south-facing array simultaneously.
 

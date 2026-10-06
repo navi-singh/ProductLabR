@@ -85,6 +85,10 @@ I want to be direct about what this review can and cannot confirm. AllPowers doe
 
 The retail kit pairs the S2000 Pro with a 200W foldable solar panel, a combination aimed squarely at campers and off-grid buyers who want to charge from the sun on day one rather than buy a panel separately later. On paper that is a fair value proposition: a 200W panel is a meaningful charging source for a 1,451Wh battery, capable of a useful top-up across a few hours of good sun.
 
+![ALLPOWERS S2000 Pro angled side view with handle and front ports](/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_angle3.webp)
+
+*ALLPOWERS product page (Manufacturer product image)*
+
 Setup is where AllPowers earns its one clean win in this review. The Solar Lab reported that the S2000 Pro's Bluetooth button worked and that the unit paired successfully with AllPowers' companion app on the first attempt. That may sound like a low bar, but it wasn't a given: the same reviewer said neither of the two AllPowers units it tested before this one managed reliable Bluetooth pairing. Getting app connectivity right is table stakes for a modern power station, and the S2000 Pro clears it.
 
 Past that, I can't tell you much with confidence about the physical experience of owning this unit. AllPowers does not publish a weight, a set of dimensions, or a full port list in a source I can verify, and I'm not going to invent numbers to fill out a spec table. If exact port counts or the unit's weight matter to your use case — fitting it in a specific cargo space, for instance, or carrying it any real distance — confirm those figures against current retail photos and listings before you buy, because I can't vouch for them here.
@@ -95,7 +99,7 @@ This is the section that matters most, and it comes almost entirely from The Sol
 
 ![ALLPOWERS S2000 Pro straight front view showing four AC outlets](/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_angle2.webp)
 
-*ALLPOWERS / ALLPOWERS product page (Manufacturer product image)*
+*ALLPOWERS product page (Manufacturer product image)*
 
 Early results looked promising. The S2000 Pro passed initial voltage-output checks, delivering correct power to connected appliances. It also handled a surge test cleanly — a meaningful result given that the outlet's account of two prior AllPowers units described them overheating and shutting down the moment they approached a surge condition. Whatever changed in this unit's design, the surge behavior is a genuine improvement.
 
@@ -108,6 +112,10 @@ That is the core problem with this unit. An inverter rating that only holds for 
 ## Customer Support and the Three-Strikes Problem
 
 Hardware issues are one thing; how a company responds to them is another, and AllPowers didn't do itself any favors here either. As part of its evaluation, The Solar Lab sent a support inquiry from an account made to look like an ordinary customer, separate from the account it normally uses to communicate with the company. After a full week, there was no reply. When the outlet raised the silence directly with AllPowers through its own established contact, the company had no explanation. AllPowers also still has no listed phone number; email is the only channel a customer has if something goes wrong, and in this test, email didn't work either.
+
+![ALLPOWERS S2000 Pro top angle showing handle rails and front panel](/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_angle4.webp)
+
+*ALLPOWERS product page (Manufacturer product image)*
 
 Context matters here. The Solar Lab's account states this is the third AllPowers unit it has tested, following two earlier units that it says failed to meet their basic advertised specifications. After publishing those findings, the outlet reports that AllPowers asked for the videos to be removed; the outlet declined and instead offered AllPowers a chance to demonstrate a unit that performed as advertised, which is how the S2000 Pro ended up under review. The result was a partial improvement — better Bluetooth, real surge capability — undercut by the same category of problem: a headline spec that doesn't hold under real conditions. The Solar Lab's stated response is a 12-month moratorium on covering AllPowers products, calling it strike three.
 

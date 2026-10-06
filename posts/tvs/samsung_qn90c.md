@@ -138,6 +138,10 @@ Auto Game Mode (ALLM) is supported and works reliably across PlayStation, Xbox, 
 
 Tizen 7.0 is arguably the most polished smart TV platform available. The home screen layout is clean and customizable, the Universal Guide aggregates content across streaming services intelligently, and performance is snappy — the Neo Quantum Processor handles UI animations without stutter. Samsung's ambient mode, which displays artwork or information on the screen when not in active use, is a genuinely useful feature that sets it apart from the competition.
 
+![Samsung QN90C Neo QLED](/images/posts/tvs/samsung_qn90c/samsung_qn90c_angle5.webp)
+
+*Samsung Electronics / Samsung.com (AE region) (Manufacturer product image)*
+
 Voice assistant integration covers Bixby (native), Amazon Alexa, and Google Assistant. SmartThings integration allows the QN90C to serve as a hub for Samsung ecosystem devices — Galaxy phones, SmartThings sensors, compatible appliances. AirPlay 2 and Tap View for Android devices are both present.
 
 The app library is comprehensive: Netflix, Disney+, Apple TV+, Prime Video, HBO Max, Peacock, Hulu, YouTube are all available. Samsung's proprietary Samsung TV Plus provides free ad-supported content. The main criticism mirrors LG's: Samsung's home screen serves promotional content that some users find cluttered.

@@ -118,6 +118,10 @@ Samsung's 360 Audio with real-time head tracking — available on Galaxy phones 
 
 The intelligent ANC system uses three microphones per earbud in a feedforward/feedback configuration, with real-time analysis of the acoustic seal quality to dynamically adjust the ANC filter. This adaptation means the ANC performs more consistently across different ear canal shapes and eartip fit variations than fixed-filter systems.
 
+![Samsung Galaxy Buds3 Pro](/images/posts/headphones/samsung_galaxy_buds3_pro/samsung_galaxy_buds3_pro_angle5.webp)
+
+*Samsung Electronics / Samsung (Manufacturer product image)*
+
 In practical performance:
 - On metro rail and subway, engine and rail noise attenuated effectively — comparable to the AirPods Pro 2 and a narrow margin behind the Sony WF-1000XM5
 - In open offices, HVAC and ambient conversation noise reduced to background texture

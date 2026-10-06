@@ -81,7 +81,7 @@ At 32lb (14.5kg), the Explorer 1000 Plus is manageable rather than light. The we
 
 ![Jackery Explorer 1000 Plus straight front view showing display and outlets](/images/posts/portable-power-stations/jackery_1000_plus/jackery_1000_plus_angle2.webp)
 
-*Jackery / Jackery product page (Manufacturer product image)*
+*Jackery product page (Manufacturer product image)*
 
 The physical layout is straightforward. There are three 120V AC outlets, two USB-C ports rated up to 100W each, two USB-A ports rated up to 18W, and a 12V/10A car port. Three AC sockets are enough for a refrigerator, charger, and light, but a family running several small appliances will quickly want a power strip. The two high-output USB-C ports are more useful than a collection of low-wattage phone ports: they can charge modern laptops and other USB-C equipment without immediately occupying an AC outlet.
 
@@ -95,7 +95,7 @@ The 1,264.64Wh battery uses LiFePO4 chemistry, and Jackery rates it for 4,000 cy
 
 ![Jackery Explorer 1000 Plus shown with four Jackery SolarSaga panels](/images/posts/portable-power-stations/jackery_1000_plus/jackery_1000_plus_angle3.webp)
 
-*Jackery / Jackery product page (Manufacturer product image)*
+*Jackery product page (Manufacturer product image)*
 
 The 2,000W rated pure-sine inverter is the station's second major strength. Jackery lists a 4,000W surge peak, which provides starting headroom for some motors and compressors, but the surge figure is not a promise that every high-startup appliance will work. Check both running and starting wattage for a refrigerator, pump, or power tool before treating the unit as an outage solution.
 

@@ -107,9 +107,13 @@ whole RIVER line has always been built to be carried casually rather than hauled
 intent. This is a unit designed to live on a desk, ride in a footwell, or sit in a
 tent vestibule, and the physical footprint reflects that.
 
+![EcoFlow RIVER 3 Plus](/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle4.webp)
+
+*EcoFlow (Manufacturer product image)*
+
 ![EcoFlow RIVER 3 Plus](/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle2.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 That small size cuts both ways, and the port layout is where the compromise shows. The
 station carries AC, USB-A, USB-C and DC outputs, but EcoFlow's own listing does not
@@ -147,7 +151,7 @@ not the 1,200W figure, as the real budget for anything sensitive to voltage.
 
 ![EcoFlow RIVER 3 Plus](/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle3.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 Within that 600W envelope the RIVER 3 Plus covers the load it is designed for: laptops,
 phones, a monitor, a router, camp lighting, a fan, a CPAP machine overnight. EcoFlow
@@ -179,6 +183,10 @@ ports, charging fully in about 70 minutes and accepting 300W of solar. If you kn
 want more headroom out of the box and do not care about expansion, the DJI is the more
 capable single unit. The RIVER 3 Plus answers back on price and on the wire-free upgrade
 path: start at $299, add capacity only when you actually need it.
+
+![EcoFlow RIVER 3 Plus](/images/posts/portable-power-stations/ecoflow_river_3_plus/ecoflow_river_3_plus_angle5.webp)
+
+*EcoFlow (Manufacturer product image)*
 
 **vs. Bluetti Elite 100 V2 ($499, 1,024Wh).** These are not really the same purchase.
 The Bluetti holds 1,024Wh, runs an 1,800W inverter and accepts up to 1,000W of solar —

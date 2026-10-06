@@ -90,6 +90,10 @@ on — refills from empty to 80% in 89 minutes. At $1,399 it is priced to be the
 obvious default for anyone shopping this capacity band, and on the headline
 figures it earns that positioning.
 
+![EcoFlow DELTA 3 Ultra](/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle5.webp)
+
+*EcoFlow (Manufacturer product image)*
+
 What separates the DELTA 3 Ultra from a merely large battery is intent. EcoFlow
 built it to be wired into a house. It ships with two documented paths to your
 electrical panel, a companion app that watches the weather and your utility
@@ -118,7 +122,7 @@ this product lives: bolted into a home, not tossed in a truck bed.
 
 ![EcoFlow DELTA 3 Ultra](/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle2.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The lithium iron phosphate chemistry is the right call for that role. LFP runs
 cooler and tolerates a longer service life than the nickel-based chemistries
@@ -150,7 +154,7 @@ what the unit can back up during an outage.
 
 ![EcoFlow DELTA 3 Ultra](/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle3.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The recharge speed is the genuinely standout figure. EcoFlow rates a 0-80%
 refill at 89 minutes from either a wall outlet or a generator. On a 3,072Wh pack
@@ -194,7 +198,7 @@ electrician — so budget for that on top of the $1,399 sticker.
 
 ![EcoFlow DELTA 3 Ultra](/images/posts/portable-power-stations/ecoflow_delta_3_ultra/ecoflow_delta_3_ultra_angle4.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The software layer is called OASIS 3.0, and it is more ambitious than the usual
 battery-percentage app. It shows real-time battery status, but it also pulls in

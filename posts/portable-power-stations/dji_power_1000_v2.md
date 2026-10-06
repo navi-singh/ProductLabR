@@ -99,7 +99,7 @@ At 31.3 lb (14.2kg), the Power 1000 V2 is transportable but not truly light. It 
 
 ![DJI Power 1000 V2 in an outdoor campsite scene with front ports visible](/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle2.webp)
 
-*DJI / DJI product page (Manufacturer product image)*
+*DJI product page (Manufacturer product image)*
 
 The front panel is a meaningful improvement over the original. Four AC outlets give the V2 enough room for a laptop charger, lights, camera chargers, and a small appliance at the same time. There are also two USB-A ports and two USB-C ports rated at 140W each, or 280W combined. The USB-C output is useful for high-performance laptops, but the connected device and cable must support USB PD 3.1 and EPR to reach the maximum.
 
@@ -113,7 +113,7 @@ DJI rates the V2 at 2,600W continuous output under its stated laboratory conditi
 
 ![DJI Power 1000 V2 straight front view showing ports and side vent](/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle3.webp)
 
-*DJI / DJI product page (Manufacturer product image)*
+*DJI product page (Manufacturer product image)*
 
 Wall charging is the clearest performance upgrade. DJI claims 0-80% in 37 minutes and a full charge in 56 minutes. Those are controlled-condition figures, not a promise that every outlet, temperature, and battery state will reproduce the same result, but they are excellent targets for a station this size. The official product page says maximum grid input depends on battery level and temperature, so the headline rate should be treated as a peak rather than a constant.
 
@@ -127,6 +127,10 @@ Efficiency is less exceptional. DroneXL measured roughly 80% efficiency at about
 
 The V2 can accept up to 1,800W of solar input, but not directly from a normal panel connection on the main unit. DJI's 1.8kW Solar/Car Super Fast Charger can accept up to 1,200W from solar and 600W from a vehicle at the same time; other configurations use DJI's MPPT adapter module. That is powerful, but it is not simple. The adapter cost, extra wiring, and SDC-port competition are part of the purchase decision, not footnotes.
 
+![DJI Power 1000 V2 top angle showing the front control panel](/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle4.webp)
+
+*DJI product page (Manufacturer product image)*
+
 The same proprietary approach is valuable for DJI drone owners. With separately sold charging cables, DJI says selected drone batteries can charge from 10% to 95% in roughly 30 minutes, with the Inspire 3 battery listed at 28 minutes by Mashable. Those are specific ecosystem benefits that ordinary power stations cannot duplicate. They also disappear if you do not own compatible DJI aircraft.
 
 Expansion is unusually ambitious for a station this size. Up to five 2,048Wh DJI Power Expansion Battery 2000 units can raise the system's stated capacity to 11,264Wh. That makes the V2 a credible starting point for a staged backup system, although the batteries, connecting hardware, and transport solution add substantial cost and weight. It is expansion potential, not portable capacity.
@@ -134,6 +138,10 @@ Expansion is unusually ambitious for a station this size. Up to five 2,048Wh DJI
 ## DJI Power 1000 V2 vs. the alternatives
 
 **Anker SOLIX C1000 Gen 2:** The Anker is the more straightforward general-purpose choice if you want a 1kWh station with ordinary charging connections and a lower carry weight. It has five AC outlets and weighs about 25 lb, according to Mashable's comparison. The DJI counters with higher continuous output, quieter operation, faster headline charging, and native DJI drone integration. Choose Anker when solar simplicity and portability matter more than creator-focused features.
+
+![DJI Power 1000 V2 with charging cable beside the front panel](/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_angle5.webp)
+
+*DJI product page (Manufacturer product image)*
 
 **EcoFlow DELTA 3:** EcoFlow's 1,024Wh DELTA 3 is a strong alternative for buyers who want a mainstream ecosystem and conventional solar workflow. Its appeal is broad usability rather than DJI-specific charging. The Power 1000 V2 is the better fit for someone who values its quiet operation, 2,600W inverter, and expansion path; EcoFlow is easier to justify when you do not need SDC accessories.
 

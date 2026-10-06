@@ -93,6 +93,10 @@ by 216 millimetres. Pick it up and the pitch is obvious. This is the DJI Power y
 throw in a car, a camper or a hard case and forget about until the drone batteries
 run low.
 
+![DJI Power 1000 Mini](/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle5.jpg)
+
+*DJI (Manufacturer product image)*
+
 And that, once again, is the whole story. The Mini keeps the one feature that makes
 a DJI power station a DJI power station — an SDC port that fast-charges the
 company's own drone batteries — and shrinks everything else around it. For a pilot
@@ -118,7 +122,7 @@ suggests.
 
 ![DJI Power 1000 Mini](/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle2.jpg)
 
-*DJI / DJI (Manufacturer product image)*
+*DJI (Manufacturer product image)*
 
 Two design touches stand out because rivals rarely bother with them. The first is a
 retractable USB-C cable built into the chassis, rated to deliver up to 100 watts on
@@ -182,7 +186,7 @@ limitation, not a rounding error.
 
 ![DJI Power 1000 Mini](/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle3.jpg)
 
-*DJI / DJI (Manufacturer product image)*
+*DJI (Manufacturer product image)*
 
 Where the Mini is genuinely strong is uninterruptible power. DJI's documentation
 puts the UPS switchover at 0.01 seconds — 10 milliseconds — which is quick enough
@@ -227,7 +231,7 @@ instead.
 
 ![DJI Power 1000 Mini](/images/posts/portable-power-stations/dji_power_1000_mini/dji_power_1000_mini_angle4.jpg)
 
-*DJI / DJI (Manufacturer product image)*
+*DJI (Manufacturer product image)*
 
 On the software side the Mini carries Wi-Fi on 802.11 b/g/n and Bluetooth 5.0, and
 connects to the DJI Home app for remote monitoring, firmware updates and charge-rate

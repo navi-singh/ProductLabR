@@ -115,9 +115,13 @@ into the chassis rather than into a separate module inside it. The dimensions be
 first half of that claim out: at 16.4 by 12.8 by 12 inches it is a compact cube for the
 energy inside it, small enough to tuck into a closet or under a desk.
 
+![Jackery HomePower 3000](/images/posts/portable-power-stations/jackery_homepower_3000/jackery_homepower_3000_angle4.webp)
+
+*Jackery (Manufacturer product image)*
+
 ![Jackery HomePower 3000](/images/posts/portable-power-stations/jackery_homepower_3000/jackery_homepower_3000_angle2.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 The weight claim deserves more scepticism. At 59.52 pounds, the HomePower 3000 is light
 relative to the roughly 3,994Wh, 115-pound Goal Zero Yeti PRO 4000, but it is not light
@@ -146,9 +150,13 @@ hours. That is not a catastrophic gap, but it is Jackery contradicting Jackery o
 same product page, and the conservative 2.2-hour figure is the one to plan around. Wall
 input is capped at 15A on a standard 120V circuit.
 
+![Jackery HomePower 3000](/images/posts/portable-power-stations/jackery_homepower_3000/jackery_homepower_3000_angle5.webp)
+
+*Jackery (Manufacturer product image)*
+
 ![Jackery HomePower 3000](/images/posts/portable-power-stations/jackery_homepower_3000/jackery_homepower_3000_angle3.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 Solar is the weaker input path. The HomePower 3000 accepts DC through two DC8020 ports,
 combining to a maximum of 24A and 1,000W. Against a 3,072Wh battery, 1,000W of solar is
