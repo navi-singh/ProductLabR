@@ -64,6 +64,7 @@ export function getPostBySlug(slug: string): { metadata: PostMetadata; content: 
       imageCredit: matterResult.data.imageCredit,
       imageSource: matterResult.data.imageSource,
       imageLicense: matterResult.data.imageLicense,
+      imageAlt: matterResult.data.imageAlt,
       gallery: matterResult.data.gallery,
       author: matterResult.data.author,
       specs: matterResult.data.specs,

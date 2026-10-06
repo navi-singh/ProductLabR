@@ -51,6 +51,33 @@ ratingBreakdown:
       score: 7.5
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent reporting. We distinguish documented claims from analysis and do not present unperformed tests as our own."
+image: "/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "EcoFlow RIVER 3 Plus Wireless front view with magnetic charger above"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow RIVER 3 Plus Wireless stacked with extra battery and charger"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow RIVER 3 Plus Wireless rear outlet panel and top charger"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow RIVER 3 Plus Wireless top view showing the wireless charging dock"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow RIVER 3 Plus Wireless angled front view with charging pad"
 ---
 
 ## Introduction: The Wireless Feature Is the Point
@@ -89,6 +116,10 @@ emergency equipment that nobody wants to lift. The compact format is particularl
 well matched to the wireless version: the station can stay near the tent or tailgate
 while the small magnetic pack follows the person who needs a charge.
 
+![EcoFlow RIVER 3 Plus Wireless stacked with extra battery and charger](/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle3.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
+
 The main unit offers 7 outlets in total, including 3 AC outlets, USB ports, and a
 12V car outlet. EcoFlow says all 3 AC outlets receive UPS protection. That layout
 gives the station two distinct jobs. At home, it can sit beside a router, NAS, or
@@ -114,6 +145,10 @@ small electronics. EcoFlow quotes up to 35 hours for a 3W Wi-Fi router and at le
 21 minutes for a 600W desktop; those are manufacturer runtime examples, not results
 from independent testing, and actual runtime changes with conversion losses and the
 connected device.
+
+![EcoFlow RIVER 3 Plus Wireless rear outlet panel and top charger](/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_angle4.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
 
 EcoFlow also advertises X-Boost up to 1,200W. Treat that as a compatibility mode,
 not as a 1,200W inverter. X-Boost can let some resistive appliances operate by

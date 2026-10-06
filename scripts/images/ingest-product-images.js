@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 
+const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
+const sharp = require('sharp');
+
+const { IMAGE_POLICY } = require('./lib/image-policy');
 
 const ROOT = path.join(__dirname, '..', '..');
 const DEFAULT_MANIFEST = path.join(ROOT, 'data', 'product-images.json');
@@ -19,6 +23,8 @@ function parseArgs(argv) {
     manifest: DEFAULT_MANIFEST,
     dryRun: false,
     force: false,
+    slug: null,
+    category: null,
   };
 
   for (let i = 2; i < argv.length; i += 1) {
@@ -31,6 +37,12 @@ function parseArgs(argv) {
       args.dryRun = true;
     } else if (arg === '--force') {
       args.force = true;
+    } else if (arg === '--slug') {
+      args.slug = argv[i + 1];
+      i += 1;
+    } else if (arg === '--category') {
+      args.category = argv[i + 1];
+      i += 1;
     } else {
       throw new Error(`Unknown argument: ${arg}`);
     }
@@ -149,6 +161,98 @@ async function downloadImage(entry) {
   return { buffer, extension };
 }
 
+// Standardise every ingested image: WebP, capped width, no EXIF/GPS metadata
+// (sharp drops it unless asked to keep it), and stepped-down quality until the
+// file fits the page-weight budget.
+async function processImage(buffer, entry) {
+  const image = sharp(buffer, { failOn: 'error' }).rotate();
+  const { width = 0, height = 0 } = await image.metadata();
+  if (Math.max(width, height) < IMAGE_POLICY.minSourceLongEdge) {
+    throw new Error(`Image is ${width}x${height}; long edge must be >= ${IMAGE_POLICY.minSourceLongEdge}px: ${entry.sourceUrl}`);
+  }
+
+  const resized = image.resize({ width: IMAGE_POLICY.maxOutputWidth, withoutEnlargement: true });
+  let output;
+  for (const quality of [82, 74, 66, 58, 50]) {
+    output = await resized.clone().webp({ quality }).toBuffer();
+    if (output.length <= IMAGE_POLICY.targetOutputBytes) break;
+  }
+  return output;
+}
+
+const HASH_SIZE = 16;
+
+// 256-bit difference hash on the background-trimmed subject; without the trim,
+// small products on flat studio backgrounds hash nearly identically.
+async function differenceHash(input) {
+  const flat = await sharp(input).flatten({ background: '#ffffff' }).toBuffer();
+  const subject = await sharp(flat).trim({ threshold: 20 }).toBuffer().catch(() => flat);
+  const pixels = await sharp(subject)
+    .greyscale()
+    .resize(HASH_SIZE + 1, HASH_SIZE, { fit: 'fill' })
+    .raw()
+    .toBuffer();
+  let bits = '';
+  for (let row = 0; row < HASH_SIZE; row += 1) {
+    for (let col = 0; col < HASH_SIZE; col += 1) {
+      const i = row * (HASH_SIZE + 1) + col;
+      bits += pixels[i] > pixels[i + 1] ? '1' : '0';
+    }
+  }
+  return bits;
+}
+
+function hammingDistance(a, b) {
+  let distance = 0;
+  for (let i = 0; i < a.length; i += 1) if (a[i] !== b[i]) distance += 1;
+  return distance;
+}
+
+const NEAR_DUPLICATE_BITS = 24;
+const IMAGE_FILE = /\.(avif|jpe?g|png|webp)$/i;
+
+function sha256(buffer) {
+  return crypto.createHash('sha256').update(buffer).digest('hex');
+}
+
+function buildHashIndex() {
+  const root = path.join(ROOT, 'public', 'images', 'posts');
+  const index = new Map();
+  if (!fs.existsSync(root)) return index;
+  const walk = (dir) => {
+    for (const dirent of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, dirent.name);
+      if (dirent.isDirectory()) walk(full);
+      else if (IMAGE_FILE.test(dirent.name)) index.set(sha256(fs.readFileSync(full)), path.relative(ROOT, full));
+    }
+  };
+  walk(root);
+  return index;
+}
+
+async function assertNotDuplicate(output, outputDir, outputPath, hashIndex) {
+  const existing = hashIndex.get(sha256(output));
+  if (existing && path.join(ROOT, existing) !== outputPath) {
+    throw new Error(`Byte-identical to ${existing}`);
+  }
+
+  if (!fs.existsSync(outputDir)) return;
+  const hash = await differenceHash(output);
+  for (const file of fs.readdirSync(outputDir)) {
+    const full = path.join(outputDir, file);
+    if (!IMAGE_FILE.test(file) || full === outputPath) continue;
+    if (hammingDistance(hash, await differenceHash(full)) <= NEAR_DUPLICATE_BITS) {
+      throw new Error(`Near-duplicate of ${path.relative(ROOT, full)}`);
+    }
+  }
+}
+
+function findExistingRoleFile(outputDir, slug, role) {
+  if (!fs.existsSync(outputDir)) return null;
+  const file = fs.readdirSync(outputDir).find((name) => name.replace(/\.[a-z0-9]+$/i, '') === `${slug}_${role}`);
+  return file ? path.join(outputDir, file) : null;
+}
+
 function quoteYaml(value) {
   return JSON.stringify(value);
 }
@@ -197,6 +301,7 @@ function appendGalleryImage(postPath, image) {
     `    credit: ${quoteYaml(image.credit)}`,
     `    source: ${quoteYaml(image.source)}`,
     `    license: ${quoteYaml(image.license)}`,
+    ...(image.alt ? [`    alt: ${quoteYaml(image.alt)}`] : []),
   ];
 
   const galleryLineIndex = lines.findIndex((line) => /^gallery:\s*$/.test(line));
@@ -232,7 +337,7 @@ function appendGalleryImage(postPath, image) {
   );
 }
 
-async function ingestEntry(entry, index, args) {
+async function ingestEntry(entry, index, args, hashIndex) {
   assertSafeEntry(entry, index);
 
   const role = entry.role ?? 'main';
@@ -241,22 +346,33 @@ async function ingestEntry(entry, index, args) {
     throw new Error(`No review found for ${entry.category}/${entry.slug}`);
   }
 
-  const { buffer, extension } = args.dryRun
-    ? { buffer: null, extension: getExtensionFromUrl(entry.sourceUrl) ?? 'webp' }
-    : await downloadImage(entry);
-
-  const fileName = `${entry.slug}_${role}.${extension}`;
+  const fileName = `${entry.slug}_${role}.webp`;
   const outputDir = path.join(ROOT, 'public', 'images', 'posts', entry.category, entry.slug);
   const outputPath = path.join(outputDir, fileName);
   const publicPath = `/images/posts/${entry.category}/${entry.slug}/${fileName}`;
 
-  if (fs.existsSync(outputPath) && !args.force) {
-    throw new Error(`Refusing to overwrite existing file without --force: ${path.relative(ROOT, outputPath)}`);
+  // Already-ingested roles are the normal case on a re-run, not an error.
+  const existingFile = findExistingRoleFile(outputDir, entry.slug, role);
+  if (existingFile && !args.force) {
+    return { skipped: true };
   }
 
   if (!args.dryRun) {
+    await args.throttle();
+    const { buffer } = await downloadImage(entry);
+    const output = await processImage(buffer, entry);
+    await assertNotDuplicate(output, outputDir, existingFile ?? outputPath, hashIndex);
+
     fs.mkdirSync(outputDir, { recursive: true });
-    fs.writeFileSync(outputPath, buffer);
+    if (existingFile && existingFile !== outputPath) {
+      fs.unlinkSync(existingFile);
+      // Re-point gallery and inline references at the new .webp so a forced
+      // refresh never leaves the post linking to the deleted file.
+      const oldPublicPath = `/images/posts/${entry.category}/${entry.slug}/${path.basename(existingFile)}`;
+      fs.writeFileSync(postPath, fs.readFileSync(postPath, 'utf8').split(oldPublicPath).join(publicPath));
+    }
+    fs.writeFileSync(outputPath, output);
+    hashIndex.set(sha256(output), path.relative(ROOT, outputPath));
 
     if (entry.updateFrontmatter !== false) {
       if (role === 'main') {
@@ -266,6 +382,7 @@ async function ingestEntry(entry, index, args) {
           imageCredit: entry.credit,
           imageSource: entry.sourceName,
           imageLicense: entry.license,
+          ...(entry.alt ? { imageAlt: entry.alt } : {}),
         });
         fs.writeFileSync(postPath, updated);
       } else {
@@ -274,6 +391,7 @@ async function ingestEntry(entry, index, args) {
           credit: entry.credit,
           source: entry.sourceName,
           license: entry.license,
+          alt: entry.alt,
         });
       }
     }
@@ -292,7 +410,10 @@ async function main() {
   const args = parseArgs(process.argv);
   const allEntries = loadManifest(args.manifest);
   const vendoredCount = allEntries.filter(isVendored).length;
-  const entries = allEntries.filter((entry) => !isVendored(entry));
+  const entries = allEntries
+    .filter((entry) => !isVendored(entry))
+    .filter((entry) => !args.slug || entry.slug === args.slug)
+    .filter((entry) => !args.category || entry.category === args.category);
 
   if (vendoredCount > 0) {
     console.log(`Skipping ${vendoredCount} vendored entr${vendoredCount === 1 ? 'y' : 'ies'} (already in the repo, nothing to download).`);
@@ -304,14 +425,25 @@ async function main() {
     return;
   }
 
+  const hashIndex = args.dryRun ? new Map() : buildHashIndex();
   const results = [];
   const failures = [];
+  let skipped = 0;
+  let fetched = false;
+  // Space out real downloads so a large manifest does not trip Wikimedia's
+  // burst throttle.
+  args.throttle = async () => {
+    if (fetched) await sleep(2500);
+    fetched = true;
+  };
   for (let i = 0; i < entries.length; i += 1) {
-    // Space out real downloads so a large manifest does not trip Wikimedia's
-    // burst throttle.
-    if (i > 0 && !args.dryRun) await sleep(2500);
     try {
-      results.push(await ingestEntry(entries[i], i, args));
+      const result = await ingestEntry(entries[i], i, args, hashIndex);
+      if (result.skipped) {
+        skipped += 1;
+        continue;
+      }
+      results.push(result);
     } catch (error) {
       // A single stubborn URL (e.g. sustained 429s) must not abort the rest
       // of a large manifest; record it and keep going.
@@ -325,6 +457,8 @@ async function main() {
     console.log(`${action} ${result.image} -> ${result.review} (${result.source})`);
   }
 
+  if (skipped > 0) console.log(`Skipped ${skipped} entr${skipped === 1 ? 'y' : 'ies'} already on disk (use --force to refresh).`);
+
   if (failures.length > 0) {
     console.log(`\n${failures.length} entr${failures.length === 1 ? 'y' : 'ies'} failed and were skipped:`);
     for (const failure of failures) {
@@ -334,7 +468,11 @@ async function main() {
   }
 }
 
-main().catch((error) => {
-  console.error(error instanceof Error ? error.message : error);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(error instanceof Error ? error.message : error);
+    process.exit(1);
+  });
+}
+
+module.exports = { differenceHash, hammingDistance, NEAR_DUPLICATE_BITS };

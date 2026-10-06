@@ -51,6 +51,33 @@ ratingBreakdown:
       score: 8.0
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented claims from independent testing."
+image: "/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "EcoFlow RIVER 3 angled front view showing the side panel"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow RIVER 3 rear view with integrated carry handle"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow RIVER 3 straight front view with display and AC outlet"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow RIVER 3 rear side view with vent and handle"
+  - src: "/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow RIVER 3 side view showing the carry handle"
 ---
 
 ## Introduction: What the RIVER 3 Is
@@ -65,6 +92,10 @@ The RIVER 3 is best understood as a quick-to-recharge reserve for low-wattage es
 
 At 7.4 pounds, the RIVER 3 is easy to move from a desk to a car, campsite or bedside table. That matters more than a dramatic output headline for a station intended to be carried often. The compact enclosure has two 120V AC outlets, two USB-A ports, one 100W USB-C port and a 12V car outlet, giving the unit enough variety for a laptop-and-phone kit without requiring a power strip.
 
+![EcoFlow RIVER 3 rear view with integrated carry handle](/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle4.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
+
 The 100W USB-C port is the most useful connector on the front panel. It can charge many laptops and tablets without spending energy through the inverter, which avoids some conversion loss and keeps the setup tidy. The AC outlets remain useful for a charger, lamp or small monitor, but the 300W inverter is the hard ceiling for continuous AC loads.
 
 The battery uses lithium iron phosphate, or LiFePO4, chemistry. EcoFlow does not publish a model-specific cycle-life figure in the sources used here, so there is no responsible number to quote. The important buyer-level point is that LiFePO4 is the longer-lived chemistry commonly preferred in current portable stations, while the small pack remains light enough to carry casually.
@@ -74,6 +105,10 @@ The display and physical controls keep basic operation understandable: turn on t
 ## Performance and Charging
 
 The RIVER 3 stores 245Wh, but the energy available to an AC appliance is lower after inverter and system losses. Solar Lab's independent test ran a 273W load for 45 minutes, which the publication calculated as roughly 83% efficiency. That is a respectable result for a small station, and it gives a more useful picture than treating 245Wh as a promise of 245 watt-hours at the wall outlet.
+
+![EcoFlow RIVER 3 straight front view with display and AC outlet](/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle2.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
 
 The 300W inverter is enough for a laptop, monitor, router, camera chargers, lights and many small fans. It is not enough for most kettles, hair dryers, induction cookers or power tools. EcoFlow's X-Boost mode advertises up to 600W, but that figure should not be confused with a 600W clean-output inverter. X-Boost manages the load by reducing voltage so some higher-rated resistive appliances can operate at reduced power. A device may run, but not at the performance it gets from a wall outlet. Sensitive electronics should be kept on the normal 300W budget.
 

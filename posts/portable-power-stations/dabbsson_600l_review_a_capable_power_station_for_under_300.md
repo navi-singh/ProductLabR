@@ -41,6 +41,33 @@ ratingBreakdown:
       score: 8.8
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+image: "/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_main.webp"
+productImage: "/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_main.webp"
+imageCredit: "Dabbsson"
+imageSource: "Dabbsson product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Dabbsson 600L three-quarter front view showing display and handle"
+gallery:
+  - src: "/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle2.webp"
+    credit: "Dabbsson"
+    source: "Dabbsson product page"
+    license: "Manufacturer product image"
+    alt: "Dabbsson 600L front panel with display light and AC outlets"
+  - src: "/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle3.webp"
+    credit: "Dabbsson"
+    source: "Dabbsson product page"
+    license: "Manufacturer product image"
+    alt: "Dabbsson 600L rear side view with charging input panel"
+  - src: "/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle4.webp"
+    credit: "Dabbsson"
+    source: "Dabbsson product page"
+    license: "Manufacturer product image"
+    alt: "Dabbsson 600L angled side view with front outlets visible"
+  - src: "/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle5.webp"
+    credit: "Dabbsson"
+    source: "Dabbsson product page"
+    license: "Manufacturer product image"
+    alt: "Dabbsson 600L paired with a folding solar panel"
 ---
 
 ## Introduction
@@ -55,6 +82,10 @@ The headline specification is 768Wh, with 600W of continuous AC output and a 900
 
 The 600L's physical design is one of its best arguments. At 17.6 pounds, it is light enough to move from a closet to a car or campsite without planning around the lift. The integrated handle keeps the footprint simple, and The Solar Lab's review describes a sturdy housing, rubber feet, protruding buttons, and a cover for the 12V outlet. Those are modest details, but they are exactly the details that separate a station you use regularly from one that stays boxed until the next storm.
 
+![Dabbsson 600L front panel with display light and AC outlets](/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle2.webp)
+
+*Dabbsson / Dabbsson product page (Manufacturer product image)*
+
 The front layout is straightforward: two AC outlets, a 12V car port, a DC5521 barrel port, two USB-A ports, and two USB-C ports. Dabbsson specifies one 100W USB-C port and one 30W USB-C port, which is a sensible division for a laptop plus smaller devices. There is also a front LED light. That makes the 600L useful as a camp light and emergency lamp without consuming an outlet or carrying a separate flashlight.
 
 The screen shows the information a buyer actually needs: battery percentage, input, output, and an estimated runtime based on the active load. The Solar Lab found it readable outdoors, while the companion Bluetooth app adds remote monitoring and control for the outputs and light. The app also supports scheduled on/off behavior and time management. That is a meaningful advantage over basic budget stations that make you walk over to press every button.
@@ -64,6 +95,10 @@ There is no wireless charging pad on top. That omission is not a deal-breaker, b
 ## Performance and Efficiency
 
 The independent numbers are encouraging. The Solar Lab measured 85% efficiency, which means the station delivered a good proportion of its nominal battery energy to a load instead of losing an excessive amount in conversion. That is a published test result from that review, not a claim of our own testing. The same review measured idle consumption at 14W with the AC inverter switched on and no device connected. That low draw is useful when the station is left ready as a small backup battery.
+
+![Dabbsson 600L rear side view with charging input panel](/images/posts/portable-power-stations/dabbsson_600l_review_a_capable_power_station_for_under_300/dabbsson_600l_review_a_capable_power_station_for_under_300_angle3.webp)
+
+*Dabbsson / Dabbsson product page (Manufacturer product image)*
 
 The 600L's capacity is enough for a router, laptop, phones, lights, and a small cooler, but runtime depends on the load and whether you use AC or DC. A 60W device would theoretically consume 60Wh per hour; allowing for conversion losses, the 768Wh pack is a roughly ten-hour-class source at that load, not a multi-day answer. A laptop charger and a few phones draw much less than that. A compressor cooler or refrigerator is more variable because its motor cycles, so use the screen's live estimate rather than multiplying the capacity by a nameplate wattage.
 

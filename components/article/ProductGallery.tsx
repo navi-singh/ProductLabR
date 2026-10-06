@@ -5,6 +5,7 @@ interface GalleryImage {
   credit?: string;
   source?: string;
   license?: string;
+  alt?: string;
 }
 
 interface ProductGalleryProps {
@@ -24,7 +25,7 @@ export default function ProductGallery({ images, alt }: ProductGalleryProps) {
         >
           <OptimizedImage
             src={image.src}
-            alt={`${alt} — additional angle ${index + 1}`}
+            alt={image.alt || `${alt} — additional angle ${index + 1}`}
             fill
             wrapperClassName="aspect-square max-h-[140px] w-full"
             className="object-contain p-2"

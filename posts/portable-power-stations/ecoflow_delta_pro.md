@@ -47,6 +47,33 @@ ratingBreakdown:
       score: 8.2
     - name: "Value"
       score: 7.2
+image: "/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_main.webp"
+productImage: "/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_main.webp"
+imageCredit: "EcoFlow"
+imageSource: "EcoFlow product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "EcoFlow DELTA Pro angled front view with wheels and side vents"
+gallery:
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle2.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA Pro straight front view with display and outlets"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle3.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA Pro rear side view showing wheels and cooling fans"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle4.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA Pro paired with an extra battery module"
+  - src: "/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle5.webp"
+    credit: "EcoFlow"
+    source: "EcoFlow product page"
+    license: "Manufacturer product image"
+    alt: "EcoFlow DELTA Pro with smart generator adapter beside the unit"
 ---
 
 ## Introduction: A 2021 Power Station With Current-Generation Ambitions
@@ -61,6 +88,10 @@ That makes the DELTA Pro a strong choice for a buyer who needs high-output backu
 
 The DELTA Pro is built around a large central battery with wheels and a telescoping handle. That is the right solution for a 99lb object: on a flat driveway or garage floor, one person can roll it. Over steps, into a vehicle, or across rough ground, the weight becomes a two-person problem. This is closer to movable emergency equipment than to a large power bank.
 
+![EcoFlow DELTA Pro straight front view with display and outlets](/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle2.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
+
 EcoFlow's product documentation gives the unit approximate dimensions of 25 by 11.2 by 16.4 inches. The footprint is manageable for a utility room or the cargo area of a large vehicle, but it needs deliberate storage. Leave access to the vents, charging ports, and handle rather than treating it like a box that can be buried under camping gear.
 
 The display and app are important because a system of this size has more operating choices than a small station. The front panel reports charge and load information, while the EcoFlow app adds remote monitoring, output controls, charging settings, and firmware management. Independent reviews from TechRadar and PCMag both identify the interface and app as practical strengths rather than mere decoration.
@@ -70,6 +101,10 @@ Setup is straightforward for the station itself: charge it, connect a load, and 
 ## Battery and Charging Performance
 
 The 3,600Wh LFP battery is the DELTA Pro's core advantage. EcoFlow's lithium iron phosphate chemistry is a better fit for regular cycling than the older lithium-ion chemistry used in many early high-capacity stations. The capacity is large enough to support an outage kit, RV loads, or a workshop without immediately forcing every device into a low-power compromise.
+
+![EcoFlow DELTA Pro rear side view showing wheels and cooling fans](/images/posts/portable-power-stations/ecoflow_delta_pro/ecoflow_delta_pro_angle3.webp)
+
+*EcoFlow / EcoFlow product page (Manufacturer product image)*
 
 Charging flexibility is unusually good for the platform's age. EcoFlow rates AC input at up to 2,400W and solar input at up to 1,600W. The company advertises roughly 0–80% AC charging in 2.7 hours under its stated conditions. That is a manufacturer rating, not a promise for every outlet, temperature, battery age, or charging mode. The last part of a charge can take longer as the system balances and tapers input.
 

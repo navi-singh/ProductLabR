@@ -35,7 +35,10 @@
     "images:report": "node scripts/images/report-missing-images.js",
     "images:ingest": "node scripts/images/ingest-product-images.js",
     "trending": "node scripts/fetch-trending.js",
-    "docs:catalog": "node scripts/docs/generate-product-catalog.js"
+    "docs:catalog": "node scripts/docs/generate-product-catalog.js",
+    "images:discover": "node scripts/images/discover-product-images.js",
+    "images:promote": "node scripts/images/promote-image-candidates.js",
+    "images:place": "node scripts/images/place-body-images.js"
   },
   "dependencies": {
     "@next/third-parties": "^16.3.4",
@@ -81,6 +84,7 @@
     "postcss": "^8.5.23",
     "prettier": "^3.5.1",
     "prettier-plugin-tailwindcss": "^0.6.8",
+    "sharp": "^0.35.4",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
   }

@@ -28,7 +28,8 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 | `imageCredit` | string | `"EcoFlow"` | Attribution for the primary product image |
 | `imageSource` | string | `"manufacturer press asset"` | Provenance for the primary product image |
 | `imageLicense` | string | `"approved manufacturer media"` | Rights/usage note for the primary product image |
-| `gallery` | array of `{ src, credit?, source?, license? }` | | Additional product photos (e.g. different angles), rendered below the primary image |
+| `imageAlt` | string | `"EcoFlow DELTA Pro angled front view"` | Alt text for the primary product image; falls back to `title` |
+| `gallery` | array of `{ src, alt?, credit?, source?, license? }` | | Additional product photos (e.g. different angles), rendered below the primary image |
 | `rating` | number | `8.7` | Legacy single score; **deprecated** — prefer `ratingBreakdown` |
 
 | `lastReviewed` | ISO date string | `"2026-09-15"` | Optional review-maintenance date shown in the evidence snapshot |
@@ -74,15 +75,18 @@ The ingestion manifest must use explicit, approved HTTPS image URLs only:
       "slug": "ecoflow_delta_pro_3",
       "role": "main",
       "sourceUrl": "https://example.com/approved-press-image.webp",
-      "sourceName": "manufacturer press kit",
-      "license": "approved manufacturer media",
-      "credit": "EcoFlow"
+      "sourcePage": "https://us.ecoflow.com/products/delta-pro-3",
+      "sourceName": "EcoFlow product page",
+      "sourceTier": "product-page",
+      "license": "Manufacturer product image",
+      "credit": "EcoFlow",
+      "alt": "EcoFlow DELTA Pro 3 angled front view with the display lit"
     }
   ]
 }
 ```
 
-`images:ingest` writes the asset under `public/images/posts/<category>/<slug>/`, updates `image` and `productImage` for `role: "main"`, and records the credit/source/license fields in frontmatter. It intentionally does not scrape search engines, retailer pages, or unapproved third-party sources.
+`images:ingest` writes the asset under `public/images/posts/<category>/<slug>/`, updates `image` and `productImage` for `role: "main"`, and records the credit/source/license fields (plus `imageAlt`, or `alt` on gallery items) in frontmatter. Entries written by `images:promote` also carry `sourcePage`, `sourceTier` (`free`, `press` or `product-page`) and `alt`. It intentionally does not scrape search engines, retailer pages, or unapproved third-party sources.
 
 To add extra photos of the same product (e.g. different angles), add more manifest entries for the same `category`/`slug` with a distinct `role` (e.g. `"angle2"`, `"angle3"`). Non-`main` roles do not overwrite `image`/`productImage`; instead they are appended to a `gallery` array in frontmatter and rendered as a thumbnail strip below the primary product image. Only add angle entries when the source is confirmed to depict the exact reviewed model/generation — do not substitute a different model or generation for a missing angle.
 

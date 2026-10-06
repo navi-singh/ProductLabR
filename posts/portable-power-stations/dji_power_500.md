@@ -58,6 +58,12 @@ imageSource: "Wikimedia Commons"
 imageLicense: "CC BY-SA 4.0"
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+gallery:
+  - src: "/images/posts/portable-power-stations/dji_power_500/dji_power_500_angle2.webp"
+    credit: "DJI"
+    source: "DJI product page"
+    license: "Manufacturer product image"
+    alt: "DJI Power 500 straight front view showing AC outlets and USB ports"
 ---
 
 ## Introduction
@@ -88,6 +94,10 @@ squarely in grab-and-go territory. This is a unit sized to sit in the boot next 
 drone bag or a camera pelican, not to anchor a garage. The high portability score
 reflects that: a single person moves this without a second thought, which is the entire
 point for a product aimed at location shooters.
+
+![DJI Power 500 straight front view showing AC outlets and USB ports](/images/posts/portable-power-stations/dji_power_500/dji_power_500_angle2.webp)
+
+*DJI / DJI product page (Manufacturer product image)*
 
 The chemistry is LFP — lithium iron phosphate — which is the right call for durability.
 DJI rates the pack to hold over 70% of its capacity after 4,000 cycles under its stated

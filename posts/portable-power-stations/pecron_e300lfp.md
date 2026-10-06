@@ -54,6 +54,33 @@ ratingBreakdown:
       score: 7.8
     - name: "Value"
       score: 6.0
+image: "/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "PECRON E300LFP power station, three-quarter view showing the front display, AC outlets, and orange corner bumpers"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "PECRON E300LFP front panel with LCD screen, two AC outlets, USB-C and USB-A ports"
+  - src: "/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "PECRON E300LFP rear view with recessed carry handle and spec label"
+  - src: "/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "PECRON E300LFP side panel with covered DC input ports and cooling vents"
+  - src: "/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "PECRON E300LFP top surface with built-in wireless charging pad and carry handle"
 ---
 
 ## Introduction
@@ -67,6 +94,10 @@ The E300LFP's weak point is also the thing that matters most in a small portable
 ## Design, Ports, and Ease of Use
 
 The E300LFP is a small, intentionally simple power station. It weighs 10.3 lb, which is light enough to be genuinely portable and not so heavy that you feel like you are moving a mini generator. The front and side layout is straightforward: outlets are easy to reach, and the unit does not appear to be trying to be a premium statement piece. That makes it easier to live with in a car, a camping setup, or a temporary outage kit.
+
+![PECRON E300LFP front panel with LCD screen, two AC outlets, USB-C and USB-A ports](/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The best design touches are the ones that matter in real life rather than in a spec sheet. The built-in flashlight is a real advantage on small power stations. Instead of a dim little indicator light, the E300LFP offers a more useful side-mounted flashlight with SOS mode, which is exactly the kind of feature that earns its keep when you are dealing with outages, camp darkness, or a late-night vehicle setup. The wireless phone pad is also a smart use of top space. It is not luxurious, but it is a practical extra and a better idea than leaving the top surface bare.
 
@@ -89,6 +120,10 @@ The big caveat is that a product's charging specs are not the same as real-world
 ## Performance, Real-World Use, and the Weak Inverter
 
 This is the section that makes the E300LFP hard to recommend. The product page promises a 600W inverter, but the discovery review found a very real problem: simply adding a second light to an already running load caused the inverter to dip and reboot. That is not a small inconvenience. Inverter instability under a modest load is exactly the sort of behavior that can shut down a router, laptop, or CPAP during a power outage. It is also precisely the sort of issue that makes a compact station feel dangerous in a real emergency.
+
+![PECRON E300LFP rear view with recessed carry handle and spec label](/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The review also flagged a second red flag: USB charging compatibility. The USB-A and USB-C ports struggled with newer iPhones, particularly a new iPhone 16, while older iPhones charged without issue. That is exactly the kind of user-facing bug that turns a budget power station into an unreliable daily tool. A UL-certified battery is not enough if your device cannot reliably charge from the output ports that are supposed to be the easiest part of the setup.
 

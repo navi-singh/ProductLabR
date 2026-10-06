@@ -46,6 +46,28 @@ ratingBreakdown:
       score: 8.3
     - name: "Value"
       score: 6.4
+image: "/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_main.webp"
+productImage: "/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_main.webp"
+imageCredit: "Jackery"
+imageSource: "Jackery product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Jackery Explorer 3000 Pro straight front view with LCD display and outlets"
+gallery:
+  - src: "/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_angle2.webp"
+    credit: "Jackery"
+    source: "Jackery product page"
+    license: "Manufacturer product image"
+    alt: "Jackery Explorer 3000 Pro front view flanked by folding solar panels"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_angle3.webp"
+    credit: "Jackery"
+    source: "Jackery product page"
+    license: "Manufacturer product image"
+    alt: "Jackery Explorer 3000 Pro shown beside an expansion battery"
+  - src: "/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_angle4.webp"
+    credit: "Jackery"
+    source: "Jackery product page"
+    license: "Manufacturer product image"
+    alt: "Jackery Explorer 3000 Pro pair shown from the front on white"
 ---
 
 ## Introduction: A 2023 Power Station With One Serious Compromise
@@ -79,6 +101,10 @@ carry up stairs, or reposition over rocky ground. A buyer who expects to move it
 blackout should decide in advance where it will live and whether a second person will be
 available.
 
+![Jackery Explorer 3000 Pro front view flanked by folding solar panels](/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_angle2.webp)
+
+*Jackery / Jackery product page (Manufacturer product image)*
+
 The output layout is unusually friendly to mixed loads. The official page lists four
 120V AC outlets rated at 20A, plus a fifth 120V outlet rated at 25A. There are two USB-C
 ports with up to 100W output, two USB-A ports rated up to 18W, a 12V car socket, and a
@@ -101,6 +127,10 @@ moderate campsite use. But it uses older lithium-ion chemistry rather than LiFeP
 That does not make the station unusable or unsafe by itself; it does mean buyers should
 be more cautious about treating it as a daily-cycling battery, particularly when newer
 stations offer longer cycle-life designs at similar capacity.
+
+![Jackery Explorer 3000 Pro shown beside an expansion battery](/images/posts/portable-power-stations/jackery_explorer_3000_pro/jackery_explorer_3000_pro_angle3.webp)
+
+*Jackery / Jackery product page (Manufacturer product image)*
 
 Charging is much easier to praise. Jackery specifies up to 1,800W from AC and up to
 1,400W from solar through two inputs. SolarLab reported that the unit reached the

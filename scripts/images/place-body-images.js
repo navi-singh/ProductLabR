@@ -68,7 +68,7 @@ function readGallery(frontmatter) {
       continue;
     }
 
-    const fieldMatch = line.match(/^\s+(credit|source|license):\s*"(.*)"\s*$/);
+    const fieldMatch = line.match(/^\s+(credit|source|license|alt):\s*"(.*)"\s*$/);
     if (fieldMatch && current) current[fieldMatch[1]] = fieldMatch[2];
   }
 
@@ -193,7 +193,7 @@ function placeImages(postPath, args) {
     const caption = buildCaption(placement.image);
     const block = [
       '',
-      `![${name}](${placement.image.src})`,
+      `![${placement.image.alt || name}](${placement.image.src})`,
       '',
       `*${caption}*`,
     ];

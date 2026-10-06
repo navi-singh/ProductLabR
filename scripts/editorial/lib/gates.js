@@ -111,6 +111,15 @@ function runGates(metrics) {
     false
   );
 
+  const images = metrics.images;
+  add(
+    'product_images',
+    `>= ${GATES.minImages} product images`,
+    images.count >= GATES.minImages || Boolean(images.exception),
+    images.exception ? `${images.count} images (flagged: ${images.exception.reason})` : `${images.count} images`,
+    GATES.enforceImageMinimum
+  );
+
   const blockingFailures = checks.filter((c) => c.status === 'fail' && c.blocking);
   const advisoryFailures = checks.filter((c) => c.status === 'fail' && !c.blocking);
 

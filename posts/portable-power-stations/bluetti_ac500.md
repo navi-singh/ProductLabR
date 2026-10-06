@@ -43,6 +43,33 @@ ratingBreakdown:
       score: 7.0
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent reporting. We separate documented specifications from estimates and analysis."
+image: "/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_main.webp"
+productImage: "/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_main.webp"
+imageCredit: "BLUETTI"
+imageSource: "BLUETTI product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "BLUETTI AC500 stacked with B300S battery front view"
+gallery:
+  - src: "/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle2.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI AC500 front panel mounted above B300S battery"
+  - src: "/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle3.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI AC500 angled front view showing side connectors"
+  - src: "/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle4.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI AC500 three-quarter front view with display and outlets"
+  - src: "/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle5.webp"
+    credit: "BLUETTI"
+    source: "BLUETTI product page"
+    license: "Manufacturer product image"
+    alt: "BLUETTI AC500 top view showing wireless charging pads"
 ---
 
 ## Introduction: What the BLUETTI AC500 Actually Is
@@ -56,6 +83,10 @@ BLUETTI introduced the AC500 platform in 2022 through its [official crowdfunding
 ## Design and Build: A Two-Box System With Home-Backup Priorities
 
 The AC500’s physical design is dominated by its role as stationary equipment. You get a large control head with a display, high-current AC connections, charging electronics, and a battery port. The B300S supplies the energy storage and adds its own DC and USB outputs. That separation lets you move the battery and inverter independently, but it does not make the system light. One head plus one battery is already a substantial installation; adding a second or third battery turns a “portable” station into equipment better moved with a cart.
+
+![BLUETTI AC500 front panel mounted above B300S battery](/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle2.webp)
+
+*BLUETTI / BLUETTI product page (Manufacturer product image)*
 
 The port selection is more useful than the usual collection of USB sockets. BLUETTI lists 120V receptacles alongside 30A, L14-30, and 50A connections, which gives the AC500 a plausible path into an RV or a properly installed selected-circuit backup panel. Those connectors are also a warning: this is not just a weekend cooler-and-laptop product. A transfer switch must isolate a home from the grid, and permanent wiring belongs with a qualified electrician. Never backfeed a household panel through an improvised cable.
 
@@ -74,6 +105,10 @@ BLUETTI also supports a two-AC500 arrangement. Its current product materials des
 ## Performance and Real-World Use
 
 The headline number is 5,000W of continuous AC output, with a 10,000W peak figure shown in BLUETTI’s current product materials. That is enough inverter capacity for demanding tools, kitchen appliances, pumps, and many well-chosen backup circuits. It also gives motor loads more starting headroom than the 1,000W-to-2,000W stations that dominate ordinary camping shelves.
+
+![BLUETTI AC500 angled front view showing side connectors](/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_angle3.webp)
+
+*BLUETTI / BLUETTI product page (Manufacturer product image)*
 
 Output capability is not the same as unlimited runtime. At a steady 500W load, a 3,072Wh battery contains roughly 6.1 hours of idealized energy before conversion losses and reserve limits. At 1,000W, the same arithmetic drops to about 3.1 hours. Those are planning estimates, not lab results, and actual runtime varies with temperature, battery age, inverter efficiency, and the load’s duty cycle. A refrigerator that cycles on and off can last far longer than a continuously running 500W heater, even though both may be described loosely as “500W appliances.”
 

@@ -47,6 +47,33 @@ ratingBreakdown:
       score: 7.9
     - name: "Value"
       score: 9.2
+image: "/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron F5000LFP front three-quarter view on caster wheels"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F5000LFP angled front view with folding solar panels behind it"
+  - src: "/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F5000LFP stacked on one expansion battery in front view"
+  - src: "/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F5000LFP stacked on two expansion batteries in front view"
+  - src: "/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron F5000LFP shown with external batteries beside a tall battery stack"
 ---
 
 ## Introduction
@@ -62,6 +89,10 @@ The F5000LFP's central proposition is persuasive: it offers the kind of voltage 
 ## Design, Controls, and Setup
 
 At 124 lb, the F5000LFP is not meaningfully portable without its included or optional wheeled trolley. The trolley is more than a nice accessory here; it is part of the ownership plan. Moving this unit across a garage or driveway is realistic, while lifting it into a vehicle or carrying it down stairs is a two-person job. Buyers should choose its permanent operating location before they buy the expansion path.
+
+![Pecron F5000LFP angled front view with folding solar panels behind it](/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle2.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The F-series enclosure is cleaner and more modern than Pecron's older E-series units. Its touchscreen is a meaningful upgrade because it exposes settings and automation controls on the machine rather than making the app the only practical interface. The official feature list also includes OTA updates, operation-log inquiry, and charging statistics. Those features make the F5000LFP easier to monitor as a backup system, even though Pecron's software ecosystem is not as mature as EcoFlow's.
 
@@ -84,6 +115,10 @@ The important limitation is that Pecron does not provide a 240V charging input. 
 ## Performance and Real-World Use
 
 The F5000LFP's headline performance is unusually credible. The Solar Lab measured 84% efficiency, a respectable result for a high-capacity station, and found that the 120V and 240V outputs handled heavy startup surges well. Pecron does not publish a prominent surge figure for the unit, so those observations are more useful than an optimistic maximum printed on a box. They suggest the F5000LFP can start demanding appliances, pumps, and tools without treating its continuous rating as a fragile ceiling.
+
+![Pecron F5000LFP stacked on one expansion battery in front view](/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The 240V output is the feature that most changes the buying decision. Earlier Pecron systems required two stations and a 240V Connect Box for this class of output. The F5000LFP puts dual-voltage capability in one enclosure, which can simplify a transfer-switch or workshop setup. It can also charge from 120V wall power while delivering 240V output, a practical advantage when the available charging circuit is ordinary household power.
 

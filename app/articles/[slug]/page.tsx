@@ -230,7 +230,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       />
 
       {/* Product Image */}
-      {metadata.productImage && <ProductImage src={metadata.productImage} alt={metadata.title} />}
+      {metadata.productImage && <ProductImage src={metadata.productImage} alt={metadata.imageAlt || metadata.title} />}
       {unplacedGallery.length > 0 && (
         <ProductGallery images={unplacedGallery} alt={metadata.title} />
       )}

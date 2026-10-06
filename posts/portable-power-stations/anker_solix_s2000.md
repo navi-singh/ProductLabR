@@ -50,6 +50,33 @@ ratingBreakdown:
       score: 7.7
 author: "Product Lab Team"
 authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish stated specifications from independently verified results."
+image: "/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_main.webp"
+productImage: "/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_main.webp"
+imageCredit: "Anker"
+imageSource: "Anker product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Anker SOLIX S2000 angled front view with display and AC outlets"
+gallery:
+  - src: "/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle2.webp"
+    credit: "Anker"
+    source: "Anker product page"
+    license: "Manufacturer product image"
+    alt: "Anker SOLIX S2000 three-quarter front view showing the tall body"
+  - src: "/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle3.webp"
+    credit: "Anker"
+    source: "Anker product page"
+    license: "Manufacturer product image"
+    alt: "Anker SOLIX S2000 straight front view with display and outlets"
+  - src: "/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle5.webp"
+    credit: "Anker"
+    source: "Anker product page"
+    license: "Manufacturer product image"
+    alt: "Anker SOLIX S2000 angled rear view with AC outlets and charging port"
+  - src: "/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle4.webp"
+    credit: "Anker"
+    source: "Anker product page"
+    license: "Manufacturer product image"
+    alt: "Anker SOLIX S2000 rear side view showing fan grille and outlets"
 ---
 
 ## Introduction: the S2000 is built around runtime, not maximum power
@@ -64,6 +91,10 @@ Anker announced the S-Series and S2000 on May 19, 2026. That date comes from the
 
 The S2000 measures 8.2 by 11.1 by 12.7 inches and weighs 35.7 pounds according to Anker's official comparison notes. Its upright shape takes less floor width than a broad horizontal station, which helps when it has to live beside a refrigerator, under a desk, or against a wall. The weight is manageable for moving from a closet to a car, but it is not a one-handed, carry-anywhere battery.
 
+![Anker SOLIX S2000 three-quarter front view showing the tall body](/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle2.webp)
+
+*Anker / Anker product page (Manufacturer product image)*
+
 The two-sided outlet layout is more important than the styling. Anker puts some AC outlets at the rear so cables can stay behind the unit, while the front remains available for phones and laptops. That arrangement makes sense for a station that may spend most of its life in one place as a fridge or office backup. It is less convenient when the S2000 is repeatedly repositioned outdoors and every connection needs to be visible from the front.
 
 The app is part of the charging experience. Anker lists a default AC input of 1,150W and a 1,600W UltraFast mode that must be enabled in the app. This is not a major burden for the owner who manages the station from a phone, but it is a detail worth handling before a storm. A family member who simply plugs the unit into the wall should not have to discover that the fastest charging mode is disabled.
@@ -73,6 +104,10 @@ Anker lists a five-year product warranty. That is useful coverage for a battery 
 ## Performance: low idle draw is the feature that earns the capacity
 
 Anker rates the S2000 for 1,500W continuous AC output and 1,800W maximum bypass power. That is enough for many refrigerators, networking devices, lights, chargers, and smaller kitchen appliances when they are managed one at a time. It is not a license to run a microwave, kettle, space heater, and compressor simultaneously. The battery's 2,010Wh capacity determines duration; the inverter rating determines which loads can start and run.
+
+![Anker SOLIX S2000 straight front view with display and outlets](/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle3.webp)
+
+*Anker / Anker product page (Manufacturer product image)*
 
 The headline efficiency story is the 6W active idle claim, with 2W in standby. Anker says the S2000 achieved 88% efficiency at a 100W output load in its internal testing, compared with a 78% industry average from the stations it tested. Those figures are useful context, not an independent laboratory result. Actual runtime depends on the connected device, conversion losses, temperature, and whether the inverter is left on between loads.
 

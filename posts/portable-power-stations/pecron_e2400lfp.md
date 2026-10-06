@@ -48,6 +48,33 @@ ratingBreakdown:
       score: 7.1
     - name: "Value"
       score: 8.1
+image: "/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_main.webp"
+productImage: "/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_main.webp"
+imageCredit: "Pecron"
+imageSource: "Pecron product page"
+imageLicense: "Manufacturer product image"
+imageAlt: "Pecron E2400LFP front view with a folding solar panel behind it"
+gallery:
+  - src: "/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle3.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E2400LFP front view with four folded solar panels"
+  - src: "/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle4.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E2400LFP stacked on two expansion batteries from the front"
+  - src: "/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle5.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E2400LFP paired with expansion batteries from an angled rear view"
+  - src: "/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle2.webp"
+    credit: "Pecron"
+    source: "Pecron product page"
+    license: "Manufacturer product image"
+    alt: "Pecron E2400LFP angled front view with folding solar panels"
 ---
 
 ## Introduction
@@ -61,6 +88,10 @@ The E2400 is not a premium, polished appliance. It is more like a capable budget
 ## Design, Ports, and Setup
 
 The E2400's physical design is familiar Pecron material: rugged, no-nonsense, and not particularly elegant. The Solar Lab review described it as a plain, utilitarian box with rubber corners and a black-and-orange palette, and that matches the overall impression. This is not a device trying to look premium in a living room. It is built to sit in a garage, camp setup, or off-grid workspace and perform rather than impress.
+
+![Pecron E2400LFP front view with four folded solar panels](/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle3.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 At about 45 lb, the E2400 is large enough to feel serious without being absurd. It is portable in the car-camping or small-worksite sense, not in the backpacking sense. That is usually reasonable for a 2kWh battery: a person can move it, but it wants a stable place to live once it gets there. The front-facing layout is the E2400's best design move. The AC outlets, USB ports, DC socket, and XT60 output are all on the front, which is exactly the kind of feature that matters when the unit sits against a wall or tucked into a tight RV compartment.
 
@@ -85,6 +116,10 @@ The caveat is that expansion claims can be optimistically written in product cop
 ## Performance Under Load
 
 This is the section where the E2400 stops looking like a clear winner. Pecron rates the inverter at 2,400W continuous with a 4,000W surge claim. The Solar Lab's testing exposed the problem: when it pushed the unit with a 2,275W load, the battery lasted only about 36 minutes before overheating and shutting off, and even a second test reached just 40.5 minutes with 75% efficiency. That is a respectable efficiency result in isolation, but it also points to the design's core weakness: the E2400 is not a forgiving station when it is asked to run near its limit for a sustained period.
+
+![Pecron E2400LFP stacked on two expansion batteries from the front](/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle4.webp)
+
+*Pecron / Pecron product page (Manufacturer product image)*
 
 The issue is not simply that the E2400 is a little inefficient. It is that the system appears to struggle thermally under heavy sustained demand. The Solar Lab reported overheating when the battery was low and the fans kicked in hard as the inverter labored to maintain output. That matters because buyers often shop for a portable power station expecting something that can do a serious appliance load without performance dropping off mid-task. The E2400 does not reliably offer that level of confidence at the top of its rating.
 

@@ -9,7 +9,8 @@ export interface PostMetadata {
   imageCredit?: string;
   imageSource?: string;
   imageLicense?: string;
-  gallery?: { src: string; credit?: string; source?: string; license?: string }[];
+  imageAlt?: string;
+  gallery?: { src: string; credit?: string; source?: string; license?: string; alt?: string }[];
   author?: string;
   specs?: Record<string, string>;
   pros?: string[];

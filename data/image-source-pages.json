@@ -1,0 +1,95 @@
+{
+  "note": "Manufacturer product pages to use for image discovery when a review's retailerLinks point at a search page or a site without structured product data. Keyed by slug.",
+  "pages": {
+    "aferiy_p210_power_station": [
+      {
+        "brand": "AFERIY",
+        "url": "https://www.aferiy.com/products/aferiy-p210-portable-power-station-2400w-2048wh"
+      }
+    ],
+    "allpowers_s2000_pro": [
+      {
+        "brand": "ALLPOWERS",
+        "url": "https://iallpowers.com/products/allpowers-2400w-portable-power-station"
+      }
+    ],
+    "anker_solix_c1000_gen2": [
+      {
+        "brand": "Anker",
+        "url": "https://www.ankersolix.com/products/c1000-gen2"
+      }
+    ],
+    "anker_solix_c800x": [
+      {
+        "brand": "Anker",
+        "url": "https://www.ankersolix.com/products/b1755116"
+      }
+    ],
+    "anker_solix_s2000": [
+      {
+        "brand": "Anker",
+        "url": "https://www.ankersolix.com/products/s2000-portable-power-station"
+      }
+    ],
+    "dji_power_1000_v2": [
+      {
+        "brand": "DJI",
+        "url": "https://www.djiusa.com/products/dji-power-1000-v2"
+      }
+    ],
+    "dji_power_500": [
+      {
+        "brand": "DJI",
+        "url": "https://store.dji.com/product/dji-power-500"
+      }
+    ],
+    "bluetti_ac500": [
+      {
+        "brand": "BLUETTI",
+        "url": "https://www.bluettipower.com/products/home-backup-power-ac500"
+      }
+    ],
+    "bluetti_hands_free_2": [
+      {
+        "brand": "BLUETTI",
+        "url": "https://www.bluettipower.com/products/bluetti-handsfree-2-backpack-powerstation"
+      }
+    ],
+    "bluetti_pioneer_na": [
+      {
+        "brand": "BLUETTI",
+        "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na"
+      }
+    ],
+    "bluetti_power_station_redemption": [
+      {
+        "brand": "BLUETTI",
+        "url": "https://www.bluettipower.com/products/ac200l"
+      }
+    ],
+    "ecoflow_delta_3_1000_air": [
+      {
+        "brand": "EcoFlow",
+        "url": "https://ca.ecoflow.com/products/delta-3-1000-air-10ms-ups-portable-power-station"
+      }
+    ],
+    "ecoflow_delta_pro": [
+      {
+        "brand": "EcoFlow",
+        "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station"
+      }
+    ],
+    "ecoflow_river_3": [
+      {
+        "brand": "EcoFlow",
+        "url": "https://ca.ecoflow.com/products/river-3-portable-power-station"
+      }
+    ],
+    "ecoflow_river_3_plus_wireless": [
+      {
+        "brand": "EcoFlow",
+        "url": "https://uk.ecoflow.com/products/river-3-plus-wireless-portable-power-station"
+      }
+    ]
+  }
+}
