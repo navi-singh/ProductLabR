@@ -110,9 +110,13 @@ This is a unit for people who know exactly what they're buying and prioritize ca
 
 At 112 lbs, "portable" is a relative term.
 
+![OUPES Mega 5](/images/posts/portable-power-stations/oupes_mega_5/oupes_mega_5_angle5.webp)
+
+*OUPES (Manufacturer product image)*
+
 ![OUPES Mega 5](/images/posts/portable-power-stations/oupes_mega_5/oupes_mega_5_angle2.webp)
 
-*OUPES / OUPES (Manufacturer product image)*
+*OUPES (Manufacturer product image)*
 
 OUPES earns credit for building a thoughtful mobility solution: the wheels use bump stops so the unit rests flat on its base when stationary — preventing rolling on uneven surfaces.
 
@@ -138,7 +142,7 @@ The five AC outlets are well-spaced — no frustrating tight spacing that preven
 
 ![OUPES Mega 5](/images/posts/portable-power-stations/oupes_mega_5/oupes_mega_5_angle3.webp)
 
-*OUPES / OUPES (Manufacturer product image)*
+*OUPES (Manufacturer product image)*
 
 A standard household refrigerator averaging about 150W could theoretically run for 28–33 hours (accounting for ~80% efficiency, approximately 4,032Wh usable).
 
@@ -186,7 +190,7 @@ Testing from full charge to 10% remaining under 400W continuous load yielded 4,1
 
 ![OUPES Mega 5](/images/posts/portable-power-stations/oupes_mega_5/oupes_mega_5_angle4.webp)
 
-*OUPES / OUPES (Manufacturer product image)*
+*OUPES (Manufacturer product image)*
 
 You get approximately 4,000–4,100Wh of usable energy from a full charge — the spec is honest.
 

@@ -97,7 +97,7 @@ The E300LFP is a small, intentionally simple power station. It weighs 10.3 lb, w
 
 ![PECRON E300LFP front panel with LCD screen, two AC outlets, USB-C and USB-A ports](/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The best design touches are the ones that matter in real life rather than in a spec sheet. The built-in flashlight is a real advantage on small power stations. Instead of a dim little indicator light, the E300LFP offers a more useful side-mounted flashlight with SOS mode, which is exactly the kind of feature that earns its keep when you are dealing with outages, camp darkness, or a late-night vehicle setup. The wireless phone pad is also a smart use of top space. It is not luxurious, but it is a practical extra and a better idea than leaving the top surface bare.
 
@@ -111,6 +111,10 @@ The E300LFP's design is also a little inconsistent. The product makes a point of
 
 This is where the E300LFP starts to look more reasonable. Official product details list a 288Wh LiFePO4 pack rated at 19.2V/15Ah, a 600W pure-sine inverter, and a 3,500+ cycle claim to 80% capacity. For a compact station, the chemistry is the right choice. LiFePO4 is more attractive for regular use than a shorter-lived NMC pack, and the published cycle rating gives the E300LFP more credibility than many bargain stations can claim.
 
+![PECRON E300LFP side panel with covered DC input ports and cooling vents](/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
+
 Pecron's official product description also highlights AC charging at 300W, with quoted times of 80% in 60 minutes and 100% in 80 minutes. That is a strong number for a 288Wh unit, and it gives the E300LFP a practical edge over slower small stations. It is exactly the kind of speed that makes a portable unit feel useful for weekend trips or an emergency kit where you want the battery back to full quickly.
 
 The solar story is also neat on paper. Pecron lists 100W max solar input, which is a normal ceiling for a small battery this size. That is enough to keep a small setup moving in good sun, particularly if you are topping up during the day while the unit is parked in a sunny window or on a camp table. The issue is not that 100W is weak; it is that the MC3 connector makes the setup less flexible than it could be. A buyer with a standard solar panel or a more general portable kit may be forced to hunt for a converter or a matching cable.
@@ -123,7 +127,7 @@ This is the section that makes the E300LFP hard to recommend. The product page p
 
 ![PECRON E300LFP rear view with recessed carry handle and spec label](/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The review also flagged a second red flag: USB charging compatibility. The USB-A and USB-C ports struggled with newer iPhones, particularly a new iPhone 16, while older iPhones charged without issue. That is exactly the kind of user-facing bug that turns a budget power station into an unreliable daily tool. A UL-certified battery is not enough if your device cannot reliably charge from the output ports that are supposed to be the easiest part of the setup.
 
@@ -134,6 +138,10 @@ This is where the E300LFP's true role becomes clear: it is not an always-on stan
 ## How It Compares to Rival Small Stations
 
 The most obvious comparison is to the Anker SOLIX C300. The discovery review recommended it as a better-performing, more reliable budget alternative. That comparison is fair because the C300 is the kind of small station that is easier to trust when your goal is to power a laptop, a small light, and a few phone devices without worrying that minor load changes will trigger an inverter reset.
+
+![PECRON E300LFP top surface with built-in wireless charging pad and carry handle](/images/posts/portable-power-stations/pecron_e300lfp/pecron_e300lfp_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 The EcoFlow River 3 is also a useful competitor. The discovery review explicitly mentioned it as a more reliable option that costs a bit more but works better. That is the right frame for this category: the E300LFP's price is attractive, but the weak inverter behavior means reliability matters more than simple cost per watt-hour. If the product can fail under a second light, it may not be the bargain it first appears to be.
 

@@ -107,9 +107,13 @@ But the hardware delivers on its fundamental specs, and the 6-year warranty back
 
 At 111 lbs, the Guardian 6000 requires two people to move without wheels engaged.
 
+![OUPES Guardian 6000](/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle5.webp)
+
+*OUPES (Manufacturer product image)*
+
 ![OUPES Guardian 6000](/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle2.webp)
 
-*OUPES / OUPES (Manufacturer product image)*
+*OUPES (Manufacturer product image)*
 
 The built-in wheels and handle handle the job once out of the box — but this is a unit designed for installation, not frequent relocation.
 
@@ -131,7 +135,7 @@ True 240V split-phase output from a single unit — with a 50A outlet and L14 tw
 
 ![OUPES Guardian 6000](/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle3.webp)
 
-*OUPES / OUPES (Manufacturer product image)*
+*OUPES (Manufacturer product image)*
 
 Most power stations at this price deliver 120V only.
 
@@ -191,7 +195,7 @@ Testing with a full-sized electric dryer (4,200W, 240V) confirmed consistent ope
 
 ![OUPES Guardian 6000](/images/posts/portable-power-stations/oupes_guardian_6000/oupes_guardian_6000_angle4.webp)
 
-*OUPES / OUPES (Manufacturer product image)*
+*OUPES (Manufacturer product image)*
 
 The inverter handled startup surge (approximately 5,500W) without tripping.
 

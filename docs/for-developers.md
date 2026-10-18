@@ -204,11 +204,11 @@ The backfill runs in five steps:
 2. **Curate**: by hand, per candidate, set `approved: true`, `kind` (`product` or `lifestyle`) and a descriptive `alt`. Optionally set `role: "main"` on the preferred hero. Reject sale badges, text overlays, infographics, other models and other regions' variants when a local one exists. Re-running discovery keeps this curation.
 3. **Promote**: `npm run images:promote` validates approved candidates (alt text, provenance, https, lifestyle cap, target count) and appends them to `data/product-images.json` with `main`/`angleN` roles.
 4. **Ingest**: `npm run images:ingest -- --category <category>` downloads and processes the images. It rejects low-resolution sources, byte-identical copies of any image on the site and near-duplicates (a background-trimmed difference hash) within the same review.
-5. **Place**: `npm run images:place` moves gallery images into matching body sections. Unplaced images stay in the gallery strip.
+5. **Place**: `npm run images:place` inserts every gallery image into the review body, spread across the eligible H2 sections (never the introduction, verdict or FAQ) with an attribution caption. Article pages render no separate gallery strip, so unplaced images would not be shown; the e2e suite fails if any are left.
 
 When a review cannot reach the minimum (discontinued product, no clean images), record the reason in `data/image-exceptions.json`. `images:report` and the QA gate then treat it as flagged instead of failing. `e2e/image-pipeline.spec.ts` covers the pipeline logic and the backfilled categories.
 
-Additional angle photos of the same product use extra manifest entries with a non-`main` `role` (e.g. `"angle2"`). These are appended to a `gallery` frontmatter array and rendered by `components/article/ProductGallery.tsx` below the primary product image, instead of overwriting `image`/`productImage`. Only source angle photos confirmed to show the exact reviewed model/generation.
+Additional angle photos of the same product use extra manifest entries with a non-`main` `role` (e.g. `"angle2"`). These are appended to a `gallery` frontmatter array, instead of overwriting `image`/`productImage`, and `images:place` then inserts them into the review body. Only source angle photos confirmed to show the exact reviewed model/generation.
 
 ## Styling
 

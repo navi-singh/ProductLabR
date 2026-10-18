@@ -102,7 +102,7 @@ The Elite 10's ComfortFit design represents a genuinely different approach to ea
 
 ![Jabra Elite 10](/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle2.png)
 
-*Jabra / GN Audio / Jabra (Manufacturer product image)*
+*GN Audio / Jabra (Manufacturer product image)*
 
 First, ear fatigue is dramatically reduced. Traditional in-ear earbuds create a pressure seal inside the ear canal; over time, especially during long conference calls or multi-hour listening sessions, this pressure becomes uncomfortable. The Elite 10's open-canal geometry eliminates that pressure entirely. Reviewers commonly report comfortable wear across 4 to 6-hour continuous sessions that would have caused discomfort with conventional tip-based earbuds.
 
@@ -120,7 +120,7 @@ Jabra tuned the Elite 10 with a warm, balanced sound signature that flatters bot
 
 ![Jabra Elite 10](/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle3.png)
 
-*Jabra / GN Audio / Jabra (Manufacturer product image)*
+*GN Audio / Jabra (Manufacturer product image)*
 
 The Jabra Sound+ app provides a six-band equalizer plus the proprietary MySound feature — a brief audio test (similar to an audiogram) that characterizes your hearing response and creates a personalized EQ profile to compensate for your specific hearing characteristics. The effect is subtle but measurable, particularly for listeners over 35 who have begun to lose sensitivity in the upper frequency ranges.
 
@@ -134,6 +134,10 @@ LC3 codec support via Bluetooth LE Audio is forward-looking: when paired with a 
 
 The Elite 10's ANC is effective and well-tuned, but prospective buyers should calibrate their expectations. The open-canal design's reduced passive isolation means that the ANC system must work harder to achieve the same perceived quiet as a sealed design. The six-microphone feed-forward/feedback hybrid system is good at attenuating low-frequency noise — commuter rumble, HVAC, road noise — but mid-to-high frequency transients like keyboard clicks and nearby conversations are less thoroughly suppressed than on the Sony WF-1000XM5 or Bose QuietComfort Earbuds II.
 
+![Jabra Elite 10](/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle5.png)
+
+*GN Audio / Jabra (Manufacturer product image)*
+
 That said, the ANC Adjustable slider in the Sound+ app allows fine-grained control over how much ambient noise is allowed through — useful in contexts where full isolation would be unsafe (cycling) or socially undesirable (office use). HearThrough transparency mode is natural-sounding and free of the processing artifacts that make some competitors' transparency modes sound synthesized.
 
 For ANC-first buyers, the Elite 10 is not the optimal choice. For buyers who want comfortable, aware earbuds with good-but-not-maximum noise reduction, the balanced approach is well-suited to real-world use.
@@ -146,7 +150,7 @@ The Elite 10 delivers 6 hours per charge with ANC enabled, which is consistent w
 
 ![Jabra Elite 10](/images/posts/headphones/jabra_elite_10/jabra_elite_10_angle4.png)
 
-*Jabra / GN Audio / Jabra (Manufacturer product image)*
+*GN Audio / Jabra (Manufacturer product image)*
 
 The five-minute quick charge (delivering 1 hour of playback) is genuinely useful. Wireless charging via Qi makes bedside top-ups convenient. The case itself is compact, with a satisfying magnetic closure and an IP54 rating that protects it against splashes.
 

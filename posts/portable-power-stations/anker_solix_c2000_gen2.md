@@ -102,9 +102,13 @@ If you're buying your first 2kWh class power station and your use case is typica
 
 At 42 lbs, the C2000 Gen 2 is impressively light for a 2kWh unit.
 
+![Anker SOLIX C2000 Gen 2](/images/posts/portable-power-stations/anker_solix_c2000_gen2/anker_solix_c2000_gen2_angle5.webp)
+
+*Anker (Manufacturer product image)*
+
 ![Anker SOLIX C2000 Gen 2](/images/posts/portable-power-stations/anker_solix_c2000_gen2/anker_solix_c2000_gen2_angle2.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 Meaningfully easier to move than the Bluetti Elite 200 V2 (53.4 lbs) or most 3kWh units starting at 58+ lbs.
 
@@ -128,7 +132,7 @@ Independent reviewers consistently cite the C2000 Gen 2's display as the best in
 
 ![Anker SOLIX C2000 Gen 2](/images/posts/portable-power-stations/anker_solix_c2000_gen2/anker_solix_c2000_gen2_angle3.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 The screen is large, bright enough for outdoor use, and shows detailed real-time data — input wattage, output wattage, state of charge percentage, estimated runtime at current draw, and active port status — all simultaneously without needing to navigate menus.
 
@@ -192,7 +196,7 @@ The 88-minute full charge from AC is confirmed in testing.
 
 ![Anker SOLIX C2000 Gen 2](/images/posts/portable-power-stations/anker_solix_c2000_gen2/anker_solix_c2000_gen2_angle4.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 Adding 800W solar simultaneously reduces wall-clock charge time to approximately 65 minutes — the combined 2,600W rate fills the 2,048Wh battery quickly.
 

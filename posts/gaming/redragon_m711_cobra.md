@@ -89,6 +89,10 @@ The result is a gaming mouse that doesn't feel like a budget product during actu
 
 The PixArt PMW3325 is a proven mid-tier gaming sensor used across dozens of gaming mice in the $20–$60 price range. It delivers clean, accurate tracking up to 10,000 DPI with the 1000Hz polling rate, and its performance on standard gaming surfaces — cloth pads, hard pads, wood desks — is reliable and consistent.
 
+![Redragon M711 Cobra](/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle4.jpg)
+
+*Redragon (Manufacturer product image)*
+
 At the DPI settings most players actually use (400–3200 DPI), the PMW3325 tracks without jitter, cursor deviation at high movement speed, or the spinout behavior that affects lower-quality sensors. This is not the flawless perfection of a Focus Pro 30K or HERO 2 sensor — at very high movement speeds (>3m/s), slight accuracy degradation is detectable under controlled testing. But for the typical gaming scenario, the PMW3325 is genuinely adequate.
 
 Five onboard DPI presets are adjustable via the Redragon software or cycle through using the DPI button behind the scroll wheel. The button provides tactile and visual (DPI indicator LED) confirmation when changing sensitivity, enabling rapid adjustments during play without software access.
@@ -96,6 +100,10 @@ Five onboard DPI presets are adjustable via the Redragon software or cycle throu
 ## Clicks & Buttons
 
 The M711 uses Omron mechanical switches for primary left and right clicks. Omron is the global standard for quality mouse switch components — the same brand used in Logitech G Pro, Razer DeathAdder, and SteelSeries Rival at many times the M711's price point. Omron switches are rated for approximately 20 million actuations and provide consistent, reliable click feedback throughout their lifespan.
+
+![Redragon M711 Cobra](/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle5.webp)
+
+*Redragon (Manufacturer product image)*
 
 The primary click feel is clean and responsive with adequate tactile feedback. It does not match the crispness of optical switches or premium mechanical variants, but it is meaningfully better than the no-name switches used in competing budget mice. Double-clicking defects — the primary failure mode for aging mechanical switches — are not present in new M711 units.
 
@@ -107,7 +115,7 @@ The M711's right-handed ergonomic shape provides thumb shelf support and a raise
 
 ![Redragon M711 Cobra](/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle2.webp)
 
-*Redragon / Redragon (Manufacturer product image)*
+*Redragon (Manufacturer product image)*
 
 At 130g, the Cobra is heavy by 2024 standards where competitive mice target 60–80g. For players who use high sensitivity settings (requiring only small wrist movements), the weight is largely irrelevant — the mouse is moved less per in-game action and the mass matters little. For low-sensitivity players who make broad arm sweeps across large pads, 130g becomes perceptible over extended sessions and creates more fatigue than lighter alternatives.
 
@@ -119,7 +127,7 @@ The M711's plastic shell has adequate rigidity for a gaming mouse at this price.
 
 ![Redragon M711 Cobra](/images/posts/gaming/redragon_m711_cobra/redragon_m711_cobra_angle3.webp)
 
-*Redragon / Redragon (Manufacturer product image)*
+*Redragon (Manufacturer product image)*
 
 The braided USB-A cable is 1.8m long and provides noticeably better durability and flexibility than the unbraided rubber cables on competing budget mice. It is not as flexible as a paracord cable, but it avoids the stiffness and coiling tendency that makes rubber cables add noticeable drag during play.
 

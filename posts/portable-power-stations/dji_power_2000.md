@@ -89,6 +89,10 @@ mid-size unit — 3,000W of AC output, a fast wall recharge, generous USB-C — 
 it carries one feature no rival can match and a couple of documentation gaps no
 serious rival would leave open.
 
+![DJI Power 2000](/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle4.jpg)
+
+*DJI (Manufacturer product image)*
+
 The feature is the pair of SDC ports on the front panel. These are DJI's
 proprietary fast-charging connectors, and they exist to pour power straight into
 DJI drone batteries far faster than an ordinary AC charger would manage. For a
@@ -114,7 +118,7 @@ needed for the expansion system, but it is not a unit you reposition casually.
 
 ![DJI Power 2000](/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle2.jpg)
 
-*DJI / DJI (Manufacturer product image)*
+*DJI (Manufacturer product image)*
 
 The port layout is where DJI's thinking shows through, and it is unusually
 opinionated. There are four AC outputs and a single AC input, four USB-C ports,
@@ -155,7 +159,7 @@ hard to excuse.
 
 ![DJI Power 2000](/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle3.jpg)
 
-*DJI / DJI (Manufacturer product image)*
+*DJI (Manufacturer product image)*
 
 Charging is a bright spot. DJI specifies a 0-80% AC recharge in about 55 minutes
 on US 120V power, which is a genuinely fast top-up for a 2,048Wh pack. The company
@@ -193,6 +197,10 @@ Power 2000 in the expandable-system conversation rather than the fixed-appliance
 one. A buyer can start with the single unit and grow the system as needs and
 budget allow, which is the right architecture for anyone unsure how much backup
 they will eventually want.
+
+![DJI Power 2000](/images/posts/portable-power-stations/dji_power_2000/dji_power_2000_angle5.jpg)
+
+*DJI (Manufacturer product image)*
 
 Connectivity rounds out the platform: the unit carries Wi-Fi on 802.11 b/g/n and
 Bluetooth 5.0, and DJI's app offers remote control and monitoring. It is a

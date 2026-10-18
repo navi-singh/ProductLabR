@@ -108,9 +108,13 @@ But for the homeowner who wants Powerwall-like functionality with Anker's build 
 
 The E10 ships as a system: inverter unit, battery modules, and the base.
 
+![Anker SOLIX E10](/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle5.webp)
+
+*Anker (Manufacturer product image)*
+
 ![Anker SOLIX E10](/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle2.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 The 60-lb inverter is the most manageable component — a single adult can handle it with care.
 
@@ -136,7 +140,7 @@ Every other battery-expandable power system requires physical communication cabl
 
 ![Anker SOLIX E10](/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle3.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 These cables add installation complexity, create failure points, and make reconfiguration difficult.
 
@@ -204,7 +208,7 @@ Testing confirmed the 37,000W surge capacity with 2 batteries.
 
 ![Anker SOLIX E10](/images/posts/portable-power-stations/anker_solix_e10/anker_solix_e10_angle4.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 A 5-ton central AC unit (approximately 20,000W startup, 5,000W running) started cleanly on first attempt.
 

@@ -67,6 +67,10 @@ gallery:
 
 The Aros is the rare expensive folding knife that does not ask you to admire it from a distance. Jens Anso has always been able to draw a knife that looks like nobody else's knife; the surprise here is how little of the Aros feels like sculpture once it is open and cutting. The 2.5 inches of blade are not there to posture. The 6 inches of overall length are not there to impress a forum thread. At 1.91 oz in the carbon-fiber version, it disappears until the moment you need it, then behaves with the confidence of a much plainer work tool.
 
+![Anso of Denmark Aros](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle4.webp)
+
+*Anso of Denmark (Maker product image)*
+
 The result matters more than the romance. Anso designs have spent roughly 20 years being interesting, distinctive, and sometimes a little too pleased with their own shapes. The Aros is different. It takes the asymmetric language, the tidy clip solution, the button lock, the bearing pivot, and the RWL34 steel, then turns those choices into a knife that actually earns daily carry. It is still a 565 USD knife in carbon fiber. It still arrives in packaging so excessive that it makes a ziplock bag feel morally superior. But the object inside is not a trophy pretending to be useful. It is a small, exact, deeply considered EDC folder.
 
 The basic brief is almost suspiciously modest: a flat-ground RWL34 blade, a button lock, a sculpted clip, and a handle compact enough for normal pockets. The execution is where the knife separates itself. The blade has enough tip control for marking work, enough belly for routine slicing, and enough edge length for cardboard without turning the handle into a brick. The button lock gives the action a light, clean character without making the knife feel like a fidget toy first and a tool second. The clip and lanyard arrangement is the kind of detail that looks minor until you realize how many makers solve the same problem by wasting handle space.
@@ -79,7 +83,7 @@ The Aros looks playful, but the best parts of the design are practical. The hand
 
 ![Anso of Denmark Aros knife](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle2.webp)
 
-*Anso of Denmark / Anso of Denmark (Maker product image)*
+*Anso of Denmark (Maker product image)*
 
 The dimensions matter. A 2.5 inches blade is short enough to be legal in more places than a 3.5 inches bruiser, easier to use in a crowded workshop, and less awkward around people who do not think knives are a hobby. A 6 inches overall length means the handle is compact, yet it does not feel like a keychain knife. The 1.91 oz carbon-fiber weight is the sweet spot: light enough that gym shorts and thin summer pockets do not complain, substantial enough that the knife does not feel disposable. Many high-end folders are excellent on a desk and annoying in jeans. The Aros reverses that order. It is better in the pocket than in photographs.
 
@@ -93,7 +97,7 @@ The first job was cardboard, because cardboard is where pocket knives tell on th
 
 ![Anso of Denmark Aros knife](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle3.webp)
 
-*Anso of Denmark / Anso of Denmark (Maker product image)*
+*Anso of Denmark (Maker product image)*
 
 That distinction is important. Plenty of expensive knives have fine steel and beautiful finishing, then remind you during the first recycling run that geometry beats glamour. The Aros has both. It is not a hard-use folder in the theatrical sense. It is not the knife I would take to baton kindling, scrape paint, or abuse on a job site. It is the knife I would choose for the daily stream of precise cuts: cardboard, clamshell packaging, cord, tape, food-packet openings, and the small workshop chores where a larger knife starts to feel rude.
 
@@ -104,6 +108,10 @@ RWL34 helped the case. The steel stayed sharp for a long stretch of normal work,
 ## Lock, action, and carry: the button lock earns its keep
 
 Button locks can be polarizing because they live at the intersection of convenience and strength. On a massive work knife, I understand wanting a different lock geometry. On the Aros, the button lock is exactly the right call. The blade opens smoothly, closes without gymnastics, and allows one-handed use that feels natural rather than performative. The bearing pivot gives the flipper tab enough mechanical help that the tab can stay small. That matters on a compact knife, because a giant tab would ruin both the outline and the pocket experience.
+
+![Anso of Denmark Aros](/images/posts/knives-tools/anso_aros_knife/anso_aros_knife_angle5.webp)
+
+*Anso of Denmark (Maker product image)*
 
 The action is quick, but not silly. The Aros is enjoyable to open, yet it does not feel like a knife designed primarily for couch fidgeting. There is enough detent and leverage to make deployment reliable, and the button keeps closing simple when you are done with a cut. In daily use, that means less thought. You take it out, open it, cut, close it, and put it away. Expensive knives often overcomplicate that sequence with drama. The Aros trims the drama down to a clean motion.
 

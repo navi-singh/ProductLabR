@@ -70,6 +70,10 @@ gallery:
 
 The Nikon Z8 is the body for photographers who want the Z9's central promise without accepting the Z9's size, price, and job-site swagger. Its case for existing is not subtle: a 45.7MP full-frame CMOS sensor, 493-point hybrid AF, 8K 60p video, 4K 120p video, and 5-axis IBIS rated at 6 stops in a body aimed at people who move between stills and motion without wanting a permanently gripped flagship hanging from their shoulder. At 3,996 USD, it is still an expensive camera, but it is not priced like Nikon's top professional body.
 
+![Nikon Z8](/images/posts/cameras/nikon_z8/nikon_z8_angle4.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
+
 That last sentence is the key. The Z8 is not a bargain camera, a beginner camera, or the obvious pick for someone who only posts small files online. It is a compact professional tool for landscape shooters, travel assignment photographers, commercial hybrids, and serious filmmakers who want Nikon's high-resolution stills and serious video modes in one body. It is also the wrong choice for the photographer who buys a flagship because the body itself is insurance: if you expect integrated vertical controls, the psychological comfort of Nikon's largest pro chassis, and a camera that feels built around all-day sideline abuse, the Z9 is the better match.
 
 The Z8's biggest virtue is also its sharpest trade-off. It compresses a demanding feature set into a more portable form, which makes it more attractive for flights, hikes, weddings, corporate shoots, and mixed still/video days. But that same portability makes it less reassuring for the buyer whose work depends on the biggest grip, the most substantial body balance with long lenses, and a control surface designed around constant vertical shooting. The smart Z8 buyer is not asking whether it is secretly a Z9. The smart buyer is asking whether the Z9's body is worth carrying.
@@ -113,6 +117,10 @@ The strongest criticism is complexity. A camera with 8K 60p, 4K 120p, 493-point 
 ## Nikon Z8 vs Z9, Canon EOS R5 Mark II, Sony A1 II, and Panasonic Lumix S1R II
 
 Against the Nikon Z9, the Z8's identity is clear: it is the more portable route to similar core imaging ambitions. The Z9 is for the professional who wants the body to feel like a flagship first and a hybrid second. The Z8 is for the professional who wants the imaging and video muscle while rejecting the largest Nikon body as a daily carry. If you shoot long sports assignments, news, or wildlife with big lenses and vertical framing all day, the Z8 can feel like the compromise. If you travel, hike, work hybrid weddings, or need a serious second body, the Z9 can feel like unnecessary mass and money.
+
+![Nikon Z8](/images/posts/cameras/nikon_z8/nikon_z8_angle5.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY-SA 4.0)*
 
 The Canon EOS R5 Mark II is the obvious cross-brand hybrid rival. Canon's advantage is often about handling preference, color preference, and the feel of its autofocus interface rather than one isolated number. A Canon shooter with RF lenses has little reason to switch just because the Z8 offers 45.7MP and 8K 60p. A Nikon shooter, however, gets a camera that leans hard into high-resolution stills and ambitious video without leaving the Z system.
 

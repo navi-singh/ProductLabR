@@ -70,11 +70,19 @@ gallery:
 
 Medium format used to mean slow, deliberate, tripod-bound work — a different pace from full frame, chosen for image quality alone. The Fujifilm GFX100 II is Fujifilm's attempt to keep that image quality while narrowing the gap in speed and usability, and it mostly succeeds. Its 102-megapixel sensor is physically larger than a full-frame chip, gathering light and rendering tonal transitions in a way full frame can't quite match, and it now sits behind faster autofocus, better burst shooting, and 8K video. At $7,499 for the body, it's aimed at photographers who need the best possible file and are willing to build a system around getting it.
 
+![Fujifilm GFX100 II](/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_angle3.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY 4.0)*
+
 I want to be clear up front about who that is and isn't, because this is an expensive, specific tool. If you're a commercial, fashion, landscape, or fine-art photographer who prints large or sells detail, the GFX100 II is a joy. If you're a generalist looking for one camera to do everything, the format's realities — lens speed, file size, and cost — will fight you at every turn.
 
 ## The sensor and the files
 
 The 102MP medium-format sensor is the entire reason to consider this camera. The larger sensor area means each detail is captured with more information, giving files that hold up under extreme enlargement and heavy retouching. Skin tones, subtle color gradations, and the rolloff from highlight to shadow have a quality that photographers describe as depth or dimensionality — hard to quantify, obvious in a large print. Fujifilm's color science, honed over years of film-simulation profiles, gives you pleasing output straight out of camera on top of raw files with enormous editing latitude.
+
+![Fujifilm GFX100 II](/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_angle4.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY 4.0)*
 
 Then there's the practical weight of all that data. A single 102MP raw is roughly 200MB, and a pixel-shift multi-shot composite — which combines several exposures for even higher resolution on static subjects — balloons far beyond that. This changes everything downstream: you need fast cards, capacious drives, a serious backup regime, and a computer that won't choke retouching those files. The cost of the GFX100 II doesn't end at the body; a proper storage and processing pipeline is part of the purchase.
 
@@ -91,6 +99,10 @@ The in-body stabilization is the unsung hero here. Strong IBIS on a 102MP sensor
 ## Autofocus and speed, in context
 
 Judge the GFX100 II's autofocus against full-frame flagships and it will disappoint; judge it against previous medium-format cameras and it's a genuine leap. The 425-point phase-detection system with subject detection is quicker and more confident than any prior GFX, tracking eyes and faces well enough for controlled portrait and fashion work. Burst shooting is faster than medium format has any right to be. But this is not a sports or wildlife camera. Continuous tracking of fast, erratic subjects is where full-frame systems from Sony, Canon, and Nikon still dominate, and the relatively slow maximum apertures of medium-format lenses compound the challenge in low light. Match the camera to deliberate subjects and it performs; ask it to chase action and it will let you down.
+
+![Fujifilm GFX100 II](/images/posts/cameras/fujifilm_gfx100_ii/fujifilm_gfx100_ii_angle5.jpg)
+
+*昼落ち / Wikimedia Commons (CC BY 4.0)*
 
 ## The lens question, which is the real question
 

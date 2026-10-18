@@ -91,9 +91,13 @@ The answer is not a simple yes or no. The E3600LFP Bundle is an attractive optio
 
 The E3600LFP Bundle looks like it was designed for people who actually need energy, not for buyers chasing a showroom aesthetic. The official store page presents a product family centered on a big battery, broad output selection, and a configuration that makes sense for repeat use. The bundle adds a 300W solar panel and a trolley, which is a meaningful convenience upgrade if your goal is to move the station from a van, garage, worksite, or cabin without dragging a heavy box around.
 
+![Pecron E3600LFP bundle front view with multiple folding solar panels](/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
+
 ![Pecron E3600LFP bundle with expansion batteries and transport cart](/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 That matters because a large portable station is only as good as how easy it is to use in real life. A trolley is not glamorous, but it is practical. If the system is going to sit in a camper, a cabin, or a home backup area, a wheeled base makes it easier to live with and reduces the difference between “portable” and “only portable in the driveway.” The panel also matters because it turns the product from a battery box into a real solar-ready system, which broadens the station's value beyond a single emergency-use scenario.
 
@@ -106,6 +110,10 @@ The bundle is especially useful if you are trying to build a setup around real d
 ## Battery Capacity, Charging, and Solar Input
 
 The battery is the center of the E3600LFP Bundle and the clearest reason to take it seriously. Pecron lists the core power station at 3,072Wh with LiFePO4 chemistry, which is a large-enough battery to matter in both everyday and emergency scenarios. A 3kWh capacity is no small number in the portable-power-station category. It is enough to support a meaningful outage backup, weekend camp power, or a jobsite setup where you need to run tools, lights, and charging gear without a noisy gas generator.
+
+![Pecron E3600LFP bundle stacked on an expansion battery on the wheeled cart](/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 The chemistry matters almost as much as the capacity. LiFePO4 is a better fit for repeated cycling than lower-quality lithium chemistries, and Pecron publishes a claim of 3,500+ cycles to 80% capacity. That is a positive signal for a battery this size, because a large station is not useful if it degrades rapidly or only makes sense for a one-off emergency. The E3600LFP is pitched as a real workhorse, and the chemistry supports that idea.
 
@@ -121,7 +129,7 @@ The 3,600W inverter is the product's defining performance feature. Pecron rates 
 
 ![Pecron E3600LFP bundle angled beside stacked expansion batteries and cart](/images/posts/portable-power-stations/pecron_e3600lfp_bundle/pecron_e3600lfp_bundle_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 That is the key strength of the bundle: it is not just a battery pack. It is a serious inverter system, and for many buyers, that matters more than a polished instruction manual or a deeper app ecosystem. If you want a station that can handle a meaningful set of loads without constantly feeling constrained, the E3600LFP Bundle is built for that use case.
 

@@ -122,9 +122,13 @@ carry handle over the top. At 5.69 pounds it is light enough to clip to a pack o
 a camera bag without much thought, and EcoFlow leans into that with a built-in light on
 the unit for camp and tent use.
 
+![EcoFlow TRAIL 300 DC](/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle4.webp)
+
+*EcoFlow (Manufacturer product image)*
+
 ![EcoFlow TRAIL 300 DC](/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle2.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The battery inside is lithium iron phosphate, the same chemistry EcoFlow uses across its
 larger stations. In a small unit that gets charged and drained constantly on trips, LFP's
@@ -153,9 +157,13 @@ camera rig and a couple of drone batteries topped up, and drive USB lighting —
 across several days for low-draw gear. What it will not do is run anything that needs more
 than 300W or anything that needs AC.
 
+![EcoFlow TRAIL 300 DC](/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle5.webp)
+
+*EcoFlow (Manufacturer product image)*
+
 ![EcoFlow TRAIL 300 DC](/images/posts/portable-power-stations/ecoflow_trail_300_dc/ecoflow_trail_300_dc_angle3.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The USB-C implementation is the standout. Both USB-C ports are rated at 140W bidirectional,
 meaning each can fast-charge a modern USB-C laptop or recharge the TRAIL itself at up to that

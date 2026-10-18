@@ -108,9 +108,13 @@ company describes the unit as "indoor friendly," and that is a fair characterisa
 the intent: this is a product designed to sit in a hallway closet or beside a desk
 rather than in the bed of a truck.
 
+![Jackery Explorer 2000 v2](/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_angle2.webp)
+
+*Jackery (Manufacturer product image)*
+
 ![Jackery Explorer 2000 v2](/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_angle3.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 The folding handle is the single most consequential design decision on the chassis.
 Combined with the 39.5-pound mass, it makes the v2 one of the few units in the class
@@ -146,7 +150,7 @@ to top up between rolling blackouts rather than overnight.
 
 ![Jackery Explorer 2000 v2](/images/posts/portable-power-stations/jackery_explorer_2000_v2/jackery_explorer_2000_v2_angle4.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 Neither number is unreasonable in isolation. Manufacturer charge times are typically
 measured under favourable conditions with a warm-but-not-hot pack and a clean supply

@@ -76,6 +76,10 @@ gallery:
 
 The Roomba Combo j9+ is the rare premium robot vacuum whose best idea is not more automation for its own sake, but a smarter compromise for mixed floors. At 999 USD, it asks a flagship price, yet its defining move is simple: the Smart Scrub mop pad retracts away from carpet so the robot can vacuum and mop in one run without turning every rug into a planning exercise.
 
+![iRobot Roomba Combo j9+](/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle4.jpg)
+
+*iRobot (Manufacturer product image)*
+
 That makes it a very specific recommendation. If you have pets, hard floors, and carpet in the same living space, the Combo j9+ solves one of the category's most annoying problems better than many more theatrical robots. If you want a dock that washes mop pads, refills the water tank, and removes nearly every chore from floor care, this Roomba is not that machine. Its Clean Base is excellent at auto-emptying debris for up to 60 days, but mopping still requires human attention.
 
 The appeal is iRobot's judgment. The 10× Power Boost claim is relative to a baseline Roomba rather than a lab-style suction figure, but the product's actual strengths are easy to understand: dual rubber multi-surface brushes for hair, vSLAM visual mapping, PrecisionVision obstacle avoidance, Wi-Fi 2.4GHz plus Bluetooth setup, and a 75 minutes runtime that suits many homes but not every floor plan. It is a pet-and-carpet Roomba first, a convenience mop second, and a full-service floor-care appliance only if your expectations match that order.
@@ -86,7 +90,7 @@ The Combo j9+ looks and behaves like a premium Roomba rather than a generic robo
 
 ![iRobot Roomba Combo j9+](/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle2.jpg)
 
-*iRobot / iRobot (Manufacturer product image)*
+*iRobot (Manufacturer product image)*
 
 Setup is friendlier than the feature list suggests. Pairing starts through Bluetooth, then the robot joins Wi-Fi 2.4GHz for normal control through the iRobot app. The app's first job is not to bury you in modes; it gets the robot connected, names the home, and sends it out to build a Smart Map. A first exploratory map is roughly a 30 minutes to 45 minutes job for a typical 1,500 to 2,500 sq ft home, which is the right expectation to carry into ownership: not instant, but not a weekend project.
 
@@ -100,7 +104,7 @@ The j9+ is strongest where many robot vacuums are most likely to disappoint: pet
 
 ![iRobot Roomba Combo j9+](/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle3.jpg)
 
-*iRobot / iRobot (Manufacturer product image)*
+*iRobot (Manufacturer product image)*
 
 On hard floors, the Roomba is a confident daily cleaner. Fine dust, crumbs, pet hair, and grit are the kinds of messes it is built to collect before they accumulate into something that requires a manual vacuum. The side brush helps with baseboards and chair legs, while the mapped cleaning pattern prevents the robot from wandering aimlessly after it has learned the rooms. It is not a substitute for deep cleaning every corner, but it reduces how often those deep cleans are necessary.
 
@@ -115,6 +119,10 @@ PrecisionVision obstacle avoidance is a practical safety net, not a license to l
 ## Roomba Combo j9+ vs Roborock, Dreame, Eufy, and Shark alternatives
 
 The Roborock S8 MaxV Ultra is the obvious alternative for buyers who want maximum automation. Roborock's pitch is a dock that empties, refills, washes, and dries, plus a very powerful vacuuming and mopping system. Against that, the Roomba Combo j9+ feels less complete on dock chores but more focused on the mixed-floor carpet problem. Choose Roborock if you want the dock to handle mop maintenance. Choose iRobot if you trust Roomba's pet-hair brushes, iRobot OS, and retractable mop behavior more than an all-in-one dock.
+
+![iRobot Roomba Combo j9+](/images/posts/smart-home/irobot_roomba_combo_j9_plus/irobot_roomba_combo_j9_plus_angle5.jpg)
+
+*iRobot (Manufacturer product image)*
 
 The Dreame L20 Ultra is the value pressure point. It brings a highly automated dock, hot-water mop washing, dual spinning mop pads, LiDAR navigation, and a long runtime. It is the better choice for hard-floor-heavy homes where mopping hygiene and battery life matter more than iRobot's app polish. The Roomba is easier to recommend for pet owners who prioritize carpet behavior, brush maintenance, and a more familiar support ecosystem.
 

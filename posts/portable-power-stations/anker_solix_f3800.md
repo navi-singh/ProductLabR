@@ -92,7 +92,7 @@ There is no getting around the 132 pounds. Anker fits the F3800 with wheels and 
 
 ![Anker SOLIX F3800](/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle2.webp)
 
-*Anker / Anker (Manufacturer product image)*
+*Anker (Manufacturer product image)*
 
 The build reflects the mission. The chassis is heavy-duty, the display is large and legible, and the port bank includes the 30A RV outlet and the high-current 240V-capable output that define the unit's purpose. Bluetooth and Wi-Fi through the app let you monitor and configure it remotely, which matters when the unit is wired into a backup setup and living in a utility area. Everything about the physical design says permanent installation or semi-permanent backup rather than weekend portability.
 
@@ -100,17 +100,29 @@ The build reflects the mission. The chassis is heavy-duty, the display is large 
 
 The 6,000W continuous rating is the headline, but surge is the more interesting engineering story. When a motor starts — a well pump, a sump pump, an air-conditioning compressor — it pulls a brief inrush of current several times its running draw, sometimes for only a fraction of a second. A pump that runs at 1,000W can demand three to six times that at the instant it starts. Stations with small inverters fault out right there. The F3800 carries the highest surge headroom in this group above its 6,000W continuous figure, which is what lets it start pumps and compressors that would defeat a 2,000W or 3,000W unit.
 
+![Anker SOLIX F3800](/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle3.webp)
+
+*Anker (Manufacturer product image)*
+
 That capability is the real reason to buy this over a bigger-battery, smaller-inverter rival. Raw stored energy is easy to add; the ability to start a heavy motor is not. If your outage plan includes a well pump, a septic pump, or central air, the F3800 is built for exactly that, where most portable stations are not even in the conversation.
 
 ## Real-World Runtime
 
 Output this large invites a warning: a 6,000W inverter feeding heavy loads empties a 3,840Wh pack in a hurry. Run 3,000W of appliances and the base battery lasts a bit over an hour. This is a unit whose capacity should almost always be expanded if you want meaningful endurance under real household loads.
 
+![Anker SOLIX F3800](/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle4.webp)
+
+*Anker (Manufacturer product image)*
+
 For lighter, realistic backup loads the numbers are far kinder. After conversion losses of roughly 10–15%, plan on about 3,400–3,450Wh reaching your outlets. A refrigerator does not run its compressor continuously — figure a third of the time — so a fridge that draws 150W while running averages closer to 50W over an hour. Divide that into about 3,450 usable watt-hours and one F3800 keeps a fridge cold for roughly 65 to 70 hours, nearly three days. A broader essentials load — fridge, furnace blower, networking, lights, phones — averaging 250–350W lands you somewhere around 10 to 14 hours per charge. Add expansion batteries and those windows stretch accordingly.
 
 ## Split-Phase and Home-Panel Integration
 
 This is the feature that separates the F3800 from nearly every portable station under it. A single unit produces true 120V/240V split-phase power, so it can feed 240V loads and, through the right hardware, back up whole sections of a home's electrical panel. Pair two F3800 units and you roughly double both the capacity and the available power for demanding whole-home setups. Anker's home-integration accessories can automate the transfer, and the unit is also compatible with a standard manual transfer switch for a simpler, cheaper installation.
+
+![Anker SOLIX F3800](/images/posts/portable-power-stations/anker_solix_f3800/anker_solix_f3800_angle5.webp)
+
+*Anker (Manufacturer product image)*
 
 Here is the honest part: doing this correctly is an electrical project, not a plug-and-play afternoon. To power house circuits you need a transfer switch — either an automatic home-panel product or a manual transfer switch or interlock kit — and in most jurisdictions that installation must be performed by a licensed electrician. You never connect a power source to your panel by backfeeding an outlet; doing so can energize the utility lines and kill a lineworker. Budget for the transfer switch and the electrician as part of the true cost of whole-home capability, not an optional extra.
 

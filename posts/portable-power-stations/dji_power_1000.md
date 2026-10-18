@@ -101,9 +101,13 @@ At full MSRP of $999, the value case weakens when the Anker SOLIX C2000 Gen 2 of
 
 Cracking open the box, it's immediately obvious this is a DJI product.
 
+![DJI Power 1000](/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle5.jpg)
+
+*DJI (Manufacturer product image)*
+
 ![DJI Power 1000](/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle2.jpg)
 
-*DJI / DJI (Manufacturer product image)*
+*DJI (Manufacturer product image)*
 
 The build quality is exceptional — every surface feels precise, the display is crisp, and the included carrying case signals a premium ownership experience most power station brands don't match.
 
@@ -127,7 +131,7 @@ The DJI Power 1000's most important feature for its target audience is how quiet
 
 ![DJI Power 1000](/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle3.jpg)
 
-*DJI / DJI (Manufacturer product image)*
+*DJI (Manufacturer product image)*
 
 The cooling fan spins slowly enough under typical loads to be effectively inaudible in most environments.
 
@@ -185,7 +189,7 @@ Real-world efficiency tested at approximately 76% under full load.
 
 ![DJI Power 1000](/images/posts/portable-power-stations/dji_power_1000/dji_power_1000_angle4.jpg)
 
-*DJI / DJI (Manufacturer product image)*
+*DJI (Manufacturer product image)*
 
 In practical terms, you'll lose roughly 260Wh to heat on every full cycle — more than EcoFlow's Delta 3 (~85–88%) or Anker's SOLIX line (~89%).
 

@@ -85,7 +85,7 @@ An all-in-one power station is simpler to buy and simpler to carry. The AC300 as
 
 ![Bluetti AC300 + B300](/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle2.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 The catch is cost and bulk. Each B300 is a separate, heavy purchase, and expansion is not cheap — the price per added kilowatt-hour is one of the least attractive things about the system. You also end up with two distinct modules to store and connect, plus cabling, rather than a single object you grab and go. For buyers who know their needs will grow, that is a reasonable trade. For someone who wants a fixed amount of backup and never intends to expand, a comparably sized all-in-one may be simpler and cheaper.
 
@@ -95,7 +95,7 @@ Splitting the system across modules keeps any single piece movable. At around 45
 
 ![Bluetti AC300 + B300](/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle3.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 The AC300's control surface is dense but readable: a bright display shows input and output wattage, state of charge, and time estimates, and the app adds Bluetooth and Wi-Fi monitoring so you can watch the system from a phone. The port array is where the 30A output and RV-friendly connections live, making this a natural fit for a trailer or a partial home tie-in through a transfer switch. Build quality feels appropriate to the price — this is equipment meant to sit in a garage or utility room and work for years.
 
@@ -105,7 +105,7 @@ Start with usable energy. After inverter conversion losses of roughly 10–15%, 
 
 ![Bluetti AC300 + B300](/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle4.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 A refrigerator is the classic backup question, and the honest math looks nothing like a fixed "150W times four hours." A fridge that draws 150W while running only runs its compressor perhaps a third of the time, so it averages closer to 45–55W over a full hour. Divide that into roughly 2,760 usable watt-hours and a single B300 keeps a fridge cold for about 50 to 60 hours — more than two days on one battery. Widen the load to a realistic outage kit — fridge, Wi-Fi and networking, a few lights, phones charging, a fan — averaging maybe 150–200W, and you are looking at roughly 14 to 18 hours per B300. Add a second battery and those numbers double.
 
@@ -114,6 +114,10 @@ The 3,000W inverter's more interesting trick is surge. Motor-driven appliances �
 ## Backup, UPS and Home Integration
 
 Bluetti markets UPS functionality, and it works for the common case: when grid power drops, the AC300 switches to battery quickly enough that computers, networking gear, and most consumer electronics never notice. Treat it as a standby UPS rather than a true online double-conversion unit — the changeover is fast but not zero, so if you run something exceptionally sensitive to any interruption, test it on your specific hardware before relying on it in an emergency.
+
+![Bluetti AC300 + B300](/images/posts/portable-power-stations/bluetti_ac300_b300/bluetti_ac300_b300_angle5.webp)
+
+*BLUETTI (Manufacturer product image)*
 
 For home use, the RV-grade 30A output and the option to feed a transfer switch let you power selected circuits during an outage. This is where the modular capacity earns its money: sized with two or more B300 packs, the system can carry a fridge, furnace blower, networking, and lighting through a long outage. Just remember that any permanent tie-in to your home's wiring should go through a proper transfer switch and, in most jurisdictions, a licensed electrician — you never backfeed a panel directly.
 

@@ -100,7 +100,7 @@ At 23.8 lbs (10.8kg), the Explorer 1000 v2 is substantial for its capacity class
 
 ![Jackery Explorer 1000 v2](/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle2.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 The build quality exemplifies Jackery's focus on durability over flashy features. The integrated handle provides comfortable carrying, though the weight requires consideration for frequent transport. The LCD display, while basic compared to premium competitors, provides essential information clearly. Overall construction conveys confidence in long-term reliability and outdoor durability.
 
@@ -110,7 +110,7 @@ The Explorer 1000 v2 emphasizes core functionality with proven technology:
 
 ![Jackery Explorer 1000 v2](/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle3.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 - **1,070Wh LiFePO4 Battery** – Industry-leading cycle life with 4,000+ cycles to 70% capacity
 - **1,500W Output (3,000W Surge)** – Higher power capability for demanding appliances and tools
@@ -128,7 +128,7 @@ The 1,500W continuous output with 3,000W surge capability handles demanding appl
 
 ![Jackery Explorer 1000 v2](/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle4.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 Surge capability proved reliable for starting motors and compressors, essential for refrigeration and power tool applications. The pure sine wave output ensures compatibility with sensitive electronics including laptops, medical devices, and precision equipment.
 
@@ -179,7 +179,7 @@ The Explorer 1000 v2's construction emphasizes durability over premium aesthetic
 
 ![Jackery Explorer 1000 v2](/images/posts/portable-power-stations/jackery_explorer_1000_v2/jackery_explorer_1000_v2_angle5.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 Heat dissipation proves excellent with strategic ventilation and efficient thermal management. The unit maintains safe operation under sustained loads without thermal throttling, essential for demanding applications requiring consistent power delivery.
 

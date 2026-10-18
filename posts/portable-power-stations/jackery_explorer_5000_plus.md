@@ -109,9 +109,13 @@ separate battery packs that dock alongside it to add capacity. That is what lets
 first unit, then bolt on batteries as your budget and needs expand. Up to five packs can
 join a single system.
 
+![Jackery Explorer 5000 Plus](/images/posts/portable-power-stations/jackery_explorer_5000_plus/jackery_explorer_5000_plus_angle4.webp)
+
+*Jackery (Manufacturer product image)*
+
 ![Jackery Explorer 5000 Plus](/images/posts/portable-power-stations/jackery_explorer_5000_plus/jackery_explorer_5000_plus_angle2.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 The chemistry is LiFePO4, which is the correct and expected choice here. Lithium iron
 phosphate trades a little energy density for thermal stability and longevity, and in a
@@ -144,9 +148,13 @@ can feed a 240V circuit directly, so an electric range, a dryer or a well pump i
 table rather than off it. A 7,200W ceiling is enough to run a substantial fraction of a
 household's simultaneous load.
 
+![Jackery Explorer 5000 Plus](/images/posts/portable-power-stations/jackery_explorer_5000_plus/jackery_explorer_5000_plus_angle5.webp)
+
+*Jackery (Manufacturer product image)*
+
 ![Jackery Explorer 5000 Plus](/images/posts/portable-power-stations/jackery_explorer_5000_plus/jackery_explorer_5000_plus_angle3.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 Charging is quick, at least by Jackery's numbers. The company claims a full 0-100%
 recharge in 1.7 hours, and lists five ways to charge overall. Solar is a real strength

@@ -103,9 +103,13 @@ At 7,200W, the HomePower 3600 Plus handles these loads that would trip most comp
 
 At 77 lbs, the HomePower 3600 Plus sits in the middle of the 3–4kWh weight range.
 
+![Jackery HomePower 3600 Plus](/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle5.webp)
+
+*Jackery (Manufacturer product image)*
+
 ![Jackery HomePower 3600 Plus](/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle2.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 Jackery's wheel and handle mechanism is quality hardware: the wheels use durable casters with good load ratings, and the suitcase-style handle telescopes smoothly to multiple heights.
 
@@ -127,7 +131,7 @@ The 7,200W surge rating is the spec that separates the HomePower 3600 Plus from 
 
 ![Jackery HomePower 3600 Plus](/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle3.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 During outages, the most common failure mode for power stations is tripping when a refrigerator compressor, well pump, or central AC unit starts up.
 
@@ -187,7 +191,7 @@ Testing confirmed the 7,200W surge specification.
 
 ![Jackery HomePower 3600 Plus](/images/posts/portable-power-stations/jackery_homepower_3600_plus/jackery_homepower_3600_plus_angle4.webp)
 
-*Jackery / Jackery (Manufacturer product image)*
+*Jackery (Manufacturer product image)*
 
 A 3-ton central AC unit (5,000W startup, 1,800W running) started cleanly on three successive tests.
 

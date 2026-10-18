@@ -90,9 +90,13 @@ That makes the E3600LFP a credible bargain if you know what you are buying. It i
 
 The E3600LFP looks like a product designed for people with a real-world setup rather than a showroom. The product copy positions it as a large-capacity power station with a broad set of outputs, and the feature list supports that impression. Pecron advertises a versatile output layout with 120V AC outputs, DC ports, a 30A high-power output, USB-A and USB-C connections, and a wireless charging pad. That is exactly the kind of mix that matters when a station is meant to run appliances, recharge electronics, and sit in a home, van, or jobsite setup without forcing a separate power strip into every use case.
 
+![Pecron E3600LFP rear panel view showing DC and communication ports](/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
+
 ![Pecron E3600LFP angled front view with side vent and outlets visible](/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The design tone is practical rather than premium. It does not give the same polished, boutique feel as a high-end EcoFlow or BLUETTI product, but it does not need to. Buyers who are tracking megawatt-hours of battery capacity and inverter headroom are not buying the E3600LFP for a living-room statement piece. They are buying it to move power from one place to another with as little friction as possible.
 
@@ -103,6 +107,10 @@ The styling and control experience are more mixed. This is not a model that feel
 ## Battery Capacity, Charging, and Solar Input
 
 The battery is the core of this product and also the clearest reason to pay attention. Pecron lists the E3600LFP as a 3,072Wh LiFePO4 station, which puts it in the same general class as some of the better value large-format portable stations. A 3kWh battery is large enough to serve as a meaningful quiet backup, a day-use staging battery, or a worksite battery for tools, lights, and chargers. The battery chemistry matters here, too. LiFePO4 is the right direction for a buyer who expects to cycle the unit regularly rather than treat it like an emergency-only box kept in a closet.
+
+![Pecron E3600LFP mounted on its wheeled transport cart](/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 Pecron's official product page also advertises 3,500+ cycles to 80% capacity, which is a strong claim for a station at this price point. That number matters, because a large battery is not useful if it ages poorly in a couple of years. The E3600LFP is not trying to be a one-use emergency tool. It is pitched as a real battery system, and the chemistry supports that case.
 
@@ -118,7 +126,7 @@ The E3600LFP's inverter is where the value story meets the buyer's reality. Pecr
 
 ![Pecron E3600LFP rear view showing fans and high power connectors](/images/posts/portable-power-stations/pecron_e3600/pecron_e3600_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The big question is whether the product lives up to the promise when the load gets serious. This is where a buyer should read the spec sheet carefully and not assume that a headline surge figure equals a stable real-world operating ceiling. A 7,000W surge number is a useful marketing number, but the safety margin matters more than the maximum number on the label. In the same way, a 3,600W inverter is only as impressive as the station's thermal behavior, transfer stability, and the quality of the battery-to-inverter path.
 

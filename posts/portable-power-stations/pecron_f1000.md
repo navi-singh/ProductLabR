@@ -91,9 +91,13 @@ The F1000LFP is best for car camping, weekend work away from mains power, and a 
 
 At 24 lb according to the independent review cited below, the F1000LFP belongs in a car, RV, or closet rather than on a hiking trail. That still makes it notably easier to move than many 1kWh-class stations. The case has a built-in light with brightness settings and an SOS mode, a practical upgrade when the station is being carried during an outage rather than admired on a shelf.
 
+![Pecron F1000LFP angled front view showing side handle and output panel](/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
+
 ![Pecron F1000LFP straight front view with AC outlets and display](/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The front-panel layout is the hardware's most persuasive feature. Four 120V outlets, two USB-C ports, two USB-A ports, a 12V car socket, and a barrel connector are all accessible from one face. Pecron describes the station as having 10 outputs, and the published port count supports that total. More important than the count, the AC outlets are spaced so a large laptop brick should not immediately sacrifice an adjacent socket. This is a modest convenience that matters more on a compact station than another decorative feature.
 
@@ -107,7 +111,7 @@ Pecron rates the pure-sine inverter at 1,500W continuous and states a 3,000W sur
 
 ![Pecron F1000LFP shown with a folding solar panel behind it](/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The independent testing from [The Solar Lab](https://www.thesolarlab.com/review/pecron-f1000) reported a full AC recharge in 58 minutes from empty. That is a strong practical result for this capacity class and is consistent with Pecron's 1,000W input rating. Pecron advertises 0% to 80% in 50 minutes, so its claim should be read as a manufacturer estimate rather than the same result under every wall circuit or temperature. The same source reported a little over 90 minutes for a full solar charge using approximately 600W of panels in favorable conditions. Real solar time will vary with panel angle, clouds, heat, and the input voltage of the array.
 
@@ -118,6 +122,10 @@ Pecron claims 25dB operation below a 500W load and 3,500 or more cycles to 80% c
 ## How the F1000LFP Compares
 
 The [EcoFlow DELTA 2](https://us.ecoflow.com/products/delta-2-portable-power-station) is the better-known alternative for shoppers who value a deeper accessory ecosystem and expansion-battery options. The F1000LFP's lower official price is attractive when the smaller fixed battery is all you need. Choose EcoFlow if remote monitoring, add-on capacity, and a broader retail footprint are worth spending more for; choose Pecron when a simple 1kWh-class station is the target and the sale price holds.
+
+![Pecron F1000LFP front view with two folding solar panels](/images/posts/portable-power-stations/pecron_f1000/pecron_f1000_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 The [BLUETTI AC180](https://www.bluettipower.com/products/ac180-portable-power-station) is the alternative for buyers who prioritize a larger-capacity class and more conventional home-backup positioning. Its 1,152Wh rating and 1,800W inverter put it above the Pecron on paper, but it is also heavier. The F1000LFP is more compelling for a person who moves the battery frequently and wants fast recharging, not for someone trying to stretch a fixed battery through a long outage.
 

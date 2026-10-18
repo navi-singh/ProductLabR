@@ -91,7 +91,7 @@ The E2400's physical design is familiar Pecron material: rugged, no-nonsense, an
 
 ![Pecron E2400LFP front view with four folded solar panels](/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 At about 45 lb, the E2400 is large enough to feel serious without being absurd. It is portable in the car-camping or small-worksite sense, not in the backpacking sense. That is usually reasonable for a 2kWh battery: a person can move it, but it wants a stable place to live once it gets there. The front-facing layout is the E2400's best design move. The AC outlets, USB ports, DC socket, and XT60 output are all on the front, which is exactly the kind of feature that matters when the unit sits against a wall or tucked into a tight RV compartment.
 
@@ -104,6 +104,10 @@ The E2400 also does not have a built-in light. That is a small, old-school omiss
 ## Battery Capacity and Charging
 
 The battery itself is the E2400's strongest argument. Pecron rates it at 2,048Wh with a 51.2V/40Ah LiFePO4 pack and a "3,500+ cycles to 80%" claim. That is exactly the chemistry and endurance story buyers want in a station that may be cycled repeatedly. LiFePO4 is a stronger choice than the older NMC chemistries used in cheaper, shorter-lived stations, and a 2kWh pack is large enough to be genuinely useful for weekend cabin trips, emergency electronics, or a few hours of serious power needs.
+
+![Pecron E2400LFP paired with expansion batteries from an angled rear view](/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 The charging story is also good on paper. Pecron advertises 1,800W AC charging and a full charge in 1.5 hours. The Solar Lab reported a charge time of about 1 hour and 21 minutes from a drained battery, which is a strong result for a 2kWh unit. That is the kind of speed that makes the E2400 feel more like a work-ready inverter system than a slow, cautious battery bank.
 
@@ -119,7 +123,7 @@ This is the section where the E2400 stops looking like a clear winner. Pecron ra
 
 ![Pecron E2400LFP stacked on two expansion batteries from the front](/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle4.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The issue is not simply that the E2400 is a little inefficient. It is that the system appears to struggle thermally under heavy sustained demand. The Solar Lab reported overheating when the battery was low and the fans kicked in hard as the inverter labored to maintain output. That matters because buyers often shop for a portable power station expecting something that can do a serious appliance load without performance dropping off mid-task. The E2400 does not reliably offer that level of confidence at the top of its rating.
 
@@ -132,6 +136,10 @@ The broader takeaway is that the E2400 acts most sensibly as a power station for
 ## How It Compares
 
 The closest comparison is with the E1500LFP, which is a smaller but more straightforward station in the same family. The E1500 is lighter, more compact, and easier to carry, while the E2400 offers more battery capacity and a stronger headline output. The E2400 wins on raw capacity but loses on the confidence of the heavy-load story. If you need more energy without a dramatic spike in size, the E2400 is the better choice. If you want a more manageable, lower-risk station for everyday use, the E1500 gets harder to dismiss.
+
+![Pecron E2400LFP angled front view with folding solar panels](/images/posts/portable-power-stations/pecron_e2400lfp/pecron_e2400lfp_angle2.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 The EcoFlow DELTA 2 Max is the more polished alternative for buyers who value a familiar ecosystem and a more mature app experience. EcoFlow's interface and accessories are easier to trust in daily ownership, and the brand has a broader support footprint. The E2400 offsets that with a lower official price and a larger battery, but it also exposes itself to the deeper criticism that its heavy-load performance is less reassuring than the marketing suggests.
 

@@ -133,6 +133,10 @@ Personalized Spatial Audio, available on Apple devices with iOS 16 or later, use
 
 The Studio Pro's ANC system performs well against the broad market but falls behind the best-in-class Sony XM5 and Bose QC Ultra. Independent measurements put the Studio Pro at approximately 24 dB average reduction in the 50–500 Hz range — effective for HVAC noise, transit rumble, and aircraft cabin drone, but not the 28–30 dB performance of the top tier.
 
+![Beats Studio Pro](/images/posts/headphones/beats_studio_pro/beats_studio_pro_angle5.jpg)
+
+*Beats Electronics / Beats by Dre (Manufacturer product image)*
+
 In practical use, the ANC is sufficient for most commuters and travelers. On a two-hour flight, cabin noise was reduced to a manageable background level — not silent, but sufficiently attenuated to make music and calls comfortable. In an open-plan office, the ANC reduced ambient conversation to a background murmur without fully eliminating it.
 
 The ANC mode button cycles through three states: Active Noise Cancelling, Transparency Mode, and Off. Transparency Mode is well-implemented — the passthrough sounds natural with minimal processing artifact. The ANC/Transparency toggle is handled by a physical button rather than a touch gesture, which is more reliable in daily use.

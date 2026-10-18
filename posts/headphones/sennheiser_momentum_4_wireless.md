@@ -103,7 +103,7 @@ The Momentum 4 Wireless is built to a premium specification. The headband combin
 
 ![Sennheiser Momentum 4 Wireless](/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle2.webp)
 
-*Sennheiser / Sennheiser (Manufacturer product image)*
+*Sennheiser (Manufacturer product image)*
 
 The ear cushions are large, deep, and plush. Sennheiser uses a memory foam pad wrapped in a soft leatherette material that distributes pressure evenly across the pinna. Extended listening sessions of two or three hours produce minimal fatigue. The cushions also create a generous passive seal around the ear — useful both for bass response and as a foundation for the ANC system.
 
@@ -119,7 +119,7 @@ This is where the Sennheiser Momentum 4 Wireless distinguishes itself most clear
 
 ![Sennheiser Momentum 4 Wireless](/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle3.webp)
 
-*Sennheiser / Sennheiser (Manufacturer product image)*
+*Sennheiser (Manufacturer product image)*
 
 With aptX Adaptive enabled on a compatible Android device, the Momentum 4 streams at up to 24-bit/96kHz, delivering a high-resolution audio experience that places individual instruments in the stereo field with impressive precision. String quartets occupy distinct space in the soundstage; drum kit elements have genuine weight and impact; vocals sit slightly forward with a lifelike presence. This is the kind of listening experience typically associated with premium wired headphones; achieving it wirelessly at $279 is a meaningful accomplishment.
 
@@ -133,6 +133,10 @@ Bass reproduction is where the Momentum 4 most clearly surpasses competitors. Th
 
 The ANC system is the Momentum 4's most significant competitive weakness relative to the Sony XM5 and Bose QC Ultra. The adaptive four-microphone system effectively attenuates low-frequency noise — HVAC hum, commuter rail rumble, aircraft cabin drone — but its performance drops off more sharply in the 500 Hz to 2 kHz range where human voices and mid-frequency mechanical noise live.
 
+![Sennheiser Momentum 4 Wireless](/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle5.webp)
+
+*Sennheiser (Manufacturer product image)*
+
 In a busy office environment, the Momentum 4 reduced ambient sound noticeably but left a more audible floor of conversation and keyboard noise than the XM5 or QC Ultra. On aircraft, the reduction of engine roar was comparable to top competitors, but the quieting effect felt less complete. For dedicated commuters and frequent flyers who lean on ANC as their primary tool for focus and peace, the XM5 or QC Ultra will serve them better.
 
 Transparent Hearing mode is among the best implementations available. Sennheiser's microphone passthrough sounds natural and open — less processed than Sony's Ambient Sound Mode, and comparable in quality to Bose's Aware Mode. Adjusting the transparency level through the app, from fully open to partially filtered, is responsive and precise.
@@ -145,7 +149,7 @@ The 60-hour battery is not a specification lie. Independent battery testing — 
 
 ![Sennheiser Momentum 4 Wireless](/images/posts/headphones/sennheiser_momentum_4_wireless/sennheiser_momentum_4_wireless_angle4.webp)
 
-*Sennheiser / Sennheiser (Manufacturer product image)*
+*Sennheiser (Manufacturer product image)*
 
 Practical implications: most users will charge the Momentum 4 once or twice per week rather than daily. Travelers can take them on a week-long trip without bringing a charging cable. The 10-minute quick charge providing 5 hours of playback is a secondary safety net that, given the base battery life, most users will rarely need.
 

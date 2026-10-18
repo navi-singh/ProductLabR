@@ -83,6 +83,10 @@ gallery:
 
 The Anker SOLIX S2000 is a 2,010Wh portable power station for buyers who care more about keeping a refrigerator, router, CPAP machine, or small home-office setup alive than about running every appliance in the house. Its defining numbers are a 6W active idle draw, a 1,500W continuous inverter, and a 35.7-pound vertical body. Anker says those choices let the S2000 deliver up to 35 hours of refrigerator backup in a specific 700-liter test setup.
 
+![Anker SOLIX S2000 angled rear view with AC outlets and charging port](/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle5.webp)
+
+*Anker product page (Manufacturer product image)*
+
 That is a sensible product thesis. A large battery can waste a surprising amount of its stored energy just keeping the inverter awake, so a low idle figure matters when the load cycles on and off. The catch is equally clear: 400W solar input is restrained for a 2kWh station, the capacity is not expandable, and 1,500W continuous output is not enough for the highest-demand household equipment.
 
 Anker announced the S-Series and S2000 on May 19, 2026. That date comes from the launch release, not the discovery article's publication date. The official S2000 page now supplies the model's specifications and testing footnotes, but it still describes headline runtime and efficiency figures as Anker internal results. This is a focused backup station, not a universal generator replacement.
@@ -93,7 +97,7 @@ The S2000 measures 8.2 by 11.1 by 12.7 inches and weighs 35.7 pounds according t
 
 ![Anker SOLIX S2000 three-quarter front view showing the tall body](/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle2.webp)
 
-*Anker / Anker product page (Manufacturer product image)*
+*Anker product page (Manufacturer product image)*
 
 The two-sided outlet layout is more important than the styling. Anker puts some AC outlets at the rear so cables can stay behind the unit, while the front remains available for phones and laptops. That arrangement makes sense for a station that may spend most of its life in one place as a fridge or office backup. It is less convenient when the S2000 is repeatedly repositioned outdoors and every connection needs to be visible from the front.
 
@@ -107,7 +111,7 @@ Anker rates the S2000 for 1,500W continuous AC output and 1,800W maximum bypass 
 
 ![Anker SOLIX S2000 straight front view with display and outlets](/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle3.webp)
 
-*Anker / Anker product page (Manufacturer product image)*
+*Anker product page (Manufacturer product image)*
 
 The headline efficiency story is the 6W active idle claim, with 2W in standby. Anker says the S2000 achieved 88% efficiency at a 100W output load in its internal testing, compared with a 78% industry average from the stations it tested. Those figures are useful context, not an independent laboratory result. Actual runtime depends on the connected device, conversion losses, temperature, and whether the inverter is left on between loads.
 
@@ -118,6 +122,10 @@ The UPS mode is rated at 10ms or less. That should be useful for routers, monito
 ## Charging and solar: quick enough from the wall, limited in the sun
 
 At the default 1,150W AC input, Anker lists a full recharge of about 2.3 hours under its laboratory conditions. The optional 1,600W UltraFast mode is the more interesting setting when a storm is approaching or grid power returns for only a short window. It is a practical advantage, but only if the owner remembers to enable it in the app and the circuit can support the input.
+
+![Anker SOLIX S2000 rear side view showing fan grille and outlets](/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_angle4.webp)
+
+*Anker product page (Manufacturer product image)*
 
 The 400W solar ceiling is the S2000's clearest weakness. A single suitably sized panel can contribute useful daytime energy, but a 2,010Wh battery leaves a lot of capacity that cannot be replenished quickly from a larger array. Anker says the station can recharge from solar during a typical day, but that is a condition-dependent manufacturer claim, not a promise for winter sun, shade, clouds, or a poorly angled panel.
 

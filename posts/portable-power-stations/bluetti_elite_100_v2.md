@@ -87,6 +87,10 @@ actual worry is a fridge, a few phones, a router and a couple of lamps riding ou
 a well-built 1kWh unit is often the correct amount of battery — and the correct amount of
 money.
 
+![Bluetti Elite 100 V2](/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle4.webp)
+
+*BLUETTI (Manufacturer product image)*
+
 Bluetti's Elite 100 V2 lands right in that spot. It packs 1,024Wh of lithium iron
 phosphate, an 1,800W continuous inverter with a 3,600W surge ceiling, and a $499 price.
 Two numbers make it more interesting than a plain spec recital would suggest: Bluetti
@@ -111,7 +115,7 @@ resent moving.
 
 ![Bluetti Elite 100 V2](/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle2.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 Bluetti leans on acoustics as a selling point, claiming the unit stays around 30 decibels
 when the load is under 600 watts. That is Bluetti's own figure rather than a measurement
@@ -146,7 +150,7 @@ this is a one-big-thing-at-a-time unit, and that is the correct expectation for 
 
 ![Bluetti Elite 100 V2](/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle3.webp)
 
-*BLUETTI / BLUETTI (Manufacturer product image)*
+*BLUETTI (Manufacturer product image)*
 
 Charging is where the Elite 100 V2 genuinely stands out. Bluetti claims a 0-80% AC recharge
 in 45 minutes and roughly 70 minutes to a full 100%. If the real-world figure lands anywhere
@@ -182,6 +186,10 @@ and inverter — 1,024Wh, 1,800W continuous, 3,600W surge — and adds X-Boost t
 Unless you specifically want EcoFlow's ecosystem or its 2,200W X-Boost ceiling, the Elite
 100 V2 delivers the same core capability for $130 less, and answers back with a higher 1,000W
 solar input.
+
+![Bluetti Elite 100 V2](/images/posts/portable-power-stations/bluetti_elite_100_v2/bluetti_elite_100_v2_angle5.webp)
+
+*BLUETTI (Manufacturer product image)*
 
 **vs. EcoFlow DELTA 3 Classic ($419-$529, 1,024Wh).** This is the closer price fight. The
 DELTA 3 Classic can dip to $419 for the same 1,024Wh, undercutting the Bluetti at the bottom

@@ -84,6 +84,10 @@ gallery:
 
 The EcoFlow RIVER 3 is a compact device battery with an AC inverter, not a miniature whole-home generator. That distinction is the key to buying it wisely. Its 245Wh battery, 300W rated inverter, 7.4-pound weight and 100W USB-C port make it a practical companion for phones, laptops, lights, routers and a CPAP machine. They do not make it a sensible way to run a refrigerator overnight or a space heater during a blackout.
 
+![EcoFlow RIVER 3 rear side view with vent and handle](/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle3.webp)
+
+*EcoFlow product page (Manufacturer product image)*
+
 EcoFlow officially announced the RIVER 3 Series on September 3, 2024, and listed the RIVER 3 for purchase beginning September 10, 2024. That release date comes from EcoFlow's launch announcement, not from the discovery review used as a research lead. In 2026, the RIVER 3 is therefore an older entry-level model, but its small size and LiFePO4 chemistry still give it a clear use case.
 
 The RIVER 3 is best understood as a quick-to-recharge reserve for low-wattage essentials. EcoFlow's launch material says the series uses X-GaNPower technology and is designed to extend runtime for appliances drawing under 100W. The independent Solar Lab review measured 83% efficiency at a 273W load and recorded a 58-minute full recharge after warming the unit to normal operating temperature. Those are useful results for this class, but they also underline the product's scale: this is a small station doing small-station work.
@@ -94,7 +98,7 @@ At 7.4 pounds, the RIVER 3 is easy to move from a desk to a car, campsite or bed
 
 ![EcoFlow RIVER 3 rear view with integrated carry handle](/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle4.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 The 100W USB-C port is the most useful connector on the front panel. It can charge many laptops and tablets without spending energy through the inverter, which avoids some conversion loss and keeps the setup tidy. The AC outlets remain useful for a charger, lamp or small monitor, but the 300W inverter is the hard ceiling for continuous AC loads.
 
@@ -108,7 +112,7 @@ The RIVER 3 stores 245Wh, but the energy available to an AC appliance is lower a
 
 ![EcoFlow RIVER 3 straight front view with display and AC outlet](/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle2.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 The 300W inverter is enough for a laptop, monitor, router, camera chargers, lights and many small fans. It is not enough for most kettles, hair dryers, induction cookers or power tools. EcoFlow's X-Boost mode advertises up to 600W, but that figure should not be confused with a 600W clean-output inverter. X-Boost manages the load by reducing voltage so some higher-rated resistive appliances can operate at reduced power. A device may run, but not at the performance it gets from a wall outlet. Sensitive electronics should be kept on the normal 300W budget.
 
@@ -119,6 +123,10 @@ The 110W solar input is well matched to the battery. A compatible folding panel 
 ## Real-World Use and Limits
 
 The RIVER 3 makes sense when the load is intermittent or modest. It can keep a router online during a short outage, charge a laptop at a remote work site, run LED lighting at camp and provide a convenient outlet for camera or drone batteries. A CPAP user may also find the capacity useful, but runtime depends on the machine's pressure settings, humidifier and whether the inverter or a direct DC connection is used. Confirm the expected draw before treating it as medical backup.
+
+![EcoFlow RIVER 3 side view showing the carry handle](/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_angle5.webp)
+
+*EcoFlow product page (Manufacturer product image)*
 
 Its weaknesses are just as clear. A 245Wh station cannot carry a refrigerator through a long outage, and a 300W inverter is not a realistic basis for electric cooking or heating. The advertised 600W X-Boost figure can make a product page look more capable than the hardware is in normal operation. Buyers should budget around 300W and treat X-Boost as a compatibility feature, not extra battery or extra clean power.
 

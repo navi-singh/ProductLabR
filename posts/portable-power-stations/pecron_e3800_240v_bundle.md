@@ -89,9 +89,13 @@ That matters because the E3800 is not a six-month novelty. It is a serious capac
 
 The E3800 is a large system built around a practical idea: give the buyer enough capacity and inverter headroom to run a meaningful share of essential loads without creating a product that is only useful in a perfect lab environment. The standard unit is large and heavy enough to command respect — roughly 87 lb in the official product listing — which means it is not a "grab and go" quick-charge station. It is a system you move deliberately, deploy carefully, and use with a plan. That is not a flaw so much as a reality check. This is a serious energy device for people who want real usable power, not a compact emergency gadget.
 
+![Pecron E3800 240V bundle with solar panels dual stations and accessories](/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
+
 ![Pecron E3800 240V bundle angled side view with stacked batteries](/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The 240V bundle adds an important layer of practicality. The storefront shows a dual-unit 240V kit with a 240V box and cart configuration, which is the clearest sign that Pecron is not just selling a single station. It is selling a larger system concept for bigger loads, home backup, or a more flexible off-grid arrangement. That is a very different proposition from a simple "big battery with some outlets" story. It is about expanding into 240V use cases without pushing the buyer all the way up to a premium high-end platform.
 
@@ -102,6 +106,10 @@ That design approach also shows up in the bundle logic. The base E3800LFP unit o
 ## Battery Capacity, Charging, and Solar Input
 
 The battery is where the E3800 earns its stripes. Pecron's product listing describes a 3,840Wh LiFePO4 battery with a 4,200W continuous inverter, which positions the unit squarely in the bigger end of the portable-power-station category. That kind of capacity matters because it changes how a buyer thinks about the product: this is not just a phone-charger or refrigerator backup box. It is a meaningful energy unit for essential household or workshop loads.
+
+![Pecron E3800 240V bundle front view of the station on caster wheels](/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 LiFePO4 chemistry matters here because a large battery station is only as good as the longevity and cycling profile it offers. A product designed for real use should not be a one-off emergency object that degrades quickly. The E3800's chemistry is the right answer for a buyer who wants regular cycling and a stronger long-term handling profile than lower-cost lithium alternatives can provide.
 
@@ -117,7 +125,7 @@ The E3800 does not just have strong numbers. It is built to solve a real class o
 
 ![Pecron E3800 240V bundle with two stations and split phase hub accessories](/images/posts/portable-power-stations/pecron_e3800_240v_bundle/pecron_e3800_240v_bundle_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 That matters more than the brand name or the app ecosystem because a good power station has to prove it can do something useful. The E3800's capacity and output make it relevant to people who need to run real equipment instead of simply charging a laptop or a few lights. It is designed for buyers who have a more practical, less aspirational use case. This is a product that should be judged on how well it solves a real load problem, not on whether it has the slickest app or the most refined support channels.
 

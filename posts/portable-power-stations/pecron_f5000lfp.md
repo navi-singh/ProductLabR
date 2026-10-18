@@ -92,7 +92,7 @@ At 124 lb, the F5000LFP is not meaningfully portable without its included or opt
 
 ![Pecron F5000LFP angled front view with folding solar panels behind it](/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The F-series enclosure is cleaner and more modern than Pecron's older E-series units. Its touchscreen is a meaningful upgrade because it exposes settings and automation controls on the machine rather than making the app the only practical interface. The official feature list also includes OTA updates, operation-log inquiry, and charging statistics. Those features make the F5000LFP easier to monitor as a backup system, even though Pecron's software ecosystem is not as mature as EcoFlow's.
 
@@ -103,6 +103,10 @@ Setup is more involved than plugging in a compact station. A 240V load needs app
 ## Battery, Charging, and Solar Input
 
 The 5,120Wh LiFePO4 battery gives the F5000LFP enough reserve to matter during a long outage. It can cover a refrigerator, communications gear, lights, computers, and selected tools for a meaningful period, although no 5kWh station should be treated as unlimited whole-home power. Runtime still depends on inverter losses and the combined load.
+
+![Pecron F5000LFP stacked on two expansion batteries in front view](/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 Pecron claims more than 4,000 cycles before the battery falls to 80% of its original capacity. That is a manufacturer claim rather than an independent longevity result, but it is the right chemistry and an encouraging rating for a station intended to cycle frequently. The product also includes battery heating and temperature management, a useful feature for cabins, garages, and winter work areas where cold charging needs more care.
 
@@ -118,7 +122,7 @@ The F5000LFP's headline performance is unusually credible. The Solar Lab measure
 
 ![Pecron F5000LFP stacked on one expansion battery in front view](/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The 240V output is the feature that most changes the buying decision. Earlier Pecron systems required two stations and a 240V Connect Box for this class of output. The F5000LFP puts dual-voltage capability in one enclosure, which can simplify a transfer-switch or workshop setup. It can also charge from 120V wall power while delivering 240V output, a practical advantage when the available charging circuit is ordinary household power.
 
@@ -129,6 +133,10 @@ UPS behavior is promising on paper, with Pecron listing 10ms bypass switching an
 ## Pecron F5000LFP vs. the Alternatives
 
 **EcoFlow DELTA Pro Ultra.** EcoFlow remains the stronger choice for buyers who want a mature app, a broad accessory ecosystem, and a more established home-backup path. The F5000LFP is more compelling when the buyer wants comparable system ambition at a lower entry price and is comfortable doing more of the electrical planning themselves.
+
+![Pecron F5000LFP shown with external batteries beside a tall battery stack](/images/posts/portable-power-stations/pecron_f5000lfp/pecron_f5000lfp_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 **Anker SOLIX F3800 Plus.** Anker offers a polished 240V-capable platform with a stronger consumer support story. Pecron counters with a larger 5,120Wh base battery and a much higher claimed solar ceiling. Choose Anker for refinement and ecosystem confidence; choose Pecron when input capacity and raw value are the priorities.
 

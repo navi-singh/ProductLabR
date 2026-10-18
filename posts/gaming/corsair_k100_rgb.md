@@ -93,6 +93,10 @@ The K100 is a statement product from Corsair: the culmination of the company's g
 
 The OPX optical-mechanical switch is Corsair's proprietary linear switch, and it represents a genuine technical advancement over traditional mechanical contacts. Rather than a physical contact closing a circuit, the OPX uses an infrared light beam interrupted by the switch stem to detect actuation. The practical results are a 1.0mm actuation point — among the shallowest available on a production keyboard — no debounce delay since there is no physical bounce to debounce, and a theoretical lifespan measured in the hundreds of millions of actuations rather than the 50–100 million cycles typical of traditional mechanical switches.
 
+![Corsair K100 RGB](/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle5.avif)
+
+*Corsair (Manufacturer product image)*
+
 The switch feel is linear throughout: a smooth keystroke from resting to 4.0mm bottom-out with the only resistance being the spring. The 1.0mm actuation means gaming inputs register from the very beginning of the keystroke, and the 45g actuation force is light enough for fast gaming input without being so light that accidental actuations become frequent.
 
 For pure gaming, the OPX is excellent. For typists who depend on tactile feedback to signal actuation without bottoming out, the absence of a tactile bump is a genuine limitation. Corsair does offer the K100 with Cherry MX Speed (linear) switches as an alternative, but neither variant offers tactile or clicky options — buyers with those preferences should evaluate the Apex Pro or competing boards.
@@ -103,7 +107,7 @@ The 8000Hz polling rate shared with the SteelSeries Apex Pro places the K100 at 
 
 ![Corsair K100 RGB](/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle2.avif)
 
-*Corsair / Corsair (Manufacturer product image)*
+*Corsair (Manufacturer product image)*
 
 Full N-Key Rollover ensures no input is dropped regardless of how many keys are simultaneously held — a baseline requirement for competitive gaming that the K100 meets without qualification. The 1.0mm OPX actuation is among the fastest in production keyboards, registering inputs earlier in the keystroke travel than competitors with 1.5–2.0mm actuation points.
 
@@ -115,7 +119,7 @@ The anodized brushed aluminum frame is the K100's construction showcase. The sur
 
 ![Corsair K100 RGB](/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle3.avif)
 
-*Corsair / Corsair (Manufacturer product image)*
+*Corsair (Manufacturer product image)*
 
 At 1300 grams, the K100 is not moving accidentally. On a standard desk surface without a pad, the keyboard stays positioned through aggressive gaming sessions without drifting. The rubber feet on the underside provide additional purchase, and adjustable height feet allow two angle positions for typing preference.
 
@@ -127,7 +131,7 @@ The 44-zone dynamic RGB system is the most sophisticated keyboard lighting imple
 
 ![Corsair K100 RGB](/images/posts/gaming/corsair_k100_rgb/corsair_k100_rgb_angle4.avif)
 
-*Corsair / Corsair (Manufacturer product image)*
+*Corsair (Manufacturer product image)*
 
 Corsair iCUE software is the most feature-complete keyboard configuration platform available, enabling per-key lighting programming, game-specific profile automation, hardware synchronization across Corsair peripherals, and deep macro scripting. iCUE's integration with hundreds of game titles for dynamic lighting that responds to in-game events — health, ammo, ability cooldowns — represents the most developed game integration of any keyboard software platform.
 

@@ -117,6 +117,10 @@ The codec limitation is a genuine concession. AAC at 256 kbps is a good codec, a
 
 ANC on the AirPods Max is exceptional and among the best in the over-ear category, closely competitive with the Sony WH-1000XM5. Apple's eight-microphone system (three outward-facing and one inward-facing per cup, plus a dedicated microphone under each ear cushion) creates a thorough noise picture. Independent measurements put low-frequency attenuation (50–300 Hz) at approximately 25–28 dB — sufficient to make airplane engine roar a distant irrelevance and commuter train noise fade to background texture.
 
+![Apple AirPods Max](/images/posts/headphones/apple_airpods_max/apple_airpods_max_angle5.jpg)
+
+*SimonWaldherr / Wikimedia Commons (CC BY-SA 4.0)*
+
 In practical environments:
 - On long-haul flights, reviewers generally find the AirPods Max reduce cabin noise more effectively than most rivals, with the XM5 remaining fractionally ahead at low frequencies
 - In open offices, HVAC noise, keyboard sounds, and ambient conversation all attenuated effectively

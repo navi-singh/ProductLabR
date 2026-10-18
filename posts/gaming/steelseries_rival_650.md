@@ -93,6 +93,10 @@ At $99, it competes at the mid-premium tier for wireless gaming mice and offers 
 
 The TrueMove3+ dual sensor system is SteelSeries' most sophisticated tracking hardware and the technical centerpiece of the Rival 650's value proposition. The primary sensor is a custom optical sensor developed in partnership with PixArt, offering 100–12,000 DPI with 1:1 true tracking and no hardware smoothing or acceleration — the sensor reports physical mouse movement without interpretation artifacts.
 
+![SteelSeries Rival 650](/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle4.jpg)
+
+*SteelSeries (Manufacturer product image)*
+
 The secondary sensor is a depth sensor positioned near the primary sensor on the underside of the mouse. Its purpose is exclusive: detecting when the mouse is lifted from a surface and at what height. Traditional optical sensors use a simple lift-off distance parameter to determine when to stop tracking — once the sensor exceeds a configured height above the surface, tracking stops. The depth sensor in the TrueMove3+ provides continuous height data, allowing the mouse to stop tracking at a more precise and lower lift height than single-sensor implementations.
 
 In practical terms, this means the Rival 650 stops tracking sooner after being lifted from the pad surface than competing mice — reducing the cursor drift that can occur when a mouse continues tracking briefly as it's lifted at an angle. For low-sensitivity FPS players who cover large pad distances and lift frequently to reposition, this produces cleaner repositioning behavior that translates to improved aim consistency over time.
@@ -100,6 +104,10 @@ In practical terms, this means the Rival 650 stops tracking sooner after being l
 ## Clicks & Buttons
 
 The Rival 650 uses SteelSeries' proprietary mechanical switches with a rated lifespan of 60 million clicks. The primary clicks exhibit a clean, tactile actuation with a defined snap that is more satisfying than Omron switches and approaches the responsiveness of optical switch implementations. Click consistency across the left and right buttons is good — both actuate at similar force with similar feedback.
+
+![SteelSeries Rival 650](/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle5.jpg)
+
+*SteelSeries (Manufacturer product image)*
 
 Seven total buttons include primary clicks, scroll wheel click (with notched encoder), two side buttons, a CPI (DPI) cycle button, and a profile cycle button. The side buttons are well-sized and positioned for comfortable thumb access on the left side of the mouse. The CPI button placement behind the scroll wheel allows quick sensitivity switching during play.
 
@@ -111,7 +119,7 @@ The Rival 650's ergonomic profile is a right-handed contoured shape optimized fo
 
 ![SteelSeries Rival 650](/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle2.jpg)
 
-*SteelSeries / SteelSeries (Manufacturer product image)*
+*SteelSeries (Manufacturer product image)*
 
 The adjustable weight system is a differentiating feature that allows meaningful customization. The base configuration without weights sits at approximately 96g; adding the included tungsten weight cartridges increases mass to up to 135g. Users can configure weight in the 96–135g range and, critically, distribute the mass by placing weights toward the front or rear of the mouse to influence balance point. Players who prefer a front-heavy mouse for precision during fast flicks configure weights forward; those who prefer rear-heavy balance for palm rest stability configure accordingly.
 
@@ -123,7 +131,7 @@ The Rival 650's construction uses a matte rubber-coated plastic shell that provi
 
 ![SteelSeries Rival 650](/images/posts/gaming/steelseries_rival_650/steelseries_rival_650_angle3.jpg)
 
-*SteelSeries / SteelSeries (Manufacturer product image)*
+*SteelSeries (Manufacturer product image)*
 
 The Quantum wireless receiver is a compact 2.4GHz dongle that stores in a slot on the underside of the mouse for travel. The wireless connection establishes within seconds of the mouse powering on and maintains stable connectivity across standard desktop distances (up to 10m) without interference from WiFi, other 2.4GHz devices, or standard office/gaming room environments in testing.
 

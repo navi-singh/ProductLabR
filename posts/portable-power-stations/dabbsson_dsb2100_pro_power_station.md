@@ -94,6 +94,10 @@ My recommendation is therefore narrow: consider the DBS2100 Pro only if you need
 
 The core unit stores 2,150Wh in what Dabbsson calls an EV semi-solid-state lithium-iron-phosphate battery. The company claims 4,500 cycles before the pack retains more than 80% of its original capacity, plus a 15-year lifespan. Those are useful targets, but they are still manufacturer claims: no consumer review can verify a 15-year service life in 2026, and the chemistry label does not remove the need for sensible thermal management.
 
+![Dabbsson DBS2100 Pro rear panel with AC outlets and vents](/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle3.webp)
+
+*Dabbsson product page (Manufacturer product image)*
+
 The output side is unusually versatile for a mid-sized station. There are three 120V AC outlets, a NEMA TT-30 receptacle for RV loads, three USB-C ports, three USB-A ports, a 12V car socket, and a barrel connector. Dabbsson rates the inverter at 2,400W continuously, advertises 3,600W in Power-Boost mode, and lists 4,800W surge capability. Two DBS2100 Pro units can be paralleled for a claimed 4,600W output, while DBS2100B expansion batteries raise the total system capacity to 12,900Wh when the full configuration is used.
 
 That is a lot of flexibility in one 54 lb box. It can serve as a campsite power hub, an RV supplement, or a short-duration home-backup battery. It is not a whole-home generator by itself, and the TT-30 socket should not be confused with a 3,600W-capable 30A source: the continuous inverter rating remains 2,400W.
@@ -104,7 +108,7 @@ The tower-shaped enclosure is compact enough to place beside an RV dinette or in
 
 ![Dabbsson DBS2100 Pro straight front view with display and ports](/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle2.webp)
 
-*Dabbsson / Dabbsson product page (Manufacturer product image)*
+*Dabbsson product page (Manufacturer product image)*
 
 The port selection is the station's strongest physical argument. The TT-30 outlet is more useful to an RV owner than another pair of household sockets, and the three USB-C plus three USB-A ports cover a family of phones, laptops, cameras, and lights without immediately requiring a power strip. The front display shows the essential input, output, and state-of-charge information. The Solar Lab found the screen functional rather than impressive, and described the app in similar terms: usable for monitoring and settings, but less polished than EcoFlow's or Anker's software.
 
@@ -113,6 +117,10 @@ Dabbsson claims a 15ms UPS transfer time, which is a useful feature for a router
 ## Charging and Battery Behavior
 
 On paper, charging is a strength. The 1,800W AC input should refill a large battery quickly, while the 1,200W solar ceiling is high enough to make a multi-panel setup worthwhile. Dabbsson says the station can reach 80% from AC in about 1.5 hours and fully recharge in roughly 2 hours. The company also lists four ways to recharge, including wall power, solar, and vehicle-related input options.
+
+![Dabbsson DBS2100 Pro stacked with expansion battery front view](/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle5.webp)
+
+*Dabbsson product page (Manufacturer product image)*
 
 The Solar Lab's results are more nuanced. Its test reached 80% in about 1 hour and 15 minutes, but the last 20% slowed considerably, putting the total near 2 hours. That is not a failure, but it is a reminder that “fast charging” usually describes the easy first part of the curve. Solar charging showed the same tapering behavior. A 1,200W maximum is valuable in strong sun, but real output varies with panel orientation, temperature, cabling, and cloud cover.
 
@@ -123,6 +131,10 @@ That result also changes how to read the capacity. At 82% conversion efficiency,
 ## Surge Handling Is the Deciding Concern
 
 Dabbsson's 4,800W surge figure sounds reassuring, but the independent test did not find clean high-surge behavior. When the reviewer pushed beyond the 2,400W continuous output, the station reportedly reduced voltage rather than simply absorbing a brief startup surge and returning to a stable 120V. The review specifically warns that voltage fell low enough to be harmful to sensitive electronics.
+
+![Dabbsson DBS2100 Pro rear lower panel with protected ports](/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_angle4.webp)
+
+*Dabbsson product page (Manufacturer product image)*
 
 That is not a minor technicality. A vacuum, refrigerator compressor, pump, or power tool can draw a startup surge, and a power station should either handle that transient within its design limits or shut down predictably. Delivering unstable voltage is a worse outcome for laptops, camera chargers, medical equipment, and other electronics that expect a normal supply. The DBS2100 Pro is therefore a poor choice for loads whose startup behavior you do not understand.
 

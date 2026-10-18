@@ -100,7 +100,7 @@ At 17.8 lbs (8.1kg), the River 2 Pro pairs a compact footprint with premium buil
 
 ![EcoFlow River 2 Pro](/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle2.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The LCD display is bright and informative, providing real-time power data at a glance. Port layout is logical with clear labeling, while the wireless charging pad on top adds modern convenience. The overall impression conveys this is serious equipment designed for reliable performance in a remarkably portable package.
 
@@ -110,7 +110,7 @@ The River 2 Pro combines practical capacity with cutting-edge technology:
 
 ![EcoFlow River 2 Pro](/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle3.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 - **768Wh LiFePO4 Battery** – Safe chemistry with 3,000+ cycle lifespan for long-term reliability
 - **800W Output (1,600W Surge)** – Powers most household appliances and tools effectively
@@ -128,7 +128,7 @@ The River 2 Pro's standout feature is its exceptional charging speed. Real-world
 
 ![EcoFlow River 2 Pro](/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle4.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 Solar charging at 220W maximum provides full recharge in 4-6 hours under optimal conditions using appropriate panels. The MPPT charge controller efficiently manages various solar panel configurations, while pass-through charging enables simultaneous charging and discharging for extended applications.
 
@@ -149,7 +149,7 @@ The EcoFlow smartphone app sets the standard for power station control and monit
 
 ![EcoFlow River 2 Pro](/images/posts/portable-power-stations/ecoflow_river_2_pro/ecoflow_river_2_pro_angle5.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 Historical usage tracking provides insights into power consumption patterns, while firmware updates ensure ongoing feature improvements and optimization. The app's reliability and functionality significantly enhance the user experience compared to basic LCD-only competitors.
 

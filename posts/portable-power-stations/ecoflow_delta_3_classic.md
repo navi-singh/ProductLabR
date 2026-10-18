@@ -115,9 +115,13 @@ LFP units — Bluetti's Elite 100 V2, for comparison, is a slightly lighter 25.3
 The footprint is small enough to live under a desk or on a closet shelf rather than
 demanding floor space of its own.
 
+![EcoFlow DELTA 3 Classic](/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle4.webp)
+
+*EcoFlow (Manufacturer product image)*
+
 ![EcoFlow DELTA 3 Classic](/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle2.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 The battery chemistry is the part EcoFlow is proudest of, and with some justification.
 The pack uses lithium iron phosphate cells that the company describes as
@@ -154,9 +158,13 @@ coffee maker or a full-size refrigerator all sit comfortably under that limit. R
 at a modest 600W, EcoFlow rates the fan noise at 30dB or below, which is genuinely quiet
 — quiet enough to leave running in a bedroom overnight.
 
+![EcoFlow DELTA 3 Classic](/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle5.webp)
+
+*EcoFlow (Manufacturer product image)*
+
 ![EcoFlow DELTA 3 Classic](/images/posts/portable-power-stations/ecoflow_delta_3_classic/ecoflow_delta_3_classic_angle3.webp)
 
-*EcoFlow / EcoFlow (Manufacturer product image)*
+*EcoFlow (Manufacturer product image)*
 
 EcoFlow also markets an X-Boost figure of 2,600W, and this is worth explaining honestly
 rather than repeating as a headline. X-Boost does not conjure 800 extra watts out of an

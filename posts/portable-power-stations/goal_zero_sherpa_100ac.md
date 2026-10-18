@@ -84,7 +84,7 @@ Goal Zero builds solid hardware, and the Sherpa 100AC is no exception. The chass
 
 ![Goal Zero Sherpa 100AC](/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle2.webp)
 
-*Goal Zero / Goal Zero (Manufacturer product image)*
+*Goal Zero (Manufacturer product image)*
 
 The port layout is the entire reason to buy this thing. You get one AC outlet fed by a pure sine wave inverter rated to 100 watts, USB-C Power Delivery for laptops and quick phone charging, USB-A for older accessories, and the Qi pad on top for a phone or an earbuds case with no cable at all. Pure sine wave output deserves a callout: budget inverters emit a blocky, "modified" waveform that some laptop bricks, camera chargers, and finicky adapters dislike, and Goal Zero avoids that here. Devices see power that looks like the wall.
 
@@ -93,6 +93,10 @@ The tradeoff is density. Anker and EcoFlow have shifted to lithium iron phosphat
 ## What It Actually Powers
 
 Here is the honest arithmetic, because the number on the box is the whole story with a pack this small. Start with 94.7Wh. Push it through an inverter that runs at roughly 85 percent efficiency and you are left with about 80Wh at the AC outlet. That figure is the ceiling on everything below it.
+
+![Goal Zero Sherpa 100AC](/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle3.webp)
+
+*Goal Zero (Manufacturer product image)*
 
 Charging a phone: a current handset battery holds somewhere between 12 and 19 watt-hours. After conversion losses, plan on five to six full charges from empty. That is a long weekend of top-ups for one person, or a single busy day shared across a couple of devices.
 
@@ -106,11 +110,19 @@ What it flatly cannot do is anything with a motor or a heating element. No kettl
 
 The Sherpa refills from a standard wall outlet in a few hours, and it accepts solar and 12-volt car input through Goal Zero's accessories if you want to top it up off-grid. Pass-through works, so you can charge the unit and a phone at the same time from one wall socket, which is handy on a nightstand or a hotel desk. The display makes it easy to see whether your wall charger is delivering fast input or merely trickling in a few watts. From a standard wall outlet, a full refill takes a few hours; from a compatible solar panel it depends entirely on sun and panel size, so treat solar as a slow top-up rather than a primary source.
 
+![Goal Zero Sherpa 100AC](/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle4.webp)
+
+*Goal Zero (Manufacturer product image)*
+
 In daily use, the appeal is that it disappears into a bag and then quietly does its job. The Qi pad is convenient for a nightly phone charge without hunting for a cable. The 2.0-pound weight is noticeable in a jacket but trivial in a backpack. This is a companion object, not a piece of gear you plan a trip around. It rides in the same bag as your laptop and does not change how you pack. Noise is a non-issue, since a 100-watt inverter runs cool enough to skip a fan under most loads. And because the whole pack weighs just 2.0 pounds, you are never deciding whether it is worth bringing.
 
 ## How It Stacks Up
 
 At $299, the Sherpa 100AC competes with things that are either cheaper, larger, or both. EcoFlow's River 2 offers far more capacity and a much stronger inverter for roughly the same money, but it is heavier and will not clear the 100Wh airline limit. Jackery's smallest Explorer models undercut the Sherpa on price while matching or beating its capacity, again at the cost of flight legality. Anker's own USB power banks handle the phone-and-laptop job for a fraction of the price, with the obvious catch that none of them include an AC outlet.
+
+![Goal Zero Sherpa 100AC](/images/posts/portable-power-stations/goal_zero_sherpa_100ac/goal_zero_sherpa_100ac_angle5.webp)
+
+*Goal Zero (Manufacturer product image)*
 
 That is the real competitive frame. The Sherpa is not winning on watt-hours per dollar, where it loses badly to every name above. It wins, if at all, on a narrow overlap: pure sine wave AC, wireless charging, premium build, and under-100Wh capacity in one small object. If you specifically need mains AC on a plane, the list of true rivals is short. If you don't, the Sherpa becomes one of the most expensive ways to charge a phone on the market.
 

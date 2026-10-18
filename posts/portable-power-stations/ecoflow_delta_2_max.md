@@ -90,6 +90,10 @@ gallery:
 
 The EcoFlow DELTA 2 Max launched on **May 25, 2023, at 11:30 a.m. EDT**, according to the launch terms on EcoFlow's own US product page. That makes it an older model in a market that changes quickly, but age is not automatically a liability here. The DELTA 2 Max still combines the capacity, ports, charging inputs, and app support that many newer mid-size stations are trying to balance.
 
+![EcoFlow DELTA 2 Max angled side view from the right](/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle4.webp)
+
+*EcoFlow product page (Manufacturer product image)*
+
 The useful thesis is narrower than “this is a powerful battery.” It is a good fit for a buyer who wants one substantial station for car camping, refrigerator-and-networking backup, or a modular system that can grow later. It is a poor fit for someone who expects to carry 2kWh of power far from a vehicle, or who reads EcoFlow's 3,400W X-Boost figure as if it were a larger inverter.
 
 EcoFlow rates the station at 2,048Wh and 2,400W of continuous pure-sine output. Solar Lab's later independent review found that it sustained its rated output, measured 86% inverter efficiency, and drew about 13.6W with the AC inverter on and no load. Those are meaningful ownership numbers: the DELTA 2 Max is not merely a large battery on a spec sheet, but it is also not a magic replacement for a higher-output system.
@@ -100,7 +104,7 @@ At approximately 50lb, the DELTA 2 Max belongs in a vehicle, garage, or utility 
 
 ![EcoFlow DELTA 2 Max straight front view with display and ports](/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle2.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 The physical arrangement is practical for stationary use. Solar Lab notes that the USB ports are on the front while the AC outlets sit on the rear, which lets the unit sit against a wall or at the back of a vehicle while keeping the frequently used low-power ports accessible. The display is clear, the EcoFlow app pairs over Bluetooth, and the app adds controls and readings that are not available from the front panel alone.
 
@@ -114,7 +118,7 @@ The 2,048Wh LiFePO4 pack is the DELTA 2 Max's most durable advantage. LiFePO4 ch
 
 ![EcoFlow DELTA 2 Max rear view with cooling fans](/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle3.webp)
 
-*EcoFlow / EcoFlow product page (Manufacturer product image)*
+*EcoFlow product page (Manufacturer product image)*
 
 Charging is unusually flexible for this size class. EcoFlow specifies up to 1,800W from AC and up to 1,000W from solar. Solar Lab measured roughly 1.2 to 1.5 hours for a full AC charge and about 2 hours from a 1,000W panel setup in strong sun. Those results are not promises for every home: panel orientation, temperature, shading, and the final balancing phase all change the clock. They do show that the station can be replenished quickly when the input is available.
 
@@ -125,6 +129,10 @@ The DELTA 2 Max can accept solar while powering devices, which is valuable for l
 ## Real-World Use and the X-Boost Caveat
 
 The rated 2,400W inverter is the number to plan around. Solar Lab's load testing found stable operation at that continuous rating and no excessive fan noise or cut-outs under steady resistive loads. That is enough for the ordinary combination of a microwave, lights, a medium refrigerator, and device charging, provided the combined demand stays within the inverter's limits.
+
+![EcoFlow DELTA 2 Max AC outlet panel and front display](/images/posts/portable-power-stations/ecoflow_delta_2_max/ecoflow_delta_2_max_angle5.webp)
+
+*EcoFlow product page (Manufacturer product image)*
 
 EcoFlow advertises X-Boost up to 3,400W and says it can run many high-wattage household appliances. The feature can be useful with compatible resistive loads, but it does not create the surge headroom of a genuinely larger inverter. Solar Lab found that the unit struggled when a load exceeded 2,400W, even with X-Boost enabled. Motors, compressors, air conditioners, well pumps, and demanding power tools are the wrong reason to buy this station.
 

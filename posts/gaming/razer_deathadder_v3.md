@@ -91,6 +91,10 @@ What Razer has built in the V3 is a convergence of the DeathAdder's foundational
 
 The Focus Pro 30K sensor is Razer's flagship optical sensor and one of the top three sensors available in production gaming mice. Its 30,000 DPI ceiling is well beyond practical use — most competitive players operate between 400 and 1600 DPI — but the sensor's accuracy at working sensitivities is what matters, and it is excellent. Cursor tracking is smooth and precisely responsive across the full DPI range, with no jitter, no cursor deviation at high-speed movements, and zero malfunction points.
 
+![Razer DeathAdder V3](/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle4.webp)
+
+*Razer (Manufacturer product image)*
+
 The Focus Pro includes two intelligent tracking algorithms that distinguish it from competing sensors: **Smart Tracking** compensates for sensor angle inconsistency that occurs as a mouse lifts slightly from a surface, and **Motion Sync** synchronizes the sensor's polling to reduce latency between physical movement and cursor response. Both functions are toggleable in Synapse 3 and produce genuinely perceptible improvements on cloth mouse pads with varied surface texture.
 
 Surface calibration in Synapse 3 allows optimization for specific mouse pad materials — users who invest time in calibration for their specific surface will notice improved tracking consistency compared to uncalibrated use.
@@ -100,6 +104,10 @@ At 1000Hz native polling, the V3 performs at the competitive gaming standard. Us
 ## Clicks & Buttons
 
 The third-generation Razer optical mouse switches are the primary click mechanism, and they represent a meaningful advancement over the mechanical switches in most competing mice. Optical switches use an infrared light gate rather than a physical metal contact to detect click actuation. The results are a 0.2ms actuation time, elimination of double-click failure (which is a physical contact degradation issue), and a 90 million click rating that exceeds the typical 20–60 million rating of mechanical switch competitors.
+
+![Razer DeathAdder V3](/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle5.webp)
+
+*Razer (Manufacturer product image)*
 
 The primary left and right click buttons exhibit excellent tactile feedback — a clean, sharp actuation with a satisfying return that doesn't feel mushy or over-dampened. The click force is appropriately light for gaming without being so sensitive that resting fingers trigger inputs inadvertently.
 
@@ -111,7 +119,7 @@ The DeathAdder V3's ergonomic profile is its defining strength. The right-handed
 
 ![Razer DeathAdder V3](/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle2.webp)
 
-*Razer / Razer (Manufacturer product image)*
+*Razer (Manufacturer product image)*
 
 **Palm grip** users will find the V3 accommodating — the arched center section elevates the palm naturally and the length (128mm) covers most hand sizes without requiring a reach for the primary buttons. **Claw grip** users benefit from the elevated primary button section that provides good feedback at the fingertip position. **Fingertip grip** is functional but less optimal given the mouse's larger footprint — smaller, lighter mice like the G Pro X Superlight 2 serve fingertip grip better.
 
@@ -123,7 +131,7 @@ The V3's construction uses a matte plastic shell with textured rubber side grips
 
 ![Razer DeathAdder V3](/images/posts/gaming/razer_deathadder_v3/razer_deathadder_v3_angle3.webp)
 
-*Razer / Razer (Manufacturer product image)*
+*Razer (Manufacturer product image)*
 
 The paracord USB-C cable is the most drag-resistant stock cable on any wired gaming mouse. Its ultra-lightweight braiding has virtually no memory of being coiled, meaning it hangs freely from the mouse without stiffening or bunching against the mouse pad. The drag difference compared to standard rubber or standard braided cables is perceptible — the V3 wired experience approaches wireless in terms of cable interference during play.
 

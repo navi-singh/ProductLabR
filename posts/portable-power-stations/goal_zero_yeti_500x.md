@@ -84,7 +84,7 @@ Goal Zero has always built rugged, tidy hardware, and the 500X is a good example
 
 ![Goal Zero Yeti 500X](/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle2.webp)
 
-*Goal Zero / Goal Zero (Manufacturer product image)*
+*Goal Zero (Manufacturer product image)*
 
 The port array covers two AC outlets, multiple USB ports including USB-C Power Delivery, and 12-volt outputs for car-style accessories. The 6mm and Anderson-style inputs make it a natural fit for Goal Zero's own solar panels, which is a real convenience if you are already in that ecosystem. Two AC outlets is enough for a laptop and a fan at once, though you will rarely have the wattage headroom to load both heavily. Fit and finish are a step above budget stations, and the whole thing feels built to be knocked around a campsite for years. The rubberized corners shrug off knocks, and the ports sit under a layout that is easy to read even by headlamp. This is hardware you can hand to a less careful family member without wincing.
 
@@ -93,6 +93,10 @@ The catch hiding in the spec sheet is chemistry. The 500X uses lithium-ion NMC c
 ## Real-World Runtime and What It Powers
 
 Start with 505Wh, run it through the inverter at roughly 85 percent efficiency, and you have about 429Wh of usable AC energy. That figure anchors every runtime below, and it is worth doing the arithmetic yourself rather than trusting a round marketing number.
+
+![Goal Zero Yeti 500X](/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle3.webp)
+
+*Goal Zero (Manufacturer product image)*
 
 A 60-watt laptop draws about 7 hours from a full charge. A string of LED camp lights pulling 10 watts runs for a day and a half or more. A typical phone, holding 12 to 19 watt-hours, can be recharged well over 20 times. A 45-watt 12-volt cooler cycling on and off can run through a night and into the next day, depending on ambient heat and how often you open the lid.
 
@@ -104,9 +108,17 @@ On CPAP specifically: many machines draw only 30 to 60 watts with the heated hum
 
 The 500X recharges from a wall outlet, from a car's 12-volt socket, or from solar. Wall charging is unhurried by modern standards — this is not one of the fast-charging stations that refill a battery in under an hour — so plan to top it up overnight or across a long afternoon. If quick turnarounds matter to you, this is another area where newer designs have pulled ahead. Solar is where Goal Zero's ecosystem shines: pair it with a compatible panel and you can keep it fed off-grid, though real-world solar input depends on panel size, angle, and sun. The app adds genuine value here, letting you monitor charge, input, and output from your phone and toggle ports remotely without walking over to the unit. In a tent at night, that convenience is more useful than it sounds on paper.
 
+![Goal Zero Yeti 500X](/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle4.webp)
+
+*Goal Zero (Manufacturer product image)*
+
 ## How It Stacks Up
 
 This is where the 500X gets uncomfortable. The Anker SOLIX C800 offers 768Wh, a 1,200-watt inverter, and longer-lived LiFePO4 cells for well under the Yeti's price — more capacity, four times the output, better chemistry, and faster charging, all for less money. On raw value it is not close. Jackery's Explorer 1000 and EcoFlow's River and Delta lines similarly deliver more watt-hours and stronger inverters per dollar. Even within a camping-only frame, the 500X's 300-watt ceiling looks stingy next to rivals that push 600, 1,000, or more watts. A single high-draw device you forgot about — a travel kettle, a small heater — is enough to make you wish you had bought more headroom, and the competing stations give you that headroom for less.
+
+![Goal Zero Yeti 500X](/images/posts/portable-power-stations/goal_zero_yeti_500x/goal_zero_yeti_500x_angle5.webp)
+
+*Goal Zero (Manufacturer product image)*
 
 What the Yeti still offers is Goal Zero's build reputation, a polished app, and a tight solar ecosystem that owners of existing Goal Zero panels will value. Those are real, but they are worth a modest premium, not the large one the 500X currently commands. Buy it for the ecosystem with eyes open, not because it is competitive on the numbers. If you have no prior Goal Zero gear, almost none of that premium is buying you anything you cannot get cheaper elsewhere.
 

@@ -85,6 +85,10 @@ At $1,599, it demands serious investment. This review will tell you whether the 
 
 Unboxing and initial setup is straightforward but time-consuming due to the dock's complexity. The dock unit itself is substantial—roughly the size of a small printer—and needs to be positioned near both a power outlet and a water source (or manually filled water reservoir). The clean water and dirty water tanks are user-removable for filling and emptying at a sink, which Roborock estimates needs attention every one to two weeks depending on cleaning frequency.
 
+![Roborock S8 MaxV Ultra](/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle4.webp)
+
+*Roborock (Manufacturer product image)*
+
 The Roborock app (iOS and Android) guides initial Wi-Fi pairing with a simple QR code process and supports both 2.4GHz and 5GHz networks. First-time mapping takes approximately 20-40 minutes depending on home size, during which the robot uses its PreciSense LiDAR system to generate a detailed floor plan. The resulting map can be edited in the app to add room labels, set virtual no-go zones, designate carpet-only or mop-only areas, and configure per-room cleaning preferences including suction power level and mop water flow rate.
 
 The app is one of the most feature-complete in the robot vacuum category. Scheduled cleaning, zone cleaning, selective room cleaning, and multi-floor map management are all available. The cleaning history log shows each run's path, duration, area covered, and suction mode used—useful for verifying the robot is performing as expected. Voice assistant integration supports both Amazon Alexa and Google Assistant.
@@ -95,7 +99,7 @@ The S8 MaxV Ultra's 10,000 Pa suction is not a marketing number that disappears 
 
 ![Roborock S8 MaxV Ultra](/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle2.webp)
 
-*Roborock / Roborock (Manufacturer product image)*
+*Roborock (Manufacturer product image)*
 
 The dual rubber brush system—two counter-rotating rubber rollers rather than the traditional bristle brush—is a significant practical improvement for pet owners and anyone with long hair in the household. Bristle brushes trap hair and require frequent manual cleaning to maintain performance; the rubber rollers guide hair to the sides for collection rather than entangling it. Long-term reviewer reports find the brushes require minimal maintenance compared with competitors.
 
@@ -107,7 +111,7 @@ The VibraRise 2.0 mopping system is the most advanced mop implementation in any 
 
 ![Roborock S8 MaxV Ultra](/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle3.webp)
 
-*Roborock / Roborock (Manufacturer product image)*
+*Roborock (Manufacturer product image)*
 
 The VibraRise system's automatic carpet detection and lift mechanism is critical to the system's real-world usability. The moment the S8 MaxV Ultra's sensors detect carpet, the mop assembly rises 5mm off the ground, preventing wet mop pads from saturating carpet fibers. In homes with mixed hard floor and carpet areas—which is most homes—this eliminates the need to set up no-mop zones manually or separate cleaning runs for different surfaces.
 
@@ -116,6 +120,10 @@ Stubborn stains may require a second pass or targeted spot cleaning, and the mop
 ## Navigation & Obstacle Avoidance
 
 ReactiveAI 2.0 is a multi-sensor obstacle avoidance system combining an RGB camera, structured light sensor, and the primary LiDAR unit. In practice, this means the S8 MaxV Ultra identifies objects it encounters rather than simply avoiding them as anonymous obstacles. The system recognizes shoes, bags, cables, toys, and—critically for pet owners—animal waste, with industry-leading reliability compared to infrared-only obstacle avoidance systems.
+
+![Roborock S8 MaxV Ultra](/images/posts/smart-home/roborock_s8_maxv_ultra/roborock_s8_maxv_ultra_angle5.webp)
+
+*Roborock (Manufacturer product image)*
 
 Reviewers report the robot reliably avoids loose USB cables, scattered children's toys, and dog food bowls in typical runs. They also note rare false positive avoidances—cases where the robot stopped for a non-existent obstacle—mostly related to low-contrast objects in poor lighting. The system performs notably better in normally lit rooms than in very dark environments, where the camera's effectiveness is reduced.
 

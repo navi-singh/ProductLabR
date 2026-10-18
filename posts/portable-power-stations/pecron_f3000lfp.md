@@ -91,7 +91,7 @@ The F3000LFP is a large, horizontal box with a more modern appearance than Pecro
 
 ![Pecron F3000LFP mounted on a wheeled transport cart](/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle2.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 The port layout is the product's most practical design decision. Pecron puts five 120V AC outlets, the 30A output, the 12V car socket, two barrel connectors, and the USB ports on the front. That makes the F3000LFP easier to use in the back of a vehicle or against a wall than a station that hides critical outputs around the sides. It also makes the unit easier to inspect during an outage because the active connections are visible from one position.
 
@@ -102,6 +102,10 @@ Pecron also includes removable fan dust covers, a thoughtful detail for a sandy 
 ## Battery, Charging, and Solar Input
 
 The 3,072Wh LiFePO4 battery is the foundation of the F3000LFP's value. That is enough stored energy for meaningful refrigerator, lighting, communications, and device-charging backup, provided those loads are managed rather than treated as a whole-house supply. LiFePO4 chemistry is also the appropriate choice for a station expected to be cycled regularly. Pecron claims more than 3,500 cycles before the battery reaches 80% of its original capacity; that is a manufacturer claim, not an independent lifespan guarantee, but it is a reassuring specification.
+
+![Pecron F3000LFP on a cart with folding solar panels behind it](/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle4.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 AC charging is rated at 1,800W, and Pecron says the combined AC-and-solar ceiling reaches 2,800W. The Solar Lab measured a full AC charge in just over two hours, close to the product's stated charging behavior. That speed changes how useful a large station feels: after a short outage or a day of heavy use, it can return to service without occupying an entire night.
 
@@ -117,7 +121,7 @@ The F3000LFP's 3,600W continuous pure-sine inverter is the headline feature that
 
 ![Pecron F3000LFP shown beside an expansion battery from the rear](/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle3.webp)
 
-*Pecron / Pecron product page (Manufacturer product image)*
+*Pecron product page (Manufacturer product image)*
 
 Pecron claims a 4,500W surge for five seconds. The Solar Lab managed a 4,500W load for about 10 seconds before the unit tripped and needed a restart. That is unusually strong behavior for a budget station, but it should still be treated as tested headroom under one reviewer's conditions rather than a promise that every compressor, pump, or motor will start without hesitation.
 
@@ -130,6 +134,10 @@ That distinction defines the right use. The F3000LFP is excellent as an active b
 ## Pecron F3000LFP vs. the Alternatives
 
 **Anker SOLIX F3000.** Anker's similarly named F3000 is the more polished platform, with a stronger app and a broader home-backup ecosystem. Pecron counters with a lower base price, a lighter chassis, a higher 3,600W continuous inverter rating, and a strong 1,600W solar ceiling. Choose Anker when support, ecosystem depth, and a more refined ownership experience justify the premium; choose Pecron when output per dollar matters more.
+
+![Pecron F3000LFP front view with two folding solar panels](/images/posts/portable-power-stations/pecron_f3000lfp/pecron_f3000lfp_angle5.webp)
+
+*Pecron product page (Manufacturer product image)*
 
 **EcoFlow DELTA Pro 3.** EcoFlow is the better-known choice for buyers building around a mature app and a larger accessory ecosystem. The DELTA Pro 3 is the safer recommendation when a buyer wants a polished system and expects to add home-integration hardware. The F3000LFP is more compelling when the initial purchase price and included 30A output are the decisive factors.
 
