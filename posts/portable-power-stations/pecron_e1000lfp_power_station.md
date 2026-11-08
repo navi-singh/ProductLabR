@@ -8,8 +8,8 @@ features:
   - "cpap"
   - "ups"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics using manufacturer documentation and published independent measurements, separating rated specifications from observed test results."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes Pecron's specifications from test results reported by The Solar Lab."
 specs:
   Battery Capacity: "1,024Wh LiFePO4 (51.2V/20Ah)"
   Inverter Power: "1,800W pure sine wave (3,000W advertised surge)"

@@ -3,8 +3,8 @@ title: "Razer Blade 15 (2024): Premium Gaming in a Sleek Package"
 subtitle: "The thinnest 15-inch gaming laptop delivers RTX 4080 power in an ultra-refined aluminum chassis with a stunning OLED display"
 date: "2026-03-31"
 category: "laptops"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Processor: "Intel Core i9-14900HX (24-core: 8P + 16E, up to 5.8GHz boost)"

@@ -4,9 +4,9 @@ import { CATEGORIES } from '@/lib/taxonomy';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'About Product Lab',
+  title: 'About',
   description:
-    'Who we are, what we cover, and the standards behind every Product Lab review and buying guide.',
+    'Who we are, what we cover, and the standards behind every Verdict Hound review and buying guide.',
   alternates: { canonical: canonicalUrl(`/about`) },
 };
 
@@ -16,9 +16,9 @@ export default function AboutPage() {
       <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
 
       <article className="mt-5">
-        <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">About Product Lab</h1>
+        <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">About Verdict Hound</h1>
         <p className="mt-3 text-base leading-relaxed text-neutral-600">
-          Product Lab exists to answer one question well: which of these should I actually buy? Most
+          Verdict Hound exists to answer one question well: which of these should I actually buy? Most
           product coverage either restates a spec sheet or ranks whatever pays best. We would rather
           publish fewer reviews that commit to a recommendation and explain the trade-off behind it.
         </p>

@@ -21,7 +21,7 @@ const CANDIDATES_PATH = path.join(ROOT, 'data', 'image-candidates.json');
 // slug -> [{ brand, url }]: better product pages for reviews whose retailerLinks
 // point at a search page or a site without structured product data.
 const SOURCE_PAGES_PATH = path.join(ROOT, 'data', 'image-source-pages.json');
-const USER_AGENT = 'ProductLabR image discovery (editorial review site; contact via site)';
+const USER_AGENT = 'Verdict Hound image discovery (editorial review site; contact via site)';
 
 const RETAILER_HOSTS =
   /(^|\.)(amazon|walmart|bestbuy|homedepot|lowes|target|ebay|costco|newegg|bhphotovideo|thesolarlab|adorama|rei|crutchfield)\./i;

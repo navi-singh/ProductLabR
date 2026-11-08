@@ -3,8 +3,8 @@ title: "EcoFlow DELTA Pro Review: Serious Backup Power That Is Portable in Name 
 subtitle: "The original 3.6kWh DELTA Pro still offers unusual output and expansion, but its 99-pound base unit makes the word portable a careful qualification"
 date: "2026-09-19"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from third-party testing in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review compares EcoFlow's specifications with independent reviews from TechRadar, PCMag, and Tom's Guide."
 
 specs:
   Battery Capacity: "3,600Wh LiFePO4"

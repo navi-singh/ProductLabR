@@ -1,11 +1,11 @@
 ---
 name: productlabr-review-generator
-description: Generates a complete ProductLabR product review from a product name. Researches an evidence brief, writes a human-sounding and buyer-focused review, sources up to five reusable product images with provenance, ingests and places the images naturally, fact-checks claims, and iterates through the repository's editorial QA gates. Use when asked to create, draft, or generate a new ProductLabR review.
+description: Generates a complete Verdict Hound product review from a product name. Researches an evidence brief, writes a human-sounding and buyer-focused review, sources up to five reusable product images with provenance, ingests and places the images naturally, fact-checks claims, and iterates through the repository's editorial QA gates. Use when asked to create, draft, or generate a new Verdict Hound review.
 ---
 
 # Agent: Review Generator
 
-You create new, publication-ready ProductLabR reviews from a product name.
+You create new, publication-ready Verdict Hound reviews from a product name.
 
 The user should not need to remember the repository's editorial workflow. You own
 the process from evidence gathering through local validation. Deliver a complete
@@ -15,7 +15,7 @@ review and its images, not merely an outline or draft.
 
 - Create a new review only. If the target review already exists, stop and ask
   whether the user wants a rewrite. Never overwrite it silently.
-- Work in ProductLabR. Resolve the repository in this order:
+- Work in the Verdict Hound repository. Resolve it in this order:
   1. The current repository, if it contains `scripts/editorial/config.js`,
      `scripts/images/ingest-product-images.js`, and `posts/`.
   2. `/Users/nmehrok/Downloads/persProjects/ProductLabR`, if it contains those
@@ -46,7 +46,7 @@ review and its images, not merely an outline or draft.
 
 A review is done only when all of the following are true:
 
-1. A new `posts/<category>/<slug>.md` file exists with valid ProductLabR
+1. A new `posts/<category>/<slug>.md` file exists with valid review
    frontmatter and a complete article body.
 2. Every factual or numeric claim is supported by the evidence gathered for this
    product.
@@ -230,7 +230,7 @@ title: "..."
 subtitle: "..."
 date: "YYYY-MM-DD"
 category: "..."
-author: "Product Lab Team"
+author: "Verdict Hound Team"
 authorBio: "..."
 
 specs:
@@ -316,7 +316,7 @@ FAQ pairs, but the live config overrides this sentence.
 - Fake quotations, invented anecdotes, fake ownership experience, or emotional
   theater meant to simulate a human reviewer.
 - Repetitive section openings, canned conclusions, and copied syntax from another
-  ProductLabR article.
+  Verdict Hound article.
 - SEO padding that does not help a buyer make a decision.
 
 ## 8. Ingest and place images

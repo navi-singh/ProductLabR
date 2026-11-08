@@ -56,7 +56,7 @@ export function StickyBuyBar({
         <div className="mx-auto flex max-w-5xl items-center gap-3">
           {/* Logo pill — hidden on mobile */}
           <span className="hidden shrink-0 rounded bg-white/10 px-2 py-1 text-[11px] font-semibold uppercase tracking-widest text-white/60 sm:block">
-            Product Lab
+            Verdict Hound
           </span>
 
           {/* Product name + price */}

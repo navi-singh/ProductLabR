@@ -3,8 +3,8 @@ title: "Pecron E3800 240V Bundle Review: Big Battery Capacity, Real Solar Headro
 subtitle: "A 3,840Wh LiFePO4 system with a 4,200W inverter and modular 240V pairing that makes sense for off-grid backup and heavier loads — if you accept a more utilitarian experience"
 date: "2026-09-19"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining official product documentation, current storefront pricing, and buyer-focused analysis of how a product fits real-life use cases."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review uses Pecron's official product documentation and storefront pricing, with buyer-focused analysis of the product's intended uses."
 specs:
   Battery Capacity: "3,840Wh LiFePO4 battery"
   Inverter Output: "4,200W continuous pure-sine inverter"

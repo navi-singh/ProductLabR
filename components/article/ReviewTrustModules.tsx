@@ -210,7 +210,7 @@ export function EvidenceSnapshot({ metadata }: EvidenceSnapshotProps) {
             Review Standard
           </span>
           <span className="mt-1 block text-sm font-semibold text-neutral-900">
-            Product Lab scoring rubric
+            Verdict Hound scoring rubric
           </span>
         </div>
       </div>

@@ -8,8 +8,8 @@ features:
   - "30a-rv"
   - "solar"
 category: "home-backup"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 specs:
   Battery Capacity: "4,608Wh LiFePO4 (expandable to 41.4kWh)"
   Inverter Power: "6,000W at 240V / 3,600W at 120V"

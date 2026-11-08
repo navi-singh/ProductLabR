@@ -5,8 +5,8 @@ date: "2026-03-31"
 image: "/images/posts/smart-home/apple_homepod_mini/apple_homepod_mini_main.jpg"
 productImage: "/images/posts/smart-home/apple_homepod_mini/apple_homepod_mini_main.jpg"
 category: "smart-home"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Chip: "Apple S5"

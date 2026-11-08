@@ -51,8 +51,8 @@ ratingBreakdown:
     - name: "Value"
       score: 6.4
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from third-party test results."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes Dabbsson's specifications from third-party results reported by The Solar Lab."
 image: "/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_main.webp"
 productImage: "/images/posts/portable-power-stations/dabbsson_dsb2100_pro_power_station/dabbsson_dsb2100_pro_power_station_main.webp"
 imageCredit: "Dabbsson"

@@ -13,7 +13,7 @@ All P0 code changes are in. Items marked *owner* still need a value supplied out
 | # | Status | Resolution |
 | --- | --- | --- |
 | P0-1 | Fixed | Methodology bands rewritten on 0–5, aligned with `getScoreLabel()`; "upper half" claim removed |
-| P0-2 | Fixed | `e2e/score-display.spec.ts` asserts `/ 5` and "Product Lab Rating"; green |
+| P0-2 | Fixed | `e2e/score-display.spec.ts` asserts `/ 5` and "Verdict Hound Rating" |
 | P0-3 | Fixed | Anso Aros retitled, verdict "4.3 out of 5", stray `overallScore: 94` removed |
 | P0-4 | Fixed | `components/ScoreCard.tsx` deleted |
 | P0-5 | Fixed | Newsletter hidden unless `NEXT_PUBLIC_NEWSLETTER_ENDPOINT` is set; success only on a 2xx; privacy page updated (*owner*: endpoint) |
@@ -79,7 +79,7 @@ Every score surface on the site renders **X / 5** (`components/article/ScoreCard
 - line 14 — `const SCORE = /(\d+\.\d)\s*\/\s*10/`
 - line 20 — `scoresOn()` built around that regex
 - line 33 — failure message "scores outside 5.0-10.0 indicate a scale mismatch"
-- line 44 — `getByText('Overall Score')`, a label that no longer exists (it is now "Product Lab Rating")
+- line 44 — `getByText('Overall Score')`, a label that no longer exists (it is now "Verdict Hound Rating")
 
 **Result: 6 of the 12 current e2e failures.** The guard has been broken since the migration, which is why P0-1 went unnoticed.
 
@@ -179,7 +179,7 @@ Each pair is a separate article with its own score, price, and URL. Two of them 
 
 The Jackery pair additionally ships **byte-identical image files** under two different product directories — this is the cause of the `product-imagery.spec.ts` e2e failure.
 
-Impact: self-competing duplicate content for SEO, and a reader can land on two Product Lab pages quoting a 2× price difference for the same unit.
+Impact: self-competing duplicate content for SEO, and a reader can land on two Verdict Hound pages quoting a 2× price difference for the same unit.
 
 **Fix (needs an editorial decision):** merge each pair into one canonical review and delete the loser. Note the site is a **static export**, so there is no redirect mechanism — if the losing URLs have any inbound equity you will need a client-side redirect page or a host-level rule.
 
@@ -339,7 +339,7 @@ Consequence: no `/best/smart-generators` route, and the post is absent from nav,
 
 `EvidenceSnapshot` in `components/article/ReviewTrustModules.tsx` reads `evidenceLevel`, `lastReviewed`, `reviewedBy`, `editedBy`, `updateHistory`, and `evidenceSources`.
 
-**All six fields are absent on all 193 posts.** The module renders only its one static tile — "Review Standard: Product Lab scoring rubric".
+**All six fields are absent on all 193 posts.** The module renders only its one static tile — "Review Standard: Verdict Hound scoring rubric".
 
 So the site ships a prominent trust module that conveys no information, while simultaneously claiming hands-on testing (P0-9).
 

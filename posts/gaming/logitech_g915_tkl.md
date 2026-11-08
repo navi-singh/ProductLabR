@@ -3,8 +3,8 @@ title: "Logitech G915 TKL: Premium Wireless Mechanical in a Slim, Tenkeyless Pac
 subtitle: "Logitech's flagship TKL wireless keyboard combines low-profile GL mechanical switches, LIGHTSPEED wireless, Bluetooth, and aluminum construction in a desk-ready gaming keyboard"
 date: "2026-03-31"
 category: "gaming"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Switches: "Logitech GL Tactile / GL Clicky / GL Linear (low-profile mechanical)"

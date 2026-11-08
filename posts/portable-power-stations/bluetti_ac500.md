@@ -41,8 +41,8 @@ ratingBreakdown:
       score: 7.0
     - name: "Value"
       score: 7.0
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent reporting. We separate documented specifications from estimates and analysis."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes BLUETTI's documented specifications from runtime estimates and buyer-focused analysis."
 image: "/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_main.webp"
 productImage: "/images/posts/portable-power-stations/bluetti_ac500/bluetti_ac500_main.webp"
 imageCredit: "BLUETTI"

@@ -18,7 +18,7 @@ const {
   writeQueue,
 } = require('./lib/queue-core');
 
-const USAGE = `Generate ProductLabR reviews from the review queue.
+const USAGE = `Generate Verdict Hound reviews from the review queue.
 
   npm run review:worker -- [options]
 
@@ -67,7 +67,7 @@ function warnIfNested() {
 function buildPrompt(item) {
   const slug = slugFor(item);
   const product = displayProduct(item);
-  return `Create one new ProductLabR review for "${product}" in "${item.category}".
+  return `Create one new Verdict Hound review for "${product}" in "${item.category}".
 
 Queue slug: ${slug}
 Discovery URL: ${item.sourceUrl || 'none'}

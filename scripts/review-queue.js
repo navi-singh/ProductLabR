@@ -23,7 +23,7 @@ function buildPrompt(item) {
     ? `\nApproved source notes:\n${item.sourceNotes}\n`
     : '';
 
-  return `Create a new ProductLabR review for "${displayProduct(item)}" in category "${item.category}".
+  return `Create a new Verdict Hound review for "${displayProduct(item)}" in category "${item.category}".
 
 Queue slug: ${slug}
 ${item.brief ? `Editorial brief: ${item.brief}\n` : ''}${sourceNotes}

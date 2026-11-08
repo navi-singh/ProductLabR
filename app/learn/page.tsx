@@ -6,9 +6,9 @@ import { SectionLabel } from '@/components/SectionLabel';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'Buying Advice & Learning Center | Product Lab',
+  title: 'Buying Advice & Learning Center',
   description:
-    'Product Lab buying advice explains the specs, testing signals, and trade-offs that matter before you choose a product.',
+    'Verdict Hound buying advice explains the specs, testing signals, and trade-offs that matter before you choose a product.',
   alternates: { canonical: canonicalUrl('/learn') },
 };
 
@@ -28,7 +28,7 @@ const learningCards = [
     label: 'Explainer',
   },
   {
-    title: 'What makes a good Product Lab score?',
+    title: 'What makes a good Verdict Hound score?',
     description:
       'How our ratings balance performance, build, usability, value, and category-specific trade-offs.',
     href: '/methodology',

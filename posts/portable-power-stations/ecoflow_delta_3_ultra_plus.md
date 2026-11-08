@@ -7,8 +7,8 @@ features:
   - "solar"
   - "30a-rv"
 category: "large"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 specs:
   Battery Capacity: "3,072Wh LiFePO4 (expandable to 11kWh)"
   Inverter Power: "3,600W (120V, dual independent inverters)"

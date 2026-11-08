@@ -3,8 +3,8 @@ title: "Sony A95L QD-OLED: The Pinnacle of Consumer Television"
 subtitle: "Sony's Cognitive Processor XR meets Samsung's QD-OLED panel to deliver the most accurate, vibrant picture quality available at any price"
 date: "2026-03-31"
 category: "tvs"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel Type: "QD-OLED (Quantum Dot OLED, Self-Emissive)"

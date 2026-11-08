@@ -47,8 +47,8 @@ ratingBreakdown:
       score: 7.0
     - name: "Value"
       score: 4.5
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 image: "/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_main.webp"
 productImage: "/images/posts/portable-power-stations/allpowers_s2000_pro/allpowers_s2000_pro_main.webp"
 imageCredit: "ALLPOWERS"

@@ -3,8 +3,8 @@ title: "Corsair K100 RGB: The Flagship Mechanical Keyboard That Does Everything"
 subtitle: "Optical-mechanical OPX switches, 44-zone RGB, 8000Hz polling, and a control wheel set a new standard for what a full-featured gaming keyboard can achieve"
 date: "2026-03-31"
 category: "gaming"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Switches: "Corsair OPX Optical-Mechanical (linear)"

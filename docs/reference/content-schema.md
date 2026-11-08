@@ -33,7 +33,7 @@ The complete frontmatter schema for review files at `posts/<category>/<slug>.md`
 | `rating` | number | `8.7` | Legacy single score; **deprecated** — prefer `ratingBreakdown` |
 
 | `lastReviewed` | ISO date string | `"2026-09-15"` | Optional review-maintenance date shown in the evidence snapshot |
-| `reviewedBy` | string | `"Product Lab"` | Optional reviewer attribution shown when supplied |
+| `reviewedBy` | string | `"Verdict Hound"` | Optional reviewer attribution shown when supplied |
 | `editedBy` | string | `"Editorial desk"` | Optional editor attribution shown when supplied |
 | `evidenceLevel` | enum | `"spec-analysis"` | `hands-on`, `spec-analysis`, or `independent-source-synthesis`; describe only the evidence actually available |
 | `updateHistory` | array of `{ date, note }` | | Optional record of substantive review updates |

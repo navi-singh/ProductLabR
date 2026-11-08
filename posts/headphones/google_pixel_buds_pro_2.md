@@ -3,8 +3,8 @@ title: "Google Pixel Buds Pro 2: AI-Powered Earbuds Reimagined"
 subtitle: "Google's second-generation flagship earbuds pack Gemini AI integration, a custom Tensor A1 chip, and improved ANC into a smaller, more ergonomic design"
 date: "2026-04-05"
 category: "headphones"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Driver Size: "11mm dynamic drivers"

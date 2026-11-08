@@ -3,8 +3,8 @@ title: "Samsung S90D QD-OLED: Brilliant Picture at a Breakthrough Price"
 subtitle: "Samsung's entry into QD-OLED brings quantum dot vibrancy and true self-emissive black levels to a more accessible price bracket"
 date: "2026-03-31"
 category: "tvs"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel Type: "QD-OLED (Quantum Dot OLED, Self-Emissive)"

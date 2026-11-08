@@ -61,7 +61,7 @@ function existingReviewKeys() {
 
 async function fetchText(url) {
   const response = await fetch(url, {
-    headers: { 'user-agent': 'ProductLabR-review-discovery/1.0' },
+    headers: { 'user-agent': 'VerdictHound-review-discovery/1.0' },
   });
   if (!response.ok) throw new Error(`Failed to fetch ${url}: HTTP ${response.status}`);
   return response.text();

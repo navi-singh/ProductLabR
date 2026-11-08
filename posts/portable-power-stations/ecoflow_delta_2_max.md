@@ -5,11 +5,8 @@ subtitle: >-
   in 2026, but its X-Boost promise should not guide your load planning
 date: '2026-09-19'
 category: portable-power-stations
-author: Product Lab Team
-authorBio: >-
-  The Product Lab team reviews consumer electronics by combining manufacturer
-  documentation with published independent measurements. We distinguish
-  documented specifications from third-party testing in each review.
+author: Verdict Hound Team
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes EcoFlow's specifications from test results reported by The Solar Lab."
 specs:
   Battery Capacity: '2,048Wh LiFePO4'
   Inverter Output: '2,400W continuous, pure sine wave'

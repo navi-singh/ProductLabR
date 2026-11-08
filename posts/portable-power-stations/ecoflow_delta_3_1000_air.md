@@ -55,8 +55,8 @@ ratingBreakdown:
       score: 5.8
     - name: "Value"
       score: 7.7
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from reported test results and do not claim hands-on testing we did not perform."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes EcoFlow's specifications from test results reported by The Solar Lab. The team does not claim hands-on testing it did not perform."
 image: "/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_main.webp"
 productImage: "/images/posts/portable-power-stations/ecoflow_delta_3_1000_air/ecoflow_delta_3_1000_air_main.webp"
 imageCredit: "EcoFlow"

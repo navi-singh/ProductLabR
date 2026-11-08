@@ -3,9 +3,9 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'Affiliate Disclosure | Product Lab',
+  title: 'Affiliate Disclosure',
   description:
-    'How Product Lab makes money, what an affiliate link is, and why commissions do not affect our scores or rankings.',
+    'How Verdict Hound makes money, what an affiliate link is, and why commissions do not affect our scores or rankings.',
   alternates: { canonical: canonicalUrl(`/disclosure`) },
 };
 
@@ -17,7 +17,7 @@ export default function DisclosurePage() {
       <article className="mt-5">
         <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">Affiliate disclosure</h1>
         <p className="mt-3 text-base leading-relaxed text-neutral-600">
-          Product Lab is reader-supported. Some links on this site are affiliate links, which means
+          Verdict Hound is reader-supported. Some links on this site are affiliate links, which means
           we may earn a commission if you buy something after clicking one. It never costs you
           extra, and a link only earns us anything when we have an active partnership with that
           retailer.

@@ -120,7 +120,7 @@ async function fetchWithBackoff(entry) {
     const response = await fetch(entry.sourceUrl, {
       headers: {
         Accept: 'image/avif,image/webp,image/png,image/jpeg;q=0.9,*/*;q=0.8',
-        'User-Agent': 'ProductLabR image ingestion (approved-source manifest)',
+        'User-Agent': 'Verdict Hound image ingestion (approved-source manifest)',
       },
       redirect: 'follow',
     });

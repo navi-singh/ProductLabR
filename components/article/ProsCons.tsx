@@ -11,7 +11,7 @@ export function ProsCons({ pros, cons }: ProsConsProps) {
       {pros && pros.length > 0 && (
         <div className="rounded-xl border border-green-200 bg-success-light p-4">
           <h4 className="mb-3 text-[12px] font-bold uppercase tracking-[0.08em] text-success">
-            Lab Verified Strengths
+            Strengths
           </h4>
           <ul className="space-y-2">
             {pros.map((pro, i) => (
@@ -28,7 +28,7 @@ export function ProsCons({ pros, cons }: ProsConsProps) {
       {cons && cons.length > 0 && (
         <div className="rounded-xl border border-red-200 bg-error-light p-4">
           <h4 className="mb-3 text-[12px] font-bold uppercase tracking-[0.08em] text-error">
-            Verified Trade-Offs
+            Trade-offs
           </h4>
           <ul className="space-y-2">
             {cons.map((con, i) => (

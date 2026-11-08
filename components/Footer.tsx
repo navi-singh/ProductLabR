@@ -31,7 +31,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link href="/" className="text-base font-bold tracking-wide">
-              PRODUCT LAB
+              VERDICT HOUND
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-neutral-400">
               Independent product reviews scored against a fixed rubric, so you can tell which
@@ -101,7 +101,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-10 border-t border-neutral-800 pt-6 text-center text-xs text-neutral-500">
-          © {new Date().getFullYear()} Product Lab. All rights reserved.
+          © {new Date().getFullYear()} Verdict Hound. All rights reserved.
         </div>
       </div>
     </footer>

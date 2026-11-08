@@ -3,8 +3,8 @@ title: "Razer DeathAdder V3: The Ergonomic Gaming Mouse Perfected"
 subtitle: "The iconic DeathAdder shape redesigned 30% lighter with the Focus Pro 30K sensor, HyperSpeed wireless, and optical switches — Razer's most refined gaming mouse to date"
 date: "2026-03-31"
 category: "gaming"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Sensor: "Razer Focus Pro 30K Optical"

@@ -9,8 +9,8 @@ features:
   - "light"
   - "wireless-charging"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics using manufacturer documentation, official storefront metadata, and published independent testing, separating rated specs from observed behavior."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review separates Pecron's official product and storefront metadata from measurements and behavior reported by an independent discovery review."
 specs:
   Battery Capacity: "288Wh LiFePO4 (19.2V/15Ah)"
   Inverter Output: "600W pure sine wave AC inverter"

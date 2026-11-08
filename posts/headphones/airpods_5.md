@@ -3,8 +3,8 @@ title: "Apple AirPods 5: The Open-Ear AirPods Finally Get Serious ANC"
 subtitle: "Apple's fifth-generation standard AirPods add an H2 chip, Active Noise Cancellation, IP57 resistance, and a smarter charging-case choice—but the $129 model has a short ANC battery"
 date: "2026-09-13"
 category: "headphones"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent testing. We distinguish documented specifications from reported measurements and analysis."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This launch-week review uses Apple's product and buying information; independent measurements were unavailable in the reviewed sources at publication."
 
 specs:
   Models: "AirPods 5 (MKFW4); AirPods 5 with Wireless Charging Case (MKFT4)"

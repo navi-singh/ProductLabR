@@ -11,7 +11,7 @@ test.describe('retired duplicate review URLs', () => {
     test(`${from} forwards to ${to} and is not indexable`, async ({ page }) => {
       await page.goto(`articles/${from}/`);
       await page.waitForURL(new RegExp(`/articles/${to}/?$`));
-      await expect(page.getByText('Product Lab Rating').first()).toBeVisible();
+      await expect(page.getByText('Verdict Hound Rating').first()).toBeVisible();
     });
   }
 

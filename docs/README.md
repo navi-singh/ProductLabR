@@ -1,4 +1,4 @@
-# ProductLabR Documentation
+# Verdict Hound Documentation
 
 > Editorial product-review site built on Next.js App Router. 149 markdown reviews across 11 categories, statically exported to GitHub Pages, monetized through AdSense and affiliate links.
 

@@ -5,8 +5,8 @@ date: "2026-04-07"
 image: "/images/posts/headphones/jabra_elite_8_active/jabra_elite_8_active_main.jpg"
 productImage: "/images/posts/headphones/jabra_elite_8_active/jabra_elite_8_active_main.jpg"
 category: "headphones"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Driver Size: "6mm balanced armature + 6mm dynamic (hybrid)"

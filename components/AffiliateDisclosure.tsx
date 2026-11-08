@@ -13,7 +13,7 @@ interface AffiliateDisclosureProps {
 export function AffiliateDisclosure({ variant = 'inline' }: AffiliateDisclosureProps) {
   const text = (
     <>
-      Product Lab is reader-supported. When you buy through links on this page we may earn an
+      Verdict Hound is reader-supported. When you buy through links on this page we may earn an
       affiliate commission, at no extra cost to you. Commissions never influence our scores or
       rankings — see{' '}
       <a href="/methodology" className="underline hover:text-primary">

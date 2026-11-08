@@ -104,7 +104,7 @@ export function CookieConsent() {
                 Cookie choices
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-                Product Lab uses Google Analytics and AdSense cookies to measure readership and fund
+                Verdict Hound uses Google Analytics and AdSense cookies to measure readership and fund
                 the site. You can accept or reject those cookies; content stays available either way.
               </p>
             </div>

@@ -3,8 +3,8 @@ title: "Pecron E3600LFP Bundle Review: A Big, Solar-Ready Station That Makes Sen
 subtitle: "A 3,072Wh LiFePO4 power station bundled with a 300W panel and trolley, priced as a value play for home backup, van life, and jobsite use — not as a premium appliance"
 date: "2026-09-19"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining official product documentation, current storefront pricing, and buyer-focused analysis of how a product fits real-life use cases."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review uses Pecron's official product documentation and storefront pricing, with buyer-focused analysis of the product's intended uses."
 specs:
   Battery Capacity: "3,072Wh LiFePO4 battery"
   Inverter Output: "3,600W continuous pure-sine inverter"

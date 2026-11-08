@@ -3,8 +3,8 @@ title: "Google Pixel Buds 2: Brilliant Android Integration, Outdated Hardware"
 subtitle: "The 2020 Pixel Buds made Google Assistant and translation feel effortless, but short battery life and no active noise cancellation limit their value today"
 date: "2026-09-12"
 category: "headphones"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent testing. We distinguish documented specifications from reported measurements and analysis."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes Google's specifications from SoundGuys' reported measurements and other independent reporting."
 
 specs:
   Release Date: "April 27, 2020 (US)"

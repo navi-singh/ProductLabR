@@ -48,8 +48,8 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 7.7
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish stated specifications from independently verified results."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review identifies Anker's specifications and internal test results as manufacturer claims, not independent measurements."
 image: "/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_main.webp"
 productImage: "/images/posts/portable-power-stations/anker_solix_s2000/anker_solix_s2000_main.webp"
 imageCredit: "Anker"

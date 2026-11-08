@@ -72,11 +72,11 @@ export async function generateMetadata({
   const category = getCategoryBySlug(slug);
 
   if (!category) {
-    return { title: 'Category Not Found | Product Lab' };
+    return { title: 'Category Not Found' };
   }
 
   return {
-    title: `Best ${category.name} — Reviews & Buying Guide | Product Lab`,
+    title: `Best ${category.name} — Reviews & Buying Guide`,
     description: category.description,
     alternates: { canonical: canonicalUrl(`/best/${category.slug}`) },
   };

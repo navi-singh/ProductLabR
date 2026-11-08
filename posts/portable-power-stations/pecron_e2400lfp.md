@@ -3,8 +3,8 @@ title: "Pecron E2400LFP Review: Fast Charging, Strong Capacity, and a Heavy-Load
 subtitle: "A 2,048Wh LiFePO4 station with useful front-facing ports, but a real-world surge ceiling that falls short of the marketing numbers"
 date: "2026-09-19"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements and buyer-focused analysis."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review combines Pecron's product information, results reported by The Solar Lab, and buyer-focused analysis."
 specs:
   Battery Capacity: "2,048Wh LiFePO4 (51.2V/40Ah)"
   Inverter Output: "2,400W continuous pure sine wave"

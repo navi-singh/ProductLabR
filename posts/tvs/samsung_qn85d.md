@@ -3,8 +3,8 @@ title: "Samsung QN85D Neo QLED: The Sweet Spot in Samsung's Mini-LED Lineup"
 subtitle: "Quantum Matrix Technology meets a 144Hz panel and optional anti-reflection matte screen for a versatile premium performer"
 date: "2026-01-20"
 category: "tvs"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel: "Neo QLED (Mini-LED with Quantum Matrix Technology)"

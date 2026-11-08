@@ -3,8 +3,8 @@ title: "Jackery Explorer 1000 Plus: A Portable Station With Serious Expansion He
 subtitle: "The 2023 Jackery Explorer 1000 Plus remains appealing for camping and outage backup, but its weight and modest display matter more than the headline capacity"
 date: "2026-09-19"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from third-party testing in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes Jackery's specifications from results reported by SolarLab."
 specs:
   Battery Capacity: "1,264.64Wh LiFePO4"
   Inverter Output: "2,000W rated, 4,000W surge peak"

@@ -3,8 +3,8 @@ title: "ViewSonic VP2768a-4K: The Factory-Calibrated 4K Monitor for Serious Crea
 subtitle: "A hardware-calibration-ready 4K IPS display with 100% Adobe RGB, USB-C, and sub-2 Delta E accuracy out of the box"
 date: "2026-03-31"
 category: "monitors"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel Type: "IPS"

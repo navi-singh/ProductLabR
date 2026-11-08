@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Research Agent for Product Lab Reviews
+ * Research Agent for Verdict Hound Reviews
  * 
  * This agent researches products and generates comprehensive review articles
  * following the established format and structure.
@@ -1361,7 +1361,7 @@ async function main() {
       break;
     default:
       console.log(`
-🤖 Product Lab Research Agent
+🤖 Verdict Hound Research Agent
 
 Usage:
   node research-agent.js generate    - Generate missing product reviews

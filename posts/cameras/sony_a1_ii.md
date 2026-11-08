@@ -40,8 +40,8 @@ ratingBreakdown:
       score: 7.5
     - name: "Value"
       score: 7.3
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 image: "/images/posts/cameras/sony_a1_ii/sony_a1_ii_main.jpg"
 productImage: "/images/posts/cameras/sony_a1_ii/sony_a1_ii_main.jpg"
 imageCredit: "BobSmith810"

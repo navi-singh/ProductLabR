@@ -7,8 +7,8 @@ features:
   - "solar"
   - "240v"
 category: "home-backup"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 specs:
   Battery Capacity: "6,144Wh per unit (expandable to 184kWh with 10 batteries)"
   Inverter Power: "12,000W (120V/240V split-phase)"

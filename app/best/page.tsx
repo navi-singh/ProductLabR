@@ -11,9 +11,9 @@ import { GATES } from '@/lib/editorial-standards';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'Best Products — Expert Reviews & Buying Guides | Product Lab',
+  title: 'Best Products — Expert Reviews & Buying Guides',
   description:
-    'Every Product Lab buying guide in one place. Independently scored recommendations across power stations, headphones, TVs, cameras, laptops and more.',
+    'Every Verdict Hound buying guide in one place. Independently scored recommendations across power stations, headphones, TVs, cameras, laptops and more.',
   alternates: { canonical: canonicalUrl(`/best`) },
 };
 
@@ -70,7 +70,7 @@ export default function BestPage() {
               Buying Guides · Independent Benchmarks
             </div>
             <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold tracking-tight text-neutral-900 md:text-5xl">
-              Every Product Lab buying guide
+              Every Verdict Hound buying guide
             </h1>
             <p className="mt-3 max-w-3xl text-base leading-relaxed text-neutral-600">
               Start with the category you are shopping. Each guide ranks the products we have tested

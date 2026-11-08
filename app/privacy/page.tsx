@@ -3,9 +3,9 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Product Lab',
+  title: 'Privacy Policy',
   description:
-    'What data Product Lab collects, how advertising and analytics cookies are used, and the choices available to you.',
+    'What data Verdict Hound collects, how advertising and analytics cookies are used, and the choices available to you.',
   alternates: { canonical: canonicalUrl(`/privacy`) },
 };
 
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
       <article className="mt-5">
         <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">Privacy policy</h1>
         <p className="mt-3 text-base leading-relaxed text-neutral-600">
-          Product Lab is a static website. We do not ask you to create an account. This page
+          Verdict Hound is a static website. We do not ask you to create an account. This page
           explains what we and our service providers may collect when you visit, subscribe or follow
           an outbound link.
         </p>

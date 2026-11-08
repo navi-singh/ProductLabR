@@ -3,8 +3,8 @@ title: "Apple Watch Series 12: The Health Upgrade That Finally Matters"
 subtitle: "Apple keeps the familiar shape, but a new S11 chip, higher-frequency sensing, and a useful readiness score make this a smarter everyday watch"
 date: "2026-09-13"
 category: "wearables"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Chip: "Apple S11"

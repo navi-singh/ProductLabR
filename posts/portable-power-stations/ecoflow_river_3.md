@@ -49,8 +49,8 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 8.0
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented claims from independent testing."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes EcoFlow's specifications from test results reported by Solar Lab."
 image: "/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_main.webp"
 productImage: "/images/posts/portable-power-stations/ecoflow_river_3/ecoflow_river_3_main.webp"
 imageCredit: "EcoFlow"

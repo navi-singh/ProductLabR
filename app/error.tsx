@@ -18,7 +18,7 @@ export default function Error({
     <div className="min-h-screen bg-neutral-50 flex flex-col items-center justify-center px-4">
       <div className="text-center max-w-sm">
         <p className="text-xs font-semibold tracking-widest uppercase text-primary mb-6">
-          PRODUCT LAB
+          VERDICT HOUND
         </p>
         <h1 className="text-2xl font-bold text-neutral-900 mb-3">
           Something went wrong

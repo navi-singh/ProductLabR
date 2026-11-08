@@ -3,8 +3,8 @@ title: "Hisense U7N: Mini-LED Performance for the Rest of Us"
 subtitle: "1,500 nits of brightness, 144Hz gaming, and Google TV at a price that makes premium TV makers nervous"
 date: "2026-01-20"
 category: "tvs"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel: "Mini-LED ULED (Hisense ULED with local dimming)"

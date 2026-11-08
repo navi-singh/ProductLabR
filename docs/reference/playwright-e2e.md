@@ -1,6 +1,6 @@
 # Reference — Playwright E2E
 
-ProductLabR has a small Playwright suite for browser behaviors that lint, `tsc`, `next build`, jsdom, and React Testing Library cannot see.
+Verdict Hound has a small Playwright suite for browser behaviors that lint, `tsc`, `next build`, jsdom, and React Testing Library cannot see.
 
 ## Why Playwright
 
@@ -17,6 +17,9 @@ Both require a real browser.
 
 | File | What it guards |
 |---|---|
+| `e2e/brand-source.spec.ts` | Publication identity, review metadata inheritance contract and attribution, structured data, baseline routes and redirects, and metadata assets without a browser or server. |
+| `e2e/editorial-claims.spec.ts` | Corpus-wide attribution and selected editorial-claim checks without a browser or server. |
+| `e2e/url-canonicalization.spec.ts` | Trailing-slash configuration and canonical URL construction without a browser or server. |
 | `e2e/ranked-card.spec.ts` | Every visual region of the first ranked card navigates to `/articles/...`, the card exposes exactly one accessible link, and keyboard activation works. |
 | `e2e/images.spec.ts` | Images on representative list/article pages resolve, paint real pixels, same-origin local asset URLs include the deployment basePath, and missing product-specific files fall back without showing an error overlay. |
 | `playwright.config.ts` | Runs desktop Chrome and Pixel 7 projects, starts `next dev` on port 3100 for local runs, and supports production mode via `E2E_PROD=1`. |
@@ -25,6 +28,7 @@ Both require a real browser.
 
 | Command | Use |
 |---|---|
+| `npx playwright test --config=playwright.source.config.ts` | Run source-only brand, editorial and URL checks; the GitHub Pages URL is a fixture and no request is sent to it. |
 | `npm run test:e2e` | Run Playwright locally against `next dev` on `http://127.0.0.1:3100/`. |
 | `npm run test:e2e:prod` | Run against the deployed GitHub Pages site. Sets `E2E_PROD=1`. |
 | `E2E_PROD=1 E2E_PROD_URL=https://example.com/ProductLabR/ npm run test:e2e` | Run against a custom deployed URL. Keep the trailing slash. |
@@ -33,6 +37,10 @@ Both require a real browser.
 | `npm run test:e2e:report` | Open the HTML report after a run that produced one. |
 
 Specs use relative paths such as `best/headphones`, not leading-slash paths, so the same test works against both local dev and a subpath deployment.
+The source-only checks do not verify emitted HTML, browser rendering, or interactions.
+`e2e/fixtures/pre-rebrand-routes.json` records the pre-rebrand sitemap paths and
+retired article redirects independently of current content; investigate any
+missing baseline route before changing the fixture.
 
 ## Why production mode exists
 

@@ -45,8 +45,8 @@ ratingBreakdown:
       score: 8.2
     - name: "Long-Term Confidence"
       score: 7.4
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 image: "/images/posts/portable-power-stations/bluetti_pioneer_na/bluetti_pioneer_na_main.webp"
 productImage: "/images/posts/portable-power-stations/bluetti_pioneer_na/bluetti_pioneer_na_main.webp"
 imageCredit: "BLUETTI"

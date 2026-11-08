@@ -3,8 +3,8 @@ title: "HP Pavilion 15 (2024): Solid Everyday Laptop at a Fair Price"
 subtitle: "HP's mid-range Pavilion delivers dependable Intel performance, a quality IPS display, and a premium-feeling design for under $600"
 date: "2026-03-31"
 category: "laptops"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Processor: "Intel Core i5-1335U (10-core: 2P + 8E, up to 4.6GHz boost)"

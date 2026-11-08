@@ -7,9 +7,9 @@ import { CATEGORIES } from '@/lib/taxonomy';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'All Reviews | Product Lab',
+  title: 'All Reviews',
   description:
-    'Browse every Product Lab review. Filter by category, search by product, and sort by rating or recency.',
+    'Browse every Verdict Hound review. Filter by category, search by product, and sort by rating or recency.',
   alternates: { canonical: canonicalUrl(`/reviews`) },
 };
 

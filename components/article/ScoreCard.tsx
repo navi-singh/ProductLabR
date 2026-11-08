@@ -152,7 +152,7 @@ const ScoreCard: React.FC<ScoreCardProps> = ({ calculatedOverallScore, metrics }
       <div className="grid gap-4 md:grid-cols-[200px_1fr]">
         <div className={cn('flex flex-col justify-center rounded-xl p-5 text-white', tone.panel)}>
           <span className={cn('text-[11px] font-bold uppercase tracking-[0.1em]', tone.labelText)}>
-            Product Lab Rating
+            Verdict Hound Rating
           </span>
           <span
             className={cn(

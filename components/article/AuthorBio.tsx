@@ -6,7 +6,7 @@ interface AuthorBioProps {
 export function AuthorBio({ authorBio, authorName }: AuthorBioProps) {
   const initials = authorName
     ? authorName.split(' ').map((n) => n[0]).join('').toUpperCase().slice(0, 2)
-    : 'PL';
+    : 'VH';
 
   return (
     <div className="mt-6 flex items-center gap-3.5 rounded-xl bg-primary-lightest/50 p-4">

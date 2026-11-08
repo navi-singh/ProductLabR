@@ -56,8 +56,8 @@ ratingBreakdown:
 imageCredit: "TaurusEmerald"
 imageSource: "Wikimedia Commons"
 imageLicense: "CC BY-SA 4.0"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 gallery:
   - src: "/images/posts/portable-power-stations/dji_power_500/dji_power_500_angle2.webp"
     credit: "DJI"

@@ -50,8 +50,8 @@ ratingBreakdown:
       score: 8.0
     - name: "Value"
       score: 7.6
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 image: "/images/posts/thermostats/ecobee_smart_thermostat_enhanced/ecobee_smart_thermostat_enhanced_main.png"
 productImage: "/images/posts/thermostats/ecobee_smart_thermostat_enhanced/ecobee_smart_thermostat_enhanced_main.png"
 imageCredit: "ecobee"

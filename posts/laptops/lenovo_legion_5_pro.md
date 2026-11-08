@@ -3,8 +3,8 @@ title: "Lenovo Legion 5 Pro Gen 9: The Value-Focused Gamer's Sweet Spot"
 subtitle: "AMD's Ryzen 9 7945HX and RTX 4070 deliver exceptional 1440p gaming at a price that makes the competition uncomfortable"
 date: "2026-03-31"
 category: "laptops"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   CPU: "AMD Ryzen 9 7945HX (16-core, 32-thread, up to 5.4GHz boost, 55W base TDP)"

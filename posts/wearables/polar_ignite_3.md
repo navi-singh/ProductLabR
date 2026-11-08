@@ -3,8 +3,8 @@ title: "Polar Ignite 3: Ultralight AMOLED Design with Intelligent Training Guida
 subtitle: "Polar's sleekest watch yet combines a vibrant AMOLED display with FitSpark AI workout recommendations and Nightly Recharge recovery metrics in a featherweight 35g package"
 date: "2026-03-31"
 category: "wearables"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Case Size: "43mm"

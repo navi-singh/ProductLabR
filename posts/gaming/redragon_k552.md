@@ -3,8 +3,8 @@ title: "Redragon K552: The Best Budget Mechanical Gaming Keyboard"
 subtitle: "Outemu mechanical switches, compact TKL layout, and RGB backlighting for under $35 — the K552 proves you don't need to spend big to get a real mechanical gaming keyboard"
 date: "2026-03-31"
 category: "gaming"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Switches: "Outemu Blue / Red / Brown (buyer's choice)"

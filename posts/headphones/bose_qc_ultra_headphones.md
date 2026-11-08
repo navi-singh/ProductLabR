@@ -3,8 +3,8 @@ title: "Bose QuietComfort Ultra Headphones: Best-in-Class ANC Reimagined"
 subtitle: "Bose's flagship over-ear headphones combine their most powerful noise cancellation yet with spatial Immersive Audio and a refined premium design"
 date: "2026-04-01"
 category: "headphones"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Driver Size: "35mm TriPort acoustic drivers"

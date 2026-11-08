@@ -3,8 +3,8 @@ title: "Bose QuietComfort 45: The Comfort Champion Returns"
 subtitle: "Bose's legendary QC series gets a modern update with USB-C charging, improved sound, and the plush long-wear comfort that the brand has built its reputation on"
 date: "2026-03-31"
 category: "headphones"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Driver Size: "40mm dynamic drivers"

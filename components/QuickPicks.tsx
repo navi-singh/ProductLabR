@@ -20,7 +20,7 @@ export function QuickPicks({ picks }: QuickPicksProps) {
     <section className="rounded-xl border border-neutral-200 bg-white p-5 shadow-featured">
       <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="type-label text-accent">Lab Decision Matrix</p>
+          <p className="type-label text-accent">Our picks</p>
           <h2 className="type-headline mt-1 text-neutral-900">Quick Recommendations</h2>
         </div>
         <span className="type-label rounded-full bg-primary-lightest px-3 py-1 text-primary">

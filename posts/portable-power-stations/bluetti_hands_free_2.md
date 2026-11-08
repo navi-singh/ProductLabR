@@ -2,8 +2,8 @@
 title: "BLUETTI Handsfree 2 Review: A Backpack Power Station With a Clear Point of View"
 subtitle: "A wearable, 512Wh power station built for workdays, travel, and field use, not for replacing a full home backup system"
 date: "2025-03-05"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 specs:
   Battery Capacity: "512Wh LiFePO4"
   Inverter Output: "700W continuous"

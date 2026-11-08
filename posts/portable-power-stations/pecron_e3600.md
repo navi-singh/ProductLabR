@@ -3,8 +3,8 @@ title: "Pecron E3600LFP Review: More Capacity Than Most Budget Stations, But Not
 subtitle: "A 3,072Wh LiFePO4 station with 3,600W output, strong solar charging, and a compelling price — if you are comfortable with a more utilitarian build and a less polished ecosystem"
 date: "2026-09-19"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining official product documentation, current storefront pricing, and buyer-focused analysis of how the product actually fits real use cases."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review uses Pecron's official product documentation and storefront pricing, with buyer-focused analysis of the product's intended uses."
 specs:
   Battery Capacity: "3,072Wh LiFePO4 battery"
   Inverter Output: "3,600W continuous pure-sine inverter"

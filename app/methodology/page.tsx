@@ -4,9 +4,9 @@ import { GATES, TARGETS } from '@/lib/editorial-standards';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'How We Research and Score | Product Lab',
+  title: 'How We Research and Score',
   description:
-    'The rubric, evidence rules and automated quality gate every Product Lab review must clear before it is published.',
+    'The rubric, evidence rules and automated quality gate every Verdict Hound review must clear before it is published.',
   alternates: { canonical: canonicalUrl(`/methodology`) },
 };
 
@@ -238,7 +238,7 @@ export default function MethodologyPage() {
         <section className="mt-10">
           <h2 className="text-xl font-bold text-neutral-900">How we make money</h2>
           <p className="mt-2 text-sm leading-relaxed text-neutral-600">
-            Product Lab is reader-supported through affiliate links and display advertising, which
+            Verdict Hound is reader-supported through affiliate links and display advertising, which
             means a retailer link earns us a commission only where we have an active partnership.
             We do not accept payment for coverage, for a higher score, or for a place in a ranking,
             and advertisers get no advance sight of a review. Scores are set before retailer links

@@ -52,8 +52,8 @@ ratingBreakdown:
       score: 7.5
     - name: "Value"
       score: 7.2
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 image: "/images/posts/portable-power-stations/jackery_explorer_5000_plus/jackery_explorer_5000_plus_main.webp"
 productImage: "/images/posts/portable-power-stations/jackery_explorer_5000_plus/jackery_explorer_5000_plus_main.webp"
 imageCredit: "Jackery"

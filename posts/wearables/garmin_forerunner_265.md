@@ -5,8 +5,8 @@ date: "2026-03-31"
 image: "/images/posts/wearables/garmin_forerunner_265/garmin_forerunner_265_main.jpg"
 productImage: "/images/posts/wearables/garmin_forerunner_265/garmin_forerunner_265_main.jpg"
 category: "wearables"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Display: "1.3-inch AMOLED, 416 x 416 resolution"

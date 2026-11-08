@@ -1,10 +1,10 @@
 # For Product Managers
 
-This guide gives you the **mental model** of ProductLabR you need to plan features, prioritize content, and reason about monetization — without getting into code.
+This guide gives you the **mental model** of Verdict Hound you need to plan features, prioritize content, and reason about monetization — without getting into code.
 
 ## The product in one sentence
 
-ProductLabR helps shoppers decide *which* product to buy in a specific category, then earns revenue when they click out to retailers or view ads on the way.
+Verdict Hound helps shoppers decide *which* product to buy in a specific category, then earns revenue when they click out to retailers or view ads on the way.
 
 ## Audience & jobs to be done
 

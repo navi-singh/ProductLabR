@@ -49,8 +49,8 @@ ratingBreakdown:
       score: 8.5
     - name: "Value"
       score: 7.5
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent reporting. We distinguish documented claims from analysis and do not present unperformed tests as our own."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review separates EcoFlow's documented specifications and runtime claims from analysis. The team does not present unperformed tests as its own."
 image: "/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_main.webp"
 productImage: "/images/posts/portable-power-stations/ecoflow_river_3_plus_wireless/ecoflow_river_3_plus_wireless_main.webp"
 imageCredit: "EcoFlow"

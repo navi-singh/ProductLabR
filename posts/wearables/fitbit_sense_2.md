@@ -3,8 +3,8 @@ title: "Fitbit Sense 2: The Smartwatch Built Around Stress Management"
 subtitle: "Fitbit's flagship watch introduces continuous electrodermal activity sensing for real-time stress tracking alongside a comprehensive health suite and Google Wallet integration"
 date: "2026-03-31"
 category: "wearables"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Case Size: "40.5mm"

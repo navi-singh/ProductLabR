@@ -3,8 +3,8 @@ title: "SteelSeries Rival 650: Wireless Gaming with a Dual Sensor Advantage"
 subtitle: "Quantum wireless connectivity, a patented TrueMove3+ dual sensor system, adjustable weight, and fast charging make the Rival 650 a compelling wireless gaming mouse for palm and claw grip players"
 date: "2026-03-31"
 category: "gaming"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Sensor: "SteelSeries TrueMove3+ (Dual Sensor System)"

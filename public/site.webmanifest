@@ -1,6 +1,6 @@
 {
-  "name": "Product Lab",
-  "short_name": "Product Lab",
+  "name": "Verdict Hound",
+  "short_name": "Verdict Hound",
   "description": "Independent product reviews and buying guidance.",
   "start_url": "./",
   "display": "standalone",

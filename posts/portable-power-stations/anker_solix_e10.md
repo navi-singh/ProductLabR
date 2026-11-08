@@ -7,8 +7,8 @@ features:
   - "240v"
   - "30a-rv"
 category: "home-backup"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 specs:
   Battery Capacity: "6,144Wh per battery (stackable up to 5 = 30.7kWh)"
   Inverter Power: "7,600W continuous (10,000W turbo mode)"

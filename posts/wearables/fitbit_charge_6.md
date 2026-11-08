@@ -3,8 +3,8 @@ title: "Fitbit Charge 6: The Best Fitness Tracker Under $200"
 subtitle: "Google's latest Fitbit tracker delivers ECG, on-device GPS, Google Wallet NFC, and 7-day battery in a slim, comfortable band that sets the standard for fitness trackers"
 date: "2026-03-31"
 category: "wearables"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Form Factor: "Slim band"

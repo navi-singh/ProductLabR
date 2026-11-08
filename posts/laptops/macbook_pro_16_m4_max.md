@@ -3,8 +3,8 @@ title: "MacBook Pro 16-inch M4 Max: The Ultimate Pro Laptop"
 subtitle: "Apple's M4 Max chip delivers unmatched performance, a breathtaking XDR display, and 24-hour battery in the best professional laptop ever made"
 date: "2026-03-31"
 category: "laptops"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Processor: "Apple M4 Max (14-core CPU: 10 performance + 4 efficiency, up to 4.5GHz)"

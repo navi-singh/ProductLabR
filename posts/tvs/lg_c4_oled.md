@@ -3,8 +3,8 @@ title: "LG C4 OLED: The Gold Standard of Consumer TVs Returns"
 subtitle: "LG's 2024 flagship OLED raises the bar with its alpha9 AI Gen7 processor and best-in-class gaming credentials"
 date: "2026-03-31"
 category: "tvs"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel Type: "WOLED evo (Self-Emissive)"

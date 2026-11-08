@@ -38,7 +38,7 @@ test.describe('score display', () => {
 
     await card.click();
     await page.waitForLoadState('domcontentloaded');
-    const overall = await page.getByText('Product Lab Rating').locator('..').innerText();
+    const overall = await page.getByText('Verdict Hound Rating').locator('..').innerText();
     const shown = Number(overall.match(/(\d+\.\d)/)![1]);
 
     expect(shown, 'a review must not advertise two different scores').toBeCloseTo(listed, 1);

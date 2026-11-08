@@ -3,8 +3,8 @@ title: "LG QNED90 (2024): The Bright-Room OLED Alternative with Serious Gaming C
 subtitle: "Quantum NanoCell meets Mini-LED in LG's MLA-enhanced panel — four HDMI 2.1 ports and 144Hz make it a gaming dark horse"
 date: "2026-01-20"
 category: "tvs"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel: "QNED Mini-LED with MLA (Micro Lens Array)"

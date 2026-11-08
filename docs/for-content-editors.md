@@ -1,6 +1,6 @@
 # For Content Editors
 
-How to write, structure, and publish a review on ProductLabR. No code required — just markdown, a text editor, and good editorial judgment.
+How to write, structure, and publish a review on Verdict Hound. No code required — just markdown, a text editor, and good editorial judgment.
 
 ## The shape of a review
 

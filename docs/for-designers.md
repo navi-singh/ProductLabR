@@ -1,6 +1,6 @@
 # For Designers
 
-The visual and interaction system behind ProductLabR — tokens, type, components, and motion — written so you can design *with* the system, not against it.
+The visual and interaction system behind Verdict Hound — tokens, type, components, and motion — written so you can design *with* the system, not against it.
 
 ## Design language
 

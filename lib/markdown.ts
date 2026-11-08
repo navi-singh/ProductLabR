@@ -130,7 +130,7 @@ export function processMarkdownContent(content: string): string {
     // Add Tailwind classes to the generated HTML
     let styledHtml = html as string;
 
-    // Style headings with the same editorial/lab treatment as the review shell.
+    // Style headings with the same editorial treatment as the review shell.
     styledHtml = styledHtml.replace(
       /<h1>(.*?)<\/h1>/g,
       '<div class="article-heading-block article-heading-block-lg"><h1 class="article-heading article-heading-1"><span>$1</span></h1></div>',

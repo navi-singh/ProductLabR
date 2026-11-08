@@ -66,11 +66,8 @@ ratingBreakdown:
       score: 8.5
     - name: Value
       score: 7.6
-author: Product Lab Team
-authorBio: >-
-  The Product Lab team reviews consumer electronics by combining hands-on use
-  with manufacturer documentation and published independent lab measurements. We
-  say which is which in each review.
+author: Verdict Hound Team
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 image: >-
   /images/posts/portable-power-stations/anker_solix_f3000/anker_solix_f3000_main.webp
 productImage: >-

@@ -3,8 +3,8 @@ title: "Samsung Galaxy Buds3 Pro: The Best Earbuds for Android"
 subtitle: "Samsung's redesigned flagship earbuds bring an open-fit blade aesthetic, intelligent ANC, and seamless Galaxy ecosystem integration to take on Apple's AirPods Pro"
 date: "2026-03-31"
 category: "headphones"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Driver Configuration: "10mm woofer + 5.3mm tweeter (dual driver)"

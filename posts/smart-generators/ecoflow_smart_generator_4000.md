@@ -3,8 +3,8 @@ title: "EcoFlow Smart Generator 4000 Review: A Useful Backup Engine With a Loud 
 subtitle: "The dual-fuel generator makes EcoFlow power stations more autonomous, but its 83-pound frame, cold-start behavior, and noise keep it from being a universal backup answer"
 date: "2026-09-19"
 category: "smart-generators"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from third-party testing in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes EcoFlow's specifications from test results reported by The Solar Lab."
 specs:
   Fuel: "Gasoline or LPG/propane"
   Gas Output: "3,200W running output"

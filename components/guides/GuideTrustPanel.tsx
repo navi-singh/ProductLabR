@@ -12,7 +12,7 @@ export function GuideTrustPanel({ latestUpdate }: GuideTrustPanelProps) {
   return (
     <section className="rounded-xl border border-neutral-200 bg-primary text-white shadow-featured">
       <div className="p-5">
-        <p className="type-label text-white/70">Why Trust Product Lab</p>
+        <p className="type-label text-white/70">Why Trust Verdict Hound</p>
         <h2 className="mt-1 font-display text-2xl font-semibold tracking-tight">
           Rankings built around repeatable buyer criteria.
         </h2>

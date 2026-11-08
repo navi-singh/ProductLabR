@@ -1,6 +1,6 @@
-# ProductLabR — Overview
+# Verdict Hound — Overview
 
-ProductLabR is an **editorial product-review site**: long-form, ranked, "best of" buying guides for consumer electronics and outdoor gear. It is content-driven (every review is a markdown file), statically rendered, and monetized through display ads and affiliate links.
+Verdict Hound is an **editorial product-review site**: long-form, ranked, "best of" buying guides for consumer electronics and outdoor gear. It is content-driven (every review is a markdown file), statically rendered, and monetized through display ads and affiliate links.
 
 ## In one diagram
 

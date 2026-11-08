@@ -3,8 +3,8 @@ title: "MSI Titan GT77 HX: The Desktop Replacement That Means It"
 subtitle: "A 17.3-inch behemoth packing desktop-class RTX 4090 and Core i9-13980HX into a laptop that genuinely replaces a gaming desktop"
 date: "2026-03-31"
 category: "laptops"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Processor: "Intel Core i9-13980HX (24-core: 8P + 16E, up to 5.6GHz boost)"

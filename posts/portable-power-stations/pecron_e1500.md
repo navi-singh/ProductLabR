@@ -3,8 +3,8 @@ title: "Pecron E1500 Review: Big Capacity, Useful Solar Input, and a Surge-Ratin
 subtitle: "The 1,536Wh E1500LFP is a rugged, expandable power station with strong charging options, but independent testing exposes the limits of its 4,400W surge claim"
 date: "2026-09-19"
 category: "portable-power-stations"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent measurements. We distinguish documented specifications from third-party testing in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes Pecron's specifications from test results reported by The Solar Lab."
 specs:
   Battery Capacity: "1,536Wh LiFePO4"
   Inverter Output: "2,200W continuous, pure sine wave"

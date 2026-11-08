@@ -50,7 +50,7 @@ export async function generateMetadata({
 
   if (redirectSlug) {
     return {
-      title: 'Review moved | Product Lab',
+      title: 'Review moved',
       robots: { index: false, follow: false },
       alternates: { canonical: `/articles/${redirectSlug}` },
     };
@@ -59,29 +59,31 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
 
   if (!post) {
-    return { title: 'Article Not Found | Product Lab' };
+    return { title: 'Article Not Found' };
   }
 
   const { metadata } = post;
-  const description = metadata.subtitle || `Expert review of the ${metadata.title} by Product Lab.`;
+  const description = metadata.subtitle || `Expert review of the ${metadata.title} by Verdict Hound.`;
   const imageUrl = resolvePublicImage(
     metadata.productImage || metadata.heroImage || metadata.image,
   );
 
   return {
-    title: `${metadata.title} Review | Product Lab`,
+    title: `${metadata.title} Review`,
     description,
+    authors: [{ name: metadata.author ?? 'Verdict Hound Team' }],
     alternates: { canonical: `/articles/${slug}` },
     openGraph: {
-      title: `${metadata.title} Review | Product Lab`,
+      title: `${metadata.title} Review | Verdict Hound`,
       description,
       type: 'article',
+      siteName: 'Verdict Hound',
       url: canonicalUrl(`/articles/${slug}`),
       ...(imageUrl ? { images: [{ url: imageUrl }] } : {}),
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${metadata.title} Review | Product Lab`,
+      title: `${metadata.title} Review | Verdict Hound`,
       description,
     },
   };
@@ -145,18 +147,20 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     ? Object.entries(metadata.retailerLinks)[0]
     : undefined;
 
+  const author = metadata.author ?? 'Verdict Hound Team';
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Review',
     name: metadata.title,
     description: metadata.subtitle ?? undefined,
     author: {
-      '@type': 'Person',
-      name: metadata.author ?? 'Product Lab Team',
+      '@type': author === 'Verdict Hound Team' ? 'Organization' : 'Person',
+      name: author,
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Product Lab',
+      name: 'Verdict Hound',
       url: SITE_URL,
     },
     datePublished: metadata.date,
@@ -234,7 +238,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <aside className="mb-5 rounded-xl border border-neutral-200 bg-white p-4 shadow-featured">
             <div className="w-full space-y-4">
               {/* Rating Breakdown ScoreCard: single unified section with the
-                  overall Product Lab Rating (5-point scale) and metric bars,
+                  overall Verdict Hound Rating (5-point scale) and metric bars,
                   replacing the previously separate star-rating box. */}
               {metadata.ratingBreakdown && (
                 <div className="rounded-xl">

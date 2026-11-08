@@ -49,8 +49,8 @@ ratingBreakdown:
       score: 6.5
     - name: "Ecosystem & Future Readiness"
       score: 8.0
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 image: "/images/posts/thermostats/google_nest_thermostat/google_nest_thermostat_main.jpg"
 productImage: "/images/posts/thermostats/google_nest_thermostat/google_nest_thermostat_main.jpg"
 imageCredit: "Google"

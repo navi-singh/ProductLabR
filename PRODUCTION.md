@@ -134,7 +134,7 @@ CMD ["npm", "start"]
 
 ### Environment Variables
 ```env
-NEXT_PUBLIC_SITE_URL=https://productlab.com
+NEXT_PUBLIC_SITE_URL=https://navi-singh.github.io/ProductLabR
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 NEXT_PUBLIC_GOOGLE_ADSENSE_ID=ca-pub-XXXXXXXXXXXXXXXX
 NEXT_PUBLIC_AMAZON_ASSOCIATES_TAG=yourtag-20
@@ -260,4 +260,3 @@ The codebase has been optimized for:
 - **Maintainability**: Clean code, TypeScript, linting
 
 Deploy with confidence! 🚀
-

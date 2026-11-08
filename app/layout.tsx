@@ -6,6 +6,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MobileBottomNav } from '@/components/MobileBottomNav';
 import { CookieConsent } from '@/components/CookieConsent';
+import { rootMetadata } from '@/lib/site-metadata';
 import { SITE_URL } from '@/lib/site-url';
 import getPostMetadata from '@/components/getPostMetadata';
 import '../styles/global.css';
@@ -22,50 +23,7 @@ const newsreader = Newsreader({
   variable: '--font-display',
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: 'Product Lab - Expert Reviews You Can Trust',
-  description:
-    'Expert reviews of power stations, cameras, and tech gear. Evidence-based scoring and honest comparisons to help you make informed buying decisions.',
-  keywords: 'product reviews, power stations, cameras, tech reviews, buying guides, product comparisons',
-  authors: [{ name: 'Product Lab Team' }],
-  creator: 'Product Lab',
-  publisher: 'Product Lab',
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: SITE_URL,
-    title: 'Product Lab - Expert Reviews You Can Trust',
-    description: 'Expert reviews of power stations, cameras, and tech gear.',
-    siteName: 'Product Lab',
-    images: [
-      {
-        url: '/og-default.png',
-        width: 1200,
-        height: 630,
-        alt: 'Product Lab - Independent reviews, clearer decisions',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Product Lab - Expert Reviews You Can Trust',
-    description: 'Expert reviews of power stations, cameras, and tech gear.',
-    creator: '@productlab',
-    images: ['/og-default.png'],
-  },
-};
+export const metadata: Metadata = rootMetadata;
 
 export default function RootLayout({
   children,
@@ -83,7 +41,7 @@ export default function RootLayout({
   const orgJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Product Lab',
+    name: 'Verdict Hound',
     url: SITE_URL,
     logo: `${SITE_URL}/images/logo.png`,
   };

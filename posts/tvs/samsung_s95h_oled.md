@@ -3,8 +3,8 @@ title: "Samsung S95H OLED: The Bright-Room OLED to Beat in 2026"
 subtitle: "Samsung's 2026 flagship pairs a matte QD-OLED panel with 165Hz gaming and the flexibility of four full-bandwidth HDMI inputs"
 date: "2026-09-13"
 category: "tvs"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes Samsung's product information from testing reported by RTINGS."
 
 specs:
   Panel Type: "QD-OLED (self-emissive)"

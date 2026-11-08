@@ -3,8 +3,8 @@ title: "Roborock Saros 20: The Premium Robot Vacuum That Earns Its Big Dock"
 subtitle: "Exceptional carpet handling, unusually capable threshold climbing, and a dock that removes most maintenance—at a price that demands a specific kind of home"
 date: "2026-09-13"
 category: "smart-home"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Suction Power: "36,000 Pa maximum (manufacturer claim)"

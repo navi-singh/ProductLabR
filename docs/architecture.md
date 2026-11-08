@@ -1,6 +1,6 @@
 # Architecture
 
-A single-page deep dive on how ProductLabR is built and why. Read [overview.md](./overview.md) first for the executive summary.
+A single-page deep dive on how Verdict Hound is built and why. Read [overview.md](./overview.md) first for the executive summary.
 
 ## Rendering model
 

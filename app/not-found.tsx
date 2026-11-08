@@ -5,7 +5,7 @@ export default function NotFound() {
     <div className="min-h-screen bg-neutral-50 flex flex-col items-center justify-center px-4">
       <div className="text-center max-w-sm">
         <p className="text-xs font-semibold tracking-widest uppercase text-primary mb-6">
-          PRODUCT LAB
+          VERDICT HOUND
         </p>
         <p className="text-8xl font-bold text-primary mb-4 leading-none">
           404

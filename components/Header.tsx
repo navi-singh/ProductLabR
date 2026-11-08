@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Beaker, Search, X } from 'lucide-react';
+import { Dog, Search, X } from 'lucide-react';
 import { SearchBar } from './SearchBar';
 import { CategoryDropdown } from './CategoryDropdown';
 import { NAV_CATEGORIES } from '@/lib/nav-categories';
@@ -36,15 +36,17 @@ export function Header({ posts = [] }: HeaderProps) {
           <Link
             href="/"
             className="group flex shrink-0 items-center gap-2.5"
-            aria-label="Product Lab home"
+            aria-label="Verdict Hound home"
           >
             <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-white shadow-sm transition-transform group-hover:-translate-y-0.5">
-              <Beaker className="h-5 w-5" aria-hidden="true" />
+              <Dog className="h-5 w-5" aria-hidden="true" />
             </span>
             <span className="flex flex-col leading-none">
-              <span className="text-base font-extrabold tracking-[0.12em]">PRODUCT LAB</span>
+              <span className="whitespace-nowrap text-sm font-extrabold tracking-[0.12em] sm:text-base">
+                VERDICT HOUND
+              </span>
               <span className="mt-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-primary-light">
-                Independent Testing
+                Independent Reviews
               </span>
             </span>
           </Link>

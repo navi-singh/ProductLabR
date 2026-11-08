@@ -3,8 +3,8 @@ title: "Dell UltraSharp U2723D: The Professional's 4K Monitor Benchmark"
 subtitle: "IPS Black technology and Thunderbolt 4 make this the ultimate productivity display"
 date: "2026-03-31"
 category: "monitors"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel Type: "IPS Black"

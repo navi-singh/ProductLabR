@@ -3,8 +3,8 @@ title: "Sony WH-1000XM5: Still the ANC King, Refined"
 subtitle: "Sony's fifth-generation flagship over-ear headphones set the standard for noise cancellation and audio quality in a sleeker, more comfortable package"
 date: "2026-03-31"
 category: "headphones"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Driver Size: "30mm dynamic drivers (newly designed)"

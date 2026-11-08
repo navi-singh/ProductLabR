@@ -8,9 +8,9 @@ import { getComparisons, type Comparison } from '@/lib/comparisons';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: 'Head-to-Head Comparisons | Product Lab',
+  title: 'Head-to-Head Comparisons',
   description:
-    'Side-by-side product comparisons from Product Lab. When two products are close, we put them directly against each other and pick one.',
+    'Side-by-side product comparisons from Verdict Hound. When two products are close, we put them directly against each other and pick one.',
   alternates: { canonical: canonicalUrl(`/compare`) },
 };
 

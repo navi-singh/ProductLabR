@@ -79,7 +79,7 @@ export function RankedProductCard({
             </div>
             <div className="flex items-center gap-3 rounded-lg bg-neutral-100 px-3 py-2">
               <div className="text-right">
-                <div className="type-label text-accent">Lab Verdict</div>
+                <div className="type-label text-accent">Our verdict</div>
                 <div className="text-xs font-semibold text-neutral-600">
                   {score >= 9 ? 'Excellent' : score >= 8 ? 'Great' : 'Good'}
                 </div>

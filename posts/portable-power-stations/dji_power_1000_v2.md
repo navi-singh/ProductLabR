@@ -54,8 +54,8 @@ ratingBreakdown:
       score: 7.5
     - name: "Value"
       score: 7.0
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining manufacturer documentation with published independent testing. We distinguish documented claims from outside measurements and analysis."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound team covers consumer electronics. This review distinguishes DJI's stated specifications from measurements reported by DroneXL."
 image: "/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_main.webp"
 productImage: "/images/posts/portable-power-stations/dji_power_1000_v2/dji_power_1000_v2_main.webp"
 imageCredit: "DJI"

@@ -3,8 +3,8 @@ title: "TCL QM8: The Mini-LED Value Champion That Punches Far Above Its Price"
 subtitle: "5,000-zone Mini-LED backlighting and 2,000 nits peak brightness at a fraction of premium TV prices"
 date: "2026-01-20"
 category: "tvs"
-author: "Product Lab Team"
-authorBio: "The Product Lab team reviews consumer electronics by combining hands-on use with manufacturer documentation and published independent lab measurements. We say which is which in each review."
+author: "Verdict Hound Team"
+authorBio: "The Verdict Hound editorial team covers consumer products and buying guides."
 
 specs:
   Panel: "Mini-LED QLED (QLED with local dimming)"
