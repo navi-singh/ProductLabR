@@ -60,6 +60,11 @@ const categoryLinks = [
     label: 'Action Cameras & Adventure Video',
     count: getPostsByCategory('action-cameras').length,
   },
+  {
+    href: '/best/360-cameras',
+    label: 'Dedicated 360 Cameras',
+    count: getPostsByCategory('360-cameras').length,
+  },
   { href: '/best/cameras/hybrid-cameras', label: 'Best Hybrid Cameras', count: 5 },
   { href: '/best/cameras/hybrid-cameras-under-3000', label: 'Hybrid Under $3,000', count: 5 },
   { href: '/best/cameras/professional-cameras', label: 'Professional Cameras', count: 4 },

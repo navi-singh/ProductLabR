@@ -61,6 +61,11 @@ Wide-angle action-camera reviews (GoPro HERO/MISSION, DJI Osmo Action) belong in
 gimbal cameras such as the DJI Osmo Pocket 3 stay in `posts/cameras`. Score with six
 metrics that start with Image Quality and end with Value.
 
+Dedicated spherical-camera reviews belong in `posts/360-cameras`, separate from
+conventional `cameras`. See [the 360-camera editorial contract](./360-camera-editorial.md)
+for the shared score metrics, research provenance, mode-specific claim checks and
+licensed-image shortfall policy.
+
 Some categories require extra frontmatter so the review can appear on filtered sub-category pages. For **power stations**:
 
 ```yaml

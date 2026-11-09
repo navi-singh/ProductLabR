@@ -1,6 +1,116 @@
 {
   "images": [
     {
+      "category": "360-cameras",
+      "slug": "insta360_x6",
+      "role": "main",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/2026-10-04_Insta360_X6_Focus_stacked_001_HOF09643.png/1280px-2026-10-04_Insta360_X6_Focus_stacked_001_HOF09643.png",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2026-10-04_Insta360_X6_Focus_stacked_001_HOF09643.png",
+      "license": "CC BY-SA 4.0",
+      "credit": "PantheraLeo1359531",
+      "alt": "Insta360 X6 camera in a focus-stacked product photograph"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x6",
+      "role": "angle2",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/2026-10-04_Frontalaufnahme_Insta360_X6_HOF9321-HDR_RAW-Export_-Staub.png/960px-2026-10-04_Frontalaufnahme_Insta360_X6_HOF9321-HDR_RAW-Export_-Staub.png",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2026-10-04_Frontalaufnahme_Insta360_X6_HOF9321-HDR_RAW-Export_-Staub.png",
+      "license": "CC BY-SA 4.0",
+      "credit": "PantheraLeo1359531",
+      "alt": "Front view of an Insta360 X6 camera"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x6",
+      "role": "kit",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/2026-10-04_Insta360_X6_HOF9362-HDR_RAW-Export.png/1280px-2026-10-04_Insta360_X6_HOF9362-HDR_RAW-Export.png",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2026-10-04_Insta360_X6_HOF9362-HDR_RAW-Export.png",
+      "license": "CC BY-SA 4.0",
+      "credit": "PantheraLeo1359531",
+      "alt": "Rear screen and lens of an Insta360 X6 camera"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x5",
+      "role": "main",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Insta360_X5.webp/1280px-Insta360_X5.webp",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Insta360_X5.webp",
+      "license": "CC BY 4.0",
+      "credit": "VlaDexa",
+      "alt": "Insta360 X5 dual-lens 360 camera"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x4",
+      "role": "main",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Insta360_X4_su_una_superficie_bianca.jpg/1280px-Insta360_X4_su_una_superficie_bianca.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Insta360_X4_su_una_superficie_bianca.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "ItzANormalFioko",
+      "alt": "Insta360 X4 with its transport lens cap on a white surface"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x4",
+      "role": "angle2",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Insta360_X4_senza_protezione_lenti_ma_cover_termica.jpg/1280px-Insta360_X4_senza_protezione_lenti_ma_cover_termica.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Insta360_X4_senza_protezione_lenti_ma_cover_termica.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "ItzANormalFioko",
+      "alt": "Insta360 X4 with a thermal cover and without lens guards"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x3",
+      "role": "main",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Insta360_X3_25.04.2024.jpg/1280px-Insta360_X3_25.04.2024.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Insta360_X3_25.04.2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Sebbog13",
+      "alt": "An owner's Insta360 X3 camera"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x3",
+      "role": "angle2",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Insta360_X3_P1110440.jpg/1280px-Insta360_X3_P1110440.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Insta360_X3_P1110440.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "-stk",
+      "alt": "Side controls and exposed lens profile of an Insta360 X3"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x3",
+      "role": "angle3",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Insta360_X3_P1110441.jpg/1280px-Insta360_X3_P1110441.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Insta360_X3_P1110441.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "-stk",
+      "alt": "Rear lens and body of an Insta360 X3"
+    },
+    {
+      "category": "360-cameras",
+      "slug": "insta360_x3",
+      "role": "angle4",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Insta360_X3_P1110439.jpg/1280px-Insta360_X3_P1110439.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Insta360_X3_P1110439.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "-stk",
+      "alt": "Front touchscreen and recording controls of an Insta360 X3"
+    },
+    {
       "category": "headphones",
       "slug": "apple_airpods_max",
       "role": "main",

@@ -63,6 +63,15 @@ export const CATEGORIES: Category[] = [
       'Single-lens adventure cameras compared through manufacturer documentation and independent testing, with mounting, stabilization and recording limits explained.',
   },
   {
+    slug: '360-cameras',
+    contentDir: '360-cameras',
+    name: '360-Degree Cameras',
+    shortName: '360 Cameras',
+    icon: '360°',
+    description:
+      'Dedicated dual-lens 360 cameras compared on spherical image quality, stitching, durability and editing workflow through independent-source research.',
+  },
+  {
     slug: 'tvs',
     contentDir: 'tvs',
     name: 'TVs',

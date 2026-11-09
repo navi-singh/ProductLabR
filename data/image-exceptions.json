@@ -1,6 +1,26 @@
 {
   "note": "Reviews with no usable licensed image source (discontinued, no manufacturer page, nothing on Wikimedia). Exempt from the image minimum; keyed by slug.",
   "reviews": {
+    "dji_osmo_360": {
+      "reason": "No explicitly reusable exact-model product photo established from manufacturer media or Commons; search results were panoramas captured by the camera, not photographs of it",
+      "flaggedAt": "2026-11-08"
+    },
+    "dji_osmo_360_ii": {
+      "reason": "Official launch photos have no established reusable permission and Commons yielded no exact-model product photographs; protected publisher test photos excluded",
+      "flaggedAt": "2026-11-08"
+    },
+    "insta360_one_rs_1_inch_360": {
+      "reason": "The one reusable exact-model Commons photo found is 780x780px and fails the 800px source-long-edge policy; omitted without upscaling or relaxing the quality floor",
+      "flaggedAt": "2026-11-08"
+    },
+    "insta360_x4": {
+      "reason": "Two distinct licensed exact-model product views established; other candidates were accessory-only photos or unrelated merchandise, not additional camera views",
+      "flaggedAt": "2026-11-08"
+    },
+    "insta360_x5": {
+      "reason": "Only one licensed exact-model product photo established; remaining Commons results were scenes captured by the camera, not photographs of it, and manufacturer reuse permission was not established",
+      "flaggedAt": "2026-11-08"
+    },
     "dji_osmo_action_4": {
       "reason": "Commons results were older Osmo Action models or unrelated capture footage; manufacturer image reuse permission was not established",
       "flaggedAt": "2026-11-09"

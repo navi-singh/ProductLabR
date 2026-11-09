@@ -37,7 +37,7 @@ export default function ReviewsPage() {
       <header className="mb-6 mt-5">
         <h1 className="text-3xl font-bold text-neutral-900 md:text-4xl">All reviews</h1>
         <p className="mt-2 max-w-2xl text-sm text-neutral-600">
-          Every product we have tested, scored against the same{' '}
+          Every reviewed product, scored against the same{' '}
           <a href="/methodology" className="text-primary hover:underline">
             rubric
           </a>

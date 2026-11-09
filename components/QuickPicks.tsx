@@ -6,7 +6,8 @@ interface QuickPick {
   name: string;
   href: string;
   score: number;
-  price: string;
+  price?: string;
+  availabilityLabel?: string;
   buyUrl?: string;
   summary?: string;
 }
@@ -50,10 +51,20 @@ export function QuickPicks({ picks }: QuickPicksProps) {
                 </p>
               )}
               <div className="mt-3 flex items-center justify-between text-xs text-neutral-500">
-                <span>
-                  Street price: <strong className="text-neutral-900">{pick.price}</strong>
+                {pick.price && (
+                  <span>
+                    Street price: <strong className="text-neutral-900">{pick.price}</strong>
+                  </span>
+                )}
+                <span
+                  className={
+                    pick.availabilityLabel
+                      ? 'font-semibold text-neutral-500'
+                      : 'font-semibold text-success'
+                  }
+                >
+                  {pick.availabilityLabel ?? 'In stock'}
                 </span>
-                <span className="font-semibold text-success">In stock</span>
               </div>
             </Link>
 
