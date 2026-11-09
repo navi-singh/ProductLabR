@@ -10,8 +10,8 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/camping-power-stations' },
-  title: 'Best Camping Power Stations 2025 - Expert Reviews',
-  description: 'Compact and lightweight power solutions for outdoor adventures. Expert tested camping power stations.',
+  title: 'Best Portable Power Stations for Camping',
+  description: 'Compare reviewed portable power stations for camping by capacity, weight, output, and recharge options.',
 };
 
 interface StationEntry {
@@ -90,7 +90,7 @@ export default function BestCampingPowerStations() {
       <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
         <div className="mx-auto max-w-content">
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Camping Power Stations 2025</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Power Stations for Camping</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
             Compact and lightweight power solutions for outdoor adventures. Tested for portability, capacity, and durability to provide reliable power outdoors.
           </p>

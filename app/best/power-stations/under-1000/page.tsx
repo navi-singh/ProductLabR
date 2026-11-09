@@ -10,8 +10,8 @@ import { getStationsUnderPrice, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/under-1000' },
-  title: 'Best Portable Power Stations Under $1,000 (2025)',
-  description: 'Top-rated portable power stations under $1,000 — mid-range units offering the best value per dollar.',
+  title: 'Best Portable Power Stations Under $1,000',
+  description: 'Compare reviewed portable power stations with listed prices under $1,000 by capacity, output, and features.',
 };
 
 export default function Under1000Page() {
@@ -32,7 +32,7 @@ export default function Under1000Page() {
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
           <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Portable Power Stations Under $1,000</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Top-rated mid-range power stations offering the best value per dollar — expert tested for real-world camping, backup, and off-grid use.
+            Compare models with a listed starting price under $1,000. Match their capacity, output, and recharge options to your needs.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {['Under $1,000', 'Mid-Range', 'Best Value'].map((tag) => (

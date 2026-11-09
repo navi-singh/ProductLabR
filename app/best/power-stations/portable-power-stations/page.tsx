@@ -10,8 +10,8 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/portable-power-stations' },
-  title: 'Best Portable Power Stations 2025 - Expert Reviews & Buying Guide',
-  description: 'The best portable power stations for camping, home backup, and off-grid adventures. Expert tested for capacity, reliability, and value.',
+  title: 'Portable Power Stations: Reviews and Buying Guide',
+  description: 'Compare portable power station reviews for camping, home backup, and off-grid use by capacity, output, recharge, and value.',
 };
 
 interface StationEntry {
@@ -110,9 +110,9 @@ export default function PortablePowerStationsPage() {
       <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
         <div className="mx-auto max-w-content">
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Portable Power Stations 2025</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Portable Power Stations</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Expert-tested power stations for camping, home backup, and off-grid adventures. We&apos;ve tested over 40 models to bring you the definitive buying guide.
+            Compare reviewed power stations for camping, selected home backup loads, and off-grid use. Each article explains its sources, evidence, and trade-offs.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {['768Wh – 4096Wh Capacity', '800W – 4000W Output', '$429 – $3,699'].map((tag) => (

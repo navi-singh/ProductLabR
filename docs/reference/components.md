@@ -29,14 +29,14 @@ A quick index of every component in `components/` with its purpose and the props
   summary="One-paragraph hook."
   score={9.2}
   badge="best-overall"           // 'best-overall' | 'best-value' | 'budget-pick'
-  buyUrl="https://amazon.com/..."  // retained, not rendered yet — for future "Check Price"
+  price="$249"
+  priceLabel="Recorded price:"
+  buyUrl="https://amazon.com/..." // optional "Check Price" link
   specs={{ Capacity: "1024 Wh" }}
 />
 ```
 
-**No `price` prop** — prices are not shown on cards (only on full review pages). Stretched-link card (whole card clickable). Score badge at `size="lg"` with label. State layer + lift on hover. "Read Review →" ghost CTA.
-
-The stretched link sits above a single `relative z-0` content wrapper. Keep new non-interactive content inside that wrapper. Anything that needs its own click target (for example, a future affiliate CTA) must be a sibling with a higher z-index, not a descendant. See [playwright-e2e.md](./playwright-e2e.md#bug-a--dead-click-regions-on-ranked-cards).
+`price` and `priceLabel` are optional; the default label is "Street price:". The power-station budget and home-backup guides use "Recorded price:" to distinguish review prices from live quotes. Images and the "Read Review" CTA link to the review; an optional `buyUrl` adds a separate retailer link.
 
 ### `ReviewCard`
 
@@ -78,6 +78,10 @@ Side-by-side spec table with winning rows tinted `--primary-light`. Numeric-lead
 | `StickyBuyBar` | Fixed bottom bar with price + buy button (`'use client'`) |
 
 ## Interactive
+
+### `PowerStationRuntimeCalculator`
+
+`components/PowerStationRuntimeCalculator.tsx` estimates runtime for appliance presets or a custom 1–5,000W load. It shows up to four reviews with a listed capacity and sufficient continuous AC output, using `capacityWh × 0.85 ÷ watts` as a planning estimate. The estimate is not a test result and does not guarantee sufficient startup surge power. The hub and home-backup pages supply the review data. Controls remain disabled until the client hydrates.
 
 ### `PowerStationQuiz`
 

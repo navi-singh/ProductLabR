@@ -10,8 +10,8 @@ import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/240v-power-stations' },
-  title: 'Best 240V Portable Power Stations 2025',
-  description: 'Power stations with 240V split-phase output for dryers, AC units, and EV charging. Expert tested.',
+  title: 'Best 240V Portable Power Stations',
+  description: 'Compare reviewed power stations with listed 240V split-phase output and check appliance and connection requirements.',
 };
 
 export default function TwoFortyVPowerStationsPage() {
@@ -30,9 +30,9 @@ export default function TwoFortyVPowerStationsPage() {
       <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
         <div className="mx-auto max-w-content">
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best 240V Portable Power Stations 2025</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best 240V Portable Power Stations</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Power stations with 240V split-phase output for dryers, AC units, and EV charging — expert tested for heavy-duty home backup.
+            Compare reviewed models with listed 240V split-phase output. Verify the appliance load and connection requirements before choosing a system.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {['240V Output', 'Split-Phase', 'Home Backup'].map((tag) => (

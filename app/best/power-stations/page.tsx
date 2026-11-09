@@ -5,214 +5,301 @@ import { SectionLabel } from '@/components/SectionLabel';
 import { Newsletter } from '@/components/Newsletter';
 import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
-import { PowerStationQuiz } from '@/components/PowerStationQuiz';
-import { GuideTrustPanel } from '@/components/guides/GuideTrustPanel';
+import { PowerStationRuntimeCalculator } from '@/components/PowerStationRuntimeCalculator';
 import { HowToChooseSection } from '@/components/guides/HowToChooseSection';
 import { HowWeTestedPanel } from '@/components/guides/HowWeTestedPanel';
 import { OtherNotableProducts } from '@/components/guides/OtherNotableProducts';
 import { ProductComparisonTable } from '@/components/guides/ProductComparisonTable';
 import { QuickPickStrip } from '@/components/guides/QuickPickStrip';
-import { firstAvailableSpec, productNameFromTitle, type ComparisonRow } from '@/lib/guide-data';
+import {
+  firstAvailableSpec,
+  productNameFromTitle,
+  type ComparisonRow,
+  type GuideQuickPick,
+} from '@/lib/guide-data';
 import {
   getAllPowerStations,
-  getQuickPicks,
-  getStationsByFeature,
-  getStationsUnderPrice,
-  summarizeStations,
+  parseStationAcOutputW,
   type PowerStationEntry,
 } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations' },
-  title: 'Best Power Stations 2025 - Expert Reviews & Buying Guides',
+  title: 'Best Portable Power Stations: Home Backup, Camping & More',
   description:
-    'Expert-reviewed portable power solutions for every need and budget. From camping power stations to whole-home backup systems.',
+    'Compare portable power stations for home outages, camping, RVs, and CPAP use. Check appliance runtime estimates, output, capacity, price, and trade-offs.',
 };
 
 type HubCard = {
   title: string;
   description: string;
   href: string;
-  count: number;
-  priceRange: string;
-  features: string[];
 };
 
-function dedupeBySlug(entries: PowerStationEntry[]): PowerStationEntry[] {
-  return entries.filter((s, i, arr) => arr.findIndex((x) => x.slug === s.slug) === i);
-}
-
-/**
- * Hub cards are built at render time so the advertised coverage always matches
- * what the hub itself will select. The four curated hubs still carry literal
- * stats because their line-ups are hand-picked inside their own page files
- * rather than derived from a feature tag.
- */
-function getHubCards(): HubCard[] {
-  const solar = dedupeBySlug([
-    ...getStationsByFeature('solar'),
-    ...getStationsByFeature('solar-kit'),
-  ]);
-
-  return [
-    {
-      title: 'Portable Power Stations',
-      description: 'Versatile power stations for camping, emergencies, and outdoor activities',
-      href: '/best/power-stations/portable-power-stations',
-      count: 7,
-      priceRange: '$429 – $3,699',
-      features: ['500Wh – 1,500Wh', 'Multiple ports', 'Solar charging', 'Portable design'],
-    },
-    {
-      title: 'House Backup Power Stations',
-      description: 'High-capacity units for whole-home backup during outages',
-      href: '/best/power-stations/house-backup-power-stations',
-      count: 4,
-      priceRange: '$1,199 – $7,699',
-      features: ['3,000Wh+', 'Home integration', '240V capable', 'Extended runtime'],
-    },
-    {
-      title: 'RV Power Stations',
-      description:
-        'Power stations with genuine 30A outlets and solar charging for RV and trailer use',
-      href: '/best/power-stations/rv-power-stations',
-      ...summarizeStations(getStationsByFeature('30a-rv')),
-      features: ['30A RV outlet', 'Solar ready', 'High capacity', 'Expandable'],
-    },
-    {
-      title: 'Solar Generators',
-      description: 'High solar input units for off-grid and solar-primary setups',
-      href: '/best/power-stations/solar-generators',
-      ...summarizeStations(solar),
-      features: ['800W+ solar', 'LiFePO4 battery', 'Off-grid ready', 'MPPT charging'],
-    },
-    {
-      title: 'Camping Power Stations',
-      description: 'Compact and lightweight power solutions for outdoor adventures',
-      href: '/best/power-stations/camping-power-stations',
-      count: 5,
-      priceRange: '$199 – $999',
-      features: ['200Wh – 1,000Wh', 'Ultra-portable', 'Weather resistant', 'Silent operation'],
-    },
-    {
-      title: 'Van Life Power Stations',
-      description: 'Compact, solar-capable units under 30 lbs built for life on the road',
-      href: '/best/power-stations/van-life',
-      ...summarizeStations(getStationsByFeature('van-life')),
-      features: ['Under 30 lbs', 'Solar capable', 'Compact', 'DC output'],
-    },
-    {
-      title: 'Under $500',
-      description: 'Best portable power stations for every budget under $500',
-      href: '/best/power-stations/under-500',
-      ...summarizeStations(getStationsUnderPrice(500)),
-      features: ['Budget friendly', 'Essential features', 'Portable', 'Reliable brands'],
-    },
-    {
-      title: 'Under $1,000',
-      description: 'Mid-range power stations offering the best value per dollar',
-      href: '/best/power-stations/under-1000',
-      ...summarizeStations(getStationsUnderPrice(1000)),
-      features: ['Best value', 'Mid-range', '500Wh – 2,000Wh', 'Expert picks'],
-    },
-    {
-      title: '240V Power Stations',
-      description: 'Power stations with split-phase 240V output for dryers, AC, and EV charging',
-      href: '/best/power-stations/240v-power-stations',
-      ...summarizeStations(getStationsByFeature('240v')),
-      features: ['240V output', 'Split-phase', 'Heavy loads', 'Home backup'],
-    },
-    {
-      title: 'CPAP Power Stations',
-      description: 'Quiet, lightweight power stations with enough capacity for overnight CPAP use',
-      href: '/best/power-stations/for-cpap',
-      ...summarizeStations(getStationsByFeature('cpap')),
-      features: ['500–1,500Wh', 'Quiet operation', 'DC mode', 'Compact'],
-    },
-    {
-      title: 'Carry-On Power Stations',
-      description: 'TSA-approved power banks for travel and airline carry-on',
-      href: '/best/power-stations/carry-on-power-stations',
-      count: 3,
-      priceRange: '$99 – $399',
-      features: ['Under 100Wh', 'TSA compliant', 'Compact design', 'Fast charging'],
-    },
-  ];
-}
-
-const comparisonColumns = [
-  { key: 'capacity', label: 'Battery' },
-  { key: 'output', label: 'Output' },
-  { key: 'solar', label: 'Solar Input' },
-  { key: 'chemistry', label: 'Chemistry' },
-  { key: 'weight', label: 'Weight' },
+const useCaseGuides: HubCard[] = [
+  {
+    title: 'Home backup & outages',
+    description: 'Compare larger systems, expandable batteries, and home-integration options.',
+    href: '/best/power-stations/house-backup-power-stations',
+  },
+  {
+    title: 'Camping',
+    description: 'Find a size and output level suited to the gear you plan to bring.',
+    href: '/best/power-stations/camping-power-stations',
+  },
+  {
+    title: 'RV power',
+    description: 'Focus on outlet type, continuous output, solar input, and battery capacity.',
+    href: '/best/power-stations/rv-power-stations',
+  },
+  {
+    title: 'CPAP',
+    description: 'Estimate runtime using your device draw, including humidifier settings.',
+    href: '/best/power-stations/for-cpap',
+  },
+  {
+    title: 'Solar charging',
+    description: 'Compare stations with solar input and solar-kit options.',
+    href: '/best/power-stations/solar-generators',
+  },
+  {
+    title: '240V output',
+    description: 'For appliances and home systems that specifically require split-phase power.',
+    href: '/best/power-stations/240v-power-stations',
+  },
 ];
 
-function featureLabel(feature: string | undefined): string | undefined {
-  const labels: Record<string, string> = {
-    cpap: 'CPAP',
-    '30a-rv': 'RV',
-    'van-life': 'Van Life',
-    '240v': '240V',
-    solar: 'Solar Charging',
-    'solar-kit': 'Solar Kit',
-  };
-  if (feature && labels[feature]) return labels[feature];
+const budgetGuides: HubCard[] = [
+  {
+    title: 'Under $300',
+    description: 'Smaller-capacity and entry-level options, ranked by listed price.',
+    href: '/best/power-stations/under-300',
+  },
+  {
+    title: 'Under $500',
+    description: 'Compare lower-cost models and check the output limits before buying.',
+    href: '/best/power-stations/under-500',
+  },
+  {
+    title: 'Under $1,000',
+    description: 'A wider range of capacities, recharge features, and inverter outputs.',
+    href: '/best/power-stations/under-1000',
+  },
+];
 
-  return feature
-    ?.split(/[-_]/)
-    .filter(Boolean)
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(' ');
+const comparisonColumns = [
+  { key: 'capacity', label: 'Capacity' },
+  { key: 'output', label: 'AC output' },
+  { key: 'solar', label: 'Solar input' },
+  { key: 'pricePerWh', label: 'Listed $/Wh' },
+  { key: 'ups', label: 'UPS / pass-through' },
+  { key: 'expansion', label: 'Expansion' },
+];
+
+function findSpec(specs: Record<string, string>, names: RegExp): string | undefined {
+  const entry = Object.entries(specs).find(([name]) => names.test(name));
+  return entry?.[1];
+}
+
+function parseCapacityWh(station: PowerStationEntry): number {
+  if (station.capacityWh > 0) return station.capacityWh;
+  const raw = findSpec(station.specs, /^(battery )?capacity$/i);
+  const match = raw?.match(/([\d,]+)\s*wh/i);
+  return match ? Number(match[1].replace(/,/g, '')) : 0;
+}
+
+function formatReviewDate(value: string): string {
+  const match = value.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!match) return value || 'Date not listed';
+  return new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3])).toLocaleDateString(
+    'en-US',
+    { month: 'short', year: 'numeric' },
+  );
 }
 
 function stationComparisonRow(station: PowerStationEntry, rank?: number): ComparisonRow {
+  const capacityWh = parseCapacityWh(station);
+  const ups = findSpec(station.specs, /^(ups|pass[- ]?through charging)$/i);
+  const expansion = findSpec(station.specs, /(battery )?(expansion|expandable capacity)/i);
   return {
     rank,
     name: productNameFromTitle(station.title),
     href: `/articles/${station.slug}`,
     score: station.score,
     price: station.price,
-    bestFor: featureLabel(station.features[0]),
+    bestFor: formatReviewDate(station.date),
     keyStrength: station.pros[0],
     mainTradeoff: station.cons[0],
     specs: {
       capacity:
         firstAvailableSpec(station.specs, ['battery capacity', 'capacity']) ??
-        (station.capacityWh ? `${station.capacityWh.toLocaleString('en-US')}Wh` : undefined) ??
+        (capacityWh ? `${capacityWh.toLocaleString('en-US')}Wh` : undefined) ??
         '—',
-      output: firstAvailableSpec(station.specs, ['inverter output', 'output', 'wattage']) ?? '—',
-      solar: firstAvailableSpec(station.specs, ['solar input', 'solar']) ?? '—',
-      chemistry: firstAvailableSpec(station.specs, ['chemistry', 'battery type']) ?? '—',
-      weight: firstAvailableSpec(station.specs, ['weight']) ?? '—',
+      output:
+        findSpec(
+          station.specs,
+          /^(continuous output|ac output|rated output|inverter output|inverter power)$/i,
+        ) ?? 'Not listed',
+      solar: findSpec(station.specs, /^solar input$/i) ?? 'Not listed',
+      pricePerWh:
+        station.priceNum > 0 && capacityWh > 0
+          ? `$${(station.priceNum / capacityWh).toFixed(2)}`
+          : '—',
+      ups: ups ?? 'Not listed',
+      expansion: expansion ?? 'Not listed',
     },
   };
 }
 
+const faqItems = [
+  {
+    question: 'How long will a power station run a refrigerator?',
+    answer:
+      'It depends on the refrigerator’s average draw, how often its compressor cycles, and the station’s usable capacity. Use the runtime estimate as a starting point, then check the fridge label or measure its energy use. Also verify the station can handle compressor startup.',
+  },
+  {
+    question: 'Can a portable power station run a house during an outage?',
+    answer:
+      'A portable station can run selected appliances or circuits if its output, capacity, and connection method are suitable. It does not automatically power a whole house. Follow the station maker’s instructions and use a qualified electrician for home wiring or transfer equipment.',
+  },
+  {
+    question: 'What is the difference between a power station and a solar generator?',
+    answer:
+      'The terms are often used for the same battery-based product. A solar panel is an optional or bundled charging source; check whether the panel is included and whether its voltage and power are compatible with the station.',
+  },
+  {
+    question: 'Can I use a power station as a UPS?',
+    answer:
+      'Only rely on a model with a documented UPS or backup mode and a switchover time appropriate for your equipment. Pass-through charging alone does not establish that it will behave like a dedicated UPS.',
+  },
+  {
+    question: 'How much power does a CPAP need overnight?',
+    answer:
+      'The draw varies by device, pressure, heated humidifier, and heated hose. Check the CPAP manufacturer’s power figures or measure your setup, then enter that wattage in the runtime estimator. A heated humidifier can materially reduce runtime.',
+  },
+  {
+    question: 'Can I take a power station on an airplane?',
+    answer:
+      'Many power stations are too large for passenger aircraft. Battery capacity limits and approval rules depend on the airline and applicable aviation rules; check with your carrier before travel. No product should be described as TSA-approved.',
+  },
+  {
+    question: 'How do I choose between a power station and a gas generator?',
+    answer:
+      'A battery station is quiet at the point of use and can be recharged from AC or compatible solar panels, but its stored energy is finite. Fuel generators can run longer with fuel but produce exhaust and must be operated outdoors according to their safety instructions.',
+  },
+];
+
+function getHubQuickPicks(entries: PowerStationEntry[]): GuideQuickPick[] {
+  const used = new Set<string>();
+  const picks: GuideQuickPick[] = [];
+
+  function addPick(
+    label: string,
+    candidates: PowerStationEntry[],
+    reason: string,
+    byValuePerWh = false,
+  ) {
+    const available = candidates.filter(
+      (station) =>
+        !used.has(station.slug) &&
+        (!byValuePerWh || (station.priceNum > 0 && parseCapacityWh(station) > 0)),
+    );
+    const station = byValuePerWh
+      ? available.sort(
+          (a, b) =>
+            b.score / (b.priceNum / parseCapacityWh(b)) -
+            a.score / (a.priceNum / parseCapacityWh(a)),
+        )[0]
+      : available.sort((a, b) => b.score - a.score)[0];
+    if (!station) return;
+    used.add(station.slug);
+    picks.push({
+      label,
+      name: productNameFromTitle(station.title),
+      href: `/articles/${station.slug}`,
+      score: station.score,
+      price: station.price,
+      reason,
+    });
+  }
+
+  const getWeightPounds = (station: PowerStationEntry): number | undefined => {
+    const value = findSpec(station.specs, /weight/i);
+    const match = value?.match(/([\d.]+)\s*(lb|lbs|pounds?|kg)\b/i);
+    if (!match) return undefined;
+    const weight = Number(match[1]);
+    return match[2].toLowerCase() === 'kg' ? weight * 2.20462 : weight;
+  };
+  const homeBackup = entries.filter((station) => parseCapacityWh(station) >= 2000);
+
+  addPick('Best Overall', entries, 'Highest score among the current reviews.');
+  addPick(
+    'Home Backup',
+    homeBackup,
+    'Highest-scoring reviewed model with at least 2,000Wh rated capacity.',
+  );
+  addPick(
+    'Under $500',
+    entries.filter((station) => station.priceNum > 0 && station.priceNum <= 500),
+    'Highest-scoring remaining review with a listed starting price under $500.',
+  );
+  addPick(
+    'Portable',
+    entries.filter((station) => (getWeightPounds(station) ?? Infinity) < 30),
+    'Highest-scoring remaining review with a listed weight under 30lb.',
+  );
+  addPick(
+    'RV',
+    entries.filter((station) => station.features.includes('30a-rv')),
+    'Highest-scoring remaining review tagged for 30A RV use.',
+  );
+  addPick(
+    'Value per Wh',
+    entries,
+    'Balances review score against listed starting price per rated watt-hour.',
+    true,
+  );
+
+  return picks;
+}
+
 export default function PowerStationsHub() {
-  const powerStationCategories = getHubCards();
   const allStations = getAllPowerStations();
   const latestTimestamp = Math.max(
     ...allStations.map((station) => new Date(station.date).getTime()).filter(Number.isFinite),
   );
-  const latestUpdate = Number.isFinite(latestTimestamp)
+  const latestReview = Number.isFinite(latestTimestamp)
     ? new Date(latestTimestamp).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
     : undefined;
-  const quickPicks = getQuickPicks(allStations).map((pick) => ({
-    ...pick,
-    reason:
-      pick.label === 'Best Overall'
-        ? 'Highest-scoring all-around pick in the current power-station set.'
-        : pick.label === 'Best Value'
-          ? 'Strong score with a lower street price than the top premium units.'
-          : 'Lowest-cost route into the current reviewed lineup.',
-  }));
+  const quickPicks = getHubQuickPicks(allStations);
+  const runtimeStations = allStations
+    .map((station) => ({
+      slug: station.slug,
+      name: productNameFromTitle(station.title),
+      capacityWh: parseCapacityWh(station),
+      outputW: parseStationAcOutputW(station.specs),
+      score: station.score,
+    }))
+    .filter((station) => station.capacityWh > 0);
   const comparisonRows = allStations
     .slice(0, 10)
     .map((station, index) => stationComparisonRow(station, index + 1));
   const notableRows = allStations
     .slice(10, 16)
     .map((station, index) => stationComparisonRow(station, index + 11));
+  const brandPicks = [
+    { label: 'EcoFlow', pattern: /ecoflow/i },
+    { label: 'Anker SOLIX', pattern: /anker/i },
+    { label: 'BLUETTI', pattern: /bluetti/i },
+    { label: 'Jackery', pattern: /jackery/i },
+  ]
+    .map(({ label, pattern }) => ({
+      label,
+      station: allStations.find((station) => pattern.test(station.title)),
+    }))
+    .filter(
+      (item): item is { label: string; station: PowerStationEntry } => item.station !== undefined,
+    );
 
   return (
     <div className="min-h-screen bg-neutral-50">
@@ -224,109 +311,123 @@ export default function PowerStationsHub() {
         ]}
       />
 
-      <section className="overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-featured">
-        <div className="bg-gradient-to-br from-primary-lightest via-white to-neutral-50 px-6 py-10">
+      <section className="overflow-hidden rounded-2xl border border-neutral-200 bg-white">
+        <div className="grid gap-8 bg-primary px-6 py-9 text-white md:grid-cols-[minmax(0,1.4fr)_minmax(16rem,0.6fr)] md:items-end md:px-10">
           <div className="mx-auto max-w-content">
-            <div className="inline-flex items-center gap-2 rounded bg-white px-3 py-1 text-[11px] font-bold uppercase tracking-[0.08em] text-primary shadow-sm ring-1 ring-neutral-200">
-              <span className="h-2 w-2 rounded-full bg-accent" />
-              Buying Guide · Independent Evaluation
-            </div>
-            <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold tracking-tight text-neutral-900 md:text-5xl">
-              Best Power Stations 2025
+            <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold tracking-tight text-white md:text-5xl">
+              Power a fridge, CPAP, or outage backup
             </h1>
-            <p className="mt-3 max-w-3xl text-base leading-relaxed text-neutral-600">
-              Expert-reviewed portable power solutions for every need and budget, compared for
-              performance, reliability, and value.
+            <p className="mt-3 max-w-3xl text-base leading-relaxed text-white/80">
+              Pick an appliance, enter its wattage, and compare estimated runtime against reviewed
+              capacity and output.
             </p>
-            <div className="mt-5 flex flex-wrap gap-2">
-              {['Real-World Performance', 'All Budgets Covered', 'Zero Sponsored Reviews'].map(
-                (tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-full border border-neutral-200 bg-white px-3 py-1 text-xs font-semibold text-neutral-700"
-                  >
-                    {tag}
-                  </span>
-                ),
-              )}
-            </div>
+          </div>
+          <div className="border-t border-white/20 pt-4 text-sm leading-relaxed text-white/80 md:border-l md:border-t-0 md:pl-6 md:pt-0">
+            <p className="font-semibold text-white">
+              {allStations.length} product reviews · shared scoring rubric
+            </p>
+            <p className="mt-1">
+              Evidence, sources, and known limits are explained in each review.
+            </p>
           </div>
         </div>
       </section>
 
       <div className="mx-auto max-w-content px-4 py-8 sm:px-6">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[7fr_3fr]">
+        <div className="grid min-w-0 grid-cols-1 gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(16rem,3fr)]">
           <main className="space-y-6">
-            <PowerStationQuiz />
+            <PowerStationRuntimeCalculator stations={runtimeStations} />
             <QuickPickStrip picks={quickPicks} />
-            <div>
-              <SectionLabel>Categories</SectionLabel>
-              <div className="space-y-4">
-                {powerStationCategories.map((category) => (
-                  <div
-                    key={category.title}
-                    className="rounded-xl border border-neutral-200 bg-white p-5"
+            <section id="buying-guides" className="scroll-mt-6">
+              <SectionLabel>Shop by use case</SectionLabel>
+              <h2 className="mb-4 text-xl font-bold text-neutral-900">
+                What do you need to power?
+              </h2>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {useCaseGuides.map((guide) => (
+                  <Link
+                    key={guide.href}
+                    href={guide.href}
+                    className="group rounded-lg border border-neutral-200 bg-white p-4 transition-colors hover:border-primary/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
                   >
-                    <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-                      <div className="flex-1">
-                        <h2 className="text-base font-bold text-neutral-900">{category.title}</h2>
-                        <p className="mt-1 text-[13px] text-neutral-500">{category.description}</p>
-                        <div className="mt-3 flex flex-wrap gap-2">
-                          {category.features.map((feature) => (
-                            <span
-                              key={feature}
-                              className="rounded-full bg-primary-lightest px-2.5 py-0.5 text-[11px] font-medium text-primary"
-                            >
-                              {feature}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-start gap-2 sm:items-end">
-                        <div className="text-xs text-neutral-400">{category.priceRange}</div>
-                        <Link
-                          href={category.href}
-                          className="inline-flex items-center rounded-md bg-primary px-3.5 py-1.5 text-xs font-semibold text-white hover:bg-primary-dark"
-                        >
-                          View Guide →
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+                    <span className="font-semibold text-neutral-900 group-hover:text-primary">
+                      {guide.title} <span aria-hidden="true">→</span>
+                    </span>
+                    <span className="mt-1 block text-sm leading-relaxed text-neutral-600">
+                      {guide.description}
+                    </span>
+                  </Link>
                 ))}
               </div>
-            </div>
+              <div className="mt-6">
+                <h3 className="mb-3 text-sm font-bold text-neutral-900">Shop by budget</h3>
+                <div className="flex flex-wrap gap-2">
+                  {budgetGuides.map((guide) => (
+                    <Link
+                      key={guide.href}
+                      href={guide.href}
+                      className="rounded-full border border-neutral-300 bg-white px-4 py-2 text-sm font-semibold text-neutral-700 hover:border-primary hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                    >
+                      {guide.title}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <p className="mt-4 text-sm text-neutral-600">
+                Also compare{' '}
+                <Link
+                  href="/best/power-stations/van-life"
+                  className="font-semibold text-primary underline-offset-2 hover:underline"
+                >
+                  van-life options
+                </Link>{' '}
+                and{' '}
+                <Link
+                  href="/best/power-stations/carry-on-power-stations"
+                  className="font-semibold text-primary underline-offset-2 hover:underline"
+                >
+                  small power banks for travel
+                </Link>
+                . Airline rules vary; check with your carrier before flying with a battery.
+              </p>
+            </section>
 
             <ProductComparisonTable
+              id="comparison"
               rows={comparisonRows}
               columns={comparisonColumns}
-              title="Power Station Comparison Table"
-              description="A fast side-by-side view of the highest-rated models before you open the individual reviews."
+              title="Compare reviewed power stations"
+              bestForLabel="Review date"
+              description="The top-scoring reviews in this collection. Prices are listed starting prices and may change; a missing spec means it was not available in the review data."
             />
+            <p className="-mt-4 text-xs leading-relaxed text-neutral-500">
+              Listed $/Wh divides the review&apos;s starting price by rated capacity. Review dates
+              are publication dates, not necessarily the date a product was last rechecked.
+            </p>
 
             <HowWeTestedPanel
-              title="How We Evaluate Power Stations"
-              intro="Power stations are scored around the decisions that change real ownership: usable capacity, inverter output, charging flexibility, portability, battery chemistry, port layout, and value."
+              title="How we evaluate power stations"
+              intro="Reviews use a shared scoring rubric and synthesize manufacturer specifications with independent sources. We do not describe a review as hands-on testing unless that specific article documents hands-on work."
               metrics={[
                 {
-                  title: 'Capacity and runtime',
+                  title: 'Capacity and appliance fit',
                   description:
-                    'We compare usable watt-hours against the products a buyer is likely to run, not just the headline capacity printed on the box.',
+                    'We compare rated watt-hours with likely loads and explain that usable runtime varies by device, conversion losses, and operating conditions.',
                 },
                 {
-                  title: 'Output and surge behavior',
+                  title: 'Output and surge claims',
                   description:
-                    'Continuous inverter output, surge claims, and high-draw appliance use determine whether a unit belongs at camp, in an RV, or in home backup.',
+                    'We separate continuous output from surge ratings and note when a demanding appliance may exceed a station’s limits.',
                 },
                 {
-                  title: 'Recharge flexibility',
+                  title: 'Recharge and ownership',
                   description:
-                    'AC charging speed, solar input, car charging, and dual-input support matter because a large battery is only useful if it can recover quickly.',
+                    'We compare AC, solar, and vehicle charging, plus battery chemistry, expansion, warranty details, and listed price when sources provide them.',
                 },
                 {
-                  title: 'Portability and ownership',
+                  title: 'Evidence and trade-offs',
                   description:
-                    'Weight, handles, battery chemistry, expansion options, warranty context, and price per watt-hour all affect long-term value.',
+                    'Each article cites its sources and calls out unknowns. Scores summarize the rubric; they are not a substitute for checking model-specific requirements.',
                 },
               ]}
             />
@@ -360,80 +461,240 @@ export default function PowerStationsHub() {
               ]}
             />
 
+            <section id="brand-comparisons" className="scroll-mt-6">
+              <SectionLabel>Compare brands</SectionLabel>
+              <h2 className="mb-2 text-xl font-bold text-neutral-900">
+                Review-led picks from popular brands
+              </h2>
+              <p className="mb-4 text-sm leading-relaxed text-neutral-600">
+                Each link opens the highest-scoring review currently in our collection for that
+                brand. The model-level details below are drawn from that review, not generalized to
+                every product the brand sells. This is not a controlled, same-day head-to-head test.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {brandPicks.map(({ label, station }) => (
+                  <Link
+                    key={label}
+                    href={`/articles/${station.slug}`}
+                    className="rounded-lg border border-neutral-200 bg-white p-4 hover:border-primary/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                  >
+                    <span className="block text-sm font-bold text-neutral-900">{label}</span>
+                    <span className="mt-1 block text-sm text-neutral-700">
+                      {productNameFromTitle(station.title)}
+                    </span>
+                    <span className="mt-2 block text-xs text-neutral-500">
+                      Score {station.score.toFixed(1)} · {station.price || 'Price not listed'} ·
+                      Read review →
+                    </span>
+                    <dl className="mt-3 grid grid-cols-2 gap-x-3 gap-y-2 border-t border-neutral-200 pt-3 text-xs">
+                      {[
+                        {
+                          label: 'Capacity',
+                          value:
+                            firstAvailableSpec(station.specs, ['battery capacity', 'capacity']) ??
+                            'Not listed',
+                        },
+                        {
+                          label: 'AC output',
+                          value:
+                            findSpec(
+                              station.specs,
+                              /^(continuous output|ac output|rated output|inverter output|inverter power)$/i,
+                            ) ?? 'Not listed',
+                        },
+                        {
+                          label: 'Chemistry',
+                          value:
+                            findSpec(station.specs, /battery chemistry|chemistry/i) ?? 'Not listed',
+                        },
+                        {
+                          label: 'Warranty',
+                          value: findSpec(station.specs, /warranty/i) ?? 'Not listed',
+                        },
+                        {
+                          label: 'App',
+                          value: findSpec(station.specs, /app( control)?/i) ?? 'Not listed',
+                        },
+                        {
+                          label: 'Expansion',
+                          value:
+                            findSpec(
+                              station.specs,
+                              /(battery )?(expansion|expandable capacity)/i,
+                            ) ?? 'Not listed',
+                        },
+                      ].map((spec) => (
+                        <div key={spec.label} className="min-w-0">
+                          <dt className="font-semibold text-neutral-500">{spec.label}</dt>
+                          <dd className="mt-0.5 break-words text-neutral-800">{spec.value}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </Link>
+                ))}
+              </div>
+              <div className="mt-4 rounded-lg border border-neutral-200 bg-white p-4">
+                <h3 className="text-sm font-bold text-neutral-900">Head-to-head reviews</h3>
+                <ul className="mt-2 grid gap-2 text-sm sm:grid-cols-2">
+                  {[
+                    {
+                      label: 'EcoFlow Delta 3 Plus vs Anker SOLIX C1000',
+                      href: '/best/power-stations/compare/ecoflow-delta-3-plus-vs-anker-solix-c1000',
+                    },
+                    {
+                      label: 'BLUETTI Elite 200 V2 vs Anker SOLIX C2000 Gen 2',
+                      href: '/best/power-stations/compare/bluetti-elite-200-v2-vs-anker-solix-c2000-gen2',
+                    },
+                    {
+                      label: 'EcoFlow Delta Pro Ultra X vs Anker SOLIX E10',
+                      href: '/best/power-stations/compare/ecoflow-delta-pro-ultra-x-vs-anker-solix-e10',
+                    },
+                  ].map((comparison) => (
+                    <li key={comparison.href}>
+                      <Link
+                        href={comparison.href}
+                        className="font-medium text-primary underline-offset-2 hover:underline"
+                      >
+                        {comparison.label} →
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
+            <section id="power-options" className="scroll-mt-6">
+              <SectionLabel>Understand the options</SectionLabel>
+              <h2 className="mb-4 text-xl font-bold text-neutral-900">
+                Power station vs. generator, UPS, or power bank
+              </h2>
+              <div className="divide-y divide-neutral-200 rounded-lg border border-neutral-200 bg-white px-4">
+                {[
+                  {
+                    title: 'Gas generator',
+                    body: 'A battery station is quiet at the point of use and stores a finite amount of energy. A fuel generator can run while fuel is available, but produces exhaust and must be used outdoors.',
+                  },
+                  {
+                    title: 'UPS',
+                    body: 'A UPS is designed for backup switching and power conditioning. Use a power station for that job only when the exact model documents a suitable UPS mode and transfer time.',
+                  },
+                  {
+                    title: 'Power bank',
+                    body: 'Small USB power banks are for personal electronics. Portable power stations typically add larger batteries and AC outlets, but their size and weight vary widely.',
+                  },
+                  {
+                    title: 'Solar generator',
+                    body: 'The label often describes a battery power station paired with solar panels. Check what is included and verify panel compatibility rather than assuming a panel comes in the box.',
+                  },
+                  {
+                    title: 'Installed home battery (such as Tesla Powerwall)',
+                    body: 'An installed home battery is designed around fixed home wiring and installation; a portable station is a movable unit with model-specific capacity and output. Compare the circuits, installation, and runtime you need rather than treating them as direct equivalents.',
+                  },
+                ].map((item) => (
+                  <div key={item.title} className="py-4 sm:grid sm:grid-cols-[12rem_1fr] sm:gap-4">
+                    <h3 className="text-sm font-bold text-neutral-900">{item.title}</h3>
+                    <p className="mt-1 text-sm leading-relaxed text-neutral-600 sm:mt-0">
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section id="power-station-faq" className="scroll-mt-6">
+              <SectionLabel>Common questions</SectionLabel>
+              <h2 className="mb-4 text-xl font-bold text-neutral-900">
+                Power station questions, answered
+              </h2>
+              <div className="divide-y divide-neutral-200 rounded-lg border border-neutral-200 bg-white px-4">
+                {faqItems.map((item) => (
+                  <details key={item.question} className="group py-4">
+                    <summary className="flex cursor-pointer list-none items-start justify-between gap-3 text-sm font-bold text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary">
+                      {item.question}
+                      <span className="text-primary group-open:rotate-45" aria-hidden="true">
+                        +
+                      </span>
+                    </summary>
+                    <p className="mt-2 max-w-3xl text-sm leading-relaxed text-neutral-600">
+                      {item.answer}
+                    </p>
+                  </details>
+                ))}
+              </div>
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    '@context': 'https://schema.org',
+                    '@type': 'FAQPage',
+                    mainEntity: faqItems.map((item) => ({
+                      '@type': 'Question',
+                      name: item.question,
+                      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+                    })),
+                  }).replace(/</g, '\\u003c'),
+                }}
+              />
+            </section>
+
             <OtherNotableProducts products={notableRows} />
           </main>
 
           <aside className="space-y-5">
-            <GuideTrustPanel latestUpdate={latestUpdate} />
+            <section className="rounded-xl border border-neutral-200 bg-white p-4">
+              <p className="text-xs font-bold uppercase tracking-wide text-primary">
+                About this guide
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-700">
+                {allStations.length} product reviews use a shared scoring rubric. Check each review
+                for its sources, known limits, and evidence type.
+              </p>
+              <p className="mt-3 text-xs text-neutral-500">
+                Latest review published {latestReview ?? 'date unavailable'}; this is not a page
+                refresh date.
+              </p>
+            </section>
 
-            <div className="rounded-xl border border-neutral-200 bg-white p-4">
+            <nav
+              aria-label="On this page"
+              className="rounded-xl border border-neutral-200 bg-white p-4"
+            >
               <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">
-                Compare Models
+                On this page
               </h3>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link
-                    href="/best/power-stations/compare/ecoflow-delta-3-plus-vs-anker-solix-c1000"
-                    className="text-xs text-neutral-600 hover:text-primary"
-                  >
-                    EcoFlow Delta 3 Plus vs Anker C1000 →
-                  </Link>
+                  <a href="#runtime-calculator" className="text-neutral-600 hover:text-primary">
+                    Runtime estimator
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    href="/best/power-stations/compare/bluetti-elite-200-v2-vs-anker-solix-c2000-gen2"
-                    className="text-xs text-neutral-600 hover:text-primary"
-                  >
-                    Bluetti Elite 200 V2 vs Anker C2000 →
-                  </Link>
+                  <a href="#buying-guides" className="text-neutral-600 hover:text-primary">
+                    Shop by use case
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    href="/best/power-stations/compare/ecoflow-delta-pro-ultra-x-vs-anker-solix-e10"
-                    className="text-xs text-neutral-600 hover:text-primary"
-                  >
-                    EcoFlow Delta Pro Ultra X vs Anker E10 →
-                  </Link>
+                  <a href="#comparison" className="text-neutral-600 hover:text-primary">
+                    Compare models
+                  </a>
+                </li>
+                <li>
+                  <a href="#brand-comparisons" className="text-neutral-600 hover:text-primary">
+                    Brand reviews
+                  </a>
+                </li>
+                <li>
+                  <a href="#power-options" className="text-neutral-600 hover:text-primary">
+                    Power options explained
+                  </a>
+                </li>
+                <li>
+                  <a href="#power-station-faq" className="text-neutral-600 hover:text-primary">
+                    FAQ
+                  </a>
                 </li>
               </ul>
-            </div>
-
-            <div className="rounded-xl border border-neutral-200 bg-white p-4">
-              <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-primary">
-                Jump To
-              </h3>
-              <ul className="space-y-2 text-sm">
-                {powerStationCategories.map((cat) => (
-                  <li key={cat.href}>
-                    <Link
-                      href={cat.href}
-                      className="text-neutral-600 hover:text-primary hover:underline"
-                    >
-                      {cat.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-4">
-              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">
-                Quick Finder
-              </h3>
-              <div className="space-y-2 text-sm">
-                {[
-                  { label: 'Budget Pick', value: 'Under $500' },
-                  { label: 'Best Overall', value: '$1,000–$2,000' },
-                  { label: 'Home Backup', value: '$3,000+' },
-                  { label: 'Travel Friendly', value: 'Under 100Wh' },
-                ].map((item) => (
-                  <div key={item.label} className="flex justify-between">
-                    <span className="text-neutral-600">{item.label}</span>
-                    <span className="font-medium text-primary">{item.value}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+            </nav>
 
             <AdBanner
               adSlot={ADSENSE_CONFIG.adSlots.sidebar}

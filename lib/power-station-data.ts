@@ -74,6 +74,21 @@ export function getStationsBySlugs(slugs: string[]): PowerStationEntry[] {
   return slugs.map((slug) => all.find((s) => s.slug === slug)).filter(Boolean) as PowerStationEntry[];
 }
 
+export function parseStationAcOutputW(specs: Record<string, string>): number | undefined {
+  const names = [
+    /^continuous (ac )?output$/i,
+    /^rated (ac )?output$/i,
+    /^inverter (output|power)$/i,
+    /^ac output$/i,
+  ];
+  for (const name of names) {
+    const value = Object.entries(specs).find(([key]) => name.test(key))?.[1];
+    const match = value?.match(/([\d,]+)\s*w\b/i);
+    if (match) return Number(match[1].replace(/,/g, ''));
+  }
+  return undefined;
+}
+
 /**
  * Coverage stats for a hub card. Derived rather than hand-written because the
  * category page previously hardcoded both values and every one of them had
@@ -99,10 +114,18 @@ export function getQuickPicks(entries: PowerStationEntry[]): {
   label: string; name: string; href: string; score: number; price: string;
 }[] {
   const sorted = [...entries].sort((a, b) => b.score - a.score);
+  const priced = entries.filter((station) => station.priceNum > 0);
+  const pricedByScore = [...priced].sort((a, b) => b.score - a.score);
+  const bestPrice = Math.min(...priced.map((station) => station.priceNum));
   const picks = [
     { label: 'Best Overall', entry: sorted[0] },
-    { label: 'Best Value', entry: sorted.find((s, i) => i > 0 && s.priceNum < (sorted[0]?.priceNum ?? 0)) ?? sorted[1] },
-    { label: 'Budget Pick', entry: [...entries].sort((a, b) => a.priceNum - b.priceNum)[0] },
+    {
+      label: 'Best Value',
+      entry:
+        pricedByScore.find((station) => station.priceNum < (sorted[0]?.priceNum ?? 0)) ??
+        pricedByScore[0],
+    },
+    { label: 'Budget Pick', entry: priced.find((station) => station.priceNum === bestPrice) },
   ];
   return picks
     .filter((p) => p.entry)

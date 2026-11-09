@@ -7,6 +7,8 @@ interface ProductComparisonTableProps {
   columns: ComparisonColumn[];
   title?: string;
   description?: string;
+  bestForLabel?: string;
+  id?: string;
 }
 
 export function ProductComparisonTable({
@@ -14,11 +16,16 @@ export function ProductComparisonTable({
   columns,
   title = 'Product Comparison Table',
   description = 'Compare the core specs, strengths, and trade-offs before opening individual reviews.',
+  bestForLabel = 'Best For',
+  id,
 }: ProductComparisonTableProps) {
   if (rows.length === 0) return null;
 
   return (
-    <section className="rounded-xl border border-neutral-200 bg-white p-5 shadow-featured">
+    <section
+      id={id}
+      className="scroll-mt-6 rounded-xl border border-neutral-200 bg-white p-5 shadow-featured"
+    >
       <div className="mb-4">
         <p className="type-label text-accent">Compare</p>
         <h2 className="type-headline mt-1 text-neutral-900">{title}</h2>
@@ -47,7 +54,7 @@ export function ProductComparisonTable({
                 </th>
               ))}
               <th className="border-b border-neutral-200 px-3 py-3 text-xs font-bold uppercase tracking-[0.08em] text-neutral-500">
-                Best For
+                {bestForLabel}
               </th>
               <th className="border-b border-neutral-200 px-3 py-3 text-xs font-bold uppercase tracking-[0.08em] text-neutral-500">
                 Main Trade-Off

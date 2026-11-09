@@ -10,8 +10,9 @@ import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/carry-on-power-stations' },
-  title: 'Best Carry-On Power Stations 2025 - TSA Approved',
-  description: 'TSA-approved power banks for travel and airline carry-on. Under 100Wh and flight-ready.',
+  title: 'Small Power Banks for Air Travel: Check Airline Battery Rules',
+  description:
+    'Compare compact battery packs for travel and check the capacity and airline rules before flying. No product is represented as TSA-approved.',
 };
 
 interface StationEntry {
@@ -25,11 +26,11 @@ const stations: StationEntry[] = [
     rank: 1,
     name: 'Anker PowerCore 26800 PD',
     href: '/articles/anker_powercore_26800_pd',
-    summary: 'TSA approved for flights with 30W Power Delivery, triple device charging, and fast recharge.',
+    summary: 'A 96Wh pack with 30W Power Delivery and multiple device-charging outputs.',
     score: 9.0,
     price: '$129',
     badge: 'best-overall' as const,
-    specs: { Capacity: '96.48Wh', Output: '30W PD', Weight: '1.28 lbs', TSA: 'Approved' },
+    specs: { Capacity: '96.48Wh', Output: '30W PD', Weight: '1.28 lbs' },
   },
   {
     rank: 2,
@@ -72,12 +73,12 @@ export default function BestCarryOnPowerStations() {
       <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
         <div className="mx-auto max-w-content">
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Carry-On Power Stations 2025</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Small Power Banks for Air Travel</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            TSA-approved power banks meeting the 100Wh limit for carry-on batteries. Perfect for keeping devices charged during long flights without airport restrictions.
+            Compare compact battery packs for personal electronics. Battery limits and approval rules vary by airline and itinerary, so verify your exact model with the carrier before travel.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
-            {['TSA Compliant', 'Under 100Wh', 'Ultra-Compact'].map((tag) => (
+            {['Check airline limits', 'Compact batteries', 'Travel charging'].map((tag) => (
               <span key={tag} className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs text-white/90">{tag}</span>
             ))}
           </div>
@@ -89,9 +90,8 @@ export default function BestCarryOnPowerStations() {
           <main className="space-y-6">
             <QuickPicks picks={quickPicks} />
 
-            {/* TSA notice */}
             <div className="rounded-lg border border-primary-light bg-primary-lightest/60 px-4 py-3 text-sm text-primary">
-              <strong>TSA Compliance Notice:</strong> All power stations listed here are under 100Wh and approved for airline carry-on. Always check with your specific airline for any additional restrictions.
+              <strong>Before flying:</strong> Check the current battery-capacity rules for your airline and route. Some packs may require approval or be prohibited; no product on this page is TSA-approved.
             </div>
 
             <div>
@@ -112,10 +112,10 @@ export default function BestCarryOnPowerStations() {
 
             <div className="rounded-xl bg-gradient-to-br from-primary-lightest to-primary-light/20 p-6">
               <SectionLabel>Methodology</SectionLabel>
-              <h2 className="mb-4 text-lg font-bold text-neutral-900">Air Travel Power Guide</h2>
+              <h2 className="mb-4 text-lg font-bold text-neutral-900">Battery packs and air travel</h2>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {[
-                  { title: 'TSA Regulations', items: ['Maximum 100Wh capacity for carry-on', 'Must be in carry-on bag, not checked', 'Spare batteries must be protected', 'Some airlines have additional restrictions', 'Always check current regulations'] },
+                  { title: 'Check before departure', items: ['Verify the battery capacity printed on the exact pack', 'Review the current airline and route-specific rules', 'Ask the carrier whether approval is required', 'Keep the battery accessible if the airline requires cabin carriage', 'Do not assume a power station is permitted because it is under a particular watt-hour threshold'] },
                   { title: 'Travel Tips', items: ['Charge fully before departure', 'Bring appropriate cables for your devices', 'Consider international plug adapters', 'Pack in easily accessible location', 'Have backup charging options'] },
                 ].map((section) => (
                   <div key={section.title}>

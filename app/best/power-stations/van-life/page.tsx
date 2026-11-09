@@ -10,8 +10,8 @@ import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/van-life' },
-  title: 'Best Power Stations for Van Life 2025',
-  description: 'Best power stations for van life — compact, solar-capable, and under 30 lbs. Expert tested for life on the road.',
+  title: 'Best Power Stations for Van Life',
+  description: 'Compare reviewed power stations for van use, including listed weight, capacity, and solar input.',
 };
 
 export default function VanLifePage() {
@@ -30,9 +30,9 @@ export default function VanLifePage() {
       <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
         <div className="mx-auto max-w-content">
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Power Stations for Van Life 2025</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Power Stations for Van Life</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Compact, solar-capable power stations under 30 lbs — expert tested for life on the road, off-grid adventures, and full-time van dwelling.
+            Compare listed weight, battery capacity, output, and solar input against your available space and daily loads.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {['Under 30 lbs', 'Solar Capable', 'Compact'].map((tag) => (

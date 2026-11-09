@@ -10,8 +10,8 @@ import { getStationsUnderPrice, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/under-500' },
-  title: 'Best Portable Power Stations Under $500 (2025)',
-  description: 'The best portable power stations under $500 — expert tested for value, reliability, and real-world performance.',
+  title: 'Best Portable Power Stations Under $500',
+  description: 'Compare reviewed portable power stations with listed prices under $500, including capacity, output, and trade-offs.',
 };
 
 export default function Under500Page() {
@@ -32,10 +32,10 @@ export default function Under500Page() {
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
           <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Portable Power Stations Under $500</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Expert-tested portable power stations under $500 — ranked for value, reliability, and real-world performance at every price tier.
+            Compare reviewed models with a listed starting price under $500. Check battery capacity and continuous output against the devices you need to run.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
-            {['Under $500', 'Best Value', 'Expert Tested'].map((tag) => (
+            {['Under $500', 'Compare listed prices', 'Check capacity and output'].map((tag) => (
               <span key={tag} className="rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs text-white/90">{tag}</span>
             ))}
           </div>

@@ -28,18 +28,21 @@ Each article also emits per-route OG metadata and a JSON-LD `Review` schema.
 
 | Route | File | Filter |
 |---|---|---|
-| `/best/power-stations` | `app/best/power-stations/page.tsx` | Hub: hero, finder quiz, sub-category grid |
+| `/best/power-stations` | `app/best/power-stations/page.tsx` | Hub: runtime estimator, use cases, comparisons, and FAQs |
 | `/best/power-stations/portable-power-stations` | `…/portable-power-stations/page.tsx` | All portable stations |
-| `/best/power-stations/house-backup-power-stations` | `…/house-backup-power-stations/page.tsx` | Whole-home backup |
+| `/best/power-stations/house-backup-power-stations` | `…/house-backup-power-stations/page.tsx` | Top 12 reviews with ≥ 2,000Wh capacity or the `home-backup` feature |
 | `/best/power-stations/camping-power-stations` | `…/camping-power-stations/page.tsx` | Camping |
 | `/best/power-stations/carry-on-power-stations` | `…/carry-on-power-stations/page.tsx` | Travel-sized |
 | `/best/power-stations/rv-power-stations` | `…/rv-power-stations/page.tsx` | `features` includes `30a-rv` |
 | `/best/power-stations/solar-generators` | `…/solar-generators/page.tsx` | `features` includes `solar` or `solar-kit` |
+| `/best/power-stations/under-300` | `…/under-300/page.tsx` | Recorded starting price ≤ $300; excludes reviews explicitly identified as not power stations |
 | `/best/power-stations/under-500` | `…/under-500/page.tsx` | Price ≤ $500 |
 | `/best/power-stations/under-1000` | `…/under-1000/page.tsx` | Price ≤ $1,000 |
 | `/best/power-stations/for-cpap` | `…/for-cpap/page.tsx` | `features` includes `cpap` |
 | `/best/power-stations/240v-power-stations` | `…/240v-power-stations/page.tsx` | `features` includes `240v` |
 | `/best/power-stations/van-life` | `…/van-life/page.tsx` | `features` includes `van-life` |
+
+Budget filters use prices recorded in review frontmatter, not live retailer prices.
 
 ### Power Station comparisons
 

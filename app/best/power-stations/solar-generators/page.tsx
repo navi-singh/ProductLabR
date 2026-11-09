@@ -10,8 +10,8 @@ import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/solar-generators' },
-  title: 'Best Solar Generators 2025 — Top Portable Solar Power Stations',
-  description: 'Best solar generators with high-input charging for off-grid and emergency power. Expert tested for real-world solar performance.',
+  title: 'Best Solar Generators: Portable Power Stations with Solar Charging',
+  description: 'Compare battery power stations with solar input for off-grid and emergency use. Check compatible panels and input limits.',
 };
 
 export default function SolarGeneratorsPage() {
@@ -32,9 +32,9 @@ export default function SolarGeneratorsPage() {
       <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
         <div className="mx-auto max-w-content">
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Solar Generators 2025</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Solar Generators</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Solar generators with high-input charging for off-grid and emergency power — expert tested for real-world solar performance and reliability.
+            Compare battery stations with solar input for off-grid and outage use. Confirm compatible panel voltage, connector, and input limits for each model.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {['800W+ Solar Input', 'Off-Grid Ready', 'LiFePO4 Battery'].map((tag) => (

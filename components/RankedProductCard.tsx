@@ -12,6 +12,7 @@ interface RankedProductCardProps {
   summary: string;
   score: number;
   price?: string;
+  priceLabel?: string;
   badge?: 'best-overall' | 'best-value' | 'budget-pick';
   buyUrl?: string;
   specs?: Record<string, string>;
@@ -25,6 +26,7 @@ export function RankedProductCard({
   summary,
   score,
   price,
+  priceLabel = 'Street price:',
   badge,
   buyUrl,
   specs,
@@ -117,7 +119,7 @@ export function RankedProductCard({
             <div className="text-sm text-neutral-500">
               {price ? (
                 <>
-                  Street price: <strong className="text-lg text-neutral-900">{price}</strong>
+                  {priceLabel} <strong className="text-lg text-neutral-900">{price}</strong>
                 </>
               ) : (
                 <span>Full scoring and trade-offs in the review</span>

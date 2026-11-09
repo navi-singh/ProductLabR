@@ -10,8 +10,8 @@ import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/rv-power-stations' },
-  title: 'Best Power Stations for RV 2025 — 30A & Solar Ready',
-  description: 'Top-rated power stations with 30A RV outlets and solar charging. Expert tested for RV and trailer use.',
+  title: 'Best Power Stations for RV Use: 30A and Solar Options',
+  description: 'Compare reviewed power stations for RV use, including models tagged for 30A outlets and solar charging.',
 };
 
 export default function RvPowerStationsPage() {
@@ -30,9 +30,9 @@ export default function RvPowerStationsPage() {
       <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
         <div className="mx-auto max-w-content">
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Power Stations for RV 2025</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Power Stations for RV Use</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Power stations with genuine 30A RV outlets and solar charging — expert tested for full-time RV and trailer use.
+            Compare outlet type, continuous output, solar input, and battery capacity against the equipment in your RV.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {['30A RV Outlet', 'Solar Ready', 'High Capacity'].map((tag) => (

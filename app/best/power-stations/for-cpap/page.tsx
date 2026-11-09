@@ -10,8 +10,8 @@ import { getStationsByFeature, getQuickPicks } from '@/lib/power-station-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/power-stations/for-cpap' },
-  title: 'Best Power Stations for CPAP Machines 2025',
-  description: 'Best power stations for CPAP machines — quiet, reliable, and with enough capacity for overnight use.',
+  title: 'Best Power Stations for CPAP Machines',
+  description: 'Compare power stations for CPAP use by capacity, output, and estimated runtime.',
 };
 
 export default function ForCpapPage() {
@@ -30,9 +30,9 @@ export default function ForCpapPage() {
       <div className="bg-gradient-to-br from-primary to-primary-dark px-6 py-10 text-white">
         <div className="mx-auto max-w-content">
           <SectionLabel className="text-white/70">Buying Guide</SectionLabel>
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Power Stations for CPAP Machines 2025</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">Best Power Stations for CPAP Machines</h1>
           <p className="mt-2 max-w-2xl text-base text-white/80">
-            Quiet, reliable power stations with enough capacity for multiple nights of CPAP use — expert tested for sleep therapy dependability.
+            Compare capacity and output against your CPAP&apos;s actual draw. Heated humidifiers and hoses can significantly change overnight runtime.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {['CPAP Compatible', '500–1500Wh', 'Quiet Operation'].map((tag) => (
