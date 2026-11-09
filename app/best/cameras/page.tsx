@@ -7,6 +7,7 @@ import { RankedProductCard } from '@/components/RankedProductCard';
 import { Newsletter } from '@/components/Newsletter';
 import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
+import { getPostsByCategory } from '@/lib/Posts';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/cameras' },
@@ -54,6 +55,11 @@ const quickPicks = [
 ];
 
 const categoryLinks = [
+  {
+    href: '/best/action-cameras',
+    label: 'Action Cameras & Adventure Video',
+    count: getPostsByCategory('action-cameras').length,
+  },
   { href: '/best/cameras/hybrid-cameras', label: 'Best Hybrid Cameras', count: 5 },
   { href: '/best/cameras/hybrid-cameras-under-3000', label: 'Hybrid Under $3,000', count: 5 },
   { href: '/best/cameras/professional-cameras', label: 'Professional Cameras', count: 4 },

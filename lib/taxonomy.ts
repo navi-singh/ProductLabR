@@ -54,6 +54,15 @@ export const CATEGORIES: Category[] = [
       'Mirrorless, hybrid and professional bodies assessed on image quality, autofocus and video capability.',
   },
   {
+    slug: 'action-cameras',
+    contentDir: 'action-cameras',
+    name: 'Action Cameras',
+    shortName: 'Action Cameras',
+    icon: '🏔️',
+    description:
+      'Single-lens adventure cameras compared through manufacturer documentation and independent testing, with mounting, stabilization and recording limits explained.',
+  },
+  {
     slug: 'tvs',
     contentDir: 'tvs',
     name: 'TVs',

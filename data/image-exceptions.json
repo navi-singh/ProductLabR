@@ -1,6 +1,46 @@
 {
   "note": "Reviews with no usable licensed image source (discontinued, no manufacturer page, nothing on Wikimedia). Exempt from the image minimum; keyed by slug.",
   "reviews": {
+    "dji_osmo_action_4": {
+      "reason": "Commons results were older Osmo Action models or unrelated capture footage; manufacturer image reuse permission was not established",
+      "flaggedAt": "2026-11-09"
+    },
+    "dji_osmo_action_5_pro": {
+      "reason": "One reusable exact-model product photo was verified and used; no additional distinct licensed views were established",
+      "flaggedAt": "2026-11-09"
+    },
+    "dji_osmo_action_6": {
+      "reason": "No exact-model reusable product photograph was established from Commons; manufacturer image reuse permission was not established",
+      "flaggedAt": "2026-11-09"
+    },
+    "gopro_hero12_black": {
+      "reason": "No exact-model freely reusable product photograph was established; manufacturer image reuse permission was not established",
+      "flaggedAt": "2026-11-09"
+    },
+    "gopro_hero13_black": {
+      "reason": "Commons results were camera-captured Mapillary scenes rather than product photographs; manufacturer image reuse permission was not established",
+      "flaggedAt": "2026-11-09"
+    },
+    "gopro_hero_2024": {
+      "reason": "Commons candidates depicted earlier HERO models or unrelated scenes; manufacturer image reuse permission was not established",
+      "flaggedAt": "2026-11-09"
+    },
+    "gopro_lit_hero": {
+      "reason": "No exact-model freely reusable product photograph was established; manufacturer image reuse permission was not established",
+      "flaggedAt": "2026-11-09"
+    },
+    "gopro_mission_1": {
+      "reason": "Search results were unrelated mission imagery; no exact-model reusable product photograph was established",
+      "flaggedAt": "2026-11-09"
+    },
+    "gopro_mission_1_pro": {
+      "reason": "Search results were unrelated mission imagery; no exact-model reusable product photograph was established",
+      "flaggedAt": "2026-11-09"
+    },
+    "gopro_mission_1_pro_ils": {
+      "reason": "Search results were unrelated mission imagery; no exact-model reusable product photograph was established",
+      "flaggedAt": "2026-11-09"
+    },
     "anker_c300x": {
       "reason": "Only one freely licensed image found; anker.com product page has no usable gallery",
       "flaggedAt": "2026-10-05"

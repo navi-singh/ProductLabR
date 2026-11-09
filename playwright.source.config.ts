@@ -5,6 +5,11 @@ process.env.__NEXT_ROUTER_BASEPATH = '/ProductLabR';
 
 export default defineConfig({
   testDir: './e2e',
-  testMatch: ['brand-source.spec.ts', 'editorial-claims.spec.ts', 'url-canonicalization.spec.ts'],
+  testMatch: [
+    'brand-source.spec.ts',
+    'editorial-claims.spec.ts',
+    'url-canonicalization.spec.ts',
+    'action-cameras-source.spec.ts',
+  ],
   reporter: 'list',
 });

@@ -56,6 +56,11 @@ ratingBreakdown:
 
 ## Category-specific extras
 
+Wide-angle action-camera reviews (GoPro HERO/MISSION, DJI Osmo Action) belong in
+`posts/action-cameras` and use the generic `/best/action-cameras` guide. Handheld
+gimbal cameras such as the DJI Osmo Pocket 3 stay in `posts/cameras`. Score with six
+metrics that start with Image Quality and end with Value.
+
 Some categories require extra frontmatter so the review can appear on filtered sub-category pages. For **power stations**:
 
 ```yaml

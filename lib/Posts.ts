@@ -192,6 +192,7 @@ export function getCategoryDisplayName(category: string): string {
   const displayNames: Record<string, string> = {
     'portable-power-stations': 'Portable Power Stations',
     cameras: 'Cameras & Photography',
+    'action-cameras': 'Action Cameras',
     'knives-tools': 'Knives & Tools',
     general: 'General Reviews',
   };

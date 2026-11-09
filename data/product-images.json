@@ -6507,6 +6507,18 @@
       "license": "Manufacturer product image",
       "credit": "EcoFlow",
       "alt": "EcoFlow RIVER 3 Plus Wireless top view showing the wireless charging dock"
+    },
+    {
+      "category": "action-cameras",
+      "slug": "dji_osmo_action_5_pro",
+      "role": "main",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/DJI_Osmo_Action_5_Pro_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DJI_Osmo_Action_5_Pro_02.jpg",
+      "sourceName": "Wikimedia Commons",
+      "sourceTier": "free",
+      "license": "CC BY-SA 4.0",
+      "credit": "Gannu03",
+      "alt": "Front view of the DJI Osmo Action 5 Pro camera"
     }
   ]
 }
