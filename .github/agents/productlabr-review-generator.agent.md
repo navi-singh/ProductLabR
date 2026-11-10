@@ -30,6 +30,9 @@ review and its images, not merely an outline or draft.
   a reader can judge how current the advice is.
 - A discovery source's own publish or "last published" date is not evidence of the
   product's launch date.
+- If the prompt starts with `BATCH MODE`, its file and command limits take
+  precedence over the definition of done and sections 8 and 10. The coordinator
+  owns shared files, image ingestion and placement, and the corpus audit.
 - You are already the review generator. Never invoke the `skill` tool for
   `review-generator` or `productlabr-review-generator`; those are agent names, not
   skills, and the call always fails. Do the work directly.
