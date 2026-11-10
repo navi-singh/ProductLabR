@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { CookieSettingsLink } from '@/components/CookieConsent';
-import { CATEGORIES } from '@/lib/taxonomy';
+import { PUBLISHED_CATEGORIES, isPublishedGuidePath } from '@/lib/taxonomy';
 
 // Guide routes are curated rather than derived: these are the highest-intent
 // entry points, not simply the first guides in the tree.
@@ -48,7 +48,7 @@ export function Footer() {
               Categories
             </h3>
             <ul className="space-y-2">
-              {CATEGORIES.map((category) => (
+              {PUBLISHED_CATEGORIES.map((category) => (
                 <li key={category.slug}>
                   <Link
                     href={`/best/${category.slug}`}
@@ -66,7 +66,7 @@ export function Footer() {
               Best Of
             </h3>
             <ul className="space-y-2">
-              {BEST_OF_LINKS.map((link) => (
+              {BEST_OF_LINKS.filter((link) => isPublishedGuidePath(link.href)).map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

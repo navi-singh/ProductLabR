@@ -8,6 +8,7 @@ import { Newsletter } from '@/components/Newsletter';
 import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getPostsByCategory } from '@/lib/Posts';
+import { isPublishedGuidePath } from '@/lib/taxonomy';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/best/cameras' },
@@ -118,7 +119,7 @@ export default function CamerasPage() {
             <div className="rounded-xl border border-neutral-200 bg-white p-6">
               <SectionLabel>Explore by Category</SectionLabel>
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-                {categoryLinks.map((cat) => (
+                {categoryLinks.filter((cat) => isPublishedGuidePath(cat.href)).map((cat) => (
                   <Link key={cat.href} href={cat.href} className="flex items-center justify-between rounded-lg border border-neutral-200 bg-neutral-50 px-4 py-3 hover:border-primary hover:bg-primary-lightest">
                     <span className="text-sm font-semibold text-neutral-800">{cat.label}</span>
                     <span className="text-xs text-neutral-400">View guide →</span>

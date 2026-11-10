@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
+import matter from 'gray-matter';
 import sharp from 'sharp';
 import ArticlePage, { generateMetadata, generateStaticParams } from '../app/articles/[slug]/page';
 import AboutPage, { metadata as aboutMetadata } from '../app/about/page';
@@ -12,10 +13,24 @@ import { getAllPostSlugs, getPostBySlug } from '../lib/Posts';
 import { getArticleRedirect } from '../lib/redirects';
 import { rootMetadata } from '../lib/site-metadata';
 import { SITE_URL } from '../lib/site-url';
+import { isCategoryPublished, isPublishedGuidePath } from '../lib/taxonomy';
 import routeBaseline from './fixtures/pre-rebrand-routes.json';
 
 const root = path.join(__dirname, '..');
 const read = (file: string) => fs.readFileSync(path.join(root, file), 'utf8');
+
+function sourcePost(category: string, slug: string) {
+  return matter(read(`posts/${category}/${slug}.md`));
+}
+
+function sourceCategory(slug: string): string | undefined {
+  const postsDirectory = path.join(root, 'posts');
+  if (fs.existsSync(path.join(postsDirectory, `${slug}.md`))) return 'general';
+  return fs
+    .readdirSync(postsDirectory, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .find((entry) => fs.existsSync(path.join(postsDirectory, entry.name, `${slug}.md`)))?.name;
+}
 
 interface SourceNode {
   type: unknown;
@@ -84,37 +99,50 @@ test('publication identity reaches navigation, page copy, metadata and consent c
 
 test('review metadata contract and structured data preserve team and named authors', async () => {
   const slug = 'anker_solix_c1000';
-  const metadata = await generateMetadata({ params: Promise.resolve({ slug }) });
-  const page = await ArticlePage({ params: Promise.resolve({ slug }) });
-  const review = reviewSchema(page);
-
-  expect(metadata.title).toBe(`${getPostBySlug(slug)?.metadata.title} Review`);
-  expect(metadata.openGraph?.title).toContain('Review | Verdict Hound');
-  expect(metadata.openGraph?.siteName).toBe('Verdict Hound');
-  expect(metadata.twitter?.title).toContain('Review | Verdict Hound');
-  const teamMetadata = { ...rootMetadata, ...metadata };
-  expect(teamMetadata.authors).toEqual([{ name: 'Verdict Hound Team' }]);
-  expect(teamMetadata.publisher).toBe('Verdict Hound');
-  expect(teamMetadata.openGraph).toEqual(metadata.openGraph);
-  expect(review.publisher).toMatchObject({
-    '@type': 'Organization',
-    name: 'Verdict Hound',
-    url: SITE_URL,
-  });
-  expect(review.author).toEqual({ '@type': 'Organization', name: 'Verdict Hound Team' });
-  expect(review.url).toBe(`${SITE_URL}/articles/${slug}/`);
   expect(read('components/article/ScoreCard.tsx')).toContain('Verdict Hound Rating');
-  expect(findNode(page, (node) => node.type === AuthorBio)?.props.authorName).toBe(
-    'Verdict Hound Team',
-  );
+  if (isCategoryPublished('power-stations')) {
+    const metadata = await generateMetadata({ params: Promise.resolve({ slug }) });
+    const page = await ArticlePage({ params: Promise.resolve({ slug }) });
+    const review = reviewSchema(page);
+
+    expect(metadata.title).toBe(`${getPostBySlug(slug)?.metadata.title} Review`);
+    expect(metadata.openGraph?.title).toContain('Review | Verdict Hound');
+    expect(metadata.openGraph?.siteName).toBe('Verdict Hound');
+    expect(metadata.twitter?.title).toContain('Review | Verdict Hound');
+    const teamMetadata = { ...rootMetadata, ...metadata };
+    expect(teamMetadata.authors).toEqual([{ name: 'Verdict Hound Team' }]);
+    expect(teamMetadata.publisher).toBe('Verdict Hound');
+    expect(teamMetadata.openGraph).toEqual(metadata.openGraph);
+    expect(review.publisher).toMatchObject({
+      '@type': 'Organization',
+      name: 'Verdict Hound',
+      url: SITE_URL,
+    });
+    expect(review.author).toEqual({ '@type': 'Organization', name: 'Verdict Hound Team' });
+    expect(review.url).toBe(`${SITE_URL}/articles/${slug}/`);
+    expect(findNode(page, (node) => node.type === AuthorBio)?.props.authorName).toBe(
+      'Verdict Hound Team',
+    );
+  } else {
+    await expect(ArticlePage({ params: Promise.resolve({ slug }) })).rejects.toThrow(
+      'NEXT_HTTP_ERROR_FALLBACK;404',
+    );
+  }
 
   const namedSlug = 'anso_aros_knife';
-  const namedMetadata = await generateMetadata({ params: Promise.resolve({ slug: namedSlug }) });
-  const namedMerged = { ...rootMetadata, ...namedMetadata };
-  expect(namedMerged.authors).toEqual([{ name: 'Anthony Sculimbrene' }]);
-  expect(namedMerged.publisher).toBe('Verdict Hound');
-  const named = await ArticlePage({ params: Promise.resolve({ slug: namedSlug }) });
-  expect(reviewSchema(named).author).toEqual({ '@type': 'Person', name: 'Anthony Sculimbrene' });
+  expect(sourcePost('knives-tools', namedSlug).data.author).toBe('Anthony Sculimbrene');
+  if (isCategoryPublished('knives-tools')) {
+    const namedMetadata = await generateMetadata({ params: Promise.resolve({ slug: namedSlug }) });
+    const namedMerged = { ...rootMetadata, ...namedMetadata };
+    expect(namedMerged.authors).toEqual([{ name: 'Anthony Sculimbrene' }]);
+    expect(namedMerged.publisher).toBe('Verdict Hound');
+    const named = await ArticlePage({ params: Promise.resolve({ slug: namedSlug }) });
+    expect(reviewSchema(named).author).toEqual({ '@type': 'Person', name: 'Anthony Sculimbrene' });
+  } else {
+    await expect(ArticlePage({ params: Promise.resolve({ slug: namedSlug }) })).rejects.toThrow(
+      'NEXT_HTTP_ERROR_FALLBACK;404',
+    );
+  }
   expect(textContent(AuthorBio({ authorBio: 'Editorial team' }))).toContain('VH');
 });
 
@@ -130,20 +158,27 @@ test('review attribution is rebranded without changing the independent byline', 
       teamCount++;
     }
   }
-  expect(teamCount).toBeGreaterThan(0);
-  expect(getPostBySlug('anso_aros_knife')?.metadata.author).toBe('Anthony Sculimbrene');
+  if (isCategoryPublished('power-stations')) expect(teamCount).toBeGreaterThan(0);
+  expect(sourcePost('knives-tools', 'anso_aros_knife').data.author).toBe('Anthony Sculimbrene');
 });
 
 test('representative team biographies avoid claims about review methodology', async () => {
-  for (const slug of ['tcl_s5_2024', 'ecoflow_delta_3']) {
-    const metadata = getPostBySlug(slug)?.metadata;
-    const page = await ArticlePage({ params: Promise.resolve({ slug }) });
-    expect(metadata?.authorBio).toBe(
+  for (const [category, slug] of [
+    ['tvs', 'tcl_s5_2024'],
+    ['portable-power-stations', 'ecoflow_delta_3'],
+  ]) {
+    const source = sourcePost(category, slug);
+    expect(source.data.authorBio).toBe(
       'The Verdict Hound editorial team covers consumer products and buying guides.',
     );
-    expect(findNode(page, (node) => node.type === AuthorBio)?.props.authorBio).toBe(
-      metadata?.authorBio,
-    );
+    if (isCategoryPublished(category)) {
+      const page = await ArticlePage({ params: Promise.resolve({ slug }) });
+      expect(findNode(page, (node) => node.type === AuthorBio)?.props.authorBio).toBe(
+        source.data.authorBio,
+      );
+    } else {
+      expect(getPostBySlug(slug)).toBeNull();
+    }
   }
 });
 
@@ -151,6 +186,7 @@ test('review biographies retain supported distinctions between sources and evide
   const examples = [
     {
       slug: 'ecoflow_delta_3_1000_air',
+      category: 'portable-power-stations',
       bio: [
         "EcoFlow's specifications",
         'The Solar Lab',
@@ -160,6 +196,7 @@ test('review biographies retain supported distinctions between sources and evide
     },
     {
       slug: 'pecron_e300lfp',
+      category: 'portable-power-stations',
       bio: ['official product and storefront metadata', 'independent discovery review'],
       body: [
         "official Pecron storefront's product metadata",
@@ -168,16 +205,19 @@ test('review biographies retain supported distinctions between sources and evide
     },
     {
       slug: 'bluetti_ac500',
+      category: 'portable-power-stations',
       bio: ["BLUETTI's documented specifications", 'runtime estimates'],
       body: ['Those are planning estimates, not lab results'],
     },
     {
       slug: 'pecron_e3600lfp_bundle',
+      category: 'portable-power-stations',
       bio: ['official product documentation', 'storefront pricing'],
       body: ['official Pecron storefront'],
     },
     {
       slug: 'airpods_5',
+      category: 'headphones',
       bio: [
         "Apple's product and buying information",
         'unavailable in the reviewed sources at publication',
@@ -186,29 +226,34 @@ test('review biographies retain supported distinctions between sources and evide
     },
     {
       slug: 'anker_solix_s2000',
+      category: 'portable-power-stations',
       bio: ['internal test results as manufacturer claims, not independent measurements'],
       body: ['not an independent laboratory result'],
     },
     {
       slug: 'samsung_s95h_oled',
+      category: 'tvs',
       bio: ["Samsung's product information", 'testing reported by RTINGS'],
       body: ['RTINGS tested the 77-inch version'],
     },
   ];
 
-  for (const { slug, bio, body } of examples) {
-    const post = getPostBySlug(slug);
-    expect(post, slug).toBeTruthy();
-    for (const detail of bio) expect(post?.metadata.authorBio, slug).toContain(detail);
-    for (const detail of body) expect(post?.content, slug).toContain(detail);
-    const page = await ArticlePage({ params: Promise.resolve({ slug }) });
-    expect(findNode(page, (node) => node.type === AuthorBio)?.props.authorBio).toBe(
-      post?.metadata.authorBio,
-    );
+  for (const { category, slug, bio, body } of examples) {
+    const source = sourcePost(category, slug);
+    for (const detail of bio) expect(source.data.authorBio, slug).toContain(detail);
+    for (const detail of body) expect(source.content, slug).toContain(detail);
+    if (isCategoryPublished(category)) {
+      const page = await ArticlePage({ params: Promise.resolve({ slug }) });
+      expect(findNode(page, (node) => node.type === AuthorBio)?.props.authorBio).toBe(
+        source.data.authorBio,
+      );
+    } else {
+      expect(getPostBySlug(slug)).toBeNull();
+    }
   }
 });
 
-test('the sitemap and static article params retain pre-rebrand routes and redirects', async () => {
+test('the sitemap and static params retain published pre-rebrand routes and redirects', async () => {
   const urls = sitemap().map((entry) => entry.url);
   const urlSet = new Set(urls);
   const staticSlugs = new Set((await generateStaticParams()).map(({ slug }) => slug));
@@ -218,16 +263,25 @@ test('the sitemap and static article params retain pre-rebrand routes and redire
   expect(routeBaseline.sitemapPaths).toHaveLength(245);
   expect(urlSet.size).toBe(urls.length);
   for (const route of routeBaseline.sitemapPaths) {
-    expect(urlSet.has(`${SITE_URL}${route}`), route).toBe(true);
     if (route.startsWith('/articles/')) {
-      expect(staticSlugs.has(route.slice('/articles/'.length, -1)), route).toBe(true);
+      const slug = route.slice('/articles/'.length, -1);
+      const category = sourceCategory(slug);
+      expect(category, route).toBeTruthy();
+      const published = isCategoryPublished(category!);
+      expect(urlSet.has(`${SITE_URL}${route}`), route).toBe(published);
+      expect(staticSlugs.has(slug), route).toBe(published);
+    } else {
+      expect(urlSet.has(`${SITE_URL}${route}`), route).toBe(isPublishedGuidePath(route));
     }
   }
   expect(Object.keys(routeBaseline.retiredArticleRedirects)).toHaveLength(7);
   for (const [slug, target] of Object.entries(routeBaseline.retiredArticleRedirects)) {
-    expect(staticSlugs.has(slug), slug).toBe(true);
+    const category = sourceCategory(target);
+    expect(category, target).toBeTruthy();
+    const published = isCategoryPublished(category!);
+    expect(staticSlugs.has(slug), slug).toBe(published);
     expect(getArticleRedirect(slug), slug).toBe(target);
-    expect(urlSet.has(`${SITE_URL}/articles/${target}/`), target).toBe(true);
+    expect(urlSet.has(`${SITE_URL}/articles/${target}/`), target).toBe(published);
   }
 });
 

@@ -1,0 +1,16 @@
+{
+  "power-stations": true,
+  "headphones": true,
+  "cameras": false,
+  "action-cameras": true,
+  "360-cameras": true,
+  "tvs": false,
+  "wearables": false,
+  "laptops": false,
+  "monitors": false,
+  "gaming": false,
+  "smart-home": false,
+  "thermostats": false,
+  "knives-tools": false,
+  "smart-generators": false
+}

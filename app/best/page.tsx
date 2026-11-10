@@ -6,14 +6,14 @@ import { Newsletter } from '@/components/Newsletter';
 import { OptimizedImage } from '@/components/OptimizedImage';
 import { getPostsByCategory } from '@/lib/Posts';
 import { articleScore } from '@/lib/articleUtils';
-import { CATEGORIES } from '@/lib/taxonomy';
+import { PUBLISHED_CATEGORIES } from '@/lib/taxonomy';
 import { GATES } from '@/lib/editorial-standards';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'Best Products — Expert Reviews & Buying Guides',
   description:
-    'Every Verdict Hound buying guide in one place. Independently scored recommendations across power stations, headphones, TVs, cameras, laptops and more.',
+    `Every Verdict Hound buying guide in one place. Independently scored recommendations across ${PUBLISHED_CATEGORIES.map((category) => category.shortName).join(', ')}.`,
   alternates: { canonical: canonicalUrl(`/best`) },
 };
 
@@ -34,7 +34,7 @@ interface CategorySummary {
  * that do not exist, with counts that had drifted from reality.
  */
 function getCategorySummaries(): CategorySummary[] {
-  return CATEGORIES.map((category) => {
+  return PUBLISHED_CATEGORIES.map((category) => {
     const posts = getPostsByCategory(category.contentDir);
     const ranked = [...posts].sort((a, b) => (articleScore(b) ?? -1) - (articleScore(a) ?? -1));
     const best = ranked[0];

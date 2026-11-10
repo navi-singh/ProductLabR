@@ -11,6 +11,7 @@ export default defineConfig({
     'url-canonicalization.spec.ts',
     'action-cameras-source.spec.ts',
     '360-cameras-source.spec.ts',
+    'category-publication-source.spec.ts',
     'image-pipeline.spec.ts',
   ],
   reporter: 'list',

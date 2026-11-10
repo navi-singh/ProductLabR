@@ -18,13 +18,6 @@ interface HeaderProps {
   posts?: SearchPost[];
 }
 
-const NAV_LINKS = [
-  { label: 'Power Stations', href: '/best/power-stations' },
-  { label: 'Headphones', href: '/best/headphones' },
-  { label: 'TVs', href: '/best/tvs' },
-  { label: 'Cameras', href: '/best/cameras' },
-];
-
 export function Header({ posts = [] }: HeaderProps) {
   const pathname = usePathname();
   const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
@@ -52,7 +45,7 @@ export function Header({ posts = [] }: HeaderProps) {
           </Link>
 
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">
-            {NAV_LINKS.map((link) => {
+            {NAV_CATEGORIES.slice(0, 4).map((link) => {
               const active = pathname.startsWith(link.href);
               return (
                 <Link
@@ -64,7 +57,7 @@ export function Header({ posts = [] }: HeaderProps) {
                       : 'text-white/75 hover:bg-white/10 hover:text-white'
                   }`}
                 >
-                  {link.label}
+                  {link.name}
                 </Link>
               );
             })}

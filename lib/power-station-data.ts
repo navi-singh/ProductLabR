@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { cache } from 'react';
+import { isCategoryPublished } from './taxonomy';
 
 export interface PowerStationEntry {
   slug: string;
@@ -35,6 +36,8 @@ function calcScore(ratingBreakdown?: { metrics: { score: number }[] }): number {
 }
 
 export const getAllPowerStations = cache((): PowerStationEntry[] => {
+  if (!isCategoryPublished('power-stations')) return [];
+
   const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
   return files
     .map((file) => {

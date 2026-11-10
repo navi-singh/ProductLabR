@@ -3,7 +3,7 @@ import path from 'path';
 import { MetadataRoute } from 'next';
 import { getAllPostSlugs } from '../lib/Posts';
 import { canonicalUrl } from '../lib/site-url';
-import { CATEGORIES } from '../lib/taxonomy';
+import { PUBLISHED_CATEGORIES, isPublishedGuidePath } from '../lib/taxonomy';
 
 export const dynamic = 'force-static';
 
@@ -39,6 +39,7 @@ function getStaticRoutes(): string[] {
       }
 
       const nextSegments = [...segments, name];
+      if (!isPublishedGuidePath(`/${nextSegments.join('/')}`)) continue;
       const childDir = path.join(dir, name);
 
       if (fs.existsSync(path.join(childDir, 'page.tsx'))) {
@@ -55,7 +56,7 @@ function getStaticRoutes(): string[] {
   // the `[category]` dynamic segment, which the walk above skips. Deriving them
   // from the taxonomy keeps every hub in the sitemap regardless of which of the
   // two routing paths renders it.
-  for (const category of CATEGORIES) {
+  for (const category of PUBLISHED_CATEGORIES) {
     routes.push(`/best/${category.slug}`);
   }
 

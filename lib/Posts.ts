@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { PostMetadata } from '../components/PostMetadata';
+import { isCategoryPublished } from './taxonomy';
 
 const VALID_SLUG_RE = /^[a-z0-9]+(?:[_-][a-z0-9]+)*$/i;
 
@@ -47,6 +48,9 @@ export function getPostBySlug(slug: string): { metadata: PostMetadata; content: 
     const fileInfo = findPostFile(slug);
     if (!fileInfo) {
       console.error(`Post file not found for slug: ${slug}`);
+      return null;
+    }
+    if (!isCategoryPublished(fileInfo.category)) {
       return null;
     }
 
@@ -112,7 +116,7 @@ export function getAllPostSlugs(): string[] {
     try {
       const rootFiles = fs.readdirSync(postsDirectory);
       const rootMarkdownPosts = rootFiles
-        .filter((file) => file.endsWith('.md'))
+        .filter((file) => isCategoryPublished('general') && file.endsWith('.md'))
         .map((fileName) => fileName.replace('.md', ''));
       allSlugs.push(...rootMarkdownPosts);
     } catch (error) {
@@ -124,7 +128,8 @@ export function getAllPostSlugs(): string[] {
       const categories = fs
         .readdirSync(postsDirectory, { withFileTypes: true })
         .filter((dirent) => dirent.isDirectory())
-        .map((dirent) => dirent.name);
+        .map((dirent) => dirent.name)
+        .filter(isCategoryPublished);
 
       for (const category of categories) {
         const categoryPath = path.join(postsDirectory, category);
@@ -151,7 +156,8 @@ export function getAllCategories(): string[] {
     const categories = fs
       .readdirSync(postsDirectory, { withFileTypes: true })
       .filter((dirent) => dirent.isDirectory())
-      .map((dirent) => dirent.name);
+      .map((dirent) => dirent.name)
+      .filter(isCategoryPublished);
     return categories;
   } catch (error) {
     console.error('Error reading categories:', error);
@@ -160,6 +166,8 @@ export function getAllCategories(): string[] {
 }
 
 export function getPostsByCategory(category: string): PostMetadata[] {
+  if (!isCategoryPublished(category)) return [];
+
   try {
     const postsDirectory = path.join(process.cwd(), 'posts');
     const categoryPath = path.join(postsDirectory, category);

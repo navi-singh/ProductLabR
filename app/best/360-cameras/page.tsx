@@ -11,7 +11,7 @@ import { ProductComparisonTable } from '@/components/guides/ProductComparisonTab
 import { getPostsByCategory } from '@/lib/Posts';
 import { articleScore } from '@/lib/articleUtils';
 import { comparisonRowFromPost, productNameFromTitle } from '@/lib/guide-data';
-import { categoryHref } from '@/lib/taxonomy';
+import { categoryHref, isCategoryPublished } from '@/lib/taxonomy';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
@@ -242,11 +242,13 @@ export default function Cameras360Page() {
                     Review archive — choose 360 Cameras
                   </Link>
                 </li>
-                <li>
-                  <Link href={categoryHref('cameras')} className="text-primary hover:underline">
-                    Conventional cameras &amp; photography
-                  </Link>
-                </li>
+                {isCategoryPublished('cameras') && (
+                  <li>
+                    <Link href={categoryHref('cameras')} className="text-primary hover:underline">
+                      Conventional cameras &amp; photography
+                    </Link>
+                  </li>
+                )}
                 <li>
                   <Link href="/methodology" className="text-primary hover:underline">
                     Our scoring methodology

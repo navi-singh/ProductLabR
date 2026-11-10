@@ -4,6 +4,7 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { Newsletter } from '@/components/Newsletter';
 import { SectionLabel } from '@/components/SectionLabel';
 import { canonicalUrl } from '@/lib/site-url';
+import { isPublishedGuidePath } from '@/lib/taxonomy';
 
 export const metadata: Metadata = {
   title: 'Buying Advice & Learning Center',
@@ -71,7 +72,7 @@ export default function LearnPage() {
           <main>
             <SectionLabel>Buying Advice</SectionLabel>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {learningCards.map((card) => (
+              {learningCards.filter((card) => isPublishedGuidePath(card.href)).map((card) => (
                 <Link
                   key={card.title}
                   href={card.href}

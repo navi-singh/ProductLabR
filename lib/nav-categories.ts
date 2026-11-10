@@ -1,4 +1,4 @@
-import { CATEGORIES } from './taxonomy';
+import { PUBLISHED_CATEGORIES } from './taxonomy';
 
 export interface NavCategory {
   name: string;
@@ -11,7 +11,7 @@ export interface NavCategory {
  * omit categories. This previously listed four of the ten categories by hand,
  * leaving six reachable only through search or the homepage sidebar.
  */
-export const NAV_CATEGORIES: NavCategory[] = CATEGORIES.map((category) => ({
+export const NAV_CATEGORIES: NavCategory[] = PUBLISHED_CATEGORIES.map((category) => ({
   name: category.shortName,
   href: `/best/${category.slug}`,
   icon: category.icon,

@@ -12,7 +12,7 @@ import { ReviewsExplorer } from '../components/ReviewsExplorer';
 import { getCategoryDisplayName, getPostBySlug, getPostsByCategory } from '../lib/Posts';
 import { articleScore, calculateOverallScore } from '../lib/articleUtils';
 import { NAV_CATEGORIES } from '../lib/nav-categories';
-import { categoryHref, getCategoryBySlug } from '../lib/taxonomy';
+import { categoryHref, getCategoryBySlug, isCategoryPublished } from '../lib/taxonomy';
 import { canonicalUrl } from '../lib/site-url';
 import manifest from '../data/product-images.json';
 import imageExceptions from '../data/image-exceptions.json';
@@ -43,6 +43,10 @@ function nodes(value: unknown): SourceNode[] {
   return [node, ...nodes(node.props.children)];
 }
 
+test.beforeEach(() => {
+  test.skip(!isCategoryPublished('action-cameras'), 'Action cameras are unpublished');
+});
+
 test('action cameras are a discoverable category served by the generic guide route', async () => {
   expect(getCategoryBySlug('action-cameras')?.contentDir).toBe('action-cameras');
   expect(getCategoryDisplayName('action-cameras')).toBe('Action Cameras');
@@ -64,11 +68,16 @@ test('action cameras are a discoverable category served by the generic guide rou
   const articleRoutes = (await articleParams()).map((entry) => entry.slug);
   const urls = sitemap().map((entry) => entry.url);
   expect(urls).toContain(canonicalUrl(href));
-  for (const slug of [...slugs, 'dji_osmo_pocket_3']) {
+  for (const slug of slugs) {
     expect(articleRoutes).toContain(slug);
     expect(urls).toContain(canonicalUrl(`/articles/${slug}`));
   }
-  expect(getPostBySlug('dji_osmo_pocket_3')?.metadata.category).toBe('cameras');
+  const camerasPublished = isCategoryPublished('cameras');
+  expect(articleRoutes.includes('dji_osmo_pocket_3')).toBe(camerasPublished);
+  expect(urls.includes(canonicalUrl('/articles/dji_osmo_pocket_3'))).toBe(camerasPublished);
+  expect(getPostBySlug('dji_osmo_pocket_3')?.metadata.category).toBe(
+    camerasPublished ? 'cameras' : undefined,
+  );
 });
 
 test('every action-camera review uses a six-metric scoring contract', () => {

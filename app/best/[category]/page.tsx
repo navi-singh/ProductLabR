@@ -15,8 +15,9 @@ import { ProductComparisonTable } from '@/components/guides/ProductComparisonTab
 import { getPostsByCategory } from '@/lib/Posts';
 import { articleScore } from '@/lib/articleUtils';
 import { comparisonRowFromPost, type ComparisonRow } from '@/lib/guide-data';
-import { CATEGORIES, getCategoryBySlug } from '@/lib/taxonomy';
+import { PUBLISHED_CATEGORIES, getCategoryBySlug, isCategoryPublished } from '@/lib/taxonomy';
 import { canonicalUrl } from '@/lib/site-url';
+import { emptyRouteSlug } from '@/data/static-export.json';
 
 /**
  * Generic hub for any taxonomy category without a bespoke page.
@@ -37,9 +38,12 @@ function slugsWithStaticRoute(): Set<string> {
 
 export function generateStaticParams() {
   const staticSlugs = slugsWithStaticRoute();
-  return CATEGORIES.filter((category) => !staticSlugs.has(category.slug)).map((category) => ({
-    category: category.slug,
-  }));
+  const categories = PUBLISHED_CATEGORIES.filter((category) => !staticSlugs.has(category.slug)).map(
+    (category) => ({
+      category: category.slug,
+    }),
+  );
+  return categories.length ? categories : [{ category: emptyRouteSlug }];
 }
 
 // Without this, an unknown slug renders the not-found body with a 200 status —
@@ -71,9 +75,7 @@ export async function generateMetadata({
   const { category: slug } = await params;
   const category = getCategoryBySlug(slug);
 
-  if (!category) {
-    return { title: 'Category Not Found' };
-  }
+  if (!category || !isCategoryPublished(slug)) notFound();
 
   return {
     title: `Best ${category.name} — Reviews & Buying Guide`,
@@ -90,7 +92,7 @@ export default async function CategoryHubPage({
   const { category: slug } = await params;
   const category = getCategoryBySlug(slug);
 
-  if (!category) {
+  if (!category || !isCategoryPublished(slug)) {
     notFound();
   }
 
@@ -266,7 +268,7 @@ export default async function CategoryHubPage({
                 Other categories
               </h3>
               <ul className="space-y-1">
-                {CATEGORIES.filter((c) => c.slug !== category.slug).map((other) => (
+                {PUBLISHED_CATEGORIES.filter((c) => c.slug !== category.slug).map((other) => (
                   <li key={other.slug}>
                     <Link
                       href={`/best/${other.slug}`}

@@ -24,7 +24,7 @@ All P0 code changes are in. Items marked *owner* still need a value supplied out
 | P0-10 | Fixed | 7 duplicates merged into the cleaner slug; old URLs are noindex meta-refresh stubs (`lib/redirects.ts`), excluded from sitemap/listings; prices refreshed |
 | P0-11 | Fixed | Logo, default OG image, apple-touch-icon and web manifest added; OG default wired into root metadata |
 
-Regression coverage: `e2e/launch-blockers.spec.ts`. P1 and P2 items below are still open.
+Regression coverage: `e2e/launch-blockers.spec.ts`. P1 and P2 items below remain open unless marked resolved.
 
 ---
 
@@ -327,13 +327,11 @@ Worst case (`allpowers_s2000_pro`):
 
 **Fix:** write the explainers, or remove `/learn` from the nav until it has content.
 
-## P1-12. `posts/smart-generators/` is orphaned from the taxonomy
+## P1-12. `posts/smart-generators/` is orphaned from the taxonomy — resolved
 
-`posts/smart-generators/` contains `ecoflow_smart_generator_4000.md`, but `smart-generators` is not in `CATEGORIES` in `lib/taxonomy.ts`.
+The original audit found that `posts/smart-generators/` was missing from the taxonomy. It is now a configured category with a generic guide route.
 
-Consequence: no `/best/smart-generators` route, and the post is absent from nav, breadcrumbs, and related-article modules. It is reachable only by direct URL.
-
-**Fix:** add the category, or move the post into an existing one.
+The category is intentionally unpublished. Set `smart-generators` to `true` in `data/category-publication.json` and redeploy to publish its guide and review.
 
 ## P1-13. The entire evidence/trust module is dead
 

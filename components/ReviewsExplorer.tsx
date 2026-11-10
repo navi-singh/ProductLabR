@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { CATEGORIES } from '@/lib/taxonomy';
+import { PUBLISHED_CATEGORIES } from '@/lib/taxonomy';
 
 export interface ReviewEntry {
   slug: string;
@@ -29,7 +29,7 @@ export function ReviewsExplorer({ reviews }: { reviews: ReviewEntry[] }) {
 
   const availableCategories = useMemo(() => {
     const present = new Set(reviews.map((r) => r.categorySlug));
-    return CATEGORIES.filter((c) => present.has(c.slug));
+    return PUBLISHED_CATEGORIES.filter((c) => present.has(c.slug));
   }, [reviews]);
 
   const visible = useMemo(() => {

@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { getCategoryBySlug } from './taxonomy';
+import { getCategoryBySlug, isCategoryPublished } from './taxonomy';
 
 // Slugs are lower-cased, so brand capitalisation has to be restored explicitly.
 const BRAND_CASING: Record<string, string> = {
@@ -45,6 +45,7 @@ export function getComparisons(): Comparison[] {
 
   for (const categoryEntry of fs.readdirSync(bestDir, { withFileTypes: true })) {
     if (!categoryEntry.isDirectory() || categoryEntry.name.startsWith('[')) continue;
+    if (!isCategoryPublished(categoryEntry.name)) continue;
 
     const compareDir = path.join(bestDir, categoryEntry.name, 'compare');
     if (!fs.existsSync(compareDir)) continue;

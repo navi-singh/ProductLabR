@@ -10,7 +10,11 @@ import { Newsletter } from '@/components/Newsletter';
 import AdBanner from '@/components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '@/lib/adsense-config';
 import { getPostsByCategory } from '@/lib/Posts';
-import { CATEGORIES, getCategoryByContentDir } from '@/lib/taxonomy';
+import {
+  PUBLISHED_CATEGORIES,
+  getCategoryByContentDir,
+  isPublishedGuidePath,
+} from '@/lib/taxonomy';
 import { getComparisons } from '@/lib/comparisons';
 
 const bestOfGuides = [
@@ -77,7 +81,7 @@ export default function Home() {
           </h1>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-neutral-600">
             Verdict Hound turns manufacturer specs, independent test data, and real-world trade-offs into clear
-            recommendations across power stations, audio, TVs, cameras, and everyday tech.
+            recommendations across the categories below.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
@@ -165,7 +169,7 @@ export default function Home() {
 
           <SectionLabel>Best Of Guides</SectionLabel>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {bestOfGuides.map((guide) => {
+            {bestOfGuides.filter((guide) => isPublishedGuidePath(guide.href)).map((guide) => {
               const tintClass =
                 guide.theme === 'orange'
                   ? 'bg-amber-50'
@@ -234,7 +238,7 @@ export default function Home() {
               Categories
             </h3>
             <div className="space-y-1">
-              {CATEGORIES.map((cat) => {
+              {PUBLISHED_CATEGORIES.map((cat) => {
                 const catPosts = getPostsByCategory(cat.contentDir);
                 if (catPosts.length === 0) return null;
                 return (

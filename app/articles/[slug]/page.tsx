@@ -37,8 +37,10 @@ import AdBanner from '../../../components/ads/AdBanner';
 import { ADSENSE_CONFIG } from '../../../lib/adsense-config';
 import { SITE_URL, canonicalUrl } from '../../../lib/site-url';
 import { getArticleRedirect, getArticleRedirectSlugs } from '../../../lib/redirects';
+import { emptyRouteSlug } from '../../../data/static-export.json';
 
 export const revalidate = 86400;
+export const dynamicParams = false;
 
 export async function generateMetadata({
   params,
@@ -46,9 +48,11 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === emptyRouteSlug) notFound();
   const redirectSlug = getArticleRedirect(slug);
 
   if (redirectSlug) {
+    if (!getPostBySlug(redirectSlug)) notFound();
     return {
       title: 'Review moved',
       robots: { index: false, follow: false },
@@ -90,17 +94,24 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const slugs = Array.from(new Set([...getAllPostSlugs(), ...getArticleRedirectSlugs()]));
-  return slugs.map((slug: string) => ({
+  const redirects = getArticleRedirectSlugs().filter((slug) => {
+    const target = getArticleRedirect(slug);
+    return target !== undefined && getPostBySlug(target) !== null;
+  });
+  const slugs = Array.from(new Set([...getAllPostSlugs(), ...redirects]));
+  // Next static exports require at least one param for each dynamic route.
+  return (slugs.length ? slugs : [emptyRouteSlug]).map((slug: string) => ({
     slug: slug,
   }));
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === emptyRouteSlug) notFound();
   const redirectSlug = getArticleRedirect(slug);
 
   if (redirectSlug) {
+    if (!getPostBySlug(redirectSlug)) notFound();
     const targetPath = `/articles/${redirectSlug}/`;
 
     return (

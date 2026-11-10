@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Breadcrumb } from '@/components/Breadcrumb';
-import { CATEGORIES } from '@/lib/taxonomy';
+import { PUBLISHED_CATEGORIES } from '@/lib/taxonomy';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export default function AboutPage() {
             interchangeable on paper and differ sharply in use.
           </p>
           <ul className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
-            {CATEGORIES.map((category) => (
+            {PUBLISHED_CATEGORIES.map((category) => (
               <li key={category.slug}>
                 <a
                   href={`/best/${category.slug}`}

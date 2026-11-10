@@ -1,3 +1,5 @@
+import categoryPublication from '../data/category-publication.json';
+
 /**
  * Single source of truth for the product taxonomy.
  *
@@ -136,10 +138,40 @@ export const CATEGORIES: Category[] = [
     icon: '🔪',
     description: 'Everyday-carry knives and hand tools assessed for edge retention, materials and value.',
   },
+  {
+    slug: 'smart-generators',
+    contentDir: 'smart-generators',
+    name: 'Smart Generators',
+    shortName: 'Smart Generators',
+    icon: '⚙️',
+    description:
+      'Fuel-powered generators for compatible power stations compared on output, integration, fuel flexibility and noise.',
+  },
 ];
 
 const BY_SLUG = new Map(CATEGORIES.map((c) => [c.slug, c]));
 const BY_CONTENT_DIR = new Map(CATEGORIES.map((c) => [c.contentDir, c]));
+const PUBLICATION: Record<string, boolean> = categoryPublication;
+
+for (const [slug, enabled] of Object.entries(PUBLICATION)) {
+  if (!BY_SLUG.has(slug) || typeof enabled !== 'boolean') {
+    throw new Error(`Invalid category publication setting: ${slug}`);
+  }
+}
+
+export function isCategoryPublished(slugOrContentDir: string): boolean {
+  const category = BY_SLUG.get(slugOrContentDir) ?? BY_CONTENT_DIR.get(slugOrContentDir);
+  return category !== undefined && PUBLICATION[category.slug] === true;
+}
+
+export const PUBLISHED_CATEGORIES = CATEGORIES.filter((category) =>
+  isCategoryPublished(category.slug),
+);
+
+export function isPublishedGuidePath(href: string): boolean {
+  const [, root, category] = href.split(/[?#]/, 1)[0].split('/');
+  return root !== 'best' || !category || isCategoryPublished(category);
+}
 
 export function getCategoryBySlug(slug: string): Category | undefined {
   return BY_SLUG.get(slug);

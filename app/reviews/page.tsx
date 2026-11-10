@@ -3,7 +3,7 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { ReviewsExplorer, type ReviewEntry } from '@/components/ReviewsExplorer';
 import { getPostsByCategory } from '@/lib/Posts';
 import { articleScore } from '@/lib/articleUtils';
-import { CATEGORIES } from '@/lib/taxonomy';
+import { PUBLISHED_CATEGORIES } from '@/lib/taxonomy';
 import { canonicalUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 function getAllReviews(): ReviewEntry[] {
-  return CATEGORIES.flatMap((category) =>
+  return PUBLISHED_CATEGORIES.flatMap((category) =>
     getPostsByCategory(category.contentDir).map((post) => ({
       slug: post.slug,
       title: post.title,

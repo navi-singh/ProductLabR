@@ -18,7 +18,7 @@ import { ProductComparisonTable } from '../components/guides/ProductComparisonTa
 import { getPostsByCategory, getPostBySlug } from '../lib/Posts';
 import { articleScore, calculateOverallScore, scoreToStarRating } from '../lib/articleUtils';
 import { NAV_CATEGORIES } from '../lib/nav-categories';
-import { getCategoryBySlug, categoryHref } from '../lib/taxonomy';
+import { getCategoryBySlug, categoryHref, isCategoryPublished } from '../lib/taxonomy';
 import { canonicalUrl } from '../lib/site-url';
 import manifest from '../data/product-images.json';
 import imageExceptions from '../data/image-exceptions.json';
@@ -53,6 +53,10 @@ function text(value: unknown): string {
   return text((value as SourceNode).props.children);
 }
 
+test.beforeEach(() => {
+  test.skip(!isCategoryPublished('360-cameras'), '360 cameras are unpublished');
+});
+
 test('the dedicated category reaches shared navigation, catalog, archive and static routes', async () => {
   expect(getCategoryBySlug('360-cameras')?.contentDir).toBe('360-cameras');
   expect(NAV_CATEGORIES.some((category) => category.href === categoryHref('360-cameras'))).toBe(
@@ -68,13 +72,15 @@ test('the dedicated category reaches shared navigation, catalog, archive and sta
       .map((entry) => entry.slug)
       .sort(),
   ).toEqual(slugs);
-  expect(archive.some((entry) => entry.categorySlug === 'cameras')).toBe(true);
+  expect(archive.some((entry) => entry.categorySlug === 'cameras')).toBe(
+    isCategoryPublished('cameras'),
+  );
   const articleRoutes = (await articleParams()).map((entry) => entry.slug);
   expect(slugs.every((slug) => articleRoutes.includes(slug))).toBe(true);
   expect(await genericGuideParams()).not.toContainEqual({ category: '360-cameras' });
   const urls = sitemap().map((entry) => entry.url);
   expect(urls).toContain(canonicalUrl(categoryHref('360-cameras')));
-  expect(urls).toContain(canonicalUrl(categoryHref('cameras')));
+  expect(urls.includes(canonicalUrl(categoryHref('cameras')))).toBe(isCategoryPublished('cameras'));
   for (const slug of slugs) expect(urls).toContain(canonicalUrl(`/articles/${slug}`));
   expect(guideMetadata.alternates?.canonical).toBe(canonicalUrl(categoryHref('360-cameras')));
 });

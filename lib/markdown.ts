@@ -1,5 +1,8 @@
 import { marked, Renderer } from 'marked';
 import { withBasePath } from './basePath';
+import { getAllPostSlugs } from './Posts';
+import { getArticleRedirect } from './redirects';
+import { isPublishedGuidePath } from './taxonomy';
 
 function escapeAttr(value: string): string {
   return value
@@ -105,6 +108,18 @@ export function processMarkdownContent(content: string): string {
     // Strip raw HTML blocks to prevent XSS via inline HTML in .md files
     const renderer = new Renderer();
     renderer.html = () => '';
+    const publicSlugs = new Set(getAllPostSlugs());
+    const renderLink = renderer.link;
+    renderer.link = function (link) {
+      const article = link.href.match(/^\/articles\/([a-z0-9_-]+)\/?(?:[?#].*)?$/i);
+      if (
+        !isPublishedGuidePath(link.href) ||
+        (article && !publicSlugs.has(getArticleRedirect(article[1]) ?? article[1]))
+      ) {
+        return this.parser.parseInline(link.tokens);
+      }
+      return renderLink.call(this, link);
+    };
 
     // Inline markdown images bypass next/image, so nothing else prefixes the
     // basePath for them. Without this every in-body image 404s on GitHub Pages,

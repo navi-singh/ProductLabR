@@ -1,6 +1,6 @@
 # Verdict Hound
 
-Verdict Hound is an editorial product-review site built with [Next.js](https://nextjs.org). The existing GitHub Pages site is served at [navi-singh.github.io/ProductLabR/](https://navi-singh.github.io/ProductLabR/).
+Verdict Hound is an editorial product-review site built with [Next.js](https://nextjs.org) and deployed on GitHub Pages at [verdicthound.com](https://verdicthound.com/).
 
 ## Getting Started
 
@@ -33,4 +33,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## GitHub Pages
 
-The existing Pages workflow supplies the `/ProductLabR` base path and site URL during the static export. Article paths and that deployment location remain unchanged by the publication rename.
+The Pages workflow configures the deployment base path and site URL during the static export.
+
+## Publishing categories
+
+Edit [`data/category-publication.json`](data/category-publication.json) to set each category's public route slug to `true` or `false`. For example, `"cameras": false` hides the cameras category and its reviews. The `power-stations` setting controls reviews stored in `posts/portable-power-stations`. Categories missing from the file are disabled; unknown keys and non-boolean values fail the build.
+
+Disabled categories and reviews are removed from navigation, search, sitemaps, and public routes. Their source files remain in the repository. This is a publishing control, not a way to make repository content or previously cached copies private.
+
+Changes take effect when the site is rebuilt and deployed. A push to `main` triggers the GitHub Pages workflow; there is no live admin toggle or per-review setting. Use `npm run build` for static exports so the postbuild step removes unpublished pages before deployment.
